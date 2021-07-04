@@ -54,7 +54,6 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Console::WindowsConsole*, "System", "Console/WindowsConsole");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Console::WindowsConsole::GetConsoleCP
 // Il2CppName: GetConsoleCP
 template<>
@@ -76,7 +75,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&System::Console::WindowsConsole::DoWindowsConsoleCancelEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Console::WindowsConsole*), "DoWindowsConsoleCancelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* keyCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Console::WindowsConsole*), "DoWindowsConsoleCancelEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keyCode});
   }
 };
 // Writing MetadataGetter for method: System::Console::WindowsConsole::GetInputCodePage

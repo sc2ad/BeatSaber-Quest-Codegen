@@ -47,8 +47,6 @@ namespace Org::BouncyCastle::Crypto::Signers {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::IsoTrailers*, "Org.BouncyCastle.Crypto.Signers", "IsoTrailers");
-// Writing includes for template specializations
-#include "Org/BouncyCastle/Crypto/IDigest.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::IsoTrailers::CreateTrailerMap
 // Il2CppName: CreateTrailerMap
 template<>
@@ -62,7 +60,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Org::BouncyCastle::Crypto::IDigest*)>(&Org::BouncyCastle::Crypto::Signers::IsoTrailers::GetTrailer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::IsoTrailers*), "GetTrailer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>()});
+    static auto* digest = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto", "IDigest")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::IsoTrailers*), "GetTrailer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{digest});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::IsoTrailers::NoTrailerAvailable
@@ -70,7 +69,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Org
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Org::BouncyCastle::Crypto::IDigest*)>(&Org::BouncyCastle::Crypto::Signers::IsoTrailers::NoTrailerAvailable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::IsoTrailers*), "NoTrailerAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>()});
+    static auto* digest = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto", "IDigest")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::IsoTrailers*), "NoTrailerAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{digest});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::IsoTrailers::_cctor

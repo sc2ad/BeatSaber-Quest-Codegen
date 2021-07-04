@@ -98,13 +98,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(SetSaberFakeGlowColor) == 0x44);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetSaberFakeGlowColor*, "", "SetSaberFakeGlowColor");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SetSaberFakeGlowColor::set_saberType
 // Il2CppName: set_saberType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SetSaberFakeGlowColor::*)(GlobalNamespace::SaberType)>(&GlobalNamespace::SetSaberFakeGlowColor::set_saberType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SetSaberFakeGlowColor*), "set_saberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberType>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("", "SaberType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SetSaberFakeGlowColor*), "set_saberType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SetSaberFakeGlowColor::Start

@@ -75,7 +75,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(HealthWarningSceneStart::$Start$d__3) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningSceneStart::$Start$d__3*, "", "HealthWarningSceneStart/<Start>d__3");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::HealthWarningSceneStart::$Start$d__3::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

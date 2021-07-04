@@ -71,7 +71,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MovementHistoryRecorder) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MovementHistoryRecorder*, "", "MovementHistoryRecorder");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MovementHistoryRecorder::get_averagingValueRecorer
 // Il2CppName: get_averagingValueRecorer
 template<>
@@ -89,7 +88,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MovementHistoryRecorder::*)(float)>(&GlobalNamespace::MovementHistoryRecorder::AddMovement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MovementHistoryRecorder*), "AddMovement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* distance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MovementHistoryRecorder*), "AddMovement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{distance});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MovementHistoryRecorder::ManualUpdate
@@ -97,6 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MovementHistoryRecorder::*)(float)>(&GlobalNamespace::MovementHistoryRecorder::ManualUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MovementHistoryRecorder*), "ManualUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* deltaTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MovementHistoryRecorder*), "ManualUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deltaTime});
   }
 };

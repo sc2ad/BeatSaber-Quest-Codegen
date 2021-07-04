@@ -58,9 +58,6 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(MeshHandle) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshHandle*, "UnityEngine.ProBuilder", "MeshHandle");
-// Writing includes for template specializations
-#include "UnityEngine/Transform.hpp"
-#include "UnityEngine/Mesh.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshHandle::get_mesh
 // Il2CppName: get_mesh
 template<>
@@ -78,6 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::MeshHandle::*)(int)>(&UnityEngine::ProBuilder::MeshHandle::DrawMeshNow)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshHandle*), "DrawMeshNow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* submeshIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshHandle*), "DrawMeshNow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{submeshIndex});
   }
 };

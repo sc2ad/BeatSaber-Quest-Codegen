@@ -84,11 +84,6 @@ namespace Org::BouncyCastle::Security {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::PbeUtilities*, "Org.BouncyCastle.Security", "PbeUtilities");
-// Writing includes for template specializations
-#include "Org/BouncyCastle/Crypto/IDigest.hpp"
-#include "Org/BouncyCastle/Asn1/X509/AlgorithmIdentifier.hpp"
-#include "Org/BouncyCastle/Asn1/Asn1Encodable.hpp"
-#include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::PbeUtilities::_cctor
 // Il2CppName: .cctor
 template<>
@@ -102,7 +97,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::PbeParametersGenerator* (*)(::Il2CppString*, Org::BouncyCastle::Crypto::IDigest*, ::Array<uint8_t>*, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Security::PbeUtilities::MakePbeGenerator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::PbeUtilities*), "MakePbeGenerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::IDigest*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* type = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* digest = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto", "IDigest")->byval_arg;
+    static auto* key = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* salt = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* iterationCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::PbeUtilities*), "MakePbeGenerator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, digest, key, salt, iterationCount});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::PbeUtilities::IsPkcs12
@@ -110,7 +110,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Org::BouncyCastle::Security::PbeUtilities::IsPkcs12)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::PbeUtilities*), "IsPkcs12", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* algorithm = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::PbeUtilities*), "IsPkcs12", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algorithm});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::PbeUtilities::IsPkcs5Scheme2
@@ -118,7 +119,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*)>(&Org::BouncyCastle::Security::PbeUtilities::IsPkcs5Scheme2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::PbeUtilities*), "IsPkcs5Scheme2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* algorithm = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::PbeUtilities*), "IsPkcs5Scheme2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algorithm});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::PbeUtilities::GenerateCipherParameters
@@ -126,7 +128,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ICipherParameters* (*)(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Array<::Il2CppChar>*, bool)>(&Org::BouncyCastle::Security::PbeUtilities::GenerateCipherParameters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::PbeUtilities*), "GenerateCipherParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* algID = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1.X509", "AlgorithmIdentifier")->byval_arg;
+    static auto* password = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* wrongPkcs12Zero = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::PbeUtilities*), "GenerateCipherParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algID, password, wrongPkcs12Zero});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::PbeUtilities::GenerateCipherParameters
@@ -134,7 +139,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ICipherParameters* (*)(::Il2CppString*, ::Array<::Il2CppChar>*, bool, Org::BouncyCastle::Asn1::Asn1Encodable*)>(&Org::BouncyCastle::Security::PbeUtilities::GenerateCipherParameters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::PbeUtilities*), "GenerateCipherParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::Asn1Encodable*>()});
+    static auto* algorithm = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* password = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* wrongPkcs12Zero = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* pbeParameters = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "Asn1Encodable")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::PbeUtilities*), "GenerateCipherParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algorithm, password, wrongPkcs12Zero, pbeParameters});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::PbeUtilities::CreateEngine
@@ -142,7 +151,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(&Org::BouncyCastle::Security::PbeUtilities::CreateEngine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::PbeUtilities*), "CreateEngine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>()});
+    static auto* algID = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1.X509", "AlgorithmIdentifier")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::PbeUtilities*), "CreateEngine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algID});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::PbeUtilities::CreateEngine
@@ -150,7 +160,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*)>(&Org::BouncyCastle::Security::PbeUtilities::CreateEngine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::PbeUtilities*), "CreateEngine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* algorithm = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::PbeUtilities*), "CreateEngine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algorithm});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::PbeUtilities::FixDesParity
@@ -158,6 +169,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ICipherParameters* (*)(::Il2CppString*, Org::BouncyCastle::Crypto::ICipherParameters*)>(&Org::BouncyCastle::Security::PbeUtilities::FixDesParity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::PbeUtilities*), "FixDesParity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::ICipherParameters*>()});
+    static auto* mechanism = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* parameters = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto", "ICipherParameters")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::PbeUtilities*), "FixDesParity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mechanism, parameters});
   }
 };

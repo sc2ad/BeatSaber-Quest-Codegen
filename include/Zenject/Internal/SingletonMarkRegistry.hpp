@@ -65,14 +65,13 @@ namespace Zenject::Internal {
   static_assert(sizeof(SingletonMarkRegistry) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::SingletonMarkRegistry*, "Zenject.Internal", "SingletonMarkRegistry");
-// Writing includes for template specializations
-#include "System/Type.hpp"
 // Writing MetadataGetter for method: Zenject::Internal::SingletonMarkRegistry::MarkNonSingleton
 // Il2CppName: MarkNonSingleton
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Internal::SingletonMarkRegistry::*)(System::Type*)>(&Zenject::Internal::SingletonMarkRegistry::MarkNonSingleton)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::SingletonMarkRegistry*), "MarkNonSingleton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::SingletonMarkRegistry*), "MarkNonSingleton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
 };
 // Writing MetadataGetter for method: Zenject::Internal::SingletonMarkRegistry::MarkSingleton
@@ -80,7 +79,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Internal::SingletonMarkRegistry::*)(System::Type*)>(&Zenject::Internal::SingletonMarkRegistry::MarkSingleton)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::SingletonMarkRegistry*), "MarkSingleton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::SingletonMarkRegistry*), "MarkSingleton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
 };
 // Writing MetadataGetter for method: Zenject::Internal::SingletonMarkRegistry::New_ctor

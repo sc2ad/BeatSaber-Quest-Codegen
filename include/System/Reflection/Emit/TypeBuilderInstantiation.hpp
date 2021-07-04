@@ -30,12 +30,13 @@ namespace System::Reflection::Emit {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::TypeBuilderInstantiation*, "System.Reflection.Emit", "TypeBuilderInstantiation");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilderInstantiation::MakeGenericType
 // Il2CppName: MakeGenericType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*, ::Array<System::Type*>*)>(&System::Reflection::Emit::TypeBuilderInstantiation::MakeGenericType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilderInstantiation*), "MakeGenericType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+    static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    static auto* typeArguments = &classof(::Array<::Array<System::Type*>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::TypeBuilderInstantiation*), "MakeGenericType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, typeArguments});
   }
 };

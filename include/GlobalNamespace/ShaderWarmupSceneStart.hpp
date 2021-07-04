@@ -74,7 +74,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(ShaderWarmupSceneStart) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderWarmupSceneStart*, "", "ShaderWarmupSceneStart");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ShaderWarmupSceneStart::Start
 // Il2CppName: Start
 template<>

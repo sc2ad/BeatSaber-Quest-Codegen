@@ -56,14 +56,13 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(ProBuilderMesh::$$c__DisplayClass152_0) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass152_0*, "UnityEngine.ProBuilder", "ProBuilderMesh/<>c__DisplayClass152_0");
-// Writing includes for template specializations
-#include "UnityEngine/ProBuilder/Face.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass152_0::$UnusedElementGroup$b__0
 // Il2CppName: <UnusedElementGroup>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass152_0::*)(UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass152_0::$UnusedElementGroup$b__0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass152_0*), "<UnusedElementGroup>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Face*>()});
+    static auto* element = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass152_0*), "<UnusedElementGroup>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{element});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::$$c__DisplayClass152_0::New_ctor

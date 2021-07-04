@@ -56,7 +56,6 @@ namespace System::Collections {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::HashHelpers*, "System.Collections", "HashHelpers");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Collections::HashHelpers::get_SerializationInfoTable
 // Il2CppName: get_SerializationInfoTable
 template<>
@@ -70,7 +69,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&System::Collections::HashHelpers::IsPrime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::HashHelpers*), "IsPrime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* candidate = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::HashHelpers*), "IsPrime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{candidate});
   }
 };
 // Writing MetadataGetter for method: System::Collections::HashHelpers::GetPrime
@@ -78,7 +78,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&System::Collections::HashHelpers::GetPrime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::HashHelpers*), "GetPrime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* min = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::HashHelpers*), "GetPrime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{min});
   }
 };
 // Writing MetadataGetter for method: System::Collections::HashHelpers::ExpandPrime
@@ -86,7 +87,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&System::Collections::HashHelpers::ExpandPrime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::HashHelpers*), "ExpandPrime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* oldSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::HashHelpers*), "ExpandPrime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{oldSize});
   }
 };
 // Writing MetadataGetter for method: System::Collections::HashHelpers::_cctor

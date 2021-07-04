@@ -135,10 +135,6 @@ namespace System::Net {
   static_assert(sizeof(DigestSession) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::DigestSession*, "System.Net", "DigestSession");
-// Writing includes for template specializations
-#include "System/Net/HttpWebRequest.hpp"
-#include "System/Net/WebRequest.hpp"
-#include "System/Net/ICredentials.hpp"
 // Writing MetadataGetter for method: System::Net::DigestSession::_cctor
 // Il2CppName: .cctor
 template<>
@@ -200,7 +196,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::DigestSession::*)(::Il2CppString*)>(&System::Net::DigestSession::Parse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::DigestSession*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* challenge = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::DigestSession*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{challenge});
   }
 };
 // Writing MetadataGetter for method: System::Net::DigestSession::HashToHexString
@@ -208,7 +205,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::DigestSession::*)(::Il2CppString*)>(&System::Net::DigestSession::HashToHexString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::DigestSession*), "HashToHexString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* toBeHashed = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::DigestSession*), "HashToHexString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{toBeHashed});
   }
 };
 // Writing MetadataGetter for method: System::Net::DigestSession::HA1
@@ -216,7 +214,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::DigestSession::*)(::Il2CppString*, ::Il2CppString*)>(&System::Net::DigestSession::HA1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::DigestSession*), "HA1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* username = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::DigestSession*), "HA1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{username, password});
   }
 };
 // Writing MetadataGetter for method: System::Net::DigestSession::HA2
@@ -224,7 +224,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::DigestSession::*)(System::Net::HttpWebRequest*)>(&System::Net::DigestSession::HA2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::DigestSession*), "HA2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>()});
+    static auto* webRequest = &::il2cpp_utils::GetClassFromName("System.Net", "HttpWebRequest")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::DigestSession*), "HA2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{webRequest});
   }
 };
 // Writing MetadataGetter for method: System::Net::DigestSession::Response
@@ -232,7 +233,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::DigestSession::*)(::Il2CppString*, ::Il2CppString*, System::Net::HttpWebRequest*)>(&System::Net::DigestSession::Response)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::DigestSession*), "Response", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>()});
+    static auto* username = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* webRequest = &::il2cpp_utils::GetClassFromName("System.Net", "HttpWebRequest")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::DigestSession*), "Response", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{username, password, webRequest});
   }
 };
 // Writing MetadataGetter for method: System::Net::DigestSession::Authenticate
@@ -240,7 +244,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Authorization* (System::Net::DigestSession::*)(System::Net::WebRequest*, System::Net::ICredentials*)>(&System::Net::DigestSession::Authenticate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::DigestSession*), "Authenticate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::ICredentials*>()});
+    static auto* webRequest = &::il2cpp_utils::GetClassFromName("System.Net", "WebRequest")->byval_arg;
+    static auto* credentials = &::il2cpp_utils::GetClassFromName("System.Net", "ICredentials")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::DigestSession*), "Authenticate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{webRequest, credentials});
   }
 };
 // Writing MetadataGetter for method: System::Net::DigestSession::get_LastUse

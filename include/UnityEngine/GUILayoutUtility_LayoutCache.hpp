@@ -67,7 +67,6 @@ namespace UnityEngine {
   static_assert(sizeof(GUILayoutUtility::LayoutCache) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutUtility::LayoutCache*, "UnityEngine", "GUILayoutUtility/LayoutCache");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::GUILayoutUtility::LayoutCache::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

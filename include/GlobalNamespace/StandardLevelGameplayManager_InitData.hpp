@@ -43,7 +43,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandardLevelGameplayManager::InitData) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelGameplayManager::InitData*, "", "StandardLevelGameplayManager/InitData");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelGameplayManager::InitData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

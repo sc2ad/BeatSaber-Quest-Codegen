@@ -104,14 +104,14 @@ namespace System::Net::NetworkInformation {
   static_assert(sizeof(UnicastIPAddressInformationCollection) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::UnicastIPAddressInformationCollection*, "System.Net.NetworkInformation", "UnicastIPAddressInformationCollection");
-// Writing includes for template specializations
-#include "System/Net/NetworkInformation/UnicastIPAddressInformation.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::UnicastIPAddressInformationCollection::CopyTo
 // Il2CppName: CopyTo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::UnicastIPAddressInformationCollection::*)(::Array<System::Net::NetworkInformation::UnicastIPAddressInformation*>*, int)>(&System::Net::NetworkInformation::UnicastIPAddressInformationCollection::CopyTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::UnicastIPAddressInformationCollection*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Net::NetworkInformation::UnicastIPAddressInformation*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* array = &classof(::Array<::Array<System::Net::NetworkInformation::UnicastIPAddressInformation*>*>*)->byval_arg;
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::UnicastIPAddressInformationCollection*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array, offset});
   }
 };
 // Writing MetadataGetter for method: System::Net::NetworkInformation::UnicastIPAddressInformationCollection::get_Count
@@ -135,7 +135,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::UnicastIPAddressInformationCollection::*)(System::Net::NetworkInformation::UnicastIPAddressInformation*)>(&System::Net::NetworkInformation::UnicastIPAddressInformationCollection::Add)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::UnicastIPAddressInformationCollection*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::UnicastIPAddressInformation*>()});
+    static auto* address = &::il2cpp_utils::GetClassFromName("System.Net.NetworkInformation", "UnicastIPAddressInformation")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::UnicastIPAddressInformationCollection*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{address});
   }
 };
 // Writing MetadataGetter for method: System::Net::NetworkInformation::UnicastIPAddressInformationCollection::InternalAdd
@@ -143,7 +144,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::UnicastIPAddressInformationCollection::*)(System::Net::NetworkInformation::UnicastIPAddressInformation*)>(&System::Net::NetworkInformation::UnicastIPAddressInformationCollection::InternalAdd)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::UnicastIPAddressInformationCollection*), "InternalAdd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::UnicastIPAddressInformation*>()});
+    static auto* address = &::il2cpp_utils::GetClassFromName("System.Net.NetworkInformation", "UnicastIPAddressInformation")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::UnicastIPAddressInformationCollection*), "InternalAdd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{address});
   }
 };
 // Writing MetadataGetter for method: System::Net::NetworkInformation::UnicastIPAddressInformationCollection::Contains
@@ -151,7 +153,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::NetworkInformation::UnicastIPAddressInformationCollection::*)(System::Net::NetworkInformation::UnicastIPAddressInformation*)>(&System::Net::NetworkInformation::UnicastIPAddressInformationCollection::Contains)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::UnicastIPAddressInformationCollection*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::UnicastIPAddressInformation*>()});
+    static auto* address = &::il2cpp_utils::GetClassFromName("System.Net.NetworkInformation", "UnicastIPAddressInformation")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::UnicastIPAddressInformationCollection*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{address});
   }
 };
 // Writing MetadataGetter for method: System::Net::NetworkInformation::UnicastIPAddressInformationCollection::System_Collections_IEnumerable_GetEnumerator
@@ -175,7 +178,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::NetworkInformation::UnicastIPAddressInformationCollection::*)(System::Net::NetworkInformation::UnicastIPAddressInformation*)>(&System::Net::NetworkInformation::UnicastIPAddressInformationCollection::Remove)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::UnicastIPAddressInformationCollection*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::UnicastIPAddressInformation*>()});
+    static auto* address = &::il2cpp_utils::GetClassFromName("System.Net.NetworkInformation", "UnicastIPAddressInformation")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::UnicastIPAddressInformationCollection*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{address});
   }
 };
 // Writing MetadataGetter for method: System::Net::NetworkInformation::UnicastIPAddressInformationCollection::Clear

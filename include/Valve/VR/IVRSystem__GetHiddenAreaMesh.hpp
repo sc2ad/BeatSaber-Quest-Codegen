@@ -61,11 +61,6 @@ namespace Valve::VR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetHiddenAreaMesh*, "Valve.VR", "IVRSystem/_GetHiddenAreaMesh");
-// Writing includes for template specializations
-#include "Valve/VR/EVREye.hpp"
-#include "Valve/VR/EHiddenAreaMeshType.hpp"
-#include "System/AsyncCallback.hpp"
-#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetHiddenAreaMesh::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -75,7 +70,9 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetHiddenAreaMesh*, "Valve.VR", "I
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::HiddenAreaMesh_t (Valve::VR::IVRSystem::_GetHiddenAreaMesh::*)(Valve::VR::EVREye, Valve::VR::EHiddenAreaMeshType)>(&Valve::VR::IVRSystem::_GetHiddenAreaMesh::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetHiddenAreaMesh*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVREye>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EHiddenAreaMeshType>()});
+    static auto* eEye = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVREye")->byval_arg;
+    static auto* type = &::il2cpp_utils::GetClassFromName("Valve.VR", "EHiddenAreaMeshType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetHiddenAreaMesh*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eEye, type});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetHiddenAreaMesh::BeginInvoke
@@ -83,7 +80,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRSystem::_GetHiddenAreaMesh::*)(Valve::VR::EVREye, Valve::VR::EHiddenAreaMeshType, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRSystem::_GetHiddenAreaMesh::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetHiddenAreaMesh*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVREye>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EHiddenAreaMeshType>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* eEye = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVREye")->byval_arg;
+    static auto* type = &::il2cpp_utils::GetClassFromName("Valve.VR", "EHiddenAreaMeshType")->byval_arg;
+    static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
+    static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetHiddenAreaMesh*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eEye, type, callback, object});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetHiddenAreaMesh::EndInvoke
@@ -91,6 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::HiddenAreaMesh_t (Valve::VR::IVRSystem::_GetHiddenAreaMesh::*)(System::IAsyncResult*)>(&Valve::VR::IVRSystem::_GetHiddenAreaMesh::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetHiddenAreaMesh*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetHiddenAreaMesh*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
 };

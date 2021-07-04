@@ -53,7 +53,6 @@ namespace JetBrains::Annotations {
   static_assert(sizeof(CollectionAccessAttribute) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::CollectionAccessAttribute*, "JetBrains.Annotations", "CollectionAccessAttribute");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: JetBrains::Annotations::CollectionAccessAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -71,6 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<JetBrains::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::CollectionAccessAttribute::*)(JetBrains::Annotations::CollectionAccessType)>(&JetBrains::Annotations::CollectionAccessAttribute::set_CollectionAccessType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::CollectionAccessAttribute*), "set_CollectionAccessType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::CollectionAccessType>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("JetBrains.Annotations", "CollectionAccessType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::CollectionAccessAttribute*), "set_CollectionAccessType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };

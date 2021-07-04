@@ -36,7 +36,6 @@ namespace GlobalNamespace {
   }; // MultiplayerScoreRingItem/Pool
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerScoreRingItem::Pool*, "", "MultiplayerScoreRingItem/Pool");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerScoreRingItem::Pool::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

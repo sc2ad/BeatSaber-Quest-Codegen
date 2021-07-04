@@ -124,15 +124,14 @@ namespace System {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ParameterizedStrings*, "System", "ParameterizedStrings");
 DEFINE_IL2CPP_ARG_TYPE(System::ParameterizedStrings::FormatParam, "System", "ParameterizedStrings/FormatParam");
-// Writing includes for template specializations
-#include "System/ParameterizedStrings_LowLevelStack.hpp"
-#include "System/IntPtr.hpp"
 // Writing MetadataGetter for method: System::ParameterizedStrings::Evaluate
 // Il2CppName: Evaluate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Array<System::ParameterizedStrings::FormatParam>*)>(&System::ParameterizedStrings::Evaluate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings*), "Evaluate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::ParameterizedStrings::FormatParam>*>()});
+    static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* args = &classof(::Array<::Array<System::ParameterizedStrings::FormatParam>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings*), "Evaluate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format, args});
   }
 };
 // Writing MetadataGetter for method: System::ParameterizedStrings::EvaluateInternal
@@ -140,7 +139,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int&, ::Array<System::ParameterizedStrings::FormatParam>*, System::ParameterizedStrings::LowLevelStack*, ::Array<System::ParameterizedStrings::FormatParam>*&, ::Array<System::ParameterizedStrings::FormatParam>*&)>(&System::ParameterizedStrings::EvaluateInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings*), "EvaluateInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::ParameterizedStrings::FormatParam>*>(), ::il2cpp_utils::ExtractIndependentType<System::ParameterizedStrings::LowLevelStack*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::ParameterizedStrings::FormatParam>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::ParameterizedStrings::FormatParam>*&>()});
+    static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* pos = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* args = &classof(::Array<::Array<System::ParameterizedStrings::FormatParam>*>*)->byval_arg;
+    static auto* stack = &::il2cpp_utils::GetClassFromName("System", "ParameterizedStrings/LowLevelStack")->byval_arg;
+    static auto* dynamicVars = &classof(::Array<::Array<System::ParameterizedStrings::FormatParam>*>*)->this_arg;
+    static auto* staticVars = &classof(::Array<::Array<System::ParameterizedStrings::FormatParam>*>*)->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings*), "EvaluateInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format, pos, args, stack, dynamicVars, staticVars});
   }
 };
 // Writing MetadataGetter for method: System::ParameterizedStrings::AsBool
@@ -148,7 +153,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&System::ParameterizedStrings::AsBool)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings*), "AsBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings*), "AsBool", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i});
   }
 };
 // Writing MetadataGetter for method: System::ParameterizedStrings::AsInt
@@ -156,7 +162,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(bool)>(&System::ParameterizedStrings::AsInt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings*), "AsInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* b = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings*), "AsInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{b});
   }
 };
 // Writing MetadataGetter for method: System::ParameterizedStrings::StringFromAsciiBytes
@@ -164,7 +171,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(boo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<uint8_t>*, int, int)>(&System::ParameterizedStrings::StringFromAsciiBytes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings*), "StringFromAsciiBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* buffer = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings*), "StringFromAsciiBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, offset, length});
   }
 };
 // Writing MetadataGetter for method: System::ParameterizedStrings::snprintf
@@ -172,7 +182,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uint8_t*, System::IntPtr, ::Il2CppString*, ::Il2CppString*)>(&System::ParameterizedStrings::snprintf)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings*), "snprintf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* str = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
+    static auto* size = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* arg1 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings*), "snprintf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str, size, format, arg1});
   }
 };
 // Writing MetadataGetter for method: System::ParameterizedStrings::snprintf
@@ -180,7 +194,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uint8_t*, System::IntPtr, ::Il2CppString*, int)>(&System::ParameterizedStrings::snprintf)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings*), "snprintf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* str = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
+    static auto* size = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* arg1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings*), "snprintf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str, size, format, arg1});
   }
 };
 // Writing MetadataGetter for method: System::ParameterizedStrings::FormatPrintF
@@ -188,7 +206,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppObject*)>(&System::ParameterizedStrings::FormatPrintF)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings*), "FormatPrintF", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* arg = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings*), "FormatPrintF", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format, arg});
   }
 };
 // Writing MetadataGetter for method: System::ParameterizedStrings::GetDynamicOrStaticVariables
@@ -196,6 +216,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::ParameterizedStrings::FormatParam>* (*)(::Il2CppChar, ::Array<System::ParameterizedStrings::FormatParam>*&, ::Array<System::ParameterizedStrings::FormatParam>*&, int&)>(&System::ParameterizedStrings::GetDynamicOrStaticVariables)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings*), "GetDynamicOrStaticVariables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::ParameterizedStrings::FormatParam>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::ParameterizedStrings::FormatParam>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    static auto* c = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    static auto* dynamicVars = &classof(::Array<::Array<System::ParameterizedStrings::FormatParam>*>*)->this_arg;
+    static auto* staticVars = &classof(::Array<::Array<System::ParameterizedStrings::FormatParam>*>*)->this_arg;
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ParameterizedStrings*), "GetDynamicOrStaticVariables", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c, dynamicVars, staticVars, index});
   }
 };

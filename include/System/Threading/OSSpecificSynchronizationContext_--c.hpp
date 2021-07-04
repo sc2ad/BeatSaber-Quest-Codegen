@@ -50,7 +50,6 @@ namespace System::Threading {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::OSSpecificSynchronizationContext::$$c*, "System.Threading", "OSSpecificSynchronizationContext/<>c");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Threading::OSSpecificSynchronizationContext::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -64,7 +63,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::OSSpecificSynchronizationContext* (System::Threading::OSSpecificSynchronizationContext::$$c::*)(::Il2CppObject*)>(&System::Threading::OSSpecificSynchronizationContext::$$c::$Get$b__3_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::OSSpecificSynchronizationContext::$$c*), "<Get>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* _osContext = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::OSSpecificSynchronizationContext::$$c*), "<Get>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_osContext});
   }
 };
 // Writing MetadataGetter for method: System::Threading::OSSpecificSynchronizationContext::$$c::New_ctor

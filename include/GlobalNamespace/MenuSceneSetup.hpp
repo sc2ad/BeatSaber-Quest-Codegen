@@ -85,7 +85,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MenuSceneSetup) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuSceneSetup*, "", "MenuSceneSetup");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MenuSceneSetup::Start
 // Il2CppName: Start
 template<>

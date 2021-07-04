@@ -126,34 +126,29 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Rooms*, "Oculus.Platform", "Rooms");
-// Writing includes for template specializations
-#include "System/Collections/Generic/Dictionary_2.hpp"
-#include "Oculus/Platform/RoomJoinPolicy.hpp"
-#include "Oculus/Platform/RoomOptions.hpp"
-#include "Oculus/Platform/RoomMembershipLockStatus.hpp"
-#include "Oculus/Platform/Models/RoomList.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Rooms::UpdateDataStore
 // Il2CppName: UpdateDataStore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(uint64_t, System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*)>(&Oculus::Platform::Rooms::UpdateDataStore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "UpdateDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*>()});
+    static auto* roomID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
+    static auto* data = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "UpdateDataStore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{roomID, data});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Rooms::SetRoomInviteNotificationCallback
 // Il2CppName: SetRoomInviteNotificationCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<::Il2CppString*>::Callback*)>(&Oculus::Platform::Rooms::SetRoomInviteNotificationCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "SetRoomInviteNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<::Il2CppString*>::Callback*>()});
-  }
-};
+// Cannot write MetadataGetter for a method that has a nested type with a declaring generic type anywhere within it!
+// Talk to sc2ad if this is something you want
 // Writing MetadataGetter for method: Oculus::Platform::Rooms::CreateAndJoinPrivate
 // Il2CppName: CreateAndJoinPrivate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(Oculus::Platform::RoomJoinPolicy, uint, bool)>(&Oculus::Platform::Rooms::CreateAndJoinPrivate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "CreateAndJoinPrivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RoomJoinPolicy>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* joinPolicy = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "RoomJoinPolicy")->byval_arg;
+    static auto* maxUsers = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* subscribeToUpdates = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "CreateAndJoinPrivate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{joinPolicy, maxUsers, subscribeToUpdates});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Rooms::CreateAndJoinPrivate2
@@ -161,7 +156,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(Oculus::Platform::RoomJoinPolicy, uint, Oculus::Platform::RoomOptions*)>(&Oculus::Platform::Rooms::CreateAndJoinPrivate2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "CreateAndJoinPrivate2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RoomJoinPolicy>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RoomOptions*>()});
+    static auto* joinPolicy = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "RoomJoinPolicy")->byval_arg;
+    static auto* maxUsers = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* roomOptions = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "RoomOptions")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "CreateAndJoinPrivate2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{joinPolicy, maxUsers, roomOptions});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Rooms::Get
@@ -169,7 +167,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(uint64_t)>(&Oculus::Platform::Rooms::Get)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    static auto* roomID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{roomID});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Rooms::GetCurrent
@@ -185,7 +184,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(uint64_t)>(&Oculus::Platform::Rooms::GetCurrentForUser)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "GetCurrentForUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    static auto* userID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "GetCurrentForUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userID});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Rooms::GetInvitableUsers
@@ -201,7 +201,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::UserList*>* (*)(Oculus::Platform::RoomOptions*)>(&Oculus::Platform::Rooms::GetInvitableUsers2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "GetInvitableUsers2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RoomOptions*>()});
+    static auto* roomOptions = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "RoomOptions")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "GetInvitableUsers2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{roomOptions});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Rooms::GetModeratedRooms
@@ -217,7 +218,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(uint64_t, ::Il2CppString*)>(&Oculus::Platform::Rooms::InviteUser)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "InviteUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* roomID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
+    static auto* inviteToken = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "InviteUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{roomID, inviteToken});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Rooms::Join
@@ -225,7 +228,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(uint64_t, bool)>(&Oculus::Platform::Rooms::Join)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* roomID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
+    static auto* subscribeToUpdates = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{roomID, subscribeToUpdates});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Rooms::Join2
@@ -233,7 +238,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(uint64_t, Oculus::Platform::RoomOptions*)>(&Oculus::Platform::Rooms::Join2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "Join2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RoomOptions*>()});
+    static auto* roomID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
+    static auto* roomOptions = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "RoomOptions")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "Join2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{roomID, roomOptions});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Rooms::KickUser
@@ -241,7 +248,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(uint64_t, uint64_t, int)>(&Oculus::Platform::Rooms::KickUser)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "KickUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* roomID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
+    static auto* userID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
+    static auto* kickDurationSeconds = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "KickUser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{roomID, userID, kickDurationSeconds});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Rooms::LaunchInvitableUserFlow
@@ -249,7 +259,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (*)(uint64_t)>(&Oculus::Platform::Rooms::LaunchInvitableUserFlow)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "LaunchInvitableUserFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    static auto* roomID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "LaunchInvitableUserFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{roomID});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Rooms::Leave
@@ -257,7 +268,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(uint64_t)>(&Oculus::Platform::Rooms::Leave)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "Leave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    static auto* roomID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "Leave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{roomID});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Rooms::SetDescription
@@ -265,7 +277,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(uint64_t, ::Il2CppString*)>(&Oculus::Platform::Rooms::SetDescription)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "SetDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* roomID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
+    static auto* description = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "SetDescription", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{roomID, description});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Rooms::UpdateMembershipLockStatus
@@ -273,7 +287,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(uint64_t, Oculus::Platform::RoomMembershipLockStatus)>(&Oculus::Platform::Rooms::UpdateMembershipLockStatus)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "UpdateMembershipLockStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RoomMembershipLockStatus>()});
+    static auto* roomID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
+    static auto* membershipLockStatus = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "RoomMembershipLockStatus")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "UpdateMembershipLockStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{roomID, membershipLockStatus});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Rooms::UpdateOwner
@@ -281,7 +297,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (*)(uint64_t, uint64_t)>(&Oculus::Platform::Rooms::UpdateOwner)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "UpdateOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    static auto* roomID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
+    static auto* userID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "UpdateOwner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{roomID, userID});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Rooms::UpdatePrivateRoomJoinPolicy
@@ -289,38 +307,29 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Room*>* (*)(uint64_t, Oculus::Platform::RoomJoinPolicy)>(&Oculus::Platform::Rooms::UpdatePrivateRoomJoinPolicy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "UpdatePrivateRoomJoinPolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::RoomJoinPolicy>()});
+    static auto* roomID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
+    static auto* newJoinPolicy = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "RoomJoinPolicy")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "UpdatePrivateRoomJoinPolicy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{roomID, newJoinPolicy});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Rooms::SetRoomInviteAcceptedNotificationCallback
 // Il2CppName: SetRoomInviteAcceptedNotificationCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<::Il2CppString*>::Callback*)>(&Oculus::Platform::Rooms::SetRoomInviteAcceptedNotificationCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "SetRoomInviteAcceptedNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<::Il2CppString*>::Callback*>()});
-  }
-};
+// Cannot write MetadataGetter for a method that has a nested type with a declaring generic type anywhere within it!
+// Talk to sc2ad if this is something you want
 // Writing MetadataGetter for method: Oculus::Platform::Rooms::SetRoomInviteReceivedNotificationCallback
 // Il2CppName: SetRoomInviteReceivedNotificationCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<Oculus::Platform::Models::RoomInviteNotification*>::Callback*)>(&Oculus::Platform::Rooms::SetRoomInviteReceivedNotificationCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "SetRoomInviteReceivedNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<Oculus::Platform::Models::RoomInviteNotification*>::Callback*>()});
-  }
-};
+// Cannot write MetadataGetter for a method that has a nested type with a declaring generic type anywhere within it!
+// Talk to sc2ad if this is something you want
 // Writing MetadataGetter for method: Oculus::Platform::Rooms::SetUpdateNotificationCallback
 // Il2CppName: SetUpdateNotificationCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<Oculus::Platform::Models::Room*>::Callback*)>(&Oculus::Platform::Rooms::SetUpdateNotificationCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "SetUpdateNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<Oculus::Platform::Models::Room*>::Callback*>()});
-  }
-};
+// Cannot write MetadataGetter for a method that has a nested type with a declaring generic type anywhere within it!
+// Talk to sc2ad if this is something you want
 // Writing MetadataGetter for method: Oculus::Platform::Rooms::GetNextRoomListPage
 // Il2CppName: GetNextRoomListPage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::RoomList*>* (*)(Oculus::Platform::Models::RoomList*)>(&Oculus::Platform::Rooms::GetNextRoomListPage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "GetNextRoomListPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Models::RoomList*>()});
+    static auto* list = &::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "RoomList")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Rooms*), "GetNextRoomListPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{list});
   }
 };

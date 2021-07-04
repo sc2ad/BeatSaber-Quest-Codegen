@@ -92,8 +92,6 @@ namespace UnityEngine::UI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::SpriteState, "UnityEngine.UI", "SpriteState");
-// Writing includes for template specializations
-#include "UnityEngine/Sprite.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::SpriteState::get_highlightedSprite
 // Il2CppName: get_highlightedSprite
 template<>
@@ -107,7 +105,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::SpriteState::*)(UnityEngine::Sprite*)>(&UnityEngine::UI::SpriteState::set_highlightedSprite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::SpriteState), "set_highlightedSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Sprite")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::SpriteState), "set_highlightedSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::SpriteState::get_pressedSprite
@@ -123,7 +122,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::SpriteState::*)(UnityEngine::Sprite*)>(&UnityEngine::UI::SpriteState::set_pressedSprite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::SpriteState), "set_pressedSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Sprite")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::SpriteState), "set_pressedSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::SpriteState::get_selectedSprite
@@ -139,7 +139,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::SpriteState::*)(UnityEngine::Sprite*)>(&UnityEngine::UI::SpriteState::set_selectedSprite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::SpriteState), "set_selectedSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Sprite")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::SpriteState), "set_selectedSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::SpriteState::get_disabledSprite
@@ -155,7 +156,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::SpriteState::*)(UnityEngine::Sprite*)>(&UnityEngine::UI::SpriteState::set_disabledSprite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::SpriteState), "set_disabledSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Sprite")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::SpriteState), "set_disabledSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::SpriteState::Equals
@@ -163,6 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::SpriteState::*)(UnityEngine::UI::SpriteState)>(&UnityEngine::UI::SpriteState::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::SpriteState), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::SpriteState>()});
+    static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "SpriteState")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::SpriteState), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };

@@ -76,7 +76,6 @@ namespace Zenject {
   static_assert(sizeof(ProjectKernel) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ProjectKernel*, "Zenject", "ProjectKernel");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Zenject::ProjectKernel::OnApplicationQuit
 // Il2CppName: OnApplicationQuit
 template<>
@@ -98,7 +97,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ProjectKernel::*)(bool)>(&Zenject::ProjectKernel::ForceUnloadAllScenes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectKernel*), "ForceUnloadAllScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* immediate = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProjectKernel*), "ForceUnloadAllScenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{immediate});
   }
 };
 // Writing MetadataGetter for method: Zenject::ProjectKernel::New_ctor

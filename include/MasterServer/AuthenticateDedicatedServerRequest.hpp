@@ -117,9 +117,6 @@ namespace MasterServer {
   static_assert(sizeof(AuthenticateDedicatedServerRequest) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::AuthenticateDedicatedServerRequest*, "MasterServer", "AuthenticateDedicatedServerRequest");
-// Writing includes for template specializations
-#include "LiteNetLib/Utils/NetDataWriter.hpp"
-#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: MasterServer::AuthenticateDedicatedServerRequest::get_pool
 // Il2CppName: get_pool
 template<>
@@ -141,7 +138,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::AuthenticateDedicatedServerRequest::*)(::Il2CppString*)>(&MasterServer::AuthenticateDedicatedServerRequest::set_dedicatedServerId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::AuthenticateDedicatedServerRequest*), "set_dedicatedServerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::AuthenticateDedicatedServerRequest*), "set_dedicatedServerId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: MasterServer::AuthenticateDedicatedServerRequest::Init
@@ -149,7 +147,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::AuthenticateDedicatedServerRequest* (MasterServer::AuthenticateDedicatedServerRequest::*)(::Il2CppString*, ::Array<uint8_t>*, ::Array<uint8_t>*, int64_t)>(&MasterServer::AuthenticateDedicatedServerRequest::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::AuthenticateDedicatedServerRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    static auto* dedicatedServerId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* nonce = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* hash = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* timestamp = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::AuthenticateDedicatedServerRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dedicatedServerId, nonce, hash, timestamp});
   }
 };
 // Writing MetadataGetter for method: MasterServer::AuthenticateDedicatedServerRequest::Serialize
@@ -157,7 +159,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServe
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::AuthenticateDedicatedServerRequest::*)(LiteNetLib::Utils::NetDataWriter*)>(&MasterServer::AuthenticateDedicatedServerRequest::Serialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::AuthenticateDedicatedServerRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    static auto* writer = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataWriter")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::AuthenticateDedicatedServerRequest*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer});
   }
 };
 // Writing MetadataGetter for method: MasterServer::AuthenticateDedicatedServerRequest::Deserialize
@@ -165,7 +168,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::AuthenticateDedicatedServerRequest::*)(LiteNetLib::Utils::NetDataReader*)>(&MasterServer::AuthenticateDedicatedServerRequest::Deserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::AuthenticateDedicatedServerRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::AuthenticateDedicatedServerRequest*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
   }
 };
 // Writing MetadataGetter for method: MasterServer::AuthenticateDedicatedServerRequest::Release

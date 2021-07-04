@@ -113,8 +113,6 @@ namespace UnityEngine {
   static_assert(sizeof(Display) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Display*, "UnityEngine", "Display");
-// Writing includes for template specializations
-#include "UnityEngine/Vector3.hpp"
 // Writing MetadataGetter for method: UnityEngine::Display::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -156,7 +154,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3)>(&UnityEngine::Display::RelativeMouseAt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Display*), "RelativeMouseAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    static auto* inputMouseCoordinates = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Display*), "RelativeMouseAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputMouseCoordinates});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Display::get_main
@@ -172,7 +171,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<System::IntPtr>*)>(&UnityEngine::Display::RecreateDisplayList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Display*), "RecreateDisplayList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::IntPtr>*>()});
+    static auto* nativeDisplay = &classof(::Array<::Array<System::IntPtr>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Display*), "RecreateDisplayList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nativeDisplay});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Display::FireDisplaysUpdated
@@ -188,7 +188,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, int&, int&)>(&UnityEngine::Display::GetSystemExtImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Display*), "GetSystemExtImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    static auto* nativeDisplay = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* w = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* h = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Display*), "GetSystemExtImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nativeDisplay, w, h});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Display::GetRenderingExtImpl
@@ -196,7 +199,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, int&, int&)>(&UnityEngine::Display::GetRenderingExtImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Display*), "GetRenderingExtImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    static auto* nativeDisplay = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* w = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* h = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Display*), "GetRenderingExtImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nativeDisplay, w, h});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Display::RelativeMouseAtImpl
@@ -204,7 +210,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int, int&, int&)>(&UnityEngine::Display::RelativeMouseAtImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Display*), "RelativeMouseAtImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* y = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* rx = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* ry = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Display*), "RelativeMouseAtImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y, rx, ry});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Display::_cctor

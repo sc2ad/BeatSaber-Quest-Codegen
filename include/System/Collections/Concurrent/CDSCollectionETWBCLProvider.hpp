@@ -46,13 +46,13 @@ namespace System::Collections::Concurrent {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Concurrent::CDSCollectionETWBCLProvider*, "System.Collections.Concurrent", "CDSCollectionETWBCLProvider");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Collections::Concurrent::CDSCollectionETWBCLProvider::ConcurrentDictionary_AcquiringAllLocks
 // Il2CppName: ConcurrentDictionary_AcquiringAllLocks
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Concurrent::CDSCollectionETWBCLProvider::*)(int)>(&System::Collections::Concurrent::CDSCollectionETWBCLProvider::ConcurrentDictionary_AcquiringAllLocks)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::Concurrent::CDSCollectionETWBCLProvider*), "ConcurrentDictionary_AcquiringAllLocks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* numOfBuckets = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Concurrent::CDSCollectionETWBCLProvider*), "ConcurrentDictionary_AcquiringAllLocks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{numOfBuckets});
   }
 };
 // Writing MetadataGetter for method: System::Collections::Concurrent::CDSCollectionETWBCLProvider::New_ctor

@@ -48,7 +48,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandardLevelInfoSaveData_V100::VersionCheck) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelInfoSaveData_V100::VersionCheck*, "", "StandardLevelInfoSaveData_V100/VersionCheck");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData_V100::VersionCheck::get_version
 // Il2CppName: get_version
 template<>

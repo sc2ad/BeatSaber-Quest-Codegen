@@ -58,8 +58,6 @@ namespace System {
   static_assert(sizeof(MonoCustomAttrs::AttributeInfo) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::MonoCustomAttrs::AttributeInfo*, "System", "MonoCustomAttrs/AttributeInfo");
-// Writing includes for template specializations
-#include "System/AttributeUsageAttribute.hpp"
 // Writing MetadataGetter for method: System::MonoCustomAttrs::AttributeInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -69,7 +69,6 @@ namespace NUnit::Framework::Constraints {
   static_assert(sizeof(Tolerance) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::Tolerance*, "NUnit.Framework.Constraints", "Tolerance");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::Tolerance::get_Default
 // Il2CppName: get_Default
 template<>

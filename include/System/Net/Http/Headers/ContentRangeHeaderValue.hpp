@@ -101,7 +101,6 @@ namespace System::Net::Http::Headers {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::ContentRangeHeaderValue*, "System.Net.Http.Headers", "ContentRangeHeaderValue");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::Http::Headers::ContentRangeHeaderValue::get_From
 // Il2CppName: get_From
 template<>
@@ -115,7 +114,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nul
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::ContentRangeHeaderValue::*)(System::Nullable_1<int64_t>)>(&System::Net::Http::Headers::ContentRangeHeaderValue::set_From)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ContentRangeHeaderValue*), "set_From", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<int64_t>>()});
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int64")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ContentRangeHeaderValue*), "set_From", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Net::Http::Headers::ContentRangeHeaderValue::get_Length
@@ -131,7 +131,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nul
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::ContentRangeHeaderValue::*)(System::Nullable_1<int64_t>)>(&System::Net::Http::Headers::ContentRangeHeaderValue::set_Length)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ContentRangeHeaderValue*), "set_Length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<int64_t>>()});
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int64")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ContentRangeHeaderValue*), "set_Length", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Net::Http::Headers::ContentRangeHeaderValue::get_To
@@ -147,7 +148,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nul
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::ContentRangeHeaderValue::*)(System::Nullable_1<int64_t>)>(&System::Net::Http::Headers::ContentRangeHeaderValue::set_To)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ContentRangeHeaderValue*), "set_To", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<int64_t>>()});
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int64")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ContentRangeHeaderValue*), "set_To", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Net::Http::Headers::ContentRangeHeaderValue::get_Unit
@@ -171,7 +173,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Net::Http::Headers::ContentRangeHeaderValue*&)>(&System::Net::Http::Headers::ContentRangeHeaderValue::TryParse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ContentRangeHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::ContentRangeHeaderValue*&>()});
+    static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* parsedValue = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "ContentRangeHeaderValue")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ContentRangeHeaderValue*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, parsedValue});
   }
 };
 // Writing MetadataGetter for method: System::Net::Http::Headers::ContentRangeHeaderValue::New_ctor
@@ -183,7 +187,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::ContentRangeHeaderValue::*)(::Il2CppObject*)>(&System::Net::Http::Headers::ContentRangeHeaderValue::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ContentRangeHeaderValue*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::ContentRangeHeaderValue*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
 // Writing MetadataGetter for method: System::Net::Http::Headers::ContentRangeHeaderValue::GetHashCode

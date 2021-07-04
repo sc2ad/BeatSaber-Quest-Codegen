@@ -93,9 +93,6 @@ namespace UnityEngine::UI {
   static_assert(sizeof(BaseMeshEffect) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::BaseMeshEffect*, "UnityEngine.UI", "BaseMeshEffect");
-// Writing includes for template specializations
-#include "UnityEngine/Mesh.hpp"
-#include "UnityEngine/UI/VertexHelper.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::BaseMeshEffect::get_graphic
 // Il2CppName: get_graphic
 template<>
@@ -109,7 +106,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::BaseMeshEffect::*)(UnityEngine::Mesh*)>(&UnityEngine::UI::BaseMeshEffect::ModifyMesh)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::BaseMeshEffect*), "ModifyMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>()});
+    static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::BaseMeshEffect*), "ModifyMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::BaseMeshEffect::ModifyMesh
@@ -117,7 +115,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::BaseMeshEffect::*)(UnityEngine::UI::VertexHelper*)>(&UnityEngine::UI::BaseMeshEffect::ModifyMesh)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::BaseMeshEffect*), "ModifyMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>()});
+    static auto* vh = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "VertexHelper")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::BaseMeshEffect*), "ModifyMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vh});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::BaseMeshEffect::OnEnable

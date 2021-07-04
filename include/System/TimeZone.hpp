@@ -62,8 +62,6 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZone*, "System", "TimeZone");
-// Writing includes for template specializations
-#include "System/DateTime.hpp"
 // Writing MetadataGetter for method: System::TimeZone::get_CurrentTimeZone
 // Il2CppName: get_CurrentTimeZone
 template<>
@@ -77,7 +75,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (System::TimeZone::*)(System::DateTime)>(&System::TimeZone::GetUtcOffset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TimeZone*), "GetUtcOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+    static auto* time = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TimeZone*), "GetUtcOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
 };
 // Writing MetadataGetter for method: System::TimeZone::_cctor

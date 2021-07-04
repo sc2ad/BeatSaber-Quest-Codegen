@@ -76,7 +76,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(SongPreviewPlayer::AudioSourceParams) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPreviewPlayer::AudioSourceParams*, "", "SongPreviewPlayer/AudioSourceParams");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SongPreviewPlayer::AudioSourceParams::get_position
 // Il2CppName: get_position
 template<>

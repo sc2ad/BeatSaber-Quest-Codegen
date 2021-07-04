@@ -50,7 +50,6 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::RuntimeClipBase*, "UnityEngine.Timeline", "RuntimeClipBase");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Timeline::RuntimeClipBase::get_start
 // Il2CppName: get_start
 template<>

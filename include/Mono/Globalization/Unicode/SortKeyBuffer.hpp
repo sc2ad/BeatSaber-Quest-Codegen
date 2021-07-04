@@ -202,7 +202,6 @@ namespace Mono::Globalization::Unicode {
   static_assert(sizeof(SortKeyBuffer) == 0x83);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SortKeyBuffer*, "Mono.Globalization.Unicode", "SortKeyBuffer");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SortKeyBuffer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -220,7 +219,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SortKeyBuffer::*)(System::Globalization::CompareOptions, int, ::Il2CppString*, bool)>(&Mono::Globalization::Unicode::SortKeyBuffer::Initialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
+    static auto* lcid = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* frenchSort = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{options, lcid, s, frenchSort});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SortKeyBuffer::AppendCJKExtension
@@ -228,7 +231,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SortKeyBuffer::*)(uint8_t, uint8_t)>(&Mono::Globalization::Unicode::SortKeyBuffer::AppendCJKExtension)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "AppendCJKExtension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    static auto* lv1msb = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
+    static auto* lv1lsb = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "AppendCJKExtension", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lv1msb, lv1lsb});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SortKeyBuffer::AppendKana
@@ -236,7 +241,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SortKeyBuffer::*)(uint8_t, uint8_t, uint8_t, uint8_t, bool, uint8_t, bool, bool)>(&Mono::Globalization::Unicode::SortKeyBuffer::AppendKana)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "AppendKana", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* category = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
+    static auto* lv1 = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
+    static auto* lv2 = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
+    static auto* lv3 = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
+    static auto* isSmallKana = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* markType = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
+    static auto* isKatakana = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* isHalfWidth = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "AppendKana", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{category, lv1, lv2, lv3, isSmallKana, markType, isKatakana, isHalfWidth});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SortKeyBuffer::AppendNormal
@@ -244,7 +257,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SortKeyBuffer::*)(uint8_t, uint8_t, uint8_t, uint8_t)>(&Mono::Globalization::Unicode::SortKeyBuffer::AppendNormal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "AppendNormal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    static auto* category = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
+    static auto* lv1 = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
+    static auto* lv2 = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
+    static auto* lv3 = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "AppendNormal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{category, lv1, lv2, lv3});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SortKeyBuffer::AppendLevel5
@@ -252,7 +269,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SortKeyBuffer::*)(uint8_t, uint8_t)>(&Mono::Globalization::Unicode::SortKeyBuffer::AppendLevel5)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "AppendLevel5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    static auto* category = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
+    static auto* lv1 = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "AppendLevel5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{category, lv1});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SortKeyBuffer::AppendBufferPrimitive
@@ -260,7 +279,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SortKeyBuffer::*)(uint8_t, ::Array<uint8_t>*&, int&)>(&Mono::Globalization::Unicode::SortKeyBuffer::AppendBufferPrimitive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "AppendBufferPrimitive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
+    static auto* buf = &classof(::Array<::Array<uint8_t>*>*)->this_arg;
+    static auto* bidx = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "AppendBufferPrimitive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, buf, bidx});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SortKeyBuffer::GetResultAndReset
@@ -276,7 +298,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SortKeyBuffer::*)(::Array<uint8_t>*, int, uint8_t)>(&Mono::Globalization::Unicode::SortKeyBuffer::GetOptimizedLength)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "GetOptimizedLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    static auto* data = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* defaultValue = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SortKeyBuffer*), "GetOptimizedLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, len, defaultValue});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SortKeyBuffer::GetResult

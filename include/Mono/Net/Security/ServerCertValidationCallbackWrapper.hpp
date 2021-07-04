@@ -66,13 +66,6 @@ namespace Mono::Net::Security {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::ServerCertValidationCallbackWrapper*, "Mono.Net.Security", "ServerCertValidationCallbackWrapper");
-// Writing includes for template specializations
-#include "System/Net/ServerCertValidationCallback.hpp"
-#include "System/Security/Cryptography/X509Certificates/X509Certificate.hpp"
-#include "System/Security/Cryptography/X509Certificates/X509Chain.hpp"
-#include "Mono/Security/Interface/MonoSslPolicyErrors.hpp"
-#include "System/AsyncCallback.hpp"
-#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::ServerCertValidationCallbackWrapper::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -82,7 +75,11 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::ServerCertValidationCallbackWrapper*
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Net::Security::ServerCertValidationCallbackWrapper::*)(System::Net::ServerCertValidationCallback*, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509Chain*, Mono::Security::Interface::MonoSslPolicyErrors)>(&Mono::Net::Security::ServerCertValidationCallbackWrapper::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::ServerCertValidationCallbackWrapper*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::ServerCertValidationCallback*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Chain*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoSslPolicyErrors>()});
+    static auto* callback = &::il2cpp_utils::GetClassFromName("System.Net", "ServerCertValidationCallback")->byval_arg;
+    static auto* certificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate")->byval_arg;
+    static auto* chain = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Chain")->byval_arg;
+    static auto* sslPolicyErrors = &::il2cpp_utils::GetClassFromName("Mono.Security.Interface", "MonoSslPolicyErrors")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::ServerCertValidationCallbackWrapper*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callback, certificate, chain, sslPolicyErrors});
   }
 };
 // Writing MetadataGetter for method: Mono::Net::Security::ServerCertValidationCallbackWrapper::BeginInvoke
@@ -90,7 +87,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Mono::Net::Security::ServerCertValidationCallbackWrapper::*)(System::Net::ServerCertValidationCallback*, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509Chain*, Mono::Security::Interface::MonoSslPolicyErrors, System::AsyncCallback*, ::Il2CppObject*)>(&Mono::Net::Security::ServerCertValidationCallbackWrapper::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::ServerCertValidationCallbackWrapper*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::ServerCertValidationCallback*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Chain*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::MonoSslPolicyErrors>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* callback = &::il2cpp_utils::GetClassFromName("System.Net", "ServerCertValidationCallback")->byval_arg;
+    static auto* certificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate")->byval_arg;
+    static auto* chain = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Chain")->byval_arg;
+    static auto* sslPolicyErrors = &::il2cpp_utils::GetClassFromName("Mono.Security.Interface", "MonoSslPolicyErrors")->byval_arg;
+    static auto* __callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
+    static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::ServerCertValidationCallbackWrapper*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callback, certificate, chain, sslPolicyErrors, __callback, object});
   }
 };
 // Writing MetadataGetter for method: Mono::Net::Security::ServerCertValidationCallbackWrapper::EndInvoke
@@ -98,6 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Net::Security::ServerCertValidationCallbackWrapper::*)(System::IAsyncResult*)>(&Mono::Net::Security::ServerCertValidationCallbackWrapper::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::ServerCertValidationCallbackWrapper*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::ServerCertValidationCallbackWrapper*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
 };

@@ -29,13 +29,13 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnityScenesHelper*, "", "UnityScenesHelper");
-// Writing includes for template specializations
-#include "UnityEngine/SceneManagement/Scene.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UnityScenesHelper::SetActiveRootObjectsInScene
 // Il2CppName: SetActiveRootObjectsInScene
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::SceneManagement::Scene, bool)>(&GlobalNamespace::UnityScenesHelper::SetActiveRootObjectsInScene)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UnityScenesHelper*), "SetActiveRootObjectsInScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::Scene>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* scene = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "Scene")->byval_arg;
+    static auto* active = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UnityScenesHelper*), "SetActiveRootObjectsInScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scene, active});
   }
 };

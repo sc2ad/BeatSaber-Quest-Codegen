@@ -51,9 +51,6 @@ namespace Mono::Net {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback*, "Mono.Net", "CFNetwork/CFProxyAutoConfigurationResultCallback");
-// Writing includes for template specializations
-#include "System/AsyncCallback.hpp"
-#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -63,7 +60,10 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallb
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback::*)(System::IntPtr, System::IntPtr, System::IntPtr)>(&Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* client = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* proxyList = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* error = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{client, proxyList, error});
   }
 };
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback::BeginInvoke
@@ -71,7 +71,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback::*)(System::IntPtr, System::IntPtr, System::IntPtr, System::AsyncCallback*, ::Il2CppObject*)>(&Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* client = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* proxyList = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* error = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
+    static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{client, proxyList, error, callback, object});
   }
 };
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback::EndInvoke
@@ -79,6 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback::*)(System::IAsyncResult*)>(&Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork::CFProxyAutoConfigurationResultCallback*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
 };

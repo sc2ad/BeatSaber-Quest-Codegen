@@ -62,7 +62,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(SelectLevelCategoryViewController::LevelCategoryInfo) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo*, "", "SelectLevelCategoryViewController/LevelCategoryInfo");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SelectLevelCategoryViewController::LevelCategoryInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -66,8 +66,6 @@ namespace UnityEngine::TestTools::TestRunner {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c*, "UnityEngine.TestTools.TestRunner", "PlaymodeTestsController/<>c");
-// Writing includes for template specializations
-#include "UnityEngine/TestTools/Utils/IAssemblyWrapper.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -81,7 +79,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::Assembly* (UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c::*)(UnityEngine::TestTools::Utils::IAssemblyWrapper*)>(&UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c::$Run$b__16_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c*), "<Run>b__16_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::Utils::IAssemblyWrapper*>()});
+    static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine.TestTools.Utils", "IAssemblyWrapper")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c*), "<Run>b__16_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$$c::New_ctor

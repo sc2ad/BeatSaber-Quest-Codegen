@@ -129,8 +129,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(TrackLaneRingsRotationEffect) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsRotationEffect*, "", "TrackLaneRingsRotationEffect");
-// Writing includes for template specializations
-#include "GlobalNamespace/TrackLaneRingsRotationEffect_RingRotationEffect.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsRotationEffect::Awake
 // Il2CppName: Awake
 template<>
@@ -160,7 +158,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrackLaneRingsRotationEffect::*)(float, float, int, float)>(&GlobalNamespace::TrackLaneRingsRotationEffect::AddRingRotationEffect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRingsRotationEffect*), "AddRingRotationEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* angle = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* step = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* propagationSpeed = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* flexySpeed = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRingsRotationEffect*), "AddRingRotationEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{angle, step, propagationSpeed, flexySpeed});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsRotationEffect::GetFirstRingRotationAngle
@@ -192,7 +194,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrackLaneRingsRotationEffect::*)(GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect*)>(&GlobalNamespace::TrackLaneRingsRotationEffect::RecycleRingRotationEffect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRingsRotationEffect*), "RecycleRingRotationEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect*>()});
+    static auto* ringRotationEffect = &::il2cpp_utils::GetClassFromName("", "TrackLaneRingsRotationEffect/RingRotationEffect")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRingsRotationEffect*), "RecycleRingRotationEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ringRotationEffect});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsRotationEffect::New_ctor

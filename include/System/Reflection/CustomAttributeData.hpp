@@ -158,13 +158,6 @@ namespace System::Reflection {
   static_assert(sizeof(CustomAttributeData) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeData*, "System.Reflection", "CustomAttributeData");
-// Writing includes for template specializations
-#include "System/Reflection/ConstructorInfo.hpp"
-#include "System/Reflection/Assembly.hpp"
-#include "System/Reflection/MemberInfo.hpp"
-#include "System/RuntimeType.hpp"
-#include "System/Reflection/Module.hpp"
-#include "System/Reflection/ParameterInfo.hpp"
 // Writing MetadataGetter for method: System::Reflection::CustomAttributeData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -174,7 +167,13 @@ DEFINE_IL2CPP_ARG_TYPE(System::Reflection::CustomAttributeData*, "System.Reflect
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::ConstructorInfo*, System::Reflection::Assembly*, System::IntPtr, uint, ::Array<::Il2CppObject*>*&, ::Array<::Il2CppObject*>*&)>(&System::Reflection::CustomAttributeData::ResolveArgumentsInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::CustomAttributeData*), "ResolveArgumentsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ConstructorInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*&>()});
+    static auto* ctor = &::il2cpp_utils::GetClassFromName("System.Reflection", "ConstructorInfo")->byval_arg;
+    static auto* assembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
+    static auto* data = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* data_length = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* ctorArgs = &classof(::Array<::Array<::Il2CppObject*>*>*)->this_arg;
+    static auto* namedArgs = &classof(::Array<::Array<::Il2CppObject*>*>*)->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::CustomAttributeData*), "ResolveArgumentsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ctor, assembly, data, data_length, ctorArgs, namedArgs});
   }
 };
 // Writing MetadataGetter for method: System::Reflection::CustomAttributeData::ResolveArguments
@@ -214,7 +213,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<System::Reflection::CustomAttributeData*>* (*)(System::Reflection::Assembly*)>(&System::Reflection::CustomAttributeData::GetCustomAttributes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::CustomAttributeData*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>()});
+    static auto* target = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::CustomAttributeData*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{target});
   }
 };
 // Writing MetadataGetter for method: System::Reflection::CustomAttributeData::GetCustomAttributes
@@ -222,7 +222,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<System::Reflection::CustomAttributeData*>* (*)(System::Reflection::MemberInfo*)>(&System::Reflection::CustomAttributeData::GetCustomAttributes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::CustomAttributeData*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MemberInfo*>()});
+    static auto* target = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::CustomAttributeData*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{target});
   }
 };
 // Writing MetadataGetter for method: System::Reflection::CustomAttributeData::GetCustomAttributesInternal
@@ -230,7 +231,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<System::Reflection::CustomAttributeData*>* (*)(System::RuntimeType*)>(&System::Reflection::CustomAttributeData::GetCustomAttributesInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::CustomAttributeData*), "GetCustomAttributesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
+    static auto* target = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::CustomAttributeData*), "GetCustomAttributesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{target});
   }
 };
 // Writing MetadataGetter for method: System::Reflection::CustomAttributeData::GetCustomAttributes
@@ -238,7 +240,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<System::Reflection::CustomAttributeData*>* (*)(System::Reflection::Module*)>(&System::Reflection::CustomAttributeData::GetCustomAttributes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::CustomAttributeData*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Module*>()});
+    static auto* target = &::il2cpp_utils::GetClassFromName("System.Reflection", "Module")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::CustomAttributeData*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{target});
   }
 };
 // Writing MetadataGetter for method: System::Reflection::CustomAttributeData::GetCustomAttributes
@@ -246,7 +249,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<System::Reflection::CustomAttributeData*>* (*)(System::Reflection::ParameterInfo*)>(&System::Reflection::CustomAttributeData::GetCustomAttributes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::CustomAttributeData*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::ParameterInfo*>()});
+    static auto* target = &::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::CustomAttributeData*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{target});
   }
 };
 // Writing MetadataGetter for method: System::Reflection::CustomAttributeData::get_AttributeType
@@ -277,7 +281,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Reflection::CustomAttributeData::*)(::Il2CppObject*)>(&System::Reflection::CustomAttributeData::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::CustomAttributeData*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::CustomAttributeData*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
 // Writing MetadataGetter for method: System::Reflection::CustomAttributeData::GetHashCode

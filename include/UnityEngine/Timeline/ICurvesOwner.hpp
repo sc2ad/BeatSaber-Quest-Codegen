@@ -59,7 +59,6 @@ namespace UnityEngine::Timeline {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ICurvesOwner*, "UnityEngine.Timeline", "ICurvesOwner");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Timeline::ICurvesOwner::get_curves
 // Il2CppName: get_curves
 template<>
@@ -89,7 +88,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (Uni
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::ICurvesOwner::*)(::Il2CppString*)>(&UnityEngine::Timeline::ICurvesOwner::CreateCurves)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ICurvesOwner*), "CreateCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* curvesClipName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::ICurvesOwner*), "CreateCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{curvesClipName});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Timeline::ICurvesOwner::get_defaultCurvesName

@@ -43,15 +43,16 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CameraRaycastHelper*, "UnityEngine", "CameraRaycastHelper");
-// Writing includes for template specializations
-#include "UnityEngine/Camera.hpp"
-#include "UnityEngine/Ray.hpp"
 // Writing MetadataGetter for method: UnityEngine::CameraRaycastHelper::RaycastTry
 // Il2CppName: RaycastTry
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::Camera*, UnityEngine::Ray, float, int)>(&UnityEngine::CameraRaycastHelper::RaycastTry)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CameraRaycastHelper*), "RaycastTry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* cam = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
+    static auto* distance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CameraRaycastHelper*), "RaycastTry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cam, ray, distance, layerMask});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::CameraRaycastHelper::RaycastTry2D
@@ -59,7 +60,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::Camera*, UnityEngine::Ray, float, int)>(&UnityEngine::CameraRaycastHelper::RaycastTry2D)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CameraRaycastHelper*), "RaycastTry2D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* cam = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
+    static auto* distance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CameraRaycastHelper*), "RaycastTry2D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cam, ray, distance, layerMask});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::CameraRaycastHelper::RaycastTry_Injected
@@ -67,7 +72,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::Camera*, UnityEngine::Ray&, float, int)>(&UnityEngine::CameraRaycastHelper::RaycastTry_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CameraRaycastHelper*), "RaycastTry_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* cam = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->this_arg;
+    static auto* distance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CameraRaycastHelper*), "RaycastTry_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cam, ray, distance, layerMask});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::CameraRaycastHelper::RaycastTry2D_Injected
@@ -75,6 +84,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::Camera*, UnityEngine::Ray&, float, int)>(&UnityEngine::CameraRaycastHelper::RaycastTry2D_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CameraRaycastHelper*), "RaycastTry2D_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* cam = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->this_arg;
+    static auto* distance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CameraRaycastHelper*), "RaycastTry2D_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cam, ray, distance, layerMask});
   }
 };

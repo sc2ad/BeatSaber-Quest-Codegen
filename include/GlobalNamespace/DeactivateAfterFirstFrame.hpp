@@ -52,7 +52,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DeactivateAfterFirstFrame*, "", "DeactivateAfterFirstFrame");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::DeactivateAfterFirstFrame::Start
 // Il2CppName: Start
 template<>

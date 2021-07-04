@@ -71,7 +71,6 @@ namespace NetEase::Docker {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::LoginData, "NetEase.Docker", "LoginData");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: NetEase::Docker::LoginData::get_LoginSuccessful
 // Il2CppName: get_LoginSuccessful
 template<>
@@ -85,7 +84,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NetEa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::LoginData::*)(bool)>(&NetEase::Docker::LoginData::set_LoginSuccessful)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::LoginData), "set_LoginSuccessful", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::LoginData), "set_LoginSuccessful", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: NetEase::Docker::LoginData::set_LoginCode
@@ -93,7 +93,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::LoginData::*)(int)>(&NetEase::Docker::LoginData::set_LoginCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::LoginData), "set_LoginCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::LoginData), "set_LoginCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: NetEase::Docker::LoginData::get_UserName
@@ -109,6 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::LoginData::*)(::Il2CppString*)>(&NetEase::Docker::LoginData::set_UserName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::LoginData), "set_UserName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::LoginData), "set_UserName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };

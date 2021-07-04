@@ -45,15 +45,14 @@ namespace RootMotion {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerUtilities*, "RootMotion", "BakerUtilities");
-// Writing includes for template specializations
-#include "UnityEngine/AnimationCurve.hpp"
-#include "UnityEngine/Quaternion.hpp"
 // Writing MetadataGetter for method: RootMotion::BakerUtilities::ReduceKeyframes
 // Il2CppName: ReduceKeyframes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AnimationCurve*, float)>(&RootMotion::BakerUtilities::ReduceKeyframes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerUtilities*), "ReduceKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* curve = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve")->byval_arg;
+    static auto* maxError = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerUtilities*), "ReduceKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{curve, maxError});
   }
 };
 // Writing MetadataGetter for method: RootMotion::BakerUtilities::GetReducedKeyframes
@@ -61,7 +60,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Keyframe>* (*)(UnityEngine::AnimationCurve*, float)>(&RootMotion::BakerUtilities::GetReducedKeyframes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerUtilities*), "GetReducedKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* curve = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve")->byval_arg;
+    static auto* maxError = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerUtilities*), "GetReducedKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{curve, maxError});
   }
 };
 // Writing MetadataGetter for method: RootMotion::BakerUtilities::SetLoopFrame
@@ -69,7 +70,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, UnityEngine::AnimationCurve*)>(&RootMotion::BakerUtilities::SetLoopFrame)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerUtilities*), "SetLoopFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>()});
+    static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* curve = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerUtilities*), "SetLoopFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time, curve});
   }
 };
 // Writing MetadataGetter for method: RootMotion::BakerUtilities::SetTangentMode
@@ -77,7 +80,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(fl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AnimationCurve*)>(&RootMotion::BakerUtilities::SetTangentMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerUtilities*), "SetTangentMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>()});
+    static auto* curve = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerUtilities*), "SetTangentMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{curve});
   }
 };
 // Writing MetadataGetter for method: RootMotion::BakerUtilities::EnsureQuaternionContinuity
@@ -85,6 +89,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(UnityEngine::Quaternion, UnityEngine::Quaternion)>(&RootMotion::BakerUtilities::EnsureQuaternionContinuity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerUtilities*), "EnsureQuaternionContinuity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    static auto* lastQ = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
+    static auto* q = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerUtilities*), "EnsureQuaternionContinuity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lastQ, q});
   }
 };

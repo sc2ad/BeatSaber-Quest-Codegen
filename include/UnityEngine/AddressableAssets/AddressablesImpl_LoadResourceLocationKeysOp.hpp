@@ -108,15 +108,16 @@ namespace UnityEngine::AddressableAssets {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp*, "UnityEngine.AddressableAssets", "AddressablesImpl/LoadResourceLocationKeysOp");
-// Writing includes for template specializations
-#include "System/Type.hpp"
-#include "System/Collections/IEnumerable.hpp"
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp::Init
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp::*)(UnityEngine::AddressableAssets::AddressablesImpl*, System::Type*, System::Collections::IEnumerable*, UnityEngine::AddressableAssets::Addressables::MergeMode)>(&UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::AddressablesImpl*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AddressableAssets::Addressables::MergeMode>()});
+    static auto* aa = &::il2cpp_utils::GetClassFromName("UnityEngine.AddressableAssets", "AddressablesImpl")->byval_arg;
+    static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    static auto* key = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerable")->byval_arg;
+    static auto* mergeMode = &::il2cpp_utils::GetClassFromName("UnityEngine.AddressableAssets", "Addressables/MergeMode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aa, t, key, mergeMode});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::LoadResourceLocationKeysOp::get_DebugName

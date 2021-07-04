@@ -62,8 +62,6 @@ namespace UnityEngine::EventSystems {
   static_assert(sizeof(OVRPointerEventData) == 0x150);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::OVRPointerEventData*, "UnityEngine.EventSystems", "OVRPointerEventData");
-// Writing includes for template specializations
-#include "UnityEngine/EventSystems/EventSystem.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRPointerEventData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

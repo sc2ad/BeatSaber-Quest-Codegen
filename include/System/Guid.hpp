@@ -288,10 +288,6 @@ namespace System {
   bool operator !=(const System::Guid& a, const System::Guid& b);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Guid, "System", "Guid");
-// Writing includes for template specializations
-#include "System/Guid_GuidStyles.hpp"
-#include "System/Guid_GuidResult.hpp"
-#include "System/IFormatProvider.hpp"
 // Writing MetadataGetter for method: System::Guid::Guid
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -313,7 +309,8 @@ DEFINE_IL2CPP_ARG_TYPE(System::Guid, "System", "Guid");
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Guid (*)(::Il2CppString*)>(&System::Guid::Parse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
   }
 };
 // Writing MetadataGetter for method: System::Guid::TryParse
@@ -321,7 +318,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Gui
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Guid&)>(&System::Guid::TryParse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Guid&>()});
+    static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Guid")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, result});
   }
 };
 // Writing MetadataGetter for method: System::Guid::TryParseGuid
@@ -329,7 +328,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Guid::GuidStyles, System::Guid::GuidResult&)>(&System::Guid::TryParseGuid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid), "TryParseGuid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Guid::GuidStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Guid::GuidResult&>()});
+    static auto* g = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* flags = &::il2cpp_utils::GetClassFromName("System", "Guid/GuidStyles")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Guid/GuidResult")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid), "TryParseGuid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{g, flags, result});
   }
 };
 // Writing MetadataGetter for method: System::Guid::TryParseGuidWithHexPrefix
@@ -337,7 +339,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Guid::GuidResult&)>(&System::Guid::TryParseGuidWithHexPrefix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid), "TryParseGuidWithHexPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Guid::GuidResult&>()});
+    static auto* guidString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Guid/GuidResult")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid), "TryParseGuidWithHexPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{guidString, result});
   }
 };
 // Writing MetadataGetter for method: System::Guid::TryParseGuidWithNoStyle
@@ -345,7 +349,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Guid::GuidResult&)>(&System::Guid::TryParseGuidWithNoStyle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid), "TryParseGuidWithNoStyle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Guid::GuidResult&>()});
+    static auto* guidString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Guid/GuidResult")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid), "TryParseGuidWithNoStyle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{guidString, result});
   }
 };
 // Writing MetadataGetter for method: System::Guid::TryParseGuidWithDashes
@@ -353,7 +359,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Guid::GuidResult&)>(&System::Guid::TryParseGuidWithDashes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid), "TryParseGuidWithDashes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Guid::GuidResult&>()});
+    static auto* guidString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Guid/GuidResult")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid), "TryParseGuidWithDashes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{guidString, result});
   }
 };
 // Writing MetadataGetter for method: System::Guid::StringToShort
@@ -361,7 +369,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int, int, int16_t&, System::Guid::GuidResult&)>(&System::Guid::StringToShort)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid), "StringToShort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int16_t&>(), ::il2cpp_utils::ExtractIndependentType<System::Guid::GuidResult&>()});
+    static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* requiredLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* flags = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Int16")->this_arg;
+    static auto* parseResult = &::il2cpp_utils::GetClassFromName("System", "Guid/GuidResult")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid), "StringToShort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str, requiredLength, flags, result, parseResult});
   }
 };
 // Writing MetadataGetter for method: System::Guid::StringToShort
@@ -369,7 +382,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int*, int, int, int16_t&, System::Guid::GuidResult&)>(&System::Guid::StringToShort)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid), "StringToShort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int16_t&>(), ::il2cpp_utils::ExtractIndependentType<System::Guid::GuidResult&>()});
+    static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* parsePos = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Int32"))->byval_arg;
+    static auto* requiredLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* flags = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Int16")->this_arg;
+    static auto* parseResult = &::il2cpp_utils::GetClassFromName("System", "Guid/GuidResult")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid), "StringToShort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str, parsePos, requiredLength, flags, result, parseResult});
   }
 };
 // Writing MetadataGetter for method: System::Guid::StringToInt
@@ -377,7 +396,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int, int, int&, System::Guid::GuidResult&)>(&System::Guid::StringToInt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid), "StringToInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<System::Guid::GuidResult&>()});
+    static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* requiredLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* flags = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* parseResult = &::il2cpp_utils::GetClassFromName("System", "Guid/GuidResult")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid), "StringToInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str, requiredLength, flags, result, parseResult});
   }
 };
 // Writing MetadataGetter for method: System::Guid::StringToInt
@@ -385,7 +409,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int&, int, int, int&, System::Guid::GuidResult&)>(&System::Guid::StringToInt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid), "StringToInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<System::Guid::GuidResult&>()});
+    static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* parsePos = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* requiredLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* flags = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* parseResult = &::il2cpp_utils::GetClassFromName("System", "Guid/GuidResult")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid), "StringToInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str, parsePos, requiredLength, flags, result, parseResult});
   }
 };
 // Writing MetadataGetter for method: System::Guid::StringToInt
@@ -393,7 +423,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int*, int, int, int&, System::Guid::GuidResult&)>(&System::Guid::StringToInt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid), "StringToInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<System::Guid::GuidResult&>()});
+    static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* parsePos = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Int32"))->byval_arg;
+    static auto* requiredLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* flags = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* parseResult = &::il2cpp_utils::GetClassFromName("System", "Guid/GuidResult")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid), "StringToInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str, parsePos, requiredLength, flags, result, parseResult});
   }
 };
 // Writing MetadataGetter for method: System::Guid::StringToLong
@@ -401,7 +437,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int&, int, int64_t&, System::Guid::GuidResult&)>(&System::Guid::StringToLong)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid), "StringToLong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>(), ::il2cpp_utils::ExtractIndependentType<System::Guid::GuidResult&>()});
+    static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* parsePos = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* flags = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Int64")->this_arg;
+    static auto* parseResult = &::il2cpp_utils::GetClassFromName("System", "Guid/GuidResult")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid), "StringToLong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str, parsePos, flags, result, parseResult});
   }
 };
 // Writing MetadataGetter for method: System::Guid::StringToLong
@@ -409,7 +450,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int*, int, int64_t&, System::Guid::GuidResult&)>(&System::Guid::StringToLong)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid), "StringToLong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>(), ::il2cpp_utils::ExtractIndependentType<System::Guid::GuidResult&>()});
+    static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* parsePos = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Int32"))->byval_arg;
+    static auto* flags = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Int64")->this_arg;
+    static auto* parseResult = &::il2cpp_utils::GetClassFromName("System", "Guid/GuidResult")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid), "StringToLong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str, parsePos, flags, result, parseResult});
   }
 };
 // Writing MetadataGetter for method: System::Guid::EatAllWhitespace
@@ -417,7 +463,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Guid::EatAllWhitespace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid), "EatAllWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid), "EatAllWhitespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
   }
 };
 // Writing MetadataGetter for method: System::Guid::IsHexPrefix
@@ -425,7 +472,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int)>(&System::Guid::IsHexPrefix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid), "IsHexPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid), "IsHexPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str, i});
   }
 };
 // Writing MetadataGetter for method: System::Guid::ToByteArray
@@ -441,7 +490,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Guid::*)(System::Guid)>(&System::Guid::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>()});
+    static auto* g = &::il2cpp_utils::GetClassFromName("System", "Guid")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{g});
   }
 };
 // Writing MetadataGetter for method: System::Guid::GetResult
@@ -449,7 +499,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Guid::*)(uint, uint)>(&System::Guid::GetResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid), "GetResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* me = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* them = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid), "GetResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{me, them});
   }
 };
 // Writing MetadataGetter for method: System::Guid::CompareTo
@@ -457,7 +509,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Guid::*)(::Il2CppObject*)>(&System::Guid::CompareTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Guid::CompareTo
@@ -465,7 +518,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Guid::*)(System::Guid)>(&System::Guid::CompareTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Guid")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Guid::ToString
@@ -473,7 +527,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Guid::*)(::Il2CppString*)>(&System::Guid::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format});
   }
 };
 // Writing MetadataGetter for method: System::Guid::HexToChar
@@ -481,7 +536,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(int)>(&System::Guid::HexToChar)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid), "HexToChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* a = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid), "HexToChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a});
   }
 };
 // Writing MetadataGetter for method: System::Guid::HexsToChars
@@ -489,7 +545,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppChar*, int, int, int)>(&System::Guid::HexsToChars)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid), "HexsToChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* guidChars = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* a = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* b = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid), "HexsToChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{guidChars, offset, a, b});
   }
 };
 // Writing MetadataGetter for method: System::Guid::HexsToChars
@@ -497,7 +557,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppChar*, int, int, int, bool)>(&System::Guid::HexsToChars)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid), "HexsToChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* guidChars = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* a = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* b = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* hex = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid), "HexsToChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{guidChars, offset, a, b, hex});
   }
 };
 // Writing MetadataGetter for method: System::Guid::ToString
@@ -505,7 +570,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Guid::*)(::Il2CppString*, System::IFormatProvider*)>(&System::Guid::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format, provider});
   }
 };
 // Writing MetadataGetter for method: System::Guid::NewGuid
@@ -545,7 +612,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Guid::*)(::Il2CppObject*)>(&System::Guid::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* o = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{o});
   }
 };
 // Writing MetadataGetter for method: System::Guid::operator ==

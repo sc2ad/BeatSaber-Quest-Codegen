@@ -61,14 +61,13 @@ namespace Zenject::Internal {
   static_assert(sizeof(ReflectionTypeAnalyzer::$$c__DisplayClass5_1) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_1*, "Zenject.Internal", "ReflectionTypeAnalyzer/<>c__DisplayClass5_1");
-// Writing includes for template specializations
-#include "System/Type.hpp"
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_1::$GetPropertyInfos$b__2
 // Il2CppName: <GetPropertyInfos>b__2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_1::*)(System::Type*)>(&Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_1::$GetPropertyInfos$b__2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_1*), "<GetPropertyInfos>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* a = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_1*), "<GetPropertyInfos>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a});
   }
 };
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionTypeAnalyzer::$$c__DisplayClass5_1::New_ctor

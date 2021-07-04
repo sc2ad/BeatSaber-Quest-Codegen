@@ -97,8 +97,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(AvatarEditHistory) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarEditHistory*, "", "AvatarEditHistory");
-// Writing includes for template specializations
-#include "GlobalNamespace/AvatarData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarEditHistory::get_undoAvailable
 // Il2CppName: get_undoAvailable
 template<>
@@ -160,7 +158,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarEditHistory::*)(GlobalNamespace::AvatarData*, GlobalNamespace::EditAvatarViewController::AvatarEditPart)>(&GlobalNamespace::AvatarEditHistory::UpdateEditHistory)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarEditHistory*), "UpdateEditHistory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AvatarData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EditAvatarViewController::AvatarEditPart>()});
+    static auto* avatarData = &::il2cpp_utils::GetClassFromName("", "AvatarData")->byval_arg;
+    static auto* avatarEditPart = &::il2cpp_utils::GetClassFromName("", "EditAvatarViewController/AvatarEditPart")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarEditHistory*), "UpdateEditHistory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{avatarData, avatarEditPart});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::AvatarEditHistory::New_ctor

@@ -44,15 +44,16 @@ namespace UnityEngine::SceneManagement {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SceneManagement::SceneManagerAPIInternal*, "UnityEngine.SceneManagement", "SceneManagerAPIInternal");
-// Writing includes for template specializations
-#include "UnityEngine/SceneManagement/LoadSceneParameters.hpp"
-#include "UnityEngine/SceneManagement/UnloadSceneOptions.hpp"
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal
 // Il2CppName: LoadSceneAsyncNameIndexInternal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (*)(::Il2CppString*, int, UnityEngine::SceneManagement::LoadSceneParameters, bool)>(&UnityEngine::SceneManagement::SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::SceneManagerAPIInternal*), "LoadSceneAsyncNameIndexInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneParameters>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* sceneBuildIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* parameters = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneParameters")->byval_arg;
+    static auto* mustCompleteNextFrame = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::SceneManagerAPIInternal*), "LoadSceneAsyncNameIndexInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sceneName, sceneBuildIndex, parameters, mustCompleteNextFrame});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManagerAPIInternal::UnloadSceneNameIndexInternal
@@ -60,7 +61,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (*)(::Il2CppString*, int, bool, UnityEngine::SceneManagement::UnloadSceneOptions, bool&)>(&UnityEngine::SceneManagement::SceneManagerAPIInternal::UnloadSceneNameIndexInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::SceneManagerAPIInternal*), "UnloadSceneNameIndexInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::UnloadSceneOptions>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* sceneBuildIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* immediately = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* options = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "UnloadSceneOptions")->byval_arg;
+    static auto* outSuccess = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::SceneManagerAPIInternal*), "UnloadSceneNameIndexInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sceneName, sceneBuildIndex, immediately, options, outSuccess});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal_Injected
@@ -68,6 +74,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AsyncOperation* (*)(::Il2CppString*, int, UnityEngine::SceneManagement::LoadSceneParameters&, bool)>(&UnityEngine::SceneManagement::SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::SceneManagerAPIInternal*), "LoadSceneAsyncNameIndexInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SceneManagement::LoadSceneParameters&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* sceneName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* sceneBuildIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* parameters = &::il2cpp_utils::GetClassFromName("UnityEngine.SceneManagement", "LoadSceneParameters")->this_arg;
+    static auto* mustCompleteNextFrame = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::SceneManagerAPIInternal*), "LoadSceneAsyncNameIndexInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sceneName, sceneBuildIndex, parameters, mustCompleteNextFrame});
   }
 };

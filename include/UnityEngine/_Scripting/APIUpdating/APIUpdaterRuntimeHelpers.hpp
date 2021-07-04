@@ -32,14 +32,16 @@ namespace UnityEngine::_Scripting::APIUpdating {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers*, "UnityEngine._Scripting.APIUpdating", "APIUpdaterRuntimeHelpers");
-// Writing includes for template specializations
-#include "System/Type.hpp"
 // Writing MetadataGetter for method: UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers::GetMovedFromAttributeDataForType
 // Il2CppName: GetMovedFromAttributeDataForType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ::Il2CppString*&, ::Il2CppString*&, ::Il2CppString*&)>(&UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers::GetMovedFromAttributeDataForType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers*), "GetMovedFromAttributeDataForType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    static auto* sourceType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    static auto* assembly = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
+    static auto* nsp = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
+    static auto* klass = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers*), "GetMovedFromAttributeDataForType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourceType, assembly, nsp, klass});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers::GetObsoleteTypeRedirection
@@ -47,6 +49,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ::Il2CppString*&, ::Il2CppString*&, ::Il2CppString*&)>(&UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers::GetObsoleteTypeRedirection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers*), "GetObsoleteTypeRedirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    static auto* sourceType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    static auto* assemblyName = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
+    static auto* nsp = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
+    static auto* className = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers*), "GetObsoleteTypeRedirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourceType, assemblyName, nsp, className});
   }
 };

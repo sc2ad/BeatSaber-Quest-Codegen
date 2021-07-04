@@ -52,7 +52,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   static_assert(sizeof(TriangulationConstraint) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint*, "UnityEngine.ProBuilder.Poly2Tri", "TriangulationConstraint");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

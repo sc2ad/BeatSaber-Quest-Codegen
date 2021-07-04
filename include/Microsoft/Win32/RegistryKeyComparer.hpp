@@ -43,13 +43,14 @@ namespace Microsoft::Win32 {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::RegistryKeyComparer*, "Microsoft.Win32", "RegistryKeyComparer");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Microsoft::Win32::RegistryKeyComparer::Equals
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Microsoft::Win32::RegistryKeyComparer::*)(::Il2CppObject*, ::Il2CppObject*)>(&Microsoft::Win32::RegistryKeyComparer::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::RegistryKeyComparer*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* y = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::RegistryKeyComparer*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y});
   }
 };
 // Writing MetadataGetter for method: Microsoft::Win32::RegistryKeyComparer::GetHashCode
@@ -57,7 +58,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Micro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Microsoft::Win32::RegistryKeyComparer::*)(::Il2CppObject*)>(&Microsoft::Win32::RegistryKeyComparer::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::RegistryKeyComparer*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::RegistryKeyComparer*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
 // Writing MetadataGetter for method: Microsoft::Win32::RegistryKeyComparer::New_ctor

@@ -81,8 +81,6 @@ namespace OnlineServices {
   static_assert(sizeof(LeaderboardEntriesResult) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LeaderboardEntriesResult*, "OnlineServices", "LeaderboardEntriesResult");
-// Writing includes for template specializations
-#include "OnlineServices/GetLeaderboardEntriesResult.hpp"
 // Writing MetadataGetter for method: OnlineServices::LeaderboardEntriesResult::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -92,7 +90,8 @@ DEFINE_IL2CPP_ARG_TYPE(OnlineServices::LeaderboardEntriesResult*, "OnlineService
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::LeaderboardEntriesResult* (*)(::Il2CppString*)>(&OnlineServices::LeaderboardEntriesResult::ErrorResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OnlineServices::LeaderboardEntriesResult*), "ErrorResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* localizedErrorMessage = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::LeaderboardEntriesResult*), "ErrorResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{localizedErrorMessage});
   }
 };
 // Writing MetadataGetter for method: OnlineServices::LeaderboardEntriesResult::get_notInicializedError
@@ -124,6 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServi
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OnlineServices::LeaderboardEntriesResult* (*)(OnlineServices::GetLeaderboardEntriesResult)>(&OnlineServices::LeaderboardEntriesResult::FromGetLeaderboardEntriesResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OnlineServices::LeaderboardEntriesResult*), "FromGetLeaderboardEntriesResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OnlineServices::GetLeaderboardEntriesResult>()});
+    static auto* getLeaderboardEntriesResult = &::il2cpp_utils::GetClassFromName("OnlineServices", "GetLeaderboardEntriesResult")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::LeaderboardEntriesResult*), "FromGetLeaderboardEntriesResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{getLeaderboardEntriesResult});
   }
 };

@@ -68,8 +68,6 @@ namespace TMPro {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningTable::$$c*, "TMPro", "KerningTable/<>c");
-// Writing includes for template specializations
-#include "TMPro/KerningPair.hpp"
 // Writing MetadataGetter for method: TMPro::KerningTable::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -83,7 +81,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro::KerningTable::$$c::*)(TMPro::KerningPair*)>(&TMPro::KerningTable::$$c::$SortKerningPairs$b__7_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::KerningTable::$$c*), "<SortKerningPairs>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::KerningPair*>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("TMPro", "KerningPair")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::KerningTable::$$c*), "<SortKerningPairs>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
 };
 // Writing MetadataGetter for method: TMPro::KerningTable::$$c::$SortKerningPairs$b__7_1
@@ -91,7 +90,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro::KerningTable::$$c::*)(TMPro::KerningPair*)>(&TMPro::KerningTable::$$c::$SortKerningPairs$b__7_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::KerningTable::$$c*), "<SortKerningPairs>b__7_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::KerningPair*>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("TMPro", "KerningPair")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::KerningTable::$$c*), "<SortKerningPairs>b__7_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
 };
 // Writing MetadataGetter for method: TMPro::KerningTable::$$c::New_ctor

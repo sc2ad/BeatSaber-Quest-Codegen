@@ -50,14 +50,13 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusRichPresencePlatformHandler*, "", "OculusRichPresencePlatformHandler");
-// Writing includes for template specializations
-#include "GlobalNamespace/IRichPresenceData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusRichPresencePlatformHandler::SetPresence
 // Il2CppName: SetPresence
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusRichPresencePlatformHandler::*)(GlobalNamespace::IRichPresenceData*)>(&GlobalNamespace::OculusRichPresencePlatformHandler::SetPresence)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusRichPresencePlatformHandler*), "SetPresence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IRichPresenceData*>()});
+    static auto* richPresenceData = &::il2cpp_utils::GetClassFromName("", "IRichPresenceData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusRichPresencePlatformHandler*), "SetPresence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{richPresenceData});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OculusRichPresencePlatformHandler::Clear

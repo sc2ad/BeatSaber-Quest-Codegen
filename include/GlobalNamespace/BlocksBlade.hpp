@@ -223,8 +223,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(BlocksBlade) == 0x8C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlocksBlade*, "", "BlocksBlade");
-// Writing includes for template specializations
-#include "GlobalNamespace/BlocksBlade_Element.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BlocksBlade::get_color
 // Il2CppName: get_color
 template<>
@@ -238,7 +236,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BlocksBlade::*)(UnityEngine::Color)>(&GlobalNamespace::BlocksBlade::set_color)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlocksBlade*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlocksBlade*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BlocksBlade::Start
@@ -262,7 +261,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BlocksBlade::*)(GlobalNamespace::BlocksBlade::Element*, float, UnityEngine::Color)>(&GlobalNamespace::BlocksBlade::SetUpElement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlocksBlade*), "SetUpElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BlocksBlade::Element*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    static auto* element = &::il2cpp_utils::GetClassFromName("", "BlocksBlade/Element")->byval_arg;
+    static auto* velocity = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlocksBlade*), "SetUpElement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{element, velocity, color});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BlocksBlade::RandomPointOnCircle
@@ -270,7 +272,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (GlobalNamespace::BlocksBlade::*)(float)>(&GlobalNamespace::BlocksBlade::RandomPointOnCircle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlocksBlade*), "RandomPointOnCircle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlocksBlade*), "RandomPointOnCircle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{radius});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BlocksBlade::New_ctor

@@ -39,7 +39,6 @@ namespace NUnit::Compatibility {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Compatibility::LongLivedMarshalByRefObject*, "NUnit.Compatibility", "LongLivedMarshalByRefObject");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: NUnit::Compatibility::LongLivedMarshalByRefObject::InitializeLifetimeService
 // Il2CppName: InitializeLifetimeService
 template<>

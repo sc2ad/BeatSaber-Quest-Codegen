@@ -100,7 +100,6 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(OffsetModifier) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetModifier*, "RootMotion.FinalIK", "OffsetModifier");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::OffsetModifier::get_deltaTime
 // Il2CppName: get_deltaTime
 template<>
@@ -146,7 +145,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::OffsetModifier::*)(::Array<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>*)>(&RootMotion::FinalIK::OffsetModifier::ApplyLimits)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::OffsetModifier*), "ApplyLimits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>*>()});
+    static auto* limits = &classof(::Array<::Array<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::OffsetModifier*), "ApplyLimits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{limits});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::OffsetModifier::OnDestroy

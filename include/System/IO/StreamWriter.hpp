@@ -262,9 +262,6 @@ namespace System::IO {
   static_assert(sizeof(StreamWriter) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StreamWriter*, "System.IO", "StreamWriter");
-// Writing includes for template specializations
-#include "System/IO/Stream.hpp"
-#include "System/Text/Encoding.hpp"
 // Writing MetadataGetter for method: System::IO::StreamWriter::CheckAsyncTaskInProgress
 // Il2CppName: CheckAsyncTaskInProgress
 template<>
@@ -322,7 +319,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::StreamWriter::*)(System::IO::Stream*, System::Text::Encoding*, int, bool)>(&System::IO::StreamWriter::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::StreamWriter*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* streamArg = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
+    static auto* encodingArg = &::il2cpp_utils::GetClassFromName("System.Text", "Encoding")->byval_arg;
+    static auto* bufferSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* shouldLeaveOpen = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::IO::StreamWriter*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{streamArg, encodingArg, bufferSize, shouldLeaveOpen});
   }
 };
 // Writing MetadataGetter for method: System::IO::StreamWriter::CreateFile
@@ -330,7 +331,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (*)(::Il2CppString*, bool, bool)>(&System::IO::StreamWriter::CreateFile)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::StreamWriter*), "CreateFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* append = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* checkHost = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::IO::StreamWriter*), "CreateFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path, append, checkHost});
   }
 };
 // Writing MetadataGetter for method: System::IO::StreamWriter::Flush
@@ -338,7 +342,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::StreamWriter::*)(bool, bool)>(&System::IO::StreamWriter::Flush)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::StreamWriter*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* flushStream = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* flushEncoder = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::IO::StreamWriter*), "Flush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flushStream, flushEncoder});
   }
 };
 // Writing MetadataGetter for method: System::IO::StreamWriter::set_AutoFlush
@@ -346,7 +352,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::StreamWriter::*)(bool)>(&System::IO::StreamWriter::set_AutoFlush)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::StreamWriter*), "set_AutoFlush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::IO::StreamWriter*), "set_AutoFlush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::IO::StreamWriter::get_LeaveOpen
@@ -374,7 +381,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::StreamWriter::*)(bool)>(&System::IO::StreamWriter::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::StreamWriter*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* disposing = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::IO::StreamWriter*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{disposing});
   }
 };
 // Writing MetadataGetter for method: System::IO::StreamWriter::Flush
@@ -398,7 +406,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::StreamWriter::*)(::Il2CppChar)>(&System::IO::StreamWriter::Write)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::StreamWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::IO::StreamWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::IO::StreamWriter::Write
@@ -406,7 +415,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::StreamWriter::*)(::Array<::Il2CppChar>*)>(&System::IO::StreamWriter::Write)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::StreamWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>()});
+    static auto* buffer = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::IO::StreamWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer});
   }
 };
 // Writing MetadataGetter for method: System::IO::StreamWriter::Write
@@ -414,7 +424,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::StreamWriter::*)(::Array<::Il2CppChar>*, int, int)>(&System::IO::StreamWriter::Write)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::StreamWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* buffer = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::IO::StreamWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, index, count});
   }
 };
 // Writing MetadataGetter for method: System::IO::StreamWriter::Write
@@ -422,7 +435,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::StreamWriter::*)(::Il2CppString*)>(&System::IO::StreamWriter::Write)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::StreamWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::IO::StreamWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::IO::StreamWriter::_cctor

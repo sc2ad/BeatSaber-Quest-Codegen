@@ -67,8 +67,6 @@ namespace UnityEngine {
   static_assert(sizeof(RequireComponent) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RequireComponent*, "UnityEngine", "RequireComponent");
-// Writing includes for template specializations
-#include "System/Type.hpp"
 // Writing MetadataGetter for method: UnityEngine::RequireComponent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

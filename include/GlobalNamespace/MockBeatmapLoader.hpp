@@ -81,10 +81,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockBeatmapLoader) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockBeatmapLoader*, "", "MockBeatmapLoader");
-// Writing includes for template specializations
-#include "GlobalNamespace/BeatmapLevelsModel.hpp"
-#include "GlobalNamespace/BeatmapIdentifierNetSerializable.hpp"
-#include "System/Threading/CancellationToken.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapLoader::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -94,7 +90,9 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockBeatmapLoader*, "", "MockBeatmapLoad
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::MockBeatmapData*>* (GlobalNamespace::MockBeatmapLoader::*)(GlobalNamespace::BeatmapIdentifierNetSerializable*, System::Threading::CancellationToken)>(&GlobalNamespace::MockBeatmapLoader::GetBeatmapData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapLoader*), "GetBeatmapData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapIdentifierNetSerializable*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    static auto* beatmap = &::il2cpp_utils::GetClassFromName("", "BeatmapIdentifierNetSerializable")->byval_arg;
+    static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapLoader*), "GetBeatmapData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmap, cancellationToken});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapLoader::Dispose

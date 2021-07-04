@@ -97,7 +97,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(EventsTestGameplayManager) == 0x39);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EventsTestGameplayManager*, "", "EventsTestGameplayManager");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::EventsTestGameplayManager::Awake
 // Il2CppName: Awake
 template<>

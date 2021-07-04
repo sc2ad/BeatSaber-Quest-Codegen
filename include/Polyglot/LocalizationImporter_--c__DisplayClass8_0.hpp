@@ -56,13 +56,13 @@ namespace Polyglot {
   static_assert(sizeof(LocalizationImporter::$$c__DisplayClass8_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizationImporter::$$c__DisplayClass8_0*, "Polyglot", "LocalizationImporter/<>c__DisplayClass8_0");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Polyglot::LocalizationImporter::$$c__DisplayClass8_0::$DownloadCustomSheet$b__0
 // Il2CppName: <DownloadCustomSheet>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizationImporter::$$c__DisplayClass8_0::*)(::Il2CppString*)>(&Polyglot::LocalizationImporter::$$c__DisplayClass8_0::$DownloadCustomSheet$b__0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationImporter::$$c__DisplayClass8_0*), "<DownloadCustomSheet>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationImporter::$$c__DisplayClass8_0*), "<DownloadCustomSheet>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
 };
 // Writing MetadataGetter for method: Polyglot::LocalizationImporter::$$c__DisplayClass8_0::New_ctor

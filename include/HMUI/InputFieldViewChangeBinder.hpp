@@ -91,10 +91,6 @@ namespace HMUI {
   static_assert(sizeof(InputFieldViewChangeBinder) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldViewChangeBinder*, "HMUI", "InputFieldViewChangeBinder");
-// Writing includes for template specializations
-#include "System/Collections/Generic/List_1.hpp"
-#include "HMUI/InputFieldView.hpp"
-#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: HMUI::InputFieldViewChangeBinder::Init
 // Il2CppName: Init
 template<>
@@ -108,7 +104,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldViewChangeBinder::*)(System::Collections::Generic::List_1<System::Tuple_2<HMUI::InputFieldView*, System::Action_1<HMUI::InputFieldView*>*>*>*)>(&HMUI::InputFieldViewChangeBinder::AddBindings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldViewChangeBinder*), "AddBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Tuple_2<HMUI::InputFieldView*, System::Action_1<HMUI::InputFieldView*>*>*>*>()});
+    static auto* bindings = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Tuple`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("HMUI", "InputFieldView"), ::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("HMUI", "InputFieldView")})})})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldViewChangeBinder*), "AddBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindings});
   }
 };
 // Writing MetadataGetter for method: HMUI::InputFieldViewChangeBinder::AddBinding
@@ -116,7 +113,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldViewChangeBinder::*)(HMUI::InputFieldView*, System::Action_1<HMUI::InputFieldView*>*)>(&HMUI::InputFieldViewChangeBinder::AddBinding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldViewChangeBinder*), "AddBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::InputFieldView*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<HMUI::InputFieldView*>*>()});
+    static auto* inputField = &::il2cpp_utils::GetClassFromName("HMUI", "InputFieldView")->byval_arg;
+    static auto* action = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("HMUI", "InputFieldView")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldViewChangeBinder*), "AddBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputField, action});
   }
 };
 // Writing MetadataGetter for method: HMUI::InputFieldViewChangeBinder::ClearBindings

@@ -103,7 +103,6 @@ namespace System::IO {
   static_assert(sizeof(DefaultWatcherData) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::DefaultWatcherData*, "System.IO", "DefaultWatcherData");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::IO::DefaultWatcherData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

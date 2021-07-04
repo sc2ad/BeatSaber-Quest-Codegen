@@ -154,8 +154,6 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(GrounderBipedIK) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderBipedIK*, "RootMotion.FinalIK", "GrounderBipedIK");
-// Writing includes for template specializations
-#include "RootMotion/FinalIK/IKSolverLimb.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::GrounderBipedIK::IsReadyToInitiate
 // Il2CppName: IsReadyToInitiate
 template<>
@@ -201,7 +199,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::GrounderBipedIK::*)(RootMotion::FinalIK::IKSolverLimb*, int)>(&RootMotion::FinalIK::GrounderBipedIK::SetLegIK)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::GrounderBipedIK*), "SetLegIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverLimb*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* limb = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverLimb")->byval_arg;
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::GrounderBipedIK*), "SetLegIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{limb, index});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::GrounderBipedIK::OnPostSolverUpdate

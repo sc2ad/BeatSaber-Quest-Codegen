@@ -88,7 +88,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(SaberActivityLineGraph::$UpdateGraphCoroutine$d__12) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberActivityLineGraph::$UpdateGraphCoroutine$d__12*, "", "SaberActivityLineGraph/<UpdateGraphCoroutine>d__12");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SaberActivityLineGraph::$UpdateGraphCoroutine$d__12::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

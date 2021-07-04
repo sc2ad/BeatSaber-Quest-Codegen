@@ -66,8 +66,6 @@ namespace UnityEngine::TestTools::TestRunner {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::$$c*, "UnityEngine.TestTools.TestRunner", "PlaymodeTestsControllerSettings/<>c");
-// Writing includes for template specializations
-#include "UnityEngine/TestTools/TestRunner/GUI/RuntimeTestRunnerFilter.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -81,7 +79,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITestFilter* (UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::$$c::*)(UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*)>(&UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::$$c::$BuildNUnitFilter$b__5_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::$$c*), "<BuildNUnitFilter>b__5_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*>()});
+    static auto* f = &::il2cpp_utils::GetClassFromName("UnityEngine.TestTools.TestRunner.GUI", "RuntimeTestRunnerFilter")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::$$c*), "<BuildNUnitFilter>b__5_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{f});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::$$c::New_ctor

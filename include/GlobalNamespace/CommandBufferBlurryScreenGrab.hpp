@@ -117,14 +117,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(CommandBufferBlurryScreenGrab) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CommandBufferBlurryScreenGrab*, "", "CommandBufferBlurryScreenGrab");
-// Writing includes for template specializations
-#include "UnityEngine/Camera.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CommandBufferBlurryScreenGrab::CreateCommandBuffer
 // Il2CppName: CreateCommandBuffer
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::CommandBuffer* (GlobalNamespace::CommandBufferBlurryScreenGrab::*)(UnityEngine::Camera*)>(&GlobalNamespace::CommandBufferBlurryScreenGrab::CreateCommandBuffer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferBlurryScreenGrab*), "CreateCommandBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    static auto* camera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CommandBufferBlurryScreenGrab*), "CreateCommandBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{camera});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::CommandBufferBlurryScreenGrab::CamerasDict

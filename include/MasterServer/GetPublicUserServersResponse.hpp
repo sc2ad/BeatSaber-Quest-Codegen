@@ -160,10 +160,6 @@ namespace MasterServer {
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::GetPublicUserServersResponse*, "MasterServer", "GetPublicUserServersResponse");
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::GetPublicUserServersResponse::Result, "MasterServer", "GetPublicUserServersResponse/Result");
-// Writing includes for template specializations
-#include "System/Collections/Generic/IEnumerable_1.hpp"
-#include "LiteNetLib/Utils/NetDataWriter.hpp"
-#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: MasterServer::GetPublicUserServersResponse::get_pool
 // Il2CppName: get_pool
 template<>
@@ -177,7 +173,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::GetPublicUserServersResponse* (MasterServer::GetPublicUserServersResponse::*)(MasterServer::GetPublicUserServersResponse::Result)>(&MasterServer::GetPublicUserServersResponse::InitForFailure)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::GetPublicUserServersResponse*), "InitForFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::GetPublicUserServersResponse::Result>()});
+    static auto* result = &::il2cpp_utils::GetClassFromName("MasterServer", "GetPublicUserServersResponse/Result")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::GetPublicUserServersResponse*), "InitForFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
 };
 // Writing MetadataGetter for method: MasterServer::GetPublicUserServersResponse::InitForSuccess
@@ -185,7 +182,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServe
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::GetPublicUserServersResponse* (MasterServer::GetPublicUserServersResponse::*)(System::Collections::Generic::IEnumerable_1<GlobalNamespace::PublicServerInfo>*)>(&MasterServer::GetPublicUserServersResponse::InitForSuccess)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::GetPublicUserServersResponse*), "InitForSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<GlobalNamespace::PublicServerInfo>*>()});
+    static auto* publicServers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "PublicServerInfo")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::GetPublicUserServersResponse*), "InitForSuccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{publicServers});
   }
 };
 // Writing MetadataGetter for method: MasterServer::GetPublicUserServersResponse::get_resultCode
@@ -209,7 +207,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::GetPublicUserServersResponse::*)(LiteNetLib::Utils::NetDataWriter*)>(&MasterServer::GetPublicUserServersResponse::Serialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::GetPublicUserServersResponse*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>()});
+    static auto* writer = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataWriter")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::GetPublicUserServersResponse*), "Serialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer});
   }
 };
 // Writing MetadataGetter for method: MasterServer::GetPublicUserServersResponse::Deserialize
@@ -217,7 +216,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::GetPublicUserServersResponse::*)(LiteNetLib::Utils::NetDataReader*)>(&MasterServer::GetPublicUserServersResponse::Deserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::GetPublicUserServersResponse*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::GetPublicUserServersResponse*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
   }
 };
 // Writing MetadataGetter for method: MasterServer::GetPublicUserServersResponse::Release

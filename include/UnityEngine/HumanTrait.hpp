@@ -29,7 +29,6 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanTrait*, "UnityEngine", "HumanTrait");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::HumanTrait::get_MuscleCount
 // Il2CppName: get_MuscleCount
 template<>
@@ -43,7 +42,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&UnityEngine::HumanTrait::GetBoneIndexFromMono)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::HumanTrait*), "GetBoneIndexFromMono", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* humanId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::HumanTrait*), "GetBoneIndexFromMono", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{humanId});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::HumanTrait::get_MuscleName

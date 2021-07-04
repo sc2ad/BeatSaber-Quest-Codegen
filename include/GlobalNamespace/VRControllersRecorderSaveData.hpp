@@ -56,7 +56,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(VRControllersRecorderSaveData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorderSaveData*, "", "VRControllersRecorderSaveData");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorderSaveData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

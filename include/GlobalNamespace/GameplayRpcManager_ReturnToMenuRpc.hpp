@@ -36,7 +36,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayRpcManager::ReturnToMenuRpc*, "", "GameplayRpcManager/ReturnToMenuRpc");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::GameplayRpcManager::ReturnToMenuRpc::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -285,10 +285,6 @@ namespace System {
   static_assert(sizeof(Exception) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Exception*, "System", "Exception");
-// Writing includes for template specializations
-#include "System/Runtime/Serialization/SerializationInfo.hpp"
-#include "System/Runtime/ExceptionServices/ExceptionDispatchInfo.hpp"
-#include "System/Exception_ExceptionMessageKind.hpp"
 // Writing MetadataGetter for method: System::Exception::Init
 // Il2CppName: Init
 template<>
@@ -330,7 +326,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Exception*)>(&System::Exception::IsImmutableAgileException)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Exception*), "IsImmutableAgileException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    static auto* e = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Exception*), "IsImmutableAgileException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
   }
 };
 // Writing MetadataGetter for method: System::Exception::GetClassName
@@ -362,7 +359,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Exception::*)(bool)>(&System::Exception::GetStackTrace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Exception*), "GetStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* needFileInfo = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Exception*), "GetStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{needFileInfo});
   }
 };
 // Writing MetadataGetter for method: System::Exception::SetErrorCode
@@ -370,7 +368,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Exception::*)(int)>(&System::Exception::SetErrorCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Exception*), "SetErrorCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* hr = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Exception*), "SetErrorCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hr});
   }
 };
 // Writing MetadataGetter for method: System::Exception::get_Source
@@ -386,7 +385,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Exception::*)(bool, bool)>(&System::Exception::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Exception*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* needFileLineInfo = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* needMessage = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Exception*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{needFileLineInfo, needMessage});
   }
 };
 // Writing MetadataGetter for method: System::Exception::GetObjectData
@@ -394,7 +395,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Exception::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Exception::GetObjectData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Exception*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
+    static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Exception*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{info, context});
   }
 };
 // Writing MetadataGetter for method: System::Exception::OnDeserialized
@@ -402,7 +405,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Exception::*)(System::Runtime::Serialization::StreamingContext)>(&System::Exception::OnDeserialized)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Exception*), "OnDeserialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Exception*), "OnDeserialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
 };
 // Writing MetadataGetter for method: System::Exception::InternalPreserveStackTrace
@@ -418,7 +422,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Exception::*)(::Il2CppString*, bool)>(&System::Exception::StripFileInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Exception*), "StripFileInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* stackTrace = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* isRemoteStackTrace = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Exception*), "StripFileInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stackTrace, isRemoteStackTrace});
   }
 };
 // Writing MetadataGetter for method: System::Exception::RestoreExceptionDispatchInfo
@@ -426,7 +432,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Exception::*)(System::Runtime::ExceptionServices::ExceptionDispatchInfo*)>(&System::Exception::RestoreExceptionDispatchInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Exception*), "RestoreExceptionDispatchInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::ExceptionServices::ExceptionDispatchInfo*>()});
+    static auto* exceptionDispatchInfo = &::il2cpp_utils::GetClassFromName("System.Runtime.ExceptionServices", "ExceptionDispatchInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Exception*), "RestoreExceptionDispatchInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{exceptionDispatchInfo});
   }
 };
 // Writing MetadataGetter for method: System::Exception::get_HResult
@@ -442,7 +449,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Exception::*)(int)>(&System::Exception::set_HResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Exception*), "set_HResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Exception*), "set_HResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Exception::GetType
@@ -458,7 +466,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Exception::ExceptionMessageKind)>(&System::Exception::GetMessageFromNativeResources)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Exception*), "GetMessageFromNativeResources", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception::ExceptionMessageKind>()});
+    static auto* kind = &::il2cpp_utils::GetClassFromName("System", "Exception/ExceptionMessageKind")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Exception*), "GetMessageFromNativeResources", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{kind});
   }
 };
 // Writing MetadataGetter for method: System::Exception::FixRemotingException
@@ -474,7 +483,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Exception*)>(&System::Exception::ReportUnhandledException)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Exception*), "ReportUnhandledException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    static auto* exception = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Exception*), "ReportUnhandledException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{exception});
   }
 };
 // Writing MetadataGetter for method: System::Exception::_cctor

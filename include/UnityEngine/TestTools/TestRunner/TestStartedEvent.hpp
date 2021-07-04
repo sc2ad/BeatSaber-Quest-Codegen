@@ -40,7 +40,6 @@ namespace UnityEngine::TestTools::TestRunner {
   }; // UnityEngine.TestTools.TestRunner.TestStartedEvent
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::TestStartedEvent*, "UnityEngine.TestTools.TestRunner", "TestStartedEvent");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::TestStartedEvent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

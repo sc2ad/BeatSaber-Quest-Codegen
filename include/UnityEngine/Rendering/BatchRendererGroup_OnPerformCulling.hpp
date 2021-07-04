@@ -61,10 +61,6 @@ namespace UnityEngine::Rendering {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling*, "UnityEngine.Rendering", "BatchRendererGroup/OnPerformCulling");
-// Writing includes for template specializations
-#include "UnityEngine/Rendering/BatchCullingContext.hpp"
-#include "System/AsyncCallback.hpp"
-#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -74,7 +70,9 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchRendererGroup::OnPerformCull
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Unity::Jobs::JobHandle (UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::*)(UnityEngine::Rendering::BatchRendererGroup*, UnityEngine::Rendering::BatchCullingContext)>(&UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::BatchRendererGroup*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::BatchCullingContext>()});
+    static auto* rendererGroup = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "BatchRendererGroup")->byval_arg;
+    static auto* cullingContext = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "BatchCullingContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rendererGroup, cullingContext});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::BeginInvoke
@@ -82,7 +80,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Unity::Jobs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::*)(UnityEngine::Rendering::BatchRendererGroup*, UnityEngine::Rendering::BatchCullingContext, System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::BatchRendererGroup*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::BatchCullingContext>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* rendererGroup = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "BatchRendererGroup")->byval_arg;
+    static auto* cullingContext = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "BatchCullingContext")->byval_arg;
+    static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
+    static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rendererGroup, cullingContext, callback, object});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::EndInvoke
@@ -90,6 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Unity::Jobs::JobHandle (UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::*)(System::IAsyncResult*)>(&UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
 };

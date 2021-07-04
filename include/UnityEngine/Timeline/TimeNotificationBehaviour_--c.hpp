@@ -56,7 +56,6 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeNotificationBehaviour::$$c*, "UnityEngine.Timeline", "TimeNotificationBehaviour/<>c");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeNotificationBehaviour::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -70,7 +69,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Timeline::TimeNotificationBehaviour::$$c::*)(UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry, UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry)>(&UnityEngine::Timeline::TimeNotificationBehaviour::$$c::$SortNotifications$b__12_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeNotificationBehaviour::$$c*), "<SortNotifications>b__12_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TimeNotificationBehaviour/NotificationEntry")->byval_arg;
+    static auto* y = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TimeNotificationBehaviour/NotificationEntry")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimeNotificationBehaviour::$$c*), "<SortNotifications>b__12_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeNotificationBehaviour::$$c::New_ctor

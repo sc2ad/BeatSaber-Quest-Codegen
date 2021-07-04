@@ -37,7 +37,6 @@ namespace Mono::Security::Cryptography {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::MD4*, "Mono.Security.Cryptography", "MD4");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Security::Cryptography::MD4::Create
 // Il2CppName: Create
 template<>

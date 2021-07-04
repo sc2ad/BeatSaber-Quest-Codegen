@@ -103,13 +103,13 @@ namespace System::Globalization {
   static_assert(sizeof(IdnMapping) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::IdnMapping*, "System.Globalization", "IdnMapping");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::GetAscii
 // Il2CppName: GetAscii
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::IdnMapping::*)(::Il2CppString*)>(&System::Globalization::IdnMapping::GetAscii)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "GetAscii", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* unicode = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "GetAscii", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unicode});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::GetAscii
@@ -117,7 +117,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::IdnMapping::*)(::Il2CppString*, int, int)>(&System::Globalization::IdnMapping::GetAscii)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "GetAscii", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* unicode = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "GetAscii", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unicode, index, count});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::Convert
@@ -125,7 +128,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::IdnMapping::*)(::Il2CppString*, int, int, bool)>(&System::Globalization::IdnMapping::Convert)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "Convert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* toAscii = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "Convert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, index, count, toAscii});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::ToAscii
@@ -133,7 +140,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::IdnMapping::*)(::Il2CppString*, int)>(&System::Globalization::IdnMapping::ToAscii)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "ToAscii", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "ToAscii", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, offset});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::VerifyLength
@@ -141,7 +150,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::IdnMapping::*)(::Il2CppString*, int)>(&System::Globalization::IdnMapping::VerifyLength)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "VerifyLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "VerifyLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, offset});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::NamePrep
@@ -149,7 +160,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::IdnMapping::*)(::Il2CppString*, int)>(&System::Globalization::IdnMapping::NamePrep)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "NamePrep", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "NamePrep", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, offset});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::VerifyProhibitedCharacters
@@ -157,7 +170,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::IdnMapping::*)(::Il2CppString*, int)>(&System::Globalization::IdnMapping::VerifyProhibitedCharacters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "VerifyProhibitedCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "VerifyProhibitedCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, offset});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::VerifyStd3AsciiRules
@@ -165,7 +180,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::IdnMapping::*)(::Il2CppString*, int)>(&System::Globalization::IdnMapping::VerifyStd3AsciiRules)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "VerifyStd3AsciiRules", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "VerifyStd3AsciiRules", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, offset});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::GetUnicode
@@ -173,7 +190,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::IdnMapping::*)(::Il2CppString*)>(&System::Globalization::IdnMapping::GetUnicode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "GetUnicode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* ascii = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "GetUnicode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ascii});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::GetUnicode
@@ -181,7 +199,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::IdnMapping::*)(::Il2CppString*, int, int)>(&System::Globalization::IdnMapping::GetUnicode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "GetUnicode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* ascii = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "GetUnicode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ascii, index, count});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::ToUnicode
@@ -189,7 +210,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Globalization::IdnMapping::*)(::Il2CppString*, int)>(&System::Globalization::IdnMapping::ToUnicode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "ToUnicode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "ToUnicode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, offset});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::New_ctor
@@ -201,7 +224,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::IdnMapping::*)(::Il2CppObject*)>(&System::Globalization::IdnMapping::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::IdnMapping*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::IdnMapping::GetHashCode

@@ -49,9 +49,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EssentialHelpers*, "", "EssentialHelpers");
-// Writing includes for template specializations
-#include "UnityEngine/Object.hpp"
-#include "UnityEngine/GameObject.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EssentialHelpers::get_CurrentTimeStamp
 // Il2CppName: get_CurrentTimeStamp
 template<>
@@ -65,7 +62,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*)>(&GlobalNamespace::EssentialHelpers::SafeDestroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EssentialHelpers*), "SafeDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EssentialHelpers*), "SafeDestroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::EssentialHelpers::GetOrAddComponent

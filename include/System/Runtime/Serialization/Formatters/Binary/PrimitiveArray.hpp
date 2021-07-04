@@ -120,8 +120,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static_assert(sizeof(PrimitiveArray) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*, "System.Runtime.Serialization.Formatters.Binary", "PrimitiveArray");
-// Writing includes for template specializations
-#include "System/Array.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -131,7 +129,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::Primi
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::*)(System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE, System::Array*)>(&System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE>(), ::il2cpp_utils::ExtractIndependentType<System::Array*>()});
+    static auto* code = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "InternalPrimitiveTypeE")->byval_arg;
+    static auto* array = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{code, array});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::SetValue
@@ -139,6 +139,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::*)(::Il2CppString*, int)>(&System::Runtime::Serialization::Formatters::Binary::PrimitiveArray::SetValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*), "SetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*), "SetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, index});
   }
 };

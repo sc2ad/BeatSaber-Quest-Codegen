@@ -196,8 +196,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerSpecificSettings) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerSpecificSettings*, "", "PlayerSpecificSettings");
-// Writing includes for template specializations
-#include "System/Nullable_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::get_leftHanded
 // Il2CppName: get_leftHanded
 template<>
@@ -327,7 +325,22 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PlayerSpecificSettings* (GlobalNamespace::PlayerSpecificSettings::*)(System::Nullable_1<bool>, System::Nullable_1<float>, System::Nullable_1<bool>, System::Nullable_1<float>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<float>, System::Nullable_1<float>, System::Nullable_1<bool>, System::Nullable_1<bool>, System::Nullable_1<GlobalNamespace::EnvironmentEffectsFilterPreset>, System::Nullable_1<GlobalNamespace::EnvironmentEffectsFilterPreset>)>(&GlobalNamespace::PlayerSpecificSettings::CopyWith)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "CopyWith", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<float>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<float>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<float>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<float>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<bool>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<GlobalNamespace::EnvironmentEffectsFilterPreset>>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<GlobalNamespace::EnvironmentEffectsFilterPreset>>()});
+    static auto* leftHanded = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
+    static auto* playerHeight = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
+    static auto* automaticPlayerHeight = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
+    static auto* sfxVolume = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
+    static auto* reduceDebris = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
+    static auto* noTextsAndHuds = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
+    static auto* noFailEffects = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
+    static auto* advancedHud = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
+    static auto* autoRestart = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
+    static auto* saberTrailIntensity = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
+    static auto* noteJumpStartBeatOffset = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
+    static auto* hideNoteSpawnEffect = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
+    static auto* adaptiveSfx = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
+    static auto* environmentEffectsFilterDefaultPreset = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "EnvironmentEffectsFilterPreset")})->byval_arg;
+    static auto* environmentEffectsFilterExpertPlusPreset = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "EnvironmentEffectsFilterPreset")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerSpecificSettings*), "CopyWith", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leftHanded, playerHeight, automaticPlayerHeight, sfxVolume, reduceDebris, noTextsAndHuds, noFailEffects, advancedHud, autoRestart, saberTrailIntensity, noteJumpStartBeatOffset, hideNoteSpawnEffect, adaptiveSfx, environmentEffectsFilterDefaultPreset, environmentEffectsFilterExpertPlusPreset});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PlayerSpecificSettings::New_ctor

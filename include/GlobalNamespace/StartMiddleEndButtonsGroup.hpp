@@ -49,7 +49,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StartMiddleEndButtonsGroup*, "", "StartMiddleEndButtonsGroup");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::StartMiddleEndButtonsGroup::SetLayoutHorizontal
 // Il2CppName: SetLayoutHorizontal
 template<>

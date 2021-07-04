@@ -66,14 +66,13 @@ namespace Oculus::Platform {
   static_assert(sizeof(AbuseReportOptions) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AbuseReportOptions*, "Oculus.Platform", "AbuseReportOptions");
-// Writing includes for template specializations
-#include "Oculus/Platform/AbuseReportType.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::AbuseReportOptions::SetPreventPeopleChooser
 // Il2CppName: SetPreventPeopleChooser
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::AbuseReportOptions::*)(bool)>(&Oculus::Platform::AbuseReportOptions::SetPreventPeopleChooser)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AbuseReportOptions*), "SetPreventPeopleChooser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AbuseReportOptions*), "SetPreventPeopleChooser", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::AbuseReportOptions::SetReportType
@@ -81,7 +80,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::AbuseReportOptions::*)(Oculus::Platform::AbuseReportType)>(&Oculus::Platform::AbuseReportOptions::SetReportType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AbuseReportOptions*), "SetReportType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::AbuseReportType>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "AbuseReportType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AbuseReportOptions*), "SetReportType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::AbuseReportOptions::operator System::IntPtr

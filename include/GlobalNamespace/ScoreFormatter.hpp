@@ -49,7 +49,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreFormatter*, "", "ScoreFormatter");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ScoreFormatter::_cctor
 // Il2CppName: .cctor
 template<>
@@ -63,7 +62,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&GlobalNamespace::ScoreFormatter::Format)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreFormatter*), "Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* score = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreFormatter*), "Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{score});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ScoreFormatter::New_ctor

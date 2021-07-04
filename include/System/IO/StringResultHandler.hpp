@@ -57,8 +57,6 @@ namespace System::IO {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::StringResultHandler*, "System.IO", "StringResultHandler");
-// Writing includes for template specializations
-#include "System/IO/SearchResult.hpp"
 // Writing MetadataGetter for method: System::IO::StringResultHandler::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -68,7 +66,8 @@ DEFINE_IL2CPP_ARG_TYPE(System::IO::StringResultHandler*, "System.IO", "StringRes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::IO::StringResultHandler::*)(System::IO::SearchResult*)>(&System::IO::StringResultHandler::CreateObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::StringResultHandler*), "CreateObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::SearchResult*>()});
+    static auto* result = &::il2cpp_utils::GetClassFromName("System.IO", "SearchResult")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::IO::StringResultHandler*), "CreateObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
 };
 // Writing MetadataGetter for method: System::IO::StringResultHandler::IsResultIncluded
@@ -76,6 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::IO::StringResultHandler::*)(System::IO::SearchResult*)>(&System::IO::StringResultHandler::IsResultIncluded)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::StringResultHandler*), "IsResultIncluded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::SearchResult*>()});
+    static auto* result = &::il2cpp_utils::GetClassFromName("System.IO", "SearchResult")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::IO::StringResultHandler*), "IsResultIncluded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
 };

@@ -61,7 +61,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(AlwaysVisibleQuad) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlwaysVisibleQuad*, "", "AlwaysVisibleQuad");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::AlwaysVisibleQuad::OnEnable
 // Il2CppName: OnEnable
 template<>

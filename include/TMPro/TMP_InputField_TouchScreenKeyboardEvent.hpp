@@ -37,7 +37,6 @@ namespace TMPro {
   }; // TMPro.TMP_InputField/TouchScreenKeyboardEvent
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::TouchScreenKeyboardEvent*, "TMPro", "TMP_InputField/TouchScreenKeyboardEvent");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: TMPro::TMP_InputField::TouchScreenKeyboardEvent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

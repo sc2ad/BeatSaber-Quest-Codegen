@@ -85,7 +85,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(DefaultScenesTransitionsFromInit) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DefaultScenesTransitionsFromInit*, "", "DefaultScenesTransitionsFromInit");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::DefaultScenesTransitionsFromInit::get_mainMenuScenesTransitionSetupData
 // Il2CppName: get_mainMenuScenesTransitionSetupData
 template<>
@@ -99,7 +98,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DefaultScenesTransitionsFromInit::*)(bool)>(&GlobalNamespace::DefaultScenesTransitionsFromInit::TransitionToNextScene)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DefaultScenesTransitionsFromInit*), "TransitionToNextScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* goStraightToMenu = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DefaultScenesTransitionsFromInit*), "TransitionToNextScene", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{goStraightToMenu});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::DefaultScenesTransitionsFromInit::New_ctor

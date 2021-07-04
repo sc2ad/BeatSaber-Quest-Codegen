@@ -79,7 +79,6 @@ namespace HMUI {
   static_assert(sizeof(ScreenModeData) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScreenModeData*, "HMUI", "ScreenModeData");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::ScreenModeData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

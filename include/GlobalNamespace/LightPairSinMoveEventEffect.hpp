@@ -172,9 +172,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(LightPairSinMoveEventEffect) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightPairSinMoveEventEffect*, "", "LightPairSinMoveEventEffect");
-// Writing includes for template specializations
-#include "GlobalNamespace/BeatmapEventData.hpp"
-#include "GlobalNamespace/LightPairSinMoveEventEffect_MovementData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightPairSinMoveEventEffect::Start
 // Il2CppName: Start
 template<>
@@ -204,7 +201,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightPairSinMoveEventEffect::*)(GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::LightPairSinMoveEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightPairSinMoveEventEffect*), "HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
+    static auto* beatmapEventData = &::il2cpp_utils::GetClassFromName("", "BeatmapEventData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightPairSinMoveEventEffect*), "HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventData});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LightPairSinMoveEventEffect::UpdateMovementData
@@ -212,7 +210,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightPairSinMoveEventEffect::*)(int, GlobalNamespace::LightPairSinMoveEventEffect::MovementData*, float)>(&GlobalNamespace::LightPairSinMoveEventEffect::UpdateMovementData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightPairSinMoveEventEffect*), "UpdateMovementData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LightPairSinMoveEventEffect::MovementData*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* beatmapEventDataValue = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* movementData = &::il2cpp_utils::GetClassFromName("", "LightPairSinMoveEventEffect/MovementData")->byval_arg;
+    static auto* movementValueOffset = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightPairSinMoveEventEffect*), "UpdateMovementData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventDataValue, movementData, movementValueOffset});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LightPairSinMoveEventEffect::New_ctor

@@ -26,7 +26,6 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::LazyHelpers*, "System", "LazyHelpers");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::LazyHelpers::_cctor
 // Il2CppName: .cctor
 template<>

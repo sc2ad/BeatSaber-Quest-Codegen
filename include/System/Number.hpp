@@ -152,18 +152,14 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Number*, "System", "Number");
-// Writing includes for template specializations
-#include "System/Decimal.hpp"
-#include "System/Globalization/NumberFormatInfo.hpp"
-#include "System/Number_NumberBuffer.hpp"
-#include "System/Globalization/NumberStyles.hpp"
-#include "System/Text/StringBuilder.hpp"
 // Writing MetadataGetter for method: System::Number::NumberBufferToDecimal
 // Il2CppName: NumberBufferToDecimal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint8_t*, System::Decimal&)>(&System::Number::NumberBufferToDecimal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "NumberBufferToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<System::Decimal&>()});
+    static auto* number = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Decimal")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "NumberBufferToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{number, value});
   }
 };
 // Writing MetadataGetter for method: System::Number::NumberBufferToDouble
@@ -171,7 +167,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ui
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint8_t*, double&)>(&System::Number::NumberBufferToDouble)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "NumberBufferToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<double&>()});
+    static auto* number = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Double")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "NumberBufferToDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{number, value});
   }
 };
 // Writing MetadataGetter for method: System::Number::FormatDecimal
@@ -179,7 +177,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ui
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Decimal, ::Il2CppString*, System::Globalization::NumberFormatInfo*)>(&System::Number::FormatDecimal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "FormatDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Decimal>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
+    static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* info = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "FormatDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, format, info});
   }
 };
 // Writing MetadataGetter for method: System::Number::FormatDouble
@@ -187,7 +188,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(double, ::Il2CppString*, System::Globalization::NumberFormatInfo*)>(&System::Number::FormatDouble)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "FormatDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
+    static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* info = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "FormatDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, format, info});
   }
 };
 // Writing MetadataGetter for method: System::Number::FormatInt32
@@ -195,7 +199,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int, ::Il2CppString*, System::Globalization::NumberFormatInfo*)>(&System::Number::FormatInt32)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "FormatInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* info = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "FormatInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, format, info});
   }
 };
 // Writing MetadataGetter for method: System::Number::FormatUInt32
@@ -203,7 +210,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(uint, ::Il2CppString*, System::Globalization::NumberFormatInfo*)>(&System::Number::FormatUInt32)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "FormatUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* info = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "FormatUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, format, info});
   }
 };
 // Writing MetadataGetter for method: System::Number::FormatInt64
@@ -211,7 +221,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int64_t, ::Il2CppString*, System::Globalization::NumberFormatInfo*)>(&System::Number::FormatInt64)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "FormatInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* info = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "FormatInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, format, info});
   }
 };
 // Writing MetadataGetter for method: System::Number::FormatUInt64
@@ -219,7 +232,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(uint64_t, ::Il2CppString*, System::Globalization::NumberFormatInfo*)>(&System::Number::FormatUInt64)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "FormatUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
+    static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* info = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "FormatUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, format, info});
   }
 };
 // Writing MetadataGetter for method: System::Number::FormatSingle
@@ -227,7 +243,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(float, ::Il2CppString*, System::Globalization::NumberFormatInfo*)>(&System::Number::FormatSingle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "FormatSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* info = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "FormatSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, format, info});
   }
 };
 // Writing MetadataGetter for method: System::Number::HexNumberToInt32
@@ -235,7 +254,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Number::NumberBuffer&, int&)>(&System::Number::HexNumberToInt32)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "HexNumberToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Number::NumberBuffer&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    static auto* number = &::il2cpp_utils::GetClassFromName("System", "Number/NumberBuffer")->this_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "HexNumberToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{number, value});
   }
 };
 // Writing MetadataGetter for method: System::Number::HexNumberToInt64
@@ -243,7 +264,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Number::NumberBuffer&, int64_t&)>(&System::Number::HexNumberToInt64)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "HexNumberToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Number::NumberBuffer&>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>()});
+    static auto* number = &::il2cpp_utils::GetClassFromName("System", "Number/NumberBuffer")->this_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "HexNumberToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{number, value});
   }
 };
 // Writing MetadataGetter for method: System::Number::HexNumberToUInt32
@@ -251,7 +274,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Number::NumberBuffer&, uint&)>(&System::Number::HexNumberToUInt32)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "HexNumberToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Number::NumberBuffer&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+    static auto* number = &::il2cpp_utils::GetClassFromName("System", "Number/NumberBuffer")->this_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "HexNumberToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{number, value});
   }
 };
 // Writing MetadataGetter for method: System::Number::HexNumberToUInt64
@@ -259,7 +284,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Number::NumberBuffer&, uint64_t&)>(&System::Number::HexNumberToUInt64)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "HexNumberToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Number::NumberBuffer&>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>()});
+    static auto* number = &::il2cpp_utils::GetClassFromName("System", "Number/NumberBuffer")->this_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "HexNumberToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{number, value});
   }
 };
 // Writing MetadataGetter for method: System::Number::IsWhite
@@ -267,7 +294,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&System::Number::IsWhite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "IsWhite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "IsWhite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch});
   }
 };
 // Writing MetadataGetter for method: System::Number::NumberToInt32
@@ -275,7 +303,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Number::NumberBuffer&, int&)>(&System::Number::NumberToInt32)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "NumberToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Number::NumberBuffer&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    static auto* number = &::il2cpp_utils::GetClassFromName("System", "Number/NumberBuffer")->this_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "NumberToInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{number, value});
   }
 };
 // Writing MetadataGetter for method: System::Number::NumberToInt64
@@ -283,7 +313,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Number::NumberBuffer&, int64_t&)>(&System::Number::NumberToInt64)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "NumberToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Number::NumberBuffer&>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>()});
+    static auto* number = &::il2cpp_utils::GetClassFromName("System", "Number/NumberBuffer")->this_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "NumberToInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{number, value});
   }
 };
 // Writing MetadataGetter for method: System::Number::NumberToUInt32
@@ -291,7 +323,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Number::NumberBuffer&, uint&)>(&System::Number::NumberToUInt32)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "NumberToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Number::NumberBuffer&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+    static auto* number = &::il2cpp_utils::GetClassFromName("System", "Number/NumberBuffer")->this_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "NumberToUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{number, value});
   }
 };
 // Writing MetadataGetter for method: System::Number::NumberToUInt64
@@ -299,7 +333,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Number::NumberBuffer&, uint64_t&)>(&System::Number::NumberToUInt64)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "NumberToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Number::NumberBuffer&>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>()});
+    static auto* number = &::il2cpp_utils::GetClassFromName("System", "Number/NumberBuffer")->this_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "NumberToUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{number, value});
   }
 };
 // Writing MetadataGetter for method: System::Number::MatchChars
@@ -307,7 +343,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar* (*)(::Il2CppChar*, ::Il2CppString*)>(&System::Number::MatchChars)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "MatchChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* p = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
+    static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "MatchChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p, str});
   }
 };
 // Writing MetadataGetter for method: System::Number::MatchChars
@@ -315,7 +353,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar* (*)(::Il2CppChar*, ::Il2CppChar*)>(&System::Number::MatchChars)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "MatchChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>()});
+    static auto* p = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
+    static auto* str = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "MatchChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p, str});
   }
 };
 // Writing MetadataGetter for method: System::Number::ParseDecimal
@@ -323,7 +363,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::Number::ParseDecimal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "ParseDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
+    static auto* numfmt = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "ParseDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, options, numfmt});
   }
 };
 // Writing MetadataGetter for method: System::Number::ParseDouble
@@ -331,7 +374,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dec
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::Number::ParseDouble)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "ParseDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
+    static auto* numfmt = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "ParseDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, options, numfmt});
   }
 };
 // Writing MetadataGetter for method: System::Number::ParseInt32
@@ -339,7 +385,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::Number::ParseInt32)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "ParseInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* style = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
+    static auto* info = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "ParseInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, style, info});
   }
 };
 // Writing MetadataGetter for method: System::Number::ParseInt64
@@ -347,7 +396,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::Number::ParseInt64)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "ParseInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
+    static auto* numfmt = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "ParseInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, options, numfmt});
   }
 };
 // Writing MetadataGetter for method: System::Number::ParseNumber
@@ -355,7 +407,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*&, System::Globalization::NumberStyles, System::Number::NumberBuffer&, System::Text::StringBuilder*, System::Globalization::NumberFormatInfo*, bool)>(&System::Number::ParseNumber)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "ParseNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*&>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Number::NumberBuffer&>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* str = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->this_arg;
+    static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
+    static auto* number = &::il2cpp_utils::GetClassFromName("System", "Number/NumberBuffer")->this_arg;
+    static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
+    static auto* numfmt = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
+    static auto* parseDecimal = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "ParseNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str, options, number, sb, numfmt, parseDecimal});
   }
 };
 // Writing MetadataGetter for method: System::Number::ParseSingle
@@ -363,7 +421,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::Number::ParseSingle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "ParseSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
+    static auto* numfmt = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "ParseSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, options, numfmt});
   }
 };
 // Writing MetadataGetter for method: System::Number::ParseUInt32
@@ -371,7 +432,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::Number::ParseUInt32)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "ParseUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
+    static auto* numfmt = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "ParseUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, options, numfmt});
   }
 };
 // Writing MetadataGetter for method: System::Number::ParseUInt64
@@ -379,7 +443,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*)>(&System::Number::ParseUInt64)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "ParseUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
+    static auto* numfmt = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "ParseUInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, options, numfmt});
   }
 };
 // Writing MetadataGetter for method: System::Number::StringToNumber
@@ -387,7 +454,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Number::NumberBuffer&, System::Globalization::NumberFormatInfo*, bool)>(&System::Number::StringToNumber)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "StringToNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Number::NumberBuffer&>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
+    static auto* number = &::il2cpp_utils::GetClassFromName("System", "Number/NumberBuffer")->this_arg;
+    static auto* info = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
+    static auto* parseDecimal = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "StringToNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str, options, number, info, parseDecimal});
   }
 };
 // Writing MetadataGetter for method: System::Number::TrailingZeros
@@ -395,7 +467,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int)>(&System::Number::TrailingZeros)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "TrailingZeros", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "TrailingZeros", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, index});
   }
 };
 // Writing MetadataGetter for method: System::Number::TryParseDouble
@@ -403,7 +477,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*, double&)>(&System::Number::TryParseDouble)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "TryParseDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>(), ::il2cpp_utils::ExtractIndependentType<double&>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
+    static auto* numfmt = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Double")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "TryParseDouble", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, options, numfmt, result});
   }
 };
 // Writing MetadataGetter for method: System::Number::TryParseInt32
@@ -411,7 +489,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*, int&)>(&System::Number::TryParseInt32)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "TryParseInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* style = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
+    static auto* info = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "TryParseInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, style, info, result});
   }
 };
 // Writing MetadataGetter for method: System::Number::TryParseInt64
@@ -419,7 +501,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*, int64_t&)>(&System::Number::TryParseInt64)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "TryParseInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* style = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
+    static auto* info = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Int64")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "TryParseInt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, style, info, result});
   }
 };
 // Writing MetadataGetter for method: System::Number::TryParseSingle
@@ -427,7 +513,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*, float&)>(&System::Number::TryParseSingle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "TryParseSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
+    static auto* numfmt = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "TryParseSingle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, options, numfmt, result});
   }
 };
 // Writing MetadataGetter for method: System::Number::TryParseUInt32
@@ -435,7 +525,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Globalization::NumberFormatInfo*, uint&)>(&System::Number::TryParseUInt32)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "TryParseUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* style = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
+    static auto* info = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "TryParseUInt32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, style, info, result});
   }
 };
 // Writing MetadataGetter for method: System::Number::TryStringToNumber
@@ -443,7 +537,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Number::NumberBuffer&, System::Globalization::NumberFormatInfo*, bool)>(&System::Number::TryStringToNumber)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "TryStringToNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Number::NumberBuffer&>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
+    static auto* number = &::il2cpp_utils::GetClassFromName("System", "Number/NumberBuffer")->this_arg;
+    static auto* numfmt = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
+    static auto* parseDecimal = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "TryStringToNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str, options, number, numfmt, parseDecimal});
   }
 };
 // Writing MetadataGetter for method: System::Number::TryStringToNumber
@@ -451,6 +550,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Globalization::NumberStyles, System::Number::NumberBuffer&, System::Text::StringBuilder*, System::Globalization::NumberFormatInfo*, bool)>(&System::Number::TryStringToNumber)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Number*), "TryStringToNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>(), ::il2cpp_utils::ExtractIndependentType<System::Number::NumberBuffer&>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
+    static auto* number = &::il2cpp_utils::GetClassFromName("System", "Number/NumberBuffer")->this_arg;
+    static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
+    static auto* numfmt = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
+    static auto* parseDecimal = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Number*), "TryStringToNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str, options, number, sb, numfmt, parseDecimal});
   }
 };

@@ -55,7 +55,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuTransitionsHelper::$$c*, "", "MenuTransitionsHelper/<>c");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::$$c::_cctor
 // Il2CppName: .cctor
 template<>

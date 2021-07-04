@@ -75,7 +75,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(SimpleRetailDemoFlowCoordinator::$QuitApplicationCoroutine$d__22) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleRetailDemoFlowCoordinator::$QuitApplicationCoroutine$d__22*, "", "SimpleRetailDemoFlowCoordinator/<QuitApplicationCoroutine>d__22");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SimpleRetailDemoFlowCoordinator::$QuitApplicationCoroutine$d__22::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

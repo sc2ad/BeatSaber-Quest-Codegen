@@ -25,13 +25,13 @@ namespace Org::BouncyCastle::Crypto::Tls {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Tls::AlertDescription*, "Org.BouncyCastle.Crypto.Tls", "AlertDescription");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Tls::AlertDescription::GetName
 // Il2CppName: GetName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(uint8_t)>(&Org::BouncyCastle::Crypto::Tls::AlertDescription::GetName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Tls::AlertDescription*), "GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    static auto* alertDescription = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Tls::AlertDescription*), "GetName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{alertDescription});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Tls::AlertDescription::GetText
@@ -39,6 +39,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(uint8_t)>(&Org::BouncyCastle::Crypto::Tls::AlertDescription::GetText)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Tls::AlertDescription*), "GetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    static auto* alertDescription = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Tls::AlertDescription*), "GetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{alertDescription});
   }
 };

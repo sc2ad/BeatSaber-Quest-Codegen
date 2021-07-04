@@ -75,7 +75,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(BTSCharacterSpawnController::$TimelineStoppedDelayed$d__19) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnController::$TimelineStoppedDelayed$d__19*, "", "BTSCharacterSpawnController/<TimelineStoppedDelayed>d__19");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnController::$TimelineStoppedDelayed$d__19::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

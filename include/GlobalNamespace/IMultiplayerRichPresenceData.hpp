@@ -36,7 +36,6 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IMultiplayerRichPresenceData*, "", "IMultiplayerRichPresenceData");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::IMultiplayerRichPresenceData::get_multiplayerLobbyCode
 // Il2CppName: get_multiplayerLobbyCode
 template<>
@@ -50,7 +49,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IMultiplayerRichPresenceData::*)(::Il2CppString*)>(&GlobalNamespace::IMultiplayerRichPresenceData::set_multiplayerLobbyCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerRichPresenceData*), "set_multiplayerLobbyCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IMultiplayerRichPresenceData*), "set_multiplayerLobbyCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::IMultiplayerRichPresenceData::get_isJoinable

@@ -71,15 +71,14 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VarIntExtensions*, "", "VarIntExtensions");
-// Writing includes for template specializations
-#include "LiteNetLib/Utils/NetDataWriter.hpp"
-#include "LiteNetLib/Utils/NetDataReader.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VarIntExtensions::PutVarInt
 // Il2CppName: PutVarInt
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(LiteNetLib::Utils::NetDataWriter*, int)>(&GlobalNamespace::VarIntExtensions::PutVarInt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "PutVarInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* writer = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataWriter")->byval_arg;
+    static auto* val = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "PutVarInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer, val});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::VarIntExtensions::GetVarInt
@@ -87,7 +86,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Li
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::VarIntExtensions::GetVarInt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "GetVarInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "GetVarInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::VarIntExtensions::PutVarUInt
@@ -95,7 +95,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Lit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(LiteNetLib::Utils::NetDataWriter*, uint)>(&GlobalNamespace::VarIntExtensions::PutVarUInt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "PutVarUInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* writer = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataWriter")->byval_arg;
+    static auto* val = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "PutVarUInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer, val});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::VarIntExtensions::GetVarUInt
@@ -103,7 +105,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Li
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::VarIntExtensions::GetVarUInt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "GetVarUInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "GetVarUInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::VarIntExtensions::PutVarLong
@@ -111,7 +114,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(Li
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(LiteNetLib::Utils::NetDataWriter*, int64_t)>(&GlobalNamespace::VarIntExtensions::PutVarLong)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "PutVarLong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    static auto* writer = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataWriter")->byval_arg;
+    static auto* val = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "PutVarLong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer, val});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::VarIntExtensions::GetVarLong
@@ -119,7 +124,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Li
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::VarIntExtensions::GetVarLong)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "GetVarLong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "GetVarLong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::VarIntExtensions::PutVarULong
@@ -127,7 +133,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(LiteNetLib::Utils::NetDataWriter*, uint64_t)>(&GlobalNamespace::VarIntExtensions::PutVarULong)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "PutVarULong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataWriter*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    static auto* writer = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataWriter")->byval_arg;
+    static auto* val = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "PutVarULong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{writer, val});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::VarIntExtensions::GetVarULong
@@ -135,7 +143,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Li
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(LiteNetLib::Utils::NetDataReader*)>(&GlobalNamespace::VarIntExtensions::GetVarULong)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "GetVarULong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>()});
+    static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "GetVarULong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::VarIntExtensions::TryGetVarUInt
@@ -143,7 +152,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(LiteNetLib::Utils::NetDataReader*, uint&)>(&GlobalNamespace::VarIntExtensions::TryGetVarUInt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "TryGetVarUInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+    static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader")->byval_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "TryGetVarUInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader, value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::VarIntExtensions::TryGetVarULong
@@ -151,7 +162,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Li
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(LiteNetLib::Utils::NetDataReader*, uint64_t&)>(&GlobalNamespace::VarIntExtensions::TryGetVarULong)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "TryGetVarULong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NetDataReader*>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>()});
+    static auto* reader = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NetDataReader")->byval_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "TryGetVarULong", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader, value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::VarIntExtensions::GetSize
@@ -159,7 +172,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Li
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&GlobalNamespace::VarIntExtensions::GetSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* val = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::VarIntExtensions::GetSize
@@ -167,7 +181,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uint)>(&GlobalNamespace::VarIntExtensions::GetSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* val = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::VarIntExtensions::GetSize
@@ -175,7 +190,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int64_t)>(&GlobalNamespace::VarIntExtensions::GetSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    static auto* val = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::VarIntExtensions::GetSize
@@ -183,6 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uint64_t)>(&GlobalNamespace::VarIntExtensions::GetSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    static auto* val = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VarIntExtensions*), "GetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});
   }
 };

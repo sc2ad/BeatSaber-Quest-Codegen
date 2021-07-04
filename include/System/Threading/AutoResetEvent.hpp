@@ -32,7 +32,6 @@ namespace System::Threading {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::AutoResetEvent*, "System.Threading", "AutoResetEvent");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Threading::AutoResetEvent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -406,15 +406,6 @@ namespace System::Net {
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpConnection*, "System.Net", "HttpConnection");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpConnection::InputState, "System.Net", "HttpConnection/InputState");
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HttpConnection::LineState, "System.Net", "HttpConnection/LineState");
-// Writing includes for template specializations
-#include "System/Net/Sockets/Socket.hpp"
-#include "System/Net/EndPointListener.hpp"
-#include "System/Security/Cryptography/X509Certificates/X509Certificate.hpp"
-#include "System/Net/ListenerPrefix.hpp"
-#include "System/IAsyncResult.hpp"
-#include "System/IO/MemoryStream.hpp"
-#include "System/Security/Cryptography/X509Certificates/X509Chain.hpp"
-#include "System/Net/Security/SslPolicyErrors.hpp"
 // Writing MetadataGetter for method: System::Net::HttpConnection::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -456,7 +447,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpConnection::*)(System::Net::ListenerPrefix*)>(&System::Net::HttpConnection::set_Prefix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpConnection*), "set_Prefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::ListenerPrefix*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System.Net", "ListenerPrefix")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpConnection*), "set_Prefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Net::HttpConnection::OnTimeout
@@ -464,7 +456,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpConnection::*)(::Il2CppObject*)>(&System::Net::HttpConnection::OnTimeout)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpConnection*), "OnTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* unused = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpConnection*), "OnTimeout", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unused});
   }
 };
 // Writing MetadataGetter for method: System::Net::HttpConnection::BeginReadRequest
@@ -480,7 +473,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::RequestStream* (System::Net::HttpConnection::*)(bool, int64_t)>(&System::Net::HttpConnection::GetRequestStream)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpConnection*), "GetRequestStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    static auto* chunked = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* contentlength = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpConnection*), "GetRequestStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{chunked, contentlength});
   }
 };
 // Writing MetadataGetter for method: System::Net::HttpConnection::GetResponseStream
@@ -496,7 +491,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IAsyncResult*)>(&System::Net::HttpConnection::OnRead)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpConnection*), "OnRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    static auto* ares = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpConnection*), "OnRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ares});
   }
 };
 // Writing MetadataGetter for method: System::Net::HttpConnection::OnReadInternal
@@ -504,7 +500,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpConnection::*)(System::IAsyncResult*)>(&System::Net::HttpConnection::OnReadInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpConnection*), "OnReadInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    static auto* ares = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpConnection*), "OnReadInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ares});
   }
 };
 // Writing MetadataGetter for method: System::Net::HttpConnection::RemoveConnection
@@ -520,7 +517,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpConnection::*)(System::IO::MemoryStream*)>(&System::Net::HttpConnection::ProcessInput)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpConnection*), "ProcessInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::MemoryStream*>()});
+    static auto* ms = &::il2cpp_utils::GetClassFromName("System.IO", "MemoryStream")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpConnection*), "ProcessInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ms});
   }
 };
 // Writing MetadataGetter for method: System::Net::HttpConnection::ReadLine
@@ -528,7 +526,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::HttpConnection::*)(::Array<uint8_t>*, int, int, int&)>(&System::Net::HttpConnection::ReadLine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpConnection*), "ReadLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    static auto* buffer = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* used = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpConnection*), "ReadLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, offset, len, used});
   }
 };
 // Writing MetadataGetter for method: System::Net::HttpConnection::SendError
@@ -536,7 +538,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpConnection::*)(::Il2CppString*, int)>(&System::Net::HttpConnection::SendError)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpConnection*), "SendError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* msg = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* status = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpConnection*), "SendError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{msg, status});
   }
 };
 // Writing MetadataGetter for method: System::Net::HttpConnection::SendError
@@ -568,7 +572,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpConnection::*)(bool)>(&System::Net::HttpConnection::Close)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpConnection*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* force_close = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpConnection*), "Close", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{force_close});
   }
 };
 // Writing MetadataGetter for method: System::Net::HttpConnection::_cctor
@@ -584,6 +589,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::HttpConnection::*)(::Il2CppObject*, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509Chain*, System::Net::Security::SslPolicyErrors)>(&System::Net::HttpConnection::$_ctor$b__24_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpConnection*), "<.ctor>b__24_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Chain*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Security::SslPolicyErrors>()});
+    static auto* t = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* c = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate")->byval_arg;
+    static auto* ch = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Chain")->byval_arg;
+    static auto* e = &::il2cpp_utils::GetClassFromName("System.Net.Security", "SslPolicyErrors")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::HttpConnection*), "<.ctor>b__24_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t, c, ch, e});
   }
 };

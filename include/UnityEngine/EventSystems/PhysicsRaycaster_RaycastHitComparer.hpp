@@ -51,13 +51,14 @@ namespace UnityEngine::EventSystems {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer*, "UnityEngine.EventSystems", "PhysicsRaycaster/RaycastHitComparer");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer::Compare
 // Il2CppName: Compare
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer::*)(UnityEngine::RaycastHit, UnityEngine::RaycastHit)>(&UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer::Compare)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->byval_arg;
+    static auto* y = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer::_cctor

@@ -143,8 +143,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(BakedReflectionProbe) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BakedReflectionProbe*, "", "BakedReflectionProbe");
-// Writing includes for template specializations
-#include "GlobalNamespace/ReflectionProbeDataSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BakedReflectionProbe::get_reflectionProbeData
 // Il2CppName: get_reflectionProbeData
 template<>
@@ -158,7 +156,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BakedReflectionProbe::*)(GlobalNamespace::ReflectionProbeDataSO*)>(&GlobalNamespace::BakedReflectionProbe::set_reflectionProbeData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BakedReflectionProbe*), "set_reflectionProbeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ReflectionProbeDataSO*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("", "ReflectionProbeDataSO")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BakedReflectionProbe*), "set_reflectionProbeData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BakedReflectionProbe::get_position

@@ -51,14 +51,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(LocalizedTextAsset::$$c__DisplayClass6_0) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedTextAsset::$$c__DisplayClass6_0*, "", "LocalizedTextAsset/<>c__DisplayClass6_0");
-// Writing includes for template specializations
-#include "GlobalNamespace/LocalizedTextAsset_TextInfo.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalizedTextAsset::$$c__DisplayClass6_0::$get_localizedText$b__1
 // Il2CppName: <get_localizedText>b__1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LocalizedTextAsset::$$c__DisplayClass6_0::*)(GlobalNamespace::LocalizedTextAsset::TextInfo*)>(&GlobalNamespace::LocalizedTextAsset::$$c__DisplayClass6_0::$get_localizedText$b__1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalizedTextAsset::$$c__DisplayClass6_0*), "<get_localizedText>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalizedTextAsset::TextInfo*>()});
+    static auto* t = &::il2cpp_utils::GetClassFromName("", "LocalizedTextAsset/TextInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalizedTextAsset::$$c__DisplayClass6_0*), "<get_localizedText>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LocalizedTextAsset::$$c__DisplayClass6_0::New_ctor

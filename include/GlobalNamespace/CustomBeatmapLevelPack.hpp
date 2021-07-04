@@ -102,9 +102,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(CustomBeatmapLevelPack) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomBeatmapLevelPack*, "", "CustomBeatmapLevelPack");
-// Writing includes for template specializations
-#include "UnityEngine/Sprite.hpp"
-#include "GlobalNamespace/CustomBeatmapLevelCollection.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CustomBeatmapLevelPack::get_packID
 // Il2CppName: get_packID
 template<>

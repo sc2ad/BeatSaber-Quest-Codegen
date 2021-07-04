@@ -62,7 +62,6 @@ namespace System::Threading {
   static_assert(sizeof(AtomicBoolean) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::AtomicBoolean*, "System.Threading", "AtomicBoolean");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Threading::AtomicBoolean::TryRelaxedSet
 // Il2CppName: TryRelaxedSet
 template<>
@@ -76,7 +75,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::AtomicBoolean::*)(bool)>(&System::Threading::AtomicBoolean::Exchange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::AtomicBoolean*), "Exchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* newVal = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::AtomicBoolean*), "Exchange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newVal});
   }
 };
 // Writing MetadataGetter for method: System::Threading::AtomicBoolean::Equals
@@ -84,7 +84,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::AtomicBoolean::*)(System::Threading::AtomicBoolean*)>(&System::Threading::AtomicBoolean::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::AtomicBoolean*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::AtomicBoolean*>()});
+    static auto* rhs = &::il2cpp_utils::GetClassFromName("System.Threading", "AtomicBoolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::AtomicBoolean*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rhs});
   }
 };
 // Writing MetadataGetter for method: System::Threading::AtomicBoolean::Equals
@@ -92,7 +93,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::AtomicBoolean::*)(::Il2CppObject*)>(&System::Threading::AtomicBoolean::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::AtomicBoolean*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* rhs = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::AtomicBoolean*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rhs});
   }
 };
 // Writing MetadataGetter for method: System::Threading::AtomicBoolean::GetHashCode

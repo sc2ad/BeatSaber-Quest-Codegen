@@ -136,16 +136,13 @@ namespace System::Text {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::Normalization*, "System.Text", "Normalization");
-// Writing includes for template specializations
-#include "System/Text/StringBuilder.hpp"
-#include "System/Text/NormalizationForm.hpp"
-#include "System/IntPtr.hpp"
 // Writing MetadataGetter for method: System::Text::Normalization::PropValue
 // Il2CppName: PropValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(int)>(&System::Text::Normalization::PropValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "PropValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* cp = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "PropValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cp});
   }
 };
 // Writing MetadataGetter for method: System::Text::Normalization::CharMapIdx
@@ -153,7 +150,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(in
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&System::Text::Normalization::CharMapIdx)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "CharMapIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* cp = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "CharMapIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cp});
   }
 };
 // Writing MetadataGetter for method: System::Text::Normalization::GetCombiningClass
@@ -161,7 +159,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int)>(&System::Text::Normalization::GetCombiningClass)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "GetCombiningClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* c = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "GetCombiningClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
 };
 // Writing MetadataGetter for method: System::Text::Normalization::GetPrimaryCompositeFromMapIndex
@@ -169,7 +168,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&System::Text::Normalization::GetPrimaryCompositeFromMapIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "GetPrimaryCompositeFromMapIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* src = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "GetPrimaryCompositeFromMapIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src});
   }
 };
 // Writing MetadataGetter for method: System::Text::Normalization::GetPrimaryCompositeHelperIndex
@@ -177,7 +177,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&System::Text::Normalization::GetPrimaryCompositeHelperIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "GetPrimaryCompositeHelperIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* cp = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "GetPrimaryCompositeHelperIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cp});
   }
 };
 // Writing MetadataGetter for method: System::Text::Normalization::Compose
@@ -185,7 +186,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int)>(&System::Text::Normalization::Compose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "Compose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* source = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* checkType = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "Compose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source, checkType});
   }
 };
 // Writing MetadataGetter for method: System::Text::Normalization::Combine
@@ -193,7 +196,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (*)(::Il2CppString*, int, int)>(&System::Text::Normalization::Combine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "Combine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* source = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* checkType = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "Combine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source, start, checkType});
   }
 };
 // Writing MetadataGetter for method: System::Text::Normalization::Combine
@@ -201,7 +207,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*, int, int)>(&System::Text::Normalization::Combine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "Combine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
+    static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* checkType = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "Combine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sb, i, checkType});
   }
 };
 // Writing MetadataGetter for method: System::Text::Normalization::CombineHangul
@@ -209,7 +218,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Text::StringBuilder*, ::Il2CppString*, int)>(&System::Text::Normalization::CombineHangul)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "CombineHangul", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* current = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "CombineHangul", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sb, s, current});
   }
 };
 // Writing MetadataGetter for method: System::Text::Normalization::Fetch
@@ -217,7 +229,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Text::StringBuilder*, ::Il2CppString*, int)>(&System::Text::Normalization::Fetch)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "Fetch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "Fetch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sb, s, i});
   }
 };
 // Writing MetadataGetter for method: System::Text::Normalization::TryComposeWithPreviousStarter
@@ -225,7 +240,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Text::StringBuilder*, ::Il2CppString*, int)>(&System::Text::Normalization::TryComposeWithPreviousStarter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "TryComposeWithPreviousStarter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* current = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "TryComposeWithPreviousStarter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sb, s, current});
   }
 };
 // Writing MetadataGetter for method: System::Text::Normalization::TryCompose
@@ -233,7 +251,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int, int)>(&System::Text::Normalization::TryCompose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "TryCompose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* starter = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* candidate = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "TryCompose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i, starter, candidate});
   }
 };
 // Writing MetadataGetter for method: System::Text::Normalization::Decompose
@@ -241,7 +262,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int)>(&System::Text::Normalization::Decompose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "Decompose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* source = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* checkType = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "Decompose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source, checkType});
   }
 };
 // Writing MetadataGetter for method: System::Text::Normalization::Decompose
@@ -249,7 +272,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Text::StringBuilder*&, int)>(&System::Text::Normalization::Decompose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "Decompose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* source = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->this_arg;
+    static auto* checkType = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "Decompose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source, sb, checkType});
   }
 };
 // Writing MetadataGetter for method: System::Text::Normalization::ReorderCanonical
@@ -257,7 +283,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Text::StringBuilder*&, int)>(&System::Text::Normalization::ReorderCanonical)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "ReorderCanonical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* src = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->this_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "ReorderCanonical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src, sb, start});
   }
 };
 // Writing MetadataGetter for method: System::Text::Normalization::DecomposeChar
@@ -265,7 +294,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::StringBuilder*&, ::Array<int>*&, ::Il2CppString*, int, int, int&)>(&System::Text::Normalization::DecomposeChar)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "DecomposeChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->this_arg;
+    static auto* buf = &classof(::Array<::Array<int>*>*)->this_arg;
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* checkType = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "DecomposeChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sb, buf, s, i, checkType, start});
   }
 };
 // Writing MetadataGetter for method: System::Text::Normalization::QuickCheck
@@ -273,7 +308,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::NormalizationCheck (*)(::Il2CppChar, int)>(&System::Text::Normalization::QuickCheck)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "QuickCheck", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* c = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    static auto* type = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "QuickCheck", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c, type});
   }
 };
 // Writing MetadataGetter for method: System::Text::Normalization::GetCanonicalHangul
@@ -281,7 +318,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, ::Array<int>*, int)>(&System::Text::Normalization::GetCanonicalHangul)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "GetCanonicalHangul", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* buf = &classof(::Array<::Array<int>*>*)->byval_arg;
+    static auto* bufIdx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "GetCanonicalHangul", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, buf, bufIdx});
   }
 };
 // Writing MetadataGetter for method: System::Text::Normalization::GetCanonical
@@ -289,7 +329,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, ::Array<int>*, int, int)>(&System::Text::Normalization::GetCanonical)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "GetCanonical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* c = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* buf = &classof(::Array<::Array<int>*>*)->byval_arg;
+    static auto* bufIdx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* checkType = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "GetCanonical", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c, buf, bufIdx, checkType});
   }
 };
 // Writing MetadataGetter for method: System::Text::Normalization::Normalize
@@ -297,7 +341,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, System::Text::NormalizationForm)>(&System::Text::Normalization::Normalize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "Normalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::NormalizationForm>()});
+    static auto* source = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* normalizationForm = &::il2cpp_utils::GetClassFromName("System.Text", "NormalizationForm")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "Normalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source, normalizationForm});
   }
 };
 // Writing MetadataGetter for method: System::Text::Normalization::Normalize
@@ -305,7 +351,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int)>(&System::Text::Normalization::Normalize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "Normalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* source = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* type = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "Normalize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source, type});
   }
 };
 // Writing MetadataGetter for method: System::Text::Normalization::load_normalization_resource
@@ -313,7 +361,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr&, System::IntPtr&, System::IntPtr&, System::IntPtr&, System::IntPtr&, System::IntPtr&)>(&System::Text::Normalization::load_normalization_resource)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "load_normalization_resource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr&>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>()});
+    static auto* props = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
+    static auto* mappedChars = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
+    static auto* charMapIndex = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
+    static auto* helperIndex = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
+    static auto* mapIdxToComposite = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
+    static auto* combiningClass = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::Normalization*), "load_normalization_resource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{props, mappedChars, charMapIndex, helperIndex, mapIdxToComposite, combiningClass});
   }
 };
 // Writing MetadataGetter for method: System::Text::Normalization::_cctor

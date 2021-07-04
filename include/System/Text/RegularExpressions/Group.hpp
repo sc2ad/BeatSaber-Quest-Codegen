@@ -74,7 +74,6 @@ namespace System::Text::RegularExpressions {
   static_assert(sizeof(Group) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::Group*, "System.Text.RegularExpressions", "Group");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Text::RegularExpressions::Group::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

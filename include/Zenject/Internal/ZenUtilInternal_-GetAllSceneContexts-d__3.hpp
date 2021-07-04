@@ -111,7 +111,6 @@ namespace Zenject::Internal {
   static_assert(sizeof(ZenUtilInternal::$GetAllSceneContexts$d__3) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ZenUtilInternal::$GetAllSceneContexts$d__3*, "Zenject.Internal", "ZenUtilInternal/<GetAllSceneContexts>d__3");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Zenject::Internal::ZenUtilInternal::$GetAllSceneContexts$d__3::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

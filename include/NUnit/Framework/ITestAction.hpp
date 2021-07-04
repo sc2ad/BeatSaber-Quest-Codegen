@@ -39,14 +39,13 @@ namespace NUnit::Framework {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::ITestAction*, "NUnit.Framework", "ITestAction");
-// Writing includes for template specializations
-#include "NUnit/Framework/Interfaces/ITest.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::ITestAction::BeforeTest
 // Il2CppName: BeforeTest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::ITestAction::*)(NUnit::Framework::Interfaces::ITest*)>(&NUnit::Framework::ITestAction::BeforeTest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::ITestAction*), "BeforeTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    static auto* test = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITest")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::ITestAction*), "BeforeTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{test});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::ITestAction::AfterTest
@@ -54,7 +53,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::ITestAction::*)(NUnit::Framework::Interfaces::ITest*)>(&NUnit::Framework::ITestAction::AfterTest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::ITestAction*), "AfterTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITest*>()});
+    static auto* test = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITest")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::ITestAction*), "AfterTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{test});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::ITestAction::get_Targets

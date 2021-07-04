@@ -50,16 +50,14 @@ namespace UnityEngine::Timeline {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimelineClipExtensions*, "UnityEngine.Timeline", "TimelineClipExtensions");
-// Writing includes for template specializations
-#include "UnityEngine/Timeline/TimelineClip.hpp"
-#include "UnityEngine/Timeline/TrackAsset.hpp"
-#include "UnityEngine/Object.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClipExtensions::MoveToTrack
 // Il2CppName: MoveToTrack
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::TimelineClip*, UnityEngine::Timeline::TrackAsset*)>(&UnityEngine::Timeline::TimelineClipExtensions::MoveToTrack)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClipExtensions*), "MoveToTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+    static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TimelineClip")->byval_arg;
+    static auto* destinationTrack = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TrackAsset")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClipExtensions*), "MoveToTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clip, destinationTrack});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClipExtensions::TryMoveToTrack
@@ -67,7 +65,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Timeline::TimelineClip*, UnityEngine::Timeline::TrackAsset*)>(&UnityEngine::Timeline::TimelineClipExtensions::TryMoveToTrack)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClipExtensions*), "TryMoveToTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+    static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TimelineClip")->byval_arg;
+    static auto* destinationTrack = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TrackAsset")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClipExtensions*), "TryMoveToTrack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clip, destinationTrack});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClipExtensions::MoveToTrack_Impl
@@ -75,7 +75,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Timeline::TimelineClip*, UnityEngine::Timeline::TrackAsset*, UnityEngine::Object*, UnityEngine::Timeline::TrackAsset*)>(&UnityEngine::Timeline::TimelineClipExtensions::MoveToTrack_Impl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClipExtensions*), "MoveToTrack_Impl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TrackAsset*>()});
+    static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TimelineClip")->byval_arg;
+    static auto* destinationTrack = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TrackAsset")->byval_arg;
+    static auto* asset = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
+    static auto* parentTrack = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TrackAsset")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TimelineClipExtensions*), "MoveToTrack_Impl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clip, destinationTrack, asset, parentTrack});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineClipExtensions::_cctor

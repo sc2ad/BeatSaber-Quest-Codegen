@@ -112,10 +112,6 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(GrounderVRIK) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderVRIK*, "RootMotion.FinalIK", "GrounderVRIK");
-// Writing includes for template specializations
-#include "RootMotion/FinalIK/IKSolverVR_PositionOffset.hpp"
-#include "UnityEngine/Transform.hpp"
-#include "RootMotion/FinalIK/Grounding_Leg.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::GrounderVRIK::OpenTutorial
 // Il2CppName: OpenTutorial
 template<>
@@ -161,7 +157,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::GrounderVRIK::*)(RootMotion::FinalIK::IKSolverVR::PositionOffset, UnityEngine::Transform*, RootMotion::FinalIK::Grounding::Leg*)>(&RootMotion::FinalIK::GrounderVRIK::SetLegIK)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::GrounderVRIK*), "SetLegIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverVR::PositionOffset>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::Grounding::Leg*>()});
+    static auto* positionOffset = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverVR/PositionOffset")->byval_arg;
+    static auto* bone = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    static auto* leg = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "Grounding/Leg")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::GrounderVRIK*), "SetLegIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{positionOffset, bone, leg});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::GrounderVRIK::OnPostSolverUpdate

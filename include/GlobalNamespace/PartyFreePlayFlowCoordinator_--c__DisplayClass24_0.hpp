@@ -58,7 +58,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(PartyFreePlayFlowCoordinator::$$c__DisplayClass24_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyFreePlayFlowCoordinator::$$c__DisplayClass24_0*, "", "PartyFreePlayFlowCoordinator/<>c__DisplayClass24_0");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::PartyFreePlayFlowCoordinator::$$c__DisplayClass24_0::$HandleResultsViewControllerRestartButtonPressed$b__0
 // Il2CppName: <HandleResultsViewControllerRestartButtonPressed>b__0
 template<>

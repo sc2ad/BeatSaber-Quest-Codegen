@@ -55,7 +55,6 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(HMACSHA384) == 0x62);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::HMACSHA384*, "System.Security.Cryptography", "HMACSHA384");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::Cryptography::HMACSHA384::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

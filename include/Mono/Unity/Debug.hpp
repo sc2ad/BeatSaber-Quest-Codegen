@@ -34,16 +34,15 @@ namespace Mono::Unity {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::Debug*, "Mono.Unity", "Debug");
-// Writing includes for template specializations
-#include "Mono/Unity/UnityTls_unitytls_errorstate.hpp"
-#include "Mono/Security/Interface/AlertDescription.hpp"
-#include "Mono/Unity/UnityTls_unitytls_x509verify_result.hpp"
 // Writing MetadataGetter for method: Mono::Unity::Debug::CheckAndThrow
 // Il2CppName: CheckAndThrow
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mono::Unity::UnityTls::unitytls_errorstate, ::Il2CppString*, Mono::Security::Interface::AlertDescription)>(&Mono::Unity::Debug::CheckAndThrow)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::Debug*), "CheckAndThrow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::AlertDescription>()});
+    static auto* errorState = &::il2cpp_utils::GetClassFromName("Mono.Unity", "UnityTls/unitytls_errorstate")->byval_arg;
+    static auto* context = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* defaultAlert = &::il2cpp_utils::GetClassFromName("Mono.Security.Interface", "AlertDescription")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::Debug*), "CheckAndThrow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{errorState, context, defaultAlert});
   }
 };
 // Writing MetadataGetter for method: Mono::Unity::Debug::CheckAndThrow
@@ -51,6 +50,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mono::Unity::UnityTls::unitytls_errorstate, Mono::Unity::UnityTls::unitytls_x509verify_result, ::Il2CppString*, Mono::Security::Interface::AlertDescription)>(&Mono::Unity::Debug::CheckAndThrow)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::Debug*), "CheckAndThrow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509verify_result>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::AlertDescription>()});
+    static auto* errorState = &::il2cpp_utils::GetClassFromName("Mono.Unity", "UnityTls/unitytls_errorstate")->byval_arg;
+    static auto* verifyResult = &::il2cpp_utils::GetClassFromName("Mono.Unity", "UnityTls/unitytls_x509verify_result")->byval_arg;
+    static auto* context = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* defaultAlert = &::il2cpp_utils::GetClassFromName("Mono.Security.Interface", "AlertDescription")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::Debug*), "CheckAndThrow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{errorState, verifyResult, context, defaultAlert});
   }
 };

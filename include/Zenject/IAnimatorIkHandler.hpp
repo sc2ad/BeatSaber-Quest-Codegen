@@ -21,7 +21,6 @@ namespace Zenject {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IAnimatorIkHandler*, "Zenject", "IAnimatorIkHandler");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Zenject::IAnimatorIkHandler::OnAnimatorIk
 // Il2CppName: OnAnimatorIk
 template<>

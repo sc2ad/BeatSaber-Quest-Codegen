@@ -60,7 +60,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(TransitionTimingSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TransitionTimingSO*, "", "TransitionTimingSO");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::TransitionTimingSO::get_easeType
 // Il2CppName: get_easeType
 template<>

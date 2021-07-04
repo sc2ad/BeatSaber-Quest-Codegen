@@ -114,8 +114,6 @@ namespace System::Net::Mail {
   static_assert(sizeof(MailAddress) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Mail::MailAddress*, "System.Net.Mail", "MailAddress");
-// Writing includes for template specializations
-#include "System/Text/Encoding.hpp"
 // Writing MetadataGetter for method: System::Net::Mail::MailAddress::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -133,7 +131,8 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::Mail::MailAddress*, "System.Net.Mail", "Mail
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Mail::MailAddress::*)(::Il2CppString*)>(&System::Net::Mail::MailAddress::ParseAddress)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Mail::MailAddress*), "ParseAddress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* address = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Mail::MailAddress*), "ParseAddress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{address});
   }
 };
 // Writing MetadataGetter for method: System::Net::Mail::MailAddress::get_Address
@@ -165,7 +164,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::For
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Mail::MailAddress::*)(::Il2CppObject*)>(&System::Net::Mail::MailAddress::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Mail::MailAddress*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Mail::MailAddress*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Net::Mail::MailAddress::GetHashCode

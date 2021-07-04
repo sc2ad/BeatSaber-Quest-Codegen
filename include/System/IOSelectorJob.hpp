@@ -83,10 +83,6 @@ namespace System {
   static_assert(sizeof(IOSelectorJob) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IOSelectorJob*, "System", "IOSelectorJob");
-// Writing includes for template specializations
-#include "System/IOAsyncCallback.hpp"
-#include "System/IOAsyncResult.hpp"
-#include "System/Threading/ThreadAbortException.hpp"
 // Writing MetadataGetter for method: System::IOSelectorJob::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -104,7 +100,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IOSelectorJob::*)(System::Threading::ThreadAbortException*)>(&System::IOSelectorJob::System_Threading_IThreadPoolWorkItem_MarkAborted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IOSelectorJob*), "System.Threading.IThreadPoolWorkItem.MarkAborted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadAbortException*>()});
+    static auto* tae = &::il2cpp_utils::GetClassFromName("System.Threading", "ThreadAbortException")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::IOSelectorJob*), "System.Threading.IThreadPoolWorkItem.MarkAborted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tae});
   }
 };
 // Writing MetadataGetter for method: System::IOSelectorJob::MarkDisposed

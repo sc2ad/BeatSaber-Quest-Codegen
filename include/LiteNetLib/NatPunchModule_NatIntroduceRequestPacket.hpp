@@ -68,8 +68,6 @@ namespace LiteNetLib {
   static_assert(sizeof(NatPunchModule::NatIntroduceRequestPacket) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NatPunchModule::NatIntroduceRequestPacket*, "LiteNetLib", "NatPunchModule/NatIntroduceRequestPacket");
-// Writing includes for template specializations
-#include "System/Net/IPEndPoint.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::get_Internal
 // Il2CppName: get_Internal
 template<>
@@ -83,7 +81,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::*)(System::Net::IPEndPoint*)>(&LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::set_Internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NatPunchModule::NatIntroduceRequestPacket*), "set_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NatPunchModule::NatIntroduceRequestPacket*), "set_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::get_Token
@@ -99,7 +98,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::*)(::Il2CppString*)>(&LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::set_Token)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NatPunchModule::NatIntroduceRequestPacket*), "set_Token", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NatPunchModule::NatIntroduceRequestPacket*), "set_Token", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: LiteNetLib::NatPunchModule::NatIntroduceRequestPacket::New_ctor

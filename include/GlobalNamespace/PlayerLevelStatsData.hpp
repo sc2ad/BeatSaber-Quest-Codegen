@@ -142,8 +142,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerLevelStatsData) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerLevelStatsData*, "", "PlayerLevelStatsData");
-// Writing includes for template specializations
-#include "GlobalNamespace/BeatmapCharacteristicSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayerLevelStatsData::get_levelID
 // Il2CppName: get_levelID
 template<>
@@ -229,7 +227,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlayerLevelStatsData::*)(int, int, bool, GlobalNamespace::RankModel::Rank)>(&GlobalNamespace::PlayerLevelStatsData::UpdateScoreData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerLevelStatsData*), "UpdateScoreData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::RankModel::Rank>()});
+    static auto* score = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* maxCombo = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* fullCombo = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* rank = &::il2cpp_utils::GetClassFromName("", "RankModel/Rank")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerLevelStatsData*), "UpdateScoreData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{score, maxCombo, fullCombo, rank});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PlayerLevelStatsData::IncreaseNumberOfGameplays

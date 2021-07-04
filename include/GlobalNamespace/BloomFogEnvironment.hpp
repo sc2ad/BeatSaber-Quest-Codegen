@@ -71,7 +71,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomFogEnvironment) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFogEnvironment*, "", "BloomFogEnvironment");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogEnvironment::OnEnable
 // Il2CppName: OnEnable
 template<>

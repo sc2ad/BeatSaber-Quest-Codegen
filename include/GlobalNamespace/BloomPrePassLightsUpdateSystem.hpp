@@ -40,7 +40,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassLightsUpdateSystem*, "", "BloomPrePassLightsUpdateSystem");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassLightsUpdateSystem::LateUpdate
 // Il2CppName: LateUpdate
 template<>

@@ -90,7 +90,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(PointLight) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PointLight*, "", "PointLight");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::PointLight::get_lights
 // Il2CppName: get_lights
 template<>

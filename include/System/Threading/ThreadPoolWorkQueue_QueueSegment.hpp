@@ -77,14 +77,14 @@ namespace System::Threading {
   static_assert(sizeof(ThreadPoolWorkQueue::QueueSegment) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolWorkQueue::QueueSegment*, "System.Threading", "ThreadPoolWorkQueue/QueueSegment");
-// Writing includes for template specializations
-#include "System/Threading/IThreadPoolWorkItem.hpp"
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueue::QueueSegment::GetIndexes
 // Il2CppName: GetIndexes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ThreadPoolWorkQueue::QueueSegment::*)(int&, int&)>(&System::Threading::ThreadPoolWorkQueue::QueueSegment::GetIndexes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPoolWorkQueue::QueueSegment*), "GetIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    static auto* upper = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* lower = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPoolWorkQueue::QueueSegment*), "GetIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{upper, lower});
   }
 };
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueue::QueueSegment::CompareExchangeIndexes
@@ -92,7 +92,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ThreadPoolWorkQueue::QueueSegment::*)(int&, int, int&, int)>(&System::Threading::ThreadPoolWorkQueue::QueueSegment::CompareExchangeIndexes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPoolWorkQueue::QueueSegment*), "CompareExchangeIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* prevUpper = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* newUpper = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* prevLower = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* newLower = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPoolWorkQueue::QueueSegment*), "CompareExchangeIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prevUpper, newUpper, prevLower, newLower});
   }
 };
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueue::QueueSegment::IsUsedUp
@@ -108,7 +112,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ThreadPoolWorkQueue::QueueSegment::*)(System::Threading::IThreadPoolWorkItem*)>(&System::Threading::ThreadPoolWorkQueue::QueueSegment::TryEnqueue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPoolWorkQueue::QueueSegment*), "TryEnqueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::IThreadPoolWorkItem*>()});
+    static auto* node = &::il2cpp_utils::GetClassFromName("System.Threading", "IThreadPoolWorkItem")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPoolWorkQueue::QueueSegment*), "TryEnqueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
   }
 };
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueue::QueueSegment::TryDequeue
@@ -116,7 +121,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ThreadPoolWorkQueue::QueueSegment::*)(System::Threading::IThreadPoolWorkItem*&)>(&System::Threading::ThreadPoolWorkQueue::QueueSegment::TryDequeue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPoolWorkQueue::QueueSegment*), "TryDequeue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::IThreadPoolWorkItem*&>()});
+    static auto* node = &::il2cpp_utils::GetClassFromName("System.Threading", "IThreadPoolWorkItem")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ThreadPoolWorkQueue::QueueSegment*), "TryDequeue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
   }
 };
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueue::QueueSegment::New_ctor

@@ -163,14 +163,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(LoadingControl) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LoadingControl*, "", "LoadingControl");
-// Writing includes for template specializations
-#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LoadingControl::add_didPressRefreshButtonEvent
 // Il2CppName: add_didPressRefreshButtonEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LoadingControl::*)(System::Action*)>(&GlobalNamespace::LoadingControl::add_didPressRefreshButtonEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LoadingControl*), "add_didPressRefreshButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LoadingControl*), "add_didPressRefreshButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LoadingControl::remove_didPressRefreshButtonEvent
@@ -178,7 +177,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LoadingControl::*)(System::Action*)>(&GlobalNamespace::LoadingControl::remove_didPressRefreshButtonEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LoadingControl*), "remove_didPressRefreshButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LoadingControl*), "remove_didPressRefreshButtonEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LoadingControl::get_isLoading
@@ -210,7 +210,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LoadingControl::*)(::Il2CppString*)>(&GlobalNamespace::LoadingControl::ShowLoading)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LoadingControl*), "ShowLoading", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LoadingControl*), "ShowLoading", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LoadingControl::ShowText
@@ -218,7 +219,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LoadingControl::*)(::Il2CppString*, bool)>(&GlobalNamespace::LoadingControl::ShowText)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LoadingControl*), "ShowText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* showRefreshButton = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LoadingControl*), "ShowText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text, showRefreshButton});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LoadingControl::ShowDownloadingProgress
@@ -226,7 +229,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LoadingControl::*)(::Il2CppString*, float)>(&GlobalNamespace::LoadingControl::ShowDownloadingProgress)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LoadingControl*), "ShowDownloadingProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* downloadingProgress = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LoadingControl*), "ShowDownloadingProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text, downloadingProgress});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LoadingControl::Hide

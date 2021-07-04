@@ -49,14 +49,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(QuickPlaySongPacksDropdown::$$c__DisplayClass13_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlaySongPacksDropdown::$$c__DisplayClass13_0*, "", "QuickPlaySongPacksDropdown/<>c__DisplayClass13_0");
-// Writing includes for template specializations
-#include "GlobalNamespace/QuickPlaySongPacksDropdown_SongPackMaskItem.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlaySongPacksDropdown::$$c__DisplayClass13_0::$SelectCellWithSerializedName$b__0
 // Il2CppName: <SelectCellWithSerializedName>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::QuickPlaySongPacksDropdown::$$c__DisplayClass13_0::*)(GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*)>(&GlobalNamespace::QuickPlaySongPacksDropdown::$$c__DisplayClass13_0::$SelectCellWithSerializedName$b__0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlaySongPacksDropdown::$$c__DisplayClass13_0*), "<SelectCellWithSerializedName>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*>()});
+    static auto* item = &::il2cpp_utils::GetClassFromName("", "QuickPlaySongPacksDropdown/SongPackMaskItem")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::QuickPlaySongPacksDropdown::$$c__DisplayClass13_0*), "<SelectCellWithSerializedName>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{item});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlaySongPacksDropdown::$$c__DisplayClass13_0::New_ctor

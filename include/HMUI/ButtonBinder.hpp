@@ -95,10 +95,6 @@ namespace HMUI {
   static_assert(sizeof(ButtonBinder) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ButtonBinder*, "HMUI", "ButtonBinder");
-// Writing includes for template specializations
-#include "UnityEngine/UI/Button.hpp"
-#include "System/Action.hpp"
-#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: HMUI::ButtonBinder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -120,7 +116,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ButtonBinder::*)(System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button*, System::Action*>*>*)>(&HMUI::ButtonBinder::AddBindings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::ButtonBinder*), "AddBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button*, System::Action*>*>*>()});
+    static auto* bindingData = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Tuple`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Button"), ::il2cpp_utils::GetClassFromName("System", "Action")})})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ButtonBinder*), "AddBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindingData});
   }
 };
 // Writing MetadataGetter for method: HMUI::ButtonBinder::AddBinding
@@ -128,7 +125,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ButtonBinder::*)(UnityEngine::UI::Button*, System::Action*)>(&HMUI::ButtonBinder::AddBinding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::ButtonBinder*), "AddBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Button*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    static auto* button = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Button")->byval_arg;
+    static auto* action = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ButtonBinder*), "AddBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{button, action});
   }
 };
 // Writing MetadataGetter for method: HMUI::ButtonBinder::ClearBindings

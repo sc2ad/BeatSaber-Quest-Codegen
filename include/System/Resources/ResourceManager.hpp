@@ -203,9 +203,6 @@ namespace System::Resources {
   static_assert(sizeof(ResourceManager) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceManager*, "System.Resources", "ResourceManager");
-// Writing includes for template specializations
-#include "System/Runtime/Serialization/StreamingContext.hpp"
-#include "System/Reflection/AssemblyName.hpp"
 // Writing MetadataGetter for method: System::Resources::ResourceManager::Init
 // Il2CppName: Init
 template<>
@@ -219,7 +216,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Resources::ResourceManager::*)(System::Runtime::Serialization::StreamingContext)>(&System::Resources::ResourceManager::OnDeserializing)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceManager*), "OnDeserializing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    static auto* ctx = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceManager*), "OnDeserializing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ctx});
   }
 };
 // Writing MetadataGetter for method: System::Resources::ResourceManager::OnDeserialized
@@ -227,7 +225,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Resources::ResourceManager::*)(System::Runtime::Serialization::StreamingContext)>(&System::Resources::ResourceManager::OnDeserialized)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceManager*), "OnDeserialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    static auto* ctx = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceManager*), "OnDeserialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ctx});
   }
 };
 // Writing MetadataGetter for method: System::Resources::ResourceManager::OnSerializing
@@ -235,7 +234,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Resources::ResourceManager::*)(System::Runtime::Serialization::StreamingContext)>(&System::Resources::ResourceManager::OnSerializing)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceManager*), "OnSerializing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    static auto* ctx = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceManager*), "OnSerializing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ctx});
   }
 };
 // Writing MetadataGetter for method: System::Resources::ResourceManager::CompareNames
@@ -243,7 +243,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*, System::Reflection::AssemblyName*)>(&System::Resources::ResourceManager::CompareNames)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceManager*), "CompareNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::AssemblyName*>()});
+    static auto* asmTypeName1 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* typeName2 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* asmName2 = &::il2cpp_utils::GetClassFromName("System.Reflection", "AssemblyName")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::ResourceManager*), "CompareNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asmTypeName1, typeName2, asmName2});
   }
 };
 // Writing MetadataGetter for method: System::Resources::ResourceManager::_cctor

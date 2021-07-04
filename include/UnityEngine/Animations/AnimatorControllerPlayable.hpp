@@ -82,7 +82,6 @@ namespace UnityEngine::Animations {
   static_assert(sizeof(AnimatorControllerPlayable) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Animations::AnimatorControllerPlayable, "UnityEngine.Animations", "AnimatorControllerPlayable");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimatorControllerPlayable::AnimatorControllerPlayable
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -100,7 +99,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Animations::AnimatorControllerPlayable::*)(UnityEngine::Playables::PlayableHandle)>(&UnityEngine::Animations::AnimatorControllerPlayable::SetHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimatorControllerPlayable), "SetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableHandle>()});
+    static auto* handle = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableHandle")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimatorControllerPlayable), "SetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimatorControllerPlayable::Equals
@@ -108,7 +108,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Animations::AnimatorControllerPlayable::*)(UnityEngine::Animations::AnimatorControllerPlayable)>(&UnityEngine::Animations::AnimatorControllerPlayable::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimatorControllerPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Animations::AnimatorControllerPlayable>()});
+    static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine.Animations", "AnimatorControllerPlayable")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animations::AnimatorControllerPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Animations::AnimatorControllerPlayable::_cctor

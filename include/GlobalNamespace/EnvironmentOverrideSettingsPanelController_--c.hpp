@@ -61,8 +61,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentOverrideSettingsPanelController::$$c*, "", "EnvironmentOverrideSettingsPanelController/<>c");
-// Writing includes for template specializations
-#include "GlobalNamespace/EnvironmentInfoSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentOverrideSettingsPanelController::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -76,7 +74,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::EnvironmentOverrideSettingsPanelController::$$c::*)(GlobalNamespace::EnvironmentInfoSO*)>(&GlobalNamespace::EnvironmentOverrideSettingsPanelController::$$c::$SetData$b__11_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentOverrideSettingsPanelController::$$c*), "<SetData>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnvironmentInfoSO*>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("", "EnvironmentInfoSO")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentOverrideSettingsPanelController::$$c*), "<SetData>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentOverrideSettingsPanelController::$$c::New_ctor

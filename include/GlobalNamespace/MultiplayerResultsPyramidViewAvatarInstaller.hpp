@@ -60,7 +60,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerResultsPyramidViewAvatarInstaller) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsPyramidViewAvatarInstaller*, "", "MultiplayerResultsPyramidViewAvatarInstaller");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsPyramidViewAvatarInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>

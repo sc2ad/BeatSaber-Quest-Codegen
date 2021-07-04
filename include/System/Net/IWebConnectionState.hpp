@@ -34,7 +34,6 @@ namespace System::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IWebConnectionState*, "System.Net", "IWebConnectionState");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::IWebConnectionState::get_Group
 // Il2CppName: get_Group
 template<>

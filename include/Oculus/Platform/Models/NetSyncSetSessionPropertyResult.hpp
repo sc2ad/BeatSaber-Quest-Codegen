@@ -50,7 +50,6 @@ namespace Oculus::Platform::Models {
   static_assert(sizeof(NetSyncSetSessionPropertyResult) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::NetSyncSetSessionPropertyResult*, "Oculus.Platform.Models", "NetSyncSetSessionPropertyResult");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::Models::NetSyncSetSessionPropertyResult::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

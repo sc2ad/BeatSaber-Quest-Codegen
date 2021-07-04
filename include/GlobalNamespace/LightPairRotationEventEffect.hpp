@@ -183,9 +183,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(LightPairRotationEventEffect) == 0x74);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightPairRotationEventEffect*, "", "LightPairRotationEventEffect");
-// Writing includes for template specializations
-#include "GlobalNamespace/BeatmapEventData.hpp"
-#include "GlobalNamespace/LightPairRotationEventEffect_RotationData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightPairRotationEventEffect::Start
 // Il2CppName: Start
 template<>
@@ -215,7 +212,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightPairRotationEventEffect::*)(GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::LightPairRotationEventEffect::HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightPairRotationEventEffect*), "HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
+    static auto* beatmapEventData = &::il2cpp_utils::GetClassFromName("", "BeatmapEventData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightPairRotationEventEffect*), "HandleBeatmapObjectCallbackControllerBeatmapEventDidTrigger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventData});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LightPairRotationEventEffect::UpdateRotationData
@@ -223,7 +221,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightPairRotationEventEffect::*)(int, GlobalNamespace::LightPairRotationEventEffect::RotationData*, float, float)>(&GlobalNamespace::LightPairRotationEventEffect::UpdateRotationData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightPairRotationEventEffect*), "UpdateRotationData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LightPairRotationEventEffect::RotationData*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* beatmapEventDataValue = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* rotationData = &::il2cpp_utils::GetClassFromName("", "LightPairRotationEventEffect/RotationData")->byval_arg;
+    static auto* startRotationOffset = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* direction = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightPairRotationEventEffect*), "UpdateRotationData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventDataValue, rotationData, startRotationOffset, direction});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LightPairRotationEventEffect::New_ctor

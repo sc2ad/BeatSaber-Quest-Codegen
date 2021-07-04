@@ -90,8 +90,6 @@ namespace HMUI {
   static_assert(sizeof(CircleTouchable) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::CircleTouchable*, "HMUI", "CircleTouchable");
-// Writing includes for template specializations
-#include "UnityEngine/Camera.hpp"
 // Writing MetadataGetter for method: HMUI::CircleTouchable::UpdateCachedReferences
 // Il2CppName: UpdateCachedReferences
 template<>
@@ -113,7 +111,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::CircleTouchable::*)(UnityEngine::Vector3, float, int)>(&HMUI::CircleTouchable::DrawGizmoCircle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleTouchable*), "DrawGizmoCircle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* center = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* steps = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleTouchable*), "DrawGizmoCircle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{center, radius, steps});
   }
 };
 // Writing MetadataGetter for method: HMUI::CircleTouchable::OnEnable
@@ -129,7 +130,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI::CircleTouchable::*)(UnityEngine::Vector2, UnityEngine::Camera*)>(&HMUI::CircleTouchable::Raycast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleTouchable*), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    static auto* sp = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* eventCamera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(HMUI::CircleTouchable*), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sp, eventCamera});
   }
 };
 // Writing MetadataGetter for method: HMUI::CircleTouchable::New_ctor

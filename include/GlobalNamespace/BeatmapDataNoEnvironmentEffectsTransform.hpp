@@ -43,14 +43,13 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataNoEnvironmentEffectsTransform*, "", "BeatmapDataNoEnvironmentEffectsTransform");
-// Writing includes for template specializations
-#include "GlobalNamespace/IReadonlyBeatmapData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataNoEnvironmentEffectsTransform::CreateTransformedData
 // Il2CppName: CreateTransformedData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapData* (*)(GlobalNamespace::IReadonlyBeatmapData*)>(&GlobalNamespace::BeatmapDataNoEnvironmentEffectsTransform::CreateTransformedData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataNoEnvironmentEffectsTransform*), "CreateTransformedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IReadonlyBeatmapData*>()});
+    static auto* beatmapData = &::il2cpp_utils::GetClassFromName("", "IReadonlyBeatmapData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataNoEnvironmentEffectsTransform*), "CreateTransformedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapData});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataNoEnvironmentEffectsTransform::New_ctor

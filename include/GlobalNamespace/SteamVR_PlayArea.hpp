@@ -181,14 +181,14 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_PlayArea*, "", "SteamVR_PlayArea");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_PlayArea::Size, "", "SteamVR_PlayArea/Size");
-// Writing includes for template specializations
-#include "Valve/VR/HmdQuad_t.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_PlayArea::GetBounds
 // Il2CppName: GetBounds
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::SteamVR_PlayArea::Size, Valve::VR::HmdQuad_t&)>(&GlobalNamespace::SteamVR_PlayArea::GetBounds)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_PlayArea*), "GetBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SteamVR_PlayArea::Size>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdQuad_t&>()});
+    static auto* size = &::il2cpp_utils::GetClassFromName("", "SteamVR_PlayArea/Size")->byval_arg;
+    static auto* pRect = &::il2cpp_utils::GetClassFromName("Valve.VR", "HmdQuad_t")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_PlayArea*), "GetBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size, pRect});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_PlayArea::BuildMesh

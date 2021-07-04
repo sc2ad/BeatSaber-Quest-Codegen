@@ -55,7 +55,6 @@ namespace Org::BouncyCastle::Asn1::TeleTrust {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::BrainpoolP512r1Holder*, "Org.BouncyCastle.Asn1.TeleTrust", "TeleTrusTNamedCurves/BrainpoolP512r1Holder");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTNamedCurves::BrainpoolP512r1Holder::_cctor
 // Il2CppName: .cctor
 template<>

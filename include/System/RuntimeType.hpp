@@ -811,25 +811,13 @@ namespace System {
   bool operator !=(System::RuntimeType* left, System::RuntimeType& right);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::RuntimeType*, "System", "RuntimeType");
-// Writing includes for template specializations
-#include "System/RuntimeType_MemberListType.hpp"
-#include "System/Reflection/RuntimeMethodInfo.hpp"
-#include "System/Reflection/CallingConventions.hpp"
-#include "System/Reflection/RuntimeConstructorInfo.hpp"
-#include "System/Reflection/MethodBase.hpp"
-#include "System/Runtime/Serialization/SerializationInfo.hpp"
-#include "System/Reflection/Binder.hpp"
-#include "System/Globalization/CultureInfo.hpp"
-#include "System/Threading/StackCrawlMark.hpp"
-#include "System/TypeNameKind.hpp"
-#include "System/Guid.hpp"
-#include "System/Reflection/MemberTypes.hpp"
 // Writing MetadataGetter for method: System::RuntimeType::ThrowIfTypeNeverValidGenericArgument
 // Il2CppName: ThrowIfTypeNeverValidGenericArgument
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::RuntimeType*)>(&System::RuntimeType::ThrowIfTypeNeverValidGenericArgument)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "ThrowIfTypeNeverValidGenericArgument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
+    static auto* type = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "ThrowIfTypeNeverValidGenericArgument", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::SanityCheckGenericArguments
@@ -837,7 +825,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<System::RuntimeType*>*, ::Array<System::RuntimeType*>*)>(&System::RuntimeType::SanityCheckGenericArguments)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "SanityCheckGenericArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::RuntimeType*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::RuntimeType*>*>()});
+    static auto* genericArguments = &classof(::Array<::Array<System::RuntimeType*>*>*)->byval_arg;
+    static auto* genericParamters = &classof(::Array<::Array<System::RuntimeType*>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "SanityCheckGenericArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{genericArguments, genericParamters});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::SplitName
@@ -845,7 +835,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*&, ::Il2CppString*&)>(&System::RuntimeType::SplitName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "SplitName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    static auto* fullname = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
+    static auto* ns = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "SplitName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fullname, name, ns});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::FilterHelper
@@ -853,7 +846,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::BindingFlags, ::Il2CppString*&, bool, bool&, bool&, System::RuntimeType::MemberListType&)>(&System::RuntimeType::FilterHelper)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "FilterHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType::MemberListType&>()});
+    static auto* bindingFlags = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
+    static auto* allowPrefixLookup = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* prefixLookup = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
+    static auto* ignoreCase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
+    static auto* listType = &::il2cpp_utils::GetClassFromName("System", "RuntimeType/MemberListType")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "FilterHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindingFlags, name, allowPrefixLookup, prefixLookup, ignoreCase, listType});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::FilterHelper
@@ -861,7 +860,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::BindingFlags, ::Il2CppString*&, bool&, System::RuntimeType::MemberListType&)>(&System::RuntimeType::FilterHelper)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "FilterHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType::MemberListType&>()});
+    static auto* bindingFlags = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
+    static auto* ignoreCase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
+    static auto* listType = &::il2cpp_utils::GetClassFromName("System", "RuntimeType/MemberListType")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "FilterHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindingFlags, name, ignoreCase, listType});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::FilterApplyPrefixLookup
@@ -869,7 +872,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::MemberInfo*, ::Il2CppString*, bool)>(&System::RuntimeType::FilterApplyPrefixLookup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "FilterApplyPrefixLookup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MemberInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* memberInfo = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* ignoreCase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "FilterApplyPrefixLookup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{memberInfo, name, ignoreCase});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::FilterApplyBase
@@ -877,7 +883,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::MemberInfo*, System::Reflection::BindingFlags, bool, bool, bool, ::Il2CppString*, bool)>(&System::RuntimeType::FilterApplyBase)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "FilterApplyBase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MemberInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* memberInfo = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
+    static auto* bindingFlags = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* isPublic = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* isNonProtectedInternal = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* isStatic = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* prefixLookup = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "FilterApplyBase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{memberInfo, bindingFlags, isPublic, isNonProtectedInternal, isStatic, name, prefixLookup});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::FilterApplyType
@@ -885,7 +898,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Reflection::BindingFlags, ::Il2CppString*, bool, ::Il2CppString*)>(&System::RuntimeType::FilterApplyType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "FilterApplyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    static auto* bindingFlags = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* prefixLookup = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* ns = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "FilterApplyType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, bindingFlags, name, prefixLookup, ns});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::FilterApplyMethodInfo
@@ -893,7 +911,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::RuntimeMethodInfo*, System::Reflection::BindingFlags, System::Reflection::CallingConventions, ::Array<System::Type*>*)>(&System::RuntimeType::FilterApplyMethodInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "FilterApplyMethodInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::RuntimeMethodInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::CallingConventions>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+    static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "RuntimeMethodInfo")->byval_arg;
+    static auto* bindingFlags = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* callConv = &::il2cpp_utils::GetClassFromName("System.Reflection", "CallingConventions")->byval_arg;
+    static auto* argumentTypes = &classof(::Array<::Array<System::Type*>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "FilterApplyMethodInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method, bindingFlags, callConv, argumentTypes});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::FilterApplyConstructorInfo
@@ -901,7 +923,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::RuntimeConstructorInfo*, System::Reflection::BindingFlags, System::Reflection::CallingConventions, ::Array<System::Type*>*)>(&System::RuntimeType::FilterApplyConstructorInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "FilterApplyConstructorInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::RuntimeConstructorInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::CallingConventions>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+    static auto* constructor = &::il2cpp_utils::GetClassFromName("System.Reflection", "RuntimeConstructorInfo")->byval_arg;
+    static auto* bindingFlags = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* callConv = &::il2cpp_utils::GetClassFromName("System.Reflection", "CallingConventions")->byval_arg;
+    static auto* argumentTypes = &classof(::Array<::Array<System::Type*>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "FilterApplyConstructorInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{constructor, bindingFlags, callConv, argumentTypes});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::FilterApplyMethodBase
@@ -909,7 +935,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::MethodBase*, System::Reflection::BindingFlags, System::Reflection::BindingFlags, System::Reflection::CallingConventions, ::Array<System::Type*>*)>(&System::RuntimeType::FilterApplyMethodBase)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "FilterApplyMethodBase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::CallingConventions>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+    static auto* methodBase = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase")->byval_arg;
+    static auto* methodFlags = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* bindingFlags = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* callConv = &::il2cpp_utils::GetClassFromName("System.Reflection", "CallingConventions")->byval_arg;
+    static auto* argumentTypes = &classof(::Array<::Array<System::Type*>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "FilterApplyMethodBase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{methodBase, methodFlags, bindingFlags, callConv, argumentTypes});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::IsSpecialSerializableType
@@ -925,7 +956,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType::ListBuilder_1<System::Reflection::MethodInfo*> (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::CallingConventions, ::Array<System::Type*>*, bool)>(&System::RuntimeType::GetMethodCandidates)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetMethodCandidates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::CallingConventions>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* callConv = &::il2cpp_utils::GetClassFromName("System.Reflection", "CallingConventions")->byval_arg;
+    static auto* types = &classof(::Array<::Array<System::Type*>*>*)->byval_arg;
+    static auto* allowPrefixLookup = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetMethodCandidates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, bindingAttr, callConv, types, allowPrefixLookup});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetConstructorCandidates
@@ -933,7 +969,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType::ListBuilder_1<System::Reflection::ConstructorInfo*> (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::CallingConventions, ::Array<System::Type*>*, bool)>(&System::RuntimeType::GetConstructorCandidates)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetConstructorCandidates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::CallingConventions>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* callConv = &::il2cpp_utils::GetClassFromName("System.Reflection", "CallingConventions")->byval_arg;
+    static auto* types = &classof(::Array<::Array<System::Type*>*>*)->byval_arg;
+    static auto* allowPrefixLookup = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetConstructorCandidates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, bindingAttr, callConv, types, allowPrefixLookup});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetPropertyCandidates
@@ -941,7 +982,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType::ListBuilder_1<System::Reflection::PropertyInfo*> (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, ::Array<System::Type*>*, bool)>(&System::RuntimeType::GetPropertyCandidates)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetPropertyCandidates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* types = &classof(::Array<::Array<System::Type*>*>*)->byval_arg;
+    static auto* allowPrefixLookup = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetPropertyCandidates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, bindingAttr, types, allowPrefixLookup});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetEventCandidates
@@ -949,7 +994,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType::ListBuilder_1<System::Reflection::EventInfo*> (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, bool)>(&System::RuntimeType::GetEventCandidates)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetEventCandidates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* allowPrefixLookup = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetEventCandidates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, bindingAttr, allowPrefixLookup});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetFieldCandidates
@@ -957,7 +1005,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType::ListBuilder_1<System::Reflection::FieldInfo*> (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, bool)>(&System::RuntimeType::GetFieldCandidates)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetFieldCandidates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* allowPrefixLookup = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetFieldCandidates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, bindingAttr, allowPrefixLookup});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetNestedTypeCandidates
@@ -965,7 +1016,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::RuntimeType::ListBuilder_1<System::Type*> (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, bool)>(&System::RuntimeType::GetNestedTypeCandidates)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetNestedTypeCandidates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* fullname = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* allowPrefixLookup = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetNestedTypeCandidates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fullname, bindingAttr, allowPrefixLookup});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetRuntimeModule
@@ -1013,7 +1067,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::RuntimeType::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::RuntimeType::GetObjectData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
+    static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{info, context});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::CreateInstanceCheckThis
@@ -1029,7 +1085,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::RuntimeType::*)(System::Reflection::BindingFlags, System::Reflection::Binder*, ::Array<::Il2CppObject*>*, System::Globalization::CultureInfo*, ::Array<::Il2CppObject*>*, System::Threading::StackCrawlMark&)>(&System::RuntimeType::CreateInstanceImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "CreateInstanceImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>()});
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* binder = &::il2cpp_utils::GetClassFromName("System.Reflection", "Binder")->byval_arg;
+    static auto* args = &classof(::Array<::Array<::Il2CppObject*>*>*)->byval_arg;
+    static auto* culture = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
+    static auto* activationAttributes = &classof(::Array<::Array<::Il2CppObject*>*>*)->byval_arg;
+    static auto* stackMark = &::il2cpp_utils::GetClassFromName("System.Threading", "StackCrawlMark")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "CreateInstanceImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindingAttr, binder, args, culture, activationAttributes, stackMark});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::CreateInstanceDefaultCtor
@@ -1037,7 +1099,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::RuntimeType::*)(bool, bool, bool, System::Threading::StackCrawlMark&)>(&System::RuntimeType::CreateInstanceDefaultCtor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "CreateInstanceDefaultCtor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>()});
+    static auto* publicOnly = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* skipCheckThis = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* fillCache = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* stackMark = &::il2cpp_utils::GetClassFromName("System.Threading", "StackCrawlMark")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "CreateInstanceDefaultCtor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{publicOnly, skipCheckThis, fillCache, stackMark});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetDefaultConstructor
@@ -1069,7 +1135,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::RuntimeType::*)(bool, bool, bool, System::Threading::StackCrawlMark&)>(&System::RuntimeType::CreateInstanceSlow)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "CreateInstanceSlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>()});
+    static auto* publicOnly = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* skipCheckThis = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* fillCache = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* stackMark = &::il2cpp_utils::GetClassFromName("System.Threading", "StackCrawlMark")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "CreateInstanceSlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{publicOnly, skipCheckThis, fillCache, stackMark});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::CreateInstanceMono
@@ -1077,7 +1147,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::RuntimeType::*)(bool)>(&System::RuntimeType::CreateInstanceMono)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "CreateInstanceMono", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* nonPublic = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "CreateInstanceMono", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nonPublic});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::CheckValue
@@ -1085,7 +1156,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::RuntimeType::*)(::Il2CppObject*, System::Reflection::Binder*, System::Globalization::CultureInfo*, System::Reflection::BindingFlags)>(&System::RuntimeType::CheckValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "CheckValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* binder = &::il2cpp_utils::GetClassFromName("System.Reflection", "Binder")->byval_arg;
+    static auto* culture = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
+    static auto* invokeAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "CheckValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, binder, culture, invokeAttr});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::TryConvertToType
@@ -1093,7 +1168,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::RuntimeType::*)(::Il2CppObject*, bool&)>(&System::RuntimeType::TryConvertToType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "TryConvertToType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* failed = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "TryConvertToType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, failed});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::IsConvertibleToPrimitiveType
@@ -1101,7 +1178,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, System::Type*)>(&System::RuntimeType::IsConvertibleToPrimitiveType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsConvertibleToPrimitiveType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* targetType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsConvertibleToPrimitiveType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, targetType});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetCachedName
@@ -1109,7 +1188,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::RuntimeType::*)(System::TypeNameKind)>(&System::RuntimeType::GetCachedName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetCachedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TypeNameKind>()});
+    static auto* kind = &::il2cpp_utils::GetClassFromName("System", "TypeNameKind")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetCachedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{kind});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::make_array_type
@@ -1117,7 +1197,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::RuntimeType::*)(int)>(&System::RuntimeType::make_array_type)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "make_array_type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* rank = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "make_array_type", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rank});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::make_byref_type
@@ -1133,7 +1214,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*)>(&System::RuntimeType::MakePointerType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "MakePointerType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "MakePointerType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::CreateInstanceForAnotherGenericParameter
@@ -1141,7 +1223,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, System::RuntimeType*)>(&System::RuntimeType::CreateInstanceForAnotherGenericParameter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "CreateInstanceForAnotherGenericParameter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
+    static auto* genericType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    static auto* genericArgument = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "CreateInstanceForAnotherGenericParameter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{genericType, genericArgument});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::MakeGenericType
@@ -1149,7 +1233,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*, ::Array<System::Type*>*)>(&System::RuntimeType::MakeGenericType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "MakeGenericType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+    static auto* gt = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    static auto* types = &classof(::Array<::Array<System::Type*>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "MakeGenericType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gt, types});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetMethodsByName_native
@@ -1157,7 +1243,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (System::RuntimeType::*)(System::IntPtr, System::Reflection::BindingFlags, bool)>(&System::RuntimeType::GetMethodsByName_native)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetMethodsByName_native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* namePtr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* ignoreCase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetMethodsByName_native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{namePtr, bindingAttr, ignoreCase});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetMethodsByName
@@ -1165,7 +1254,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::RuntimeMethodInfo*>* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, bool, System::RuntimeType*)>(&System::RuntimeType::GetMethodsByName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetMethodsByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* ignoreCase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* reflectedType = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetMethodsByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, bindingAttr, ignoreCase, reflectedType});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetPropertiesByName_native
@@ -1173,7 +1266,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (System::RuntimeType::*)(System::IntPtr, System::Reflection::BindingFlags, bool)>(&System::RuntimeType::GetPropertiesByName_native)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetPropertiesByName_native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* icase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetPropertiesByName_native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, bindingAttr, icase});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetConstructors_native
@@ -1181,7 +1277,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (System::RuntimeType::*)(System::Reflection::BindingFlags)>(&System::RuntimeType::GetConstructors_native)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetConstructors_native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetConstructors_native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindingAttr});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetConstructors_internal
@@ -1189,7 +1286,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::RuntimeConstructorInfo*>* (System::RuntimeType::*)(System::Reflection::BindingFlags, System::RuntimeType*)>(&System::RuntimeType::GetConstructors_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetConstructors_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* reflectedType = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetConstructors_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindingAttr, reflectedType});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetPropertiesByName
@@ -1197,7 +1296,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::RuntimePropertyInfo*>* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, bool, System::RuntimeType*)>(&System::RuntimeType::GetPropertiesByName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetPropertiesByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* icase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* reflectedType = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetPropertiesByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, bindingAttr, icase, reflectedType});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetTypeFromCLSIDImpl
@@ -1205,7 +1308,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Guid, ::Il2CppString*, bool)>(&System::RuntimeType::GetTypeFromCLSIDImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetTypeFromCLSIDImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* clsid = &::il2cpp_utils::GetClassFromName("System", "Guid")->byval_arg;
+    static auto* server = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* throwOnError = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetTypeFromCLSIDImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clsid, server, throwOnError});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetTypeCodeImplInternal
@@ -1213,7 +1319,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeCode (*)(System::Type*)>(&System::RuntimeType::GetTypeCodeImplInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetTypeCodeImplInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetTypeCodeImplInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::IsGenericCOMObjectImpl
@@ -1229,7 +1336,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*)>(&System::RuntimeType::CreateInstanceInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "CreateInstanceInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "CreateInstanceInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::getFullName
@@ -1237,7 +1345,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::RuntimeType::*)(bool, bool)>(&System::RuntimeType::getFullName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "getFullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* full_name = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* assembly_qualified = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "getFullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{full_name, assembly_qualified});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetGenericArgumentsInternal
@@ -1245,7 +1355,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (System::RuntimeType::*)(bool)>(&System::RuntimeType::GetGenericArgumentsInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetGenericArgumentsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* runtimeArray = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetGenericArgumentsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{runtimeArray});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetGenericParameterAttributes
@@ -1269,7 +1380,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (System::RuntimeType::*)(System::IntPtr, System::Reflection::BindingFlags)>(&System::RuntimeType::GetEvents_native)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetEvents_native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetEvents_native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, bindingAttr});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetFields_native
@@ -1277,7 +1390,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (System::RuntimeType::*)(System::IntPtr, System::Reflection::BindingFlags)>(&System::RuntimeType::GetFields_native)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetFields_native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetFields_native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, bindingAttr});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetFields_internal
@@ -1285,7 +1400,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::RuntimeFieldInfo*>* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, System::RuntimeType*)>(&System::RuntimeType::GetFields_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetFields_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* reflectedType = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetFields_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, bindingAttr, reflectedType});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetEvents_internal
@@ -1293,7 +1411,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::RuntimeEventInfo*>* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, System::RuntimeType*)>(&System::RuntimeType::GetEvents_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetEvents_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* reflectedType = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetEvents_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, bindingAttr, reflectedType});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetNestedTypes_native
@@ -1301,7 +1422,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (System::RuntimeType::*)(System::IntPtr, System::Reflection::BindingFlags)>(&System::RuntimeType::GetNestedTypes_native)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetNestedTypes_native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetNestedTypes_native", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, bindingAttr});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetNestedTypes_internal
@@ -1309,7 +1432,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::RuntimeType*>* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags)>(&System::RuntimeType::GetNestedTypes_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetNestedTypes_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+    static auto* displayName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetNestedTypes_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{displayName, bindingAttr});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::New_ctor
@@ -1321,7 +1446,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::MethodInfo*>* (System::RuntimeType::*)(System::Reflection::BindingFlags)>(&System::RuntimeType::GetMethods)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetMethods", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetMethods", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindingAttr});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetConstructors
@@ -1329,7 +1455,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::ConstructorInfo*>* (System::RuntimeType::*)(System::Reflection::BindingFlags)>(&System::RuntimeType::GetConstructors)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetConstructors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetConstructors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindingAttr});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetProperties
@@ -1337,7 +1464,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::PropertyInfo*>* (System::RuntimeType::*)(System::Reflection::BindingFlags)>(&System::RuntimeType::GetProperties)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindingAttr});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetFields
@@ -1345,7 +1473,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::FieldInfo*>* (System::RuntimeType::*)(System::Reflection::BindingFlags)>(&System::RuntimeType::GetFields)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetFields", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetFields", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindingAttr});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetMethodImpl
@@ -1353,7 +1482,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::Binder*, System::Reflection::CallingConventions, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&System::RuntimeType::GetMethodImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetMethodImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::CallingConventions>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* binder = &::il2cpp_utils::GetClassFromName("System.Reflection", "Binder")->byval_arg;
+    static auto* callConv = &::il2cpp_utils::GetClassFromName("System.Reflection", "CallingConventions")->byval_arg;
+    static auto* types = &classof(::Array<::Array<System::Type*>*>*)->byval_arg;
+    static auto* modifiers = &classof(::Array<::Array<System::Reflection::ParameterModifier>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetMethodImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, bindingAttr, binder, callConv, types, modifiers});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetConstructorImpl
@@ -1361,7 +1496,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::ConstructorInfo* (System::RuntimeType::*)(System::Reflection::BindingFlags, System::Reflection::Binder*, System::Reflection::CallingConventions, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&System::RuntimeType::GetConstructorImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetConstructorImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::CallingConventions>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>()});
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* binder = &::il2cpp_utils::GetClassFromName("System.Reflection", "Binder")->byval_arg;
+    static auto* callConvention = &::il2cpp_utils::GetClassFromName("System.Reflection", "CallingConventions")->byval_arg;
+    static auto* types = &classof(::Array<::Array<System::Type*>*>*)->byval_arg;
+    static auto* modifiers = &classof(::Array<::Array<System::Reflection::ParameterModifier>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetConstructorImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindingAttr, binder, callConvention, types, modifiers});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetPropertyImpl
@@ -1369,7 +1509,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::PropertyInfo* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::Binder*, System::Type*, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&System::RuntimeType::GetPropertyImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetPropertyImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* binder = &::il2cpp_utils::GetClassFromName("System.Reflection", "Binder")->byval_arg;
+    static auto* returnType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    static auto* types = &classof(::Array<::Array<System::Type*>*>*)->byval_arg;
+    static auto* modifiers = &classof(::Array<::Array<System::Reflection::ParameterModifier>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetPropertyImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, bindingAttr, binder, returnType, types, modifiers});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetEvent
@@ -1377,7 +1523,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::EventInfo* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags)>(&System::RuntimeType::GetEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, bindingAttr});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetField
@@ -1385,7 +1533,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::FieldInfo* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags)>(&System::RuntimeType::GetField)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, bindingAttr});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetNestedType
@@ -1393,7 +1543,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags)>(&System::RuntimeType::GetNestedType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetNestedType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+    static auto* fullname = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetNestedType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fullname, bindingAttr});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetMember
@@ -1401,7 +1553,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::MemberInfo*>* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::MemberTypes, System::Reflection::BindingFlags)>(&System::RuntimeType::GetMember)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetMember", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MemberTypes>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* type = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberTypes")->byval_arg;
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetMember", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, type, bindingAttr});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::get_Module
@@ -1433,7 +1588,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)(::Il2CppObject*)>(&System::RuntimeType::IsInstanceOfType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsInstanceOfType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* o = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsInstanceOfType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{o});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::IsSubclassOf
@@ -1441,7 +1597,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)(System::Type*)>(&System::RuntimeType::IsSubclassOf)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsSubclassOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsSubclassOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::IsAssignableFrom
@@ -1449,7 +1606,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)(System::Type*)>(&System::RuntimeType::IsAssignableFrom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsAssignableFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* c = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsAssignableFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::IsEquivalentTo
@@ -1457,7 +1615,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)(System::Type*)>(&System::RuntimeType::IsEquivalentTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsEquivalentTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* other = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsEquivalentTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::get_BaseType
@@ -1617,7 +1776,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)(::Il2CppObject*)>(&System::RuntimeType::IsEnumDefined)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsEnumDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsEnumDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetEnumName
@@ -1625,7 +1785,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::RuntimeType::*)(::Il2CppObject*)>(&System::RuntimeType::GetEnumName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetEnumName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetEnumName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetGenericArguments
@@ -1641,7 +1802,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::RuntimeType::*)(::Array<System::Type*>*)>(&System::RuntimeType::MakeGenericType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "MakeGenericType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+    static auto* instantiation = &classof(::Array<::Array<System::Type*>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "MakeGenericType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instantiation});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::get_IsGenericTypeDefinition
@@ -1689,7 +1851,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::RuntimeType::*)(::Il2CppString*, System::Reflection::BindingFlags, System::Reflection::Binder*, ::Il2CppObject*, ::Array<::Il2CppObject*>*, ::Array<System::Reflection::ParameterModifier>*, System::Globalization::CultureInfo*, ::Array<::Il2CppString*>*)>(&System::RuntimeType::InvokeMember)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "InvokeMember", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::Binder*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* bindingFlags = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* binder = &::il2cpp_utils::GetClassFromName("System.Reflection", "Binder")->byval_arg;
+    static auto* target = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* providedArgs = &classof(::Array<::Array<::Il2CppObject*>*>*)->byval_arg;
+    static auto* modifiers = &classof(::Array<::Array<System::Reflection::ParameterModifier>*>*)->byval_arg;
+    static auto* culture = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
+    static auto* namedParams = &classof(::Array<::Array<::Il2CppString*>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "InvokeMember", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, bindingFlags, binder, target, providedArgs, modifiers, culture, namedParams});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::Equals
@@ -1697,7 +1867,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)(::Il2CppObject*)>(&System::RuntimeType::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetCustomAttributes
@@ -1705,7 +1876,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::RuntimeType::*)(bool)>(&System::RuntimeType::GetCustomAttributes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inherit});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetCustomAttributes
@@ -1713,7 +1885,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::RuntimeType::*)(System::Type*, bool)>(&System::RuntimeType::GetCustomAttributes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attributeType, inherit});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::IsDefined
@@ -1721,7 +1895,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeType::*)(System::Type*, bool)>(&System::RuntimeType::IsDefined)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "IsDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attributeType, inherit});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::GetCustomAttributesData
@@ -1737,7 +1913,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::RuntimeType::*)(bool)>(&System::RuntimeType::FormatTypeName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "FormatTypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* serialization = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "FormatTypeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serialization});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::get_MemberType
@@ -1777,7 +1954,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::RuntimeType::*)(int)>(&System::RuntimeType::MakeArrayType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "MakeArrayType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* rank = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeType*), "MakeArrayType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rank});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeType::MakeByRefType

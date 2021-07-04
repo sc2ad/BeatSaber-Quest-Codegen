@@ -77,7 +77,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(SteamVR_RenderModel::$FreeRenderModel$d__24) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_RenderModel::$FreeRenderModel$d__24*, "", "SteamVR_RenderModel/<FreeRenderModel>d__24");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_RenderModel::$FreeRenderModel$d__24::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

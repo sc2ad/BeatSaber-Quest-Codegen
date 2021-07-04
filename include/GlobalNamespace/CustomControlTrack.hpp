@@ -37,7 +37,6 @@ namespace GlobalNamespace {
   }; // CustomControlTrack
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomControlTrack*, "", "CustomControlTrack");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::CustomControlTrack::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

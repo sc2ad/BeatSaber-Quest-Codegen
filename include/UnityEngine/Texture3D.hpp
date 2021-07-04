@@ -97,13 +97,19 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Texture3D*, "UnityEngine", "Texture3D");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Texture3D::Internal_CreateImpl
 // Il2CppName: Internal_CreateImpl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Texture3D*, int, int, int, int, UnityEngine::Experimental::Rendering::GraphicsFormat, UnityEngine::Experimental::Rendering::TextureCreationFlags)>(&UnityEngine::Texture3D::Internal_CreateImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture3D*), "Internal_CreateImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture3D*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::GraphicsFormat>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::TextureCreationFlags>()});
+    static auto* mono = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture3D")->byval_arg;
+    static auto* w = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* d = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* mipCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.Rendering", "GraphicsFormat")->byval_arg;
+    static auto* flags = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.Rendering", "TextureCreationFlags")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture3D*), "Internal_CreateImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mono, w, h, d, mipCount, format, flags});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Texture3D::Internal_Create
@@ -111,7 +117,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture3D*, int, int, int, int, UnityEngine::Experimental::Rendering::GraphicsFormat, UnityEngine::Experimental::Rendering::TextureCreationFlags)>(&UnityEngine::Texture3D::Internal_Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture3D*), "Internal_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture3D*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::GraphicsFormat>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::TextureCreationFlags>()});
+    static auto* mono = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture3D")->byval_arg;
+    static auto* w = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* d = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* mipCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.Rendering", "GraphicsFormat")->byval_arg;
+    static auto* flags = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.Rendering", "TextureCreationFlags")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture3D*), "Internal_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mono, w, h, d, mipCount, format, flags});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Texture3D::ApplyImpl
@@ -119,7 +132,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Texture3D::*)(bool, bool)>(&UnityEngine::Texture3D::ApplyImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture3D*), "ApplyImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* updateMipmaps = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* makeNoLongerReadable = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture3D*), "ApplyImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{updateMipmaps, makeNoLongerReadable});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Texture3D::SetPixels32
@@ -127,7 +142,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Texture3D::*)(::Array<UnityEngine::Color32>*, int)>(&UnityEngine::Texture3D::SetPixels32)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture3D*), "SetPixels32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Color32>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* colors = &classof(::Array<::Array<UnityEngine::Color32>*>*)->byval_arg;
+    static auto* miplevel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture3D*), "SetPixels32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colors, miplevel});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Texture3D::SetPixels32
@@ -135,7 +152,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Texture3D::*)(::Array<UnityEngine::Color32>*)>(&UnityEngine::Texture3D::SetPixels32)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture3D*), "SetPixels32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Color32>*>()});
+    static auto* colors = &classof(::Array<::Array<UnityEngine::Color32>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture3D*), "SetPixels32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colors});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Texture3D::New_ctor
@@ -163,7 +181,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Texture3D::*)(bool, bool)>(&UnityEngine::Texture3D::Apply)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture3D*), "Apply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* updateMipmaps = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* makeNoLongerReadable = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture3D*), "Apply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{updateMipmaps, makeNoLongerReadable});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Texture3D::Apply

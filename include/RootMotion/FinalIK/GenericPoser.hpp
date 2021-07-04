@@ -87,7 +87,6 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(GenericPoser) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GenericPoser*, "RootMotion.FinalIK", "GenericPoser");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::GenericPoser::StoreDefaultState
 // Il2CppName: StoreDefaultState
 template<>
@@ -101,7 +100,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (RootMotion::FinalIK::GenericPoser::*)(::Il2CppString*, ::Array<UnityEngine::Transform*>*)>(&RootMotion::FinalIK::GenericPoser::GetTargetNamed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::GenericPoser*), "GetTargetNamed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>()});
+    static auto* tName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* array = &classof(::Array<::Array<UnityEngine::Transform*>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::GenericPoser*), "GetTargetNamed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tName, array});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::GenericPoser::AutoMapping

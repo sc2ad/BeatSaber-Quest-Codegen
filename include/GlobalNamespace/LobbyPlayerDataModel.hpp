@@ -81,7 +81,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(LobbyPlayerDataModel) == 0x2F);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyPlayerDataModel*, "", "LobbyPlayerDataModel");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::LobbyPlayerDataModel::get_isActive
 // Il2CppName: get_isActive
 template<>
@@ -95,7 +94,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyPlayerDataModel::*)(bool)>(&GlobalNamespace::LobbyPlayerDataModel::set_isActive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyPlayerDataModel*), "set_isActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyPlayerDataModel*), "set_isActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LobbyPlayerDataModel::get_isReady
@@ -111,7 +111,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyPlayerDataModel::*)(bool)>(&GlobalNamespace::LobbyPlayerDataModel::set_isReady)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyPlayerDataModel*), "set_isReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyPlayerDataModel*), "set_isReady", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LobbyPlayerDataModel::get_isInLobby
@@ -127,7 +128,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LobbyPlayerDataModel::*)(bool)>(&GlobalNamespace::LobbyPlayerDataModel::set_isInLobby)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyPlayerDataModel*), "set_isInLobby", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyPlayerDataModel*), "set_isInLobby", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LobbyPlayerDataModel::New_ctor

@@ -197,10 +197,6 @@ namespace System {
   bool operator ==(const System::DateTimeOffset& left, const System::DateTimeOffset& right);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeOffset, "System", "DateTimeOffset");
-// Writing includes for template specializations
-#include "System/Runtime/Serialization/SerializationInfo.hpp"
-#include "System/IFormatProvider.hpp"
-#include "System/Globalization/DateTimeStyles.hpp"
 // Writing MetadataGetter for method: System::DateTimeOffset::DateTimeOffset
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -238,7 +234,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::DateTimeOffset::*)(::Il2CppObject*)>(&System::DateTimeOffset::System_IComparable_CompareTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DateTimeOffset), "System.IComparable.CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::DateTimeOffset), "System.IComparable.CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
 // Writing MetadataGetter for method: System::DateTimeOffset::CompareTo
@@ -246,7 +243,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::DateTimeOffset::*)(System::DateTimeOffset)>(&System::DateTimeOffset::CompareTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DateTimeOffset), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTimeOffset>()});
+    static auto* other = &::il2cpp_utils::GetClassFromName("System", "DateTimeOffset")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::DateTimeOffset), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
 // Writing MetadataGetter for method: System::DateTimeOffset::Equals
@@ -254,7 +252,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::DateTimeOffset::*)(System::DateTimeOffset)>(&System::DateTimeOffset::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DateTimeOffset), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTimeOffset>()});
+    static auto* other = &::il2cpp_utils::GetClassFromName("System", "DateTimeOffset")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::DateTimeOffset), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
 // Writing MetadataGetter for method: System::DateTimeOffset::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization
@@ -262,7 +261,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::DateTimeOffset::*)(::Il2CppObject*)>(&System::DateTimeOffset::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DateTimeOffset), "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* sender = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::DateTimeOffset), "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sender});
   }
 };
 // Writing MetadataGetter for method: System::DateTimeOffset::System_Runtime_Serialization_ISerializable_GetObjectData
@@ -270,7 +270,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::DateTimeOffset::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::DateTimeOffset::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DateTimeOffset), "System.Runtime.Serialization.ISerializable.GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
+    static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::DateTimeOffset), "System.Runtime.Serialization.ISerializable.GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{info, context});
   }
 };
 // Writing MetadataGetter for method: System::DateTimeOffset::DateTimeOffset
@@ -290,7 +292,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::DateTimeOffset::*)(::Il2CppString*, System::IFormatProvider*)>(&System::DateTimeOffset::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DateTimeOffset), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* formatProvider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::DateTimeOffset), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format, formatProvider});
   }
 };
 // Writing MetadataGetter for method: System::DateTimeOffset::TryParseExact
@@ -298,7 +302,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Array<::Il2CppString*>*, System::IFormatProvider*, System::Globalization::DateTimeStyles, System::DateTimeOffset&)>(&System::DateTimeOffset::TryParseExact)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DateTimeOffset), "TryParseExact", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::DateTimeStyles>(), ::il2cpp_utils::ExtractIndependentType<System::DateTimeOffset&>()});
+    static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* formats = &classof(::Array<::Array<::Il2CppString*>*>*)->byval_arg;
+    static auto* formatProvider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
+    static auto* styles = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeStyles")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "DateTimeOffset")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::DateTimeOffset), "TryParseExact", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, formats, formatProvider, styles, result});
   }
 };
 // Writing MetadataGetter for method: System::DateTimeOffset::ValidateOffset
@@ -306,7 +315,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(System::TimeSpan)>(&System::DateTimeOffset::ValidateOffset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DateTimeOffset), "ValidateOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::DateTimeOffset), "ValidateOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{offset});
   }
 };
 // Writing MetadataGetter for method: System::DateTimeOffset::ValidateDate
@@ -314,7 +324,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::DateTime (*)(System::DateTime, System::TimeSpan)>(&System::DateTimeOffset::ValidateDate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DateTimeOffset), "ValidateDate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
+    static auto* dateTime = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::DateTimeOffset), "ValidateDate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dateTime, offset});
   }
 };
 // Writing MetadataGetter for method: System::DateTimeOffset::ValidateStyles
@@ -322,7 +334,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::DateTimeStyles (*)(System::Globalization::DateTimeStyles, ::Il2CppString*)>(&System::DateTimeOffset::ValidateStyles)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DateTimeOffset), "ValidateStyles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::DateTimeStyles>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* style = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeStyles")->byval_arg;
+    static auto* parameterName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::DateTimeOffset), "ValidateStyles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{style, parameterName});
   }
 };
 // Writing MetadataGetter for method: System::DateTimeOffset::_cctor
@@ -338,7 +352,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::DateTimeOffset::*)(::Il2CppObject*)>(&System::DateTimeOffset::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DateTimeOffset), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::DateTimeOffset), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
 // Writing MetadataGetter for method: System::DateTimeOffset::GetHashCode

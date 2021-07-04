@@ -78,8 +78,6 @@ namespace Mono::Security::X509 {
   static_assert(sizeof(X509ExtensionCollection) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509ExtensionCollection*, "Mono.Security.X509", "X509ExtensionCollection");
-// Writing includes for template specializations
-#include "Mono/Security/ASN1.hpp"
 // Writing MetadataGetter for method: Mono::Security::X509::X509ExtensionCollection::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -89,7 +87,8 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509ExtensionCollection*, "Mono.Sec
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Security::X509::X509ExtensionCollection::*)(::Il2CppString*)>(&Mono::Security::X509::X509ExtensionCollection::IndexOf)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509ExtensionCollection*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* oid = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509ExtensionCollection*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{oid});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::X509::X509ExtensionCollection::System_Collections_IEnumerable_GetEnumerator
@@ -105,7 +104,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Extension* (Mono::Security::X509::X509ExtensionCollection::*)(::Il2CppString*)>(&Mono::Security::X509::X509ExtensionCollection::get_Item)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509ExtensionCollection*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* oid = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509ExtensionCollection*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{oid});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::X509::X509ExtensionCollection::New_ctor

@@ -25,13 +25,13 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapDataAssetsModel*, "", "BeatmapDataAssetsModel");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataAssetsModel::BeatmapLevelDataAssetNameForBeatmapLevel
 // Il2CppName: BeatmapLevelDataAssetNameForBeatmapLevel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&GlobalNamespace::BeatmapDataAssetsModel::BeatmapLevelDataAssetNameForBeatmapLevel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataAssetsModel*), "BeatmapLevelDataAssetNameForBeatmapLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* levelID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataAssetsModel*), "BeatmapLevelDataAssetNameForBeatmapLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelID});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataAssetsModel::AssetBundleNameForBeatmapLevel
@@ -39,6 +39,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&GlobalNamespace::BeatmapDataAssetsModel::AssetBundleNameForBeatmapLevel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataAssetsModel*), "AssetBundleNameForBeatmapLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* levelID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataAssetsModel*), "AssetBundleNameForBeatmapLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelID});
   }
 };

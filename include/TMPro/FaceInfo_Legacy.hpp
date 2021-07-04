@@ -159,7 +159,6 @@ namespace TMPro {
   static_assert(sizeof(FaceInfo_Legacy) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::FaceInfo_Legacy*, "TMPro", "FaceInfo_Legacy");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: TMPro::FaceInfo_Legacy::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

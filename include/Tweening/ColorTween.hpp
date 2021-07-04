@@ -79,9 +79,6 @@ namespace Tweening {
   }; // Tweening.ColorTween
 }
 DEFINE_IL2CPP_ARG_TYPE(Tweening::ColorTween*, "Tweening", "ColorTween");
-// Writing includes for template specializations
-#include "System/Action_1.hpp"
-#include "UnityEngine/AnimationCurve.hpp"
 // Writing MetadataGetter for method: Tweening::ColorTween::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -95,7 +92,8 @@ DEFINE_IL2CPP_ARG_TYPE(Tweening::ColorTween*, "Tweening", "ColorTween");
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (Tweening::ColorTween::*)(float)>(&Tweening::ColorTween::GetValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Tweening::ColorTween*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Tweening::ColorTween*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
 };
 // Writing MetadataGetter for method: Tweening::ColorTween::_cctor

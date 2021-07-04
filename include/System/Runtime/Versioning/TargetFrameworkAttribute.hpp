@@ -49,7 +49,6 @@ namespace System::Runtime::Versioning {
   static_assert(sizeof(TargetFrameworkAttribute) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Versioning::TargetFrameworkAttribute*, "System.Runtime.Versioning", "TargetFrameworkAttribute");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::Versioning::TargetFrameworkAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -59,6 +58,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Versioning::TargetFrameworkAttribute*, "
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Versioning::TargetFrameworkAttribute::*)(::Il2CppString*)>(&System::Runtime::Versioning::TargetFrameworkAttribute::set_FrameworkDisplayName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Versioning::TargetFrameworkAttribute*), "set_FrameworkDisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Versioning::TargetFrameworkAttribute*), "set_FrameworkDisplayName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };

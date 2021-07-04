@@ -358,8 +358,6 @@ namespace TMPro {
   static_assert(sizeof(TMP_Settings) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Settings*, "TMPro", "TMP_Settings");
-// Writing includes for template specializations
-#include "UnityEngine/TextAsset.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_Settings::get_version
 // Il2CppName: get_version
 template<>
@@ -437,7 +435,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&TMPro::TMP_Settings::set_missingGlyphCharacter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "set_missingGlyphCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "set_missingGlyphCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_Settings::get_warningsDisabled
@@ -565,7 +564,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&TMPro::TMP_Settings::set_enableEmojiSupport)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "set_enableEmojiSupport", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "set_enableEmojiSupport", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_Settings::get_defaultStyleSheet
@@ -661,7 +661,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>* (*)(UnityEngine::TextAsset*)>(&TMPro::TMP_Settings::GetCharacters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "GetCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextAsset*>()});
+    static auto* file = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextAsset")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Settings*), "GetCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{file});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_Settings::New_ctor

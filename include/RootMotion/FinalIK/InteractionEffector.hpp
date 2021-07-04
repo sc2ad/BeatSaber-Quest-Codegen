@@ -345,10 +345,6 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(InteractionEffector) == 0xC9);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionEffector*, "RootMotion.FinalIK", "InteractionEffector");
-// Writing includes for template specializations
-#include "RootMotion/FinalIK/InteractionObject.hpp"
-#include "RootMotion/FinalIK/InteractionSystem.hpp"
-#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionEffector::get_effectorType
 // Il2CppName: get_effectorType
 template<>
@@ -362,7 +358,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionEffector::*)(RootMotion::FinalIK::FullBodyBipedEffector)>(&RootMotion::FinalIK::InteractionEffector::set_effectorType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionEffector*), "set_effectorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::FullBodyBipedEffector>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "FullBodyBipedEffector")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionEffector*), "set_effectorType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionEffector::get_isPaused
@@ -378,7 +375,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionEffector::*)(bool)>(&RootMotion::FinalIK::InteractionEffector::set_isPaused)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionEffector*), "set_isPaused", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionEffector*), "set_isPaused", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionEffector::get_interactionObject
@@ -394,7 +392,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionEffector::*)(RootMotion::FinalIK::InteractionObject*)>(&RootMotion::FinalIK::InteractionEffector::set_interactionObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionEffector*), "set_interactionObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::InteractionObject*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "InteractionObject")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionEffector*), "set_interactionObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionEffector::get_inInteraction
@@ -414,7 +413,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionEffector::*)(RootMotion::FinalIK::InteractionSystem*)>(&RootMotion::FinalIK::InteractionEffector::Initiate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionEffector*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::InteractionSystem*>()});
+    static auto* interactionSystem = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "InteractionSystem")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionEffector*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{interactionSystem});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionEffector::StoreDefaults
@@ -430,7 +430,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionEffector::*)(float)>(&RootMotion::FinalIK::InteractionEffector::ResetToDefaults)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionEffector*), "ResetToDefaults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* speed = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionEffector*), "ResetToDefaults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{speed});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionEffector::Pause
@@ -454,7 +455,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::InteractionEffector::*)(RootMotion::FinalIK::InteractionObject*, ::Il2CppString*, float, bool)>(&RootMotion::FinalIK::InteractionEffector::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionEffector*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::InteractionObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* interactionObject = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "InteractionObject")->byval_arg;
+    static auto* tag = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* fadeInTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* interrupt = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionEffector*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{interactionObject, tag, fadeInTime, interrupt});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionEffector::Update
@@ -462,7 +467,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionEffector::*)(UnityEngine::Transform*, float)>(&RootMotion::FinalIK::InteractionEffector::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionEffector*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* root = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    static auto* speed = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionEffector*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{root, speed});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionEffector::get_progress
@@ -478,7 +485,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Root
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionEffector::*)(bool, bool&, bool&)>(&RootMotion::FinalIK::InteractionEffector::TriggerUntriggeredEvents)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionEffector*), "TriggerUntriggeredEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    static auto* checkTime = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* pickUp = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
+    static auto* pause = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionEffector*), "TriggerUntriggeredEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{checkTime, pickUp, pause});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionEffector::PickUp
@@ -486,7 +496,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::InteractionEffector::*)(UnityEngine::Transform*)>(&RootMotion::FinalIK::InteractionEffector::PickUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionEffector*), "PickUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    static auto* root = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionEffector*), "PickUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{root});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionEffector::Stop

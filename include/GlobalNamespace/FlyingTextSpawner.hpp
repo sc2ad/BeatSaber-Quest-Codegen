@@ -119,13 +119,16 @@ namespace GlobalNamespace {
   static_assert(sizeof(FlyingTextSpawner) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingTextSpawner*, "", "FlyingTextSpawner");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FlyingTextSpawner::SpawnText
 // Il2CppName: SpawnText
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingTextSpawner::*)(UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Quaternion, ::Il2CppString*)>(&GlobalNamespace::FlyingTextSpawner::SpawnText)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingTextSpawner*), "SpawnText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* pos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
+    static auto* inverseRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
+    static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingTextSpawner*), "SpawnText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pos, rotation, inverseRotation, text});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::FlyingTextSpawner::HandleFlyingObjectEffectDidFinish
@@ -133,7 +136,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingTextSpawner::*)(GlobalNamespace::FlyingObjectEffect*)>(&GlobalNamespace::FlyingTextSpawner::HandleFlyingObjectEffectDidFinish)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingTextSpawner*), "HandleFlyingObjectEffectDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::FlyingObjectEffect*>()});
+    static auto* flyingObjectEffect = &::il2cpp_utils::GetClassFromName("", "FlyingObjectEffect")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingTextSpawner*), "HandleFlyingObjectEffectDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flyingObjectEffect});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::FlyingTextSpawner::New_ctor

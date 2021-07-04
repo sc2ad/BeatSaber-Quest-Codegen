@@ -121,7 +121,6 @@ namespace ModestTree::Util {
   static_assert(sizeof(UnityUtil::$GetDirectChildrenAndSelf$d__20) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::Util::UnityUtil::$GetDirectChildrenAndSelf$d__20*, "ModestTree.Util", "UnityUtil/<GetDirectChildrenAndSelf>d__20");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: ModestTree::Util::UnityUtil::$GetDirectChildrenAndSelf$d__20::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

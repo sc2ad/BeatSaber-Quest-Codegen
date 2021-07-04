@@ -55,14 +55,13 @@ namespace System::Runtime::CompilerServices {
   static_assert(sizeof(StateMachineAttribute) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::StateMachineAttribute*, "System.Runtime.CompilerServices", "StateMachineAttribute");
-// Writing includes for template specializations
-#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::StateMachineAttribute::set_StateMachineType
 // Il2CppName: set_StateMachineType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::CompilerServices::StateMachineAttribute::*)(System::Type*)>(&System::Runtime::CompilerServices::StateMachineAttribute::set_StateMachineType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::StateMachineAttribute*), "set_StateMachineType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::StateMachineAttribute*), "set_StateMachineType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::StateMachineAttribute::New_ctor

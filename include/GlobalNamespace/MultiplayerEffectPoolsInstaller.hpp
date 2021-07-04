@@ -73,7 +73,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerEffectPoolsInstaller) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerEffectPoolsInstaller*, "", "MultiplayerEffectPoolsInstaller");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerEffectPoolsInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>

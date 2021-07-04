@@ -80,7 +80,6 @@ namespace System::Net::NetworkInformation {
   static_assert(sizeof(LinuxNetworkInterface) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::LinuxNetworkInterface*, "System.Net.NetworkInformation", "LinuxNetworkInterface");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::NetworkInformation::LinuxNetworkInterface::get_IfacePath
 // Il2CppName: get_IfacePath
 template<>
@@ -94,7 +93,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::Net::NetworkInformation::LinuxNetworkInterface::ReadLine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::LinuxNetworkInterface*), "ReadLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::LinuxNetworkInterface*), "ReadLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
   }
 };
 // Writing MetadataGetter for method: System::Net::NetworkInformation::LinuxNetworkInterface::New_ctor

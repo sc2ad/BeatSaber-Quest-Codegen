@@ -48,7 +48,6 @@ namespace GlobalNamespace {
   }; // NoTransitionButtonSelectableStateController
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoTransitionButtonSelectableStateController*, "", "NoTransitionButtonSelectableStateController");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::NoTransitionButtonSelectableStateController::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -70,7 +69,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoTransitionButtonSelectableStateController::*)(HMUI::NoTransitionsButton::SelectionState)>(&GlobalNamespace::NoTransitionButtonSelectableStateController::HandleNoTransitionButtonSelectionStateDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoTransitionButtonSelectableStateController*), "HandleNoTransitionButtonSelectionStateDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::NoTransitionsButton::SelectionState>()});
+    static auto* state = &::il2cpp_utils::GetClassFromName("HMUI", "NoTransitionsButton/SelectionState")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoTransitionButtonSelectableStateController*), "HandleNoTransitionButtonSelectionStateDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::NoTransitionButtonSelectableStateController::New_ctor

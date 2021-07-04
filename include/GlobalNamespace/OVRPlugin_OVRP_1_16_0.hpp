@@ -67,11 +67,6 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_16_0*, "", "OVRPlugin/OVRP_1_16_0");
-// Writing includes for template specializations
-#include "GlobalNamespace/OVRPlugin_CameraDevice.hpp"
-#include "GlobalNamespace/OVRPlugin_Sizei.hpp"
-#include "System/IntPtr.hpp"
-#include "GlobalNamespace/OVRPlugin_ControllerState4.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_UpdateCameraDevices
 // Il2CppName: ovrp_UpdateCameraDevices
 template<>
@@ -85,7 +80,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::CameraDevice)>(&GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_IsCameraDeviceAvailable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_16_0*), "ovrp_IsCameraDeviceAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::CameraDevice>()});
+    static auto* cameraDevice = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/CameraDevice")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_16_0*), "ovrp_IsCameraDeviceAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cameraDevice});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_SetCameraDevicePreferredColorFrameSize
@@ -93,7 +89,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::CameraDevice, GlobalNamespace::OVRPlugin::Sizei)>(&GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_SetCameraDevicePreferredColorFrameSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_16_0*), "ovrp_SetCameraDevicePreferredColorFrameSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::CameraDevice>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Sizei>()});
+    static auto* cameraDevice = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/CameraDevice")->byval_arg;
+    static auto* preferredColorFrameSize = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Sizei")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_16_0*), "ovrp_SetCameraDevicePreferredColorFrameSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cameraDevice, preferredColorFrameSize});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_OpenCameraDevice
@@ -101,7 +99,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::CameraDevice)>(&GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_OpenCameraDevice)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_16_0*), "ovrp_OpenCameraDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::CameraDevice>()});
+    static auto* cameraDevice = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/CameraDevice")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_16_0*), "ovrp_OpenCameraDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cameraDevice});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_CloseCameraDevice
@@ -109,7 +108,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::CameraDevice)>(&GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_CloseCameraDevice)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_16_0*), "ovrp_CloseCameraDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::CameraDevice>()});
+    static auto* cameraDevice = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/CameraDevice")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_16_0*), "ovrp_CloseCameraDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cameraDevice});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_HasCameraDeviceOpened
@@ -117,7 +117,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::CameraDevice)>(&GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_HasCameraDeviceOpened)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_16_0*), "ovrp_HasCameraDeviceOpened", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::CameraDevice>()});
+    static auto* cameraDevice = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/CameraDevice")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_16_0*), "ovrp_HasCameraDeviceOpened", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cameraDevice});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_IsCameraDeviceColorFrameAvailable
@@ -125,7 +126,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::CameraDevice)>(&GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_IsCameraDeviceColorFrameAvailable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_16_0*), "ovrp_IsCameraDeviceColorFrameAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::CameraDevice>()});
+    static auto* cameraDevice = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/CameraDevice")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_16_0*), "ovrp_IsCameraDeviceColorFrameAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cameraDevice});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_GetCameraDeviceColorFrameSize
@@ -133,7 +135,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::CameraDevice, GlobalNamespace::OVRPlugin::Sizei&)>(&GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_GetCameraDeviceColorFrameSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_16_0*), "ovrp_GetCameraDeviceColorFrameSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::CameraDevice>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Sizei&>()});
+    static auto* cameraDevice = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/CameraDevice")->byval_arg;
+    static auto* colorFrameSize = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Sizei")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_16_0*), "ovrp_GetCameraDeviceColorFrameSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cameraDevice, colorFrameSize});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_GetCameraDeviceColorFrameBgraPixels
@@ -141,7 +145,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::CameraDevice, System::IntPtr&, int&)>(&GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_GetCameraDeviceColorFrameBgraPixels)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_16_0*), "ovrp_GetCameraDeviceColorFrameBgraPixels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::CameraDevice>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    static auto* cameraDevice = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/CameraDevice")->byval_arg;
+    static auto* colorFrameBgraPixels = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
+    static auto* colorFrameRowPitch = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_16_0*), "ovrp_GetCameraDeviceColorFrameBgraPixels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cameraDevice, colorFrameBgraPixels, colorFrameRowPitch});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_GetControllerState4
@@ -149,7 +156,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(uint, GlobalNamespace::OVRPlugin::ControllerState4&)>(&GlobalNamespace::OVRPlugin::OVRP_1_16_0::ovrp_GetControllerState4)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_16_0*), "ovrp_GetControllerState4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::ControllerState4&>()});
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* controllerState = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/ControllerState4")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_16_0*), "ovrp_GetControllerState4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controllerMask, controllerState});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_16_0::_cctor

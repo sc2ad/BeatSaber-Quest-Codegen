@@ -138,8 +138,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnvironmentSpawnRotation) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSpawnRotation*, "", "EnvironmentSpawnRotation");
-// Writing includes for template specializations
-#include "GlobalNamespace/BeatmapEventData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentSpawnRotation::get_targetRotation
 // Il2CppName: get_targetRotation
 template<>
@@ -193,7 +191,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnvironmentSpawnRotation::*)(GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::EnvironmentSpawnRotation::BeatmapEventAtNoteSpawnCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentSpawnRotation*), "BeatmapEventAtNoteSpawnCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
+    static auto* beatmapEventData = &::il2cpp_utils::GetClassFromName("", "BeatmapEventData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentSpawnRotation*), "BeatmapEventAtNoteSpawnCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventData});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentSpawnRotation::FixedUpdate

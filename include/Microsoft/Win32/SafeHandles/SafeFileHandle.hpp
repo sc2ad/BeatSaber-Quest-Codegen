@@ -38,7 +38,6 @@ namespace Microsoft::Win32::SafeHandles {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::SafeHandles::SafeFileHandle*, "Microsoft.Win32.SafeHandles", "SafeFileHandle");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Microsoft::Win32::SafeHandles::SafeFileHandle::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -50,8 +50,6 @@ namespace NUnit::Framework::Internal {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::InvalidDataSourceException*, "NUnit.Framework.Internal", "InvalidDataSourceException");
-// Writing includes for template specializations
-#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::InvalidDataSourceException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

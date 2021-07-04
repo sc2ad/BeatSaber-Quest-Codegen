@@ -99,10 +99,6 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(BezierPoint) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::BezierPoint, "UnityEngine.ProBuilder", "BezierPoint");
-// Writing includes for template specializations
-#include "UnityEngine/ProBuilder/BezierTangentDirection.hpp"
-#include "UnityEngine/ProBuilder/BezierTangentMode.hpp"
-#include "System/Collections/Generic/IList_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::BezierPoint::BezierPoint
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -112,7 +108,9 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::BezierPoint, "UnityEngine.ProBui
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::BezierPoint::*)(UnityEngine::ProBuilder::BezierTangentDirection, UnityEngine::ProBuilder::BezierTangentMode)>(&UnityEngine::ProBuilder::BezierPoint::EnforceTangentMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BezierPoint), "EnforceTangentMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::BezierTangentDirection>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::BezierTangentMode>()});
+    static auto* master = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "BezierTangentDirection")->byval_arg;
+    static auto* mode = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "BezierTangentMode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BezierPoint), "EnforceTangentMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{master, mode});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::BezierPoint::SetPosition
@@ -120,7 +118,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::BezierPoint::*)(UnityEngine::Vector3)>(&UnityEngine::ProBuilder::BezierPoint::SetPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BezierPoint), "SetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BezierPoint), "SetPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::BezierPoint::SetTangentIn
@@ -128,7 +127,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::BezierPoint::*)(UnityEngine::Vector3, UnityEngine::ProBuilder::BezierTangentMode)>(&UnityEngine::ProBuilder::BezierPoint::SetTangentIn)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BezierPoint), "SetTangentIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::BezierTangentMode>()});
+    static auto* tangent = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* mode = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "BezierTangentMode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BezierPoint), "SetTangentIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tangent, mode});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::BezierPoint::SetTangentOut
@@ -136,7 +137,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::BezierPoint::*)(UnityEngine::Vector3, UnityEngine::ProBuilder::BezierTangentMode)>(&UnityEngine::ProBuilder::BezierPoint::SetTangentOut)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BezierPoint), "SetTangentOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::BezierTangentMode>()});
+    static auto* tangent = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* mode = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "BezierTangentMode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BezierPoint), "SetTangentOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tangent, mode});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::BezierPoint::QuadraticPosition
@@ -144,7 +147,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::ProBuilder::BezierPoint, UnityEngine::ProBuilder::BezierPoint, float)>(&UnityEngine::ProBuilder::BezierPoint::QuadraticPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BezierPoint), "QuadraticPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::BezierPoint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::BezierPoint>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "BezierPoint")->byval_arg;
+    static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "BezierPoint")->byval_arg;
+    static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BezierPoint), "QuadraticPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b, t});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::BezierPoint::CubicPosition
@@ -152,7 +158,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::ProBuilder::BezierPoint, UnityEngine::ProBuilder::BezierPoint, float)>(&UnityEngine::ProBuilder::BezierPoint::CubicPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BezierPoint), "CubicPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::BezierPoint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::BezierPoint>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "BezierPoint")->byval_arg;
+    static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "BezierPoint")->byval_arg;
+    static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BezierPoint), "CubicPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b, t});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::BezierPoint::GetLookDirection
@@ -160,6 +169,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::BezierPoint>*, int, int, int)>(&UnityEngine::ProBuilder::BezierPoint::GetLookDirection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BezierPoint), "GetLookDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::BezierPoint>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* points = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "BezierPoint")})->byval_arg;
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* previous = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* next = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::BezierPoint), "GetLookDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{points, index, previous, next});
   }
 };

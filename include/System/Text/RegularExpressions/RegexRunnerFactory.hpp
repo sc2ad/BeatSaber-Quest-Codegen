@@ -30,7 +30,6 @@ namespace System::Text::RegularExpressions {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexRunnerFactory*, "System.Text.RegularExpressions", "RegexRunnerFactory");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexRunnerFactory::CreateInstance
 // Il2CppName: CreateInstance
 template<>

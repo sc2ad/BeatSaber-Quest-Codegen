@@ -62,15 +62,14 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Internal_SubsystemInstances*, "UnityEngine", "Internal_SubsystemInstances");
-// Writing includes for template specializations
-#include "System/IntPtr.hpp"
-#include "UnityEngine/IntegratedSubsystem.hpp"
 // Writing MetadataGetter for method: UnityEngine::Internal_SubsystemInstances::Internal_InitializeManagedInstance
 // Il2CppName: Internal_InitializeManagedInstance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, UnityEngine::IntegratedSubsystem*)>(&UnityEngine::Internal_SubsystemInstances::Internal_InitializeManagedInstance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Internal_SubsystemInstances*), "Internal_InitializeManagedInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::IntegratedSubsystem*>()});
+    static auto* ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* inst = &::il2cpp_utils::GetClassFromName("UnityEngine", "IntegratedSubsystem")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Internal_SubsystemInstances*), "Internal_InitializeManagedInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ptr, inst});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Internal_SubsystemInstances::Internal_ClearManagedInstances
@@ -86,7 +85,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&UnityEngine::Internal_SubsystemInstances::Internal_RemoveInstanceByPtr)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Internal_SubsystemInstances*), "Internal_RemoveInstanceByPtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Internal_SubsystemInstances*), "Internal_RemoveInstanceByPtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ptr});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Internal_SubsystemInstances::Internal_GetInstanceByPtr
@@ -94,7 +94,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::IntegratedSubsystem* (*)(System::IntPtr)>(&UnityEngine::Internal_SubsystemInstances::Internal_GetInstanceByPtr)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Internal_SubsystemInstances*), "Internal_GetInstanceByPtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Internal_SubsystemInstances*), "Internal_GetInstanceByPtr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ptr});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Internal_SubsystemInstances::_cctor

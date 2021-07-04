@@ -90,13 +90,13 @@ namespace System::Security::Util {
   static_assert(sizeof(Tokenizer::StringMaker) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer::StringMaker*, "System.Security.Util", "Tokenizer/StringMaker");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::Util::Tokenizer::StringMaker::HashString
 // Il2CppName: HashString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Il2CppString*)>(&System::Security::Util::Tokenizer::StringMaker::HashString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Tokenizer::StringMaker*), "HashString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Tokenizer::StringMaker*), "HashString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
   }
 };
 // Writing MetadataGetter for method: System::Security::Util::Tokenizer::StringMaker::HashCharArray
@@ -104,7 +104,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Array<::Il2CppChar>*, int)>(&System::Security::Util::Tokenizer::StringMaker::HashCharArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Tokenizer::StringMaker*), "HashCharArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* a = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* l = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Tokenizer::StringMaker*), "HashCharArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, l});
   }
 };
 // Writing MetadataGetter for method: System::Security::Util::Tokenizer::StringMaker::CompareStringAndChars
@@ -112,7 +114,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Util::Tokenizer::StringMaker::*)(::Il2CppString*, ::Array<::Il2CppChar>*, int)>(&System::Security::Util::Tokenizer::StringMaker::CompareStringAndChars)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Tokenizer::StringMaker*), "CompareStringAndChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* a = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* l = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Tokenizer::StringMaker*), "CompareStringAndChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str, a, l});
   }
 };
 // Writing MetadataGetter for method: System::Security::Util::Tokenizer::StringMaker::MakeString

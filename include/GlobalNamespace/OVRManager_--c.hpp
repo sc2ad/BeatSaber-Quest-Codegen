@@ -69,8 +69,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRManager_$$c*, "", "OVRManager/<>c");
-// Writing includes for template specializations
-#include "UnityEngine/Camera.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRManager_$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -84,7 +82,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::OVRManager_$$c::*)(float)>(&GlobalNamespace::OVRManager_$$c::$InitOVRManager$b__337_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRManager_$$c*), "<InitOVRManager>b__337_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* f = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRManager_$$c*), "<InitOVRManager>b__337_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{f});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRManager_$$c::$FindMainCamera$b__345_0
@@ -92,7 +91,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::OVRManager_$$c::*)(UnityEngine::Camera*, UnityEngine::Camera*)>(&GlobalNamespace::OVRManager_$$c::$FindMainCamera$b__345_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRManager_$$c*), "<FindMainCamera>b__345_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    static auto* c0 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    static auto* c1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRManager_$$c*), "<FindMainCamera>b__345_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c0, c1});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRManager_$$c::New_ctor

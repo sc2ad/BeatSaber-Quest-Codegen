@@ -75,7 +75,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MenuLightsManager::$Start$d__4) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuLightsManager::$Start$d__4*, "", "MenuLightsManager/<Start>d__4");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MenuLightsManager::$Start$d__4::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

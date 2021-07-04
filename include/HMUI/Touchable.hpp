@@ -64,8 +64,6 @@ namespace HMUI {
   static_assert(sizeof(Touchable) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::Touchable*, "HMUI", "Touchable");
-// Writing includes for template specializations
-#include "UnityEngine/UI/VertexHelper.hpp"
 // Writing MetadataGetter for method: HMUI::Touchable::get_skew
 // Il2CppName: get_skew
 template<>
@@ -79,7 +77,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (HMUI
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::Touchable::*)(UnityEngine::UI::VertexHelper*)>(&HMUI::Touchable::OnPopulateMesh)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::Touchable*), "OnPopulateMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::VertexHelper*>()});
+    static auto* vh = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "VertexHelper")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(HMUI::Touchable*), "OnPopulateMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vh});
   }
 };
 // Writing MetadataGetter for method: HMUI::Touchable::New_ctor

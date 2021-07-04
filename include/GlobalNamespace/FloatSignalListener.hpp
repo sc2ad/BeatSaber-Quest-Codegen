@@ -71,7 +71,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(FloatSignalListener) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FloatSignalListener*, "", "FloatSignalListener");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FloatSignalListener::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -93,7 +92,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FloatSignalListener::*)(float)>(&GlobalNamespace::FloatSignalListener::HandleEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FloatSignalListener*), "HandleEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* f = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FloatSignalListener*), "HandleEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{f});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::FloatSignalListener::New_ctor

@@ -51,7 +51,6 @@ namespace UnityEngine::TestTools::TestRunner {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::UnityTestTimeoutException*, "UnityEngine.TestTools.TestRunner", "UnityTestTimeoutException");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::UnityTestTimeoutException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -61,7 +60,8 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::UnityTestTimeoutExcep
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&UnityEngine::TestTools::TestRunner::UnityTestTimeoutException::BuildMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::UnityTestTimeoutException*), "BuildMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* timeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::UnityTestTimeoutException*), "BuildMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{timeout});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::UnityTestTimeoutException::get_ResultState

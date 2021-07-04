@@ -60,7 +60,7 @@ namespace Zenject {
     class $$c__DisplayClass4_0 : public ::il2cpp_utils::il2cpp_type_check::NestedType, public ::Il2CppObject {
       public:
       using declaring_type = FactorySubContainerBinderWithParams_1<TContract>*;
-      static constexpr std::string_view NESTED_NAME = "$$c__DisplayClass4_0";
+      static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass4_0";
       // public Zenject.FactorySubContainerBinderWithParams`1<TContract> <>4__this
       // Size: 0x8
       // Offset: 0x0
@@ -111,7 +111,7 @@ namespace Zenject {
     class $$c__DisplayClass8_0 : public ::il2cpp_utils::il2cpp_type_check::NestedType, public ::Il2CppObject {
       public:
       using declaring_type = FactorySubContainerBinderWithParams_1<TContract>*;
-      static constexpr std::string_view NESTED_NAME = "$$c__DisplayClass8_0";
+      static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass8_0";
       // public Zenject.FactorySubContainerBinderWithParams`1<TContract> <>4__this
       // Size: 0x8
       // Offset: 0x0

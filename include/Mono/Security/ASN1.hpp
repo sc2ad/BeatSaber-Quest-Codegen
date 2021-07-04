@@ -117,7 +117,6 @@ namespace Mono::Security {
   static_assert(sizeof(ASN1) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::ASN1*, "Mono.Security", "ASN1");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Security::ASN1::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -167,7 +166,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::ASN1::*)(::Array<uint8_t>*)>(&Mono::Security::ASN1::set_Value)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1*), "set_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* value = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1*), "set_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::ASN1::CompareArray
@@ -175,7 +175,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::ASN1::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Mono::Security::ASN1::CompareArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1*), "CompareArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* array1 = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* array2 = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1*), "CompareArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array1, array2});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::ASN1::CompareValue
@@ -183,7 +185,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::ASN1::*)(::Array<uint8_t>*)>(&Mono::Security::ASN1::CompareValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1*), "CompareValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* value = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1*), "CompareValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::ASN1::Add
@@ -191,7 +194,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (Mono::Security::ASN1::*)(Mono::Security::ASN1*)>(&Mono::Security::ASN1::Add)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
+    static auto* asn1 = &::il2cpp_utils::GetClassFromName("Mono.Security", "ASN1")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asn1});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::ASN1::GetBytes
@@ -207,7 +211,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::ASN1::*)(::Array<uint8_t>*, int&, int)>(&Mono::Security::ASN1::Decode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* asn1 = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* anPos = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* anLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asn1, anPos, anLength});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::ASN1::DecodeTLV
@@ -215,7 +222,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::ASN1::*)(::Array<uint8_t>*, int&, uint8_t&, int&, ::Array<uint8_t>*&)>(&Mono::Security::ASN1::DecodeTLV)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1*), "DecodeTLV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>()});
+    static auto* asn1 = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* pos = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* tag = &::il2cpp_utils::GetClassFromName("System", "Byte")->this_arg;
+    static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* content = &classof(::Array<::Array<uint8_t>*>*)->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1*), "DecodeTLV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asn1, pos, tag, length, content});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::ASN1::get_Item
@@ -223,7 +235,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (Mono::Security::ASN1::*)(int)>(&Mono::Security::ASN1::get_Item)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1*), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::ASN1::Element
@@ -231,7 +244,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (Mono::Security::ASN1::*)(int, uint8_t)>(&Mono::Security::ASN1::Element)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1*), "Element", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* anTag = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1*), "Element", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index, anTag});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::ASN1::ToString

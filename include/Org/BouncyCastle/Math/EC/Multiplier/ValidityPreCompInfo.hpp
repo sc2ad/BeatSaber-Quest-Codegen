@@ -82,7 +82,6 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   static_assert(sizeof(ValidityPreCompInfo) == 0x13);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo*, "Org.BouncyCastle.Math.EC.Multiplier", "ValidityPreCompInfo");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::HasFailed
 // Il2CppName: HasFailed
 template<>

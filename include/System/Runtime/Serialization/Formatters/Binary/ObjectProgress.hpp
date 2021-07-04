@@ -189,7 +189,6 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   static_assert(sizeof(ObjectProgress) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::ObjectProgress*, "System.Runtime.Serialization.Formatters.Binary", "ObjectProgress");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectProgress::Init
 // Il2CppName: Init
 template<>
@@ -203,7 +202,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::ObjectProgress::*)(int)>(&System::Runtime::Serialization::Formatters::Binary::ObjectProgress::ArrayCountIncrement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectProgress*), "ArrayCountIncrement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectProgress*), "ArrayCountIncrement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectProgress::GetNext
@@ -211,7 +211,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Serialization::Formatters::Binary::ObjectProgress::*)(System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum&, ::Il2CppObject*&)>(&System::Runtime::Serialization::Formatters::Binary::ObjectProgress::GetNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectProgress*), "GetNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*&>()});
+    static auto* outBinaryTypeEnum = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "BinaryTypeEnum")->this_arg;
+    static auto* outTypeInformation = &::il2cpp_utils::GetClassFromName("System", "Object")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectProgress*), "GetNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{outBinaryTypeEnum, outTypeInformation});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectProgress::_cctor

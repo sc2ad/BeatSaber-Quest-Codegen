@@ -103,13 +103,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(ServerCodeView) == 0x39);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ServerCodeView*, "", "ServerCodeView");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ServerCodeView::SetCode
 // Il2CppName: SetCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerCodeView::*)(::Il2CppString*)>(&GlobalNamespace::ServerCodeView::SetCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerCodeView*), "SetCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* serverCode = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerCodeView*), "SetCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serverCode});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ServerCodeView::OnEnable
@@ -141,7 +141,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ServerCodeView::*)(bool)>(&GlobalNamespace::ServerCodeView::RefreshText)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerCodeView*), "RefreshText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* showCode = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ServerCodeView*), "RefreshText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{showCode});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ServerCodeView::New_ctor

@@ -246,14 +246,13 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKSolverLookAt) == 0xC8);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverLookAt*, "RootMotion.FinalIK", "IKSolverLookAt");
-// Writing includes for template specializations
-#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLookAt::SetLookAtWeight
 // Il2CppName: SetLookAtWeight
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverLookAt::*)(float)>(&RootMotion::FinalIK::IKSolverLookAt::SetLookAtWeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{weight});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLookAt::SetLookAtWeight
@@ -261,7 +260,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverLookAt::*)(float, float)>(&RootMotion::FinalIK::IKSolverLookAt::SetLookAtWeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* bodyWeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{weight, bodyWeight});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLookAt::SetLookAtWeight
@@ -269,7 +270,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverLookAt::*)(float, float, float)>(&RootMotion::FinalIK::IKSolverLookAt::SetLookAtWeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* bodyWeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* headWeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{weight, bodyWeight, headWeight});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLookAt::SetLookAtWeight
@@ -277,7 +281,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverLookAt::*)(float, float, float, float)>(&RootMotion::FinalIK::IKSolverLookAt::SetLookAtWeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* bodyWeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* headWeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* eyesWeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{weight, bodyWeight, headWeight, eyesWeight});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLookAt::SetLookAtWeight
@@ -285,7 +293,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverLookAt::*)(float, float, float, float, float)>(&RootMotion::FinalIK::IKSolverLookAt::SetLookAtWeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* bodyWeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* headWeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* eyesWeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* clampWeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{weight, bodyWeight, headWeight, eyesWeight, clampWeight});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLookAt::SetLookAtWeight
@@ -293,7 +306,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverLookAt::*)(float, float, float, float, float, float, float)>(&RootMotion::FinalIK::IKSolverLookAt::SetLookAtWeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* bodyWeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* headWeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* eyesWeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* clampWeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* clampWeightHead = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* clampWeightEyes = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt*), "SetLookAtWeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{weight, bodyWeight, headWeight, eyesWeight, clampWeight, clampWeightHead, clampWeightEyes});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLookAt::SetChain
@@ -301,7 +321,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::IKSolverLookAt::*)(::Array<UnityEngine::Transform*>*, UnityEngine::Transform*, ::Array<UnityEngine::Transform*>*, UnityEngine::Transform*)>(&RootMotion::FinalIK::IKSolverLookAt::SetChain)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt*), "SetChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    static auto* spine = &classof(::Array<::Array<UnityEngine::Transform*>*>*)->byval_arg;
+    static auto* head = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    static auto* eyes = &classof(::Array<::Array<UnityEngine::Transform*>*>*)->byval_arg;
+    static auto* root = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt*), "SetChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{spine, head, eyes, root});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLookAt::get_spineIsValid
@@ -381,7 +405,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (RootMotion::FinalIK::IKSolverLookAt::*)(::Array<UnityEngine::Vector3>*&, UnityEngine::Vector3, UnityEngine::Vector3, int, float)>(&RootMotion::FinalIK::IKSolverLookAt::GetForwards)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt*), "GetForwards", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* forwards = &classof(::Array<::Array<UnityEngine::Vector3>*>*)->this_arg;
+    static auto* baseForward = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* targetForward = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* bones = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* clamp = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt*), "GetForwards", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{forwards, baseForward, targetForward, bones, clamp});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLookAt::SetBones
@@ -389,7 +418,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverLookAt::*)(::Array<UnityEngine::Transform*>*, ::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>*&)>(&RootMotion::FinalIK::IKSolverLookAt::SetBones)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt*), "SetBones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Transform*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>*&>()});
+    static auto* array = &classof(::Array<::Array<UnityEngine::Transform*>*>*)->byval_arg;
+    static auto* bones = &classof(::Array<::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>*>*)->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt*), "SetBones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array, bones});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLookAt::StoreDefaultLocalState
@@ -413,7 +444,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::IKSolverLookAt::*)(::Il2CppString*&)>(&RootMotion::FinalIK::IKSolverLookAt::IsValid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLookAt::GetPoints
@@ -429,7 +461,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Roo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion::FinalIK::IKSolver::Point* (RootMotion::FinalIK::IKSolverLookAt::*)(UnityEngine::Transform*)>(&RootMotion::FinalIK::IKSolverLookAt::GetPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt*), "GetPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt*), "GetPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transform});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverLookAt::OnInitiate

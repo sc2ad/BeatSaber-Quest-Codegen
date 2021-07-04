@@ -46,7 +46,6 @@ namespace UnityEngine {
   static_assert(sizeof(RangeAttribute) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RangeAttribute*, "UnityEngine", "RangeAttribute");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::RangeAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -132,7 +132,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(AvatarPropertyBlockColorSetter) == 0x71);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPropertyBlockColorSetter*, "", "AvatarPropertyBlockColorSetter");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPropertyBlockColorSetter::Awake
 // Il2CppName: Awake
 template<>
@@ -154,7 +153,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarPropertyBlockColorSetter::*)(UnityEngine::Color)>(&GlobalNamespace::AvatarPropertyBlockColorSetter::SetColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPropertyBlockColorSetter*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPropertyBlockColorSetter*), "SetColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPropertyBlockColorSetter::SetColors
@@ -162,7 +162,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarPropertyBlockColorSetter::*)(UnityEngine::Color, UnityEngine::Color)>(&GlobalNamespace::AvatarPropertyBlockColorSetter::SetColors)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPropertyBlockColorSetter*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    static auto* mainColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    static auto* rimLightColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPropertyBlockColorSetter*), "SetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mainColor, rimLightColor});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPropertyBlockColorSetter::SetHighlight
@@ -170,7 +172,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarPropertyBlockColorSetter::*)(bool, int)>(&GlobalNamespace::AvatarPropertyBlockColorSetter::SetHighlight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPropertyBlockColorSetter*), "SetHighlight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* highlighted = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* uvSegment = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPropertyBlockColorSetter*), "SetHighlight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{highlighted, uvSegment});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPropertyBlockColorSetter::UpdateRenderer

@@ -46,7 +46,6 @@ namespace Unity::Jobs {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Unity::Jobs::JobHandle, "Unity.Jobs", "JobHandle");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Unity::Jobs::JobHandle::ScheduleBatchedJobs
 // Il2CppName: ScheduleBatchedJobs
 template<>

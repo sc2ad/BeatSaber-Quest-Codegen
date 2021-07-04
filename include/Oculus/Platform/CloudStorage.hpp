@@ -70,14 +70,14 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CloudStorage*, "Oculus.Platform", "CloudStorage");
-// Writing includes for template specializations
-#include "Oculus/Platform/Models/CloudStorageMetadataList.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::CloudStorage::Delete
 // Il2CppName: Delete
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageUpdateResponse*>* (*)(::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CloudStorage::Delete)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CloudStorage*), "Delete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* bucket = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CloudStorage*), "Delete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bucket, key});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::CloudStorage::Load
@@ -85,7 +85,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageData*>* (*)(::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CloudStorage::Load)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CloudStorage*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* bucket = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CloudStorage*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bucket, key});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::CloudStorage::LoadBucketMetadata
@@ -93,7 +95,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageMetadataList*>* (*)(::Il2CppString*)>(&Oculus::Platform::CloudStorage::LoadBucketMetadata)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CloudStorage*), "LoadBucketMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* bucket = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CloudStorage*), "LoadBucketMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bucket});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::CloudStorage::LoadConflictMetadata
@@ -101,7 +104,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageConflictMetadata*>* (*)(::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CloudStorage::LoadConflictMetadata)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CloudStorage*), "LoadConflictMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* bucket = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CloudStorage*), "LoadConflictMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bucket, key});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::CloudStorage::LoadHandle
@@ -109,7 +114,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageData*>* (*)(::Il2CppString*)>(&Oculus::Platform::CloudStorage::LoadHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CloudStorage*), "LoadHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* handle = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CloudStorage*), "LoadHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::CloudStorage::LoadMetadata
@@ -117,7 +123,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageMetadata*>* (*)(::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CloudStorage::LoadMetadata)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CloudStorage*), "LoadMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* bucket = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CloudStorage*), "LoadMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bucket, key});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::CloudStorage::ResolveKeepLocal
@@ -125,7 +133,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageUpdateResponse*>* (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CloudStorage::ResolveKeepLocal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CloudStorage*), "ResolveKeepLocal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* bucket = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* remoteHandle = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CloudStorage*), "ResolveKeepLocal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bucket, key, remoteHandle});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::CloudStorage::ResolveKeepRemote
@@ -133,7 +144,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageUpdateResponse*>* (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&Oculus::Platform::CloudStorage::ResolveKeepRemote)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CloudStorage*), "ResolveKeepRemote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* bucket = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* remoteHandle = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CloudStorage*), "ResolveKeepRemote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bucket, key, remoteHandle});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::CloudStorage::Save
@@ -141,7 +155,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageUpdateResponse*>* (*)(::Il2CppString*, ::Il2CppString*, ::Array<uint8_t>*, int64_t, ::Il2CppString*)>(&Oculus::Platform::CloudStorage::Save)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CloudStorage*), "Save", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* bucket = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* data = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* counter = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    static auto* extraData = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CloudStorage*), "Save", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bucket, key, data, counter, extraData});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::CloudStorage::GetNextCloudStorageMetadataListPage
@@ -149,6 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageMetadataList*>* (*)(Oculus::Platform::Models::CloudStorageMetadataList*)>(&Oculus::Platform::CloudStorage::GetNextCloudStorageMetadataListPage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CloudStorage*), "GetNextCloudStorageMetadataListPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Models::CloudStorageMetadataList*>()});
+    static auto* list = &::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "CloudStorageMetadataList")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::CloudStorage*), "GetNextCloudStorageMetadataListPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{list});
   }
 };

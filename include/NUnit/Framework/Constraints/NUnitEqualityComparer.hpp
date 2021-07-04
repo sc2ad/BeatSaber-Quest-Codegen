@@ -185,16 +185,6 @@ namespace NUnit::Framework::Constraints {
   static_assert(sizeof(NUnitEqualityComparer) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::NUnitEqualityComparer*, "NUnit.Framework.Constraints", "NUnitEqualityComparer");
-// Writing includes for template specializations
-#include "NUnit/Framework/Constraints/Tolerance.hpp"
-#include "System/Type.hpp"
-#include "System/Reflection/MethodInfo.hpp"
-#include "System/Array.hpp"
-#include "System/Collections/IDictionary.hpp"
-#include "System/Collections/DictionaryEntry.hpp"
-#include "System/Collections/IEnumerable.hpp"
-#include "System/IO/DirectoryInfo.hpp"
-#include "System/IO/Stream.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::get_IgnoreCase
 // Il2CppName: get_IgnoreCase
 template<>
@@ -224,7 +214,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::NUnitEqualityComparer::*)(::Il2CppObject*, ::Il2CppObject*, NUnit::Framework::Constraints::Tolerance*&)>(&NUnit::Framework::Constraints::NUnitEqualityComparer::AreEqual)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*&>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* y = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* tolerance = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "Tolerance")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "AreEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y, tolerance});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::FirstImplementsIEquatableOfSecond
@@ -232,7 +225,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (*)(System::Type*, System::Type*)>(&NUnit::Framework::Constraints::NUnitEqualityComparer::FirstImplementsIEquatableOfSecond)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "FirstImplementsIEquatableOfSecond", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* first = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    static auto* second = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "FirstImplementsIEquatableOfSecond", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{first, second});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::GetEquatableGenericArguments
@@ -240,7 +235,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IList_1<System::Collections::Generic::KeyValuePair_2<System::Type*, System::Reflection::MethodInfo*>>* (*)(System::Type*)>(&NUnit::Framework::Constraints::NUnitEqualityComparer::GetEquatableGenericArguments)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "GetEquatableGenericArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "GetEquatableGenericArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::InvokeFirstIEquatableEqualsSecond
@@ -248,7 +244,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, ::Il2CppObject*, System::Reflection::MethodInfo*)>(&NUnit::Framework::Constraints::NUnitEqualityComparer::InvokeFirstIEquatableEqualsSecond)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "InvokeFirstIEquatableEqualsSecond", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>()});
+    static auto* first = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* second = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* equals = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "InvokeFirstIEquatableEqualsSecond", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{first, second, equals});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::GetExternalComparer
@@ -256,7 +255,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::EqualityAdapter* (NUnit::Framework::Constraints::NUnitEqualityComparer::*)(::Il2CppObject*, ::Il2CppObject*)>(&NUnit::Framework::Constraints::NUnitEqualityComparer::GetExternalComparer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "GetExternalComparer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* y = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "GetExternalComparer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::ArraysEqual
@@ -264,7 +265,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::NUnitEqualityComparer::*)(System::Array*, System::Array*, NUnit::Framework::Constraints::Tolerance*&)>(&NUnit::Framework::Constraints::NUnitEqualityComparer::ArraysEqual)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "ArraysEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<System::Array*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*&>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
+    static auto* y = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
+    static auto* tolerance = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "Tolerance")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "ArraysEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y, tolerance});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::DictionariesEqual
@@ -272,7 +276,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::NUnitEqualityComparer::*)(System::Collections::IDictionary*, System::Collections::IDictionary*, NUnit::Framework::Constraints::Tolerance*&)>(&NUnit::Framework::Constraints::NUnitEqualityComparer::DictionariesEqual)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "DictionariesEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IDictionary*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IDictionary*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*&>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("System.Collections", "IDictionary")->byval_arg;
+    static auto* y = &::il2cpp_utils::GetClassFromName("System.Collections", "IDictionary")->byval_arg;
+    static auto* tolerance = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "Tolerance")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "DictionariesEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y, tolerance});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::DictionaryEntriesEqual
@@ -280,7 +287,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::NUnitEqualityComparer::*)(System::Collections::DictionaryEntry, System::Collections::DictionaryEntry, NUnit::Framework::Constraints::Tolerance*&)>(&NUnit::Framework::Constraints::NUnitEqualityComparer::DictionaryEntriesEqual)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "DictionaryEntriesEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::DictionaryEntry>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::DictionaryEntry>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*&>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("System.Collections", "DictionaryEntry")->byval_arg;
+    static auto* y = &::il2cpp_utils::GetClassFromName("System.Collections", "DictionaryEntry")->byval_arg;
+    static auto* tolerance = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "Tolerance")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "DictionaryEntriesEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y, tolerance});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::StringsEqual
@@ -288,7 +298,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::NUnitEqualityComparer::*)(::Il2CppString*, ::Il2CppString*)>(&NUnit::Framework::Constraints::NUnitEqualityComparer::StringsEqual)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "StringsEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* y = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "StringsEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::CharsEqual
@@ -296,7 +308,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::NUnitEqualityComparer::*)(::Il2CppChar, ::Il2CppChar)>(&NUnit::Framework::Constraints::NUnitEqualityComparer::CharsEqual)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "CharsEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    static auto* y = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "CharsEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::EnumerablesEqual
@@ -304,7 +318,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::NUnitEqualityComparer::*)(System::Collections::IEnumerable*, System::Collections::IEnumerable*, NUnit::Framework::Constraints::Tolerance*&)>(&NUnit::Framework::Constraints::NUnitEqualityComparer::EnumerablesEqual)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "EnumerablesEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>(), ::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::Tolerance*&>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerable")->byval_arg;
+    static auto* y = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerable")->byval_arg;
+    static auto* tolerance = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "Tolerance")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "EnumerablesEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y, tolerance});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::DirectoriesEqual
@@ -312,7 +329,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IO::DirectoryInfo*, System::IO::DirectoryInfo*)>(&NUnit::Framework::Constraints::NUnitEqualityComparer::DirectoriesEqual)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "DirectoriesEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::DirectoryInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::DirectoryInfo*>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("System.IO", "DirectoryInfo")->byval_arg;
+    static auto* y = &::il2cpp_utils::GetClassFromName("System.IO", "DirectoryInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "DirectoriesEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::StreamsEqual
@@ -320,7 +339,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (NUnit::Framework::Constraints::NUnitEqualityComparer::*)(System::IO::Stream*, System::IO::Stream*)>(&NUnit::Framework::Constraints::NUnitEqualityComparer::StreamsEqual)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "StreamsEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
+    static auto* y = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::NUnitEqualityComparer*), "StreamsEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::NUnitEqualityComparer::CheckGameObjectReference

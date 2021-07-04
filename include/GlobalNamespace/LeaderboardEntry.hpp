@@ -77,13 +77,17 @@ namespace GlobalNamespace {
   static_assert(sizeof(LeaderboardEntry) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardEntry*, "", "LeaderboardEntry");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardEntry::SetScore
 // Il2CppName: SetScore
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardEntry::*)(int, ::Il2CppString*, int, bool, bool)>(&GlobalNamespace::LeaderboardEntry::SetScore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardEntry*), "SetScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* score = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* playerName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* rank = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* highlighted = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* showSeparator = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardEntry*), "SetScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{score, playerName, rank, highlighted, showSeparator});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardEntry::New_ctor

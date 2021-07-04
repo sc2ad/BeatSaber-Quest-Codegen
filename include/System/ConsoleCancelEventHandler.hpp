@@ -51,10 +51,6 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ConsoleCancelEventHandler*, "System", "ConsoleCancelEventHandler");
-// Writing includes for template specializations
-#include "System/ConsoleCancelEventArgs.hpp"
-#include "System/AsyncCallback.hpp"
-#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: System::ConsoleCancelEventHandler::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -64,7 +60,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::ConsoleCancelEventHandler*, "System", "ConsoleCan
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ConsoleCancelEventHandler::*)(::Il2CppObject*, System::ConsoleCancelEventArgs*)>(&System::ConsoleCancelEventHandler::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ConsoleCancelEventHandler*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::ConsoleCancelEventArgs*>()});
+    static auto* sender = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* e = &::il2cpp_utils::GetClassFromName("System", "ConsoleCancelEventArgs")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ConsoleCancelEventHandler*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sender, e});
   }
 };
 // Writing MetadataGetter for method: System::ConsoleCancelEventHandler::BeginInvoke
@@ -72,7 +70,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::ConsoleCancelEventHandler::*)(::Il2CppObject*, System::ConsoleCancelEventArgs*, System::AsyncCallback*, ::Il2CppObject*)>(&System::ConsoleCancelEventHandler::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ConsoleCancelEventHandler*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::ConsoleCancelEventArgs*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* sender = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* e = &::il2cpp_utils::GetClassFromName("System", "ConsoleCancelEventArgs")->byval_arg;
+    static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
+    static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ConsoleCancelEventHandler*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sender, e, callback, object});
   }
 };
 // Writing MetadataGetter for method: System::ConsoleCancelEventHandler::EndInvoke
@@ -80,6 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ConsoleCancelEventHandler::*)(System::IAsyncResult*)>(&System::ConsoleCancelEventHandler::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ConsoleCancelEventHandler*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ConsoleCancelEventHandler*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
 };

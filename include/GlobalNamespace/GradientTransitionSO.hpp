@@ -159,7 +159,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(GradientTransitionSO) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GradientTransitionSO*, "", "GradientTransitionSO");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::GradientTransitionSO::get_normalColor1
 // Il2CppName: get_normalColor1
 template<>

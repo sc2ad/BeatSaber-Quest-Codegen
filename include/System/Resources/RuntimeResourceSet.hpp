@@ -143,9 +143,6 @@ namespace System::Resources {
   static_assert(sizeof(RuntimeResourceSet) == 0x41);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::RuntimeResourceSet*, "System.Resources", "RuntimeResourceSet");
-// Writing includes for template specializations
-#include "System/IO/Stream.hpp"
-#include "System/Collections/Generic/Dictionary_2.hpp"
 // Writing MetadataGetter for method: System::Resources::RuntimeResourceSet::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -167,7 +164,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::RuntimeResourceSet::*)(::Il2CppString*, bool, bool)>(&System::Resources::RuntimeResourceSet::GetObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Resources::RuntimeResourceSet*), "GetObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* ignoreCase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* isString = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::RuntimeResourceSet*), "GetObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key, ignoreCase, isString});
   }
 };
 // Writing MetadataGetter for method: System::Resources::RuntimeResourceSet::ResolveResourceLocator
@@ -175,7 +175,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::RuntimeResourceSet::*)(System::Resources::ResourceLocator, ::Il2CppString*, System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>*, bool)>(&System::Resources::RuntimeResourceSet::ResolveResourceLocator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Resources::RuntimeResourceSet*), "ResolveResourceLocator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Resources::ResourceLocator>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Resources::ResourceLocator>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* resLocation = &::il2cpp_utils::GetClassFromName("System.Resources", "ResourceLocator")->byval_arg;
+    static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* copyOfCache = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System.Resources", "ResourceLocator")})->byval_arg;
+    static auto* keyInWrongCase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::RuntimeResourceSet*), "ResolveResourceLocator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resLocation, key, copyOfCache, keyInWrongCase});
   }
 };
 // Writing MetadataGetter for method: System::Resources::RuntimeResourceSet::Dispose
@@ -183,7 +187,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Resources::RuntimeResourceSet::*)(bool)>(&System::Resources::RuntimeResourceSet::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Resources::RuntimeResourceSet*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* disposing = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::RuntimeResourceSet*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{disposing});
   }
 };
 // Writing MetadataGetter for method: System::Resources::RuntimeResourceSet::GetEnumerator
@@ -207,7 +212,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Resources::RuntimeResourceSet::*)(::Il2CppString*)>(&System::Resources::RuntimeResourceSet::GetString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Resources::RuntimeResourceSet*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::RuntimeResourceSet*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
   }
 };
 // Writing MetadataGetter for method: System::Resources::RuntimeResourceSet::GetString
@@ -215,7 +221,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Resources::RuntimeResourceSet::*)(::Il2CppString*, bool)>(&System::Resources::RuntimeResourceSet::GetString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Resources::RuntimeResourceSet*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* ignoreCase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::RuntimeResourceSet*), "GetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key, ignoreCase});
   }
 };
 // Writing MetadataGetter for method: System::Resources::RuntimeResourceSet::GetObject
@@ -223,7 +231,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::RuntimeResourceSet::*)(::Il2CppString*)>(&System::Resources::RuntimeResourceSet::GetObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Resources::RuntimeResourceSet*), "GetObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::RuntimeResourceSet*), "GetObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
   }
 };
 // Writing MetadataGetter for method: System::Resources::RuntimeResourceSet::GetObject
@@ -231,6 +240,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Resources::RuntimeResourceSet::*)(::Il2CppString*, bool)>(&System::Resources::RuntimeResourceSet::GetObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Resources::RuntimeResourceSet*), "GetObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* ignoreCase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Resources::RuntimeResourceSet*), "GetObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key, ignoreCase});
   }
 };

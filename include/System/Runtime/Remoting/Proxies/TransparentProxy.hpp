@@ -91,8 +91,6 @@ namespace System::Runtime::Remoting::Proxies {
   static_assert(sizeof(TransparentProxy) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::TransparentProxy*, "System.Runtime.Remoting.Proxies", "TransparentProxy");
-// Writing includes for template specializations
-#include "System/IntPtr.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::TransparentProxy::GetProxyType
 // Il2CppName: GetProxyType
 template<>
@@ -130,7 +128,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Proxies::TransparentProxy::*)(System::IntPtr, System::IntPtr)>(&System::Runtime::Remoting::Proxies::TransparentProxy::LoadRemoteFieldNew)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::TransparentProxy*), "LoadRemoteFieldNew", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* classPtr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* fieldPtr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::TransparentProxy*), "LoadRemoteFieldNew", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{classPtr, fieldPtr});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::TransparentProxy::StoreRemoteField
@@ -138,7 +138,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Proxies::TransparentProxy::*)(System::IntPtr, System::IntPtr, ::Il2CppObject*)>(&System::Runtime::Remoting::Proxies::TransparentProxy::StoreRemoteField)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::TransparentProxy*), "StoreRemoteField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* classPtr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* fieldPtr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* arg = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::TransparentProxy*), "StoreRemoteField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{classPtr, fieldPtr, arg});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::TransparentProxy::New_ctor

@@ -153,8 +153,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(BTSCharacterSpawnController) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterSpawnController*, "", "BTSCharacterSpawnController");
-// Writing includes for template specializations
-#include "GlobalNamespace/BTSCharacter.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnController::get_isCharacterVisible
 // Il2CppName: get_isCharacterVisible
 template<>
@@ -192,7 +190,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacterSpawnController::*)(GlobalNamespace::BTSCharacter*)>(&GlobalNamespace::BTSCharacterSpawnController::HandleStartCharacterAnimation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnController*), "HandleStartCharacterAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BTSCharacter*>()});
+    static auto* btsCharacter = &::il2cpp_utils::GetClassFromName("", "BTSCharacter")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacterSpawnController*), "HandleStartCharacterAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{btsCharacter});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterSpawnController::HandleGamePauseDidPause

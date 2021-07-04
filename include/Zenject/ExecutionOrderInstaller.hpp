@@ -56,8 +56,6 @@ namespace Zenject {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ExecutionOrderInstaller*, "Zenject", "ExecutionOrderInstaller");
-// Writing includes for template specializations
-#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: Zenject::ExecutionOrderInstaller::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

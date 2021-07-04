@@ -151,8 +151,6 @@ namespace GlobalNamespace {
   UnityEngine::Vector3 operator*(const GlobalNamespace::SteamVR_Utils::RigidTransform& t, const UnityEngine::Vector3& v);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Utils::RigidTransform, "", "SteamVR_Utils/RigidTransform");
-// Writing includes for template specializations
-#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::RigidTransform::get_identity
 // Il2CppName: get_identity
 template<>
@@ -166,7 +164,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Utils::RigidTransform (*)(UnityEngine::Transform*)>(&GlobalNamespace::SteamVR_Utils::RigidTransform::FromLocal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::RigidTransform), "FromLocal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    static auto* t = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::RigidTransform), "FromLocal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::RigidTransform::RigidTransform
@@ -226,7 +225,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Utils::RigidTransform::*)(GlobalNamespace::SteamVR_Utils::RigidTransform, GlobalNamespace::SteamVR_Utils::RigidTransform)>(&GlobalNamespace::SteamVR_Utils::RigidTransform::Multiply)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::RigidTransform), "Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SteamVR_Utils::RigidTransform>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SteamVR_Utils::RigidTransform>()});
+    static auto* a = &::il2cpp_utils::GetClassFromName("", "SteamVR_Utils/RigidTransform")->byval_arg;
+    static auto* b = &::il2cpp_utils::GetClassFromName("", "SteamVR_Utils/RigidTransform")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::RigidTransform), "Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::RigidTransform::InverseTransformPoint
@@ -234,7 +235,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::SteamVR_Utils::RigidTransform::*)(UnityEngine::Vector3)>(&GlobalNamespace::SteamVR_Utils::RigidTransform::InverseTransformPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::RigidTransform), "InverseTransformPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::RigidTransform), "InverseTransformPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{point});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::RigidTransform::TransformPoint
@@ -242,7 +244,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (GlobalNamespace::SteamVR_Utils::RigidTransform::*)(UnityEngine::Vector3)>(&GlobalNamespace::SteamVR_Utils::RigidTransform::TransformPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::RigidTransform), "TransformPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::RigidTransform), "TransformPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{point});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::RigidTransform::Interpolate
@@ -250,7 +253,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SteamVR_Utils::RigidTransform (*)(GlobalNamespace::SteamVR_Utils::RigidTransform, GlobalNamespace::SteamVR_Utils::RigidTransform, float)>(&GlobalNamespace::SteamVR_Utils::RigidTransform::Interpolate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::RigidTransform), "Interpolate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SteamVR_Utils::RigidTransform>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SteamVR_Utils::RigidTransform>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* a = &::il2cpp_utils::GetClassFromName("", "SteamVR_Utils/RigidTransform")->byval_arg;
+    static auto* b = &::il2cpp_utils::GetClassFromName("", "SteamVR_Utils/RigidTransform")->byval_arg;
+    static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::RigidTransform), "Interpolate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b, t});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::RigidTransform::Interpolate
@@ -258,7 +264,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Utils::RigidTransform::*)(GlobalNamespace::SteamVR_Utils::RigidTransform, float)>(&GlobalNamespace::SteamVR_Utils::RigidTransform::Interpolate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::RigidTransform), "Interpolate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SteamVR_Utils::RigidTransform>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* to = &::il2cpp_utils::GetClassFromName("", "SteamVR_Utils/RigidTransform")->byval_arg;
+    static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::RigidTransform), "Interpolate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{to, t});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::RigidTransform::Equals
@@ -266,7 +274,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SteamVR_Utils::RigidTransform::*)(::Il2CppObject*)>(&GlobalNamespace::SteamVR_Utils::RigidTransform::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::RigidTransform), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* o = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Utils::RigidTransform), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{o});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::RigidTransform::GetHashCode

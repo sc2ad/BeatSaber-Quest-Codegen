@@ -73,13 +73,6 @@ namespace Mono::Unity {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTlsStream*, "Mono.Unity", "UnityTlsStream");
-// Writing includes for template specializations
-#include "System/Net/Security/SslStream.hpp"
-#include "Mono/Security/Interface/MonoTlsSettings.hpp"
-#include "Mono/Security/Interface/MonoTlsProvider.hpp"
-#include "System/Security/Authentication/SslProtocols.hpp"
-#include "System/Security/Cryptography/X509Certificates/X509Certificate.hpp"
-#include "System/Security/Cryptography/X509Certificates/X509CertificateCollection.hpp"
 // Writing MetadataGetter for method: Mono::Unity::UnityTlsStream::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -89,6 +82,12 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTlsStream*, "Mono.Unity", "UnityTlsStre
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::Security::MobileTlsContext* (Mono::Unity::UnityTlsStream::*)(bool, ::Il2CppString*, System::Security::Authentication::SslProtocols, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, bool)>(&Mono::Unity::UnityTlsStream::CreateContext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsStream*), "CreateContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Authentication::SslProtocols>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* serverMode = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* targetHost = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* enabledProtocols = &::il2cpp_utils::GetClassFromName("System.Security.Authentication", "SslProtocols")->byval_arg;
+    static auto* serverCertificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate")->byval_arg;
+    static auto* clientCertificates = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509CertificateCollection")->byval_arg;
+    static auto* askForClientCert = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::UnityTlsStream*), "CreateContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serverMode, targetHost, enabledProtocols, serverCertificate, clientCertificates, askForClientCert});
   }
 };

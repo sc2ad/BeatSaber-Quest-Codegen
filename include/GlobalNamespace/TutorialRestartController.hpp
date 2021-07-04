@@ -63,7 +63,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(TutorialRestartController) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialRestartController*, "", "TutorialRestartController");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::TutorialRestartController::RestartLevel
 // Il2CppName: RestartLevel
 template<>

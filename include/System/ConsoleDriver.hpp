@@ -72,8 +72,6 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ConsoleDriver*, "System", "ConsoleDriver");
-// Writing includes for template specializations
-#include "System/IntPtr.hpp"
 // Writing MetadataGetter for method: System::ConsoleDriver::_cctor
 // Il2CppName: .cctor
 template<>
@@ -103,7 +101,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ICo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IConsoleDriver* (*)(::Il2CppString*)>(&System::ConsoleDriver::CreateTermInfoDriver)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ConsoleDriver*), "CreateTermInfoDriver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* term = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ConsoleDriver*), "CreateTermInfoDriver", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{term});
   }
 };
 // Writing MetadataGetter for method: System::ConsoleDriver::ReadKey
@@ -111,7 +110,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ICo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ConsoleKeyInfo (*)(bool)>(&System::ConsoleDriver::ReadKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ConsoleDriver*), "ReadKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* intercept = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ConsoleDriver*), "ReadKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{intercept});
   }
 };
 // Writing MetadataGetter for method: System::ConsoleDriver::get_IsConsole
@@ -127,7 +127,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&System::ConsoleDriver::Isatty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ConsoleDriver*), "Isatty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ConsoleDriver*), "Isatty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle});
   }
 };
 // Writing MetadataGetter for method: System::ConsoleDriver::InternalKeyAvailable
@@ -135,7 +136,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&System::ConsoleDriver::InternalKeyAvailable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ConsoleDriver*), "InternalKeyAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* ms_timeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ConsoleDriver*), "InternalKeyAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ms_timeout});
   }
 };
 // Writing MetadataGetter for method: System::ConsoleDriver::TtySetup
@@ -143,7 +145,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*, ::Array<uint8_t>*&, int*&)>(&System::ConsoleDriver::TtySetup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ConsoleDriver*), "TtySetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*&>(), ::il2cpp_utils::ExtractIndependentType<int*&>()});
+    static auto* keypadXmit = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* teardown = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* control_characters = &classof(::Array<::Array<uint8_t>*>*)->this_arg;
+    static auto* address = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Int32"))->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ConsoleDriver*), "TtySetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keypadXmit, teardown, control_characters, address});
   }
 };
 // Writing MetadataGetter for method: System::ConsoleDriver::SetEcho
@@ -151,6 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool)>(&System::ConsoleDriver::SetEcho)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ConsoleDriver*), "SetEcho", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* wantEcho = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ConsoleDriver*), "SetEcho", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{wantEcho});
   }
 };

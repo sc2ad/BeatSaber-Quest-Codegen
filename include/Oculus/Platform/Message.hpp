@@ -1541,8 +1541,6 @@ namespace Oculus::Platform {
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Message*, "Oculus.Platform", "Message");
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Message::MessageType, "Oculus.Platform", "Message/MessageType");
-// Writing includes for template specializations
-#include "Oculus/Platform/Message_ExtraMessageTypesHandler.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Message::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -2200,7 +2198,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Message* (*)(System::IntPtr)>(&Oculus::Platform::Message::ParseMessageHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "ParseMessageHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* messageHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "ParseMessageHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{messageHandle});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Message::PopMessage
@@ -2216,7 +2215,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Oculus::Platform::Message::ExtraMessageTypesHandler*)>(&Oculus::Platform::Message::set_HandleExtraMessageTypes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "set_HandleExtraMessageTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message::ExtraMessageTypesHandler*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "Message/ExtraMessageTypesHandler")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Message*), "set_HandleExtraMessageTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Message::get_HandleExtraMessageTypes

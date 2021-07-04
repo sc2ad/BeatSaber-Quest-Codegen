@@ -68,14 +68,13 @@ namespace BeatSaberAPI::DataTransferObjects {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::UserPlatformExtension*, "BeatSaberAPI.DataTransferObjects", "UserPlatformExtension");
-// Writing includes for template specializations
-#include "BeatSaberAPI/DataTransferObjects/UserPlatform.hpp"
 // Writing MetadataGetter for method: BeatSaberAPI::DataTransferObjects::UserPlatformExtension::GetUserPlatformFromSerializedName
 // Il2CppName: GetUserPlatformFromSerializedName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<BeatSaberAPI::DataTransferObjects::UserPlatform (*)(::Il2CppString*)>(&BeatSaberAPI::DataTransferObjects::UserPlatformExtension::GetUserPlatformFromSerializedName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatSaberAPI::DataTransferObjects::UserPlatformExtension*), "GetUserPlatformFromSerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(BeatSaberAPI::DataTransferObjects::UserPlatformExtension*), "GetUserPlatformFromSerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
   }
 };
 // Writing MetadataGetter for method: BeatSaberAPI::DataTransferObjects::UserPlatformExtension::GetUserPlatformSerializedName
@@ -83,6 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<BeatSaberAP
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(BeatSaberAPI::DataTransferObjects::UserPlatform)>(&BeatSaberAPI::DataTransferObjects::UserPlatformExtension::GetUserPlatformSerializedName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatSaberAPI::DataTransferObjects::UserPlatformExtension*), "GetUserPlatformSerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<BeatSaberAPI::DataTransferObjects::UserPlatform>()});
+    static auto* userPlatform = &::il2cpp_utils::GetClassFromName("BeatSaberAPI.DataTransferObjects", "UserPlatform")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(BeatSaberAPI::DataTransferObjects::UserPlatformExtension*), "GetUserPlatformSerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userPlatform});
   }
 };

@@ -47,13 +47,13 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithLivestreamingApplicationStatus
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithLivestreamingApplicationStatus*, "Oculus.Platform", "MessageWithLivestreamingApplicationStatus");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithLivestreamingApplicationStatus::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::LivestreamingApplicationStatus* (Oculus::Platform::MessageWithLivestreamingApplicationStatus::*)(System::IntPtr)>(&Oculus::Platform::MessageWithLivestreamingApplicationStatus::GetDataFromMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithLivestreamingApplicationStatus*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* c_message = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithLivestreamingApplicationStatus*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c_message});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithLivestreamingApplicationStatus::New_ctor

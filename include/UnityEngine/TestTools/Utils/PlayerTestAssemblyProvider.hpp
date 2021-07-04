@@ -68,9 +68,6 @@ namespace UnityEngine::TestTools::Utils {
   static_assert(sizeof(PlayerTestAssemblyProvider) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::PlayerTestAssemblyProvider*, "UnityEngine.TestTools.Utils", "PlayerTestAssemblyProvider");
-// Writing includes for template specializations
-#include "UnityEngine/TestTools/Utils/IAssemblyLoadProxy.hpp"
-#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::Utils::PlayerTestAssemblyProvider::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

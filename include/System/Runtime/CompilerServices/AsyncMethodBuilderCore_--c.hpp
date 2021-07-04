@@ -64,7 +64,6 @@ namespace System::Runtime::CompilerServices {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c*, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore/<>c");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -78,7 +77,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c::*)(::Il2CppObject*)>(&System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c::$ThrowAsync$b__6_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c*), "<ThrowAsync>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c*), "<ThrowAsync>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c::$ThrowAsync$b__6_1
@@ -86,7 +86,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c::*)(::Il2CppObject*)>(&System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c::$ThrowAsync$b__6_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c*), "<ThrowAsync>b__6_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c*), "<ThrowAsync>b__6_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c::New_ctor

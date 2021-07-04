@@ -58,14 +58,13 @@ namespace Zenject::Internal {
   static_assert(sizeof(ZenUtilInternal::$$c__DisplayClass10_0) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ZenUtilInternal::$$c__DisplayClass10_0*, "Zenject.Internal", "ZenUtilInternal/<>c__DisplayClass10_0");
-// Writing includes for template specializations
-#include "UnityEngine/GameObject.hpp"
 // Writing MetadataGetter for method: Zenject::Internal::ZenUtilInternal::$$c__DisplayClass10_0::$GetRootGameObjects$b__1
 // Il2CppName: <GetRootGameObjects>b__1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::Internal::ZenUtilInternal::$$c__DisplayClass10_0::*)(UnityEngine::GameObject*)>(&Zenject::Internal::ZenUtilInternal::$$c__DisplayClass10_0::$GetRootGameObjects$b__1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenUtilInternal::$$c__DisplayClass10_0*), "<GetRootGameObjects>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ZenUtilInternal::$$c__DisplayClass10_0*), "<GetRootGameObjects>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
 // Writing MetadataGetter for method: Zenject::Internal::ZenUtilInternal::$$c__DisplayClass10_0::New_ctor

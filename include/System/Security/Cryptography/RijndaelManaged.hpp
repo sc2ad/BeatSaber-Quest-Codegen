@@ -69,14 +69,17 @@ namespace System::Security::Cryptography {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RijndaelManaged*, "System.Security.Cryptography", "RijndaelManaged");
-// Writing includes for template specializations
-#include "System/Security/Cryptography/RijndaelManagedTransformMode.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManaged::NewEncryptor
 // Il2CppName: NewEncryptor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (System::Security::Cryptography::RijndaelManaged::*)(::Array<uint8_t>*, System::Security::Cryptography::CipherMode, ::Array<uint8_t>*, int, System::Security::Cryptography::RijndaelManagedTransformMode)>(&System::Security::Cryptography::RijndaelManaged::NewEncryptor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RijndaelManaged*), "NewEncryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::CipherMode>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::RijndaelManagedTransformMode>()});
+    static auto* rgbKey = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* mode = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "CipherMode")->byval_arg;
+    static auto* rgbIV = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* feedbackSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* encryptMode = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "RijndaelManagedTransformMode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RijndaelManaged*), "NewEncryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rgbKey, mode, rgbIV, feedbackSize, encryptMode});
   }
 };
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManaged::New_ctor
@@ -88,7 +91,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (System::Security::Cryptography::RijndaelManaged::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&System::Security::Cryptography::RijndaelManaged::CreateEncryptor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RijndaelManaged*), "CreateEncryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* rgbKey = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* rgbIV = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RijndaelManaged*), "CreateEncryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rgbKey, rgbIV});
   }
 };
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManaged::CreateDecryptor
@@ -96,7 +101,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (System::Security::Cryptography::RijndaelManaged::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&System::Security::Cryptography::RijndaelManaged::CreateDecryptor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RijndaelManaged*), "CreateDecryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* rgbKey = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* rgbIV = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RijndaelManaged*), "CreateDecryptor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rgbKey, rgbIV});
   }
 };
 // Writing MetadataGetter for method: System::Security::Cryptography::RijndaelManaged::GenerateKey

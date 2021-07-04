@@ -120,18 +120,14 @@ namespace ModestTree {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::MiscExtensions*, "ModestTree", "MiscExtensions");
-// Writing includes for template specializations
-#include "System/Collections/Generic/IList_1.hpp"
-#include "System/Collections/Generic/IEnumerable_1.hpp"
-#include "System/Collections/Generic/LinkedList_1.hpp"
-#include "System/Collections/Generic/IDictionary_2.hpp"
-#include "System/Collections/Generic/HashSet_1.hpp"
 // Writing MetadataGetter for method: ModestTree::MiscExtensions::Fmt
 // Il2CppName: Fmt
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&ModestTree::MiscExtensions::Fmt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModestTree::MiscExtensions*), "Fmt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* args = &classof(::Array<::Array<::Il2CppObject*>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::MiscExtensions*), "Fmt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, args});
   }
 };
 // Writing MetadataGetter for method: ModestTree::MiscExtensions::IndexOf
@@ -142,7 +138,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*, ::Il2CppString*)>(&ModestTree::MiscExtensions::Join)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModestTree::MiscExtensions*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* values = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
+    static auto* separator = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::MiscExtensions*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{values, separator});
   }
 };
 // Writing MetadataGetter for method: ModestTree::MiscExtensions::AllocFreeAddRange

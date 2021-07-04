@@ -95,9 +95,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRHandTest::BoolMonitor) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHandTest::BoolMonitor*, "", "OVRHandTest/BoolMonitor");
-// Writing includes for template specializations
-#include "GlobalNamespace/OVRHandTest_BoolMonitor_BoolGenerator.hpp"
-#include "System/Text/StringBuilder.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRHandTest::BoolMonitor::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -115,6 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHandTest::BoolMonitor::*)(System::Text::StringBuilder*&)>(&GlobalNamespace::OVRHandTest::BoolMonitor::AppendToStringBuilder)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHandTest::BoolMonitor*), "AppendToStringBuilder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*&>()});
+    static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHandTest::BoolMonitor*), "AppendToStringBuilder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sb});
   }
 };

@@ -123,13 +123,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MirroredBeatmapObjectManager) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirroredBeatmapObjectManager*, "", "MirroredBeatmapObjectManager");
-// Writing includes for template specializations
-#include "GlobalNamespace/BeatmapObjectManager.hpp"
-#include "GlobalNamespace/MirroredCubeNoteController_Pool.hpp"
-#include "GlobalNamespace/MirroredBombNoteController_Pool.hpp"
-#include "GlobalNamespace/MirroredObstacleController_Pool.hpp"
-#include "GlobalNamespace/NoteController.hpp"
-#include "GlobalNamespace/ObstacleController.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MirroredBeatmapObjectManager::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -139,7 +132,8 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirroredBeatmapObjectManager*, "", "Mirr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MirroredBeatmapObjectManager::*)(GlobalNamespace::NoteController*)>(&GlobalNamespace::MirroredBeatmapObjectManager::HandleNoteWasSpawned)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredBeatmapObjectManager*), "HandleNoteWasSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>()});
+    static auto* noteController = &::il2cpp_utils::GetClassFromName("", "NoteController")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredBeatmapObjectManager*), "HandleNoteWasSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteController});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MirroredBeatmapObjectManager::HandleNoteWasDespawned
@@ -147,7 +141,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MirroredBeatmapObjectManager::*)(GlobalNamespace::NoteController*)>(&GlobalNamespace::MirroredBeatmapObjectManager::HandleNoteWasDespawned)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredBeatmapObjectManager*), "HandleNoteWasDespawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>()});
+    static auto* noteController = &::il2cpp_utils::GetClassFromName("", "NoteController")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredBeatmapObjectManager*), "HandleNoteWasDespawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteController});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MirroredBeatmapObjectManager::HandleObstacleWasSpawned
@@ -155,7 +150,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MirroredBeatmapObjectManager::*)(GlobalNamespace::ObstacleController*)>(&GlobalNamespace::MirroredBeatmapObjectManager::HandleObstacleWasSpawned)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredBeatmapObjectManager*), "HandleObstacleWasSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleController*>()});
+    static auto* obstacleController = &::il2cpp_utils::GetClassFromName("", "ObstacleController")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredBeatmapObjectManager*), "HandleObstacleWasSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obstacleController});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MirroredBeatmapObjectManager::HandleObstacleWasDespawned
@@ -163,7 +159,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MirroredBeatmapObjectManager::*)(GlobalNamespace::ObstacleController*)>(&GlobalNamespace::MirroredBeatmapObjectManager::HandleObstacleWasDespawned)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredBeatmapObjectManager*), "HandleObstacleWasDespawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleController*>()});
+    static auto* obstacleController = &::il2cpp_utils::GetClassFromName("", "ObstacleController")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredBeatmapObjectManager*), "HandleObstacleWasDespawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obstacleController});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MirroredBeatmapObjectManager::HandleDidHideAllBeatmapObjects
@@ -171,7 +168,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MirroredBeatmapObjectManager::*)(bool)>(&GlobalNamespace::MirroredBeatmapObjectManager::HandleDidHideAllBeatmapObjects)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredBeatmapObjectManager*), "HandleDidHideAllBeatmapObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* hide = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MirroredBeatmapObjectManager*), "HandleDidHideAllBeatmapObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hide});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MirroredBeatmapObjectManager::Finalize

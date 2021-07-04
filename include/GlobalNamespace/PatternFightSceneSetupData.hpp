@@ -55,9 +55,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(PatternFightSceneSetupData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PatternFightSceneSetupData*, "", "PatternFightSceneSetupData");
-// Writing includes for template specializations
-#include "GlobalNamespace/PlayerSpecificSettings.hpp"
-#include "GlobalNamespace/ColorScheme.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PatternFightSceneSetupData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

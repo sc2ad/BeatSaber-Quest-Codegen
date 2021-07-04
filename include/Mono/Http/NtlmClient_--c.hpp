@@ -62,8 +62,6 @@ namespace Mono::Http {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Http::NtlmClient::$$c*, "Mono.Http", "NtlmClient/<>c");
-// Writing includes for template specializations
-#include "System/Net/HttpWebRequest.hpp"
 // Writing MetadataGetter for method: Mono::Http::NtlmClient::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -77,7 +75,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Http::NtlmSession* (Mono::Http::NtlmClient::$$c::*)(System::Net::HttpWebRequest*)>(&Mono::Http::NtlmClient::$$c::$Authenticate$b__1_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Http::NtlmClient::$$c*), "<Authenticate>b__1_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("System.Net", "HttpWebRequest")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Http::NtlmClient::$$c*), "<Authenticate>b__1_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
 // Writing MetadataGetter for method: Mono::Http::NtlmClient::$$c::New_ctor

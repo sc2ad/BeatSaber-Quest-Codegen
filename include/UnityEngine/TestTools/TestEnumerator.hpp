@@ -65,9 +65,6 @@ namespace UnityEngine::TestTools {
   static_assert(sizeof(TestEnumerator) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestEnumerator*, "UnityEngine.TestTools", "TestEnumerator");
-// Writing includes for template specializations
-#include "NUnit/Framework/Internal/ITestExecutionContext.hpp"
-#include "System/Collections/IEnumerator.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestEnumerator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

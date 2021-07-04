@@ -57,7 +57,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(SetActiveRT) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetActiveRT*, "", "SetActiveRT");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SetActiveRT::OnPreRender
 // Il2CppName: OnPreRender
 template<>

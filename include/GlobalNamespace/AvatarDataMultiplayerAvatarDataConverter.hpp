@@ -35,15 +35,13 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarDataMultiplayerAvatarDataConverter*, "", "AvatarDataMultiplayerAvatarDataConverter");
-// Writing includes for template specializations
-#include "GlobalNamespace/AvatarData.hpp"
-#include "GlobalNamespace/MultiplayerAvatarData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarDataMultiplayerAvatarDataConverter::CreateMultiplayerAvatarData
 // Il2CppName: CreateMultiplayerAvatarData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MultiplayerAvatarData (*)(GlobalNamespace::AvatarData*)>(&GlobalNamespace::AvatarDataMultiplayerAvatarDataConverter::CreateMultiplayerAvatarData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarDataMultiplayerAvatarDataConverter*), "CreateMultiplayerAvatarData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AvatarData*>()});
+    static auto* avatarData = &::il2cpp_utils::GetClassFromName("", "AvatarData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarDataMultiplayerAvatarDataConverter*), "CreateMultiplayerAvatarData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{avatarData});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::AvatarDataMultiplayerAvatarDataConverter::CreateAvatarData
@@ -51,6 +49,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::AvatarData* (*)(GlobalNamespace::MultiplayerAvatarData)>(&GlobalNamespace::AvatarDataMultiplayerAvatarDataConverter::CreateAvatarData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarDataMultiplayerAvatarDataConverter*), "CreateAvatarData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MultiplayerAvatarData>()});
+    static auto* multiplayerAvatarData = &::il2cpp_utils::GetClassFromName("", "MultiplayerAvatarData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarDataMultiplayerAvatarDataConverter*), "CreateAvatarData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multiplayerAvatarData});
   }
 };

@@ -85,15 +85,13 @@ namespace UnityEngine {
   static_assert(sizeof(GUIStyleState) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUIStyleState*, "UnityEngine", "GUIStyleState");
-// Writing includes for template specializations
-#include "UnityEngine/Color.hpp"
-#include "UnityEngine/GUIStyle.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUIStyleState::set_textColor
 // Il2CppName: set_textColor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyleState::*)(UnityEngine::Color)>(&UnityEngine::GUIStyleState::set_textColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyleState*), "set_textColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyleState*), "set_textColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUIStyleState::Init
@@ -121,7 +119,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUIStyleState* (*)(UnityEngine::GUIStyle*, System::IntPtr)>(&UnityEngine::GUIStyleState::GetGUIStyleState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyleState*), "GetGUIStyleState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* sourceStyle = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    static auto* source = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyleState*), "GetGUIStyleState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourceStyle, source});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUIStyleState::set_textColor_Injected
@@ -129,7 +129,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUIStyleState::*)(UnityEngine::Color&)>(&UnityEngine::GUIStyleState::set_textColor_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyleState*), "set_textColor_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUIStyleState*), "set_textColor_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUIStyleState::New_ctor

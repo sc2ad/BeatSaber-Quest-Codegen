@@ -83,8 +83,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(OculusInit) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusInit*, "", "OculusInit");
-// Writing includes for template specializations
-#include "Oculus/Platform/Message_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OculusInit::Init
 // Il2CppName: Init
 template<>
@@ -98,7 +96,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusInit::*)(Oculus::Platform::Message_1<Oculus::Platform::Models::PlatformInitialize*>*)>(&GlobalNamespace::OculusInit::InitCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusInit*), "InitCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message_1<Oculus::Platform::Models::PlatformInitialize*>*>()});
+    static auto* msg = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("Oculus.Platform", "Message`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "PlatformInitialize")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusInit*), "InitCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{msg});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OculusInit::New_ctor

@@ -33,7 +33,6 @@ namespace System::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequest::WebProxyWrapper*, "System.Net", "WebRequest/WebProxyWrapper");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::WebRequest::WebProxyWrapper::get_WebProxy
 // Il2CppName: get_WebProxy
 template<>

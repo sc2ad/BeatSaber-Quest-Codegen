@@ -78,14 +78,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(SimpleTextWithIconTableCell) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleTextWithIconTableCell*, "", "SimpleTextWithIconTableCell");
-// Writing includes for template specializations
-#include "UnityEngine/UI/Image.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleTextWithIconTableCell::set_icon
 // Il2CppName: set_icon
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleTextWithIconTableCell::*)(UnityEngine::UI::Image*)>(&GlobalNamespace::SimpleTextWithIconTableCell::set_icon)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleTextWithIconTableCell*), "set_icon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Image*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Image")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleTextWithIconTableCell*), "set_icon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SimpleTextWithIconTableCell::get_icon
@@ -101,7 +100,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleTextWithIconTableCell::*)(::Il2CppString*)>(&GlobalNamespace::SimpleTextWithIconTableCell::set_text)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleTextWithIconTableCell*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleTextWithIconTableCell*), "set_text", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SimpleTextWithIconTableCell::get_text

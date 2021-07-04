@@ -202,24 +202,6 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Graphics*, "UnityEngine", "Graphics");
-// Writing includes for template specializations
-#include "UnityEngine/Rendering/GraphicsTier.hpp"
-#include "UnityEngine/RenderBuffer.hpp"
-#include "UnityEngine/CubemapFace.hpp"
-#include "UnityEngine/Texture.hpp"
-#include "UnityEngine/Mesh.hpp"
-#include "UnityEngine/Internal_DrawTextureArguments.hpp"
-#include "UnityEngine/Material.hpp"
-#include "UnityEngine/MaterialPropertyBlock.hpp"
-#include "UnityEngine/Rendering/ShadowCastingMode.hpp"
-#include "UnityEngine/Camera.hpp"
-#include "UnityEngine/Rendering/LightProbeUsage.hpp"
-#include "UnityEngine/LightProbeProxyVolume.hpp"
-#include "UnityEngine/RenderTexture.hpp"
-#include "UnityEngine/Vector2.hpp"
-#include "UnityEngine/Rendering/CommandBuffer.hpp"
-#include "UnityEngine/Rect.hpp"
-#include "UnityEngine/Color.hpp"
 // Writing MetadataGetter for method: UnityEngine::Graphics::Internal_GetMaxDrawMeshInstanceCount
 // Il2CppName: Internal_GetMaxDrawMeshInstanceCount
 template<>
@@ -241,7 +223,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rendering::GraphicsTier)>(&UnityEngine::Graphics::set_activeTier)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "set_activeTier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::GraphicsTier>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "GraphicsTier")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "set_activeTier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::GetActiveColorBuffer
@@ -273,7 +256,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RenderBuffer, UnityEngine::RenderBuffer, int, UnityEngine::CubemapFace, int)>(&UnityEngine::Graphics::Internal_SetRTSimple)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Internal_SetRTSimple", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderBuffer>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderBuffer>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::CubemapFace>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderBuffer")->byval_arg;
+    static auto* depth = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderBuffer")->byval_arg;
+    static auto* mip = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* face = &::il2cpp_utils::GetClassFromName("UnityEngine", "CubemapFace")->byval_arg;
+    static auto* depthSlice = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Internal_SetRTSimple", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color, depth, mip, face, depthSlice});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::CopyTexture_Slice
@@ -281,7 +269,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, int, int, UnityEngine::Texture*, int, int)>(&UnityEngine::Graphics::CopyTexture_Slice)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "CopyTexture_Slice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* srcElement = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* srcMip = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* dst = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* dstElement = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* dstMip = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "CopyTexture_Slice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src, srcElement, srcMip, dst, dstElement, dstMip});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::Internal_DrawMeshNow2
@@ -289,7 +283,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, int, UnityEngine::Matrix4x4)>(&UnityEngine::Graphics::Internal_DrawMeshNow2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Internal_DrawMeshNow2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>()});
+    static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
+    static auto* subsetIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* matrix = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Internal_DrawMeshNow2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh, subsetIndex, matrix});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::Internal_DrawTexture
@@ -297,7 +294,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Internal_DrawTextureArguments&)>(&UnityEngine::Graphics::Internal_DrawTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Internal_DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Internal_DrawTextureArguments&>()});
+    static auto* args = &::il2cpp_utils::GetClassFromName("UnityEngine", "Internal_DrawTextureArguments")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Internal_DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::Internal_DrawMeshInstanced
@@ -305,7 +303,19 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, int, UnityEngine::Material*, ::Array<UnityEngine::Matrix4x4>*, int, UnityEngine::MaterialPropertyBlock*, UnityEngine::Rendering::ShadowCastingMode, bool, int, UnityEngine::Camera*, UnityEngine::Rendering::LightProbeUsage, UnityEngine::LightProbeProxyVolume*)>(&UnityEngine::Graphics::Internal_DrawMeshInstanced)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Internal_DrawMeshInstanced", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Matrix4x4>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::MaterialPropertyBlock*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::ShadowCastingMode>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::LightProbeUsage>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::LightProbeProxyVolume*>()});
+    static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
+    static auto* submeshIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* material = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    static auto* matrices = &classof(::Array<::Array<UnityEngine::Matrix4x4>*>*)->byval_arg;
+    static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* properties = &::il2cpp_utils::GetClassFromName("UnityEngine", "MaterialPropertyBlock")->byval_arg;
+    static auto* castShadows = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "ShadowCastingMode")->byval_arg;
+    static auto* receiveShadows = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* layer = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* camera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    static auto* lightProbeUsage = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "LightProbeUsage")->byval_arg;
+    static auto* lightProbeProxyVolume = &::il2cpp_utils::GetClassFromName("UnityEngine", "LightProbeProxyVolume")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Internal_DrawMeshInstanced", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh, submeshIndex, material, matrices, count, properties, castShadows, receiveShadows, layer, camera, lightProbeUsage, lightProbeProxyVolume});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::Internal_BlitMaterial5
@@ -313,7 +323,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, UnityEngine::RenderTexture*, UnityEngine::Material*, int, bool)>(&UnityEngine::Graphics::Internal_BlitMaterial5)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Internal_BlitMaterial5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
+    static auto* mat = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    static auto* pass = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* setRT = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Internal_BlitMaterial5", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source, dest, mat, pass, setRT});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::Blit2
@@ -321,7 +336,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, UnityEngine::RenderTexture*)>(&UnityEngine::Graphics::Blit2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Blit2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>()});
+    static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Blit2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source, dest});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::Blit4
@@ -329,7 +346,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, UnityEngine::RenderTexture*, UnityEngine::Vector2, UnityEngine::Vector2)>(&UnityEngine::Graphics::Blit4)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Blit4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
+    static auto* scale = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* offset = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Blit4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source, dest, scale, offset});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::ExecuteCommandBuffer
@@ -337,7 +358,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rendering::CommandBuffer*)>(&UnityEngine::Graphics::ExecuteCommandBuffer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "ExecuteCommandBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::CommandBuffer*>()});
+    static auto* buffer = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "CommandBuffer")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "ExecuteCommandBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::SetRenderTargetImpl
@@ -345,7 +367,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RenderBuffer, UnityEngine::RenderBuffer, int, UnityEngine::CubemapFace, int)>(&UnityEngine::Graphics::SetRenderTargetImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "SetRenderTargetImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderBuffer>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderBuffer>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::CubemapFace>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* colorBuffer = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderBuffer")->byval_arg;
+    static auto* depthBuffer = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderBuffer")->byval_arg;
+    static auto* mipLevel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* face = &::il2cpp_utils::GetClassFromName("UnityEngine", "CubemapFace")->byval_arg;
+    static auto* depthSlice = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "SetRenderTargetImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorBuffer, depthBuffer, mipLevel, face, depthSlice});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::SetRenderTargetImpl
@@ -353,7 +380,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RenderTexture*, int, UnityEngine::CubemapFace, int)>(&UnityEngine::Graphics::SetRenderTargetImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "SetRenderTargetImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::CubemapFace>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* rt = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
+    static auto* mipLevel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* face = &::il2cpp_utils::GetClassFromName("UnityEngine", "CubemapFace")->byval_arg;
+    static auto* depthSlice = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "SetRenderTargetImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rt, mipLevel, face, depthSlice});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::SetRenderTarget
@@ -361,7 +392,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RenderTexture*, int, UnityEngine::CubemapFace, int)>(&UnityEngine::Graphics::SetRenderTarget)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "SetRenderTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::CubemapFace>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* rt = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
+    static auto* mipLevel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* face = &::il2cpp_utils::GetClassFromName("UnityEngine", "CubemapFace")->byval_arg;
+    static auto* depthSlice = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "SetRenderTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rt, mipLevel, face, depthSlice});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::SetRenderTarget
@@ -369,7 +404,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RenderBuffer, UnityEngine::RenderBuffer, int, UnityEngine::CubemapFace, int)>(&UnityEngine::Graphics::SetRenderTarget)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "SetRenderTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderBuffer>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderBuffer>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::CubemapFace>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* colorBuffer = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderBuffer")->byval_arg;
+    static auto* depthBuffer = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderBuffer")->byval_arg;
+    static auto* mipLevel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* face = &::il2cpp_utils::GetClassFromName("UnityEngine", "CubemapFace")->byval_arg;
+    static auto* depthSlice = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "SetRenderTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorBuffer, depthBuffer, mipLevel, face, depthSlice});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::get_activeColorBuffer
@@ -393,7 +433,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, int, int, UnityEngine::Texture*, int, int)>(&UnityEngine::Graphics::CopyTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "CopyTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* srcElement = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* srcMip = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* dst = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* dstElement = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* dstMip = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "CopyTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src, srcElement, srcMip, dst, dstElement, dstMip});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::DrawTextureImpl
@@ -401,7 +447,17 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::Texture*, UnityEngine::Rect, int, int, int, int, UnityEngine::Color, UnityEngine::Material*, int)>(&UnityEngine::Graphics::DrawTextureImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "DrawTextureImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* screenRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* texture = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* sourceRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* leftBorder = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* rightBorder = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* topBorder = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* bottomBorder = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    static auto* mat = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    static auto* pass = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "DrawTextureImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{screenRect, texture, sourceRect, leftBorder, rightBorder, topBorder, bottomBorder, color, mat, pass});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::DrawTexture
@@ -409,7 +465,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::Texture*, UnityEngine::Rect, int, int, int, int, UnityEngine::Material*, int)>(&UnityEngine::Graphics::DrawTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* screenRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* texture = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* sourceRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* leftBorder = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* rightBorder = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* topBorder = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* bottomBorder = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* mat = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    static auto* pass = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{screenRect, texture, sourceRect, leftBorder, rightBorder, topBorder, bottomBorder, mat, pass});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::DrawTexture
@@ -417,7 +482,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::Texture*, int, int, int, int, UnityEngine::Material*, int)>(&UnityEngine::Graphics::DrawTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* screenRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* texture = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* leftBorder = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* rightBorder = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* topBorder = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* bottomBorder = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* mat = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    static auto* pass = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{screenRect, texture, leftBorder, rightBorder, topBorder, bottomBorder, mat, pass});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::DrawTexture
@@ -425,7 +498,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::Texture*, UnityEngine::Material*, int)>(&UnityEngine::Graphics::DrawTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* screenRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* texture = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* mat = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    static auto* pass = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{screenRect, texture, mat, pass});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::DrawMeshNow
@@ -433,7 +510,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, UnityEngine::Matrix4x4, int)>(&UnityEngine::Graphics::DrawMeshNow)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "DrawMeshNow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
+    static auto* matrix = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->byval_arg;
+    static auto* materialIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "DrawMeshNow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh, matrix, materialIndex});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::DrawMeshInstanced
@@ -441,7 +521,19 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, int, UnityEngine::Material*, ::Array<UnityEngine::Matrix4x4>*, int, UnityEngine::MaterialPropertyBlock*, UnityEngine::Rendering::ShadowCastingMode, bool, int, UnityEngine::Camera*, UnityEngine::Rendering::LightProbeUsage, UnityEngine::LightProbeProxyVolume*)>(&UnityEngine::Graphics::DrawMeshInstanced)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "DrawMeshInstanced", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Matrix4x4>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::MaterialPropertyBlock*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::ShadowCastingMode>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::LightProbeUsage>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::LightProbeProxyVolume*>()});
+    static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
+    static auto* submeshIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* material = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    static auto* matrices = &classof(::Array<::Array<UnityEngine::Matrix4x4>*>*)->byval_arg;
+    static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* properties = &::il2cpp_utils::GetClassFromName("UnityEngine", "MaterialPropertyBlock")->byval_arg;
+    static auto* castShadows = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "ShadowCastingMode")->byval_arg;
+    static auto* receiveShadows = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* layer = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* camera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    static auto* lightProbeUsage = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "LightProbeUsage")->byval_arg;
+    static auto* lightProbeProxyVolume = &::il2cpp_utils::GetClassFromName("UnityEngine", "LightProbeProxyVolume")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "DrawMeshInstanced", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh, submeshIndex, material, matrices, count, properties, castShadows, receiveShadows, layer, camera, lightProbeUsage, lightProbeProxyVolume});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::Blit
@@ -449,7 +541,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, UnityEngine::RenderTexture*)>(&UnityEngine::Graphics::Blit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Blit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>()});
+    static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Blit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source, dest});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::Blit
@@ -457,7 +551,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, UnityEngine::RenderTexture*, UnityEngine::Vector2, UnityEngine::Vector2)>(&UnityEngine::Graphics::Blit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Blit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
+    static auto* scale = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* offset = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Blit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source, dest, scale, offset});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::Blit
@@ -465,7 +563,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, UnityEngine::RenderTexture*, UnityEngine::Material*, int)>(&UnityEngine::Graphics::Blit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Blit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
+    static auto* mat = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    static auto* pass = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Blit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source, dest, mat, pass});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::Blit
@@ -473,7 +575,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, UnityEngine::RenderTexture*, UnityEngine::Material*)>(&UnityEngine::Graphics::Blit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Blit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
+    static auto* mat = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Blit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source, dest, mat});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::DrawMeshInstanced
@@ -481,7 +586,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, int, UnityEngine::Material*, ::Array<UnityEngine::Matrix4x4>*, int, UnityEngine::MaterialPropertyBlock*, UnityEngine::Rendering::ShadowCastingMode, bool, int)>(&UnityEngine::Graphics::DrawMeshInstanced)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "DrawMeshInstanced", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Matrix4x4>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::MaterialPropertyBlock*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::ShadowCastingMode>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
+    static auto* submeshIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* material = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    static auto* matrices = &classof(::Array<::Array<UnityEngine::Matrix4x4>*>*)->byval_arg;
+    static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* properties = &::il2cpp_utils::GetClassFromName("UnityEngine", "MaterialPropertyBlock")->byval_arg;
+    static auto* castShadows = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "ShadowCastingMode")->byval_arg;
+    static auto* receiveShadows = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* layer = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "DrawMeshInstanced", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh, submeshIndex, material, matrices, count, properties, castShadows, receiveShadows, layer});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::DrawTexture
@@ -489,7 +603,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::Texture*, UnityEngine::Material*)>(&UnityEngine::Graphics::DrawTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    static auto* screenRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* texture = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* mat = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{screenRect, texture, mat});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::SetRenderTarget
@@ -497,7 +614,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RenderTexture*)>(&UnityEngine::Graphics::SetRenderTarget)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "SetRenderTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>()});
+    static auto* rt = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "SetRenderTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rt});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::SetRenderTarget
@@ -505,7 +623,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RenderTexture*, int, UnityEngine::CubemapFace)>(&UnityEngine::Graphics::SetRenderTarget)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "SetRenderTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::CubemapFace>()});
+    static auto* rt = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
+    static auto* mipLevel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* face = &::il2cpp_utils::GetClassFromName("UnityEngine", "CubemapFace")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "SetRenderTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rt, mipLevel, face});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::SetRenderTarget
@@ -513,7 +634,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RenderBuffer, UnityEngine::RenderBuffer)>(&UnityEngine::Graphics::SetRenderTarget)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "SetRenderTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderBuffer>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderBuffer>()});
+    static auto* colorBuffer = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderBuffer")->byval_arg;
+    static auto* depthBuffer = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderBuffer")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "SetRenderTarget", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorBuffer, depthBuffer});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::_cctor
@@ -529,7 +652,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RenderBuffer&)>(&UnityEngine::Graphics::GetActiveColorBuffer_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "GetActiveColorBuffer_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderBuffer&>()});
+    static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderBuffer")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "GetActiveColorBuffer_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::GetActiveDepthBuffer_Injected
@@ -537,7 +661,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RenderBuffer&)>(&UnityEngine::Graphics::GetActiveDepthBuffer_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "GetActiveDepthBuffer_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderBuffer&>()});
+    static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderBuffer")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "GetActiveDepthBuffer_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::Internal_SetRTSimple_Injected
@@ -545,7 +670,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RenderBuffer&, UnityEngine::RenderBuffer&, int, UnityEngine::CubemapFace, int)>(&UnityEngine::Graphics::Internal_SetRTSimple_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Internal_SetRTSimple_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderBuffer&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderBuffer&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::CubemapFace>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderBuffer")->this_arg;
+    static auto* depth = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderBuffer")->this_arg;
+    static auto* mip = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* face = &::il2cpp_utils::GetClassFromName("UnityEngine", "CubemapFace")->byval_arg;
+    static auto* depthSlice = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Internal_SetRTSimple_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color, depth, mip, face, depthSlice});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::Internal_DrawMeshNow2_Injected
@@ -553,7 +683,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, int, UnityEngine::Matrix4x4&)>(&UnityEngine::Graphics::Internal_DrawMeshNow2_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Internal_DrawMeshNow2_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Mesh*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Matrix4x4&>()});
+    static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
+    static auto* subsetIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* matrix = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Internal_DrawMeshNow2_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh, subsetIndex, matrix});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Graphics::Blit4_Injected
@@ -561,6 +694,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, UnityEngine::RenderTexture*, UnityEngine::Vector2&, UnityEngine::Vector2&)>(&UnityEngine::Graphics::Blit4_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Blit4_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+    static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
+    static auto* scale = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
+    static auto* offset = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Graphics*), "Blit4_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source, dest, scale, offset});
   }
 };

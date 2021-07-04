@@ -37,14 +37,14 @@ namespace System::Reflection {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ICustomAttributeProvider*, "System.Reflection", "ICustomAttributeProvider");
-// Writing includes for template specializations
-#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::Reflection::ICustomAttributeProvider::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppObject*>* (System::Reflection::ICustomAttributeProvider::*)(System::Type*, bool)>(&System::Reflection::ICustomAttributeProvider::GetCustomAttributes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::ICustomAttributeProvider*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::ICustomAttributeProvider*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attributeType, inherit});
   }
 };
 // Writing MetadataGetter for method: System::Reflection::ICustomAttributeProvider::IsDefined
@@ -52,6 +52,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Reflection::ICustomAttributeProvider::*)(System::Type*, bool)>(&System::Reflection::ICustomAttributeProvider::IsDefined)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::ICustomAttributeProvider*), "IsDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::ICustomAttributeProvider*), "IsDefined", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attributeType, inherit});
   }
 };

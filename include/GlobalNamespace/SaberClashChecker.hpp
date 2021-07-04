@@ -97,14 +97,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(SaberClashChecker) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberClashChecker*, "", "SaberClashChecker");
-// Writing includes for template specializations
-#include "GlobalNamespace/SaberManager.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SaberClashChecker::Init
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberClashChecker::*)(GlobalNamespace::SaberManager*)>(&GlobalNamespace::SaberClashChecker::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberClashChecker*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberManager*>()});
+    static auto* saberManager = &::il2cpp_utils::GetClassFromName("", "SaberManager")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberClashChecker*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saberManager});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SaberClashChecker::AreSabersClashing
@@ -112,7 +111,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SaberClashChecker::*)(UnityEngine::Vector3&)>(&GlobalNamespace::SaberClashChecker::AreSabersClashing)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberClashChecker*), "AreSabersClashing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    static auto* clashingPoint = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberClashChecker*), "AreSabersClashing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clashingPoint});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SaberClashChecker::SegmentToSegmentDist
@@ -120,7 +120,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::SaberClashChecker::*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3&)>(&GlobalNamespace::SaberClashChecker::SegmentToSegmentDist)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberClashChecker*), "SegmentToSegmentDist", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    static auto* fromA = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* toA = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* fromB = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* toB = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* inbetweenPoint = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberClashChecker*), "SegmentToSegmentDist", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fromA, toA, fromB, toB, inbetweenPoint});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SaberClashChecker::New_ctor

@@ -123,7 +123,6 @@ namespace GlobalNamespace {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnabledViewStateTransition*, "", "EnabledViewStateTransition");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::EnabledViewStateTransition::get_transition
 // Il2CppName: get_transition
 template<>

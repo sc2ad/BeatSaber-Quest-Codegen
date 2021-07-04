@@ -221,17 +221,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(KawaseBlurRendererSO) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KawaseBlurRendererSO*, "", "KawaseBlurRendererSO");
-// Writing includes for template specializations
-#include "GlobalNamespace/KawaseBlurRendererSO_KernelSize.hpp"
-#include "UnityEngine/RenderTexture.hpp"
-#include "GlobalNamespace/KawaseBlurRendererSO_WeightsType.hpp"
-#include "UnityEngine/Texture.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::KawaseBlurRendererSO::GetBlurKernel
 // Il2CppName: GetBlurKernel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (GlobalNamespace::KawaseBlurRendererSO::*)(GlobalNamespace::KawaseBlurRendererSO::KernelSize)>(&GlobalNamespace::KawaseBlurRendererSO::GetBlurKernel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBlurRendererSO*), "GetBlurKernel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::KawaseBlurRendererSO::KernelSize>()});
+    static auto* kernelSize = &::il2cpp_utils::GetClassFromName("", "KawaseBlurRendererSO/KernelSize")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBlurRendererSO*), "GetBlurKernel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{kernelSize});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::KawaseBlurRendererSO::OnDisable
@@ -247,7 +243,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::KawaseBlurRendererSO::*)(UnityEngine::RenderTexture*, UnityEngine::RenderTexture*, int, int, float, float, GlobalNamespace::KawaseBlurRendererSO::WeightsType, ::Array<float>*)>(&GlobalNamespace::KawaseBlurRendererSO::Bloom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBlurRendererSO*), "Bloom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::KawaseBlurRendererSO::WeightsType>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
+    static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
+    static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
+    static auto* iterationsStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* iterations = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* boost = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* alphaWeights = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* blurStartWeightsType = &::il2cpp_utils::GetClassFromName("", "KawaseBlurRendererSO/WeightsType")->byval_arg;
+    static auto* bloomIterationWeights = &classof(::Array<::Array<float>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBlurRendererSO*), "Bloom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src, dest, iterationsStart, iterations, boost, alphaWeights, blurStartWeightsType, bloomIterationWeights});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::KawaseBlurRendererSO::DoubleBlur
@@ -255,7 +259,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::KawaseBlurRendererSO::*)(UnityEngine::RenderTexture*, UnityEngine::RenderTexture*, GlobalNamespace::KawaseBlurRendererSO::KernelSize, float, GlobalNamespace::KawaseBlurRendererSO::KernelSize, float, float, int, bool)>(&GlobalNamespace::KawaseBlurRendererSO::DoubleBlur)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBlurRendererSO*), "DoubleBlur", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::KawaseBlurRendererSO::KernelSize>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::KawaseBlurRendererSO::KernelSize>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
+    static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
+    static auto* kernelSize0 = &::il2cpp_utils::GetClassFromName("", "KawaseBlurRendererSO/KernelSize")->byval_arg;
+    static auto* boost0 = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* kernelSize1 = &::il2cpp_utils::GetClassFromName("", "KawaseBlurRendererSO/KernelSize")->byval_arg;
+    static auto* boost1 = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* secondBlurAlpha = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* downsample = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* gammaCorrection = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBlurRendererSO*), "DoubleBlur", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src, dest, kernelSize0, boost0, kernelSize1, boost1, secondBlurAlpha, downsample, gammaCorrection});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::KawaseBlurRendererSO::Blur
@@ -263,7 +276,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Texture2D* (GlobalNamespace::KawaseBlurRendererSO::*)(UnityEngine::Texture*, GlobalNamespace::KawaseBlurRendererSO::KernelSize, int)>(&GlobalNamespace::KawaseBlurRendererSO::Blur)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBlurRendererSO*), "Blur", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::KawaseBlurRendererSO::KernelSize>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* kernelSize = &::il2cpp_utils::GetClassFromName("", "KawaseBlurRendererSO/KernelSize")->byval_arg;
+    static auto* downsample = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBlurRendererSO*), "Blur", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src, kernelSize, downsample});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::KawaseBlurRendererSO::Blur
@@ -271,7 +287,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::KawaseBlurRendererSO::*)(UnityEngine::Texture*, UnityEngine::RenderTexture*, GlobalNamespace::KawaseBlurRendererSO::KernelSize, float, int)>(&GlobalNamespace::KawaseBlurRendererSO::Blur)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBlurRendererSO*), "Blur", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::KawaseBlurRendererSO::KernelSize>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
+    static auto* kernelSize = &::il2cpp_utils::GetClassFromName("", "KawaseBlurRendererSO/KernelSize")->byval_arg;
+    static auto* boost = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* downsample = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBlurRendererSO*), "Blur", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src, dest, kernelSize, boost, downsample});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::KawaseBlurRendererSO::Blur
@@ -279,7 +300,19 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::KawaseBlurRendererSO::*)(UnityEngine::Texture*, UnityEngine::RenderTexture*, ::Array<int>*, float, int, int, int, float, float, bool, bool, GlobalNamespace::KawaseBlurRendererSO::WeightsType)>(&GlobalNamespace::KawaseBlurRendererSO::Blur)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBlurRendererSO*), "Blur", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::KawaseBlurRendererSO::WeightsType>()});
+    static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
+    static auto* kernel = &classof(::Array<::Array<int>*>*)->byval_arg;
+    static auto* boost = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* downsample = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* startIdx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* alphaWeights = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* additiveAlpha = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* additivelyBlendToDest = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* gammaCorrection = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* blurStartWeightsType = &::il2cpp_utils::GetClassFromName("", "KawaseBlurRendererSO/WeightsType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBlurRendererSO*), "Blur", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src, dest, kernel, boost, downsample, startIdx, length, alphaWeights, additiveAlpha, additivelyBlendToDest, gammaCorrection, blurStartWeightsType});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::KawaseBlurRendererSO::AlphaWeights
@@ -287,7 +320,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::KawaseBlurRendererSO::*)(UnityEngine::RenderTexture*, UnityEngine::RenderTexture*)>(&GlobalNamespace::KawaseBlurRendererSO::AlphaWeights)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBlurRendererSO*), "AlphaWeights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>()});
+    static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
+    static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBlurRendererSO*), "AlphaWeights", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src, dest});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::KawaseBlurRendererSO::CreateBlurCommandBuffer
@@ -295,7 +330,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rendering::CommandBuffer* (GlobalNamespace::KawaseBlurRendererSO::*)(int, int, ::Il2CppString*, GlobalNamespace::KawaseBlurRendererSO::KernelSize, float)>(&GlobalNamespace::KawaseBlurRendererSO::CreateBlurCommandBuffer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBlurRendererSO*), "CreateBlurCommandBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::KawaseBlurRendererSO::KernelSize>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* width = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* height = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* globalTextureName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* kernelSize = &::il2cpp_utils::GetClassFromName("", "KawaseBlurRendererSO/KernelSize")->byval_arg;
+    static auto* boost = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBlurRendererSO*), "CreateBlurCommandBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{width, height, globalTextureName, kernelSize, boost});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::KawaseBlurRendererSO::OnEnable

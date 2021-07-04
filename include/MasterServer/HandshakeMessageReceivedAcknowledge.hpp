@@ -57,7 +57,6 @@ namespace MasterServer {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::HandshakeMessageReceivedAcknowledge*, "MasterServer", "HandshakeMessageReceivedAcknowledge");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: MasterServer::HandshakeMessageReceivedAcknowledge::get_pool
 // Il2CppName: get_pool
 template<>

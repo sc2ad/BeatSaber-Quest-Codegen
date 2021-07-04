@@ -247,22 +247,6 @@ namespace Valve::VR {
   static_assert(sizeof(CVRSystem) == 0x188);
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRSystem*, "Valve.VR", "CVRSystem");
-// Writing includes for template specializations
-#include "Valve/VR/EVREye.hpp"
-#include "Valve/VR/DistortionCoordinates_t.hpp"
-#include "Valve/VR/ETextureType.hpp"
-#include "Valve/VR/ETrackingUniverseOrigin.hpp"
-#include "Valve/VR/ETrackedDeviceClass.hpp"
-#include "Valve/VR/ETrackedControllerRole.hpp"
-#include "Valve/VR/ETrackedDeviceProperty.hpp"
-#include "Valve/VR/ETrackedPropertyError.hpp"
-#include "System/Text/StringBuilder.hpp"
-#include "Valve/VR/VREvent_t.hpp"
-#include "Valve/VR/EVREventType.hpp"
-#include "Valve/VR/EHiddenAreaMeshType.hpp"
-#include "Valve/VR/VRControllerState_t.hpp"
-#include "Valve/VR/EVRButtonId.hpp"
-#include "Valve/VR/EVRControllerAxisType.hpp"
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -272,7 +256,9 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRSystem*, "Valve.VR", "CVRSystem");
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSystem::*)(uint&, uint&)>(&Valve::VR::CVRSystem::GetRecommendedRenderTargetSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetRecommendedRenderTargetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<uint&>()});
+    static auto* pnWidth = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
+    static auto* pnHeight = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetRecommendedRenderTargetSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pnWidth, pnHeight});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::GetProjectionMatrix
@@ -280,7 +266,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::HmdMatrix44_t (Valve::VR::CVRSystem::*)(Valve::VR::EVREye, float, float)>(&Valve::VR::CVRSystem::GetProjectionMatrix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetProjectionMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVREye>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* eEye = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVREye")->byval_arg;
+    static auto* fNearZ = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* fFarZ = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetProjectionMatrix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eEye, fNearZ, fFarZ});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::GetProjectionRaw
@@ -288,7 +277,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSystem::*)(Valve::VR::EVREye, float&, float&, float&, float&)>(&Valve::VR::CVRSystem::GetProjectionRaw)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetProjectionRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVREye>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+    static auto* eEye = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVREye")->byval_arg;
+    static auto* pfLeft = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
+    static auto* pfRight = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
+    static auto* pfTop = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
+    static auto* pfBottom = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetProjectionRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eEye, pfLeft, pfRight, pfTop, pfBottom});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::ComputeDistortion
@@ -296,7 +290,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRSystem::*)(Valve::VR::EVREye, float, float, Valve::VR::DistortionCoordinates_t&)>(&Valve::VR::CVRSystem::ComputeDistortion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "ComputeDistortion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVREye>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::DistortionCoordinates_t&>()});
+    static auto* eEye = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVREye")->byval_arg;
+    static auto* fU = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* fV = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* pDistortionCoordinates = &::il2cpp_utils::GetClassFromName("Valve.VR", "DistortionCoordinates_t")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "ComputeDistortion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eEye, fU, fV, pDistortionCoordinates});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::GetEyeToHeadTransform
@@ -304,7 +302,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::HmdMatrix34_t (Valve::VR::CVRSystem::*)(Valve::VR::EVREye)>(&Valve::VR::CVRSystem::GetEyeToHeadTransform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetEyeToHeadTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVREye>()});
+    static auto* eEye = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVREye")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetEyeToHeadTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eEye});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::GetTimeSinceLastVsync
@@ -312,7 +311,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRSystem::*)(float&, uint64_t&)>(&Valve::VR::CVRSystem::GetTimeSinceLastVsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetTimeSinceLastVsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<uint64_t&>()});
+    static auto* pfSecondsSinceLastVsync = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
+    static auto* pulFrameCounter = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetTimeSinceLastVsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pfSecondsSinceLastVsync, pulFrameCounter});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::GetD3D9AdapterIndex
@@ -328,7 +329,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Valve:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSystem::*)(int&)>(&Valve::VR::CVRSystem::GetDXGIOutputInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetDXGIOutputInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>()});
+    static auto* pnAdapterIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetDXGIOutputInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pnAdapterIndex});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::GetOutputDevice
@@ -336,7 +338,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSystem::*)(uint64_t&, Valve::VR::ETextureType, System::IntPtr)>(&Valve::VR::CVRSystem::GetOutputDevice)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetOutputDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETextureType>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* pnDevice = &::il2cpp_utils::GetClassFromName("System", "UInt64")->this_arg;
+    static auto* textureType = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETextureType")->byval_arg;
+    static auto* pInstance = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetOutputDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pnDevice, textureType, pInstance});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::IsDisplayOnDesktop
@@ -352,7 +357,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRSystem::*)(bool)>(&Valve::VR::CVRSystem::SetDisplayVisibility)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "SetDisplayVisibility", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* bIsVisibleOnDesktop = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "SetDisplayVisibility", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bIsVisibleOnDesktop});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::GetDeviceToAbsoluteTrackingPose
@@ -360,7 +366,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSystem::*)(Valve::VR::ETrackingUniverseOrigin, float, ::Array<Valve::VR::TrackedDevicePose_t>*)>(&Valve::VR::CVRSystem::GetDeviceToAbsoluteTrackingPose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetDeviceToAbsoluteTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackingUniverseOrigin>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::TrackedDevicePose_t>*>()});
+    static auto* eOrigin = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackingUniverseOrigin")->byval_arg;
+    static auto* fPredictedSecondsToPhotonsFromNow = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* pTrackedDevicePoseArray = &classof(::Array<::Array<Valve::VR::TrackedDevicePose_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetDeviceToAbsoluteTrackingPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eOrigin, fPredictedSecondsToPhotonsFromNow, pTrackedDevicePoseArray});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::ResetSeatedZeroPose
@@ -392,7 +401,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRSystem::*)(Valve::VR::ETrackedDeviceClass, ::Array<uint>*, uint)>(&Valve::VR::CVRSystem::GetSortedTrackedDeviceIndicesOfClass)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetSortedTrackedDeviceIndicesOfClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedDeviceClass>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* eTrackedDeviceClass = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackedDeviceClass")->byval_arg;
+    static auto* punTrackedDeviceIndexArray = &classof(::Array<::Array<uint>*>*)->byval_arg;
+    static auto* unRelativeToTrackedDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetSortedTrackedDeviceIndicesOfClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eTrackedDeviceClass, punTrackedDeviceIndexArray, unRelativeToTrackedDeviceIndex});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::GetTrackedDeviceActivityLevel
@@ -400,7 +412,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EDeviceActivityLevel (Valve::VR::CVRSystem::*)(uint)>(&Valve::VR::CVRSystem::GetTrackedDeviceActivityLevel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetTrackedDeviceActivityLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* unDeviceId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetTrackedDeviceActivityLevel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unDeviceId});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::ApplyTransform
@@ -408,7 +421,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSystem::*)(Valve::VR::TrackedDevicePose_t&, Valve::VR::TrackedDevicePose_t&, Valve::VR::HmdMatrix34_t&)>(&Valve::VR::CVRSystem::ApplyTransform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "ApplyTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::TrackedDevicePose_t&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::TrackedDevicePose_t&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::HmdMatrix34_t&>()});
+    static auto* pOutputPose = &::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t")->this_arg;
+    static auto* pTrackedDevicePose = &::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t")->this_arg;
+    static auto* pTransform = &::il2cpp_utils::GetClassFromName("Valve.VR", "HmdMatrix34_t")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "ApplyTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pOutputPose, pTrackedDevicePose, pTransform});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::GetTrackedDeviceIndexForControllerRole
@@ -416,7 +432,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRSystem::*)(Valve::VR::ETrackedControllerRole)>(&Valve::VR::CVRSystem::GetTrackedDeviceIndexForControllerRole)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetTrackedDeviceIndexForControllerRole", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedControllerRole>()});
+    static auto* unDeviceType = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackedControllerRole")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetTrackedDeviceIndexForControllerRole", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unDeviceType});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::GetControllerRoleForTrackedDeviceIndex
@@ -424,7 +441,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::ETrackedControllerRole (Valve::VR::CVRSystem::*)(uint)>(&Valve::VR::CVRSystem::GetControllerRoleForTrackedDeviceIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetControllerRoleForTrackedDeviceIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetControllerRoleForTrackedDeviceIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unDeviceIndex});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::GetTrackedDeviceClass
@@ -432,7 +450,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::ETrackedDeviceClass (Valve::VR::CVRSystem::*)(uint)>(&Valve::VR::CVRSystem::GetTrackedDeviceClass)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetTrackedDeviceClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetTrackedDeviceClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unDeviceIndex});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::IsTrackedDeviceConnected
@@ -440,7 +459,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRSystem::*)(uint)>(&Valve::VR::CVRSystem::IsTrackedDeviceConnected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "IsTrackedDeviceConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "IsTrackedDeviceConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unDeviceIndex});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::GetBoolTrackedDeviceProperty
@@ -448,7 +468,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRSystem::*)(uint, Valve::VR::ETrackedDeviceProperty, Valve::VR::ETrackedPropertyError&)>(&Valve::VR::CVRSystem::GetBoolTrackedDeviceProperty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetBoolTrackedDeviceProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedPropertyError&>()});
+    static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* prop = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackedDeviceProperty")->byval_arg;
+    static auto* pError = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackedPropertyError")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetBoolTrackedDeviceProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unDeviceIndex, prop, pError});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::GetFloatTrackedDeviceProperty
@@ -456,7 +479,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Valve::VR::CVRSystem::*)(uint, Valve::VR::ETrackedDeviceProperty, Valve::VR::ETrackedPropertyError&)>(&Valve::VR::CVRSystem::GetFloatTrackedDeviceProperty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetFloatTrackedDeviceProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedPropertyError&>()});
+    static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* prop = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackedDeviceProperty")->byval_arg;
+    static auto* pError = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackedPropertyError")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetFloatTrackedDeviceProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unDeviceIndex, prop, pError});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::GetInt32TrackedDeviceProperty
@@ -464,7 +490,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Valv
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Valve::VR::CVRSystem::*)(uint, Valve::VR::ETrackedDeviceProperty, Valve::VR::ETrackedPropertyError&)>(&Valve::VR::CVRSystem::GetInt32TrackedDeviceProperty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetInt32TrackedDeviceProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedPropertyError&>()});
+    static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* prop = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackedDeviceProperty")->byval_arg;
+    static auto* pError = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackedPropertyError")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetInt32TrackedDeviceProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unDeviceIndex, prop, pError});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::GetUint64TrackedDeviceProperty
@@ -472,7 +501,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Valve:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (Valve::VR::CVRSystem::*)(uint, Valve::VR::ETrackedDeviceProperty, Valve::VR::ETrackedPropertyError&)>(&Valve::VR::CVRSystem::GetUint64TrackedDeviceProperty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetUint64TrackedDeviceProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedPropertyError&>()});
+    static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* prop = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackedDeviceProperty")->byval_arg;
+    static auto* pError = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackedPropertyError")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetUint64TrackedDeviceProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unDeviceIndex, prop, pError});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::GetMatrix34TrackedDeviceProperty
@@ -480,7 +512,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (V
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::HmdMatrix34_t (Valve::VR::CVRSystem::*)(uint, Valve::VR::ETrackedDeviceProperty, Valve::VR::ETrackedPropertyError&)>(&Valve::VR::CVRSystem::GetMatrix34TrackedDeviceProperty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetMatrix34TrackedDeviceProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedPropertyError&>()});
+    static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* prop = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackedDeviceProperty")->byval_arg;
+    static auto* pError = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackedPropertyError")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetMatrix34TrackedDeviceProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unDeviceIndex, prop, pError});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::GetArrayTrackedDeviceProperty
@@ -488,7 +523,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRSystem::*)(uint, Valve::VR::ETrackedDeviceProperty, uint, System::IntPtr, uint, Valve::VR::ETrackedPropertyError&)>(&Valve::VR::CVRSystem::GetArrayTrackedDeviceProperty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetArrayTrackedDeviceProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedPropertyError&>()});
+    static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* prop = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackedDeviceProperty")->byval_arg;
+    static auto* propType = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* pBuffer = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* unBufferSize = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* pError = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackedPropertyError")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetArrayTrackedDeviceProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unDeviceIndex, prop, propType, pBuffer, unBufferSize, pError});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::GetStringTrackedDeviceProperty
@@ -496,7 +537,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRSystem::*)(uint, Valve::VR::ETrackedDeviceProperty, System::Text::StringBuilder*, uint, Valve::VR::ETrackedPropertyError&)>(&Valve::VR::CVRSystem::GetStringTrackedDeviceProperty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetStringTrackedDeviceProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedPropertyError&>()});
+    static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* prop = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackedDeviceProperty")->byval_arg;
+    static auto* pchValue = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
+    static auto* unBufferSize = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* pError = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackedPropertyError")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetStringTrackedDeviceProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unDeviceIndex, prop, pchValue, unBufferSize, pError});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::GetPropErrorNameFromEnum
@@ -504,7 +550,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Valve::VR::CVRSystem::*)(Valve::VR::ETrackedPropertyError)>(&Valve::VR::CVRSystem::GetPropErrorNameFromEnum)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetPropErrorNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackedPropertyError>()});
+    static auto* error = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackedPropertyError")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetPropErrorNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::PollNextEvent
@@ -512,7 +559,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRSystem::*)(Valve::VR::VREvent_t&, uint)>(&Valve::VR::CVRSystem::PollNextEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "PollNextEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::VREvent_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* pEvent = &::il2cpp_utils::GetClassFromName("Valve.VR", "VREvent_t")->this_arg;
+    static auto* uncbVREvent = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "PollNextEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pEvent, uncbVREvent});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::PollNextEventWithPose
@@ -520,7 +569,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRSystem::*)(Valve::VR::ETrackingUniverseOrigin, Valve::VR::VREvent_t&, uint, Valve::VR::TrackedDevicePose_t&)>(&Valve::VR::CVRSystem::PollNextEventWithPose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "PollNextEventWithPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackingUniverseOrigin>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VREvent_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::TrackedDevicePose_t&>()});
+    static auto* eOrigin = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackingUniverseOrigin")->byval_arg;
+    static auto* pEvent = &::il2cpp_utils::GetClassFromName("Valve.VR", "VREvent_t")->this_arg;
+    static auto* uncbVREvent = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* pTrackedDevicePose = &::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "PollNextEventWithPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eOrigin, pEvent, uncbVREvent, pTrackedDevicePose});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::GetEventTypeNameFromEnum
@@ -528,7 +581,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Valve::VR::CVRSystem::*)(Valve::VR::EVREventType)>(&Valve::VR::CVRSystem::GetEventTypeNameFromEnum)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetEventTypeNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVREventType>()});
+    static auto* eType = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVREventType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetEventTypeNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eType});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::GetHiddenAreaMesh
@@ -536,7 +590,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::HiddenAreaMesh_t (Valve::VR::CVRSystem::*)(Valve::VR::EVREye, Valve::VR::EHiddenAreaMeshType)>(&Valve::VR::CVRSystem::GetHiddenAreaMesh)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetHiddenAreaMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVREye>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EHiddenAreaMeshType>()});
+    static auto* eEye = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVREye")->byval_arg;
+    static auto* type = &::il2cpp_utils::GetClassFromName("Valve.VR", "EHiddenAreaMeshType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetHiddenAreaMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eEye, type});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::GetControllerState
@@ -544,7 +600,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRSystem::*)(uint, Valve::VR::VRControllerState_t&, uint)>(&Valve::VR::CVRSystem::GetControllerState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetControllerState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VRControllerState_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* unControllerDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* pControllerState = &::il2cpp_utils::GetClassFromName("Valve.VR", "VRControllerState_t")->this_arg;
+    static auto* unControllerStateSize = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetControllerState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unControllerDeviceIndex, pControllerState, unControllerStateSize});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::GetControllerStateWithPose
@@ -552,7 +611,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRSystem::*)(Valve::VR::ETrackingUniverseOrigin, uint, Valve::VR::VRControllerState_t&, uint, Valve::VR::TrackedDevicePose_t&)>(&Valve::VR::CVRSystem::GetControllerStateWithPose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetControllerStateWithPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackingUniverseOrigin>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VRControllerState_t&>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::TrackedDevicePose_t&>()});
+    static auto* eOrigin = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackingUniverseOrigin")->byval_arg;
+    static auto* unControllerDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* pControllerState = &::il2cpp_utils::GetClassFromName("Valve.VR", "VRControllerState_t")->this_arg;
+    static auto* unControllerStateSize = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* pTrackedDevicePose = &::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetControllerStateWithPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eOrigin, unControllerDeviceIndex, pControllerState, unControllerStateSize, pTrackedDevicePose});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::TriggerHapticPulse
@@ -560,7 +624,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSystem::*)(uint, uint, ::Il2CppChar)>(&Valve::VR::CVRSystem::TriggerHapticPulse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "TriggerHapticPulse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    static auto* unControllerDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* unAxisId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* usDurationMicroSec = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "TriggerHapticPulse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unControllerDeviceIndex, unAxisId, usDurationMicroSec});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::GetButtonIdNameFromEnum
@@ -568,7 +635,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Valve::VR::CVRSystem::*)(Valve::VR::EVRButtonId)>(&Valve::VR::CVRSystem::GetButtonIdNameFromEnum)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetButtonIdNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRButtonId>()});
+    static auto* eButtonId = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRButtonId")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetButtonIdNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eButtonId});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::GetControllerAxisTypeNameFromEnum
@@ -576,7 +644,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (Valve::VR::CVRSystem::*)(Valve::VR::EVRControllerAxisType)>(&Valve::VR::CVRSystem::GetControllerAxisTypeNameFromEnum)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetControllerAxisTypeNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRControllerAxisType>()});
+    static auto* eAxisType = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRControllerAxisType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "GetControllerAxisTypeNameFromEnum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eAxisType});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::IsInputAvailable
@@ -616,7 +685,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRSystem::*)(uint, ::Il2CppString*, System::Text::StringBuilder*, uint)>(&Valve::VR::CVRSystem::DriverDebugRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "DriverDebugRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* pchRequest = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* pchResponseBuffer = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
+    static auto* unResponseBufferSize = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "DriverDebugRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unDeviceIndex, pchRequest, pchResponseBuffer, unResponseBufferSize});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::PerformFirmwareUpdate
@@ -624,7 +697,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRFirmwareError (Valve::VR::CVRSystem::*)(uint)>(&Valve::VR::CVRSystem::PerformFirmwareUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "PerformFirmwareUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRSystem*), "PerformFirmwareUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unDeviceIndex});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::AcknowledgeQuit_Exiting

@@ -117,8 +117,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   static_assert(sizeof(InstantiationParameters) == 0x2A);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters, "UnityEngine.ResourceManagement.ResourceProviders", "InstantiationParameters");
-// Writing includes for template specializations
-#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::get_Position
 // Il2CppName: get_Position
 template<>

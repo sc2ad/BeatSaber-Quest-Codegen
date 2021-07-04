@@ -73,7 +73,6 @@ namespace Mono::Security::Protocol::Ntlm {
   static_assert(sizeof(MessageBase) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Protocol::Ntlm::MessageBase*, "Mono.Security.Protocol.Ntlm", "MessageBase");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::MessageBase::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -91,7 +90,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Protocol::Ntlm::MessageBase::*)(Mono::Security::Protocol::Ntlm::NtlmFlags)>(&Mono::Security::Protocol::Ntlm::MessageBase::set_Flags)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::MessageBase*), "set_Flags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Protocol::Ntlm::NtlmFlags>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("Mono.Security.Protocol.Ntlm", "NtlmFlags")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::MessageBase*), "set_Flags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::MessageBase::get_Type
@@ -107,7 +107,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Protocol::Ntlm::MessageBase::*)(int)>(&Mono::Security::Protocol::Ntlm::MessageBase::PrepareMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::MessageBase*), "PrepareMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* messageSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::MessageBase*), "PrepareMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{messageSize});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::MessageBase::Decode
@@ -115,7 +116,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Protocol::Ntlm::MessageBase::*)(::Array<uint8_t>*)>(&Mono::Security::Protocol::Ntlm::MessageBase::Decode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::MessageBase*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* message = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::MessageBase*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::MessageBase::CheckHeader
@@ -123,7 +125,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Protocol::Ntlm::MessageBase::*)(::Array<uint8_t>*)>(&Mono::Security::Protocol::Ntlm::MessageBase::CheckHeader)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::MessageBase*), "CheckHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* message = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Protocol::Ntlm::MessageBase*), "CheckHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::Protocol::Ntlm::MessageBase::GetBytes

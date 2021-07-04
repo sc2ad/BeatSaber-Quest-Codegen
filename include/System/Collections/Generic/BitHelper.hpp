@@ -73,7 +73,6 @@ namespace System::Collections::Generic {
   static_assert(sizeof(BitHelper) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::BitHelper*, "System.Collections.Generic", "BitHelper");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Collections::Generic::BitHelper::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -87,7 +86,8 @@ DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::BitHelper*, "System.Collect
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Generic::BitHelper::*)(int)>(&System::Collections::Generic::BitHelper::MarkBit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::Generic::BitHelper*), "MarkBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* bitPosition = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Generic::BitHelper*), "MarkBit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bitPosition});
   }
 };
 // Writing MetadataGetter for method: System::Collections::Generic::BitHelper::IsMarked
@@ -95,7 +95,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Collections::Generic::BitHelper::*)(int)>(&System::Collections::Generic::BitHelper::IsMarked)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::Generic::BitHelper*), "IsMarked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* bitPosition = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Generic::BitHelper*), "IsMarked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bitPosition});
   }
 };
 // Writing MetadataGetter for method: System::Collections::Generic::BitHelper::ToIntArrayLength
@@ -103,6 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&System::Collections::Generic::BitHelper::ToIntArrayLength)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::Generic::BitHelper*), "ToIntArrayLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* n = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Generic::BitHelper*), "ToIntArrayLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{n});
   }
 };

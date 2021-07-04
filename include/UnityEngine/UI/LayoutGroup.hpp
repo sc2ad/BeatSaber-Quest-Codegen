@@ -264,9 +264,6 @@ namespace UnityEngine::UI {
   static_assert(sizeof(LayoutGroup) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutGroup*, "UnityEngine.UI", "LayoutGroup");
-// Writing includes for template specializations
-#include "UnityEngine/RectOffset.hpp"
-#include "UnityEngine/RectTransform.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::get_padding
 // Il2CppName: get_padding
 template<>
@@ -280,7 +277,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)(UnityEngine::RectOffset*)>(&UnityEngine::UI::LayoutGroup::set_padding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "set_padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectOffset*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectOffset")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "set_padding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::get_childAlignment
@@ -296,7 +294,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)(UnityEngine::TextAnchor)>(&UnityEngine::UI::LayoutGroup::set_childAlignment)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "set_childAlignment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextAnchor>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextAnchor")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "set_childAlignment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::get_rectTransform
@@ -408,7 +407,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::LayoutGroup::*)(int)>(&UnityEngine::UI::LayoutGroup::GetTotalMinSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "GetTotalMinSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* axis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "GetTotalMinSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{axis});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::GetTotalPreferredSize
@@ -416,7 +416,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::LayoutGroup::*)(int)>(&UnityEngine::UI::LayoutGroup::GetTotalPreferredSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "GetTotalPreferredSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* axis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "GetTotalPreferredSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{axis});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::GetTotalFlexibleSize
@@ -424,7 +425,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::LayoutGroup::*)(int)>(&UnityEngine::UI::LayoutGroup::GetTotalFlexibleSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "GetTotalFlexibleSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* axis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "GetTotalFlexibleSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{axis});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::GetStartOffset
@@ -432,7 +434,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::LayoutGroup::*)(int, float)>(&UnityEngine::UI::LayoutGroup::GetStartOffset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "GetStartOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* axis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* requiredSpaceWithoutPadding = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "GetStartOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{axis, requiredSpaceWithoutPadding});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::GetAlignmentOnAxis
@@ -440,7 +444,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::LayoutGroup::*)(int)>(&UnityEngine::UI::LayoutGroup::GetAlignmentOnAxis)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "GetAlignmentOnAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* axis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "GetAlignmentOnAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{axis});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::SetLayoutInputForAxis
@@ -448,7 +453,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)(float, float, float, int)>(&UnityEngine::UI::LayoutGroup::SetLayoutInputForAxis)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "SetLayoutInputForAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* totalMin = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* totalPreferred = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* totalFlexible = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* axis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "SetLayoutInputForAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{totalMin, totalPreferred, totalFlexible, axis});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::SetChildAlongAxis
@@ -456,7 +465,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)(UnityEngine::RectTransform*, int, float)>(&UnityEngine::UI::LayoutGroup::SetChildAlongAxis)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "SetChildAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
+    static auto* axis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* pos = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "SetChildAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rect, axis, pos});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::SetChildAlongAxisWithScale
@@ -464,7 +476,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)(UnityEngine::RectTransform*, int, float, float)>(&UnityEngine::UI::LayoutGroup::SetChildAlongAxisWithScale)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "SetChildAlongAxisWithScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
+    static auto* axis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* pos = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* scaleFactor = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "SetChildAlongAxisWithScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rect, axis, pos, scaleFactor});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::SetChildAlongAxis
@@ -472,7 +488,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)(UnityEngine::RectTransform*, int, float, float)>(&UnityEngine::UI::LayoutGroup::SetChildAlongAxis)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "SetChildAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
+    static auto* axis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* pos = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* size = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "SetChildAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rect, axis, pos, size});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::SetChildAlongAxisWithScale
@@ -480,7 +500,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutGroup::*)(UnityEngine::RectTransform*, int, float, float, float)>(&UnityEngine::UI::LayoutGroup::SetChildAlongAxisWithScale)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "SetChildAlongAxisWithScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
+    static auto* axis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* pos = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* size = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* scaleFactor = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "SetChildAlongAxisWithScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rect, axis, pos, size, scaleFactor});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::get_isRootLayoutGroup
@@ -515,7 +540,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (UnityEngine::UI::LayoutGroup::*)(UnityEngine::RectTransform*)>(&UnityEngine::UI::LayoutGroup::DelayedSetDirty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "DelayedSetDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+    static auto* rectTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutGroup*), "DelayedSetDirty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rectTransform});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutGroup::New_ctor

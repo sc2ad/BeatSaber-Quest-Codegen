@@ -89,7 +89,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(TweenPosition::$AnimateToNewPosCoroutine$d__11) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TweenPosition::$AnimateToNewPosCoroutine$d__11*, "", "TweenPosition/<AnimateToNewPosCoroutine>d__11");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::TweenPosition::$AnimateToNewPosCoroutine$d__11::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

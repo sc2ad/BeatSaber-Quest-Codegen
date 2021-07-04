@@ -51,9 +51,6 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RectTransform::ReapplyDrivenProperties*, "UnityEngine", "RectTransform/ReapplyDrivenProperties");
-// Writing includes for template specializations
-#include "System/AsyncCallback.hpp"
-#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: UnityEngine::RectTransform::ReapplyDrivenProperties::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -63,7 +60,8 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RectTransform::ReapplyDrivenProperties*, "Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RectTransform::ReapplyDrivenProperties::*)(UnityEngine::RectTransform*)>(&UnityEngine::RectTransform::ReapplyDrivenProperties::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransform::ReapplyDrivenProperties*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+    static auto* driven = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransform::ReapplyDrivenProperties*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{driven});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::RectTransform::ReapplyDrivenProperties::BeginInvoke
@@ -71,7 +69,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngine::RectTransform::ReapplyDrivenProperties::*)(UnityEngine::RectTransform*, System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngine::RectTransform::ReapplyDrivenProperties::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransform::ReapplyDrivenProperties*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* driven = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
+    static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
+    static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransform::ReapplyDrivenProperties*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{driven, callback, object});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::RectTransform::ReapplyDrivenProperties::EndInvoke
@@ -79,6 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RectTransform::ReapplyDrivenProperties::*)(System::IAsyncResult*)>(&UnityEngine::RectTransform::ReapplyDrivenProperties::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransform::ReapplyDrivenProperties*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransform::ReapplyDrivenProperties*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
 };

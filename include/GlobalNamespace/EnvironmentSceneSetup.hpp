@@ -60,7 +60,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnvironmentSceneSetup) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentSceneSetup*, "", "EnvironmentSceneSetup");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentSceneSetup::InstallBindings
 // Il2CppName: InstallBindings
 template<>

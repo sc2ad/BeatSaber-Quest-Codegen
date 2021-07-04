@@ -159,7 +159,6 @@ namespace UnityEngine {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutOption*, "UnityEngine", "GUILayoutOption");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUILayoutOption::Type, "UnityEngine", "GUILayoutOption/Type");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::GUILayoutOption::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

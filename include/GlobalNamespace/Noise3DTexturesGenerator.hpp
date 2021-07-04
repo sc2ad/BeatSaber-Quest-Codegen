@@ -140,7 +140,6 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Noise3DTexturesGenerator*, "", "Noise3DTexturesGenerator");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Noise3DTexturesGenerator::MaterialTextureParamsCouple, "", "Noise3DTexturesGenerator/MaterialTextureParamsCouple");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Noise3DTexturesGenerator::MaterialPropertyNameCouple, "", "Noise3DTexturesGenerator/MaterialPropertyNameCouple");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::Noise3DTexturesGenerator::Awake
 // Il2CppName: Awake
 template<>
@@ -154,7 +153,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Color32>* (*)(int, int, int, float, int, float)>(&GlobalNamespace::Noise3DTexturesGenerator::CreateNoisePixels)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Noise3DTexturesGenerator*), "CreateNoisePixels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* width = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* height = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* depth = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* scale = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* repeat = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* contrast = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Noise3DTexturesGenerator*), "CreateNoisePixels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{width, height, depth, scale, repeat, contrast});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::Noise3DTexturesGenerator::New_ctor

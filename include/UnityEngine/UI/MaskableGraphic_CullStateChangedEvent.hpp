@@ -35,7 +35,6 @@ namespace UnityEngine::UI {
   }; // UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::MaskableGraphic::CullStateChangedEvent*, "UnityEngine.UI", "MaskableGraphic/CullStateChangedEvent");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::UI::MaskableGraphic::CullStateChangedEvent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

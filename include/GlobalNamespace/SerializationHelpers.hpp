@@ -85,7 +85,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SerializationHelpers*, "", "SerializationHelpers");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SerializationHelpers::DeserializeData
 // Il2CppName: DeserializeData
 // Cannot write MetadataGetter for generic methods!

@@ -51,7 +51,6 @@ namespace JetBrains::Annotations {
   static_assert(sizeof(AspTypePropertyAttribute) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspTypePropertyAttribute*, "JetBrains.Annotations", "AspTypePropertyAttribute");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: JetBrains::Annotations::AspTypePropertyAttribute::get_CreateConstructorReferences
 // Il2CppName: get_CreateConstructorReferences
 template<>
@@ -65,7 +64,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (JetBr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::AspTypePropertyAttribute::*)(bool)>(&JetBrains::Annotations::AspTypePropertyAttribute::set_CreateConstructorReferences)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspTypePropertyAttribute*), "set_CreateConstructorReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspTypePropertyAttribute*), "set_CreateConstructorReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: JetBrains::Annotations::AspTypePropertyAttribute::New_ctor

@@ -61,8 +61,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionStagesManager::$$c*, "", "MissionStagesManager/<>c");
-// Writing includes for template specializations
-#include "GlobalNamespace/MissionStage.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionStagesManager::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -76,7 +74,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MissionStagesManager::$$c::*)(GlobalNamespace::MissionStage*)>(&GlobalNamespace::MissionStagesManager::$$c::$InitStages$b__6_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionStagesManager::$$c*), "<InitStages>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionStage*>()});
+    static auto* stage = &::il2cpp_utils::GetClassFromName("", "MissionStage")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionStagesManager::$$c*), "<InitStages>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stage});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MissionStagesManager::$$c::New_ctor

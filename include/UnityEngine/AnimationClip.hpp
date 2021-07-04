@@ -155,20 +155,13 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimationClip*, "UnityEngine", "AnimationClip");
-// Writing includes for template specializations
-#include "UnityEngine/GameObject.hpp"
-#include "UnityEngine/WrapMode.hpp"
-#include "System/Type.hpp"
-#include "UnityEngine/AnimationCurve.hpp"
-#include "UnityEngine/Bounds.hpp"
-#include "UnityEngine/AnimationEvent.hpp"
-#include "System/Array.hpp"
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::Internal_CreateAnimationClip
 // Il2CppName: Internal_CreateAnimationClip
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AnimationClip*)>(&UnityEngine::AnimationClip::Internal_CreateAnimationClip)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "Internal_CreateAnimationClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>()});
+    static auto* self = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "Internal_CreateAnimationClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{self});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::SampleAnimation
@@ -176,7 +169,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(UnityEngine::GameObject*, float)>(&UnityEngine::AnimationClip::SampleAnimation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "SampleAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
+    static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "SampleAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{go, time});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::SampleAnimation
@@ -184,7 +179,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, UnityEngine::AnimationClip*, float, UnityEngine::WrapMode)>(&UnityEngine::AnimationClip::SampleAnimation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "SampleAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::WrapMode>()});
+    static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
+    static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")->byval_arg;
+    static auto* inTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* wrapMode = &::il2cpp_utils::GetClassFromName("UnityEngine", "WrapMode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "SampleAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{go, clip, inTime, wrapMode});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::get_length
@@ -224,7 +223,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(float)>(&UnityEngine::AnimationClip::set_frameRate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "set_frameRate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "set_frameRate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::SetCurve
@@ -232,7 +232,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(::Il2CppString*, System::Type*, ::Il2CppString*, UnityEngine::AnimationCurve*)>(&UnityEngine::AnimationClip::SetCurve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "SetCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>()});
+    static auto* relativePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    static auto* propertyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* curve = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "SetCurve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{relativePath, type, propertyName, curve});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::EnsureQuaternionContinuity
@@ -264,7 +268,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(UnityEngine::WrapMode)>(&UnityEngine::AnimationClip::set_wrapMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "set_wrapMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::WrapMode>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "WrapMode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "set_wrapMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::get_localBounds
@@ -280,7 +285,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(UnityEngine::Bounds)>(&UnityEngine::AnimationClip::set_localBounds)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "set_localBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Bounds")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "set_localBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::get_legacy
@@ -296,7 +302,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(bool)>(&UnityEngine::AnimationClip::set_legacy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "set_legacy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "set_legacy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::get_humanMotion
@@ -360,7 +367,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(UnityEngine::AnimationEvent*)>(&UnityEngine::AnimationClip::AddEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "AddEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationEvent*>()});
+    static auto* evt = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationEvent")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "AddEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{evt});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::AddEventInternal
@@ -368,7 +376,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(::Il2CppObject*)>(&UnityEngine::AnimationClip::AddEventInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "AddEventInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* evt = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "AddEventInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{evt});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::get_events
@@ -384,7 +393,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(::Array<UnityEngine::AnimationEvent*>*)>(&UnityEngine::AnimationClip::set_events)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "set_events", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::AnimationEvent*>*>()});
+    static auto* value = &classof(::Array<::Array<UnityEngine::AnimationEvent*>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "set_events", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::SetEventsInternal
@@ -392,7 +402,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(System::Array*)>(&UnityEngine::AnimationClip::SetEventsInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "SetEventsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Array*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Array")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "SetEventsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::GetEventsInternal
@@ -408,7 +419,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Arr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(UnityEngine::Bounds&)>(&UnityEngine::AnimationClip::get_localBounds_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "get_localBounds_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds&>()});
+    static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Bounds")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "get_localBounds_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::set_localBounds_Injected
@@ -416,7 +428,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(UnityEngine::Bounds&)>(&UnityEngine::AnimationClip::set_localBounds_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "set_localBounds_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds&>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Bounds")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "set_localBounds_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::New_ctor

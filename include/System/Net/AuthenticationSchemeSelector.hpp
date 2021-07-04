@@ -56,10 +56,6 @@ namespace System::Net {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::AuthenticationSchemeSelector*, "System.Net", "AuthenticationSchemeSelector");
-// Writing includes for template specializations
-#include "System/Net/HttpListenerRequest.hpp"
-#include "System/AsyncCallback.hpp"
-#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: System::Net::AuthenticationSchemeSelector::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -69,7 +65,8 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::AuthenticationSchemeSelector*, "System.Net",
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::AuthenticationSchemes (System::Net::AuthenticationSchemeSelector::*)(System::Net::HttpListenerRequest*)>(&System::Net::AuthenticationSchemeSelector::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::AuthenticationSchemeSelector*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpListenerRequest*>()});
+    static auto* httpRequest = &::il2cpp_utils::GetClassFromName("System.Net", "HttpListenerRequest")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::AuthenticationSchemeSelector*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{httpRequest});
   }
 };
 // Writing MetadataGetter for method: System::Net::AuthenticationSchemeSelector::BeginInvoke
@@ -77,7 +74,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::AuthenticationSchemeSelector::*)(System::Net::HttpListenerRequest*, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::AuthenticationSchemeSelector::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::AuthenticationSchemeSelector*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpListenerRequest*>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* httpRequest = &::il2cpp_utils::GetClassFromName("System.Net", "HttpListenerRequest")->byval_arg;
+    static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
+    static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::AuthenticationSchemeSelector*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{httpRequest, callback, object});
   }
 };
 // Writing MetadataGetter for method: System::Net::AuthenticationSchemeSelector::EndInvoke
@@ -85,6 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::AuthenticationSchemes (System::Net::AuthenticationSchemeSelector::*)(System::IAsyncResult*)>(&System::Net::AuthenticationSchemeSelector::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::AuthenticationSchemeSelector*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::AuthenticationSchemeSelector*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
 };

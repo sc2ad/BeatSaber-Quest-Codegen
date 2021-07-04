@@ -95,7 +95,6 @@ namespace UnityEngine::Timeline {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeFieldAttribute*, "UnityEngine.Timeline", "TimeFieldAttribute");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TimeFieldAttribute::UseEditMode, "UnityEngine.Timeline", "TimeFieldAttribute/UseEditMode");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimeFieldAttribute::get_useEditMode
 // Il2CppName: get_useEditMode
 template<>

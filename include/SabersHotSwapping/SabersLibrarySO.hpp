@@ -59,7 +59,6 @@ namespace SabersHotSwapping {
   static_assert(sizeof(SabersLibrarySO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(SabersHotSwapping::SabersLibrarySO*, "SabersHotSwapping", "SabersLibrarySO");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: SabersHotSwapping::SabersLibrarySO::get_saberModelControllerPrefabs
 // Il2CppName: get_saberModelControllerPrefabs
 template<>

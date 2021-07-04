@@ -146,7 +146,6 @@ namespace HMUI {
   static_assert(sizeof(ContainerViewController::$RemoveViewControllersCoroutine$d__17) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ContainerViewController::$RemoveViewControllersCoroutine$d__17*, "HMUI", "ContainerViewController/<RemoveViewControllersCoroutine>d__17");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::ContainerViewController::$RemoveViewControllersCoroutine$d__17::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

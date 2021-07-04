@@ -50,7 +50,6 @@ namespace Il2CppDummyDll {
   }; // Il2CppDummyDll.AttributeAttribute
 }
 DEFINE_IL2CPP_ARG_TYPE(Il2CppDummyDll::AttributeAttribute*, "Il2CppDummyDll", "AttributeAttribute");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Il2CppDummyDll::AttributeAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

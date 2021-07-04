@@ -93,7 +93,6 @@ namespace UnityEngine::TestTools {
   static_assert(sizeof(TestActionCommand::$InvokeAfter$d__3) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestActionCommand::$InvokeAfter$d__3*, "UnityEngine.TestTools", "TestActionCommand/<InvokeAfter>d__3");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestActionCommand::$InvokeAfter$d__3::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

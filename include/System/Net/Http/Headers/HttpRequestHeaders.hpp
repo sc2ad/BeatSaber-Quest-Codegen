@@ -77,7 +77,6 @@ namespace System::Net::Http::Headers {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HttpRequestHeaders*, "System.Net.Http.Headers", "HttpRequestHeaders");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpRequestHeaders::get_Connection
 // Il2CppName: get_Connection
 template<>
@@ -139,7 +138,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nul
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::Headers::HttpRequestHeaders::*)(System::Net::Http::Headers::HttpRequestHeaders*)>(&System::Net::Http::Headers::HttpRequestHeaders::AddHeaders)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpRequestHeaders*), "AddHeaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::HttpRequestHeaders*>()});
+    static auto* headers = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "HttpRequestHeaders")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpRequestHeaders*), "AddHeaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{headers});
   }
 };
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpRequestHeaders::New_ctor

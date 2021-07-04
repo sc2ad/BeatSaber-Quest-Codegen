@@ -52,7 +52,6 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHaptics*, "", "OVRHaptics");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRHaptics::_cctor
 // Il2CppName: .cctor
 template<>

@@ -106,17 +106,14 @@ namespace UnityEngine::ProBuilder {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ShapeGenerator*, "UnityEngine.ProBuilder", "ShapeGenerator");
-// Writing includes for template specializations
-#include "UnityEngine/ProBuilder/ShapeType.hpp"
-#include "UnityEngine/ProBuilder/PivotLocation.hpp"
-#include "UnityEngine/ProBuilder/Axis.hpp"
-#include "UnityEngine/Quaternion.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::CreateShape
 // Il2CppName: CreateShape
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::ProBuilder::ShapeType, UnityEngine::ProBuilder::PivotLocation)>(&UnityEngine::ProBuilder::ShapeGenerator::CreateShape)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "CreateShape", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ShapeType>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::PivotLocation>()});
+    static auto* shape = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ShapeType")->byval_arg;
+    static auto* pivotType = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PivotLocation")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "CreateShape", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{shape, pivotType});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GenerateStair
@@ -124,7 +121,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::ProBuilder::PivotLocation, UnityEngine::Vector3, int, bool)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateStair)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "GenerateStair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::PivotLocation>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* pivotType = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PivotLocation")->byval_arg;
+    static auto* size = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* steps = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* buildSides = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "GenerateStair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pivotType, size, steps, buildSides});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GenerateCurvedStair
@@ -132,7 +133,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::ProBuilder::PivotLocation, float, float, float, float, int, bool)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateCurvedStair)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "GenerateCurvedStair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::PivotLocation>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* pivotType = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PivotLocation")->byval_arg;
+    static auto* stairWidth = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* height = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* innerRadius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* circumference = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* steps = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* buildSides = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "GenerateCurvedStair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pivotType, stairWidth, height, innerRadius, circumference, steps, buildSides});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GenerateStair
@@ -140,7 +148,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::ProBuilder::PivotLocation, int, float, float, float, bool, bool, bool)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateStair)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "GenerateStair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::PivotLocation>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* pivotType = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PivotLocation")->byval_arg;
+    static auto* steps = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* width = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* height = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* depth = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* sidesGoToFloor = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* generateBack = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* platformsOnly = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "GenerateStair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pivotType, steps, width, height, depth, sidesGoToFloor, generateBack, platformsOnly});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GenerateCube
@@ -148,7 +164,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::ProBuilder::PivotLocation, UnityEngine::Vector3)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateCube)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "GenerateCube", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::PivotLocation>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    static auto* pivotType = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PivotLocation")->byval_arg;
+    static auto* size = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "GenerateCube", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pivotType, size});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GenerateCylinder
@@ -156,7 +174,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::ProBuilder::PivotLocation, int, float, float, int, int)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateCylinder)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "GenerateCylinder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::PivotLocation>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* pivotType = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PivotLocation")->byval_arg;
+    static auto* axisDivisions = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* height = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* heightCuts = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* smoothing = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "GenerateCylinder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pivotType, axisDivisions, radius, height, heightCuts, smoothing});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GeneratePrism
@@ -164,7 +188,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::ProBuilder::PivotLocation, UnityEngine::Vector3)>(&UnityEngine::ProBuilder::ShapeGenerator::GeneratePrism)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "GeneratePrism", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::PivotLocation>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    static auto* pivotType = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PivotLocation")->byval_arg;
+    static auto* size = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "GeneratePrism", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pivotType, size});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GenerateDoor
@@ -172,7 +198,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::ProBuilder::PivotLocation, float, float, float, float, float)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateDoor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "GenerateDoor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::PivotLocation>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* pivotType = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PivotLocation")->byval_arg;
+    static auto* totalWidth = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* totalHeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* ledgeHeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* legWidth = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* depth = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "GenerateDoor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pivotType, totalWidth, totalHeight, ledgeHeight, legWidth, depth});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GeneratePlane
@@ -180,7 +212,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::ProBuilder::PivotLocation, float, float, int, int, UnityEngine::ProBuilder::Axis)>(&UnityEngine::ProBuilder::ShapeGenerator::GeneratePlane)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "GeneratePlane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::PivotLocation>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::Axis>()});
+    static auto* pivotType = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PivotLocation")->byval_arg;
+    static auto* width = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* height = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* widthCuts = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* heightCuts = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* axis = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Axis")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "GeneratePlane", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pivotType, width, height, widthCuts, heightCuts, axis});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GeneratePipe
@@ -188,7 +226,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::ProBuilder::PivotLocation, float, float, float, int, int)>(&UnityEngine::ProBuilder::ShapeGenerator::GeneratePipe)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "GeneratePipe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::PivotLocation>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* pivotType = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PivotLocation")->byval_arg;
+    static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* height = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* thickness = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* subdivAxis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* subdivHeight = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "GeneratePipe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pivotType, radius, height, thickness, subdivAxis, subdivHeight});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GenerateCone
@@ -196,7 +240,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::ProBuilder::PivotLocation, float, float, int)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateCone)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "GenerateCone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::PivotLocation>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* pivotType = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PivotLocation")->byval_arg;
+    static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* height = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* subdivAxis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "GenerateCone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pivotType, radius, height, subdivAxis});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GenerateArch
@@ -204,7 +252,18 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::ProBuilder::PivotLocation, float, float, float, float, int, bool, bool, bool, bool, bool)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateArch)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "GenerateArch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::PivotLocation>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* pivotType = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PivotLocation")->byval_arg;
+    static auto* angle = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* width = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* depth = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* radialCuts = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* insideFaces = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* outsideFaces = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* frontFaces = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* backFaces = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* endCaps = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "GenerateArch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pivotType, angle, radius, width, depth, radialCuts, insideFaces, outsideFaces, frontFaces, backFaces, endCaps});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GenerateIcosahedron
@@ -212,7 +271,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::ProBuilder::PivotLocation, float, int, bool, bool)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateIcosahedron)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "GenerateIcosahedron", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::PivotLocation>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* pivotType = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PivotLocation")->byval_arg;
+    static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* subdivisions = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* weldVertices = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* manualUvs = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "GenerateIcosahedron", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pivotType, radius, subdivisions, weldVertices, manualUvs});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::SubdivideIcosahedron
@@ -220,7 +284,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (*)(::Array<UnityEngine::Vector3>*, float)>(&UnityEngine::ProBuilder::ShapeGenerator::SubdivideIcosahedron)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "SubdivideIcosahedron", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* vertices = &classof(::Array<::Array<UnityEngine::Vector3>*>*)->byval_arg;
+    static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "SubdivideIcosahedron", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vertices, radius});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GetCirclePoints
@@ -228,7 +294,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (*)(int, float, float, UnityEngine::Quaternion, float)>(&UnityEngine::ProBuilder::ShapeGenerator::GetCirclePoints)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "GetCirclePoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* segments = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* circumference = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "GetCirclePoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{segments, radius, circumference, rotation, offset});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GenerateTorus
@@ -236,7 +307,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(UnityEngine::ProBuilder::PivotLocation, int, int, float, float, bool, float, float, bool)>(&UnityEngine::ProBuilder::ShapeGenerator::GenerateTorus)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "GenerateTorus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::PivotLocation>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* pivotType = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PivotLocation")->byval_arg;
+    static auto* rows = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* columns = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* innerRadius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* outerRadius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* smooth = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* horizontalCircumference = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* verticalCircumference = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* manualUvs = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ShapeGenerator*), "GenerateTorus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pivotType, rows, columns, innerRadius, outerRadius, smooth, horizontalCircumference, verticalCircumference, manualUvs});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::_cctor

@@ -104,7 +104,6 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(VRIK) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIK*, "RootMotion.FinalIK", "VRIK");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::VRIK::OpenSetupTutorial
 // Il2CppName: OpenSetupTutorial
 template<>

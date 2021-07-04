@@ -70,8 +70,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleFileLogger*, "", "SimpleFileLogger");
-// Writing includes for template specializations
-#include "UnityEngine/Vector3.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleFileLogger::get_monoLogger
 // Il2CppName: get_monoLogger
 template<>
@@ -85,7 +83,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&GlobalNamespace::SimpleFileLogger::Log)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleFileLogger*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleFileLogger*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SimpleFileLogger::LogVector
@@ -93,7 +92,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::Vector3)>(&GlobalNamespace::SimpleFileLogger::LogVector)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleFileLogger*), "LogVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    static auto* description = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* vec = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleFileLogger*), "LogVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{description, vec});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SimpleFileLogger::Clear

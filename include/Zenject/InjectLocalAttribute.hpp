@@ -37,7 +37,6 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectLocalAttribute*, "Zenject", "InjectLocalAttribute");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Zenject::InjectLocalAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

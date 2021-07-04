@@ -206,15 +206,6 @@ namespace Valve::VR {
   static_assert(sizeof(CVRCompositor) == 0x168);
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRCompositor*, "Valve.VR", "CVRCompositor");
-// Writing includes for template specializations
-#include "Valve/VR/ETrackingUniverseOrigin.hpp"
-#include "Valve/VR/EVREye.hpp"
-#include "Valve/VR/VRTextureBounds_t.hpp"
-#include "Valve/VR/EVRSubmitFlags.hpp"
-#include "Valve/VR/Compositor_FrameTiming.hpp"
-#include "Valve/VR/Compositor_CumulativeStats.hpp"
-#include "System/Text/StringBuilder.hpp"
-#include "Valve/VR/EVRCompositorTimingMode.hpp"
 // Writing MetadataGetter for method: Valve::VR::CVRCompositor::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -224,7 +215,8 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRCompositor*, "Valve.VR", "CVRCompositor");
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRCompositor::*)(Valve::VR::ETrackingUniverseOrigin)>(&Valve::VR::CVRCompositor::SetTrackingSpace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "SetTrackingSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::ETrackingUniverseOrigin>()});
+    static auto* eOrigin = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackingUniverseOrigin")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "SetTrackingSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eOrigin});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRCompositor::GetTrackingSpace
@@ -240,7 +232,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRCompositorError (Valve::VR::CVRCompositor::*)(::Array<Valve::VR::TrackedDevicePose_t>*, ::Array<Valve::VR::TrackedDevicePose_t>*)>(&Valve::VR::CVRCompositor::WaitGetPoses)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "WaitGetPoses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::TrackedDevicePose_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::TrackedDevicePose_t>*>()});
+    static auto* pRenderPoseArray = &classof(::Array<::Array<Valve::VR::TrackedDevicePose_t>*>*)->byval_arg;
+    static auto* pGamePoseArray = &classof(::Array<::Array<Valve::VR::TrackedDevicePose_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "WaitGetPoses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pRenderPoseArray, pGamePoseArray});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRCompositor::GetLastPoses
@@ -248,7 +242,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRCompositorError (Valve::VR::CVRCompositor::*)(::Array<Valve::VR::TrackedDevicePose_t>*, ::Array<Valve::VR::TrackedDevicePose_t>*)>(&Valve::VR::CVRCompositor::GetLastPoses)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "GetLastPoses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::TrackedDevicePose_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::TrackedDevicePose_t>*>()});
+    static auto* pRenderPoseArray = &classof(::Array<::Array<Valve::VR::TrackedDevicePose_t>*>*)->byval_arg;
+    static auto* pGamePoseArray = &classof(::Array<::Array<Valve::VR::TrackedDevicePose_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "GetLastPoses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pRenderPoseArray, pGamePoseArray});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRCompositor::GetLastPoseForTrackedDeviceIndex
@@ -256,7 +252,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRCompositorError (Valve::VR::CVRCompositor::*)(uint, Valve::VR::TrackedDevicePose_t&, Valve::VR::TrackedDevicePose_t&)>(&Valve::VR::CVRCompositor::GetLastPoseForTrackedDeviceIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "GetLastPoseForTrackedDeviceIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::TrackedDevicePose_t&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::TrackedDevicePose_t&>()});
+    static auto* unDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* pOutputPose = &::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t")->this_arg;
+    static auto* pOutputGamePose = &::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "GetLastPoseForTrackedDeviceIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unDeviceIndex, pOutputPose, pOutputGamePose});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRCompositor::Submit
@@ -264,7 +263,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRCompositorError (Valve::VR::CVRCompositor::*)(Valve::VR::EVREye, Valve::VR::Texture_t&, Valve::VR::VRTextureBounds_t&, Valve::VR::EVRSubmitFlags)>(&Valve::VR::CVRCompositor::Submit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "Submit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVREye>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::Texture_t&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VRTextureBounds_t&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRSubmitFlags>()});
+    static auto* eEye = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVREye")->byval_arg;
+    static auto* pTexture = &::il2cpp_utils::GetClassFromName("Valve.VR", "Texture_t")->this_arg;
+    static auto* pBounds = &::il2cpp_utils::GetClassFromName("Valve.VR", "VRTextureBounds_t")->this_arg;
+    static auto* nSubmitFlags = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRSubmitFlags")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "Submit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eEye, pTexture, pBounds, nSubmitFlags});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRCompositor::ClearLastSubmittedFrame
@@ -288,7 +291,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRCompositor::*)(Valve::VR::Compositor_FrameTiming&, uint)>(&Valve::VR::CVRCompositor::GetFrameTiming)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "GetFrameTiming", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::Compositor_FrameTiming&>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* pTiming = &::il2cpp_utils::GetClassFromName("Valve.VR", "Compositor_FrameTiming")->this_arg;
+    static auto* unFramesAgo = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "GetFrameTiming", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pTiming, unFramesAgo});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRCompositor::GetFrameTimings
@@ -296,7 +301,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRCompositor::*)(Valve::VR::Compositor_FrameTiming&, uint)>(&Valve::VR::CVRCompositor::GetFrameTimings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "GetFrameTimings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::Compositor_FrameTiming&>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* pTiming = &::il2cpp_utils::GetClassFromName("Valve.VR", "Compositor_FrameTiming")->this_arg;
+    static auto* nFrames = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "GetFrameTimings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pTiming, nFrames});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRCompositor::GetFrameTimeRemaining
@@ -312,7 +319,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Valv
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRCompositor::*)(Valve::VR::Compositor_CumulativeStats&, uint)>(&Valve::VR::CVRCompositor::GetCumulativeStats)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "GetCumulativeStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::Compositor_CumulativeStats&>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* pStats = &::il2cpp_utils::GetClassFromName("Valve.VR", "Compositor_CumulativeStats")->this_arg;
+    static auto* nStatsSizeInBytes = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "GetCumulativeStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pStats, nStatsSizeInBytes});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRCompositor::FadeToColor
@@ -320,7 +329,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRCompositor::*)(float, float, float, float, float, bool)>(&Valve::VR::CVRCompositor::FadeToColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "FadeToColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* fSeconds = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* fRed = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* fGreen = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* fBlue = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* fAlpha = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* bBackground = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "FadeToColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fSeconds, fRed, fGreen, fBlue, fAlpha, bBackground});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRCompositor::GetCurrentFadeColor
@@ -328,7 +343,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::HmdColor_t (Valve::VR::CVRCompositor::*)(bool)>(&Valve::VR::CVRCompositor::GetCurrentFadeColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "GetCurrentFadeColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* bBackground = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "GetCurrentFadeColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bBackground});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRCompositor::FadeGrid
@@ -336,7 +352,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRCompositor::*)(float, bool)>(&Valve::VR::CVRCompositor::FadeGrid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "FadeGrid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* fSeconds = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* bFadeIn = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "FadeGrid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fSeconds, bFadeIn});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRCompositor::GetCurrentGridAlpha
@@ -352,7 +370,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Valv
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRCompositorError (Valve::VR::CVRCompositor::*)(::Array<Valve::VR::Texture_t>*)>(&Valve::VR::CVRCompositor::SetSkyboxOverride)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "SetSkyboxOverride", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<Valve::VR::Texture_t>*>()});
+    static auto* pTextures = &classof(::Array<::Array<Valve::VR::Texture_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "SetSkyboxOverride", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pTextures});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRCompositor::ClearSkyboxOverride
@@ -464,7 +483,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRCompositor::*)(bool)>(&Valve::VR::CVRCompositor::ForceInterleavedReprojectionOn)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "ForceInterleavedReprojectionOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* bOverride = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "ForceInterleavedReprojectionOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bOverride});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRCompositor::ForceReconnectProcess
@@ -480,7 +500,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRCompositor::*)(bool)>(&Valve::VR::CVRCompositor::SuspendRendering)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "SuspendRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* bSuspend = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "SuspendRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bSuspend});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRCompositor::GetMirrorTextureD3D11
@@ -488,7 +509,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRCompositorError (Valve::VR::CVRCompositor::*)(Valve::VR::EVREye, System::IntPtr, System::IntPtr&)>(&Valve::VR::CVRCompositor::GetMirrorTextureD3D11)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "GetMirrorTextureD3D11", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVREye>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>()});
+    static auto* eEye = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVREye")->byval_arg;
+    static auto* pD3D11DeviceOrResource = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* ppD3D11ShaderResourceView = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "GetMirrorTextureD3D11", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eEye, pD3D11DeviceOrResource, ppD3D11ShaderResourceView});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRCompositor::ReleaseMirrorTextureD3D11
@@ -496,7 +520,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRCompositor::*)(System::IntPtr)>(&Valve::VR::CVRCompositor::ReleaseMirrorTextureD3D11)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "ReleaseMirrorTextureD3D11", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* pD3D11ShaderResourceView = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "ReleaseMirrorTextureD3D11", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pD3D11ShaderResourceView});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRCompositor::GetMirrorTextureGL
@@ -504,7 +529,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRCompositorError (Valve::VR::CVRCompositor::*)(Valve::VR::EVREye, uint&, System::IntPtr)>(&Valve::VR::CVRCompositor::GetMirrorTextureGL)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "GetMirrorTextureGL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVREye>(), ::il2cpp_utils::ExtractIndependentType<uint&>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* eEye = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVREye")->byval_arg;
+    static auto* pglTextureId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
+    static auto* pglSharedTextureHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "GetMirrorTextureGL", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eEye, pglTextureId, pglSharedTextureHandle});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRCompositor::ReleaseSharedGLTexture
@@ -512,7 +540,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRCompositor::*)(uint, System::IntPtr)>(&Valve::VR::CVRCompositor::ReleaseSharedGLTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "ReleaseSharedGLTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* glTextureId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* glSharedTextureHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "ReleaseSharedGLTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{glTextureId, glSharedTextureHandle});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRCompositor::LockGLSharedTextureForAccess
@@ -520,7 +550,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRCompositor::*)(System::IntPtr)>(&Valve::VR::CVRCompositor::LockGLSharedTextureForAccess)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "LockGLSharedTextureForAccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* glSharedTextureHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "LockGLSharedTextureForAccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{glSharedTextureHandle});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRCompositor::UnlockGLSharedTextureForAccess
@@ -528,7 +559,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRCompositor::*)(System::IntPtr)>(&Valve::VR::CVRCompositor::UnlockGLSharedTextureForAccess)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "UnlockGLSharedTextureForAccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* glSharedTextureHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "UnlockGLSharedTextureForAccess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{glSharedTextureHandle});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRCompositor::GetVulkanInstanceExtensionsRequired
@@ -536,7 +568,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRCompositor::*)(System::Text::StringBuilder*, uint)>(&Valve::VR::CVRCompositor::GetVulkanInstanceExtensionsRequired)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "GetVulkanInstanceExtensionsRequired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* pchValue = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
+    static auto* unBufferSize = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "GetVulkanInstanceExtensionsRequired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pchValue, unBufferSize});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRCompositor::GetVulkanDeviceExtensionsRequired
@@ -544,7 +578,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRCompositor::*)(System::IntPtr, System::Text::StringBuilder*, uint)>(&Valve::VR::CVRCompositor::GetVulkanDeviceExtensionsRequired)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "GetVulkanDeviceExtensionsRequired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* pPhysicalDevice = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* pchValue = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
+    static auto* unBufferSize = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "GetVulkanDeviceExtensionsRequired", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pPhysicalDevice, pchValue, unBufferSize});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRCompositor::SetExplicitTimingMode
@@ -552,7 +589,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRCompositor::*)(Valve::VR::EVRCompositorTimingMode)>(&Valve::VR::CVRCompositor::SetExplicitTimingMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "SetExplicitTimingMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRCompositorTimingMode>()});
+    static auto* eTimingMode = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRCompositorTimingMode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "SetExplicitTimingMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eTimingMode});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRCompositor::SubmitExplicitTimingData

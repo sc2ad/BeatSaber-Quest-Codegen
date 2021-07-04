@@ -49,14 +49,13 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConcreteIdArgConditionCopyNonLazyBinder*, "Zenject", "ConcreteIdArgConditionCopyNonLazyBinder");
-// Writing includes for template specializations
-#include "Zenject/BindInfo.hpp"
 // Writing MetadataGetter for method: Zenject::ConcreteIdArgConditionCopyNonLazyBinder::WithConcreteId
 // Il2CppName: WithConcreteId
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ArgConditionCopyNonLazyBinder* (Zenject::ConcreteIdArgConditionCopyNonLazyBinder::*)(::Il2CppObject*)>(&Zenject::ConcreteIdArgConditionCopyNonLazyBinder::WithConcreteId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ConcreteIdArgConditionCopyNonLazyBinder*), "WithConcreteId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* id = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConcreteIdArgConditionCopyNonLazyBinder*), "WithConcreteId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});
   }
 };
 // Writing MetadataGetter for method: Zenject::ConcreteIdArgConditionCopyNonLazyBinder::New_ctor

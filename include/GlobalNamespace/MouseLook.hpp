@@ -132,14 +132,14 @@ namespace GlobalNamespace {
   static_assert(sizeof(MouseLook) == 0x51);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MouseLook*, "", "MouseLook");
-// Writing includes for template specializations
-#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MouseLook::Init
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MouseLook::*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&GlobalNamespace::MouseLook::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MouseLook*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    static auto* character = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    static auto* camera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MouseLook*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{character, camera});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MouseLook::LookRotation
@@ -147,7 +147,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MouseLook::*)(UnityEngine::Transform*, UnityEngine::Transform*)>(&GlobalNamespace::MouseLook::LookRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MouseLook*), "LookRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    static auto* character = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    static auto* camera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MouseLook*), "LookRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{character, camera});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MouseLook::SetCursorLock
@@ -155,7 +157,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MouseLook::*)(bool)>(&GlobalNamespace::MouseLook::SetCursorLock)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MouseLook*), "SetCursorLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MouseLook*), "SetCursorLock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MouseLook::UpdateCursorLock
@@ -179,7 +182,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (GlobalNamespace::MouseLook::*)(UnityEngine::Quaternion)>(&GlobalNamespace::MouseLook::ClampRotationAroundXAxis)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MouseLook*), "ClampRotationAroundXAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    static auto* q = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MouseLook*), "ClampRotationAroundXAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{q});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MouseLook::New_ctor

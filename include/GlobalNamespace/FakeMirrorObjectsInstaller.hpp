@@ -98,7 +98,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(FakeMirrorObjectsInstaller) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FakeMirrorObjectsInstaller*, "", "FakeMirrorObjectsInstaller");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FakeMirrorObjectsInstaller::get_mirroredGameNoteControllerPrefab
 // Il2CppName: get_mirroredGameNoteControllerPrefab
 template<>

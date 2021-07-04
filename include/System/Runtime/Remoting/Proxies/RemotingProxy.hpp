@@ -131,12 +131,6 @@ namespace System::Runtime::Remoting::Proxies {
   static_assert(sizeof(RemotingProxy) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::RemotingProxy*, "System.Runtime.Remoting.Proxies", "RemotingProxy");
-// Writing includes for template specializations
-#include "System/Type.hpp"
-#include "System/Runtime/Remoting/Identity.hpp"
-#include "System/Runtime/Remoting/Messaging/IMethodMessage.hpp"
-#include "System/Runtime/Remoting/ClientIdentity.hpp"
-#include "System/Runtime/Remoting/Messaging/IMessage.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::RemotingProxy::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -146,7 +140,8 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Proxies::RemotingProxy*, "Syst
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Proxies::RemotingProxy::*)(System::Runtime::Remoting::Identity*)>(&System::Runtime::Remoting::Proxies::RemotingProxy::AttachIdentity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::RemotingProxy*), "AttachIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Identity*>()});
+    static auto* identity = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "Identity")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::RemotingProxy*), "AttachIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{identity});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::RemotingProxy::ActivateRemoteObject
@@ -154,7 +149,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (System::Runtime::Remoting::Proxies::RemotingProxy::*)(System::Runtime::Remoting::Messaging::IMethodMessage*)>(&System::Runtime::Remoting::Proxies::RemotingProxy::ActivateRemoteObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::RemotingProxy*), "ActivateRemoteObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMethodMessage*>()});
+    static auto* request = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMethodMessage")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::RemotingProxy*), "ActivateRemoteObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{request});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::RemotingProxy::get_TypeName
@@ -170,7 +166,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Remoting::Proxies::RemotingProxy::*)(System::Type*, ::Il2CppObject*)>(&System::Runtime::Remoting::Proxies::RemotingProxy::CanCastTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::RemotingProxy*), "CanCastTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* fromType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    static auto* o = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::RemotingProxy*), "CanCastTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fromType, o});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::RemotingProxy::_cctor
@@ -190,7 +188,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessage* (System::Runtime::Remoting::Proxies::RemotingProxy::*)(System::Runtime::Remoting::Messaging::IMessage*)>(&System::Runtime::Remoting::Proxies::RemotingProxy::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::RemotingProxy*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Messaging::IMessage*>()});
+    static auto* request = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMessage")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Proxies::RemotingProxy*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{request});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::RemotingProxy::Finalize

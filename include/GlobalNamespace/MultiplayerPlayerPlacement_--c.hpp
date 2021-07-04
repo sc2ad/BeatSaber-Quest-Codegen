@@ -61,8 +61,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerPlayerPlacement::$$c*, "", "MultiplayerPlayerPlacement/<>c");
-// Writing includes for template specializations
-#include "GlobalNamespace/IConnectedPlayer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerPlayerPlacement::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -76,7 +74,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::MultiplayerPlayerPlacement::$$c::*)(GlobalNamespace::IConnectedPlayer*, GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::MultiplayerPlayerPlacement::$$c::$SortPlayers$b__4_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerPlayerPlacement::$$c*), "<SortPlayers>b__4_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    static auto* p1 = &::il2cpp_utils::GetClassFromName("", "IConnectedPlayer")->byval_arg;
+    static auto* p2 = &::il2cpp_utils::GetClassFromName("", "IConnectedPlayer")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerPlayerPlacement::$$c*), "<SortPlayers>b__4_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p1, p2});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerPlayerPlacement::$$c::New_ctor

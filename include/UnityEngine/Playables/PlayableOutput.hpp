@@ -86,7 +86,6 @@ namespace UnityEngine::Playables {
   static_assert(sizeof(PlayableOutput) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableOutput, "UnityEngine.Playables", "PlayableOutput");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutput::get_Null
 // Il2CppName: get_Null
 template<>
@@ -115,7 +114,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Playables::PlayableOutput::*)(UnityEngine::Playables::PlayableOutput)>(&UnityEngine::Playables::PlayableOutput::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutput), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::PlayableOutput>()});
+    static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "PlayableOutput")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Playables::PlayableOutput), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutput::_cctor

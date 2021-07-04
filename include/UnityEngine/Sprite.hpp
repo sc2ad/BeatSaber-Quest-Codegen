@@ -148,12 +148,6 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Sprite*, "UnityEngine", "Sprite");
-// Writing includes for template specializations
-#include "UnityEngine/Texture2D.hpp"
-#include "UnityEngine/Rect.hpp"
-#include "UnityEngine/SpriteMeshType.hpp"
-#include "UnityEngine/Vector4.hpp"
-#include "UnityEngine/Bounds.hpp"
 // Writing MetadataGetter for method: UnityEngine::Sprite::GetPackingMode
 // Il2CppName: GetPackingMode
 template<>
@@ -207,7 +201,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (*)(UnityEngine::Texture2D*, UnityEngine::Rect, UnityEngine::Vector2, float, uint, UnityEngine::SpriteMeshType, UnityEngine::Vector4, bool)>(&UnityEngine::Sprite::CreateSprite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprite*), "CreateSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SpriteMeshType>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* texture = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture2D")->byval_arg;
+    static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* pivot = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* pixelsPerUnit = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* extrude = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* meshType = &::il2cpp_utils::GetClassFromName("UnityEngine", "SpriteMeshType")->byval_arg;
+    static auto* border = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
+    static auto* generateFallbackPhysicsShape = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprite*), "CreateSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{texture, rect, pivot, pixelsPerUnit, extrude, meshType, border, generateFallbackPhysicsShape});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Sprite::get_bounds
@@ -319,7 +321,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (*)(UnityEngine::Texture2D*, UnityEngine::Rect, UnityEngine::Vector2, float, uint, UnityEngine::SpriteMeshType, UnityEngine::Vector4, bool)>(&UnityEngine::Sprite::Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprite*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SpriteMeshType>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* texture = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture2D")->byval_arg;
+    static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* pivot = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* pixelsPerUnit = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* extrude = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* meshType = &::il2cpp_utils::GetClassFromName("UnityEngine", "SpriteMeshType")->byval_arg;
+    static auto* border = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
+    static auto* generateFallbackPhysicsShape = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprite*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{texture, rect, pivot, pixelsPerUnit, extrude, meshType, border, generateFallbackPhysicsShape});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Sprite::GetTextureRect_Injected
@@ -327,7 +337,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Sprite::*)(UnityEngine::Rect&)>(&UnityEngine::Sprite::GetTextureRect_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprite*), "GetTextureRect_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>()});
+    static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprite*), "GetTextureRect_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Sprite::GetInnerUVs_Injected
@@ -335,7 +346,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Sprite::*)(UnityEngine::Vector4&)>(&UnityEngine::Sprite::GetInnerUVs_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprite*), "GetInnerUVs_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4&>()});
+    static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprite*), "GetInnerUVs_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Sprite::GetOuterUVs_Injected
@@ -343,7 +355,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Sprite::*)(UnityEngine::Vector4&)>(&UnityEngine::Sprite::GetOuterUVs_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprite*), "GetOuterUVs_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4&>()});
+    static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprite*), "GetOuterUVs_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Sprite::GetPadding_Injected
@@ -351,7 +364,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Sprite::*)(UnityEngine::Vector4&)>(&UnityEngine::Sprite::GetPadding_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprite*), "GetPadding_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4&>()});
+    static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprite*), "GetPadding_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Sprite::CreateSprite_Injected
@@ -359,7 +373,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (*)(UnityEngine::Texture2D*, UnityEngine::Rect&, UnityEngine::Vector2&, float, uint, UnityEngine::SpriteMeshType, UnityEngine::Vector4&, bool)>(&UnityEngine::Sprite::CreateSprite_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprite*), "CreateSprite_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::SpriteMeshType>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* texture = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture2D")->byval_arg;
+    static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->this_arg;
+    static auto* pivot = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
+    static auto* pixelsPerUnit = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* extrude = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* meshType = &::il2cpp_utils::GetClassFromName("UnityEngine", "SpriteMeshType")->byval_arg;
+    static auto* border = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->this_arg;
+    static auto* generateFallbackPhysicsShape = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprite*), "CreateSprite_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{texture, rect, pivot, pixelsPerUnit, extrude, meshType, border, generateFallbackPhysicsShape});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Sprite::get_bounds_Injected
@@ -367,7 +389,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Sprite::*)(UnityEngine::Bounds&)>(&UnityEngine::Sprite::get_bounds_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprite*), "get_bounds_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Bounds&>()});
+    static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Bounds")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprite*), "get_bounds_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Sprite::get_rect_Injected
@@ -375,7 +398,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Sprite::*)(UnityEngine::Rect&)>(&UnityEngine::Sprite::get_rect_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprite*), "get_rect_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>()});
+    static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprite*), "get_rect_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Sprite::get_border_Injected
@@ -383,7 +407,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Sprite::*)(UnityEngine::Vector4&)>(&UnityEngine::Sprite::get_border_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprite*), "get_border_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4&>()});
+    static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprite*), "get_border_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Sprite::get_pivot_Injected
@@ -391,7 +416,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Sprite::*)(UnityEngine::Vector2&)>(&UnityEngine::Sprite::get_pivot_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprite*), "get_pivot_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+    static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprite*), "get_pivot_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Sprite::New_ctor

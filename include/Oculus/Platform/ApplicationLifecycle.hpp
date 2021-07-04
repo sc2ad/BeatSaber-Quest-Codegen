@@ -42,8 +42,6 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::ApplicationLifecycle*, "Oculus.Platform", "ApplicationLifecycle");
-// Writing includes for template specializations
-#include "Oculus/Platform/LaunchResult.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::ApplicationLifecycle::GetLaunchDetails
 // Il2CppName: GetLaunchDetails
 template<>
@@ -57,14 +55,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Oculus::Platform::LaunchResult)>(&Oculus::Platform::ApplicationLifecycle::LogDeeplinkResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::ApplicationLifecycle*), "LogDeeplinkResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LaunchResult>()});
+    static auto* trackingID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "LaunchResult")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::ApplicationLifecycle*), "LogDeeplinkResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{trackingID, result});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::ApplicationLifecycle::SetLaunchIntentChangedNotificationCallback
 // Il2CppName: SetLaunchIntentChangedNotificationCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<::Il2CppString*>::Callback*)>(&Oculus::Platform::ApplicationLifecycle::SetLaunchIntentChangedNotificationCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::ApplicationLifecycle*), "SetLaunchIntentChangedNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<::Il2CppString*>::Callback*>()});
-  }
-};
+// Cannot write MetadataGetter for a method that has a nested type with a declaring generic type anywhere within it!
+// Talk to sc2ad if this is something you want

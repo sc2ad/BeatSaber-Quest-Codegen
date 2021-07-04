@@ -46,15 +46,13 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*, "Zenject", "NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder");
-// Writing includes for template specializations
-#include "Zenject/BindInfo.hpp"
-#include "Zenject/GameObjectCreationParameters.hpp"
 // Writing MetadataGetter for method: Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder::WithGameObjectName
 // Il2CppName: WithGameObjectName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder::*)(::Il2CppString*)>(&Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder::WithGameObjectName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*), "WithGameObjectName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* gameObjectName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder*), "WithGameObjectName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameObjectName});
   }
 };
 // Writing MetadataGetter for method: Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder::New_ctor

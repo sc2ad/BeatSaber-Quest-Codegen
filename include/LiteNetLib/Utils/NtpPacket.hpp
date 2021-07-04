@@ -179,8 +179,6 @@ namespace LiteNetLib::Utils {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NtpPacket*, "LiteNetLib.Utils", "NtpPacket");
-// Writing includes for template specializations
-#include "LiteNetLib/Utils/NtpMode.hpp"
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::get_Bytes
 // Il2CppName: get_Bytes
 template<>
@@ -194,7 +192,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NtpPacket::*)(::Array<uint8_t>*)>(&LiteNetLib::Utils::NtpPacket::set_Bytes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "set_Bytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* value = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "set_Bytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::get_LeapIndicator
@@ -218,7 +217,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNe
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NtpPacket::*)(int)>(&LiteNetLib::Utils::NtpPacket::set_VersionNumber)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "set_VersionNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "set_VersionNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::get_Mode
@@ -234,7 +234,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NtpPacket::*)(LiteNetLib::Utils::NtpMode)>(&LiteNetLib::Utils::NtpPacket::set_Mode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "set_Mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::Utils::NtpMode>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NtpMode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "set_Mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::get_Stratum
@@ -322,7 +323,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nul
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NtpPacket::*)(System::Nullable_1<System::DateTime>)>(&LiteNetLib::Utils::NtpPacket::set_TransmitTimestamp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "set_TransmitTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<System::DateTime>>()});
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "DateTime")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "set_TransmitTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::get_DestinationTimestamp
@@ -338,7 +340,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nul
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NtpPacket::*)(System::Nullable_1<System::DateTime>)>(&LiteNetLib::Utils::NtpPacket::set_DestinationTimestamp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "set_DestinationTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Nullable_1<System::DateTime>>()});
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "DateTime")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "set_DestinationTimestamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::get_RoundTripTime
@@ -366,7 +369,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NtpPacket* (*)(::Array<uint8_t>*, System::DateTime)>(&LiteNetLib::Utils::NtpPacket::FromServerResponse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "FromServerResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+    static auto* bytes = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* destinationTimestamp = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "FromServerResponse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytes, destinationTimestamp});
   }
 };
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::ValidateRequest
@@ -398,7 +403,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<System::DateTime> (LiteNetLib::Utils::NtpPacket::*)(int)>(&LiteNetLib::Utils::NtpPacket::GetDateTime64)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "GetDateTime64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "GetDateTime64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{offset});
   }
 };
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::SetDateTime64
@@ -406,7 +412,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nul
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NtpPacket::*)(int, System::Nullable_1<System::DateTime>)>(&LiteNetLib::Utils::NtpPacket::SetDateTime64)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "SetDateTime64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Nullable_1<System::DateTime>>()});
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Nullable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "DateTime")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "SetDateTime64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{offset, value});
   }
 };
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::GetTimeSpan32
@@ -414,7 +422,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (LiteNetLib::Utils::NtpPacket::*)(int)>(&LiteNetLib::Utils::NtpPacket::GetTimeSpan32)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "GetTimeSpan32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "GetTimeSpan32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{offset});
   }
 };
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::GetUInt64BE
@@ -422,7 +431,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (LiteNetLib::Utils::NtpPacket::*)(int)>(&LiteNetLib::Utils::NtpPacket::GetUInt64BE)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "GetUInt64BE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "GetUInt64BE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{offset});
   }
 };
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::SetUInt64BE
@@ -430,7 +440,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (L
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NtpPacket::*)(int, uint64_t)>(&LiteNetLib::Utils::NtpPacket::SetUInt64BE)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "SetUInt64BE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "SetUInt64BE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{offset, value});
   }
 };
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::GetInt32BE
@@ -438,7 +450,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNetLib::Utils::NtpPacket::*)(int)>(&LiteNetLib::Utils::NtpPacket::GetInt32BE)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "GetInt32BE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "GetInt32BE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{offset});
   }
 };
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::GetUInt32BE
@@ -446,7 +459,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNe
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (LiteNetLib::Utils::NtpPacket::*)(int)>(&LiteNetLib::Utils::NtpPacket::GetUInt32BE)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "GetUInt32BE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "GetUInt32BE", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{offset});
   }
 };
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::SwapEndianness
@@ -454,7 +468,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (LiteN
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint)>(&LiteNetLib::Utils::NtpPacket::SwapEndianness)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "SwapEndianness", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "SwapEndianness", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::SwapEndianness
@@ -462,7 +477,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(ui
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&LiteNetLib::Utils::NtpPacket::SwapEndianness)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "SwapEndianness", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "SwapEndianness", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::_cctor

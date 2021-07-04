@@ -62,8 +62,6 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, "UnityEngine.ResourceManagement.ResourceLocations", "IResourceLocation");
-// Writing includes for template specializations
-#include "System/Type.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::get_InternalId
 // Il2CppName: get_InternalId
 template<>
@@ -93,7 +91,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::*)(System::Type*)>(&UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::Hash)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*), "Hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* resultType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*), "Hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resultType});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation::get_DependencyHashCode

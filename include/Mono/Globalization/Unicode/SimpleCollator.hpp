@@ -283,14 +283,6 @@ namespace Mono::Globalization::Unicode {
   static_assert(sizeof(SimpleCollator) == 0x5D);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator*, "Mono.Globalization.Unicode", "SimpleCollator");
-// Writing includes for template specializations
-#include "System/Globalization/CultureInfo.hpp"
-#include "Mono/Globalization/Unicode/CodePointIndexer.hpp"
-#include "Mono/Globalization/Unicode/SimpleCollator_ExtenderType.hpp"
-#include "System/Globalization/CompareOptions.hpp"
-#include "Mono/Globalization/Unicode/SortKeyBuffer.hpp"
-#include "Mono/Globalization/Unicode/SimpleCollator_Context.hpp"
-#include "Mono/Globalization/Unicode/Contraction.hpp"
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -300,7 +292,13 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::SimpleCollator*, "Mono.Glob
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SimpleCollator::*)(System::Globalization::CultureInfo*, Mono::Globalization::Unicode::CodePointIndexer*&, uint8_t*&, uint8_t*&, Mono::Globalization::Unicode::CodePointIndexer*&, uint8_t*&)>(&Mono::Globalization::Unicode::SimpleCollator::SetCJKTable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "SetCJKTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::CodePointIndexer*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::CodePointIndexer*&>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*&>()});
+    static auto* culture = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
+    static auto* cjkIndexer = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "CodePointIndexer")->this_arg;
+    static auto* catTable = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->this_arg;
+    static auto* lv1Table = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->this_arg;
+    static auto* lv2Indexer = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "CodePointIndexer")->this_arg;
+    static auto* lv2Table = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "SetCJKTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{culture, cjkIndexer, catTable, lv1Table, lv2Indexer, lv2Table});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::GetNeutralCulture
@@ -308,7 +306,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CultureInfo* (*)(System::Globalization::CultureInfo*)>(&Mono::Globalization::Unicode::SimpleCollator::GetNeutralCulture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "GetNeutralCulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+    static auto* info = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "GetNeutralCulture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{info});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::Category
@@ -316,7 +315,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Mono::Globalization::Unicode::SimpleCollator::*)(int)>(&Mono::Globalization::Unicode::SimpleCollator::Category)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "Category", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* cp = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "Category", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cp});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::Level1
@@ -324,7 +324,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Mo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Mono::Globalization::Unicode::SimpleCollator::*)(int)>(&Mono::Globalization::Unicode::SimpleCollator::Level1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "Level1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* cp = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "Level1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cp});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::Level2
@@ -332,7 +333,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Mo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Mono::Globalization::Unicode::SimpleCollator::*)(int, Mono::Globalization::Unicode::SimpleCollator::ExtenderType)>(&Mono::Globalization::Unicode::SimpleCollator::Level2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "Level2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::ExtenderType>()});
+    static auto* cp = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* ext = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "SimpleCollator/ExtenderType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "Level2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cp, ext});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::IsHalfKana
@@ -340,7 +343,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Mo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::IsHalfKana)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IsHalfKana", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+    static auto* cp = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* opt = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IsHalfKana", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cp, opt});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::GetContraction
@@ -348,7 +353,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::Contraction* (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int)>(&Mono::Globalization::Unicode::SimpleCollator::GetContraction)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "GetContraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "GetContraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, start, end});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::GetContraction
@@ -356,7 +364,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::Contraction* (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int, ::Array<Mono::Globalization::Unicode::Contraction*>*)>(&Mono::Globalization::Unicode::SimpleCollator::GetContraction)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "GetContraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<Mono::Globalization::Unicode::Contraction*>*>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* clist = &classof(::Array<::Array<Mono::Globalization::Unicode::Contraction*>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "GetContraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, start, end, clist});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::GetTailContraction
@@ -364,7 +376,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::Contraction* (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int)>(&Mono::Globalization::Unicode::SimpleCollator::GetTailContraction)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "GetTailContraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "GetTailContraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, start, end});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::GetTailContraction
@@ -372,7 +387,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::Contraction* (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int, ::Array<Mono::Globalization::Unicode::Contraction*>*)>(&Mono::Globalization::Unicode::SimpleCollator::GetTailContraction)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "GetTailContraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<Mono::Globalization::Unicode::Contraction*>*>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* clist = &classof(::Array<::Array<Mono::Globalization::Unicode::Contraction*>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "GetTailContraction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, start, end, clist});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::FilterOptions
@@ -380,7 +399,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::FilterOptions)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "FilterOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+    static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* opt = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "FilterOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i, opt});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::GetExtenderType
@@ -388,7 +409,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::SimpleCollator::ExtenderType (Mono::Globalization::Unicode::SimpleCollator::*)(int)>(&Mono::Globalization::Unicode::SimpleCollator::GetExtenderType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "GetExtenderType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "GetExtenderType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::ToDashTypeValue
@@ -396,7 +418,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(Mono::Globalization::Unicode::SimpleCollator::ExtenderType, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::ToDashTypeValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "ToDashTypeValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::ExtenderType>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+    static auto* ext = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "SimpleCollator/ExtenderType")->byval_arg;
+    static auto* opt = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "ToDashTypeValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ext, opt});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::FilterExtender
@@ -404,7 +428,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(int, Mono::Globalization::Unicode::SimpleCollator::ExtenderType, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::FilterExtender)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "FilterExtender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::ExtenderType>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+    static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* ext = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "SimpleCollator/ExtenderType")->byval_arg;
+    static auto* opt = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "FilterExtender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i, ext, opt});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::IsIgnorable
@@ -412,7 +439,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::IsIgnorable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IsIgnorable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+    static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* opt = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IsIgnorable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i, opt});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::IsSafe
@@ -420,7 +449,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(int)>(&Mono::Globalization::Unicode::SimpleCollator::IsSafe)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IsSafe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IsSafe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::GetSortKey
@@ -428,7 +458,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::SortKey* (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::GetSortKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "GetSortKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "GetSortKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, options});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::GetSortKey
@@ -436,7 +468,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::SortKey* (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::GetSortKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "GetSortKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "GetSortKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, start, length, options});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::GetSortKey
@@ -444,7 +480,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int, Mono::Globalization::Unicode::SortKeyBuffer*, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::GetSortKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "GetSortKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SortKeyBuffer*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* buf = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "SortKeyBuffer")->byval_arg;
+    static auto* opt = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "GetSortKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, start, end, buf, opt});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::FillSortKeyRaw
@@ -452,7 +493,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SimpleCollator::*)(int, Mono::Globalization::Unicode::SimpleCollator::ExtenderType, Mono::Globalization::Unicode::SortKeyBuffer*, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::FillSortKeyRaw)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "FillSortKeyRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::ExtenderType>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SortKeyBuffer*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+    static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* ext = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "SimpleCollator/ExtenderType")->byval_arg;
+    static auto* buf = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "SortKeyBuffer")->byval_arg;
+    static auto* opt = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "FillSortKeyRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i, ext, buf, opt});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::FillSurrogateSortKeyRaw
@@ -460,7 +505,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SimpleCollator::*)(int, Mono::Globalization::Unicode::SortKeyBuffer*)>(&Mono::Globalization::Unicode::SimpleCollator::FillSurrogateSortKeyRaw)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "FillSurrogateSortKeyRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SortKeyBuffer*>()});
+    static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* buf = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "SortKeyBuffer")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "FillSurrogateSortKeyRaw", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i, buf});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::Compare
@@ -468,7 +515,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::Compare)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+    static auto* s1 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* idx1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* len1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* s2 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* idx2 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* len2 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* options = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s1, idx1, len1, s2, idx2, len2, options});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::ClearBuffer
@@ -476,7 +530,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SimpleCollator::*)(uint8_t*, int)>(&Mono::Globalization::Unicode::SimpleCollator::ClearBuffer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "ClearBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* buffer = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
+    static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "ClearBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, size});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::CompareInternal
@@ -484,7 +540,18 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int, ::Il2CppString*, int, int, bool&, bool&, bool, bool, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&Mono::Globalization::Unicode::SimpleCollator::CompareInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "CompareInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
+    static auto* s1 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* idx1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* len1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* s2 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* idx2 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* len2 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* targetConsumed = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
+    static auto* sourceConsumed = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
+    static auto* skipHeadingExtenders = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* immediateBreakup = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* ctx = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "SimpleCollator/Context")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "CompareInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s1, idx1, len1, s2, idx2, len2, targetConsumed, sourceConsumed, skipHeadingExtenders, immediateBreakup, ctx});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::CompareFlagPair
@@ -492,7 +559,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(bool, bool)>(&Mono::Globalization::Unicode::SimpleCollator::CompareFlagPair)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "CompareFlagPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* b1 = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* b2 = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "CompareFlagPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{b1, b2});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::IsPrefix
@@ -500,7 +569,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::IsPrefix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IsPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+    static auto* src = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* opt = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IsPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src, target, opt});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::IsPrefix
@@ -508,7 +580,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::IsPrefix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IsPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* opt = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IsPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, target, start, length, opt});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::IsPrefix
@@ -516,7 +593,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, bool, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&Mono::Globalization::Unicode::SimpleCollator::IsPrefix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IsPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* skipHeadingExtenders = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* ctx = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "SimpleCollator/Context")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IsPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, target, start, length, skipHeadingExtenders, ctx});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::IsSuffix
@@ -524,7 +607,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::IsSuffix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IsSuffix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+    static auto* src = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* opt = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IsSuffix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src, target, opt});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::IsSuffix
@@ -532,7 +618,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::IsSuffix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IsSuffix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* opt = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IsSuffix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, target, start, length, opt});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::QuickIndexOf
@@ -540,7 +631,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, bool&)>(&Mono::Globalization::Unicode::SimpleCollator::QuickIndexOf)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "QuickIndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* testWasUnable = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "QuickIndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, target, start, length, testWasUnable});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::IndexOf
@@ -548,7 +644,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::IndexOf)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* opt = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, target, start, length, opt});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::IndexOfOrdinal
@@ -556,7 +657,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int)>(&Mono::Globalization::Unicode::SimpleCollator::IndexOfOrdinal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IndexOfOrdinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IndexOfOrdinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, target, start, length});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::IndexOfOrdinal
@@ -564,7 +669,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppChar, int, int)>(&Mono::Globalization::Unicode::SimpleCollator::IndexOfOrdinal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IndexOfOrdinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* target = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IndexOfOrdinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, target, start, length});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::IndexOfSortKey
@@ -572,7 +681,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int, uint8_t*, ::Il2CppChar, int, bool, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&Mono::Globalization::Unicode::SimpleCollator::IndexOfSortKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IndexOfSortKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* sortkey = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
+    static auto* target = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    static auto* ti = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* noLv4 = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* ctx = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "SimpleCollator/Context")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IndexOfSortKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, start, length, sortkey, target, ti, noLv4, ctx});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::IndexOf
@@ -580,7 +697,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, uint8_t*, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&Mono::Globalization::Unicode::SimpleCollator::IndexOf)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* targetSortKey = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
+    static auto* ctx = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "SimpleCollator/Context")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "IndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, target, start, length, targetSortKey, ctx});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::LastIndexOf
@@ -588,7 +711,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, System::Globalization::CompareOptions)>(&Mono::Globalization::Unicode::SimpleCollator::LastIndexOf)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "LastIndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* opt = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "LastIndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, target, start, length, opt});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::LastIndexOfOrdinal
@@ -596,7 +724,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int)>(&Mono::Globalization::Unicode::SimpleCollator::LastIndexOfOrdinal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "LastIndexOfOrdinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "LastIndexOfOrdinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, target, start, length});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::LastIndexOfSortKey
@@ -604,7 +736,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int, int, uint8_t*, int, bool, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&Mono::Globalization::Unicode::SimpleCollator::LastIndexOfSortKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "LastIndexOfSortKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* orgStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* sortkey = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
+    static auto* ti = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* noLv4 = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* ctx = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "SimpleCollator/Context")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "LastIndexOfSortKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, start, orgStart, length, sortkey, ti, noLv4, ctx});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::LastIndexOf
@@ -612,7 +752,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, ::Il2CppString*, int, int, uint8_t*, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&Mono::Globalization::Unicode::SimpleCollator::LastIndexOf)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "LastIndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* target = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* targetSortKey = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
+    static auto* ctx = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "SimpleCollator/Context")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "LastIndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, target, start, length, targetSortKey, ctx});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::MatchesForward
@@ -620,7 +766,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int&, int, int, uint8_t*, bool, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&Mono::Globalization::Unicode::SimpleCollator::MatchesForward)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "MatchesForward", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* ti = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* sortkey = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
+    static auto* noLv4 = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* ctx = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "SimpleCollator/Context")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "MatchesForward", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, idx, end, ti, sortkey, noLv4, ctx});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::MatchesForwardCore
@@ -628,7 +781,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int&, int, int, uint8_t*, bool, Mono::Globalization::Unicode::SimpleCollator::ExtenderType, Mono::Globalization::Unicode::Contraction*&, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&Mono::Globalization::Unicode::SimpleCollator::MatchesForwardCore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "MatchesForwardCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::ExtenderType>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::Contraction*&>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* ti = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* sortkey = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
+    static auto* noLv4 = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* ext = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "SimpleCollator/ExtenderType")->byval_arg;
+    static auto* ct = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "Contraction")->this_arg;
+    static auto* ctx = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "SimpleCollator/Context")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "MatchesForwardCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, idx, end, ti, sortkey, noLv4, ext, ct, ctx});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::MatchesPrimitive
@@ -636,7 +798,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(System::Globalization::CompareOptions, uint8_t*, int, Mono::Globalization::Unicode::SimpleCollator::ExtenderType, uint8_t*, int, bool)>(&Mono::Globalization::Unicode::SimpleCollator::MatchesPrimitive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "MatchesPrimitive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CompareOptions>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::ExtenderType>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* opt = &::il2cpp_utils::GetClassFromName("System.Globalization", "CompareOptions")->byval_arg;
+    static auto* source = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
+    static auto* si = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* ext = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "SimpleCollator/ExtenderType")->byval_arg;
+    static auto* target = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
+    static auto* ti = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* noLv4 = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "MatchesPrimitive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{opt, source, si, ext, target, ti, noLv4});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::MatchesBackward
@@ -644,7 +813,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int&, int, int, int, uint8_t*, bool, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&Mono::Globalization::Unicode::SimpleCollator::MatchesBackward)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "MatchesBackward", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* orgStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* ti = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* sortkey = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
+    static auto* noLv4 = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* ctx = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "SimpleCollator/Context")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "MatchesBackward", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, idx, end, orgStart, ti, sortkey, noLv4, ctx});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::MatchesBackwardCore
@@ -652,7 +829,17 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int&, int, int, int, uint8_t*, bool, Mono::Globalization::Unicode::SimpleCollator::ExtenderType, Mono::Globalization::Unicode::Contraction*&, Mono::Globalization::Unicode::SimpleCollator::Context&)>(&Mono::Globalization::Unicode::SimpleCollator::MatchesBackwardCore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "MatchesBackwardCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::ExtenderType>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::Contraction*&>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::SimpleCollator::Context&>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* orgStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* ti = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* sortkey = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
+    static auto* noLv4 = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* ext = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "SimpleCollator/ExtenderType")->byval_arg;
+    static auto* ct = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "Contraction")->this_arg;
+    static auto* ctx = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "SimpleCollator/Context")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::SimpleCollator*), "MatchesBackwardCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, idx, end, orgStart, ti, sortkey, noLv4, ext, ct, ctx});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::_cctor

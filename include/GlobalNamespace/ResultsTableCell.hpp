@@ -95,15 +95,15 @@ namespace GlobalNamespace {
   static_assert(sizeof(ResultsTableCell) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResultsTableCell*, "", "ResultsTableCell");
-// Writing includes for template specializations
-#include "GlobalNamespace/IConnectedPlayer.hpp"
-#include "GlobalNamespace/LevelCompletionResults.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ResultsTableCell::SetData
 // Il2CppName: SetData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ResultsTableCell::*)(int, GlobalNamespace::IConnectedPlayer*, GlobalNamespace::LevelCompletionResults*)>(&GlobalNamespace::ResultsTableCell::SetData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsTableCell*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>()});
+    static auto* order = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* connectedPlayer = &::il2cpp_utils::GetClassFromName("", "IConnectedPlayer")->byval_arg;
+    static auto* levelCompletionResults = &::il2cpp_utils::GetClassFromName("", "LevelCompletionResults")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ResultsTableCell*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{order, connectedPlayer, levelCompletionResults});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ResultsTableCell::New_ctor

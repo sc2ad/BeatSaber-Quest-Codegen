@@ -241,12 +241,6 @@ namespace VRUIControls {
   static_assert(sizeof(VRInputModule) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRInputModule*, "VRUIControls", "VRInputModule");
-// Writing includes for template specializations
-#include "System/Action_1.hpp"
-#include "UnityEngine/EventSystems/PointerEventData.hpp"
-#include "UnityEngine/GameObject.hpp"
-#include "UnityEngine/EventSystems/BaseEventData.hpp"
-#include "VRUIControls/MouseButtonEventData.hpp"
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::get_useMouseForPressInput
 // Il2CppName: get_useMouseForPressInput
 template<>
@@ -260,7 +254,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRUIC
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRInputModule::*)(bool)>(&VRUIControls::VRInputModule::set_useMouseForPressInput)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "set_useMouseForPressInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "set_useMouseForPressInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::add_onProcessMousePressEvent
@@ -268,7 +263,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIC
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRInputModule::*)(System::Action_1<UnityEngine::GameObject*>*)>(&VRUIControls::VRInputModule::add_onProcessMousePressEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "add_onProcessMousePressEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::GameObject*>*>()});
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "add_onProcessMousePressEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::remove_onProcessMousePressEvent
@@ -276,7 +272,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIC
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRInputModule::*)(System::Action_1<UnityEngine::GameObject*>*)>(&VRUIControls::VRInputModule::remove_onProcessMousePressEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "remove_onProcessMousePressEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::GameObject*>*>()});
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "remove_onProcessMousePressEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::GetPointerData
@@ -284,7 +281,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIC
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRUIControls::VRInputModule::*)(int, UnityEngine::EventSystems::PointerEventData*&, bool)>(&VRUIControls::VRInputModule::GetPointerData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "GetPointerData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* data = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->this_arg;
+    static auto* create = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "GetPointerData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id, data, create});
   }
 };
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::GetMousePointerEventData
@@ -292,7 +292,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRUIC
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<VRUIControls::MouseState* (VRUIControls::VRInputModule::*)(int)>(&VRUIControls::VRInputModule::GetMousePointerEventData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "GetMousePointerEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "GetMousePointerEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});
   }
 };
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::GetLastPointerEventData
@@ -300,7 +301,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<VRUIControl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::PointerEventData* (VRUIControls::VRInputModule::*)(int)>(&VRUIControls::VRInputModule::GetLastPointerEventData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "GetLastPointerEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "GetLastPointerEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});
   }
 };
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::ShouldStartDrag
@@ -308,7 +310,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRUIControls::VRInputModule::*)(UnityEngine::Vector2, UnityEngine::Vector2, float, bool)>(&VRUIControls::VRInputModule::ShouldStartDrag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "ShouldStartDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* pressPos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* currentPos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* threshold = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* useDragThreshold = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "ShouldStartDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pressPos, currentPos, threshold, useDragThreshold});
   }
 };
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::ProcessMove
@@ -316,7 +322,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRUIC
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRInputModule::*)(UnityEngine::EventSystems::PointerEventData*)>(&VRUIControls::VRInputModule::ProcessMove)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "ProcessMove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    static auto* pointerEvent = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "ProcessMove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pointerEvent});
   }
 };
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::ProcessDrag
@@ -324,7 +331,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIC
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRInputModule::*)(UnityEngine::EventSystems::PointerEventData*)>(&VRUIControls::VRInputModule::ProcessDrag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "ProcessDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    static auto* pointerEvent = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "ProcessDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pointerEvent});
   }
 };
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::ClearSelection
@@ -340,7 +348,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIC
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRInputModule::*)(UnityEngine::GameObject*, UnityEngine::EventSystems::BaseEventData*)>(&VRUIControls::VRInputModule::DeselectIfSelectionChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "DeselectIfSelectionChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseEventData*>()});
+    static auto* currentOverGo = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
+    static auto* pointerEvent = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseEventData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "DeselectIfSelectionChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{currentOverGo, pointerEvent});
   }
 };
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::SendUpdateEventToSelectedObject
@@ -356,7 +366,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRUIC
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRInputModule::*)(VRUIControls::MouseButtonEventData*)>(&VRUIControls::VRInputModule::ProcessMousePress)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "ProcessMousePress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<VRUIControls::MouseButtonEventData*>()});
+    static auto* data = &::il2cpp_utils::GetClassFromName("VRUIControls", "MouseButtonEventData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "ProcessMousePress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
   }
 };
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::RaycastComparer
@@ -364,7 +375,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIC
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::EventSystems::RaycastResult, UnityEngine::EventSystems::RaycastResult)>(&VRUIControls::VRInputModule::RaycastComparer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "RaycastComparer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::RaycastResult>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::RaycastResult>()});
+    static auto* lhs = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "RaycastResult")->byval_arg;
+    static auto* rhs = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "RaycastResult")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "RaycastComparer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lhs, rhs});
   }
 };
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::OnDisable
@@ -380,7 +393,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIC
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (VRUIControls::VRInputModule::*)(int)>(&VRUIControls::VRInputModule::IsPointerOverGameObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "IsPointerOverGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* pointerId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "IsPointerOverGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pointerId});
   }
 };
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::ToString
@@ -404,7 +418,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIC
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRInputModule::*)(UnityEngine::EventSystems::PointerEventData*, UnityEngine::GameObject*)>(&VRUIControls::VRInputModule::HandlePointerExitAndEnter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "HandlePointerExitAndEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    static auto* currentPointerData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
+    static auto* newEnterTarget = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRInputModule*), "HandlePointerExitAndEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{currentPointerData, newEnterTarget});
   }
 };
 // Writing MetadataGetter for method: VRUIControls::VRInputModule::New_ctor

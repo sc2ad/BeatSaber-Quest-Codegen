@@ -37,14 +37,15 @@ namespace UnityEngine::ProBuilder {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Clipping*, "UnityEngine.ProBuilder", "Clipping");
-// Writing includes for template specializations
-#include "UnityEngine/Rect.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Clipping::ComputeOutCode
 // Il2CppName: ComputeOutCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Clipping::OutCode (*)(UnityEngine::Rect, float, float)>(&UnityEngine::ProBuilder::Clipping::ComputeOutCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Clipping*), "ComputeOutCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* x = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* y = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Clipping*), "ComputeOutCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rect, x, y});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Clipping::RectContainsLineSegment
@@ -52,6 +53,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Rect, float, float, float, float)>(&UnityEngine::ProBuilder::Clipping::RectContainsLineSegment)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Clipping*), "RectContainsLineSegment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* x0 = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* y0 = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* x1 = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* y1 = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Clipping*), "RectContainsLineSegment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rect, x0, y0, x1, y1});
   }
 };

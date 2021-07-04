@@ -68,7 +68,6 @@ namespace System::Globalization {
   static_assert(sizeof(CodePageDataItem) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CodePageDataItem*, "System.Globalization", "CodePageDataItem");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Globalization::CodePageDataItem::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -78,7 +77,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CodePageDataItem*, "System.Globali
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, uint)>(&System::Globalization::CodePageDataItem::CreateString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CodePageDataItem*), "CreateString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* pStrings = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CodePageDataItem*), "CreateString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pStrings, index});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::CodePageDataItem::get_WebName

@@ -104,7 +104,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(TutorialInstaller) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialInstaller*, "", "TutorialInstaller");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::TutorialInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>

@@ -69,7 +69,6 @@ namespace System::Runtime::Remoting::Channels {
   static_assert(sizeof(SinkProviderData) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::SinkProviderData*, "System.Runtime.Remoting.Channels", "SinkProviderData");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::SinkProviderData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

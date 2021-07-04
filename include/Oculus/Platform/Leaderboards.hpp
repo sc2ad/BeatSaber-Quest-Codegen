@@ -65,17 +65,13 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Leaderboards*, "Oculus.Platform", "Leaderboards");
-// Writing includes for template specializations
-#include "Oculus/Platform/Models/LeaderboardEntryList.hpp"
-#include "Oculus/Platform/LeaderboardFilterType.hpp"
-#include "Oculus/Platform/LeaderboardStartAt.hpp"
-#include "Oculus/Platform/Models/LeaderboardList.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Leaderboards::GetNextEntries
 // Il2CppName: GetNextEntries
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList*>* (*)(Oculus::Platform::Models::LeaderboardEntryList*)>(&Oculus::Platform::Leaderboards::GetNextEntries)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "GetNextEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Models::LeaderboardEntryList*>()});
+    static auto* list = &::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "LeaderboardEntryList")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "GetNextEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{list});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Leaderboards::GetPreviousEntries
@@ -83,7 +79,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList*>* (*)(Oculus::Platform::Models::LeaderboardEntryList*)>(&Oculus::Platform::Leaderboards::GetPreviousEntries)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "GetPreviousEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Models::LeaderboardEntryList*>()});
+    static auto* list = &::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "LeaderboardEntryList")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "GetPreviousEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{list});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Leaderboards::Get
@@ -91,7 +88,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardList*>* (*)(::Il2CppString*)>(&Oculus::Platform::Leaderboards::Get)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* leaderboardName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardName});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Leaderboards::GetEntries
@@ -99,7 +97,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList*>* (*)(::Il2CppString*, int, Oculus::Platform::LeaderboardFilterType, Oculus::Platform::LeaderboardStartAt)>(&Oculus::Platform::Leaderboards::GetEntries)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "GetEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LeaderboardFilterType>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LeaderboardStartAt>()});
+    static auto* leaderboardName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* limit = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* filter = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "LeaderboardFilterType")->byval_arg;
+    static auto* startAt = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "LeaderboardStartAt")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "GetEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardName, limit, filter, startAt});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Leaderboards::GetEntriesAfterRank
@@ -107,7 +109,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList*>* (*)(::Il2CppString*, int, uint64_t)>(&Oculus::Platform::Leaderboards::GetEntriesAfterRank)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "GetEntriesAfterRank", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    static auto* leaderboardName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* limit = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* afterRank = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "GetEntriesAfterRank", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardName, limit, afterRank});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Leaderboards::GetEntriesByIds
@@ -115,7 +120,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardEntryList*>* (*)(::Il2CppString*, int, Oculus::Platform::LeaderboardStartAt, ::Array<uint64_t>*)>(&Oculus::Platform::Leaderboards::GetEntriesByIds)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "GetEntriesByIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::LeaderboardStartAt>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint64_t>*>()});
+    static auto* leaderboardName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* limit = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* startAt = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "LeaderboardStartAt")->byval_arg;
+    static auto* userIDs = &classof(::Array<::Array<uint64_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "GetEntriesByIds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardName, limit, startAt, userIDs});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Leaderboards::WriteEntry
@@ -123,7 +132,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<bool>* (*)(::Il2CppString*, int64_t, ::Array<uint8_t>*, bool)>(&Oculus::Platform::Leaderboards::WriteEntry)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "WriteEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* leaderboardName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* score = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    static auto* extraData = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* forceUpdate = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "WriteEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardName, score, extraData, forceUpdate});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Leaderboards::WriteEntryWithSupplementaryMetric
@@ -131,7 +144,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<bool>* (*)(::Il2CppString*, int64_t, int64_t, ::Array<uint8_t>*, bool)>(&Oculus::Platform::Leaderboards::WriteEntryWithSupplementaryMetric)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "WriteEntryWithSupplementaryMetric", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* leaderboardName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* score = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    static auto* supplementaryMetric = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    static auto* extraData = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* forceUpdate = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "WriteEntryWithSupplementaryMetric", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leaderboardName, score, supplementaryMetric, extraData, forceUpdate});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Leaderboards::GetNextLeaderboardListPage
@@ -139,6 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::LeaderboardList*>* (*)(Oculus::Platform::Models::LeaderboardList*)>(&Oculus::Platform::Leaderboards::GetNextLeaderboardListPage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "GetNextLeaderboardListPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Models::LeaderboardList*>()});
+    static auto* list = &::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "LeaderboardList")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Leaderboards*), "GetNextLeaderboardListPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{list});
   }
 };

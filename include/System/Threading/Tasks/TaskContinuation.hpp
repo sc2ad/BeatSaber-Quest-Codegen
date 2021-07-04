@@ -44,14 +44,14 @@ namespace System::Threading::Tasks {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::TaskContinuation*, "System.Threading.Tasks", "TaskContinuation");
-// Writing includes for template specializations
-#include "System/Threading/Tasks/Task.hpp"
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskContinuation::Run
 // Il2CppName: Run
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::TaskContinuation::*)(System::Threading::Tasks::Task*, bool)>(&System::Threading::Tasks::TaskContinuation::Run)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskContinuation*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* completedTask = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
+    static auto* bCanInlineContinuationTask = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskContinuation*), "Run", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{completedTask, bCanInlineContinuationTask});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskContinuation::InlineIfPossibleOrElseQueue
@@ -59,7 +59,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Tasks::Task*, bool)>(&System::Threading::Tasks::TaskContinuation::InlineIfPossibleOrElseQueue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskContinuation*), "InlineIfPossibleOrElseQueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* task = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
+    static auto* needsProtection = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::TaskContinuation*), "InlineIfPossibleOrElseQueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{task, needsProtection});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Tasks::TaskContinuation::New_ctor

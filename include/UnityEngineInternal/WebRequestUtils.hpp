@@ -50,14 +50,14 @@ namespace UnityEngineInternal {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::WebRequestUtils*, "UnityEngineInternal", "WebRequestUtils");
-// Writing includes for template specializations
-#include "System/Uri.hpp"
 // Writing MetadataGetter for method: UnityEngineInternal::WebRequestUtils::RedirectTo
 // Il2CppName: RedirectTo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&UnityEngineInternal::WebRequestUtils::RedirectTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngineInternal::WebRequestUtils*), "RedirectTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* baseUri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* redirectUri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngineInternal::WebRequestUtils*), "RedirectTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{baseUri, redirectUri});
   }
 };
 // Writing MetadataGetter for method: UnityEngineInternal::WebRequestUtils::MakeInitialUrl
@@ -65,7 +65,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&UnityEngineInternal::WebRequestUtils::MakeInitialUrl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngineInternal::WebRequestUtils*), "MakeInitialUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* targetUrl = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* localUrl = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngineInternal::WebRequestUtils*), "MakeInitialUrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{targetUrl, localUrl});
   }
 };
 // Writing MetadataGetter for method: UnityEngineInternal::WebRequestUtils::MakeUriString
@@ -73,7 +75,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Uri*, ::Il2CppString*, bool)>(&UnityEngineInternal::WebRequestUtils::MakeUriString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngineInternal::WebRequestUtils*), "MakeUriString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* targetUri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
+    static auto* targetUrl = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* prependProtocol = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngineInternal::WebRequestUtils*), "MakeUriString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{targetUri, targetUrl, prependProtocol});
   }
 };
 // Writing MetadataGetter for method: UnityEngineInternal::WebRequestUtils::URLDecode
@@ -81,7 +86,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&UnityEngineInternal::WebRequestUtils::URLDecode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngineInternal::WebRequestUtils*), "URLDecode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* encoded = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngineInternal::WebRequestUtils*), "URLDecode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{encoded});
   }
 };
 // Writing MetadataGetter for method: UnityEngineInternal::WebRequestUtils::_cctor

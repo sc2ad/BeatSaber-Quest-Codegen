@@ -82,7 +82,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(CreateServerFormController) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreateServerFormController*, "", "CreateServerFormController");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::CreateServerFormController::get_formData
 // Il2CppName: get_formData
 template<>
@@ -96,7 +95,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CreateServerFormController::*)(int, bool)>(&GlobalNamespace::CreateServerFormController::Setup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreateServerFormController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* selectedNumberOfPlayers = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* netDiscoverable = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreateServerFormController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{selectedNumberOfPlayers, netDiscoverable});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::CreateServerFormController::New_ctor

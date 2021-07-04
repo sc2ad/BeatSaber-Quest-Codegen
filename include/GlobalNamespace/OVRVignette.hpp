@@ -375,9 +375,6 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRVignette*, "", "OVRVignette");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRVignette::MeshComplexityLevel, "", "OVRVignette/MeshComplexityLevel");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRVignette::FalloffType, "", "OVRVignette/FalloffType");
-// Writing includes for template specializations
-#include "UnityEngine/Camera_StereoscopicEye.hpp"
-#include "UnityEngine/Rendering/ScriptableRenderContext.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRVignette::GetTriangleCount
 // Il2CppName: GetTriangleCount
 template<>
@@ -431,7 +428,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRVignette::*)(UnityEngine::Camera::StereoscopicEye, float&, float&, float&, float&)>(&GlobalNamespace::OVRVignette::GetTanFovAndOffsetForStereoEye)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRVignette*), "GetTanFovAndOffsetForStereoEye", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera::StereoscopicEye>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+    static auto* eye = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera/StereoscopicEye")->byval_arg;
+    static auto* tanFovX = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
+    static auto* tanFovY = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
+    static auto* offsetX = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
+    static auto* offsetY = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRVignette*), "GetTanFovAndOffsetForStereoEye", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eye, tanFovX, tanFovY, offsetX, offsetY});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRVignette::GetTanFovAndOffsetForMonoEye
@@ -439,7 +441,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRVignette::*)(float&, float&, float&, float&)>(&GlobalNamespace::OVRVignette::GetTanFovAndOffsetForMonoEye)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRVignette*), "GetTanFovAndOffsetForMonoEye", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+    static auto* tanFovX = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
+    static auto* tanFovY = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
+    static auto* offsetX = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
+    static auto* offsetY = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRVignette*), "GetTanFovAndOffsetForMonoEye", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tanFovX, tanFovY, offsetX, offsetY});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRVignette::VisibilityTest
@@ -447,7 +453,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRVignette::*)(float, float, float, float)>(&GlobalNamespace::OVRVignette::VisibilityTest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRVignette*), "VisibilityTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* scaleX = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* scaleY = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* offsetX = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* offsetY = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRVignette*), "VisibilityTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scaleX, scaleY, offsetX, offsetY});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRVignette::Update
@@ -495,7 +505,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRVignette::*)(UnityEngine::Rendering::ScriptableRenderContext, UnityEngine::Camera*)>(&GlobalNamespace::OVRVignette::OnBeginCameraRendering)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRVignette*), "OnBeginCameraRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::ScriptableRenderContext>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "ScriptableRenderContext")->byval_arg;
+    static auto* camera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRVignette*), "OnBeginCameraRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context, camera});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRVignette::New_ctor

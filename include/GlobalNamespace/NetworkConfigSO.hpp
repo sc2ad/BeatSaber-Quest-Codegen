@@ -115,7 +115,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(NetworkConfigSO) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkConfigSO*, "", "NetworkConfigSO");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::NetworkConfigSO::get_maxPartySize
 // Il2CppName: get_maxPartySize
 template<>

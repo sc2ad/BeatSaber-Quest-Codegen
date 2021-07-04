@@ -47,8 +47,6 @@ namespace Mono {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Runtime*, "Mono", "Runtime");
-// Writing includes for template specializations
-#include "System/Exception.hpp"
 // Writing MetadataGetter for method: Mono::Runtime::mono_runtime_install_handlers
 // Il2CppName: mono_runtime_install_handlers
 template<>
@@ -94,7 +92,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Exception*)>(&Mono::Runtime::GetNativeStackTrace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Runtime*), "GetNativeStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    static auto* exception = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Runtime*), "GetNativeStackTrace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{exception});
   }
 };
 // Writing MetadataGetter for method: Mono::Runtime::SetGCAllowSynchronousMajor
@@ -102,6 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool)>(&Mono::Runtime::SetGCAllowSynchronousMajor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Runtime*), "SetGCAllowSynchronousMajor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* flag = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Runtime*), "SetGCAllowSynchronousMajor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flag});
   }
 };

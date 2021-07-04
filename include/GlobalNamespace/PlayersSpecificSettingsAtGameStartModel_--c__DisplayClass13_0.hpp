@@ -56,14 +56,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0*, "", "PlayersSpecificSettingsAtGameStartModel/<>c__DisplayClass13_0");
-// Writing includes for template specializations
-#include "GlobalNamespace/IConnectedPlayer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0::$SaveFromNetSerializable$b__0
 // Il2CppName: <SaveFromNetSerializable>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0::*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0::$SaveFromNetSerializable$b__0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0*), "<SaveFromNetSerializable>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    static auto* p = &::il2cpp_utils::GetClassFromName("", "IConnectedPlayer")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0*), "<SaveFromNetSerializable>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0::New_ctor

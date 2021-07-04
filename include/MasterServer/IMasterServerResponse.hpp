@@ -40,7 +40,6 @@ namespace MasterServer {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::IMasterServerResponse*, "MasterServer", "IMasterServerResponse");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: MasterServer::IMasterServerResponse::get_responseId
 // Il2CppName: get_responseId
 template<>
@@ -70,6 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::IMasterServerResponse* (MasterServer::IMasterServerResponse::*)(uint)>(&MasterServer::IMasterServerResponse::WithResponseId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::IMasterServerResponse*), "WithResponseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* responseId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::IMasterServerResponse*), "WithResponseId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{responseId});
   }
 };

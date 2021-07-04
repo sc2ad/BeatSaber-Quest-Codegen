@@ -99,7 +99,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MenuShockwave) == 0xBF);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuShockwave*, "", "MenuShockwave");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MenuShockwave::Awake
 // Il2CppName: Awake
 template<>
@@ -137,7 +136,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuShockwave::*)(UnityEngine::Vector3)>(&GlobalNamespace::MenuShockwave::SpawnShockwave)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuShockwave*), "SpawnShockwave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    static auto* pos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuShockwave*), "SpawnShockwave", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pos});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MenuShockwave::New_ctor

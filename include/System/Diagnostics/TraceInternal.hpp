@@ -82,7 +82,6 @@ namespace System::Diagnostics {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::TraceInternal*, "System.Diagnostics", "TraceInternal");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Diagnostics::TraceInternal::get_Listeners
 // Il2CppName: get_Listeners
 template<>
@@ -128,7 +127,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&System::Diagnostics::TraceInternal::Assert_)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::TraceInternal*), "Assert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* condition = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::TraceInternal*), "Assert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{condition});
   }
 };
 // Writing MetadataGetter for method: System::Diagnostics::TraceInternal::Fail
@@ -136,7 +136,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&System::Diagnostics::TraceInternal::Fail)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::TraceInternal*), "Fail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::TraceInternal*), "Fail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
   }
 };
 // Writing MetadataGetter for method: System::Diagnostics::TraceInternal::InitializeSettings

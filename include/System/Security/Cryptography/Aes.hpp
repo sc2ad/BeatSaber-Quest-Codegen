@@ -53,7 +53,6 @@ namespace System::Security::Cryptography {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::Aes*, "System.Security.Cryptography", "Aes");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::Cryptography::Aes::_cctor
 // Il2CppName: .cctor
 template<>

@@ -147,8 +147,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatLineManager) == 0x54);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatLineManager*, "", "BeatLineManager");
-// Writing includes for template specializations
-#include "GlobalNamespace/NoteController.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatLineManager::get_isMidRotationValid
 // Il2CppName: get_isMidRotationValid
 template<>
@@ -202,7 +200,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatLineManager::*)(GlobalNamespace::NoteController*)>(&GlobalNamespace::BeatLineManager::HandleNoteWasSpawned)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatLineManager*), "HandleNoteWasSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>()});
+    static auto* noteController = &::il2cpp_utils::GetClassFromName("", "NoteController")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatLineManager*), "HandleNoteWasSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteController});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatLineManager::New_ctor

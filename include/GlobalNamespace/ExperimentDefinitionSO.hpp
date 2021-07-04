@@ -136,7 +136,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ExperimentDefinitionSO*, "", "ExperimentDefinitionSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ExperimentDefinitionSO::Group, "", "ExperimentDefinitionSO/Group");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ExperimentDefinitionSO::get_controlGroupSize
 // Il2CppName: get_controlGroupSize
 template<>
@@ -166,7 +165,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ExperimentDefinitionSO::*)(::Il2CppString*)>(&GlobalNamespace::ExperimentDefinitionSO::ComputeCurrentUserTreatment)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExperimentDefinitionSO*), "ComputeCurrentUserTreatment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExperimentDefinitionSO*), "ComputeCurrentUserTreatment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ExperimentDefinitionSO::ForceSetTreatmentGroup
@@ -174,7 +174,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ExperimentDefinitionSO::*)(GlobalNamespace::ExperimentDefinitionSO::Group)>(&GlobalNamespace::ExperimentDefinitionSO::ForceSetTreatmentGroup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExperimentDefinitionSO*), "ForceSetTreatmentGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ExperimentDefinitionSO::Group>()});
+    static auto* group = &::il2cpp_utils::GetClassFromName("", "ExperimentDefinitionSO/Group")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExperimentDefinitionSO*), "ForceSetTreatmentGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{group});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ExperimentDefinitionSO::AbSplit
@@ -182,7 +183,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::ExperimentDefinitionSO::Group (GlobalNamespace::ExperimentDefinitionSO::*)(::Il2CppString*)>(&GlobalNamespace::ExperimentDefinitionSO::AbSplit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExperimentDefinitionSO*), "AbSplit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ExperimentDefinitionSO*), "AbSplit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userId});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ExperimentDefinitionSO::New_ctor

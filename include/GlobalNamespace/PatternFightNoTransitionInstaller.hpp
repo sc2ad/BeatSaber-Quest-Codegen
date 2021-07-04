@@ -74,14 +74,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(PatternFightNoTransitionInstaller) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PatternFightNoTransitionInstaller*, "", "PatternFightNoTransitionInstaller");
-// Writing includes for template specializations
-#include "Zenject/DiContainer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PatternFightNoTransitionInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PatternFightNoTransitionInstaller::*)(Zenject::DiContainer*)>(&GlobalNamespace::PatternFightNoTransitionInstaller::InstallBindings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PatternFightNoTransitionInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PatternFightNoTransitionInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PatternFightNoTransitionInstaller::New_ctor

@@ -63,13 +63,13 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RemoteSettings*, "UnityEngine", "RemoteSettings");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::RemoteSettings::RemoteSettingsUpdated
 // Il2CppName: RemoteSettingsUpdated
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&UnityEngine::RemoteSettings::RemoteSettingsUpdated)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RemoteSettings*), "RemoteSettingsUpdated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* wasLastUpdatedFromServer = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RemoteSettings*), "RemoteSettingsUpdated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{wasLastUpdatedFromServer});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::RemoteSettings::RemoteSettingsBeforeFetchFromServer
@@ -85,6 +85,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, bool, int)>(&UnityEngine::RemoteSettings::RemoteSettingsUpdateCompleted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RemoteSettings*), "RemoteSettingsUpdateCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* wasLastUpdatedFromServer = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* settingsChanged = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* response = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RemoteSettings*), "RemoteSettingsUpdateCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{wasLastUpdatedFromServer, settingsChanged, response});
   }
 };

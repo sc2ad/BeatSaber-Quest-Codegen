@@ -76,7 +76,6 @@ namespace UnityEngine::EventSystems {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::UIBehaviour*, "UnityEngine.EventSystems", "UIBehaviour");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::EventSystems::UIBehaviour::Awake
 // Il2CppName: Awake
 template<>

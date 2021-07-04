@@ -145,7 +145,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(FirstPersonFlyingController) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FirstPersonFlyingController*, "", "FirstPersonFlyingController");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FirstPersonFlyingController::Awake
 // Il2CppName: Awake
 template<>

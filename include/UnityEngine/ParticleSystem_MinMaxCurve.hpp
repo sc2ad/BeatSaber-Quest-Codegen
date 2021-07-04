@@ -104,7 +104,6 @@ namespace UnityEngine {
   static_assert(sizeof(ParticleSystem::MinMaxCurve) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MinMaxCurve, "UnityEngine", "ParticleSystem/MinMaxCurve");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MinMaxCurve::MinMaxCurve
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -118,7 +117,8 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MinMaxCurve, "UnityEngine", 
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::MinMaxCurve::*)(float)>(&UnityEngine::ParticleSystem::MinMaxCurve::set_constantMax)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MinMaxCurve), "set_constantMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MinMaxCurve), "set_constantMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MinMaxCurve::set_constantMin
@@ -126,7 +126,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::MinMaxCurve::*)(float)>(&UnityEngine::ParticleSystem::MinMaxCurve::set_constantMin)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MinMaxCurve), "set_constantMin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MinMaxCurve), "set_constantMin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MinMaxCurve::get_constant

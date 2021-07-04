@@ -60,7 +60,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(LobbyAvatarInstaller) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyAvatarInstaller*, "", "LobbyAvatarInstaller");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::LobbyAvatarInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>

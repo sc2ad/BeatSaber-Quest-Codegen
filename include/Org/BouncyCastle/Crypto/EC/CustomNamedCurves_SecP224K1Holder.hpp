@@ -55,7 +55,6 @@ namespace Org::BouncyCastle::Crypto::EC {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecP224K1Holder*, "Org.BouncyCastle.Crypto.EC", "CustomNamedCurves/SecP224K1Holder");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::EC::CustomNamedCurves::SecP224K1Holder::_cctor
 // Il2CppName: .cctor
 template<>

@@ -167,7 +167,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(TrailTester) == 0xD0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrailTester*, "", "TrailTester");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::TrailTester::get_bladeSpeed
 // Il2CppName: get_bladeSpeed
 template<>
@@ -189,7 +188,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrailTester::*)(GlobalNamespace::BladeMovementDataElement)>(&GlobalNamespace::TrailTester::set_lastAddedData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrailTester*), "set_lastAddedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BladeMovementDataElement>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("", "BladeMovementDataElement")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrailTester*), "set_lastAddedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::TrailTester::get_prevAddedData
@@ -205,7 +205,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TrailTester::*)(GlobalNamespace::BladeMovementDataElement)>(&GlobalNamespace::TrailTester::set_prevAddedData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrailTester*), "set_prevAddedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BladeMovementDataElement>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("", "BladeMovementDataElement")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrailTester*), "set_prevAddedData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::TrailTester::Awake

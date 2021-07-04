@@ -103,9 +103,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionConnectionsGenerator) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionConnectionsGenerator*, "", "MissionConnectionsGenerator");
-// Writing includes for template specializations
-#include "GlobalNamespace/MissionNode.hpp"
-#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionConnectionsGenerator::get__rootMissionNode
 // Il2CppName: get__rootMissionNode
 template<>
@@ -135,7 +132,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionConnectionsGenerator::*)(GlobalNamespace::MissionNode*, System::Collections::Generic::List_1<GlobalNamespace::MissionNode*>*)>(&GlobalNamespace::MissionConnectionsGenerator::CreateConnections)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionConnectionsGenerator*), "CreateConnections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::MissionNode*>*>()});
+    static auto* missionNode = &::il2cpp_utils::GetClassFromName("", "MissionNode")->byval_arg;
+    static auto* visitedNodes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MissionNode")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionConnectionsGenerator*), "CreateConnections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{missionNode, visitedNodes});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MissionConnectionsGenerator::CreateConnectionBetweenNodes
@@ -143,7 +142,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::MissionNodeConnection* (GlobalNamespace::MissionConnectionsGenerator::*)(GlobalNamespace::MissionNode*, GlobalNamespace::MissionNode*)>(&GlobalNamespace::MissionConnectionsGenerator::CreateConnectionBetweenNodes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionConnectionsGenerator*), "CreateConnectionBetweenNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>()});
+    static auto* parentMissionNode = &::il2cpp_utils::GetClassFromName("", "MissionNode")->byval_arg;
+    static auto* childMissionNode = &::il2cpp_utils::GetClassFromName("", "MissionNode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionConnectionsGenerator*), "CreateConnectionBetweenNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parentMissionNode, childMissionNode});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MissionConnectionsGenerator::New_ctor

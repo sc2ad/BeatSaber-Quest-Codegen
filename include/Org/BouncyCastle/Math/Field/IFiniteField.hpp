@@ -31,7 +31,6 @@ namespace Org::BouncyCastle::Math::Field {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::IFiniteField*, "Org.BouncyCastle.Math.Field", "IFiniteField");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Field::IFiniteField::get_Characteristic
 // Il2CppName: get_Characteristic
 template<>

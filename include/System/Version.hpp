@@ -211,9 +211,6 @@ namespace System {
   bool operator >=(System::Version* v1, System::Version& v2);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Version*, "System", "Version");
-// Writing includes for template specializations
-#include "System/Text/StringBuilder.hpp"
-#include "System/Version_VersionResult.hpp"
 // Writing MetadataGetter for method: System::Version::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -275,7 +272,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Version::*)(::Il2CppObject*)>(&System::Version::CompareTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Version*), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* version = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Version*), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{version});
   }
 };
 // Writing MetadataGetter for method: System::Version::CompareTo
@@ -283,7 +281,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Version::*)(System::Version*)>(&System::Version::CompareTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Version*), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Version*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Version")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Version*), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Version::Equals
@@ -291,7 +290,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Version::*)(System::Version*)>(&System::Version::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Version*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Version*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Version")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Version*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
 // Writing MetadataGetter for method: System::Version::ToString
@@ -299,7 +299,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Version::*)(int)>(&System::Version::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Version*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* fieldCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Version*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fieldCount});
   }
 };
 // Writing MetadataGetter for method: System::Version::AppendPositiveNumber
@@ -307,7 +308,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, System::Text::StringBuilder*)>(&System::Version::AppendPositiveNumber)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Version*), "AppendPositiveNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
+    static auto* num = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Version*), "AppendPositiveNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{num, sb});
   }
 };
 // Writing MetadataGetter for method: System::Version::Parse
@@ -315,7 +318,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Version* (*)(::Il2CppString*)>(&System::Version::Parse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Version*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Version*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
   }
 };
 // Writing MetadataGetter for method: System::Version::TryParseVersion
@@ -323,7 +327,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ver
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Version::VersionResult&)>(&System::Version::TryParseVersion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Version*), "TryParseVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Version::VersionResult&>()});
+    static auto* version = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Version/VersionResult")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Version*), "TryParseVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{version, result});
   }
 };
 // Writing MetadataGetter for method: System::Version::TryParseComponent
@@ -331,7 +337,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*, System::Version::VersionResult&, int&)>(&System::Version::TryParseComponent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Version*), "TryParseComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Version::VersionResult&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    static auto* component = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* componentName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "Version/VersionResult")->this_arg;
+    static auto* parsedComponent = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Version*), "TryParseComponent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{component, componentName, result, parsedComponent});
   }
 };
 // Writing MetadataGetter for method: System::Version::_cctor
@@ -351,7 +361,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Version::*)(::Il2CppObject*)>(&System::Version::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Version*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Version*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
 // Writing MetadataGetter for method: System::Version::GetHashCode

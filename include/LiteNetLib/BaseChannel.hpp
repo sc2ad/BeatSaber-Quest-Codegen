@@ -76,9 +76,6 @@ namespace LiteNetLib {
   static_assert(sizeof(BaseChannel) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::BaseChannel*, "LiteNetLib", "BaseChannel");
-// Writing includes for template specializations
-#include "LiteNetLib/NetPeer.hpp"
-#include "LiteNetLib/NetPacket.hpp"
 // Writing MetadataGetter for method: LiteNetLib::BaseChannel::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -96,7 +93,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNe
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::BaseChannel::*)(LiteNetLib::NetPacket*)>(&LiteNetLib::BaseChannel::AddToQueue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::BaseChannel*), "AddToQueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>()});
+    static auto* packet = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacket")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::BaseChannel*), "AddToQueue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});
   }
 };
 // Writing MetadataGetter for method: LiteNetLib::BaseChannel::SendNextPackets
@@ -112,6 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::BaseChannel::*)(LiteNetLib::NetPacket*)>(&LiteNetLib::BaseChannel::ProcessPacket)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::BaseChannel*), "ProcessPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>()});
+    static auto* packet = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacket")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::BaseChannel*), "ProcessPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});
   }
 };

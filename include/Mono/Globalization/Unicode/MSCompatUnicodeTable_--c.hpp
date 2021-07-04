@@ -61,8 +61,6 @@ namespace Mono::Globalization::Unicode {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c*, "Mono.Globalization.Unicode", "MSCompatUnicodeTable/<>c");
-// Writing includes for template specializations
-#include "Mono/Globalization/Unicode/Level2Map.hpp"
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -76,7 +74,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c::*)(Mono::Globalization::Unicode::Level2Map*, Mono::Globalization::Unicode::Level2Map*)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c::$BuildTailoringTables$b__17_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c*), "<BuildTailoringTables>b__17_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::Level2Map*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Globalization::Unicode::Level2Map*>()});
+    static auto* a = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "Level2Map")->byval_arg;
+    static auto* b = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "Level2Map")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c*), "<BuildTailoringTables>b__17_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
   }
 };
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::$$c::New_ctor

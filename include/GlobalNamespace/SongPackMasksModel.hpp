@@ -75,8 +75,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(SongPackMasksModel) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPackMasksModel*, "", "SongPackMasksModel");
-// Writing includes for template specializations
-#include "GlobalNamespace/SongPackMaskModelSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMasksModel::get_songPackMaskData
 // Il2CppName: get_songPackMaskData
 template<>
@@ -102,6 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SongPackMasksModel::*)(GlobalNamespace::SongPackMask)>(&GlobalNamespace::SongPackMasksModel::GetSongPackMaskText)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMasksModel*), "GetSongPackMaskText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>()});
+    static auto* songPackMask = &::il2cpp_utils::GetClassFromName("", "SongPackMask")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMasksModel*), "GetSongPackMaskText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{songPackMask});
   }
 };

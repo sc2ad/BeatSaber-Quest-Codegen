@@ -21,7 +21,6 @@ namespace UnityEngine::UI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::IClipper*, "UnityEngine.UI", "IClipper");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::UI::IClipper::PerformClipping
 // Il2CppName: PerformClipping
 template<>

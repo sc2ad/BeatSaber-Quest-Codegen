@@ -46,15 +46,14 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformAchievementsHandler*, "", "PlatformAchievementsHandler");
-// Writing includes for template specializations
-#include "GlobalNamespace/PlatformAchievementsModelSO_UnlockAchievementCompletionHandler.hpp"
-#include "GlobalNamespace/PlatformAchievementsModelSO_GetUnlockedAchievementsCompletionHandler.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlatformAchievementsHandler::UnlockAchievement
 // Il2CppName: UnlockAchievement
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest* (GlobalNamespace::PlatformAchievementsHandler::*)(::Il2CppString*, GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*)>(&GlobalNamespace::PlatformAchievementsHandler::UnlockAchievement)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformAchievementsHandler*), "UnlockAchievement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*>()});
+    static auto* achievementId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* completionHandler = &::il2cpp_utils::GetClassFromName("", "PlatformAchievementsModelSO/UnlockAchievementCompletionHandler")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformAchievementsHandler*), "UnlockAchievement", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{achievementId, completionHandler});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PlatformAchievementsHandler::GetUnlockedAchievements
@@ -62,7 +61,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::HMAsyncRequest* (GlobalNamespace::PlatformAchievementsHandler::*)(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler*)>(&GlobalNamespace::PlatformAchievementsHandler::GetUnlockedAchievements)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformAchievementsHandler*), "GetUnlockedAchievements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler*>()});
+    static auto* completionHandler = &::il2cpp_utils::GetClassFromName("", "PlatformAchievementsModelSO/GetUnlockedAchievementsCompletionHandler")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlatformAchievementsHandler*), "GetUnlockedAchievements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{completionHandler});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PlatformAchievementsHandler::New_ctor

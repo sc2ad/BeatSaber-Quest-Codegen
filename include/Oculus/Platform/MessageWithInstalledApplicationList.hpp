@@ -47,13 +47,13 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithInstalledApplicationList
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithInstalledApplicationList*, "Oculus.Platform", "MessageWithInstalledApplicationList");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithInstalledApplicationList::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Models::InstalledApplicationList* (Oculus::Platform::MessageWithInstalledApplicationList::*)(System::IntPtr)>(&Oculus::Platform::MessageWithInstalledApplicationList::GetDataFromMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithInstalledApplicationList*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* c_message = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithInstalledApplicationList*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c_message});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithInstalledApplicationList::New_ctor

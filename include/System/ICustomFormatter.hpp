@@ -33,13 +33,14 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ICustomFormatter*, "System", "ICustomFormatter");
-// Writing includes for template specializations
-#include "System/IFormatProvider.hpp"
 // Writing MetadataGetter for method: System::ICustomFormatter::Format
 // Il2CppName: Format
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::ICustomFormatter::*)(::Il2CppString*, ::Il2CppObject*, System::IFormatProvider*)>(&System::ICustomFormatter::Format)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ICustomFormatter*), "Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* arg = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* formatProvider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ICustomFormatter*), "Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format, arg, formatProvider});
   }
 };

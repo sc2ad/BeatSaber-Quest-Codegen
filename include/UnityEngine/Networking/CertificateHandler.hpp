@@ -47,7 +47,6 @@ namespace UnityEngine::Networking {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::CertificateHandler*, "UnityEngine.Networking", "CertificateHandler");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Networking::CertificateHandler::Release
 // Il2CppName: Release
 template<>
@@ -61,7 +60,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Networking::CertificateHandler::*)(::Array<uint8_t>*)>(&UnityEngine::Networking::CertificateHandler::ValidateCertificate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::CertificateHandler*), "ValidateCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* certificateData = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::CertificateHandler*), "ValidateCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{certificateData});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Networking::CertificateHandler::ValidateCertificateNative
@@ -69,7 +69,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Networking::CertificateHandler::*)(::Array<uint8_t>*)>(&UnityEngine::Networking::CertificateHandler::ValidateCertificateNative)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::CertificateHandler*), "ValidateCertificateNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* certificateData = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::CertificateHandler*), "ValidateCertificateNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{certificateData});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Networking::CertificateHandler::Dispose

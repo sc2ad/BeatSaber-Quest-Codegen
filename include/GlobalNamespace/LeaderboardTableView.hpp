@@ -123,8 +123,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(LeaderboardTableView) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LeaderboardTableView*, "", "LeaderboardTableView");
-// Writing includes for template specializations
-#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardTableView::CellSize
 // Il2CppName: CellSize
 template<>
@@ -146,7 +144,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (GlobalNamespace::LeaderboardTableView::*)(HMUI::TableView*, int)>(&GlobalNamespace::LeaderboardTableView::CellForIdx)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardTableView*), "CellForIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::TableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* tableView = &::il2cpp_utils::GetClassFromName("HMUI", "TableView")->byval_arg;
+    static auto* row = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardTableView*), "CellForIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tableView, row});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardTableView::SetScores
@@ -154,7 +154,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::Table
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LeaderboardTableView::*)(System::Collections::Generic::List_1<GlobalNamespace::LeaderboardTableView::ScoreData*>*, int)>(&GlobalNamespace::LeaderboardTableView::SetScores)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardTableView*), "SetScores", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::LeaderboardTableView::ScoreData*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* scores = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "LeaderboardTableView/ScoreData")})->byval_arg;
+    static auto* specialScorePos = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LeaderboardTableView*), "SetScores", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scores, specialScorePos});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LeaderboardTableView::New_ctor

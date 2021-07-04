@@ -47,8 +47,6 @@ namespace System::Runtime::Remoting::Messaging {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::MCMDictionary*, "System.Runtime.Remoting.Messaging", "MCMDictionary");
-// Writing includes for template specializations
-#include "System/Runtime/Remoting/Messaging/IMethodMessage.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MCMDictionary::_cctor
 // Il2CppName: .cctor
 template<>

@@ -39,7 +39,6 @@ namespace System::Net::NetworkInformation {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32IPGlobalProperties*, "System.Net.NetworkInformation", "Win32IPGlobalProperties");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::NetworkInformation::Win32IPGlobalProperties::get_DomainName
 // Il2CppName: get_DomainName
 template<>

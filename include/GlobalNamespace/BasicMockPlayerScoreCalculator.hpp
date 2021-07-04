@@ -78,8 +78,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(BasicMockPlayerScoreCalculator) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicMockPlayerScoreCalculator*, "", "BasicMockPlayerScoreCalculator");
-// Writing includes for template specializations
-#include "GlobalNamespace/MockNoteData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BasicMockPlayerScoreCalculator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -89,6 +87,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicMockPlayerScoreCalculator*, "", "Ba
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::BasicMockPlayerScoreCalculator::*)(GlobalNamespace::MockNoteData*)>(&GlobalNamespace::BasicMockPlayerScoreCalculator::GetScoreForNote)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BasicMockPlayerScoreCalculator*), "GetScoreForNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockNoteData*>()});
+    static auto* noteData = &::il2cpp_utils::GetClassFromName("", "MockNoteData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BasicMockPlayerScoreCalculator*), "GetScoreForNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteData});
   }
 };

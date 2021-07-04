@@ -63,7 +63,6 @@ namespace Oculus::Platform::Models {
   static_assert(sizeof(AchievementDefinition) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::AchievementDefinition*, "Oculus.Platform.Models", "AchievementDefinition");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::Models::AchievementDefinition::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

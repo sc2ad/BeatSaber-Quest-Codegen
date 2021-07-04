@@ -72,8 +72,6 @@ namespace System::Collections {
   static_assert(sizeof(CaseInsensitiveComparer) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::CaseInsensitiveComparer*, "System.Collections", "CaseInsensitiveComparer");
-// Writing includes for template specializations
-#include "System/Globalization/CultureInfo.hpp"
 // Writing MetadataGetter for method: System::Collections::CaseInsensitiveComparer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -91,7 +89,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::CaseInsensitiveComparer::*)(::Il2CppObject*, ::Il2CppObject*)>(&System::Collections::CaseInsensitiveComparer::Compare)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::CaseInsensitiveComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* a = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* b = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::CaseInsensitiveComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
   }
 };
 // Writing MetadataGetter for method: System::Collections::CaseInsensitiveComparer::New_ctor

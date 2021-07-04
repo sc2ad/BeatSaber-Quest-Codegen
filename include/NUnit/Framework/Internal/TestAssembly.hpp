@@ -75,8 +75,6 @@ namespace NUnit::Framework::Internal {
   static_assert(sizeof(TestAssembly) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestAssembly*, "NUnit.Framework.Internal", "TestAssembly");
-// Writing includes for template specializations
-#include "System/Reflection/Assembly.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestAssembly::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -94,7 +92,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestAssembly::*)(System::Reflection::Assembly*)>(&NUnit::Framework::Internal::TestAssembly::set_Assembly)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestAssembly*), "set_Assembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestAssembly*), "set_Assembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestAssembly::New_ctor

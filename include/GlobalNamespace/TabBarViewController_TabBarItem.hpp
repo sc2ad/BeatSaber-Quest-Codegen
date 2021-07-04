@@ -52,8 +52,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(TabBarViewController::TabBarItem) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TabBarViewController::TabBarItem*, "", "TabBarViewController/TabBarItem");
-// Writing includes for template specializations
-#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TabBarViewController::TabBarItem::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

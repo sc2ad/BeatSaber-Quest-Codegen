@@ -40,7 +40,6 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::LanguagePack*, "Oculus.Platform", "LanguagePack");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::LanguagePack::GetCurrent
 // Il2CppName: GetCurrent
 template<>
@@ -54,6 +53,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AssetFileDownloadResult*>* (*)(::Il2CppString*)>(&Oculus::Platform::LanguagePack::SetCurrent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::LanguagePack*), "SetCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* tag = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::LanguagePack*), "SetCurrent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tag});
   }
 };

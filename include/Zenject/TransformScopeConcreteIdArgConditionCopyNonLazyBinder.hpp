@@ -78,11 +78,6 @@ namespace Zenject {
   static_assert(sizeof(TransformScopeConcreteIdArgConditionCopyNonLazyBinder) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder*, "Zenject", "TransformScopeConcreteIdArgConditionCopyNonLazyBinder");
-// Writing includes for template specializations
-#include "Zenject/BindInfo.hpp"
-#include "Zenject/GameObjectCreationParameters.hpp"
-#include "UnityEngine/Transform.hpp"
-#include "System/Func_2.hpp"
 // Writing MetadataGetter for method: Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -100,7 +95,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Ga
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::*)(Zenject::GameObjectCreationParameters*)>(&Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::set_GameObjectInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder*), "set_GameObjectInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectCreationParameters*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("Zenject", "GameObjectCreationParameters")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder*), "set_GameObjectInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::UnderTransform
@@ -108,7 +104,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::*)(UnityEngine::Transform*)>(&Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::UnderTransform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder*), "UnderTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    static auto* parent = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder*), "UnderTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parent});
   }
 };
 // Writing MetadataGetter for method: Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::UnderTransform
@@ -116,7 +113,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::*)(System::Func_2<Zenject::InjectContext*, UnityEngine::Transform*>*)>(&Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::UnderTransform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder*), "UnderTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<Zenject::InjectContext*, UnityEngine::Transform*>*>()});
+    static auto* parentGetter = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "InjectContext"), ::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder*), "UnderTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parentGetter});
   }
 };
 // Writing MetadataGetter for method: Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::UnderTransformGroup
@@ -124,6 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Sc
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::*)(::Il2CppString*)>(&Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder::UnderTransformGroup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder*), "UnderTransformGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* transformGroupname = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder*), "UnderTransformGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transformGroupname});
   }
 };

@@ -102,8 +102,6 @@ namespace HMUI {
   static_assert(sizeof(TableCell) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::TableCell*, "HMUI", "TableCell");
-// Writing includes for template specializations
-#include "HMUI/ITableCellOwner.hpp"
 // Writing MetadataGetter for method: HMUI::TableCell::get_reuseIdentifier
 // Il2CppName: get_reuseIdentifier
 template<>
@@ -117,7 +115,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableCell::*)(::Il2CppString*)>(&HMUI::TableCell::set_reuseIdentifier)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::TableCell*), "set_reuseIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableCell*), "set_reuseIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: HMUI::TableCell::get_idx
@@ -133,7 +132,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (HMUI::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableCell::*)(int)>(&HMUI::TableCell::set_idx)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::TableCell*), "set_idx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableCell*), "set_idx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: HMUI::TableCell::get_tableCellOwner
@@ -149,7 +149,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::ITabl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableCell::*)(HMUI::ITableCellOwner*, int)>(&HMUI::TableCell::TableViewSetup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::TableCell*), "TableViewSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ITableCellOwner*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* tableCellOwner = &::il2cpp_utils::GetClassFromName("HMUI", "ITableCellOwner")->byval_arg;
+    static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableCell*), "TableViewSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tableCellOwner, idx});
   }
 };
 // Writing MetadataGetter for method: HMUI::TableCell::MoveIdx
@@ -157,7 +159,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::TableCell::*)(int)>(&HMUI::TableCell::MoveIdx)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::TableCell*), "MoveIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(HMUI::TableCell*), "MoveIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{offset});
   }
 };
 // Writing MetadataGetter for method: HMUI::TableCell::__WasPreparedForReuse

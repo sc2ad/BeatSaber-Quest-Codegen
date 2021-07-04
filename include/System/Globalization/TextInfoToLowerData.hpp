@@ -58,7 +58,6 @@ namespace System::Globalization {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::TextInfoToLowerData*, "System.Globalization", "TextInfoToLowerData");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Globalization::TextInfoToLowerData::_cctor
 // Il2CppName: .cctor
 template<>

@@ -101,7 +101,6 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKSolver::Point) == 0x54);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolver::Point*, "RootMotion.FinalIK", "IKSolver/Point");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolver::Point::StoreDefaultLocalState
 // Il2CppName: StoreDefaultLocalState
 template<>

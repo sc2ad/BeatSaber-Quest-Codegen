@@ -60,15 +60,13 @@ namespace System::Text {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncodingProvider*, "System.Text", "EncodingProvider");
-// Writing includes for template specializations
-#include "System/Text/EncoderFallback.hpp"
-#include "System/Text/DecoderFallback.hpp"
 // Writing MetadataGetter for method: System::Text::EncodingProvider::GetEncoding
 // Il2CppName: GetEncoding
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (System::Text::EncodingProvider::*)(::Il2CppString*)>(&System::Text::EncodingProvider::GetEncoding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::EncodingProvider*), "GetEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::EncodingProvider*), "GetEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
   }
 };
 // Writing MetadataGetter for method: System::Text::EncodingProvider::GetEncoding
@@ -76,7 +74,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (System::Text::EncodingProvider::*)(int)>(&System::Text::EncodingProvider::GetEncoding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::EncodingProvider*), "GetEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* codepage = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::EncodingProvider*), "GetEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{codepage});
   }
 };
 // Writing MetadataGetter for method: System::Text::EncodingProvider::GetEncoding
@@ -84,7 +83,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (System::Text::EncodingProvider::*)(int, System::Text::EncoderFallback*, System::Text::DecoderFallback*)>(&System::Text::EncodingProvider::GetEncoding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::EncodingProvider*), "GetEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::EncoderFallback*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::DecoderFallback*>()});
+    static auto* codepage = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* encoderFallback = &::il2cpp_utils::GetClassFromName("System.Text", "EncoderFallback")->byval_arg;
+    static auto* decoderFallback = &::il2cpp_utils::GetClassFromName("System.Text", "DecoderFallback")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::EncodingProvider*), "GetEncoding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{codepage, encoderFallback, decoderFallback});
   }
 };
 // Writing MetadataGetter for method: System::Text::EncodingProvider::GetEncodingFromProvider
@@ -92,7 +94,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)(int)>(&System::Text::EncodingProvider::GetEncodingFromProvider)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::EncodingProvider*), "GetEncodingFromProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* codepage = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::EncodingProvider*), "GetEncodingFromProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{codepage});
   }
 };
 // Writing MetadataGetter for method: System::Text::EncodingProvider::GetEncodingFromProvider
@@ -100,7 +103,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)(::Il2CppString*)>(&System::Text::EncodingProvider::GetEncodingFromProvider)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::EncodingProvider*), "GetEncodingFromProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* encodingName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::EncodingProvider*), "GetEncodingFromProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{encodingName});
   }
 };
 // Writing MetadataGetter for method: System::Text::EncodingProvider::GetEncodingFromProvider
@@ -108,7 +112,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)(int, System::Text::EncoderFallback*, System::Text::DecoderFallback*)>(&System::Text::EncodingProvider::GetEncodingFromProvider)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::EncodingProvider*), "GetEncodingFromProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Text::EncoderFallback*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::DecoderFallback*>()});
+    static auto* codepage = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* enc = &::il2cpp_utils::GetClassFromName("System.Text", "EncoderFallback")->byval_arg;
+    static auto* dec = &::il2cpp_utils::GetClassFromName("System.Text", "DecoderFallback")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::EncodingProvider*), "GetEncodingFromProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{codepage, enc, dec});
   }
 };
 // Writing MetadataGetter for method: System::Text::EncodingProvider::_cctor

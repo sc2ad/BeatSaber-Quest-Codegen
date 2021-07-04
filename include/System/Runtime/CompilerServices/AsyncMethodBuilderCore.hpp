@@ -92,19 +92,13 @@ namespace System::Runtime::CompilerServices {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::AsyncMethodBuilderCore, "System.Runtime.CompilerServices", "AsyncMethodBuilderCore");
-// Writing includes for template specializations
-#include "System/Runtime/CompilerServices/IAsyncStateMachine.hpp"
-#include "System/Threading/Tasks/Task.hpp"
-#include "System/Runtime/CompilerServices/AsyncMethodBuilderCore_MoveNextRunner.hpp"
-#include "System/Action.hpp"
-#include "System/Exception.hpp"
-#include "System/Threading/SynchronizationContext.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncMethodBuilderCore::SetStateMachine
 // Il2CppName: SetStateMachine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::CompilerServices::AsyncMethodBuilderCore::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&System::Runtime::CompilerServices::AsyncMethodBuilderCore::SetStateMachine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::AsyncMethodBuilderCore), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+    static auto* stateMachine = &::il2cpp_utils::GetClassFromName("System.Runtime.CompilerServices", "IAsyncStateMachine")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::AsyncMethodBuilderCore), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stateMachine});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncMethodBuilderCore::GetCompletionAction
@@ -112,7 +106,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Action* (System::Runtime::CompilerServices::AsyncMethodBuilderCore::*)(System::Threading::Tasks::Task*, System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner*&)>(&System::Runtime::CompilerServices::AsyncMethodBuilderCore::GetCompletionAction)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::AsyncMethodBuilderCore), "GetCompletionAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner*&>()});
+    static auto* taskForTracing = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
+    static auto* runnerToInitialize = &::il2cpp_utils::GetClassFromName("System.Runtime.CompilerServices", "AsyncMethodBuilderCore/MoveNextRunner")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::AsyncMethodBuilderCore), "GetCompletionAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{taskForTracing, runnerToInitialize});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncMethodBuilderCore::OutputAsyncCausalityEvents
@@ -120,7 +116,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Act
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Action* (System::Runtime::CompilerServices::AsyncMethodBuilderCore::*)(System::Threading::Tasks::Task*, System::Action*)>(&System::Runtime::CompilerServices::AsyncMethodBuilderCore::OutputAsyncCausalityEvents)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::AsyncMethodBuilderCore), "OutputAsyncCausalityEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    static auto* innerTask = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
+    static auto* continuation = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::AsyncMethodBuilderCore), "OutputAsyncCausalityEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{innerTask, continuation});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncMethodBuilderCore::PostBoxInitialization
@@ -128,7 +126,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Act
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::CompilerServices::AsyncMethodBuilderCore::*)(System::Runtime::CompilerServices::IAsyncStateMachine*, System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner*, System::Threading::Tasks::Task*)>(&System::Runtime::CompilerServices::AsyncMethodBuilderCore::PostBoxInitialization)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::AsyncMethodBuilderCore), "PostBoxInitialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::AsyncMethodBuilderCore::MoveNextRunner*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>()});
+    static auto* stateMachine = &::il2cpp_utils::GetClassFromName("System.Runtime.CompilerServices", "IAsyncStateMachine")->byval_arg;
+    static auto* runner = &::il2cpp_utils::GetClassFromName("System.Runtime.CompilerServices", "AsyncMethodBuilderCore/MoveNextRunner")->byval_arg;
+    static auto* builtTask = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::AsyncMethodBuilderCore), "PostBoxInitialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stateMachine, runner, builtTask});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncMethodBuilderCore::ThrowAsync
@@ -136,7 +137,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Exception*, System::Threading::SynchronizationContext*)>(&System::Runtime::CompilerServices::AsyncMethodBuilderCore::ThrowAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::AsyncMethodBuilderCore), "ThrowAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::SynchronizationContext*>()});
+    static auto* exception = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
+    static auto* targetContext = &::il2cpp_utils::GetClassFromName("System.Threading", "SynchronizationContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::AsyncMethodBuilderCore), "ThrowAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{exception, targetContext});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncMethodBuilderCore::CreateContinuationWrapper
@@ -144,7 +147,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Action* (*)(System::Action*, System::Action*, System::Threading::Tasks::Task*)>(&System::Runtime::CompilerServices::AsyncMethodBuilderCore::CreateContinuationWrapper)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::AsyncMethodBuilderCore), "CreateContinuationWrapper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>()});
+    static auto* continuation = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    static auto* invokeAction = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    static auto* innerTask = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::AsyncMethodBuilderCore), "CreateContinuationWrapper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{continuation, invokeAction, innerTask});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncMethodBuilderCore::TryGetContinuationTask
@@ -152,6 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Act
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (*)(System::Action*)>(&System::Runtime::CompilerServices::AsyncMethodBuilderCore::TryGetContinuationTask)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::AsyncMethodBuilderCore), "TryGetContinuationTask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    static auto* action = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::AsyncMethodBuilderCore), "TryGetContinuationTask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
   }
 };

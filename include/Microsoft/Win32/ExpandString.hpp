@@ -49,7 +49,6 @@ namespace Microsoft::Win32 {
   static_assert(sizeof(ExpandString) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::ExpandString*, "Microsoft.Win32", "ExpandString");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Microsoft::Win32::ExpandString::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

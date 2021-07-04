@@ -75,13 +75,14 @@ namespace System::Globalization {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::CharUnicodeInfo*, "System.Globalization", "CharUnicodeInfo");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Globalization::CharUnicodeInfo::InternalConvertToUtf32
 // Il2CppName: InternalConvertToUtf32
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, int)>(&System::Globalization::CharUnicodeInfo::InternalConvertToUtf32)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CharUnicodeInfo*), "InternalConvertToUtf32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CharUnicodeInfo*), "InternalConvertToUtf32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, index});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::CharUnicodeInfo::IsWhiteSpace
@@ -89,7 +90,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, int)>(&System::Globalization::CharUnicodeInfo::IsWhiteSpace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CharUnicodeInfo*), "IsWhiteSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CharUnicodeInfo*), "IsWhiteSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, index});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::CharUnicodeInfo::IsWhiteSpace
@@ -97,7 +100,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&System::Globalization::CharUnicodeInfo::IsWhiteSpace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CharUnicodeInfo*), "IsWhiteSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    static auto* c = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CharUnicodeInfo*), "IsWhiteSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::CharUnicodeInfo::GetUnicodeCategory
@@ -105,7 +109,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::UnicodeCategory (*)(::Il2CppChar)>(&System::Globalization::CharUnicodeInfo::GetUnicodeCategory)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CharUnicodeInfo*), "GetUnicodeCategory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CharUnicodeInfo*), "GetUnicodeCategory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::CharUnicodeInfo::GetUnicodeCategory
@@ -113,7 +118,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::UnicodeCategory (*)(::Il2CppString*, int)>(&System::Globalization::CharUnicodeInfo::GetUnicodeCategory)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CharUnicodeInfo*), "GetUnicodeCategory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CharUnicodeInfo*), "GetUnicodeCategory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s, index});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::CharUnicodeInfo::InternalGetUnicodeCategory
@@ -121,7 +128,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::UnicodeCategory (*)(int)>(&System::Globalization::CharUnicodeInfo::InternalGetUnicodeCategory)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CharUnicodeInfo*), "InternalGetUnicodeCategory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CharUnicodeInfo*), "InternalGetUnicodeCategory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::CharUnicodeInfo::InternalGetCategoryValue
@@ -129,7 +137,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int, int)>(&System::Globalization::CharUnicodeInfo::InternalGetCategoryValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CharUnicodeInfo*), "InternalGetCategoryValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CharUnicodeInfo*), "InternalGetCategoryValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch, offset});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::CharUnicodeInfo::InternalGetUnicodeCategory
@@ -137,7 +147,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::UnicodeCategory (*)(::Il2CppString*, int)>(&System::Globalization::CharUnicodeInfo::InternalGetUnicodeCategory)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CharUnicodeInfo*), "InternalGetUnicodeCategory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::CharUnicodeInfo*), "InternalGetUnicodeCategory", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, index});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::CharUnicodeInfo::_cctor

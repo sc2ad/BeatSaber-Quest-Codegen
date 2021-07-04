@@ -97,7 +97,6 @@ namespace Zenject {
   static_assert(sizeof(AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0*, "Zenject", "AddToGameObjectComponentProviderBase/<>c__DisplayClass17_0");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0::$GetAllInstancesWithInjectSplit$b__0
 // Il2CppName: <GetAllInstancesWithInjectSplit>b__0
 template<>

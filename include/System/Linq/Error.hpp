@@ -47,13 +47,13 @@ namespace System::Linq {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Linq::Error*, "System.Linq", "Error");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Linq::Error::ArgumentNull
 // Il2CppName: ArgumentNull
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppString*)>(&System::Linq::Error::ArgumentNull)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Linq::Error*), "ArgumentNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Linq::Error*), "ArgumentNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
 };
 // Writing MetadataGetter for method: System::Linq::Error::ArgumentOutOfRange
@@ -61,7 +61,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exception* (*)(::Il2CppString*)>(&System::Linq::Error::ArgumentOutOfRange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Linq::Error*), "ArgumentOutOfRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Linq::Error*), "ArgumentOutOfRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
 };
 // Writing MetadataGetter for method: System::Linq::Error::MoreThanOneElement

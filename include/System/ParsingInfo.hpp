@@ -96,7 +96,6 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ParsingInfo, "System", "ParsingInfo");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::ParsingInfo::Init
 // Il2CppName: Init
 template<>

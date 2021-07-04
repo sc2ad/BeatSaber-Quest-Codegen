@@ -96,7 +96,6 @@ namespace System::Runtime::Remoting::Messaging {
   static_assert(sizeof(ErrorMessage) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ErrorMessage*, "System.Runtime.Remoting.Messaging", "ErrorMessage");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ErrorMessage::get_ArgCount
 // Il2CppName: get_ArgCount
 template<>
@@ -166,7 +165,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Messaging::ErrorMessage::*)(int)>(&System::Runtime::Remoting::Messaging::ErrorMessage::GetArg)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ErrorMessage*), "GetArg", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* arg_num = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ErrorMessage*), "GetArg", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{arg_num});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ErrorMessage::get_LogicalCallContext

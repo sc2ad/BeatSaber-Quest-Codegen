@@ -42,16 +42,14 @@ namespace System::Runtime::Serialization::Formatters::Binary {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::IOUtil*, "System.Runtime.Serialization.Formatters.Binary", "IOUtil");
-// Writing includes for template specializations
-#include "System/Runtime/Serialization/Formatters/Binary/MessageEnum.hpp"
-#include "System/Runtime/Serialization/Formatters/Binary/__BinaryWriter.hpp"
-#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::IOUtil::FlagTest
 // Il2CppName: FlagTest
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Runtime::Serialization::Formatters::Binary::MessageEnum, System::Runtime::Serialization::Formatters::Binary::MessageEnum)>(&System::Runtime::Serialization::Formatters::Binary::IOUtil::FlagTest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::IOUtil*), "FlagTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::MessageEnum>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::MessageEnum>()});
+    static auto* flag = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "MessageEnum")->byval_arg;
+    static auto* target = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "MessageEnum")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::IOUtil*), "FlagTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flag, target});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::IOUtil::WriteStringWithCode
@@ -59,7 +57,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&System::Runtime::Serialization::Formatters::Binary::IOUtil::WriteStringWithCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::IOUtil*), "WriteStringWithCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* sout = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "__BinaryWriter")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::IOUtil*), "WriteStringWithCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, sout});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::IOUtil::WriteWithCode
@@ -67,6 +67,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Type*, ::Il2CppObject*, System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*)>(&System::Runtime::Serialization::Formatters::Binary::IOUtil::WriteWithCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::IOUtil*), "WriteWithCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*>()});
+    static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* sout = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization.Formatters.Binary", "__BinaryWriter")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::IOUtil*), "WriteWithCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, value, sout});
   }
 };

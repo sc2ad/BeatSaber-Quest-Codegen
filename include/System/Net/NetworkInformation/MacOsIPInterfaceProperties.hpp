@@ -59,9 +59,6 @@ namespace System::Net::NetworkInformation {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsIPInterfaceProperties*, "System.Net.NetworkInformation", "MacOsIPInterfaceProperties");
-// Writing includes for template specializations
-#include "System/Net/NetworkInformation/MacOsNetworkInterface.hpp"
-#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::MacOsIPInterfaceProperties::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -71,7 +68,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::MacOsIPInterfaceProperti
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Array<::Il2CppString*>*&)>(&System::Net::NetworkInformation::MacOsIPInterfaceProperties::ParseRouteInfo_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::MacOsIPInterfaceProperties*), "ParseRouteInfo_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*&>()});
+    static auto* iface = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* gw_addr_list = &classof(::Array<::Array<::Il2CppString*>*>*)->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::MacOsIPInterfaceProperties*), "ParseRouteInfo_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{iface, gw_addr_list});
   }
 };
 // Writing MetadataGetter for method: System::Net::NetworkInformation::MacOsIPInterfaceProperties::get_GatewayAddresses

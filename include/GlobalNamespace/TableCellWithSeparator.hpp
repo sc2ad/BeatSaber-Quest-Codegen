@@ -65,14 +65,14 @@ namespace GlobalNamespace {
   static_assert(sizeof(TableCellWithSeparator) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TableCellWithSeparator*, "", "TableCellWithSeparator");
-// Writing includes for template specializations
-#include "HMUI/ITableCellOwner.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TableCellWithSeparator::TableViewSetup
 // Il2CppName: TableViewSetup
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TableCellWithSeparator::*)(HMUI::ITableCellOwner*, int)>(&GlobalNamespace::TableCellWithSeparator::TableViewSetup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TableCellWithSeparator*), "TableViewSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ITableCellOwner*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* tableCellOwner = &::il2cpp_utils::GetClassFromName("HMUI", "ITableCellOwner")->byval_arg;
+    static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TableCellWithSeparator*), "TableViewSetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tableCellOwner, idx});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::TableCellWithSeparator::New_ctor

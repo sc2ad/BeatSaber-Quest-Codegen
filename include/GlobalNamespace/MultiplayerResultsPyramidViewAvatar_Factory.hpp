@@ -42,7 +42,6 @@ namespace GlobalNamespace {
   }; // MultiplayerResultsPyramidViewAvatar/Factory
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Factory*, "", "MultiplayerResultsPyramidViewAvatar/Factory");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Factory::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

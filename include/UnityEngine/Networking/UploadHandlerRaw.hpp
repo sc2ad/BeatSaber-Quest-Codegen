@@ -42,13 +42,14 @@ namespace UnityEngine::Networking {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UploadHandlerRaw*, "UnityEngine.Networking", "UploadHandlerRaw");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Networking::UploadHandlerRaw::Create
 // Il2CppName: Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::Networking::UploadHandlerRaw*, ::Array<uint8_t>*)>(&UnityEngine::Networking::UploadHandlerRaw::Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UploadHandlerRaw*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::UploadHandlerRaw*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* self = &::il2cpp_utils::GetClassFromName("UnityEngine.Networking", "UploadHandlerRaw")->byval_arg;
+    static auto* data = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UploadHandlerRaw*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{self, data});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Networking::UploadHandlerRaw::New_ctor

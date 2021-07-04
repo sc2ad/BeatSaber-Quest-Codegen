@@ -84,15 +84,13 @@ namespace UnityEngine::Events {
   static_assert(sizeof(UnityEvent) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::UnityEvent*, "UnityEngine.Events", "UnityEvent");
-// Writing includes for template specializations
-#include "UnityEngine/Events/UnityAction.hpp"
-#include "System/Reflection/MethodInfo.hpp"
 // Writing MetadataGetter for method: UnityEngine::Events::UnityEvent::AddListener
 // Il2CppName: AddListener
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent::*)(UnityEngine::Events::UnityAction*)>(&UnityEngine::Events::UnityEvent::AddListener)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::UnityEvent*), "AddListener", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction*>()});
+    static auto* call = &::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::UnityEvent*), "AddListener", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{call});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Events::UnityEvent::RemoveListener
@@ -100,7 +98,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::UnityEvent::*)(UnityEngine::Events::UnityAction*)>(&UnityEngine::Events::UnityEvent::RemoveListener)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::UnityEvent*), "RemoveListener", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction*>()});
+    static auto* call = &::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::UnityEvent*), "RemoveListener", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{call});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Events::UnityEvent::GetDelegate
@@ -108,7 +107,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::BaseInvokableCall* (*)(UnityEngine::Events::UnityAction*)>(&UnityEngine::Events::UnityEvent::GetDelegate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::UnityEvent*), "GetDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction*>()});
+    static auto* action = &::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::UnityEvent*), "GetDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Events::UnityEvent::Invoke
@@ -128,7 +128,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (UnityEngine::Events::UnityEvent::*)(::Il2CppString*, ::Il2CppObject*)>(&UnityEngine::Events::UnityEvent::FindMethod_Impl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::UnityEvent*), "FindMethod_Impl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* targetObj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::UnityEvent*), "FindMethod_Impl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, targetObj});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Events::UnityEvent::GetDelegate
@@ -136,6 +138,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::BaseInvokableCall* (UnityEngine::Events::UnityEvent::*)(::Il2CppObject*, System::Reflection::MethodInfo*)>(&UnityEngine::Events::UnityEvent::GetDelegate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::UnityEvent*), "GetDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodInfo*>()});
+    static auto* target = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* theFunction = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::UnityEvent*), "GetDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{target, theFunction});
   }
 };

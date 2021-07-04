@@ -301,7 +301,6 @@ namespace Mono::Unity {
   static_assert(sizeof(UnityTls::unitytls_interface_struct) == 0x118);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls::unitytls_interface_struct*, "Mono.Unity", "UnityTls/unitytls_interface_struct");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Unity::UnityTls::unitytls_interface_struct::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

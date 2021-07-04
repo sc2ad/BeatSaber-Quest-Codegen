@@ -72,8 +72,6 @@ namespace UnityEngine::UI {
   static_assert(sizeof(ClipperRegistry) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ClipperRegistry*, "UnityEngine.UI", "ClipperRegistry");
-// Writing includes for template specializations
-#include "UnityEngine/UI/IClipper.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::ClipperRegistry::get_instance
 // Il2CppName: get_instance
 template<>
@@ -95,7 +93,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::IClipper*)>(&UnityEngine::UI::ClipperRegistry::Register)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ClipperRegistry*), "Register", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::IClipper*>()});
+    static auto* c = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "IClipper")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ClipperRegistry*), "Register", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::ClipperRegistry::Unregister
@@ -103,7 +102,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::IClipper*)>(&UnityEngine::UI::ClipperRegistry::Unregister)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ClipperRegistry*), "Unregister", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::IClipper*>()});
+    static auto* c = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "IClipper")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ClipperRegistry*), "Unregister", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::ClipperRegistry::New_ctor

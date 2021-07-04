@@ -86,7 +86,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(StartMiddleEndButtonBackgroundController) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StartMiddleEndButtonBackgroundController*, "", "StartMiddleEndButtonBackgroundController");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::StartMiddleEndButtonBackgroundController::SetStartSprite
 // Il2CppName: SetStartSprite
 template<>

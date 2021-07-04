@@ -30,7 +30,6 @@ namespace System::Runtime::Versioning {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Versioning::BinaryCompatibility*, "System.Runtime.Versioning", "BinaryCompatibility");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::Versioning::BinaryCompatibility::_cctor
 // Il2CppName: .cctor
 template<>

@@ -36,7 +36,6 @@ namespace UnityEngine::Bindings {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Bindings::NotNullAttribute*, "UnityEngine.Bindings", "NotNullAttribute");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Bindings::NotNullAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

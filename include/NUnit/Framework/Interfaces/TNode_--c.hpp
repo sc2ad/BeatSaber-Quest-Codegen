@@ -57,8 +57,6 @@ namespace NUnit::Framework::Interfaces {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::TNode::$$c*, "NUnit.Framework.Interfaces", "TNode/<>c");
-// Writing includes for template specializations
-#include "System/Text/RegularExpressions/Match.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::TNode::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -72,7 +70,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Interfaces::TNode::$$c::*)(System::Text::RegularExpressions::Match*)>(&NUnit::Framework::Interfaces::TNode::$$c::$EscapeInvalidXmlCharacters$b__38_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::TNode::$$c*), "<EscapeInvalidXmlCharacters>b__38_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::Match*>()});
+    static auto* match = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "Match")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::TNode::$$c*), "<EscapeInvalidXmlCharacters>b__38_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{match});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::TNode::$$c::New_ctor

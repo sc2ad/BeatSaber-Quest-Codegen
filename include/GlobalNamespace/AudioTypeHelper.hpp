@@ -29,12 +29,12 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioTypeHelper*, "", "AudioTypeHelper");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::AudioTypeHelper::GetAudioTypeFromPath
 // Il2CppName: GetAudioTypeFromPath
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AudioType (*)(::Il2CppString*)>(&GlobalNamespace::AudioTypeHelper::GetAudioTypeFromPath)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioTypeHelper*), "GetAudioTypeFromPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioTypeHelper*), "GetAudioTypeFromPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
   }
 };

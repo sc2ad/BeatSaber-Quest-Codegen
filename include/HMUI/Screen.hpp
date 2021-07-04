@@ -80,8 +80,6 @@ namespace HMUI {
   static_assert(sizeof(Screen) == 0x21);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::Screen*, "HMUI", "Screen");
-// Writing includes for template specializations
-#include "HMUI/ViewController_AnimationType.hpp"
 // Writing MetadataGetter for method: HMUI::Screen::get_isBeingDestroyed
 // Il2CppName: get_isBeingDestroyed
 template<>
@@ -95,7 +93,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::Screen::*)(HMUI::ViewController*, HMUI::ViewController::AnimationType)>(&HMUI::Screen::SetRootViewController)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::Screen*), "SetRootViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>()});
+    static auto* newRootViewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
+    static auto* animationType = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController/AnimationType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(HMUI::Screen*), "SetRootViewController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newRootViewController, animationType});
   }
 };
 // Writing MetadataGetter for method: HMUI::Screen::TransitionCoroutine
@@ -103,7 +103,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (HMUI::Screen::*)(HMUI::ViewController*, HMUI::ViewController::AnimationType)>(&HMUI::Screen::TransitionCoroutine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::Screen*), "TransitionCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ViewController*>(), ::il2cpp_utils::ExtractIndependentType<HMUI::ViewController::AnimationType>()});
+    static auto* newRootViewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
+    static auto* animationType = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController/AnimationType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(HMUI::Screen*), "TransitionCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newRootViewController, animationType});
   }
 };
 // Writing MetadataGetter for method: HMUI::Screen::OnDestroy

@@ -60,7 +60,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLocalActivePlayerIntroAnimator) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator*, "", "MultiplayerLocalActivePlayerIntroAnimator");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator::SetBeforeIntroValues
 // Il2CppName: SetBeforeIntroValues
 template<>

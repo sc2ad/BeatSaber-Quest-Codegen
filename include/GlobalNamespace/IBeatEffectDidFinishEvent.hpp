@@ -28,13 +28,12 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBeatEffectDidFinishEvent*, "", "IBeatEffectDidFinishEvent");
-// Writing includes for template specializations
-#include "GlobalNamespace/BeatEffect.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::IBeatEffectDidFinishEvent::HandleBeatEffectDidFinish
 // Il2CppName: HandleBeatEffectDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::IBeatEffectDidFinishEvent::*)(GlobalNamespace::BeatEffect*)>(&GlobalNamespace::IBeatEffectDidFinishEvent::HandleBeatEffectDidFinish)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBeatEffectDidFinishEvent*), "HandleBeatEffectDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatEffect*>()});
+    static auto* beatEffect = &::il2cpp_utils::GetClassFromName("", "BeatEffect")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IBeatEffectDidFinishEvent*), "HandleBeatEffectDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatEffect});
   }
 };

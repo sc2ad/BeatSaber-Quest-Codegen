@@ -103,15 +103,13 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AndroidReflection*, "UnityEngine", "AndroidReflection");
-// Writing includes for template specializations
-#include "System/Type.hpp"
-#include "System/Exception.hpp"
 // Writing MetadataGetter for method: UnityEngine::AndroidReflection::IsPrimitive
 // Il2CppName: IsPrimitive
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&UnityEngine::AndroidReflection::IsPrimitive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidReflection*), "IsPrimitive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidReflection*), "IsPrimitive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AndroidReflection::IsAssignableFrom
@@ -119,7 +117,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*)>(&UnityEngine::AndroidReflection::IsAssignableFrom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidReflection*), "IsAssignableFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    static auto* from = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidReflection*), "IsAssignableFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t, from});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AndroidReflection::GetStaticMethodID
@@ -127,7 +127,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&UnityEngine::AndroidReflection::GetStaticMethodID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidReflection*), "GetStaticMethodID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* signature = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidReflection*), "GetStaticMethodID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clazz, methodName, signature});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AndroidReflection::GetMethodID
@@ -135,7 +138,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*)>(&UnityEngine::AndroidReflection::GetMethodID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidReflection*), "GetMethodID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* clazz = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* signature = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidReflection*), "GetMethodID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clazz, methodName, signature});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AndroidReflection::GetConstructorMember
@@ -143,7 +149,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::Il2CppString*)>(&UnityEngine::AndroidReflection::GetConstructorMember)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidReflection*), "GetConstructorMember", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* jclass = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* signature = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidReflection*), "GetConstructorMember", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{jclass, signature});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AndroidReflection::GetMethodMember
@@ -151,7 +159,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::Il2CppString*, ::Il2CppString*, bool)>(&UnityEngine::AndroidReflection::GetMethodMember)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidReflection*), "GetMethodMember", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* jclass = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* signature = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* isStatic = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidReflection*), "GetMethodMember", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{jclass, methodName, signature, isStatic});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AndroidReflection::GetFieldMember
@@ -159,7 +171,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::Il2CppString*, ::Il2CppString*, bool)>(&UnityEngine::AndroidReflection::GetFieldMember)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidReflection*), "GetFieldMember", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* jclass = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* fieldName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* signature = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* isStatic = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidReflection*), "GetFieldMember", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{jclass, fieldName, signature, isStatic});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AndroidReflection::GetFieldClass
@@ -167,7 +183,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr)>(&UnityEngine::AndroidReflection::GetFieldClass)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidReflection*), "GetFieldClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* field = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidReflection*), "GetFieldClass", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{field});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AndroidReflection::GetFieldSignature
@@ -175,7 +192,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&UnityEngine::AndroidReflection::GetFieldSignature)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidReflection*), "GetFieldSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* field = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidReflection*), "GetFieldSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{field});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AndroidReflection::NewProxyInstance
@@ -183,7 +201,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, System::IntPtr)>(&UnityEngine::AndroidReflection::NewProxyInstance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidReflection*), "NewProxyInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* delegateHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* interfaze = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidReflection*), "NewProxyInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{delegateHandle, interfaze});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AndroidReflection::SetNativeExceptionOnProxy
@@ -191,7 +211,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, System::Exception*, bool)>(&UnityEngine::AndroidReflection::SetNativeExceptionOnProxy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidReflection*), "SetNativeExceptionOnProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::Exception*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* proxy = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* e = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
+    static auto* methodNotFound = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AndroidReflection*), "SetNativeExceptionOnProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{proxy, e, methodNotFound});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AndroidReflection::_cctor

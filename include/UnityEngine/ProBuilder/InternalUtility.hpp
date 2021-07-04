@@ -125,12 +125,6 @@ namespace UnityEngine::ProBuilder {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::InternalUtility*, "UnityEngine.ProBuilder", "InternalUtility");
-// Writing includes for template specializations
-#include "System/Collections/Generic/IEnumerable_1.hpp"
-#include "UnityEngine/GameObject.hpp"
-#include "UnityEngine/Transform.hpp"
-#include "UnityEngine/Color.hpp"
-#include "UnityEngine/Component.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::InternalUtility::GetComponents
 // Il2CppName: GetComponents
 // Cannot write MetadataGetter for generic methods!
@@ -145,7 +139,8 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::InternalUtility*, "UnityEngine.P
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::Transform*)>(&UnityEngine::ProBuilder::InternalUtility::EmptyGameObjectWithTransform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::InternalUtility*), "EmptyGameObjectWithTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    static auto* t = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::InternalUtility*), "EmptyGameObjectWithTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::InternalUtility::NextEnumValue
@@ -156,7 +151,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppChar)>(&UnityEngine::ProBuilder::InternalUtility::ControlKeyString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::InternalUtility*), "ControlKeyString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    static auto* character = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::InternalUtility*), "ControlKeyString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{character});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::InternalUtility::TryParseColor
@@ -164,7 +160,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, UnityEngine::Color&)>(&UnityEngine::ProBuilder::InternalUtility::TryParseColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::InternalUtility*), "TryParseColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* col = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::InternalUtility*), "TryParseColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, col});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::InternalUtility::StringToVector3Array
@@ -172,7 +170,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (*)(::Il2CppString*)>(&UnityEngine::ProBuilder::InternalUtility::StringToVector3Array)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::InternalUtility*), "StringToVector3Array", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::InternalUtility*), "StringToVector3Array", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::InternalUtility::DemandComponent

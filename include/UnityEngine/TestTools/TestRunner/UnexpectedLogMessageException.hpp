@@ -68,8 +68,6 @@ namespace UnityEngine::TestTools::TestRunner {
   static_assert(sizeof(UnexpectedLogMessageException) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException*, "UnityEngine.TestTools.TestRunner", "UnexpectedLogMessageException");
-// Writing includes for template specializations
-#include "UnityEngine/TestTools/Logging/LogMatch.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -79,7 +77,8 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::TestRunner::UnexpectedLogMessageE
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(UnityEngine::TestTools::Logging::LogMatch*)>(&UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException::BuildMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException*), "BuildMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TestTools::Logging::LogMatch*>()});
+    static auto* log = &::il2cpp_utils::GetClassFromName("UnityEngine.TestTools.Logging", "LogMatch")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException*), "BuildMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{log});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::UnexpectedLogMessageException::get_ResultState

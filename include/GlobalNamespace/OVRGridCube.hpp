@@ -140,8 +140,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRGridCube) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGridCube*, "", "OVRGridCube");
-// Writing includes for template specializations
-#include "GlobalNamespace/OVRCameraRig.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRGridCube::Update
 // Il2CppName: Update
 template<>
@@ -155,7 +153,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGridCube::*)(GlobalNamespace::OVRCameraRig*&)>(&GlobalNamespace::OVRGridCube::SetOVRCameraController)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGridCube*), "SetOVRCameraController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRCameraRig*&>()});
+    static auto* cameraController = &::il2cpp_utils::GetClassFromName("", "OVRCameraRig")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGridCube*), "SetOVRCameraController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cameraController});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRGridCube::UpdateCubeGrid
@@ -179,7 +178,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGridCube::*)(bool)>(&GlobalNamespace::OVRGridCube::CubeGridSwitchColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGridCube*), "CubeGridSwitchColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* CubeSwitchColor = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGridCube*), "CubeGridSwitchColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{CubeSwitchColor});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRGridCube::New_ctor

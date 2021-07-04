@@ -135,7 +135,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(SongPackMaskModelSO) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPackMaskModelSO*, "", "SongPackMaskModelSO");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::get_defaultSongPackMaskItems
 // Il2CppName: get_defaultSongPackMaskItems
 template<>
@@ -173,7 +172,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SongPackMaskModelSO::*)(::Il2CppString*)>(&GlobalNamespace::SongPackMaskModelSO::ToLocalizedName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO*), "ToLocalizedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* serializedName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO*), "ToLocalizedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serializedName});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::ToSongPackMask
@@ -181,7 +181,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SongPackMaskModelSO::*)(::Il2CppString*, GlobalNamespace::SongPackMask&)>(&GlobalNamespace::SongPackMaskModelSO::ToSongPackMask)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO*), "ToSongPackMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask&>()});
+    static auto* serializedName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* songPackMask = &::il2cpp_utils::GetClassFromName("", "SongPackMask")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO*), "ToSongPackMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serializedName, songPackMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::ToSongPackMask
@@ -189,7 +191,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SongPackMask (GlobalNamespace::SongPackMaskModelSO::*)(::Il2CppString*)>(&GlobalNamespace::SongPackMaskModelSO::ToSongPackMask)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO*), "ToSongPackMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* serializedName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO*), "ToSongPackMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serializedName});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::ToSerializedName
@@ -197,7 +200,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::SongPackMaskModelSO::*)(GlobalNamespace::SongPackMask, ::Il2CppString*&)>(&GlobalNamespace::SongPackMaskModelSO::ToSerializedName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO*), "ToSerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    static auto* songPackMask = &::il2cpp_utils::GetClassFromName("", "SongPackMask")->byval_arg;
+    static auto* serializedName = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO*), "ToSerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{songPackMask, serializedName});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::ToSerializedName
@@ -205,7 +210,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SongPackMaskModelSO::*)(GlobalNamespace::SongPackMask)>(&GlobalNamespace::SongPackMaskModelSO::ToSerializedName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO*), "ToSerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>()});
+    static auto* songPackMask = &::il2cpp_utils::GetClassFromName("", "SongPackMask")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO*), "ToSerializedName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{songPackMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::LazyInit

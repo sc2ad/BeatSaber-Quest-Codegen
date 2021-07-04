@@ -62,7 +62,6 @@ namespace Oculus::Platform {
   static_assert(sizeof(CallbackRunner) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CallbackRunner*, "Oculus.Platform", "CallbackRunner");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::CallbackRunner::ovr_UnityResetTestPlatform
 // Il2CppName: ovr_UnityResetTestPlatform
 template<>

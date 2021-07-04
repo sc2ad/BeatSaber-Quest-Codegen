@@ -42,7 +42,6 @@ namespace UnityEngine::EventSystems {
   }; // UnityEngine.EventSystems.EventTrigger/TriggerEvent
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::EventTrigger::TriggerEvent*, "UnityEngine.EventSystems", "EventTrigger/TriggerEvent");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::EventSystems::EventTrigger::TriggerEvent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

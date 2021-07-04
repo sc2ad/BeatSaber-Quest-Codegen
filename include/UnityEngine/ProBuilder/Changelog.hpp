@@ -89,7 +89,6 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(Changelog) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Changelog*, "UnityEngine.ProBuilder", "Changelog");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Changelog::get_entries
 // Il2CppName: get_entries
 template<>
@@ -107,6 +106,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ChangelogEntry* (UnityEngine::ProBuilder::Changelog::*)(::Il2CppString*, ::Il2CppString*)>(&UnityEngine::ProBuilder::Changelog::CreateEntry)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Changelog*), "CreateEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* version = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* contents = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Changelog*), "CreateEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{version, contents});
   }
 };

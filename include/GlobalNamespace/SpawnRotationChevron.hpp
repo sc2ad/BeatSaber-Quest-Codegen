@@ -82,13 +82,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(SpawnRotationChevron) == 0x4C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnRotationChevron*, "", "SpawnRotationChevron");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SpawnRotationChevron::SetLightAmount
 // Il2CppName: SetLightAmount
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SpawnRotationChevron::*)(float)>(&GlobalNamespace::SpawnRotationChevron::SetLightAmount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpawnRotationChevron*), "SetLightAmount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* amount = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpawnRotationChevron*), "SetLightAmount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{amount});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SpawnRotationChevron::UpdateLights
@@ -104,7 +104,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SpawnRotationChevron::*)(UnityEngine::Color)>(&GlobalNamespace::SpawnRotationChevron::ColorWasSet)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpawnRotationChevron*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SpawnRotationChevron*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SpawnRotationChevron::New_ctor

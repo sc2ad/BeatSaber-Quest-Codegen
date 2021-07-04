@@ -73,14 +73,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(HealthWarningNoTransitionInstaller) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningNoTransitionInstaller*, "", "HealthWarningNoTransitionInstaller");
-// Writing includes for template specializations
-#include "Zenject/DiContainer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HealthWarningNoTransitionInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HealthWarningNoTransitionInstaller::*)(Zenject::DiContainer*)>(&GlobalNamespace::HealthWarningNoTransitionInstaller::InstallBindings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningNoTransitionInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HealthWarningNoTransitionInstaller*), "InstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::HealthWarningNoTransitionInstaller::New_ctor

@@ -61,7 +61,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerRemote*, "", "OVRInput/OVRControllerRemote");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerRemote::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -53,7 +53,6 @@ namespace DataModels::PlayerAvatar {
   static_assert(sizeof(RandomizeAvatarColorMap) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(DataModels::PlayerAvatar::RandomizeAvatarColorMap*, "DataModels.PlayerAvatar", "RandomizeAvatarColorMap");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: DataModels::PlayerAvatar::RandomizeAvatarColorMap::get_totalIndices
 // Il2CppName: get_totalIndices
 template<>

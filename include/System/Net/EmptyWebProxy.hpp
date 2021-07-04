@@ -70,14 +70,13 @@ namespace System::Net {
   static_assert(sizeof(EmptyWebProxy) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::EmptyWebProxy*, "System.Net", "EmptyWebProxy");
-// Writing includes for template specializations
-#include "System/Uri.hpp"
 // Writing MetadataGetter for method: System::Net::EmptyWebProxy::GetProxy
 // Il2CppName: GetProxy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (System::Net::EmptyWebProxy::*)(System::Uri*)>(&System::Net::EmptyWebProxy::GetProxy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::EmptyWebProxy*), "GetProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+    static auto* uri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::EmptyWebProxy*), "GetProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uri});
   }
 };
 // Writing MetadataGetter for method: System::Net::EmptyWebProxy::IsBypassed
@@ -85,7 +84,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::EmptyWebProxy::*)(System::Uri*)>(&System::Net::EmptyWebProxy::IsBypassed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::EmptyWebProxy*), "IsBypassed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+    static auto* uri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::EmptyWebProxy*), "IsBypassed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uri});
   }
 };
 // Writing MetadataGetter for method: System::Net::EmptyWebProxy::get_Credentials

@@ -45,7 +45,6 @@ namespace System::Net::NetworkInformation {
   static_assert(sizeof(Win32IPv4InterfaceStatistics) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32IPv4InterfaceStatistics*, "System.Net.NetworkInformation", "Win32IPv4InterfaceStatistics");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::NetworkInformation::Win32IPv4InterfaceStatistics::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

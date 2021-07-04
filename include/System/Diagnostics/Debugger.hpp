@@ -43,7 +43,6 @@ namespace System::Diagnostics {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Debugger*, "System.Diagnostics", "Debugger");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Diagnostics::Debugger::get_IsAttached
 // Il2CppName: get_IsAttached
 template<>
@@ -73,7 +72,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Il2CppString*, ::Il2CppString*)>(&System::Diagnostics::Debugger::Log)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Debugger*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* level = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* category = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Debugger*), "Log", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{level, category, message});
   }
 };
 // Writing MetadataGetter for method: System::Diagnostics::Debugger::NotifyOfCrossThreadDependency

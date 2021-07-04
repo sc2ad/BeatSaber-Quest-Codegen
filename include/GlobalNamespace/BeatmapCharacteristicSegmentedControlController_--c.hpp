@@ -61,8 +61,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapCharacteristicSegmentedControlController::$$c*, "", "BeatmapCharacteristicSegmentedControlController/<>c");
-// Writing includes for template specializations
-#include "GlobalNamespace/IDifficultyBeatmapSet.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicSegmentedControlController::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -76,7 +74,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::BeatmapCharacteristicSegmentedControlController::$$c::*)(GlobalNamespace::IDifficultyBeatmapSet*, GlobalNamespace::IDifficultyBeatmapSet*)>(&GlobalNamespace::BeatmapCharacteristicSegmentedControlController::$$c::$SetData$b__10_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCharacteristicSegmentedControlController::$$c*), "<SetData>b__10_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmapSet*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmapSet*>()});
+    static auto* a = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmapSet")->byval_arg;
+    static auto* b = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmapSet")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapCharacteristicSegmentedControlController::$$c*), "<SetData>b__10_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapCharacteristicSegmentedControlController::$$c::New_ctor

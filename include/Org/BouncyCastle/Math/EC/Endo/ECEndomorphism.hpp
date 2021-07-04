@@ -31,7 +31,6 @@ namespace Org::BouncyCastle::Math::EC::Endo {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*, "Org.BouncyCastle.Math.EC.Endo", "ECEndomorphism");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Endo::ECEndomorphism::get_PointMap
 // Il2CppName: get_PointMap
 template<>

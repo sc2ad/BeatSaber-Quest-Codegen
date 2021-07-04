@@ -104,8 +104,6 @@ namespace Polyglot {
   static_assert(sizeof(LocalizationDocument) == 0x31);
 }
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizationDocument*, "Polyglot", "LocalizationDocument");
-// Writing includes for template specializations
-#include "UnityEngine/TextAsset.hpp"
 // Writing MetadataGetter for method: Polyglot::LocalizationDocument::get_TextAsset
 // Il2CppName: get_TextAsset
 template<>
@@ -119,7 +117,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizationDocument::*)(UnityEngine::TextAsset*)>(&Polyglot::LocalizationDocument::set_TextAsset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationDocument*), "set_TextAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextAsset*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextAsset")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationDocument*), "set_TextAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Polyglot::LocalizationDocument::get_DocsId
@@ -135,7 +134,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizationDocument::*)(::Il2CppString*)>(&Polyglot::LocalizationDocument::set_DocsId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationDocument*), "set_DocsId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationDocument*), "set_DocsId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Polyglot::LocalizationDocument::get_SheetId
@@ -151,7 +151,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizationDocument::*)(::Il2CppString*)>(&Polyglot::LocalizationDocument::set_SheetId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationDocument*), "set_SheetId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationDocument*), "set_SheetId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Polyglot::LocalizationDocument::get_Format
@@ -167,7 +168,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Polyglot::G
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizationDocument::*)(Polyglot::GoogleDriveDownloadFormat)>(&Polyglot::LocalizationDocument::set_Format)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationDocument*), "set_Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Polyglot::GoogleDriveDownloadFormat>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("Polyglot", "GoogleDriveDownloadFormat")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationDocument*), "set_Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Polyglot::LocalizationDocument::get_DownloadOnStart
@@ -183,7 +185,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Polyg
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizationDocument::*)(bool)>(&Polyglot::LocalizationDocument::set_DownloadOnStart)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationDocument*), "set_DownloadOnStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationDocument*), "set_DownloadOnStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Polyglot::LocalizationDocument::New_ctor

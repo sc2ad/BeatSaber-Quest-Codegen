@@ -69,7 +69,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLeaderboardPanelController) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLeaderboardPanelController*, "", "MultiplayerLeaderboardPanelController");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLeaderboardPanelController::Start
 // Il2CppName: Start
 template<>

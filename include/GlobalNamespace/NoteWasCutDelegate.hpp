@@ -56,11 +56,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteWasCutDelegate*, "", "NoteWasCutDelegate");
-// Writing includes for template specializations
-#include "GlobalNamespace/NoteData.hpp"
-#include "GlobalNamespace/NoteCutInfo.hpp"
-#include "System/AsyncCallback.hpp"
-#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteWasCutDelegate::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -70,7 +65,10 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteWasCutDelegate*, "", "NoteWasCutDele
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteWasCutDelegate::*)(GlobalNamespace::NoteData*, GlobalNamespace::NoteCutInfo&, int)>(&GlobalNamespace::NoteWasCutDelegate::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteWasCutDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* noteData = &::il2cpp_utils::GetClassFromName("", "NoteData")->byval_arg;
+    static auto* noteCutInfo = &::il2cpp_utils::GetClassFromName("", "NoteCutInfo")->this_arg;
+    static auto* multiplier = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteWasCutDelegate*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteData, noteCutInfo, multiplier});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::NoteWasCutDelegate::BeginInvoke
@@ -78,7 +76,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::NoteWasCutDelegate::*)(GlobalNamespace::NoteData*, GlobalNamespace::NoteCutInfo&, int, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::NoteWasCutDelegate::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteWasCutDelegate*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* noteData = &::il2cpp_utils::GetClassFromName("", "NoteData")->byval_arg;
+    static auto* noteCutInfo = &::il2cpp_utils::GetClassFromName("", "NoteCutInfo")->this_arg;
+    static auto* multiplier = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
+    static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteWasCutDelegate*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteData, noteCutInfo, multiplier, callback, object});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::NoteWasCutDelegate::EndInvoke
@@ -86,6 +89,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteWasCutDelegate::*)(GlobalNamespace::NoteCutInfo&, System::IAsyncResult*)>(&GlobalNamespace::NoteWasCutDelegate::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteWasCutDelegate*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutInfo&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    static auto* noteCutInfo = &::il2cpp_utils::GetClassFromName("", "NoteCutInfo")->this_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteWasCutDelegate*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteCutInfo, result});
   }
 };

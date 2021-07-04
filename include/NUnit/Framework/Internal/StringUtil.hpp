@@ -25,13 +25,15 @@ namespace NUnit::Framework::Internal {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::StringUtil*, "NUnit.Framework.Internal", "StringUtil");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: NUnit::Framework::Internal::StringUtil::Compare
 // Il2CppName: Compare
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*, ::Il2CppString*, bool)>(&NUnit::Framework::Internal::StringUtil::Compare)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::StringUtil*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* strA = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* strB = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* ignoreCase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::StringUtil*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{strA, strB, ignoreCase});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Internal::StringUtil::StringsEqual
@@ -39,6 +41,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*, bool)>(&NUnit::Framework::Internal::StringUtil::StringsEqual)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::StringUtil*), "StringsEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* strA = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* strB = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* ignoreCase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::StringUtil*), "StringsEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{strA, strB, ignoreCase});
   }
 };

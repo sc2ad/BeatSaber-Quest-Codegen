@@ -58,9 +58,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppInitScenesTransitionSetupDataSO*, "", "AppInitScenesTransitionSetupDataSO");
-// Writing includes for template specializations
-#include "GlobalNamespace/AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType.hpp"
-#include "GlobalNamespace/MockPlayersModel.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AppInitScenesTransitionSetupDataSO::Init
 // Il2CppName: Init
 template<>
@@ -82,7 +79,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AppInitScenesTransitionSetupDataSO::*)(GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType, GlobalNamespace::MockPlayersModel*)>(&GlobalNamespace::AppInitScenesTransitionSetupDataSO::__Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AppInitScenesTransitionSetupDataSO*), "__Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayersModel*>()});
+    static auto* appInitOverrideStartType = &::il2cpp_utils::GetClassFromName("", "AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType")->byval_arg;
+    static auto* mockPlayersModel = &::il2cpp_utils::GetClassFromName("", "MockPlayersModel")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AppInitScenesTransitionSetupDataSO*), "__Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{appInitOverrideStartType, mockPlayersModel});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::AppInitScenesTransitionSetupDataSO::New_ctor

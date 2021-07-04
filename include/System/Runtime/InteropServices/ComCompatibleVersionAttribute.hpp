@@ -59,7 +59,6 @@ namespace System::Runtime::InteropServices {
   static_assert(sizeof(ComCompatibleVersionAttribute) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::ComCompatibleVersionAttribute*, "System.Runtime.InteropServices", "ComCompatibleVersionAttribute");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::InteropServices::ComCompatibleVersionAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -67,9 +67,6 @@ namespace Org::BouncyCastle::Math::EC::Endo {
   static_assert(sizeof(GlvTypeBParameters) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*, "Org.BouncyCastle.Math.EC.Endo", "GlvTypeBParameters");
-// Writing includes for template specializations
-#include "Org/BouncyCastle/Math/BigInteger.hpp"
-#include "Org/BouncyCastle/Math/EC/Endo/ScalarSplitParameters.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

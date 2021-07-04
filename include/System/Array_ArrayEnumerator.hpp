@@ -75,7 +75,6 @@ namespace System {
   static_assert(sizeof(Array::ArrayEnumerator) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Array::ArrayEnumerator*, "System", "Array/ArrayEnumerator");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Array::ArrayEnumerator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

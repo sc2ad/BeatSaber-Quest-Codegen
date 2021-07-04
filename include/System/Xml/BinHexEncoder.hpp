@@ -32,14 +32,16 @@ namespace System::Xml {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::BinHexEncoder*, "System.Xml", "BinHexEncoder");
-// Writing includes for template specializations
-#include "System/Xml/XmlWriter.hpp"
 // Writing MetadataGetter for method: System::Xml::BinHexEncoder::Encode
 // Il2CppName: Encode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, int, System::Xml::XmlWriter*)>(&System::Xml::BinHexEncoder::Encode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::BinHexEncoder*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Xml::XmlWriter*>()});
+    static auto* buffer = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* writer = &::il2cpp_utils::GetClassFromName("System.Xml", "XmlWriter")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::BinHexEncoder*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, index, count, writer});
   }
 };
 // Writing MetadataGetter for method: System::Xml::BinHexEncoder::Encode
@@ -47,6 +49,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<uint8_t>*, int, int, ::Array<::Il2CppChar>*)>(&System::Xml::BinHexEncoder::Encode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::BinHexEncoder*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>()});
+    static auto* inArray = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* offsetIn = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* outArray = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::BinHexEncoder*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inArray, offsetIn, count, outArray});
   }
 };

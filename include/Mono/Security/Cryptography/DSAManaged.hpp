@@ -192,9 +192,6 @@ namespace Mono::Security::Cryptography {
   static_assert(sizeof(DSAManaged) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::DSAManaged*, "Mono.Security.Cryptography", "DSAManaged");
-// Writing includes for template specializations
-#include "Mono/Security/Cryptography/DSAManaged_KeyGeneratedEventHandler.hpp"
-#include "System/Security/Cryptography/DSAParameters.hpp"
 // Writing MetadataGetter for method: Mono::Security::Cryptography::DSAManaged::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -220,7 +217,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::DSAManaged::*)(::Array<uint8_t>*, ::Array<uint8_t>*, int)>(&Mono::Security::Cryptography::DSAManaged::add)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::DSAManaged*), "add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* a = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* b = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::DSAManaged*), "add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b, value});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::Cryptography::DSAManaged::GenerateParams
@@ -228,7 +228,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::DSAManaged::*)(int)>(&Mono::Security::Cryptography::DSAManaged::GenerateParams)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::DSAManaged*), "GenerateParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* keyLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::DSAManaged*), "GenerateParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keyLength});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::Cryptography::DSAManaged::get_Random
@@ -252,7 +253,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Cryptography::DSAManaged::*)(::Array<uint8_t>*)>(&Mono::Security::Cryptography::DSAManaged::NormalizeArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::DSAManaged*), "NormalizeArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* array = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::DSAManaged*), "NormalizeArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::Cryptography::DSAManaged::add_KeyGenerated
@@ -260,7 +262,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::DSAManaged::*)(Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler*)>(&Mono::Security::Cryptography::DSAManaged::add_KeyGenerated)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::DSAManaged*), "add_KeyGenerated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("Mono.Security.Cryptography", "DSAManaged/KeyGeneratedEventHandler")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::DSAManaged*), "add_KeyGenerated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::Cryptography::DSAManaged::remove_KeyGenerated
@@ -268,7 +271,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::DSAManaged::*)(Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler*)>(&Mono::Security::Cryptography::DSAManaged::remove_KeyGenerated)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::DSAManaged*), "remove_KeyGenerated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("Mono.Security.Cryptography", "DSAManaged/KeyGeneratedEventHandler")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::DSAManaged*), "remove_KeyGenerated", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::Cryptography::DSAManaged::Finalize
@@ -292,7 +296,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::DSAParameters (Mono::Security::Cryptography::DSAManaged::*)(bool)>(&Mono::Security::Cryptography::DSAManaged::ExportParameters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::DSAManaged*), "ExportParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* includePrivateParameters = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::DSAManaged*), "ExportParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{includePrivateParameters});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::Cryptography::DSAManaged::ImportParameters
@@ -300,7 +305,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::DSAManaged::*)(System::Security::Cryptography::DSAParameters)>(&Mono::Security::Cryptography::DSAManaged::ImportParameters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::DSAManaged*), "ImportParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::DSAParameters>()});
+    static auto* parameters = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "DSAParameters")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::DSAManaged*), "ImportParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parameters});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::Cryptography::DSAManaged::VerifySignature
@@ -308,7 +314,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Cryptography::DSAManaged::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Mono::Security::Cryptography::DSAManaged::VerifySignature)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::DSAManaged*), "VerifySignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* rgbHash = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* rgbSignature = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::DSAManaged*), "VerifySignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rgbHash, rgbSignature});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::Cryptography::DSAManaged::Dispose
@@ -316,6 +324,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::DSAManaged::*)(bool)>(&Mono::Security::Cryptography::DSAManaged::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::DSAManaged*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* disposing = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::DSAManaged*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{disposing});
   }
 };

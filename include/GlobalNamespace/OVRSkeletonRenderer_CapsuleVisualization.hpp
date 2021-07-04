@@ -92,10 +92,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRSkeletonRenderer::CapsuleVisualization) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization*, "", "OVRSkeletonRenderer/CapsuleVisualization");
-// Writing includes for template specializations
-#include "UnityEngine/GameObject.hpp"
-#include "UnityEngine/Material.hpp"
-#include "GlobalNamespace/OVRBoneCapsule.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -105,6 +101,11 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualizatio
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization::*)(float, bool, bool, GlobalNamespace::OVRSkeletonRenderer::ConfidenceBehavior, GlobalNamespace::OVRSkeletonRenderer::SystemGestureBehavior)>(&GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRSkeletonRenderer::ConfidenceBehavior>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRSkeletonRenderer::SystemGestureBehavior>()});
+    static auto* scale = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* shouldRender = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* shouldUseSystemGestureMaterial = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* confidenceBehavior = &::il2cpp_utils::GetClassFromName("", "OVRSkeletonRenderer/ConfidenceBehavior")->byval_arg;
+    static auto* systemGestureBehavior = &::il2cpp_utils::GetClassFromName("", "OVRSkeletonRenderer/SystemGestureBehavior")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRSkeletonRenderer::CapsuleVisualization*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scale, shouldRender, shouldUseSystemGestureMaterial, confidenceBehavior, systemGestureBehavior});
   }
 };

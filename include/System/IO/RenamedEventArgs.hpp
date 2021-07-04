@@ -45,7 +45,6 @@ namespace System::IO {
   static_assert(sizeof(RenamedEventArgs) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::RenamedEventArgs*, "System.IO", "RenamedEventArgs");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::IO::RenamedEventArgs::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

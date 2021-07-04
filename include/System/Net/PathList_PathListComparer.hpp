@@ -49,13 +49,14 @@ namespace System::Net {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::PathList::PathListComparer*, "System.Net", "PathList/PathListComparer");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::PathList::PathListComparer::System_Collections_IComparer_Compare
 // Il2CppName: System.Collections.IComparer.Compare
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::PathList::PathListComparer::*)(::Il2CppObject*, ::Il2CppObject*)>(&System::Net::PathList::PathListComparer::System_Collections_IComparer_Compare)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::PathList::PathListComparer*), "System.Collections.IComparer.Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* ol = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* _or = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::PathList::PathListComparer*), "System.Collections.IComparer.Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ol, _or});
   }
 };
 // Writing MetadataGetter for method: System::Net::PathList::PathListComparer::_cctor

@@ -102,7 +102,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MoveBackWall) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MoveBackWall*, "", "MoveBackWall");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MoveBackWall::Start
 // Il2CppName: Start
 template<>

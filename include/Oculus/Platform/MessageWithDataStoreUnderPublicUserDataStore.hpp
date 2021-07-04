@@ -48,13 +48,13 @@ namespace Oculus::Platform {
   }; // Oculus.Platform.MessageWithDataStoreUnderPublicUserDataStore
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::MessageWithDataStoreUnderPublicUserDataStore*, "Oculus.Platform", "MessageWithDataStoreUnderPublicUserDataStore");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithDataStoreUnderPublicUserDataStore::GetDataFromMessage
 // Il2CppName: GetDataFromMessage
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* (Oculus::Platform::MessageWithDataStoreUnderPublicUserDataStore::*)(System::IntPtr)>(&Oculus::Platform::MessageWithDataStoreUnderPublicUserDataStore::GetDataFromMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithDataStoreUnderPublicUserDataStore*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* c_message = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::MessageWithDataStoreUnderPublicUserDataStore*), "GetDataFromMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c_message});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::MessageWithDataStoreUnderPublicUserDataStore::New_ctor

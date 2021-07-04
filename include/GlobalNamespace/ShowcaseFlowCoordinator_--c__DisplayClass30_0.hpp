@@ -58,7 +58,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(ShowcaseFlowCoordinator::$$c__DisplayClass30_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass30_0*, "", "ShowcaseFlowCoordinator/<>c__DisplayClass30_0");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass30_0::$HandleResultsViewControllerRestartButtonPressed$b__0
 // Il2CppName: <HandleResultsViewControllerRestartButtonPressed>b__0
 template<>

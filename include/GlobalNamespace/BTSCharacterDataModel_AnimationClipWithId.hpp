@@ -62,7 +62,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(BTSCharacterDataModel::AnimationClipWithId) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId*, "", "BTSCharacterDataModel/AnimationClipWithId");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterDataModel::AnimationClipWithId::get_id
 // Il2CppName: get_id
 template<>

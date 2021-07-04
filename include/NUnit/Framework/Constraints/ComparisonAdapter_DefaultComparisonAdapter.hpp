@@ -36,7 +36,6 @@ namespace NUnit::Framework::Constraints {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ComparisonAdapter::DefaultComparisonAdapter*, "NUnit.Framework.Constraints", "ComparisonAdapter/DefaultComparisonAdapter");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ComparisonAdapter::DefaultComparisonAdapter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -77,7 +77,6 @@ namespace System::Threading::Tasks {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::$$c*, "System.Threading.Tasks", "Task/<>c");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Threading::Tasks::Task::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -91,7 +90,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::$$c::*)(::Il2CppObject*)>(&System::Threading::Tasks::Task::$$c::$Delay$b__276_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task::$$c*), "<Delay>b__276_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task::$$c*), "<Delay>b__276_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Tasks::Task::$$c::$Delay$b__276_1
@@ -99,7 +99,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Tasks::Task::$$c::*)(::Il2CppObject*)>(&System::Threading::Tasks::Task::$$c::$Delay$b__276_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task::$$c*), "<Delay>b__276_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task::$$c*), "<Delay>b__276_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Tasks::Task::$$c::$_cctor$b__295_0
@@ -115,7 +116,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::$$c::*)(System::Threading::Tasks::Task*)>(&System::Threading::Tasks::Task::$$c::$_cctor$b__295_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task::$$c*), "<.cctor>b__295_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Tasks::Task*>()});
+    static auto* t = &::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task::$$c*), "<.cctor>b__295_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Tasks::Task::$$c::$_cctor$b__295_2
@@ -123,7 +125,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Tasks::Task::$$c::*)(::Il2CppObject*)>(&System::Threading::Tasks::Task::$$c::$_cctor$b__295_2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task::$$c*), "<.cctor>b__295_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* tc = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task::$$c*), "<.cctor>b__295_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tc});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Tasks::Task::$$c::New_ctor

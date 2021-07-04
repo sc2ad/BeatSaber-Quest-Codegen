@@ -72,7 +72,6 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Tuple*, "System", "Tuple");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Tuple::Create
 // Il2CppName: Create
 // Cannot write MetadataGetter for generic methods!
@@ -87,7 +86,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Tuple*, "System", "Tuple");
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&System::Tuple::CombineHashCodes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Tuple*), "CombineHashCodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* h1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h2 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Tuple*), "CombineHashCodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{h1, h2});
   }
 };
 // Writing MetadataGetter for method: System::Tuple::CombineHashCodes
@@ -95,7 +96,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int, int)>(&System::Tuple::CombineHashCodes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Tuple*), "CombineHashCodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* h1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h2 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h3 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Tuple*), "CombineHashCodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{h1, h2, h3});
   }
 };
 // Writing MetadataGetter for method: System::Tuple::CombineHashCodes
@@ -103,6 +107,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int, int, int)>(&System::Tuple::CombineHashCodes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Tuple*), "CombineHashCodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* h1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h2 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h3 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h4 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Tuple*), "CombineHashCodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{h1, h2, h3, h4});
   }
 };

@@ -89,7 +89,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandardLevelBuyInfoView) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelBuyInfoView*, "", "StandardLevelBuyInfoView");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelBuyInfoView::get_buyLevelButton
 // Il2CppName: get_buyLevelButton
 template<>
@@ -119,7 +118,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StandardLevelBuyInfoView::*)(::Il2CppString*, bool)>(&GlobalNamespace::StandardLevelBuyInfoView::RefreshView)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelBuyInfoView*), "RefreshView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* infoText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* canBuyPack = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StandardLevelBuyInfoView*), "RefreshView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{infoText, canBuyPack});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelBuyInfoView::New_ctor

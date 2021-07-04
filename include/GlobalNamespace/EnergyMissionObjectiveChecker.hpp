@@ -70,7 +70,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnergyMissionObjectiveChecker) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnergyMissionObjectiveChecker*, "", "EnergyMissionObjectiveChecker");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::EnergyMissionObjectiveChecker::OnDestroy
 // Il2CppName: OnDestroy
 template<>
@@ -84,7 +83,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EnergyMissionObjectiveChecker::*)(float)>(&GlobalNamespace::EnergyMissionObjectiveChecker::HandleEnergyDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnergyMissionObjectiveChecker*), "HandleEnergyDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* energy = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnergyMissionObjectiveChecker*), "HandleEnergyDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{energy});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::EnergyMissionObjectiveChecker::CheckAndUpdateStatus

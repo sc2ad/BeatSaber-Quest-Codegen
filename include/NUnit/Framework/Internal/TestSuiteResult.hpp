@@ -116,8 +116,6 @@ namespace NUnit::Framework::Internal {
   static_assert(sizeof(TestSuiteResult) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestSuiteResult*, "NUnit.Framework.Internal", "TestSuiteResult");
-// Writing includes for template specializations
-#include "NUnit/Framework/Internal/TestSuite.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuiteResult::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -127,7 +125,8 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestSuiteResult*, "NUnit.Fram
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestSuiteResult::*)(NUnit::Framework::Interfaces::ITestResult*)>(&NUnit::Framework::Internal::TestSuiteResult::AddResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestSuiteResult*), "AddResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestResult*>()});
+    static auto* result = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITestResult")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestSuiteResult*), "AddResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuiteResult::get_FailCount

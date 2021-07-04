@@ -164,7 +164,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(FlickeringNeonSign) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlickeringNeonSign*, "", "FlickeringNeonSign");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FlickeringNeonSign::Awake
 // Il2CppName: Awake
 template<>
@@ -202,7 +201,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlickeringNeonSign::*)(bool)>(&GlobalNamespace::FlickeringNeonSign::SetOn)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlickeringNeonSign*), "SetOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* on = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlickeringNeonSign*), "SetOn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{on});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::FlickeringNeonSign::New_ctor

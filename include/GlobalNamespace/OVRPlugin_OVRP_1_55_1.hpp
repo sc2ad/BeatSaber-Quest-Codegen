@@ -40,15 +40,14 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_55_1*, "", "OVRPlugin/OVRP_1_55_1");
-// Writing includes for template specializations
-#include "GlobalNamespace/OVRPlugin_EventType.hpp"
-#include "System/IntPtr.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_55_1::ovrp_PollEvent2
 // Il2CppName: ovrp_PollEvent2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(GlobalNamespace::OVRPlugin::EventType&, System::IntPtr&)>(&GlobalNamespace::OVRPlugin::OVRP_1_55_1::ovrp_PollEvent2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_55_1*), "ovrp_PollEvent2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::EventType&>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>()});
+    static auto* eventType = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/EventType")->this_arg;
+    static auto* eventData = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_55_1*), "ovrp_PollEvent2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventType, eventData});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_55_1::_cctor

@@ -71,14 +71,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteCutHapticEffect) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutHapticEffect*, "", "NoteCutHapticEffect");
-// Writing includes for template specializations
-#include "GlobalNamespace/SaberType.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutHapticEffect::HitNote
 // Il2CppName: HitNote
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutHapticEffect::*)(GlobalNamespace::SaberType)>(&GlobalNamespace::NoteCutHapticEffect::HitNote)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutHapticEffect*), "HitNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberType>()});
+    static auto* saberType = &::il2cpp_utils::GetClassFromName("", "SaberType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutHapticEffect*), "HitNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saberType});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutHapticEffect::New_ctor

@@ -216,8 +216,6 @@ namespace System::Threading {
   static_assert(sizeof(ManualResetEventSlim) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ManualResetEventSlim*, "System.Threading", "ManualResetEventSlim");
-// Writing includes for template specializations
-#include "System/Threading/CancellationToken.hpp"
 // Writing MetadataGetter for method: System::Threading::ManualResetEventSlim::get_WaitHandle
 // Il2CppName: get_WaitHandle
 template<>
@@ -239,7 +237,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ManualResetEventSlim::*)(bool)>(&System::Threading::ManualResetEventSlim::set_IsSet)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::ManualResetEventSlim*), "set_IsSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ManualResetEventSlim*), "set_IsSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Threading::ManualResetEventSlim::get_SpinCount
@@ -255,7 +254,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ManualResetEventSlim::*)(int)>(&System::Threading::ManualResetEventSlim::set_SpinCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::ManualResetEventSlim*), "set_SpinCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ManualResetEventSlim*), "set_SpinCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Threading::ManualResetEventSlim::get_Waiters
@@ -271,7 +271,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ManualResetEventSlim::*)(int)>(&System::Threading::ManualResetEventSlim::set_Waiters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::ManualResetEventSlim*), "set_Waiters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ManualResetEventSlim*), "set_Waiters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Threading::ManualResetEventSlim::New_ctor
@@ -287,7 +288,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ManualResetEventSlim::*)(bool, int)>(&System::Threading::ManualResetEventSlim::Initialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::ManualResetEventSlim*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* initialState = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* spinCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ManualResetEventSlim*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{initialState, spinCount});
   }
 };
 // Writing MetadataGetter for method: System::Threading::ManualResetEventSlim::EnsureLockObjectCreated
@@ -319,7 +322,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ManualResetEventSlim::*)(bool)>(&System::Threading::ManualResetEventSlim::Set)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::ManualResetEventSlim*), "Set", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* duringCancellation = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ManualResetEventSlim*), "Set", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{duringCancellation});
   }
 };
 // Writing MetadataGetter for method: System::Threading::ManualResetEventSlim::Wait
@@ -327,7 +331,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ManualResetEventSlim::*)(int, System::Threading::CancellationToken)>(&System::Threading::ManualResetEventSlim::Wait)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::ManualResetEventSlim*), "Wait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    static auto* millisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ManualResetEventSlim*), "Wait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{millisecondsTimeout, cancellationToken});
   }
 };
 // Writing MetadataGetter for method: System::Threading::ManualResetEventSlim::Dispose
@@ -343,7 +349,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ManualResetEventSlim::*)(bool)>(&System::Threading::ManualResetEventSlim::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::ManualResetEventSlim*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* disposing = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ManualResetEventSlim*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{disposing});
   }
 };
 // Writing MetadataGetter for method: System::Threading::ManualResetEventSlim::ThrowIfDisposed
@@ -359,7 +366,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::Threading::ManualResetEventSlim::CancellationTokenCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::ManualResetEventSlim*), "CancellationTokenCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ManualResetEventSlim*), "CancellationTokenCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
 // Writing MetadataGetter for method: System::Threading::ManualResetEventSlim::UpdateStateAtomically
@@ -367,7 +375,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::ManualResetEventSlim::*)(int, int)>(&System::Threading::ManualResetEventSlim::UpdateStateAtomically)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::ManualResetEventSlim*), "UpdateStateAtomically", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* newBits = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* updateBitsMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ManualResetEventSlim*), "UpdateStateAtomically", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newBits, updateBitsMask});
   }
 };
 // Writing MetadataGetter for method: System::Threading::ManualResetEventSlim::ExtractStatePortionAndShiftRight
@@ -375,7 +385,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int, int)>(&System::Threading::ManualResetEventSlim::ExtractStatePortionAndShiftRight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::ManualResetEventSlim*), "ExtractStatePortionAndShiftRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* state = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* mask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* rightBitShiftCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ManualResetEventSlim*), "ExtractStatePortionAndShiftRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state, mask, rightBitShiftCount});
   }
 };
 // Writing MetadataGetter for method: System::Threading::ManualResetEventSlim::ExtractStatePortion
@@ -383,7 +396,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&System::Threading::ManualResetEventSlim::ExtractStatePortion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::ManualResetEventSlim*), "ExtractStatePortion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* state = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* mask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ManualResetEventSlim*), "ExtractStatePortion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state, mask});
   }
 };
 // Writing MetadataGetter for method: System::Threading::ManualResetEventSlim::_cctor

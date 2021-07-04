@@ -58,7 +58,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRMonoscopic) == 0x1D);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMonoscopic*, "", "OVRMonoscopic");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRMonoscopic::Update
 // Il2CppName: Update
 template<>

@@ -237,10 +237,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(SteamVR_Render) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Render*, "", "SteamVR_Render");
-// Writing includes for template specializations
-#include "GlobalNamespace/SteamVR_Camera.hpp"
-#include "Valve/VR/VREvent_t.hpp"
-#include "Valve/VR/EVRScreenshotPropertyFilenames.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Render::get_eye
 // Il2CppName: get_eye
 template<>
@@ -254,7 +250,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Valve::VR::EVREye)>(&GlobalNamespace::SteamVR_Render::set_eye)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Render*), "set_eye", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVREye>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVREye")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Render*), "set_eye", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Render::get_instance
@@ -286,7 +283,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::SteamVR_Camera*)>(&GlobalNamespace::SteamVR_Render::Add)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Render*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SteamVR_Camera*>()});
+    static auto* vrcam = &::il2cpp_utils::GetClassFromName("", "SteamVR_Camera")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Render*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vrcam});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Render::Remove
@@ -294,7 +292,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::SteamVR_Camera*)>(&GlobalNamespace::SteamVR_Render::Remove)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Render*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SteamVR_Camera*>()});
+    static auto* vrcam = &::il2cpp_utils::GetClassFromName("", "SteamVR_Camera")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Render*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vrcam});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Render::Top
@@ -310,7 +309,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Render::*)(GlobalNamespace::SteamVR_Camera*)>(&GlobalNamespace::SteamVR_Render::AddInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Render*), "AddInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SteamVR_Camera*>()});
+    static auto* vrcam = &::il2cpp_utils::GetClassFromName("", "SteamVR_Camera")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Render*), "AddInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vrcam});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Render::RemoveInternal
@@ -318,7 +318,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Render::*)(GlobalNamespace::SteamVR_Camera*)>(&GlobalNamespace::SteamVR_Render::RemoveInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Render*), "RemoveInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SteamVR_Camera*>()});
+    static auto* vrcam = &::il2cpp_utils::GetClassFromName("", "SteamVR_Camera")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Render*), "RemoveInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vrcam});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Render::TopInternal
@@ -342,7 +343,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&GlobalNamespace::SteamVR_Render::set_pauseRendering)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Render*), "set_pauseRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Render*), "set_pauseRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Render::RenderLoop
@@ -366,7 +368,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Render::*)(bool)>(&GlobalNamespace::SteamVR_Render::OnInputFocus)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Render*), "OnInputFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* hasFocus = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Render*), "OnInputFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hasFocus});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Render::OnQuit
@@ -374,7 +377,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Render::*)(Valve::VR::VREvent_t)>(&GlobalNamespace::SteamVR_Render::OnQuit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Render*), "OnQuit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::VREvent_t>()});
+    static auto* vrEvent = &::il2cpp_utils::GetClassFromName("Valve.VR", "VREvent_t")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Render*), "OnQuit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vrEvent});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Render::GetScreenshotFilename
@@ -382,7 +386,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SteamVR_Render::*)(uint, Valve::VR::EVRScreenshotPropertyFilenames)>(&GlobalNamespace::SteamVR_Render::GetScreenshotFilename)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Render*), "GetScreenshotFilename", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRScreenshotPropertyFilenames>()});
+    static auto* screenshotHandle = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* screenshotPropertyFilename = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRScreenshotPropertyFilenames")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Render*), "GetScreenshotFilename", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{screenshotHandle, screenshotPropertyFilename});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Render::OnRequestScreenshot
@@ -390,7 +396,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Render::*)(Valve::VR::VREvent_t)>(&GlobalNamespace::SteamVR_Render::OnRequestScreenshot)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Render*), "OnRequestScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::VREvent_t>()});
+    static auto* vrEvent = &::il2cpp_utils::GetClassFromName("Valve.VR", "VREvent_t")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Render*), "OnRequestScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vrEvent});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Render::OnEnable

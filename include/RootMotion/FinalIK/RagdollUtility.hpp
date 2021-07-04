@@ -225,7 +225,6 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(RagdollUtility) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RagdollUtility*, "RootMotion.FinalIK", "RagdollUtility");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::RagdollUtility::EnableRagdoll
 // Il2CppName: EnableRagdoll
 template<>
@@ -351,7 +350,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RagdollUtility::*)(float)>(&RootMotion::FinalIK::RagdollUtility::FixTransforms)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RagdollUtility*), "FixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RagdollUtility*), "FixTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{weight});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::RagdollUtility::OnDestroy

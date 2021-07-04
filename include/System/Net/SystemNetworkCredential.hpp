@@ -40,7 +40,6 @@ namespace System::Net {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::SystemNetworkCredential*, "System.Net", "SystemNetworkCredential");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::SystemNetworkCredential::_cctor
 // Il2CppName: .cctor
 template<>

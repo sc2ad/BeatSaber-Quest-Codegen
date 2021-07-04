@@ -78,7 +78,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(SteamVR_Ears) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Ears*, "", "SteamVR_Ears");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Ears::OnNewPosesApplied
 // Il2CppName: OnNewPosesApplied
 template<>

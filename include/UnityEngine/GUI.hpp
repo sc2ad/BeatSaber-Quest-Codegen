@@ -310,19 +310,6 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::GUI*, "UnityEngine", "GUI");
-// Writing includes for template specializations
-#include "UnityEngine/Color.hpp"
-#include "UnityEngine/GUISkin.hpp"
-#include "UnityEngine/Rect.hpp"
-#include "UnityEngine/GUIContent.hpp"
-#include "UnityEngine/GUIStyle.hpp"
-#include "UnityEngine/Texture.hpp"
-#include "UnityEngine/ScaleMode.hpp"
-#include "UnityEngine/Vector4.hpp"
-#include "UnityEngine/FocusType.hpp"
-#include "UnityEngine/TextEditor.hpp"
-#include "UnityEngine/Vector2.hpp"
-#include "UnityEngine/GUI_WindowFunction.hpp"
 // Writing MetadataGetter for method: UnityEngine::GUI::get_color
 // Il2CppName: get_color
 template<>
@@ -336,7 +323,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Color)>(&UnityEngine::GUI::set_color)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "set_color", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::set_changed
@@ -344,7 +332,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&UnityEngine::GUI::set_changed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "set_changed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "set_changed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::get_usePageScrollbars
@@ -392,7 +381,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&UnityEngine::GUI::GrabMouseControl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "GrabMouseControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "GrabMouseControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::HasMouseControl
@@ -400,7 +390,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int)>(&UnityEngine::GUI::HasMouseControl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "HasMouseControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "HasMouseControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::ReleaseMouseControl
@@ -440,7 +431,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&UnityEngine::GUI::set_scrollTroughSide)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "set_scrollTroughSide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "set_scrollTroughSide", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::get_nextScrollStepTime
@@ -456,7 +448,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::DateTime)>(&UnityEngine::GUI::set_nextScrollStepTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "set_nextScrollStepTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "set_nextScrollStepTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::set_skin
@@ -464,7 +457,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GUISkin*)>(&UnityEngine::GUI::set_skin)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "set_skin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUISkin*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUISkin")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "set_skin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::get_skin
@@ -480,7 +474,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GUISkin*)>(&UnityEngine::GUI::DoSetSkin)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DoSetSkin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUISkin*>()});
+    static auto* newSkin = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUISkin")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DoSetSkin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newSkin});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::Label
@@ -488,7 +483,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::GUIContent*, UnityEngine::GUIStyle*)>(&UnityEngine::GUI::Label)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "Label", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* content = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
+    static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "Label", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, content, style});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::DrawTexture
@@ -496,7 +494,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::Texture*)>(&UnityEngine::GUI::DrawTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* image = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, image});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::DrawTexture
@@ -504,7 +504,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::Texture*, UnityEngine::ScaleMode)>(&UnityEngine::GUI::DrawTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ScaleMode>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* image = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* scaleMode = &::il2cpp_utils::GetClassFromName("UnityEngine", "ScaleMode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, image, scaleMode});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::DrawTexture
@@ -512,7 +515,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::Texture*, UnityEngine::ScaleMode, bool)>(&UnityEngine::GUI::DrawTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ScaleMode>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* image = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* scaleMode = &::il2cpp_utils::GetClassFromName("UnityEngine", "ScaleMode")->byval_arg;
+    static auto* alphaBlend = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, image, scaleMode, alphaBlend});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::DrawTexture
@@ -520,7 +527,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::Texture*, UnityEngine::ScaleMode, bool, float)>(&UnityEngine::GUI::DrawTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ScaleMode>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* image = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* scaleMode = &::il2cpp_utils::GetClassFromName("UnityEngine", "ScaleMode")->byval_arg;
+    static auto* alphaBlend = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* imageAspect = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, image, scaleMode, alphaBlend, imageAspect});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::DrawTexture
@@ -528,7 +540,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::Texture*, UnityEngine::ScaleMode, bool, float, UnityEngine::Color, float, float)>(&UnityEngine::GUI::DrawTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ScaleMode>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* image = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* scaleMode = &::il2cpp_utils::GetClassFromName("UnityEngine", "ScaleMode")->byval_arg;
+    static auto* alphaBlend = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* imageAspect = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    static auto* borderWidth = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* borderRadius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, image, scaleMode, alphaBlend, imageAspect, color, borderWidth, borderRadius});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::DrawTexture
@@ -536,7 +556,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::Texture*, UnityEngine::ScaleMode, bool, float, UnityEngine::Color, UnityEngine::Vector4, float)>(&UnityEngine::GUI::DrawTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ScaleMode>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* image = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* scaleMode = &::il2cpp_utils::GetClassFromName("UnityEngine", "ScaleMode")->byval_arg;
+    static auto* alphaBlend = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* imageAspect = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    static auto* borderWidths = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
+    static auto* borderRadius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, image, scaleMode, alphaBlend, imageAspect, color, borderWidths, borderRadius});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::DrawTexture
@@ -544,7 +572,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::Texture*, UnityEngine::ScaleMode, bool, float, UnityEngine::Color, UnityEngine::Vector4, UnityEngine::Vector4)>(&UnityEngine::GUI::DrawTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ScaleMode>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* image = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* scaleMode = &::il2cpp_utils::GetClassFromName("UnityEngine", "ScaleMode")->byval_arg;
+    static auto* alphaBlend = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* imageAspect = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    static auto* borderWidths = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
+    static auto* borderRadiuses = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, image, scaleMode, alphaBlend, imageAspect, color, borderWidths, borderRadiuses});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::DrawTexture
@@ -552,7 +588,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::Texture*, UnityEngine::ScaleMode, bool, float, UnityEngine::Color, UnityEngine::Vector4, UnityEngine::Vector4, bool)>(&UnityEngine::GUI::DrawTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ScaleMode>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* image = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* scaleMode = &::il2cpp_utils::GetClassFromName("UnityEngine", "ScaleMode")->byval_arg;
+    static auto* alphaBlend = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* imageAspect = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    static auto* borderWidths = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
+    static auto* borderRadiuses = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
+    static auto* drawSmoothCorners = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, image, scaleMode, alphaBlend, imageAspect, color, borderWidths, borderRadiuses, drawSmoothCorners});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::DrawTexture
@@ -560,7 +605,19 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::Texture*, UnityEngine::ScaleMode, bool, float, UnityEngine::Color, UnityEngine::Color, UnityEngine::Color, UnityEngine::Color, UnityEngine::Vector4, UnityEngine::Vector4, bool)>(&UnityEngine::GUI::DrawTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ScaleMode>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* image = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* scaleMode = &::il2cpp_utils::GetClassFromName("UnityEngine", "ScaleMode")->byval_arg;
+    static auto* alphaBlend = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* imageAspect = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* leftColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    static auto* topColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    static auto* rightColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    static auto* bottomColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    static auto* borderWidths = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
+    static auto* borderRadiuses = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
+    static auto* drawSmoothCorners = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, image, scaleMode, alphaBlend, imageAspect, leftColor, topColor, rightColor, bottomColor, borderWidths, borderRadiuses, drawSmoothCorners});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::CalculateScaledTextureRects
@@ -568,7 +625,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Rect, UnityEngine::ScaleMode, float, UnityEngine::Rect&, UnityEngine::Rect&)>(&UnityEngine::GUI::CalculateScaledTextureRects)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "CalculateScaledTextureRects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ScaleMode>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* scaleMode = &::il2cpp_utils::GetClassFromName("UnityEngine", "ScaleMode")->byval_arg;
+    static auto* imageAspect = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* outScreenRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->this_arg;
+    static auto* outSourceRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "CalculateScaledTextureRects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, scaleMode, imageAspect, outScreenRect, outSourceRect});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::DrawTextureWithTexCoords
@@ -576,7 +638,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::Texture*, UnityEngine::Rect)>(&UnityEngine::GUI::DrawTextureWithTexCoords)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DrawTextureWithTexCoords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* image = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* texCoords = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DrawTextureWithTexCoords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, image, texCoords});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::DrawTextureWithTexCoords
@@ -584,7 +649,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::Texture*, UnityEngine::Rect, bool)>(&UnityEngine::GUI::DrawTextureWithTexCoords)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DrawTextureWithTexCoords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* image = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* texCoords = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* alphaBlend = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DrawTextureWithTexCoords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, image, texCoords, alphaBlend});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::Box
@@ -592,7 +661,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::GUIContent*, UnityEngine::GUIStyle*)>(&UnityEngine::GUI::Box)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "Box", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* content = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
+    static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "Box", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, content, style});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::Button
@@ -600,7 +672,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Rect, UnityEngine::GUIContent*, UnityEngine::GUIStyle*)>(&UnityEngine::GUI::Button)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "Button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* content = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
+    static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "Button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, content, style});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::Button
@@ -608,7 +683,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Rect, int, UnityEngine::GUIContent*, UnityEngine::GUIStyle*)>(&UnityEngine::GUI::Button)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "Button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* content = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
+    static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "Button", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, id, content, style});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::DoRepeatButton
@@ -616,7 +695,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Rect, UnityEngine::GUIContent*, UnityEngine::GUIStyle*, UnityEngine::FocusType)>(&UnityEngine::GUI::DoRepeatButton)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DoRepeatButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::FocusType>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* content = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
+    static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    static auto* focusType = &::il2cpp_utils::GetClassFromName("UnityEngine", "FocusType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DoRepeatButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, content, style, focusType});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::PasswordFieldGetStrToShow
@@ -624,7 +707,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppChar)>(&UnityEngine::GUI::PasswordFieldGetStrToShow)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "PasswordFieldGetStrToShow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* maskChar = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "PasswordFieldGetStrToShow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{password, maskChar});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::DoTextField
@@ -632,7 +717,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, int, UnityEngine::GUIContent*, bool, int, UnityEngine::GUIStyle*)>(&UnityEngine::GUI::DoTextField)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DoTextField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* content = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
+    static auto* multiline = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* maxLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DoTextField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, id, content, multiline, maxLength, style});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::DoTextField
@@ -640,7 +731,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, int, UnityEngine::GUIContent*, bool, int, UnityEngine::GUIStyle*, ::Il2CppString*)>(&UnityEngine::GUI::DoTextField)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DoTextField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* content = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
+    static auto* multiline = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* maxLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    static auto* secureText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DoTextField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, id, content, multiline, maxLength, style, secureText});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::DoTextField
@@ -648,7 +746,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, int, UnityEngine::GUIContent*, bool, int, UnityEngine::GUIStyle*, ::Il2CppString*, ::Il2CppChar)>(&UnityEngine::GUI::DoTextField)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DoTextField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* content = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
+    static auto* multiline = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* maxLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    static auto* secureText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* maskChar = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DoTextField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, id, content, multiline, maxLength, style, secureText, maskChar});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::HandleTextFieldEventForTouchscreen
@@ -656,7 +762,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, int, UnityEngine::GUIContent*, bool, int, UnityEngine::GUIStyle*, ::Il2CppString*, ::Il2CppChar, UnityEngine::TextEditor*)>(&UnityEngine::GUI::HandleTextFieldEventForTouchscreen)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "HandleTextFieldEventForTouchscreen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextEditor*>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* content = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
+    static auto* multiline = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* maxLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    static auto* secureText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* maskChar = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    static auto* editor = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextEditor")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "HandleTextFieldEventForTouchscreen", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, id, content, multiline, maxLength, style, secureText, maskChar, editor});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::HandleTextFieldEventForDesktop
@@ -664,7 +779,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, int, UnityEngine::GUIContent*, bool, int, UnityEngine::GUIStyle*, UnityEngine::TextEditor*)>(&UnityEngine::GUI::HandleTextFieldEventForDesktop)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "HandleTextFieldEventForDesktop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextEditor*>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* content = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
+    static auto* multiline = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* maxLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    static auto* editor = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextEditor")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "HandleTextFieldEventForDesktop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, id, content, multiline, maxLength, style, editor});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::Toggle
@@ -672,7 +794,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Rect, bool, UnityEngine::GUIContent*, UnityEngine::GUIStyle*)>(&UnityEngine::GUI::Toggle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "Toggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* content = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
+    static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "Toggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, value, content, style});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::DoControl
@@ -680,7 +806,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Rect, int, bool, bool, UnityEngine::GUIContent*, UnityEngine::GUIStyle*)>(&UnityEngine::GUI::DoControl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DoControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* on = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* hover = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* content = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
+    static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DoControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, id, on, hover, content, style});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::DoLabel
@@ -688,7 +820,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::GUIContent*, UnityEngine::GUIStyle*)>(&UnityEngine::GUI::DoLabel)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DoLabel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* content = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
+    static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DoLabel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, content, style});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::DoToggle
@@ -696,7 +831,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Rect, int, bool, UnityEngine::GUIContent*, UnityEngine::GUIStyle*)>(&UnityEngine::GUI::DoToggle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DoToggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* content = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
+    static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DoToggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, id, value, content, style});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::DoButton
@@ -704,7 +844,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Rect, int, UnityEngine::GUIContent*, UnityEngine::GUIStyle*)>(&UnityEngine::GUI::DoButton)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DoButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* content = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
+    static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "DoButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, id, content, style});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::HorizontalSlider
@@ -712,7 +856,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Rect, float, float, float, UnityEngine::GUIStyle*, UnityEngine::GUIStyle*)>(&UnityEngine::GUI::HorizontalSlider)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "HorizontalSlider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* leftValue = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* rightValue = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* slider = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    static auto* thumb = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "HorizontalSlider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, value, leftValue, rightValue, slider, thumb});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::Slider
@@ -720,7 +870,17 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(U
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Rect, float, float, float, float, UnityEngine::GUIStyle*, UnityEngine::GUIStyle*, bool, int, UnityEngine::GUIStyle*)>(&UnityEngine::GUI::Slider)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "Slider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* size = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* end = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* slider = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    static auto* thumb = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    static auto* horiz = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* thumbExtent = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "Slider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, value, size, start, end, slider, thumb, horiz, id, thumbExtent});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::HorizontalScrollbar
@@ -728,7 +888,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(U
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Rect, float, float, float, float, UnityEngine::GUIStyle*)>(&UnityEngine::GUI::HorizontalScrollbar)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "HorizontalScrollbar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* size = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* leftValue = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* rightValue = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "HorizontalScrollbar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, value, size, leftValue, rightValue, style});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::ScrollerRepeatButton
@@ -736,7 +902,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(U
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, UnityEngine::Rect, UnityEngine::GUIStyle*)>(&UnityEngine::GUI::ScrollerRepeatButton)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "ScrollerRepeatButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+    static auto* scrollerID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "ScrollerRepeatButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scrollerID, rect, style});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::VerticalScrollbar
@@ -744,7 +913,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Rect, float, float, float, float, UnityEngine::GUIStyle*)>(&UnityEngine::GUI::VerticalScrollbar)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "VerticalScrollbar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* size = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* topValue = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* bottomValue = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "VerticalScrollbar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, value, size, topValue, bottomValue, style});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::Scroller
@@ -752,7 +927,17 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(U
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::Rect, float, float, float, float, UnityEngine::GUIStyle*, UnityEngine::GUIStyle*, UnityEngine::GUIStyle*, UnityEngine::GUIStyle*, bool)>(&UnityEngine::GUI::Scroller)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "Scroller", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* size = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* leftValue = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* rightValue = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* slider = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    static auto* thumb = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    static auto* leftButton = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    static auto* rightButton = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    static auto* horiz = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "Scroller", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, value, size, leftValue, rightValue, slider, thumb, leftButton, rightButton, horiz});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::BeginGroup
@@ -760,7 +945,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(U
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::GUIContent*, UnityEngine::GUIStyle*)>(&UnityEngine::GUI::BeginGroup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "BeginGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* content = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
+    static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "BeginGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, content, style});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::BeginGroup
@@ -768,7 +956,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rect, UnityEngine::GUIContent*, UnityEngine::GUIStyle*, UnityEngine::Vector2)>(&UnityEngine::GUI::BeginGroup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "BeginGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIContent*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* content = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
+    static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    static auto* scrollOffset = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "BeginGroup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, content, style, scrollOffset});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::EndGroup
@@ -792,7 +984,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Rect, UnityEngine::Vector2, UnityEngine::Rect, bool, bool, UnityEngine::GUIStyle*, UnityEngine::GUIStyle*, UnityEngine::GUIStyle*)>(&UnityEngine::GUI::BeginScrollView)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "BeginScrollView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* scrollPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* viewRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* alwaysShowHorizontal = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* alwaysShowVertical = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* horizontalScrollbar = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    static auto* verticalScrollbar = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    static auto* background = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "BeginScrollView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, scrollPosition, viewRect, alwaysShowHorizontal, alwaysShowVertical, horizontalScrollbar, verticalScrollbar, background});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::EndScrollView
@@ -800,7 +1000,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&UnityEngine::GUI::EndScrollView)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "EndScrollView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* handleScrollWheel = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "EndScrollView", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handleScrollWheel});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::CallWindowDelegate
@@ -808,7 +1009,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GUI::WindowFunction*, int, int, UnityEngine::GUISkin*, int, float, float, UnityEngine::GUIStyle*)>(&UnityEngine::GUI::CallWindowDelegate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "CallWindowDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GUI::WindowFunction*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUISkin*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GUIStyle*>()});
+    static auto* func = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUI/WindowFunction")->byval_arg;
+    static auto* id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* instanceID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* _skin = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUISkin")->byval_arg;
+    static auto* forceRect = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* width = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* height = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "CallWindowDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{func, id, instanceID, _skin, forceRect, width, height, style});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::get_color_Injected
@@ -816,7 +1025,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Color&)>(&UnityEngine::GUI::get_color_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "get_color_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>()});
+    static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "get_color_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::GUI::set_color_Injected
@@ -824,6 +1034,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Color&)>(&UnityEngine::GUI::set_color_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "set_color_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color&>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUI*), "set_color_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };

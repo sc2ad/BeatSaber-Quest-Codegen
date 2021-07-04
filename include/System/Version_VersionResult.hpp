@@ -83,13 +83,14 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Version::VersionResult, "System", "Version/VersionResult");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Version::VersionResult::Init
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Version::VersionResult::*)(::Il2CppString*, bool)>(&System::Version::VersionResult::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Version::VersionResult), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* argumentName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* canThrow = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Version::VersionResult), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{argumentName, canThrow});
   }
 };
 // Writing MetadataGetter for method: System::Version::VersionResult::SetFailure
@@ -97,7 +98,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Version::VersionResult::*)(System::Version::ParseFailureKind)>(&System::Version::VersionResult::SetFailure)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Version::VersionResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Version::ParseFailureKind>()});
+    static auto* failure = &::il2cpp_utils::GetClassFromName("System", "Version/ParseFailureKind")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Version::VersionResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{failure});
   }
 };
 // Writing MetadataGetter for method: System::Version::VersionResult::SetFailure
@@ -105,7 +107,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Version::VersionResult::*)(System::Version::ParseFailureKind, ::Il2CppString*)>(&System::Version::VersionResult::SetFailure)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Version::VersionResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Version::ParseFailureKind>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* failure = &::il2cpp_utils::GetClassFromName("System", "Version/ParseFailureKind")->byval_arg;
+    static auto* argument = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Version::VersionResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{failure, argument});
   }
 };
 // Writing MetadataGetter for method: System::Version::VersionResult::GetVersionParseException

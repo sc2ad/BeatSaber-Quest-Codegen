@@ -43,7 +43,6 @@ namespace Assets::OVR::Scripts {
   static_assert(sizeof(Record) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Assets::OVR::Scripts::Record*, "Assets.OVR.Scripts", "Record");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Assets::OVR::Scripts::Record::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

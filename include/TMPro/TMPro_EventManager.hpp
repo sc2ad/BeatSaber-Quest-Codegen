@@ -148,15 +148,6 @@ namespace TMPro {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMPro_EventManager*, "TMPro", "TMPro_EventManager");
-// Writing includes for template specializations
-#include "UnityEngine/Material.hpp"
-#include "TMPro/TMP_FontAsset.hpp"
-#include "UnityEngine/Object.hpp"
-#include "TMPro/TextMeshPro.hpp"
-#include "UnityEngine/GameObject.hpp"
-#include "TMPro/TMP_ColorGradient.hpp"
-#include "TMPro/TextMeshProUGUI.hpp"
-#include "TMPro/Compute_DT_EventArgs.hpp"
 // Writing MetadataGetter for method: TMPro::TMPro_EventManager::ON_PRE_RENDER_OBJECT_CHANGED
 // Il2CppName: ON_PRE_RENDER_OBJECT_CHANGED
 template<>
@@ -170,7 +161,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, UnityEngine::Material*)>(&TMPro::TMPro_EventManager::ON_MATERIAL_PROPERTY_CHANGED)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_EventManager*), "ON_MATERIAL_PROPERTY_CHANGED", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    static auto* isChanged = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* mat = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_EventManager*), "ON_MATERIAL_PROPERTY_CHANGED", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isChanged, mat});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMPro_EventManager::ON_FONT_PROPERTY_CHANGED
@@ -178,7 +171,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, TMPro::TMP_FontAsset*)>(&TMPro::TMPro_EventManager::ON_FONT_PROPERTY_CHANGED)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_EventManager*), "ON_FONT_PROPERTY_CHANGED", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*>()});
+    static auto* isChanged = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* font = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_FontAsset")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_EventManager*), "ON_FONT_PROPERTY_CHANGED", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isChanged, font});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMPro_EventManager::ON_SPRITE_ASSET_PROPERTY_CHANGED
@@ -186,7 +181,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, UnityEngine::Object*)>(&TMPro::TMPro_EventManager::ON_SPRITE_ASSET_PROPERTY_CHANGED)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_EventManager*), "ON_SPRITE_ASSET_PROPERTY_CHANGED", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    static auto* isChanged = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_EventManager*), "ON_SPRITE_ASSET_PROPERTY_CHANGED", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isChanged, obj});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMPro_EventManager::ON_TEXTMESHPRO_PROPERTY_CHANGED
@@ -194,7 +191,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, TMPro::TextMeshPro*)>(&TMPro::TMPro_EventManager::ON_TEXTMESHPRO_PROPERTY_CHANGED)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_EventManager*), "ON_TEXTMESHPRO_PROPERTY_CHANGED", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TextMeshPro*>()});
+    static auto* isChanged = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* obj = &::il2cpp_utils::GetClassFromName("TMPro", "TextMeshPro")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_EventManager*), "ON_TEXTMESHPRO_PROPERTY_CHANGED", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isChanged, obj});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMPro_EventManager::ON_DRAG_AND_DROP_MATERIAL_CHANGED
@@ -202,7 +201,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::GameObject*, UnityEngine::Material*, UnityEngine::Material*)>(&TMPro::TMPro_EventManager::ON_DRAG_AND_DROP_MATERIAL_CHANGED)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_EventManager*), "ON_DRAG_AND_DROP_MATERIAL_CHANGED", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    static auto* sender = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
+    static auto* currentMaterial = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    static auto* newMaterial = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_EventManager*), "ON_DRAG_AND_DROP_MATERIAL_CHANGED", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sender, currentMaterial, newMaterial});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMPro_EventManager::ON_TEXT_STYLE_PROPERTY_CHANGED
@@ -210,7 +212,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&TMPro::TMPro_EventManager::ON_TEXT_STYLE_PROPERTY_CHANGED)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_EventManager*), "ON_TEXT_STYLE_PROPERTY_CHANGED", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* isChanged = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_EventManager*), "ON_TEXT_STYLE_PROPERTY_CHANGED", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isChanged});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMPro_EventManager::ON_COLOR_GRAIDENT_PROPERTY_CHANGED
@@ -218,7 +221,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(TMPro::TMP_ColorGradient*)>(&TMPro::TMPro_EventManager::ON_COLOR_GRAIDENT_PROPERTY_CHANGED)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_EventManager*), "ON_COLOR_GRAIDENT_PROPERTY_CHANGED", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_ColorGradient*>()});
+    static auto* gradient = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_ColorGradient")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_EventManager*), "ON_COLOR_GRAIDENT_PROPERTY_CHANGED", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gradient});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMPro_EventManager::ON_TEXT_CHANGED
@@ -226,7 +230,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(TM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*)>(&TMPro::TMPro_EventManager::ON_TEXT_CHANGED)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_EventManager*), "ON_TEXT_CHANGED", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_EventManager*), "ON_TEXT_CHANGED", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMPro_EventManager::ON_TMP_SETTINGS_CHANGED
@@ -250,7 +255,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, TMPro::TextMeshProUGUI*)>(&TMPro::TMPro_EventManager::ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_EventManager*), "ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TextMeshProUGUI*>()});
+    static auto* isChanged = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* obj = &::il2cpp_utils::GetClassFromName("TMPro", "TextMeshProUGUI")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_EventManager*), "ON_TEXTMESHPRO_UGUI_PROPERTY_CHANGED", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isChanged, obj});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMPro_EventManager::ON_COMPUTE_DT_EVENT
@@ -258,7 +265,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*, TMPro::Compute_DT_EventArgs*)>(&TMPro::TMPro_EventManager::ON_COMPUTE_DT_EVENT)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_EventManager*), "ON_COMPUTE_DT_EVENT", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<TMPro::Compute_DT_EventArgs*>()});
+    static auto* Sender = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* e = &::il2cpp_utils::GetClassFromName("TMPro", "Compute_DT_EventArgs")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMPro_EventManager*), "ON_COMPUTE_DT_EVENT", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{Sender, e});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMPro_EventManager::_cctor

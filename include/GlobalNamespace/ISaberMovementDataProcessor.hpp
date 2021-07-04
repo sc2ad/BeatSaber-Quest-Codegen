@@ -28,13 +28,14 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ISaberMovementDataProcessor*, "", "ISaberMovementDataProcessor");
-// Writing includes for template specializations
-#include "GlobalNamespace/BladeMovementDataElement.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ISaberMovementDataProcessor::ProcessNewData
 // Il2CppName: ProcessNewData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ISaberMovementDataProcessor::*)(GlobalNamespace::BladeMovementDataElement, GlobalNamespace::BladeMovementDataElement, bool)>(&GlobalNamespace::ISaberMovementDataProcessor::ProcessNewData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ISaberMovementDataProcessor*), "ProcessNewData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BladeMovementDataElement>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BladeMovementDataElement>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* newData = &::il2cpp_utils::GetClassFromName("", "BladeMovementDataElement")->byval_arg;
+    static auto* prevData = &::il2cpp_utils::GetClassFromName("", "BladeMovementDataElement")->byval_arg;
+    static auto* prevDataAreValid = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ISaberMovementDataProcessor*), "ProcessNewData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newData, prevData, prevDataAreValid});
   }
 };

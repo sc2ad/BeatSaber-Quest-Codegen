@@ -77,8 +77,6 @@ namespace Zenject {
   static_assert(sizeof(MonoInstallerBase) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::MonoInstallerBase*, "Zenject", "MonoInstallerBase");
-// Writing includes for template specializations
-#include "Zenject/DiContainer.hpp"
 // Writing MetadataGetter for method: Zenject::MonoInstallerBase::get_Container
 // Il2CppName: get_Container
 template<>
@@ -92,7 +90,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Di
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::MonoInstallerBase::*)(Zenject::DiContainer*)>(&Zenject::MonoInstallerBase::set_Container)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::MonoInstallerBase*), "set_Container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::MonoInstallerBase*), "set_Container", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Zenject::MonoInstallerBase::get_IsEnabled

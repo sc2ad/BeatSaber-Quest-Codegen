@@ -34,7 +34,6 @@ namespace MasterServer {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::IDedicatedServerClientToServerMessage*, "MasterServer", "IDedicatedServerClientToServerMessage");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: MasterServer::IDedicatedServerClientToServerMessage::get_dedicatedServerId
 // Il2CppName: get_dedicatedServerId
 template<>

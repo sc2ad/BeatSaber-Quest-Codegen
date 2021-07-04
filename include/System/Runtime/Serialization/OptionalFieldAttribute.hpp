@@ -51,13 +51,13 @@ namespace System::Runtime::Serialization {
   static_assert(sizeof(OptionalFieldAttribute) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::OptionalFieldAttribute*, "System.Runtime.Serialization", "OptionalFieldAttribute");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::Serialization::OptionalFieldAttribute::set_VersionAdded
 // Il2CppName: set_VersionAdded
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::OptionalFieldAttribute::*)(int)>(&System::Runtime::Serialization::OptionalFieldAttribute::set_VersionAdded)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::OptionalFieldAttribute*), "set_VersionAdded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::OptionalFieldAttribute*), "set_VersionAdded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::OptionalFieldAttribute::New_ctor

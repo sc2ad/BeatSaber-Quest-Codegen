@@ -52,7 +52,6 @@ namespace System::Net::Http {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpRequestException*, "System.Net.Http", "HttpRequestException");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::Http::HttpRequestException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

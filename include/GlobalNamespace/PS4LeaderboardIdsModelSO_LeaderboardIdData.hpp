@@ -53,7 +53,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(PS4LeaderboardIdsModelSO::LeaderboardIdData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData*, "", "PS4LeaderboardIdsModelSO/LeaderboardIdData");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData::get_ps4LeaderboardId
 // Il2CppName: get_ps4LeaderboardId
 template<>

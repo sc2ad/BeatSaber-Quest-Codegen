@@ -47,14 +47,13 @@ namespace System::Net::NetworkInformation {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::NetworkInterfaceFactory::UnixNetworkInterfaceAPI*, "System.Net.NetworkInformation", "NetworkInterfaceFactory/UnixNetworkInterfaceAPI");
-// Writing includes for template specializations
-#include "System/IntPtr.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterfaceFactory::UnixNetworkInterfaceAPI::getifaddrs
 // Il2CppName: getifaddrs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr&)>(&System::Net::NetworkInformation::NetworkInterfaceFactory::UnixNetworkInterfaceAPI::getifaddrs)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterfaceFactory::UnixNetworkInterfaceAPI*), "getifaddrs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr&>()});
+    static auto* ifap = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterfaceFactory::UnixNetworkInterfaceAPI*), "getifaddrs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ifap});
   }
 };
 // Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterfaceFactory::UnixNetworkInterfaceAPI::freeifaddrs
@@ -62,7 +61,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&System::Net::NetworkInformation::NetworkInterfaceFactory::UnixNetworkInterfaceAPI::freeifaddrs)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterfaceFactory::UnixNetworkInterfaceAPI*), "freeifaddrs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* ifap = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterfaceFactory::UnixNetworkInterfaceAPI*), "freeifaddrs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ifap});
   }
 };
 // Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterfaceFactory::UnixNetworkInterfaceAPI::New_ctor

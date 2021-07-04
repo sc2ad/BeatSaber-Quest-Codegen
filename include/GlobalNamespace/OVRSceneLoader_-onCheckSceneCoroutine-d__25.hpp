@@ -75,7 +75,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRSceneLoader::$onCheckSceneCoroutine$d__25) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRSceneLoader::$onCheckSceneCoroutine$d__25*, "", "OVRSceneLoader/<onCheckSceneCoroutine>d__25");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRSceneLoader::$onCheckSceneCoroutine$d__25::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

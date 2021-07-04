@@ -52,7 +52,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnableDepthTextureMode) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableDepthTextureMode*, "", "EnableDepthTextureMode");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::EnableDepthTextureMode::Awake
 // Il2CppName: Awake
 template<>

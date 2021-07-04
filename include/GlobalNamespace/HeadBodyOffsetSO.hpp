@@ -58,7 +58,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(HeadBodyOffsetSO) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HeadBodyOffsetSO*, "", "HeadBodyOffsetSO");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::HeadBodyOffsetSO::get_headNeckOffset
 // Il2CppName: get_headNeckOffset
 template<>

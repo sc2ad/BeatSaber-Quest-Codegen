@@ -413,11 +413,6 @@ namespace System::Diagnostics {
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Process*, "System.Diagnostics", "Process");
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::Process::StreamReadMode, "System.Diagnostics", "Process/StreamReadMode");
-// Writing includes for template specializations
-#include "System/Diagnostics/ProcessInfo.hpp"
-#include "Microsoft/Win32/SafeHandles/SafeProcessHandle.hpp"
-#include "System/Diagnostics/Process_State.hpp"
-#include "System/IntPtr.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::Process::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -475,7 +470,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::Process::*)(Microsoft::Win32::SafeHandles::SafeProcessHandle*)>(&System::Diagnostics::Process::ReleaseProcessHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "ReleaseProcessHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeProcessHandle*>()});
+    static auto* handle = &::il2cpp_utils::GetClassFromName("Microsoft.Win32.SafeHandles", "SafeProcessHandle")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "ReleaseProcessHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle});
   }
 };
 // Writing MetadataGetter for method: System::Diagnostics::Process::Close
@@ -491,7 +487,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::Process::*)(System::Diagnostics::Process::State)>(&System::Diagnostics::Process::EnsureState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "EnsureState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Diagnostics::Process::State>()});
+    static auto* state = &::il2cpp_utils::GetClassFromName("System.Diagnostics", "Process/State")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "EnsureState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
   }
 };
 // Writing MetadataGetter for method: System::Diagnostics::Process::GetCurrentProcess
@@ -515,7 +512,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::SafeHandles::SafeProcessHandle* (System::Diagnostics::Process::*)(int, bool)>(&System::Diagnostics::Process::GetProcessHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "GetProcessHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* access = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* throwIfExited = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "GetProcessHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{access, throwIfExited});
   }
 };
 // Writing MetadataGetter for method: System::Diagnostics::Process::GetProcessHandle
@@ -523,7 +522,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::Win32::SafeHandles::SafeProcessHandle* (System::Diagnostics::Process::*)(int)>(&System::Diagnostics::Process::GetProcessHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "GetProcessHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* access = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "GetProcessHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{access});
   }
 };
 // Writing MetadataGetter for method: System::Diagnostics::Process::Refresh
@@ -555,7 +555,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&System::Diagnostics::Process::ProcessName_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "ProcessName_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "ProcessName_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle});
   }
 };
 // Writing MetadataGetter for method: System::Diagnostics::Process::ProcessName_internal
@@ -563,7 +564,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Microsoft::Win32::SafeHandles::SafeProcessHandle*)>(&System::Diagnostics::Process::ProcessName_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "ProcessName_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeProcessHandle*>()});
+    static auto* handle = &::il2cpp_utils::GetClassFromName("Microsoft.Win32.SafeHandles", "SafeProcessHandle")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "ProcessName_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle});
   }
 };
 // Writing MetadataGetter for method: System::Diagnostics::Process::get_ProcessName
@@ -587,7 +589,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Diagnostics::Process::*)(bool)>(&System::Diagnostics::Process::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* disposing = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::Process*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{disposing});
   }
 };
 // Writing MetadataGetter for method: System::Diagnostics::Process::ToString

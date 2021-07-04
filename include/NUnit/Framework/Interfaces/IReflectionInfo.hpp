@@ -43,7 +43,6 @@ namespace NUnit::Framework::Interfaces {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IReflectionInfo*, "NUnit.Framework.Interfaces", "IReflectionInfo");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::IReflectionInfo::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 // Cannot write MetadataGetter for generic methods!

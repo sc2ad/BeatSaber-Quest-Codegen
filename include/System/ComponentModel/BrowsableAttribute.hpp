@@ -72,7 +72,6 @@ namespace System::ComponentModel {
   static_assert(sizeof(BrowsableAttribute) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::BrowsableAttribute*, "System.ComponentModel", "BrowsableAttribute");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::ComponentModel::BrowsableAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -98,7 +97,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::ComponentModel::BrowsableAttribute::*)(::Il2CppObject*)>(&System::ComponentModel::BrowsableAttribute::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::BrowsableAttribute*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::BrowsableAttribute*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
 // Writing MetadataGetter for method: System::ComponentModel::BrowsableAttribute::GetHashCode

@@ -63,9 +63,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameplaySetupViewController::Panel) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplaySetupViewController::Panel*, "", "GameplaySetupViewController/Panel");
-// Writing includes for template specializations
-#include "GlobalNamespace/IRefreshable.hpp"
-#include "UnityEngine/GameObject.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplaySetupViewController::Panel::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

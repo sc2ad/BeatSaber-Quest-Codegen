@@ -56,14 +56,13 @@ namespace UnityEngine::Networking::PlayerConnection {
   static_assert(sizeof(PlayerConnection::$$c__DisplayClass20_0) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0*, "UnityEngine.Networking.PlayerConnection", "PlayerConnection/<>c__DisplayClass20_0");
-// Writing includes for template specializations
-#include "UnityEngine/Networking/PlayerConnection/MessageEventArgs.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0::$BlockUntilRecvMsg$b__0
 // Il2CppName: <BlockUntilRecvMsg>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0::*)(UnityEngine::Networking::PlayerConnection::MessageEventArgs*)>(&UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0::$BlockUntilRecvMsg$b__0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0*), "<BlockUntilRecvMsg>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Networking::PlayerConnection::MessageEventArgs*>()});
+    static auto* args = &::il2cpp_utils::GetClassFromName("UnityEngine.Networking.PlayerConnection", "MessageEventArgs")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0*), "<BlockUntilRecvMsg>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0::New_ctor

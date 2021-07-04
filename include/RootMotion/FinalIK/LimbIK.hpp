@@ -81,7 +81,6 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(LimbIK) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::LimbIK*, "RootMotion.FinalIK", "LimbIK");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::LimbIK::SupportGroup
 // Il2CppName: SupportGroup
 template<>

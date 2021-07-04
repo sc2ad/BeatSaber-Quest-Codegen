@@ -69,7 +69,6 @@ namespace RootMotion::FinalIK {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IK*, "RootMotion.FinalIK", "IK");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::IK::GetIKSolver
 // Il2CppName: GetIKSolver
 template<>

@@ -86,9 +86,6 @@ namespace System::Net::NetworkInformation {
   static_assert(sizeof(UnixIPInterfaceProperties) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::UnixIPInterfaceProperties*, "System.Net.NetworkInformation", "UnixIPInterfaceProperties");
-// Writing includes for template specializations
-#include "System/Net/NetworkInformation/UnixNetworkInterface.hpp"
-#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::UnixIPInterfaceProperties::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -83,8 +83,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(AudioClipQueue) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioClipQueue*, "", "AudioClipQueue");
-// Writing includes for template specializations
-#include "UnityEngine/AudioClip.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipQueue::Awake
 // Il2CppName: Awake
 template<>
@@ -106,7 +104,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipQueue::*)(UnityEngine::AudioClip*, float)>(&GlobalNamespace::AudioClipQueue::PlayAudioClipWithDelay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipQueue*), "PlayAudioClipWithDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* audioClip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")->byval_arg;
+    static auto* delay = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipQueue*), "PlayAudioClipWithDelay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{audioClip, delay});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipQueue::New_ctor

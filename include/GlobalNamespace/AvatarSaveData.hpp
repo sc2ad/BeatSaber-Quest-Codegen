@@ -131,7 +131,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(AvatarSaveData) == 0xD0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarSaveData*, "", "AvatarSaveData");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::AvatarSaveData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

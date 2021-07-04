@@ -161,11 +161,6 @@ namespace System::Net {
   static_assert(sizeof(FtpAsyncResult) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpAsyncResult*, "System.Net", "FtpAsyncResult");
-// Writing includes for template specializations
-#include "System/AsyncCallback.hpp"
-#include "System/IO/Stream.hpp"
-#include "System/Exception.hpp"
-#include "System/Net/FtpWebResponse.hpp"
 // Writing MetadataGetter for method: System::Net::FtpAsyncResult::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -239,7 +234,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpAsyncResult::*)(System::IO::Stream*)>(&System::Net::FtpAsyncResult::set_Stream)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpAsyncResult*), "set_Stream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpAsyncResult*), "set_Stream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Net::FtpAsyncResult::WaitUntilComplete
@@ -247,7 +243,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::FtpAsyncResult::*)(int, bool)>(&System::Net::FtpAsyncResult::WaitUntilComplete)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpAsyncResult*), "WaitUntilComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* timeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* exitContext = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpAsyncResult*), "WaitUntilComplete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{timeout, exitContext});
   }
 };
 // Writing MetadataGetter for method: System::Net::FtpAsyncResult::SetCompleted
@@ -255,7 +253,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpAsyncResult::*)(bool, System::Exception*, System::Net::FtpWebResponse*)>(&System::Net::FtpAsyncResult::SetCompleted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpAsyncResult*), "SetCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Exception*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::FtpWebResponse*>()});
+    static auto* synch = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* exc = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
+    static auto* response = &::il2cpp_utils::GetClassFromName("System.Net", "FtpWebResponse")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpAsyncResult*), "SetCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{synch, exc, response});
   }
 };
 // Writing MetadataGetter for method: System::Net::FtpAsyncResult::SetCompleted
@@ -263,7 +264,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpAsyncResult::*)(bool, System::Net::FtpWebResponse*)>(&System::Net::FtpAsyncResult::SetCompleted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpAsyncResult*), "SetCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Net::FtpWebResponse*>()});
+    static auto* synch = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* response = &::il2cpp_utils::GetClassFromName("System.Net", "FtpWebResponse")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpAsyncResult*), "SetCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{synch, response});
   }
 };
 // Writing MetadataGetter for method: System::Net::FtpAsyncResult::SetCompleted
@@ -271,7 +274,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpAsyncResult::*)(bool, System::Exception*)>(&System::Net::FtpAsyncResult::SetCompleted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpAsyncResult*), "SetCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    static auto* synch = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* exc = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::FtpAsyncResult*), "SetCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{synch, exc});
   }
 };
 // Writing MetadataGetter for method: System::Net::FtpAsyncResult::DoCallback

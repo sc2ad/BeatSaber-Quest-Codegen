@@ -60,8 +60,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(SingleFixedSceneScenesTransitionSetupDataSO) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO*, "", "SingleFixedSceneScenesTransitionSetupDataSO");
-// Writing includes for template specializations
-#include "GlobalNamespace/SceneSetupData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::get_sceneInfo
 // Il2CppName: get_sceneInfo
 template<>
@@ -75,7 +73,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::*)(GlobalNamespace::SceneSetupData*)>(&GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SceneSetupData*>()});
+    static auto* sceneSetupData = &::il2cpp_utils::GetClassFromName("", "SceneSetupData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sceneSetupData});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO::New_ctor

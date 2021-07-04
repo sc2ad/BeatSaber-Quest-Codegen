@@ -74,8 +74,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(ObstacleDissolve) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleDissolve*, "", "ObstacleDissolve");
-// Writing includes for template specializations
-#include "GlobalNamespace/ObstacleControllerBase.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleDissolve::Awake
 // Il2CppName: Awake
 template<>
@@ -97,7 +95,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleDissolve::*)(GlobalNamespace::ObstacleControllerBase*)>(&GlobalNamespace::ObstacleDissolve::HandleObstacleDidInitEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleDissolve*), "HandleObstacleDidInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleControllerBase*>()});
+    static auto* obstacleController = &::il2cpp_utils::GetClassFromName("", "ObstacleControllerBase")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleDissolve*), "HandleObstacleDidInitEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obstacleController});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleDissolve::HandleObcstacleDidStartDissolvingEvent
@@ -105,7 +104,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ObstacleDissolve::*)(GlobalNamespace::ObstacleControllerBase*, float)>(&GlobalNamespace::ObstacleDissolve::HandleObcstacleDidStartDissolvingEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleDissolve*), "HandleObcstacleDidStartDissolvingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ObstacleControllerBase*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* obstacleController = &::il2cpp_utils::GetClassFromName("", "ObstacleControllerBase")->byval_arg;
+    static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ObstacleDissolve*), "HandleObcstacleDidStartDissolvingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obstacleController, duration});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ObstacleDissolve::New_ctor

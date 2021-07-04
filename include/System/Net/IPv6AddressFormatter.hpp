@@ -69,7 +69,6 @@ namespace System::Net {
   static_assert(sizeof(IPv6AddressFormatter) == 0x10);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IPv6AddressFormatter, "System.Net", "IPv6AddressFormatter");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::IPv6AddressFormatter::IPv6AddressFormatter
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -79,7 +78,8 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::IPv6AddressFormatter, "System.Net", "IPv6Add
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(uint16_t)>(&System::Net::IPv6AddressFormatter::SwapUShort)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::IPv6AddressFormatter), "SwapUShort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>()});
+    static auto* number = &::il2cpp_utils::GetClassFromName("System", "UInt16")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::IPv6AddressFormatter), "SwapUShort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{number});
   }
 };
 // Writing MetadataGetter for method: System::Net::IPv6AddressFormatter::AsIPv4Int

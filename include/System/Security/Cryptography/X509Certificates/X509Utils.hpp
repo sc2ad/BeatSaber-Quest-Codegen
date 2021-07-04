@@ -32,14 +32,15 @@ namespace System::Security::Cryptography::X509Certificates {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Utils*, "System.Security.Cryptography.X509Certificates", "X509Utils");
-// Writing includes for template specializations
-#include "System/Security/Cryptography/OidGroup.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Utils::FindOidInfo
 // Il2CppName: FindOidInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(uint, ::Il2CppString*, System::Security::Cryptography::OidGroup)>(&System::Security::Cryptography::X509Certificates::X509Utils::FindOidInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509Utils*), "FindOidInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::OidGroup>()});
+    static auto* keyType = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* keyValue = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* oidGroup = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "OidGroup")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509Utils*), "FindOidInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keyType, keyValue, oidGroup});
   }
 };
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Utils::FindOidInfoWithFallback
@@ -47,6 +48,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(uint, ::Il2CppString*, System::Security::Cryptography::OidGroup)>(&System::Security::Cryptography::X509Certificates::X509Utils::FindOidInfoWithFallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509Utils*), "FindOidInfoWithFallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::OidGroup>()});
+    static auto* key = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* group = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "OidGroup")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509Utils*), "FindOidInfoWithFallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key, value, group});
   }
 };

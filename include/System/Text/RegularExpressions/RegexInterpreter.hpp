@@ -247,9 +247,6 @@ namespace System::Text::RegularExpressions {
   static_assert(sizeof(RegexInterpreter) == 0xC8);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexInterpreter*, "System.Text.RegularExpressions", "RegexInterpreter");
-// Writing includes for template specializations
-#include "System/Text/RegularExpressions/RegexCode.hpp"
-#include "System/Globalization/CultureInfo.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -267,7 +264,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(int)>(&System::Text::RegularExpressions::RegexInterpreter::Advance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Advance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Advance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i});
   }
 };
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Goto
@@ -275,7 +273,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(int)>(&System::Text::RegularExpressions::RegexInterpreter::Goto)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Goto", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* newpos = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Goto", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newpos});
   }
 };
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Textto
@@ -283,7 +282,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(int)>(&System::Text::RegularExpressions::RegexInterpreter::Textto)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Textto", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* newpos = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Textto", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newpos});
   }
 };
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Trackto
@@ -291,7 +291,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(int)>(&System::Text::RegularExpressions::RegexInterpreter::Trackto)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Trackto", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* newpos = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Trackto", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newpos});
   }
 };
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Textstart
@@ -331,7 +332,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(int)>(&System::Text::RegularExpressions::RegexInterpreter::TrackPush)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "TrackPush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* I1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "TrackPush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{I1});
   }
 };
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::TrackPush
@@ -339,7 +341,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(int, int)>(&System::Text::RegularExpressions::RegexInterpreter::TrackPush)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "TrackPush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* I1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* I2 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "TrackPush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{I1, I2});
   }
 };
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::TrackPush
@@ -347,7 +351,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(int, int, int)>(&System::Text::RegularExpressions::RegexInterpreter::TrackPush)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "TrackPush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* I1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* I2 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* I3 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "TrackPush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{I1, I2, I3});
   }
 };
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::TrackPush2
@@ -355,7 +362,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(int)>(&System::Text::RegularExpressions::RegexInterpreter::TrackPush2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "TrackPush2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* I1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "TrackPush2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{I1});
   }
 };
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::TrackPush2
@@ -363,7 +371,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(int, int)>(&System::Text::RegularExpressions::RegexInterpreter::TrackPush2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "TrackPush2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* I1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* I2 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "TrackPush2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{I1, I2});
   }
 };
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Backtrack
@@ -379,7 +389,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(int)>(&System::Text::RegularExpressions::RegexInterpreter::SetOperator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "SetOperator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* op = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "SetOperator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{op});
   }
 };
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::TrackPop
@@ -395,7 +406,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(int)>(&System::Text::RegularExpressions::RegexInterpreter::TrackPop)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "TrackPop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* framesize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "TrackPop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{framesize});
   }
 };
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::TrackPeek
@@ -411,7 +423,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::RegularExpressions::RegexInterpreter::*)(int)>(&System::Text::RegularExpressions::RegexInterpreter::TrackPeek)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "TrackPeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "TrackPeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i});
   }
 };
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::StackPush
@@ -419,7 +432,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(int)>(&System::Text::RegularExpressions::RegexInterpreter::StackPush)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "StackPush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* I1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "StackPush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{I1});
   }
 };
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::StackPush
@@ -427,7 +441,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(int, int)>(&System::Text::RegularExpressions::RegexInterpreter::StackPush)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "StackPush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* I1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* I2 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "StackPush", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{I1, I2});
   }
 };
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::StackPop
@@ -443,7 +459,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::RegularExpressions::RegexInterpreter::*)(int)>(&System::Text::RegularExpressions::RegexInterpreter::StackPop)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "StackPop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* framesize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "StackPop", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{framesize});
   }
 };
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::StackPeek
@@ -459,7 +476,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::RegularExpressions::RegexInterpreter::*)(int)>(&System::Text::RegularExpressions::RegexInterpreter::StackPeek)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "StackPeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "StackPeek", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i});
   }
 };
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Operator
@@ -475,7 +493,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::RegularExpressions::RegexInterpreter::*)(int)>(&System::Text::RegularExpressions::RegexInterpreter::Operand)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Operand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Operand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i});
   }
 };
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Leftchars
@@ -523,7 +542,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::RegularExpressions::RegexInterpreter::*)(::Il2CppString*)>(&System::Text::RegularExpressions::RegexInterpreter::Stringmatch)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Stringmatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Stringmatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
   }
 };
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Refmatch
@@ -531,7 +551,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::RegularExpressions::RegexInterpreter::*)(int, int)>(&System::Text::RegularExpressions::RegexInterpreter::Refmatch)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Refmatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "Refmatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index, len});
   }
 };
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::Backwardnext
@@ -547,7 +569,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (System::Text::RegularExpressions::RegexInterpreter::*)(int)>(&System::Text::RegularExpressions::RegexInterpreter::CharAt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "CharAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* j = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexInterpreter*), "CharAt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{j});
   }
 };
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexInterpreter::InitTrackCount

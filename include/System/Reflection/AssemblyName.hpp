@@ -275,18 +275,16 @@ namespace System::Reflection {
   static_assert(sizeof(AssemblyName) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::AssemblyName*, "System.Reflection", "AssemblyName");
-// Writing includes for template specializations
-#include "System/IntPtr.hpp"
-#include "Mono/MonoAssemblyName.hpp"
-#include "System/Runtime/Serialization/SerializationInfo.hpp"
-#include "System/Version.hpp"
-#include "System/Reflection/Assembly.hpp"
 // Writing MetadataGetter for method: System::Reflection::AssemblyName::ParseAssemblyName
 // Il2CppName: ParseAssemblyName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, Mono::MonoAssemblyName&, bool&, bool&)>(&System::Reflection::AssemblyName::ParseAssemblyName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::AssemblyName*), "ParseAssemblyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<Mono::MonoAssemblyName&>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* aname = &::il2cpp_utils::GetClassFromName("Mono", "MonoAssemblyName")->this_arg;
+    static auto* is_version_definited = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
+    static auto* is_token_defined = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::AssemblyName*), "ParseAssemblyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, aname, is_version_definited, is_token_defined});
   }
 };
 // Writing MetadataGetter for method: System::Reflection::AssemblyName::New_ctor
@@ -342,7 +340,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ver
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::AssemblyName::*)(System::Version*)>(&System::Reflection::AssemblyName::set_Version)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::AssemblyName*), "set_Version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Version*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Version")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::AssemblyName*), "set_Version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Reflection::AssemblyName::GetPublicKeyToken
@@ -374,7 +373,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint8_t*, uint8_t*, int)>(&System::Reflection::AssemblyName::get_public_token)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::AssemblyName*), "get_public_token", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* token = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
+    static auto* pubkey = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
+    static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::AssemblyName*), "get_public_token", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{token, pubkey, len});
   }
 };
 // Writing MetadataGetter for method: System::Reflection::AssemblyName::ComputePublicKeyToken
@@ -390,7 +392,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::AssemblyName::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Reflection::AssemblyName::GetObjectData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::AssemblyName*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
+    static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::AssemblyName*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{info, context});
   }
 };
 // Writing MetadataGetter for method: System::Reflection::AssemblyName::Clone
@@ -406,7 +410,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::AssemblyName::*)(::Il2CppObject*)>(&System::Reflection::AssemblyName::OnDeserialization)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::AssemblyName*), "OnDeserialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* sender = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::AssemblyName*), "OnDeserialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sender});
   }
 };
 // Writing MetadataGetter for method: System::Reflection::AssemblyName::GetNativeName
@@ -414,7 +419,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::MonoAssemblyName* (*)(System::IntPtr)>(&System::Reflection::AssemblyName::GetNativeName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::AssemblyName*), "GetNativeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* assembly_ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::AssemblyName*), "GetNativeName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assembly_ptr});
   }
 };
 // Writing MetadataGetter for method: System::Reflection::AssemblyName::FillName
@@ -422,7 +428,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::MonoA
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::AssemblyName::*)(Mono::MonoAssemblyName*, ::Il2CppString*, bool, bool, bool, bool)>(&System::Reflection::AssemblyName::FillName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::AssemblyName*), "FillName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::MonoAssemblyName*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* native = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("Mono", "MonoAssemblyName"))->byval_arg;
+    static auto* codeBase = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* addVersion = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* addPublickey = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* defaultToken = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* assemblyRef = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::AssemblyName*), "FillName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{native, codeBase, addVersion, addPublickey, defaultToken, assemblyRef});
   }
 };
 // Writing MetadataGetter for method: System::Reflection::AssemblyName::Create
@@ -430,7 +442,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::AssemblyName* (*)(System::Reflection::Assembly*, bool)>(&System::Reflection::AssemblyName::Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::AssemblyName*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::Assembly*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* assembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
+    static auto* fillCodebase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::AssemblyName*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assembly, fillCodebase});
   }
 };
 // Writing MetadataGetter for method: System::Reflection::AssemblyName::New_ctor

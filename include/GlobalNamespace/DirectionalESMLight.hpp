@@ -92,7 +92,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(DirectionalESMLight) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DirectionalESMLight*, "", "DirectionalESMLight");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::DirectionalESMLight::OnEnable
 // Il2CppName: OnEnable
 template<>

@@ -76,9 +76,6 @@ namespace UnityEngine::ProBuilder::MeshOperations {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::Triangulation*, "UnityEngine.ProBuilder.MeshOperations", "Triangulation");
-// Writing includes for template specializations
-#include "System/Collections/Generic/IList_1.hpp"
-#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Triangulation::get_triangulationContext
 // Il2CppName: get_triangulationContext
 template<>
@@ -92,7 +89,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Collections::Generic::IList_1<UnityEngine::Vector2>*, System::Collections::Generic::List_1<int>*&, bool)>(&UnityEngine::ProBuilder::MeshOperations::Triangulation::SortAndTriangulate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::Triangulation*), "SortAndTriangulate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Vector2>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<int>*&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* points = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
+    static auto* indexes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->this_arg;
+    static auto* convex = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::Triangulation*), "SortAndTriangulate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{points, indexes, convex});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Triangulation::TriangulateVertices
@@ -100,7 +100,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>*, System::Collections::Generic::List_1<int>*&, bool, bool)>(&UnityEngine::ProBuilder::MeshOperations::Triangulation::TriangulateVertices)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::Triangulation*), "TriangulateVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<int>*&>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* vertices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Vertex")})->byval_arg;
+    static auto* triangles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->this_arg;
+    static auto* unordered = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* convex = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::Triangulation*), "TriangulateVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vertices, triangles, unordered, convex});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Triangulation::TriangulateVertices
@@ -108,7 +112,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<UnityEngine::Vector3>*, System::Collections::Generic::List_1<int>*&, ::Array<::Array<UnityEngine::Vector3>*>*)>(&UnityEngine::ProBuilder::MeshOperations::Triangulation::TriangulateVertices)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::Triangulation*), "TriangulateVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<int>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Array<UnityEngine::Vector3>*>*>()});
+    static auto* vertices = &classof(::Array<::Array<UnityEngine::Vector3>*>*)->byval_arg;
+    static auto* triangles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->this_arg;
+    static auto* holes = &classof(::Array<::Array<::Array<UnityEngine::Vector3>*>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::Triangulation*), "TriangulateVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vertices, triangles, holes});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Triangulation::TriangulateVertices
@@ -116,7 +123,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<UnityEngine::Vector3>*, System::Collections::Generic::List_1<int>*&, bool, bool)>(&UnityEngine::ProBuilder::MeshOperations::Triangulation::TriangulateVertices)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::Triangulation*), "TriangulateVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<int>*&>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* vertices = &classof(::Array<::Array<UnityEngine::Vector3>*>*)->byval_arg;
+    static auto* triangles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->this_arg;
+    static auto* unordered = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* convex = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::Triangulation*), "TriangulateVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vertices, triangles, unordered, convex});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Triangulation::Triangulate
@@ -124,7 +135,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Collections::Generic::IList_1<UnityEngine::Vector2>*, System::Collections::Generic::List_1<int>*&, bool)>(&UnityEngine::ProBuilder::MeshOperations::Triangulation::Triangulate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::Triangulation*), "Triangulate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Vector2>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<int>*&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* points = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
+    static auto* indexes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->this_arg;
+    static auto* convex = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::Triangulation*), "Triangulate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{points, indexes, convex});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Triangulation::Triangulate
@@ -132,6 +146,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Collections::Generic::IList_1<UnityEngine::Vector2>*, System::Collections::Generic::IList_1<System::Collections::Generic::IList_1<UnityEngine::Vector2>*>*, System::Collections::Generic::List_1<int>*&)>(&UnityEngine::ProBuilder::MeshOperations::Triangulation::Triangulate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::Triangulation*), "Triangulate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::Vector2>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::Collections::Generic::IList_1<UnityEngine::Vector2>*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<int>*&>()});
+    static auto* points = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})->byval_arg;
+    static auto* holes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")})})->byval_arg;
+    static auto* indexes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::Triangulation*), "Triangulate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{points, holes, indexes});
   }
 };

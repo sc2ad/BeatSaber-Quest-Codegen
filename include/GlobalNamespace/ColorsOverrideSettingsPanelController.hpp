@@ -185,10 +185,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(ColorsOverrideSettingsPanelController) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ColorsOverrideSettingsPanelController*, "", "ColorsOverrideSettingsPanelController");
-// Writing includes for template specializations
-#include "GlobalNamespace/ColorSchemesSettings.hpp"
-#include "HMUI/DropdownWithTableView.hpp"
-#include "GlobalNamespace/ColorScheme.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ColorsOverrideSettingsPanelController::get_colorSchemesSettings
 // Il2CppName: get_colorSchemesSettings
 template<>
@@ -202,7 +198,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorsOverrideSettingsPanelController::*)(GlobalNamespace::ColorSchemesSettings*)>(&GlobalNamespace::ColorsOverrideSettingsPanelController::SetData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorsOverrideSettingsPanelController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorSchemesSettings*>()});
+    static auto* colorSchemesSettings = &::il2cpp_utils::GetClassFromName("", "ColorSchemesSettings")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorsOverrideSettingsPanelController*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorSchemesSettings});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ColorsOverrideSettingsPanelController::OnDestroy
@@ -234,7 +231,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorsOverrideSettingsPanelController::*)(HMUI::DropdownWithTableView*, int)>(&GlobalNamespace::ColorsOverrideSettingsPanelController::HandleDropDownDidSelectCellWithIdx)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorsOverrideSettingsPanelController*), "HandleDropDownDidSelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::DropdownWithTableView*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* dropDownWithTableView = &::il2cpp_utils::GetClassFromName("HMUI", "DropdownWithTableView")->byval_arg;
+    static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorsOverrideSettingsPanelController*), "HandleDropDownDidSelectCellWithIdx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dropDownWithTableView, idx});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ColorsOverrideSettingsPanelController::HandleOverrideColorsToggleValueChanged
@@ -242,7 +241,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorsOverrideSettingsPanelController::*)(bool)>(&GlobalNamespace::ColorsOverrideSettingsPanelController::HandleOverrideColorsToggleValueChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorsOverrideSettingsPanelController*), "HandleOverrideColorsToggleValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* isOn = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorsOverrideSettingsPanelController*), "HandleOverrideColorsToggleValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isOn});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ColorsOverrideSettingsPanelController::HandleEditColorSchemeButtonWasPressed
@@ -266,7 +266,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ColorsOverrideSettingsPanelController::*)(GlobalNamespace::ColorScheme*)>(&GlobalNamespace::ColorsOverrideSettingsPanelController::HandleEditColorSchemeControllerDidChangeColorScheme)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorsOverrideSettingsPanelController*), "HandleEditColorSchemeControllerDidChangeColorScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorScheme*>()});
+    static auto* colorScheme = &::il2cpp_utils::GetClassFromName("", "ColorScheme")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorsOverrideSettingsPanelController*), "HandleEditColorSchemeControllerDidChangeColorScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorScheme});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ColorsOverrideSettingsPanelController::$HandleOverrideColorsToggleValueChanged$b__18_0

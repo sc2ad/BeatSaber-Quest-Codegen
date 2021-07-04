@@ -61,7 +61,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRChromaticAberration) == 0x1D);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRChromaticAberration*, "", "OVRChromaticAberration");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRChromaticAberration::Start
 // Il2CppName: Start
 template<>

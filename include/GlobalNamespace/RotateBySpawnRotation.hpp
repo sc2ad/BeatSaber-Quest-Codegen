@@ -115,8 +115,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(RotateBySpawnRotation) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::RotateBySpawnRotation*, "", "RotateBySpawnRotation");
-// Writing includes for template specializations
-#include "GlobalNamespace/BeatmapEventData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::RotateBySpawnRotation::Awake
 // Il2CppName: Awake
 template<>
@@ -146,7 +144,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::RotateBySpawnRotation::*)(GlobalNamespace::BeatmapEventData*)>(&GlobalNamespace::RotateBySpawnRotation::BeatmapEventAtNoteSpawnCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RotateBySpawnRotation*), "BeatmapEventAtNoteSpawnCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapEventData*>()});
+    static auto* beatmapEventData = &::il2cpp_utils::GetClassFromName("", "BeatmapEventData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::RotateBySpawnRotation*), "BeatmapEventAtNoteSpawnCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapEventData});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::RotateBySpawnRotation::FixedUpdate

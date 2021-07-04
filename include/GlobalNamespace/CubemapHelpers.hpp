@@ -106,9 +106,6 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CubemapHelpers*, "", "CubemapHelpers");
-// Writing includes for template specializations
-#include "UnityEngine/Texture.hpp"
-#include "UnityEngine/RenderTexture.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CubemapHelpers::get_cubemapHelpersMaterial
 // Il2CppName: get_cubemapHelpersMaterial
 template<>
@@ -122,7 +119,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, UnityEngine::RenderTexture*)>(&GlobalNamespace::CubemapHelpers::Downsample)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CubemapHelpers*), "Downsample", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>()});
+    static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CubemapHelpers*), "Downsample", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src, dest});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::CubemapHelpers::CreateDownsampledCubemap
@@ -130,7 +129,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (*)(UnityEngine::RenderTexture*, int)>(&GlobalNamespace::CubemapHelpers::CreateDownsampledCubemap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CubemapHelpers*), "CreateDownsampledCubemap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
+    static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CubemapHelpers*), "CreateDownsampledCubemap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src, count});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::CubemapHelpers::Create2DTextureFromCubemap
@@ -138,7 +139,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (*)(UnityEngine::RenderTexture*)>(&GlobalNamespace::CubemapHelpers::Create2DTextureFromCubemap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CubemapHelpers*), "Create2DTextureFromCubemap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>()});
+    static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CubemapHelpers*), "Create2DTextureFromCubemap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::CubemapHelpers::DrawCubemapFace
@@ -146,7 +148,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, UnityEngine::CubemapFace)>(&GlobalNamespace::CubemapHelpers::DrawCubemapFace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CubemapHelpers*), "DrawCubemapFace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::CubemapFace>()});
+    static auto* cubemap = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* cubemapFace = &::il2cpp_utils::GetClassFromName("UnityEngine", "CubemapFace")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CubemapHelpers*), "DrawCubemapFace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cubemap, cubemapFace});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::CubemapHelpers::_cctor

@@ -99,20 +99,15 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RectTransformUtility*, "UnityEngine", "RectTransformUtility");
-// Writing includes for template specializations
-#include "UnityEngine/Vector2.hpp"
-#include "UnityEngine/Transform.hpp"
-#include "UnityEngine/Canvas.hpp"
-#include "UnityEngine/RectTransform.hpp"
-#include "UnityEngine/Camera.hpp"
-#include "UnityEngine/Vector4.hpp"
-#include "UnityEngine/Rect.hpp"
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::PixelAdjustPoint
 // Il2CppName: PixelAdjustPoint
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2, UnityEngine::Transform*, UnityEngine::Canvas*)>(&UnityEngine::RectTransformUtility::PixelAdjustPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "PixelAdjustPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas*>()});
+    static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* elementTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    static auto* canvas = &::il2cpp_utils::GetClassFromName("UnityEngine", "Canvas")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "PixelAdjustPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{point, elementTransform, canvas});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::PixelAdjustRect
@@ -120,7 +115,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(UnityEngine::RectTransform*, UnityEngine::Canvas*)>(&UnityEngine::RectTransformUtility::PixelAdjustRect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "PixelAdjustRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas*>()});
+    static auto* rectTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
+    static auto* canvas = &::il2cpp_utils::GetClassFromName("UnityEngine", "Canvas")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "PixelAdjustRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rectTransform, canvas});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::PointInRectangle
@@ -128,7 +125,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector2, UnityEngine::RectTransform*, UnityEngine::Camera*, UnityEngine::Vector4)>(&UnityEngine::RectTransformUtility::PointInRectangle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "PointInRectangle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+    static auto* screenPoint = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
+    static auto* cam = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    static auto* offset = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "PointInRectangle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{screenPoint, rect, cam, offset});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::RectangleContainsScreenPoint
@@ -136,7 +137,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::RectTransform*, UnityEngine::Vector2, UnityEngine::Camera*)>(&UnityEngine::RectTransformUtility::RectangleContainsScreenPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "RectangleContainsScreenPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
+    static auto* screenPoint = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* cam = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "RectangleContainsScreenPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rect, screenPoint, cam});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::RectangleContainsScreenPoint
@@ -144,7 +148,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::RectTransform*, UnityEngine::Vector2, UnityEngine::Camera*, UnityEngine::Vector4)>(&UnityEngine::RectTransformUtility::RectangleContainsScreenPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "RectangleContainsScreenPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+    static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
+    static auto* screenPoint = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* cam = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    static auto* offset = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "RectangleContainsScreenPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rect, screenPoint, cam, offset});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::ScreenPointToWorldPointInRectangle
@@ -152,7 +160,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::RectTransform*, UnityEngine::Vector2, UnityEngine::Camera*, UnityEngine::Vector3&)>(&UnityEngine::RectTransformUtility::ScreenPointToWorldPointInRectangle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "ScreenPointToWorldPointInRectangle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>()});
+    static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
+    static auto* screenPoint = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* cam = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    static auto* worldPoint = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "ScreenPointToWorldPointInRectangle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rect, screenPoint, cam, worldPoint});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::ScreenPointToLocalPointInRectangle
@@ -160,7 +172,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::RectTransform*, UnityEngine::Vector2, UnityEngine::Camera*, UnityEngine::Vector2&)>(&UnityEngine::RectTransformUtility::ScreenPointToLocalPointInRectangle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "ScreenPointToLocalPointInRectangle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+    static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
+    static auto* screenPoint = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* cam = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    static auto* localPoint = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "ScreenPointToLocalPointInRectangle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rect, screenPoint, cam, localPoint});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::ScreenPointToRay
@@ -168,7 +184,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Ray (*)(UnityEngine::Camera*, UnityEngine::Vector2)>(&UnityEngine::RectTransformUtility::ScreenPointToRay)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "ScreenPointToRay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    static auto* cam = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    static auto* screenPos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "ScreenPointToRay", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cam, screenPos});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::WorldToScreenPoint
@@ -176,7 +194,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Camera*, UnityEngine::Vector3)>(&UnityEngine::RectTransformUtility::WorldToScreenPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "WorldToScreenPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    static auto* cam = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    static auto* worldPoint = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "WorldToScreenPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cam, worldPoint});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::FlipLayoutOnAxis
@@ -184,7 +204,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RectTransform*, int, bool, bool)>(&UnityEngine::RectTransformUtility::FlipLayoutOnAxis)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "FlipLayoutOnAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
+    static auto* axis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* keepPositioning = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* recursive = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "FlipLayoutOnAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rect, axis, keepPositioning, recursive});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::FlipLayoutAxes
@@ -192,7 +216,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RectTransform*, bool, bool)>(&UnityEngine::RectTransformUtility::FlipLayoutAxes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "FlipLayoutAxes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
+    static auto* keepPositioning = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* recursive = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "FlipLayoutAxes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rect, keepPositioning, recursive});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::GetTransposed
@@ -200,7 +227,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2)>(&UnityEngine::RectTransformUtility::GetTransposed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "GetTransposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    static auto* input = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "GetTransposed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::_cctor
@@ -216,7 +244,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector2&, UnityEngine::Transform*, UnityEngine::Canvas*, UnityEngine::Vector2&)>(&UnityEngine::RectTransformUtility::PixelAdjustPoint_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "PixelAdjustPoint_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+    static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
+    static auto* elementTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    static auto* canvas = &::il2cpp_utils::GetClassFromName("UnityEngine", "Canvas")->byval_arg;
+    static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "PixelAdjustPoint_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{point, elementTransform, canvas, ret});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::PixelAdjustRect_Injected
@@ -224,7 +256,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RectTransform*, UnityEngine::Canvas*, UnityEngine::Rect&)>(&UnityEngine::RectTransformUtility::PixelAdjustRect_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "PixelAdjustRect_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Canvas*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect&>()});
+    static auto* rectTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
+    static auto* canvas = &::il2cpp_utils::GetClassFromName("UnityEngine", "Canvas")->byval_arg;
+    static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "PixelAdjustRect_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rectTransform, canvas, ret});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::RectTransformUtility::PointInRectangle_Injected
@@ -232,6 +267,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector2&, UnityEngine::RectTransform*, UnityEngine::Camera*, UnityEngine::Vector4&)>(&UnityEngine::RectTransformUtility::PointInRectangle_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "PointInRectangle_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4&>()});
+    static auto* screenPoint = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
+    static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
+    static auto* cam = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    static auto* offset = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransformUtility*), "PointInRectangle_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{screenPoint, rect, cam, offset});
   }
 };

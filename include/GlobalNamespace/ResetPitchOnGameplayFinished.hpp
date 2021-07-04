@@ -60,9 +60,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(ResetPitchOnGameplayFinished) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ResetPitchOnGameplayFinished*, "", "ResetPitchOnGameplayFinished");
-// Writing includes for template specializations
-#include "GlobalNamespace/GameplayLevelSceneTransitionEvents.hpp"
-#include "GlobalNamespace/AudioManagerSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ResetPitchOnGameplayFinished::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

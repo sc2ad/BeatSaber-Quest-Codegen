@@ -107,7 +107,6 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(Grounding::Pelvis) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounding::Pelvis*, "RootMotion.FinalIK", "Grounding/Pelvis");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Pelvis::get_IKOffset
 // Il2CppName: get_IKOffset
 template<>
@@ -121,7 +120,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::Pelvis::*)(UnityEngine::Vector3)>(&RootMotion::FinalIK::Grounding::Pelvis::set_IKOffset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Pelvis*), "set_IKOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Pelvis*), "set_IKOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Pelvis::get_heightOffset
@@ -137,7 +137,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Root
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::Pelvis::*)(float)>(&RootMotion::FinalIK::Grounding::Pelvis::set_heightOffset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Pelvis*), "set_heightOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Pelvis*), "set_heightOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Pelvis::Initiate
@@ -145,7 +146,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::Pelvis::*)(RootMotion::FinalIK::Grounding*)>(&RootMotion::FinalIK::Grounding::Pelvis::Initiate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Pelvis*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::Grounding*>()});
+    static auto* grounding = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "Grounding")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Pelvis*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{grounding});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Pelvis::Reset
@@ -169,7 +171,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::Pelvis::*)(float, float, bool)>(&RootMotion::FinalIK::Grounding::Pelvis::Process)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Pelvis*), "Process", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* lowestOffset = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* highestOffset = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* isGrounded = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding::Pelvis*), "Process", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lowestOffset, highestOffset, isGrounded});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Pelvis::New_ctor

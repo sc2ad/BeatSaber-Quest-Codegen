@@ -75,7 +75,6 @@ namespace System::Runtime::Remoting::Channels {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::CrossAppDomainChannel*, "System.Runtime.Remoting.Channels", "CrossAppDomainChannel");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::CrossAppDomainChannel::RegisterCrossAppDomainChannel
 // Il2CppName: RegisterCrossAppDomainChannel
 template<>
@@ -113,7 +112,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Channels::CrossAppDomainChannel::*)(::Il2CppObject*)>(&System::Runtime::Remoting::Channels::CrossAppDomainChannel::StartListening)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::CrossAppDomainChannel*), "StartListening", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* data = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::CrossAppDomainChannel*), "StartListening", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::CrossAppDomainChannel::CreateMessageSink
@@ -121,7 +121,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Messaging::IMessageSink* (System::Runtime::Remoting::Channels::CrossAppDomainChannel::*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppString*&)>(&System::Runtime::Remoting::Channels::CrossAppDomainChannel::CreateMessageSink)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::CrossAppDomainChannel*), "CreateMessageSink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    static auto* url = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* data = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* uri = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::CrossAppDomainChannel*), "CreateMessageSink", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{url, data, uri});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::CrossAppDomainChannel::_cctor

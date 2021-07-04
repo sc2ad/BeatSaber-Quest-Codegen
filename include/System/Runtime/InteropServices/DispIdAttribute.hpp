@@ -45,7 +45,6 @@ namespace System::Runtime::InteropServices {
   static_assert(sizeof(DispIdAttribute) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::DispIdAttribute*, "System.Runtime.InteropServices", "DispIdAttribute");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::InteropServices::DispIdAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

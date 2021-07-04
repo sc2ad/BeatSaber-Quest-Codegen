@@ -120,7 +120,6 @@ namespace Zenject {
   static_assert(sizeof(Kernel) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Kernel*, "Zenject", "Kernel");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Zenject::Kernel::Initialize
 // Il2CppName: Initialize
 template<>

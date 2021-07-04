@@ -64,7 +64,6 @@ namespace TMPro {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_WordInfo, "TMPro", "TMP_WordInfo");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: TMPro::TMP_WordInfo::GetWord
 // Il2CppName: GetWord
 template<>

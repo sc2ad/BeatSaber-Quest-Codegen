@@ -168,11 +168,6 @@ namespace System::Net {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebAsyncResult*, "System.Net", "WebAsyncResult");
-// Writing includes for template specializations
-#include "System/Net/HttpWebRequest.hpp"
-#include "System/AsyncCallback.hpp"
-#include "System/IO/Stream.hpp"
-#include "System/Net/HttpWebResponse.hpp"
 // Writing MetadataGetter for method: System::Net::WebAsyncResult::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -194,7 +189,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebAsyncResult::*)(bool, int)>(&System::Net::WebAsyncResult::SetCompleted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), "SetCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* synch = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* nbytes = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), "SetCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{synch, nbytes});
   }
 };
 // Writing MetadataGetter for method: System::Net::WebAsyncResult::SetCompleted
@@ -202,7 +199,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebAsyncResult::*)(bool, System::IO::Stream*)>(&System::Net::WebAsyncResult::SetCompleted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), "SetCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+    static auto* synch = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* writeStream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), "SetCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{synch, writeStream});
   }
 };
 // Writing MetadataGetter for method: System::Net::WebAsyncResult::SetCompleted
@@ -210,7 +209,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebAsyncResult::*)(bool, System::Net::HttpWebResponse*)>(&System::Net::WebAsyncResult::SetCompleted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), "SetCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebResponse*>()});
+    static auto* synch = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* response = &::il2cpp_utils::GetClassFromName("System.Net", "HttpWebResponse")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), "SetCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{synch, response});
   }
 };
 // Writing MetadataGetter for method: System::Net::WebAsyncResult::DoCallback
@@ -234,7 +235,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebAsyncResult::*)(int)>(&System::Net::WebAsyncResult::set_NBytes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), "set_NBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), "set_NBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Net::WebAsyncResult::get_InnerAsyncResult
@@ -250,7 +252,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebAsyncResult::*)(System::IAsyncResult*)>(&System::Net::WebAsyncResult::set_InnerAsyncResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), "set_InnerAsyncResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), "set_InnerAsyncResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Net::WebAsyncResult::get_WriteStream

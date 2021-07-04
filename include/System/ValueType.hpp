@@ -64,13 +64,15 @@ namespace System {
 template<class T>
 struct is_value_type<T, typename std::enable_if_t<std::is_base_of_v<System::ValueType, T>>> : std::true_type{};
 DEFINE_IL2CPP_ARG_TYPE(System::ValueType*, "System", "ValueType");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::ValueType::InternalEquals
 // Il2CppName: InternalEquals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, ::Il2CppObject*, ::Array<::Il2CppObject*>*&)>(&System::ValueType::InternalEquals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ValueType*), "InternalEquals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*&>()});
+    static auto* o1 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* o2 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* fields = &classof(::Array<::Array<::Il2CppObject*>*>*)->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ValueType*), "InternalEquals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{o1, o2, fields});
   }
 };
 // Writing MetadataGetter for method: System::ValueType::DefaultEquals
@@ -78,7 +80,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppObject*, ::Il2CppObject*)>(&System::ValueType::DefaultEquals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ValueType*), "DefaultEquals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* o1 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* o2 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ValueType*), "DefaultEquals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{o1, o2});
   }
 };
 // Writing MetadataGetter for method: System::ValueType::InternalGetHashCode
@@ -86,7 +90,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppObject*, ::Array<::Il2CppObject*>*&)>(&System::ValueType::InternalGetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ValueType*), "InternalGetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*&>()});
+    static auto* o = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* fields = &classof(::Array<::Array<::Il2CppObject*>*>*)->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ValueType*), "InternalGetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{o, fields});
   }
 };
 // Writing MetadataGetter for method: System::ValueType::New_ctor
@@ -98,7 +104,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::ValueType::*)(::Il2CppObject*)>(&System::ValueType::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ValueType*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ValueType*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
 // Writing MetadataGetter for method: System::ValueType::GetHashCode

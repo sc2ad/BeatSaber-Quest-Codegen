@@ -138,18 +138,14 @@ namespace System::Net {
   static_assert(sizeof(CookieContainer) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CookieContainer*, "System.Net", "CookieContainer");
-// Writing includes for template specializations
-#include "System/Net/PathList.hpp"
-#include "System/Net/Cookie.hpp"
-#include "System/Net/CookieCollection.hpp"
-#include "System/Uri.hpp"
-#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: System::Net::CookieContainer::AddRemoveDomain
 // Il2CppName: AddRemoveDomain
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::CookieContainer::*)(::Il2CppString*, System::Net::PathList*)>(&System::Net::CookieContainer::AddRemoveDomain)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::CookieContainer*), "AddRemoveDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::PathList*>()});
+    static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System.Net", "PathList")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::CookieContainer*), "AddRemoveDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key, value});
   }
 };
 // Writing MetadataGetter for method: System::Net::CookieContainer::Add
@@ -157,7 +153,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::CookieContainer::*)(System::Net::Cookie*, bool)>(&System::Net::CookieContainer::Add)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::CookieContainer*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Cookie*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* cookie = &::il2cpp_utils::GetClassFromName("System.Net", "Cookie")->byval_arg;
+    static auto* throwOnError = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::CookieContainer*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cookie, throwOnError});
   }
 };
 // Writing MetadataGetter for method: System::Net::CookieContainer::AgeCookies
@@ -165,7 +163,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::CookieContainer::*)(::Il2CppString*)>(&System::Net::CookieContainer::AgeCookies)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::CookieContainer*), "AgeCookies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* domain = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::CookieContainer*), "AgeCookies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{domain});
   }
 };
 // Writing MetadataGetter for method: System::Net::CookieContainer::ExpireCollection
@@ -173,7 +172,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::CookieContainer::*)(System::Net::CookieCollection*)>(&System::Net::CookieContainer::ExpireCollection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::CookieContainer*), "ExpireCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::CookieCollection*>()});
+    static auto* cc = &::il2cpp_utils::GetClassFromName("System.Net", "CookieCollection")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::CookieContainer*), "ExpireCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cc});
   }
 };
 // Writing MetadataGetter for method: System::Net::CookieContainer::IsLocalDomain
@@ -181,7 +181,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::CookieContainer::*)(::Il2CppString*)>(&System::Net::CookieContainer::IsLocalDomain)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::CookieContainer*), "IsLocalDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* host = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::CookieContainer*), "IsLocalDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{host});
   }
 };
 // Writing MetadataGetter for method: System::Net::CookieContainer::CookieCutter
@@ -189,7 +190,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::CookieCollection* (System::Net::CookieContainer::*)(System::Uri*, ::Il2CppString*, ::Il2CppString*, bool)>(&System::Net::CookieContainer::CookieCutter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::CookieContainer*), "CookieCutter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* uri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
+    static auto* headerName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* setCookieHeader = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* isThrow = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::CookieContainer*), "CookieCutter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uri, headerName, setCookieHeader, isThrow});
   }
 };
 // Writing MetadataGetter for method: System::Net::CookieContainer::InternalGetCookies
@@ -197,7 +202,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::CookieCollection* (System::Net::CookieContainer::*)(System::Uri*)>(&System::Net::CookieContainer::InternalGetCookies)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::CookieContainer*), "InternalGetCookies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+    static auto* uri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::CookieContainer*), "InternalGetCookies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uri});
   }
 };
 // Writing MetadataGetter for method: System::Net::CookieContainer::BuildCookieCollectionFromDomainMatches
@@ -205,7 +211,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::CookieContainer::*)(System::Uri*, bool, int, System::Net::CookieCollection*, System::Collections::Generic::List_1<::Il2CppString*>*, bool)>(&System::Net::CookieContainer::BuildCookieCollectionFromDomainMatches)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::CookieContainer*), "BuildCookieCollectionFromDomainMatches", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::CookieCollection*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* uri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
+    static auto* isSecure = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* port = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* cookies = &::il2cpp_utils::GetClassFromName("System.Net", "CookieCollection")->byval_arg;
+    static auto* domainAttribute = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
+    static auto* matchOnlyPlainCookie = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::CookieContainer*), "BuildCookieCollectionFromDomainMatches", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uri, isSecure, port, cookies, domainAttribute, matchOnlyPlainCookie});
   }
 };
 // Writing MetadataGetter for method: System::Net::CookieContainer::MergeUpdateCollections
@@ -213,7 +225,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::CookieContainer::*)(System::Net::CookieCollection*, System::Net::CookieCollection*, int, bool, bool)>(&System::Net::CookieContainer::MergeUpdateCollections)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::CookieContainer*), "MergeUpdateCollections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::CookieCollection*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::CookieCollection*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* destination = &::il2cpp_utils::GetClassFromName("System.Net", "CookieCollection")->byval_arg;
+    static auto* source = &::il2cpp_utils::GetClassFromName("System.Net", "CookieCollection")->byval_arg;
+    static auto* port = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* isSecure = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* isPlainOnly = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::CookieContainer*), "MergeUpdateCollections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{destination, source, port, isSecure, isPlainOnly});
   }
 };
 // Writing MetadataGetter for method: System::Net::CookieContainer::GetCookieHeader
@@ -221,7 +238,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::CookieContainer::*)(System::Uri*)>(&System::Net::CookieContainer::GetCookieHeader)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::CookieContainer*), "GetCookieHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+    static auto* uri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::CookieContainer*), "GetCookieHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uri});
   }
 };
 // Writing MetadataGetter for method: System::Net::CookieContainer::GetCookieHeader
@@ -229,7 +247,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::CookieContainer::*)(System::Uri*, ::Il2CppString*&)>(&System::Net::CookieContainer::GetCookieHeader)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::CookieContainer*), "GetCookieHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    static auto* uri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
+    static auto* optCookie2 = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::CookieContainer*), "GetCookieHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uri, optCookie2});
   }
 };
 // Writing MetadataGetter for method: System::Net::CookieContainer::_cctor

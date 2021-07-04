@@ -101,7 +101,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(DirectionalLight) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DirectionalLight*, "", "DirectionalLight");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::DirectionalLight::get_lights
 // Il2CppName: get_lights
 template<>

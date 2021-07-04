@@ -74,8 +74,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(CuttingManager) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CuttingManager*, "", "CuttingManager");
-// Writing includes for template specializations
-#include "GlobalNamespace/Saber.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CuttingManager::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -97,7 +95,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CuttingManager::*)(GlobalNamespace::Saber*, GlobalNamespace::Saber*)>(&GlobalNamespace::CuttingManager::HandleSaberManagerDidUpdateSaberPositions)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CuttingManager*), "HandleSaberManagerDidUpdateSaberPositions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Saber*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Saber*>()});
+    static auto* leftSaber = &::il2cpp_utils::GetClassFromName("", "Saber")->byval_arg;
+    static auto* rightSaber = &::il2cpp_utils::GetClassFromName("", "Saber")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CuttingManager*), "HandleSaberManagerDidUpdateSaberPositions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leftSaber, rightSaber});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::CuttingManager::New_ctor

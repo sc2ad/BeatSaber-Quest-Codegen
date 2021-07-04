@@ -39,18 +39,15 @@ namespace Mono::Unity {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::CertHelper*, "Mono.Unity", "CertHelper");
-// Writing includes for template specializations
-#include "Mono/Unity/UnityTls_unitytls_x509list.hpp"
-#include "System/Security/Cryptography/X509Certificates/X509CertificateCollection.hpp"
-#include "Mono/Unity/UnityTls_unitytls_errorstate.hpp"
-#include "System/Security/Cryptography/X509Certificates/X509Certificate.hpp"
-#include "Mono/Unity/UnityTls_unitytls_x509list_ref.hpp"
 // Writing MetadataGetter for method: Mono::Unity::CertHelper::AddCertificatesToNativeChain
 // Il2CppName: AddCertificatesToNativeChain
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mono::Unity::UnityTls::unitytls_x509list*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, Mono::Unity::UnityTls::unitytls_errorstate*)>(&Mono::Unity::CertHelper::AddCertificatesToNativeChain)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::CertHelper*), "AddCertificatesToNativeChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509list*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509CertificateCollection*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate*>()});
+    static auto* nativeCertificateChain = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("Mono.Unity", "UnityTls/unitytls_x509list"))->byval_arg;
+    static auto* certificates = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509CertificateCollection")->byval_arg;
+    static auto* errorState = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("Mono.Unity", "UnityTls/unitytls_errorstate"))->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::CertHelper*), "AddCertificatesToNativeChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nativeCertificateChain, certificates, errorState});
   }
 };
 // Writing MetadataGetter for method: Mono::Unity::CertHelper::AddCertificateToNativeChain
@@ -58,7 +55,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mono::Unity::UnityTls::unitytls_x509list*, System::Security::Cryptography::X509Certificates::X509Certificate*, Mono::Unity::UnityTls::unitytls_errorstate*)>(&Mono::Unity::CertHelper::AddCertificateToNativeChain)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::CertHelper*), "AddCertificateToNativeChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509list*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate*>()});
+    static auto* nativeCertificateChain = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("Mono.Unity", "UnityTls/unitytls_x509list"))->byval_arg;
+    static auto* certificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate")->byval_arg;
+    static auto* errorState = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("Mono.Unity", "UnityTls/unitytls_errorstate"))->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::CertHelper*), "AddCertificateToNativeChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nativeCertificateChain, certificate, errorState});
   }
 };
 // Writing MetadataGetter for method: Mono::Unity::CertHelper::NativeChainToManagedCollection
@@ -66,6 +66,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509CertificateCollection* (*)(Mono::Unity::UnityTls::unitytls_x509list_ref, Mono::Unity::UnityTls::unitytls_errorstate*)>(&Mono::Unity::CertHelper::NativeChainToManagedCollection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::CertHelper*), "NativeChainToManagedCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_x509list_ref>(), ::il2cpp_utils::ExtractIndependentType<Mono::Unity::UnityTls::unitytls_errorstate*>()});
+    static auto* nativeCertificateChain = &::il2cpp_utils::GetClassFromName("Mono.Unity", "UnityTls/unitytls_x509list_ref")->byval_arg;
+    static auto* errorState = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("Mono.Unity", "UnityTls/unitytls_errorstate"))->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Unity::CertHelper*), "NativeChainToManagedCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nativeCertificateChain, errorState});
   }
 };

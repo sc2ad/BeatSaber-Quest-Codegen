@@ -51,7 +51,6 @@ namespace System {
   static_assert(sizeof(DefaultBinder::BinderState) == 0x1D);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::DefaultBinder::BinderState*, "System", "DefaultBinder/BinderState");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::DefaultBinder::BinderState::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

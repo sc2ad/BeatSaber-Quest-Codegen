@@ -122,17 +122,13 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PhysicsScene2D, "UnityEngine", "PhysicsScene2D");
-// Writing includes for template specializations
-#include "UnityEngine/ContactFilter2D.hpp"
-#include "System/Collections/Generic/List_1.hpp"
-#include "UnityEngine/Ray.hpp"
-#include "UnityEngine/Vector3.hpp"
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene2D::Equals
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::PhysicsScene2D::*)(UnityEngine::PhysicsScene2D)>(&UnityEngine::PhysicsScene2D::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene2D>()});
+    static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene2D")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene2D::Raycast
@@ -140,7 +136,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RaycastHit2D (UnityEngine::PhysicsScene2D::*)(UnityEngine::Vector2, UnityEngine::Vector2, float, int)>(&UnityEngine::PhysicsScene2D::Raycast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* distance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{origin, direction, distance, layerMask});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene2D::Raycast
@@ -148,7 +148,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RaycastHit2D (UnityEngine::PhysicsScene2D::*)(UnityEngine::Vector2, UnityEngine::Vector2, float, UnityEngine::ContactFilter2D)>(&UnityEngine::PhysicsScene2D::Raycast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ContactFilter2D>()});
+    static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* distance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* contactFilter = &::il2cpp_utils::GetClassFromName("UnityEngine", "ContactFilter2D")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{origin, direction, distance, contactFilter});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene2D::Raycast_Internal
@@ -156,7 +160,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RaycastHit2D (*)(UnityEngine::PhysicsScene2D, UnityEngine::Vector2, UnityEngine::Vector2, float, UnityEngine::ContactFilter2D)>(&UnityEngine::PhysicsScene2D::Raycast_Internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "Raycast_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene2D>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ContactFilter2D>()});
+    static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene2D")->byval_arg;
+    static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* distance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* contactFilter = &::il2cpp_utils::GetClassFromName("UnityEngine", "ContactFilter2D")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "Raycast_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{physicsScene, origin, direction, distance, contactFilter});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene2D::Raycast
@@ -164,7 +173,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::PhysicsScene2D::*)(UnityEngine::Vector2, UnityEngine::Vector2, float, UnityEngine::ContactFilter2D, ::Array<UnityEngine::RaycastHit2D>*)>(&UnityEngine::PhysicsScene2D::Raycast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ContactFilter2D>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::RaycastHit2D>*>()});
+    static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* distance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* contactFilter = &::il2cpp_utils::GetClassFromName("UnityEngine", "ContactFilter2D")->byval_arg;
+    static auto* results = &classof(::Array<::Array<UnityEngine::RaycastHit2D>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{origin, direction, distance, contactFilter, results});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene2D::RaycastArray_Internal
@@ -172,7 +186,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::PhysicsScene2D, UnityEngine::Vector2, UnityEngine::Vector2, float, UnityEngine::ContactFilter2D, ::Array<UnityEngine::RaycastHit2D>*)>(&UnityEngine::PhysicsScene2D::RaycastArray_Internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "RaycastArray_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene2D>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ContactFilter2D>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::RaycastHit2D>*>()});
+    static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene2D")->byval_arg;
+    static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* distance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* contactFilter = &::il2cpp_utils::GetClassFromName("UnityEngine", "ContactFilter2D")->byval_arg;
+    static auto* results = &classof(::Array<::Array<UnityEngine::RaycastHit2D>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "RaycastArray_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{physicsScene, origin, direction, distance, contactFilter, results});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene2D::Raycast
@@ -180,7 +200,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::PhysicsScene2D::*)(UnityEngine::Vector2, UnityEngine::Vector2, float, UnityEngine::ContactFilter2D, System::Collections::Generic::List_1<UnityEngine::RaycastHit2D>*)>(&UnityEngine::PhysicsScene2D::Raycast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ContactFilter2D>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::RaycastHit2D>*>()});
+    static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* distance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* contactFilter = &::il2cpp_utils::GetClassFromName("UnityEngine", "ContactFilter2D")->byval_arg;
+    static auto* results = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit2D")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{origin, direction, distance, contactFilter, results});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene2D::RaycastList_Internal
@@ -188,7 +213,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::PhysicsScene2D, UnityEngine::Vector2, UnityEngine::Vector2, float, UnityEngine::ContactFilter2D, System::Collections::Generic::List_1<UnityEngine::RaycastHit2D>*)>(&UnityEngine::PhysicsScene2D::RaycastList_Internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "RaycastList_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene2D>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ContactFilter2D>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::RaycastHit2D>*>()});
+    static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene2D")->byval_arg;
+    static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* distance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* contactFilter = &::il2cpp_utils::GetClassFromName("UnityEngine", "ContactFilter2D")->byval_arg;
+    static auto* results = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit2D")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "RaycastList_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{physicsScene, origin, direction, distance, contactFilter, results});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene2D::GetRayIntersection
@@ -196,7 +227,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::PhysicsScene2D::*)(UnityEngine::Ray, float, ::Array<UnityEngine::RaycastHit2D>*, int)>(&UnityEngine::PhysicsScene2D::GetRayIntersection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "GetRayIntersection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::RaycastHit2D>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
+    static auto* distance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* results = &classof(::Array<::Array<UnityEngine::RaycastHit2D>*>*)->byval_arg;
+    static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "GetRayIntersection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ray, distance, results, layerMask});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene2D::GetRayIntersectionArray_Internal
@@ -204,7 +239,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::PhysicsScene2D, UnityEngine::Vector3, UnityEngine::Vector3, float, int, ::Array<UnityEngine::RaycastHit2D>*)>(&UnityEngine::PhysicsScene2D::GetRayIntersectionArray_Internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "GetRayIntersectionArray_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene2D>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::RaycastHit2D>*>()});
+    static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene2D")->byval_arg;
+    static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* distance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* results = &classof(::Array<::Array<UnityEngine::RaycastHit2D>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "GetRayIntersectionArray_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{physicsScene, origin, direction, distance, layerMask, results});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene2D::Raycast_Internal_Injected
@@ -212,7 +253,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::PhysicsScene2D&, UnityEngine::Vector2&, UnityEngine::Vector2&, float, UnityEngine::ContactFilter2D&, UnityEngine::RaycastHit2D&)>(&UnityEngine::PhysicsScene2D::Raycast_Internal_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "Raycast_Internal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene2D&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ContactFilter2D&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit2D&>()});
+    static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene2D")->this_arg;
+    static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
+    static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
+    static auto* distance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* contactFilter = &::il2cpp_utils::GetClassFromName("UnityEngine", "ContactFilter2D")->this_arg;
+    static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit2D")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "Raycast_Internal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{physicsScene, origin, direction, distance, contactFilter, ret});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene2D::RaycastArray_Internal_Injected
@@ -220,7 +267,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::PhysicsScene2D&, UnityEngine::Vector2&, UnityEngine::Vector2&, float, UnityEngine::ContactFilter2D&, ::Array<UnityEngine::RaycastHit2D>*)>(&UnityEngine::PhysicsScene2D::RaycastArray_Internal_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "RaycastArray_Internal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene2D&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ContactFilter2D&>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::RaycastHit2D>*>()});
+    static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene2D")->this_arg;
+    static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
+    static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
+    static auto* distance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* contactFilter = &::il2cpp_utils::GetClassFromName("UnityEngine", "ContactFilter2D")->this_arg;
+    static auto* results = &classof(::Array<::Array<UnityEngine::RaycastHit2D>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "RaycastArray_Internal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{physicsScene, origin, direction, distance, contactFilter, results});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene2D::RaycastList_Internal_Injected
@@ -228,7 +281,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::PhysicsScene2D&, UnityEngine::Vector2&, UnityEngine::Vector2&, float, UnityEngine::ContactFilter2D&, System::Collections::Generic::List_1<UnityEngine::RaycastHit2D>*)>(&UnityEngine::PhysicsScene2D::RaycastList_Internal_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "RaycastList_Internal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene2D&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ContactFilter2D&>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::RaycastHit2D>*>()});
+    static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene2D")->this_arg;
+    static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
+    static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
+    static auto* distance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* contactFilter = &::il2cpp_utils::GetClassFromName("UnityEngine", "ContactFilter2D")->this_arg;
+    static auto* results = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit2D")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "RaycastList_Internal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{physicsScene, origin, direction, distance, contactFilter, results});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene2D::GetRayIntersectionArray_Internal_Injected
@@ -236,7 +295,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::PhysicsScene2D&, UnityEngine::Vector3&, UnityEngine::Vector3&, float, int, ::Array<UnityEngine::RaycastHit2D>*)>(&UnityEngine::PhysicsScene2D::GetRayIntersectionArray_Internal_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "GetRayIntersectionArray_Internal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene2D&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::RaycastHit2D>*>()});
+    static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene2D")->this_arg;
+    static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
+    static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
+    static auto* distance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* results = &classof(::Array<::Array<UnityEngine::RaycastHit2D>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "GetRayIntersectionArray_Internal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{physicsScene, origin, direction, distance, layerMask, results});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene2D::ToString
@@ -260,6 +325,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::PhysicsScene2D::*)(::Il2CppObject*)>(&UnityEngine::PhysicsScene2D::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* other = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene2D), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };

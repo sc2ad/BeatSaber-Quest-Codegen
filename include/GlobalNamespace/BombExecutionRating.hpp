@@ -96,7 +96,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombExecutionRating*, "", "BombExecutionRating");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BombExecutionRating::Rating, "", "BombExecutionRating/Rating");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BombExecutionRating::get_rating
 // Il2CppName: get_rating
 template<>
@@ -110,7 +109,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BombExecutionRating::*)(GlobalNamespace::BombExecutionRating::Rating)>(&GlobalNamespace::BombExecutionRating::set_rating)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BombExecutionRating*), "set_rating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BombExecutionRating::Rating>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("", "BombExecutionRating/Rating")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BombExecutionRating*), "set_rating", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BombExecutionRating::New_ctor

@@ -64,9 +64,6 @@ namespace System::Text::RegularExpressions {
   static_assert(sizeof(MatchSparse) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::MatchSparse*, "System.Text.RegularExpressions", "MatchSparse");
-// Writing includes for template specializations
-#include "System/Text/RegularExpressions/Regex.hpp"
-#include "System/Collections/Hashtable.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::MatchSparse::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

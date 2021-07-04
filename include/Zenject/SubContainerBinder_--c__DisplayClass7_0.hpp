@@ -58,14 +58,13 @@ namespace Zenject {
   static_assert(sizeof(SubContainerBinder::$$c__DisplayClass7_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerBinder::$$c__DisplayClass7_0*, "Zenject", "SubContainerBinder/<>c__DisplayClass7_0");
-// Writing includes for template specializations
-#include "Zenject/DiContainer.hpp"
 // Writing MetadataGetter for method: Zenject::SubContainerBinder::$$c__DisplayClass7_0::$ByInstance$b__0
 // Il2CppName: <ByInstance>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ISubContainerCreator* (Zenject::SubContainerBinder::$$c__DisplayClass7_0::*)(Zenject::DiContainer*)>(&Zenject::SubContainerBinder::$$c__DisplayClass7_0::$ByInstance$b__0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder::$$c__DisplayClass7_0*), "<ByInstance>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    static auto* _ = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerBinder::$$c__DisplayClass7_0*), "<ByInstance>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_});
   }
 };
 // Writing MetadataGetter for method: Zenject::SubContainerBinder::$$c__DisplayClass7_0::New_ctor

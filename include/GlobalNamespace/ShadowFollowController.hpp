@@ -96,14 +96,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(ShadowFollowController) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShadowFollowController*, "", "ShadowFollowController");
-// Writing includes for template specializations
-#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ShadowFollowController::SetTargetTransform
 // Il2CppName: SetTargetTransform
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ShadowFollowController::*)(UnityEngine::Transform*)>(&GlobalNamespace::ShadowFollowController::SetTargetTransform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShadowFollowController*), "SetTargetTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    static auto* target = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShadowFollowController*), "SetTargetTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{target});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ShadowFollowController::Update

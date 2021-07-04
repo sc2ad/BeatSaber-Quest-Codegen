@@ -112,7 +112,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(AvatarPartsModelSO) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPartsModelSO*, "", "AvatarPartsModelSO");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPartsModelSO::get_headTops
 // Il2CppName: get_headTops
 template<>

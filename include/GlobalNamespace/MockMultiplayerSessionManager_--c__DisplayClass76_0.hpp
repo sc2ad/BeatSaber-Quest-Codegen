@@ -56,14 +56,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockMultiplayerSessionManager::$$c__DisplayClass76_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockMultiplayerSessionManager::$$c__DisplayClass76_0*, "", "MockMultiplayerSessionManager/<>c__DisplayClass76_0");
-// Writing includes for template specializations
-#include "GlobalNamespace/MockPlayer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockMultiplayerSessionManager::$$c__DisplayClass76_0::$GetConnectedPlayerByUserId$b__1
 // Il2CppName: <GetConnectedPlayerByUserId>b__1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockMultiplayerSessionManager::$$c__DisplayClass76_0::*)(GlobalNamespace::MockPlayer*)>(&GlobalNamespace::MockMultiplayerSessionManager::$$c__DisplayClass76_0::$GetConnectedPlayerByUserId$b__1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockMultiplayerSessionManager::$$c__DisplayClass76_0*), "<GetConnectedPlayerByUserId>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockPlayer*>()});
+    static auto* player = &::il2cpp_utils::GetClassFromName("", "MockPlayer")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockMultiplayerSessionManager::$$c__DisplayClass76_0*), "<GetConnectedPlayerByUserId>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{player});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MockMultiplayerSessionManager::$$c__DisplayClass76_0::New_ctor

@@ -32,14 +32,15 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Ray2DExtensions*, "", "Ray2DExtensions");
-// Writing includes for template specializations
-#include "UnityEngine/Ray2D.hpp"
-#include "UnityEngine/Vector2.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::Ray2DExtensions::CircleIntersections
 // Il2CppName: CircleIntersections
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Ray2D, UnityEngine::Vector2, float, ::Array<float>*)>(&GlobalNamespace::Ray2DExtensions::CircleIntersections)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Ray2DExtensions*), "CircleIntersections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray2D>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>()});
+    static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray2D")->byval_arg;
+    static auto* circleCenter = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* distances = &classof(::Array<::Array<float>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::Ray2DExtensions*), "CircleIntersections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ray, circleCenter, radius, distances});
   }
 };

@@ -61,7 +61,6 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(EditorIK) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::EditorIK*, "RootMotion.FinalIK", "EditorIK");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::EditorIK::Start
 // Il2CppName: Start
 template<>

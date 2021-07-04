@@ -67,7 +67,6 @@ namespace UnityEngine::AddressableAssets {
   static_assert(sizeof(AssetLabelReference) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AssetLabelReference*, "UnityEngine.AddressableAssets", "AssetLabelReference");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetLabelReference::get_labelString
 // Il2CppName: get_labelString
 template<>
@@ -81,7 +80,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AssetLabelReference::*)(::Il2CppString*)>(&UnityEngine::AddressableAssets::AssetLabelReference::set_labelString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AssetLabelReference*), "set_labelString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::AssetLabelReference*), "set_labelString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetLabelReference::get_RuntimeKey

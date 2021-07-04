@@ -51,14 +51,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(LocalizedAudioClipSO::$$c__DisplayClass4_0) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedAudioClipSO::$$c__DisplayClass4_0*, "", "LocalizedAudioClipSO/<>c__DisplayClass4_0");
-// Writing includes for template specializations
-#include "GlobalNamespace/LocalizedAudioClipSO_LocalizedAudioClipInfo.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalizedAudioClipSO::$$c__DisplayClass4_0::$get_localizedAudioClip$b__0
 // Il2CppName: <get_localizedAudioClip>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LocalizedAudioClipSO::$$c__DisplayClass4_0::*)(GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*)>(&GlobalNamespace::LocalizedAudioClipSO::$$c__DisplayClass4_0::$get_localizedAudioClip$b__0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalizedAudioClipSO::$$c__DisplayClass4_0*), "<get_localizedAudioClip>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*>()});
+    static auto* t = &::il2cpp_utils::GetClassFromName("", "LocalizedAudioClipSO/LocalizedAudioClipInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalizedAudioClipSO::$$c__DisplayClass4_0*), "<get_localizedAudioClip>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LocalizedAudioClipSO::$$c__DisplayClass4_0::New_ctor

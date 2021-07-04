@@ -58,8 +58,6 @@ namespace Valve::VR {
   static_assert(sizeof(CVRResources) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRResources*, "Valve.VR", "CVRResources");
-// Writing includes for template specializations
-#include "System/Text/StringBuilder.hpp"
 // Writing MetadataGetter for method: Valve::VR::CVRResources::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -69,7 +67,10 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRResources*, "Valve.VR", "CVRResources");
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRResources::*)(::Il2CppString*, ::Il2CppString*, uint)>(&Valve::VR::CVRResources::LoadSharedResource)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRResources*), "LoadSharedResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* pchResourceName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* pchBuffer = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* unBufferLen = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRResources*), "LoadSharedResource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pchResourceName, pchBuffer, unBufferLen});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRResources::GetResourceFullPath
@@ -77,6 +78,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRResources::*)(::Il2CppString*, ::Il2CppString*, System::Text::StringBuilder*, uint)>(&Valve::VR::CVRResources::GetResourceFullPath)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRResources*), "GetResourceFullPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* pchResourceName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* pchResourceTypeDirectory = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* pchPathBuffer = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
+    static auto* unBufferLen = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRResources*), "GetResourceFullPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pchResourceName, pchResourceTypeDirectory, pchPathBuffer, unBufferLen});
   }
 };

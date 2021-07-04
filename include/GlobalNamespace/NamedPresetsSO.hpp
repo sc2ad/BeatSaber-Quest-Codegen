@@ -46,7 +46,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedPresetsSO*, "", "NamedPresetsSO");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::NamedPresetsSO::get_namedPresets
 // Il2CppName: get_namedPresets
 template<>

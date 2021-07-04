@@ -152,8 +152,6 @@ namespace System {
   static_assert(sizeof(TimeZoneInfo::AdjustmentRule) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::TimeZoneInfo::AdjustmentRule*, "System", "TimeZoneInfo/AdjustmentRule");
-// Writing includes for template specializations
-#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::TimeZoneInfo::AdjustmentRule::get_DateStart
 // Il2CppName: get_DateStart
 template<>
@@ -199,7 +197,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::TimeZoneInfo::AdjustmentRule::*)(System::TimeZoneInfo::AdjustmentRule*)>(&System::TimeZoneInfo::AdjustmentRule::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo::AdjustmentRule*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::AdjustmentRule*>()});
+    static auto* other = &::il2cpp_utils::GetClassFromName("System", "TimeZoneInfo/AdjustmentRule")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo::AdjustmentRule*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
 // Writing MetadataGetter for method: System::TimeZoneInfo::AdjustmentRule::CreateAdjustmentRule
@@ -207,7 +206,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo::AdjustmentRule* (*)(System::DateTime, System::DateTime, System::TimeSpan, System::TimeZoneInfo::TransitionTime, System::TimeZoneInfo::TransitionTime)>(&System::TimeZoneInfo::AdjustmentRule::CreateAdjustmentRule)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo::AdjustmentRule*), "CreateAdjustmentRule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::TransitionTime>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::TransitionTime>()});
+    static auto* dateStart = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
+    static auto* dateEnd = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
+    static auto* daylightDelta = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
+    static auto* daylightTransitionStart = &::il2cpp_utils::GetClassFromName("System", "TimeZoneInfo/TransitionTime")->byval_arg;
+    static auto* daylightTransitionEnd = &::il2cpp_utils::GetClassFromName("System", "TimeZoneInfo/TransitionTime")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo::AdjustmentRule*), "CreateAdjustmentRule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dateStart, dateEnd, daylightDelta, daylightTransitionStart, daylightTransitionEnd});
   }
 };
 // Writing MetadataGetter for method: System::TimeZoneInfo::AdjustmentRule::CreateAdjustmentRule
@@ -215,7 +219,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeZoneInfo::AdjustmentRule* (*)(System::DateTime, System::DateTime, System::TimeSpan, System::TimeZoneInfo::TransitionTime, System::TimeZoneInfo::TransitionTime, System::TimeSpan)>(&System::TimeZoneInfo::AdjustmentRule::CreateAdjustmentRule)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo::AdjustmentRule*), "CreateAdjustmentRule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::TransitionTime>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::TransitionTime>(), ::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
+    static auto* dateStart = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
+    static auto* dateEnd = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
+    static auto* daylightDelta = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
+    static auto* daylightTransitionStart = &::il2cpp_utils::GetClassFromName("System", "TimeZoneInfo/TransitionTime")->byval_arg;
+    static auto* daylightTransitionEnd = &::il2cpp_utils::GetClassFromName("System", "TimeZoneInfo/TransitionTime")->byval_arg;
+    static auto* baseUtcOffsetDelta = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo::AdjustmentRule*), "CreateAdjustmentRule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dateStart, dateEnd, daylightDelta, daylightTransitionStart, daylightTransitionEnd, baseUtcOffsetDelta});
   }
 };
 // Writing MetadataGetter for method: System::TimeZoneInfo::AdjustmentRule::ValidateAdjustmentRule
@@ -223,7 +233,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tim
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::DateTime, System::DateTime, System::TimeSpan, System::TimeZoneInfo::TransitionTime, System::TimeZoneInfo::TransitionTime)>(&System::TimeZoneInfo::AdjustmentRule::ValidateAdjustmentRule)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo::AdjustmentRule*), "ValidateAdjustmentRule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::DateTime>(), ::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::TransitionTime>(), ::il2cpp_utils::ExtractIndependentType<System::TimeZoneInfo::TransitionTime>()});
+    static auto* dateStart = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
+    static auto* dateEnd = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
+    static auto* daylightDelta = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
+    static auto* daylightTransitionStart = &::il2cpp_utils::GetClassFromName("System", "TimeZoneInfo/TransitionTime")->byval_arg;
+    static auto* daylightTransitionEnd = &::il2cpp_utils::GetClassFromName("System", "TimeZoneInfo/TransitionTime")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo::AdjustmentRule*), "ValidateAdjustmentRule", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dateStart, dateEnd, daylightDelta, daylightTransitionStart, daylightTransitionEnd});
   }
 };
 // Writing MetadataGetter for method: System::TimeZoneInfo::AdjustmentRule::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization
@@ -231,7 +246,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TimeZoneInfo::AdjustmentRule::*)(::Il2CppObject*)>(&System::TimeZoneInfo::AdjustmentRule::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo::AdjustmentRule*), "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* sender = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo::AdjustmentRule*), "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sender});
   }
 };
 // Writing MetadataGetter for method: System::TimeZoneInfo::AdjustmentRule::System_Runtime_Serialization_ISerializable_GetObjectData
@@ -239,7 +255,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TimeZoneInfo::AdjustmentRule::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::TimeZoneInfo::AdjustmentRule::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo::AdjustmentRule*), "System.Runtime.Serialization.ISerializable.GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
+    static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TimeZoneInfo::AdjustmentRule*), "System.Runtime.Serialization.ISerializable.GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{info, context});
   }
 };
 // Writing MetadataGetter for method: System::TimeZoneInfo::AdjustmentRule::New_ctor

@@ -126,9 +126,6 @@ namespace System::Net {
   static_assert(sizeof(IPEndPoint) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IPEndPoint*, "System.Net", "IPEndPoint");
-// Writing includes for template specializations
-#include "System/Net/IPAddress.hpp"
-#include "System/Net/SocketAddress.hpp"
 // Writing MetadataGetter for method: System::Net::IPEndPoint::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -186,7 +183,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::EndPoint* (System::Net::IPEndPoint::*)(System::Net::SocketAddress*)>(&System::Net::IPEndPoint::Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::IPEndPoint*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::SocketAddress*>()});
+    static auto* socketAddress = &::il2cpp_utils::GetClassFromName("System.Net", "SocketAddress")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::IPEndPoint*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{socketAddress});
   }
 };
 // Writing MetadataGetter for method: System::Net::IPEndPoint::Equals
@@ -194,7 +192,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::IPEndPoint::*)(::Il2CppObject*)>(&System::Net::IPEndPoint::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::IPEndPoint*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* comparand = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::IPEndPoint*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{comparand});
   }
 };
 // Writing MetadataGetter for method: System::Net::IPEndPoint::GetHashCode

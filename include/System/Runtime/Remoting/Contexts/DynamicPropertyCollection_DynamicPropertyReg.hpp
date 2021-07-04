@@ -56,7 +56,6 @@ namespace System::Runtime::Remoting::Contexts {
   static_assert(sizeof(DynamicPropertyCollection::DynamicPropertyReg) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::DynamicPropertyCollection::DynamicPropertyReg*, "System.Runtime.Remoting.Contexts", "DynamicPropertyCollection/DynamicPropertyReg");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::DynamicPropertyCollection::DynamicPropertyReg::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

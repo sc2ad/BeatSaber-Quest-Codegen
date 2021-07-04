@@ -67,8 +67,6 @@ namespace System::Net {
   static_assert(sizeof(WebRequestPrefixElement) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequestPrefixElement*, "System.Net", "WebRequestPrefixElement");
-// Writing includes for template specializations
-#include "System/Net/IWebRequestCreate.hpp"
 // Writing MetadataGetter for method: System::Net::WebRequestPrefixElement::get_Creator
 // Il2CppName: get_Creator
 template<>
@@ -82,7 +80,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebRequestPrefixElement::*)(System::Net::IWebRequestCreate*)>(&System::Net::WebRequestPrefixElement::set_Creator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::WebRequestPrefixElement*), "set_Creator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IWebRequestCreate*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System.Net", "IWebRequestCreate")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebRequestPrefixElement*), "set_Creator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Net::WebRequestPrefixElement::New_ctor

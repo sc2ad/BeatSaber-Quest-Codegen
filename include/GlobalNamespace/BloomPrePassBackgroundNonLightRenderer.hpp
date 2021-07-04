@@ -60,7 +60,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassBackgroundNonLightRenderer) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundNonLightRenderer*, "", "BloomPrePassBackgroundNonLightRenderer");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundNonLightRenderer::get_renderer
 // Il2CppName: get_renderer
 template<>

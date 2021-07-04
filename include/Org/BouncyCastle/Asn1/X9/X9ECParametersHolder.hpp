@@ -56,7 +56,6 @@ namespace Org::BouncyCastle::Asn1::X9 {
   static_assert(sizeof(X9ECParametersHolder) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*, "Org.BouncyCastle.Asn1.X9", "X9ECParametersHolder");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::X9ECParametersHolder::get_Parameters
 // Il2CppName: get_Parameters
 template<>

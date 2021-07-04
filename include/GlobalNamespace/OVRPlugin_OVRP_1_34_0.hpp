@@ -45,18 +45,25 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_1_34_0*, "", "OVRPlugin/OVRP_1_34_0");
-// Writing includes for template specializations
-#include "System/IntPtr.hpp"
-#include "GlobalNamespace/OVRPlugin_Vector3f.hpp"
-#include "GlobalNamespace/OVRPlugin_Bool.hpp"
-#include "GlobalNamespace/OVRPlugin_TextureRectMatrixf.hpp"
-#include "UnityEngine/Vector4.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_34_0::ovrp_EnqueueSubmitLayer2
 // Il2CppName: ovrp_EnqueueSubmitLayer2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(uint, System::IntPtr, System::IntPtr, int, int, GlobalNamespace::OVRPlugin::Posef&, GlobalNamespace::OVRPlugin::Vector3f&, int, GlobalNamespace::OVRPlugin::Bool, GlobalNamespace::OVRPlugin::TextureRectMatrixf&, GlobalNamespace::OVRPlugin::Bool, UnityEngine::Vector4&, UnityEngine::Vector4&)>(&GlobalNamespace::OVRPlugin::OVRP_1_34_0::ovrp_EnqueueSubmitLayer2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_34_0*), "ovrp_EnqueueSubmitLayer2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Posef&>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Vector3f&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::TextureRectMatrixf&>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Bool>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4&>()});
+    static auto* flags = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* textureLeft = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* textureRight = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* layerId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* frameIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* pose = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Posef")->this_arg;
+    static auto* scale = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Vector3f")->this_arg;
+    static auto* layerIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* overrideTextureRectMatrix = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->byval_arg;
+    static auto* textureRectMatrix = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/TextureRectMatrixf")->this_arg;
+    static auto* overridePerLayerColorScaleAndOffset = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->byval_arg;
+    static auto* colorScale = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->this_arg;
+    static auto* colorOffset = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_1_34_0*), "ovrp_EnqueueSubmitLayer2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flags, textureLeft, textureRight, layerId, frameIndex, pose, scale, layerIndex, overrideTextureRectMatrix, textureRectMatrix, overridePerLayerColorScaleAndOffset, colorScale, colorOffset});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_34_0::_cctor

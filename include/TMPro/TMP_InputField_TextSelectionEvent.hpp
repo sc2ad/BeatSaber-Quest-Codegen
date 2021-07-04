@@ -35,7 +35,6 @@ namespace TMPro {
   }; // TMPro.TMP_InputField/TextSelectionEvent
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::TextSelectionEvent*, "TMPro", "TMP_InputField/TextSelectionEvent");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: TMPro::TMP_InputField::TextSelectionEvent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

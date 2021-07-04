@@ -76,7 +76,6 @@ namespace System::Globalization {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::EncodingTable*, "System.Globalization", "EncodingTable");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Globalization::EncodingTable::GetNumEncodingItems
 // Il2CppName: GetNumEncodingItems
 template<>
@@ -90,7 +89,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::InternalEncodingDataItem (*)(::Il2CppString*, uint16_t)>(&System::Globalization::EncodingTable::ENC)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::EncodingTable*), "ENC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* cp = &::il2cpp_utils::GetClassFromName("System", "UInt16")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::EncodingTable*), "ENC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, cp});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::EncodingTable::MapCodePageDataItem
@@ -98,7 +99,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::InternalCodePageDataItem (*)(uint16_t, uint16_t, ::Il2CppString*, uint)>(&System::Globalization::EncodingTable::MapCodePageDataItem)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::EncodingTable*), "MapCodePageDataItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<uint16_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* cp = &::il2cpp_utils::GetClassFromName("System", "UInt16")->byval_arg;
+    static auto* fcp = &::il2cpp_utils::GetClassFromName("System", "UInt16")->byval_arg;
+    static auto* names = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* flags = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::EncodingTable*), "MapCodePageDataItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cp, fcp, names, flags});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::EncodingTable::_cctor
@@ -114,7 +119,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&System::Globalization::EncodingTable::internalGetCodePageFromName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::EncodingTable*), "internalGetCodePageFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::EncodingTable*), "internalGetCodePageFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::EncodingTable::GetCodePageFromName
@@ -122,7 +128,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Il2CppString*)>(&System::Globalization::EncodingTable::GetCodePageFromName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::EncodingTable*), "GetCodePageFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::EncodingTable*), "GetCodePageFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::EncodingTable::GetCodePageDataItem
@@ -130,6 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::I
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::CodePageDataItem* (*)(int)>(&System::Globalization::EncodingTable::GetCodePageDataItem)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::EncodingTable*), "GetCodePageDataItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* codepage = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::EncodingTable*), "GetCodePageDataItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{codepage});
   }
 };

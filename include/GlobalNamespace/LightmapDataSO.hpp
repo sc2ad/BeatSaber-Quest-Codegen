@@ -71,8 +71,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(LightmapDataSO) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightmapDataSO*, "", "LightmapDataSO");
-// Writing includes for template specializations
-#include "UnityEngine/Texture2D.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightmapDataSO::get_lightmap1
 // Il2CppName: get_lightmap1
 template<>
@@ -86,7 +84,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightmapDataSO::*)(UnityEngine::Texture2D*)>(&GlobalNamespace::LightmapDataSO::set_lightmap1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapDataSO*), "set_lightmap1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture2D")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapDataSO*), "set_lightmap1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LightmapDataSO::get_lightmap2
@@ -102,7 +101,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightmapDataSO::*)(UnityEngine::Texture2D*)>(&GlobalNamespace::LightmapDataSO::set_lightmap2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapDataSO*), "set_lightmap2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2D*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture2D")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmapDataSO*), "set_lightmap2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LightmapDataSO::New_ctor

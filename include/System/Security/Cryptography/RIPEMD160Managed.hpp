@@ -106,7 +106,6 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(RIPEMD160Managed) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::RIPEMD160Managed*, "System.Security.Cryptography", "RIPEMD160Managed");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::Cryptography::RIPEMD160Managed::InitializeState
 // Il2CppName: InitializeState
 template<>
@@ -120,7 +119,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RIPEMD160Managed::*)(::Array<uint8_t>*, int, int)>(&System::Security::Cryptography::RIPEMD160Managed::_HashData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RIPEMD160Managed*), "_HashData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* partIn = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* ibStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* cbSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RIPEMD160Managed*), "_HashData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{partIn, ibStart, cbSize});
   }
 };
 // Writing MetadataGetter for method: System::Security::Cryptography::RIPEMD160Managed::_EndHash
@@ -136,7 +138,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint*, uint*, uint8_t*)>(&System::Security::Cryptography::RIPEMD160Managed::MDTransform)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RIPEMD160Managed*), "MDTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint*>(), ::il2cpp_utils::ExtractIndependentType<uint*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t*>()});
+    static auto* blockDWords = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "UInt32"))->byval_arg;
+    static auto* state = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "UInt32"))->byval_arg;
+    static auto* block = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RIPEMD160Managed*), "MDTransform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{blockDWords, state, block});
   }
 };
 // Writing MetadataGetter for method: System::Security::Cryptography::RIPEMD160Managed::F
@@ -144,7 +149,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ui
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, uint, uint)>(&System::Security::Cryptography::RIPEMD160Managed::F)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RIPEMD160Managed*), "F", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* y = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* z = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RIPEMD160Managed*), "F", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y, z});
   }
 };
 // Writing MetadataGetter for method: System::Security::Cryptography::RIPEMD160Managed::G
@@ -152,7 +160,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(ui
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, uint, uint)>(&System::Security::Cryptography::RIPEMD160Managed::G)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RIPEMD160Managed*), "G", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* y = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* z = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RIPEMD160Managed*), "G", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y, z});
   }
 };
 // Writing MetadataGetter for method: System::Security::Cryptography::RIPEMD160Managed::H
@@ -160,7 +171,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(ui
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, uint, uint)>(&System::Security::Cryptography::RIPEMD160Managed::H)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RIPEMD160Managed*), "H", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* y = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* z = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RIPEMD160Managed*), "H", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y, z});
   }
 };
 // Writing MetadataGetter for method: System::Security::Cryptography::RIPEMD160Managed::I
@@ -168,7 +182,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(ui
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, uint, uint)>(&System::Security::Cryptography::RIPEMD160Managed::I)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RIPEMD160Managed*), "I", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* y = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* z = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RIPEMD160Managed*), "I", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y, z});
   }
 };
 // Writing MetadataGetter for method: System::Security::Cryptography::RIPEMD160Managed::J
@@ -176,7 +193,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(ui
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, uint, uint)>(&System::Security::Cryptography::RIPEMD160Managed::J)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RIPEMD160Managed*), "J", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* y = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* z = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RIPEMD160Managed*), "J", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y, z});
   }
 };
 // Writing MetadataGetter for method: System::Security::Cryptography::RIPEMD160Managed::New_ctor
@@ -196,7 +216,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RIPEMD160Managed::*)(::Array<uint8_t>*, int, int)>(&System::Security::Cryptography::RIPEMD160Managed::HashCore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RIPEMD160Managed*), "HashCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* rgb = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* ibStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* cbSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RIPEMD160Managed*), "HashCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rgb, ibStart, cbSize});
   }
 };
 // Writing MetadataGetter for method: System::Security::Cryptography::RIPEMD160Managed::HashFinal

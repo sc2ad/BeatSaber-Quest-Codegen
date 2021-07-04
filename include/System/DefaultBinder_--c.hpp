@@ -58,8 +58,6 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::DefaultBinder::$$c*, "System", "DefaultBinder/<>c");
-// Writing includes for template specializations
-#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::DefaultBinder::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -73,7 +71,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::DefaultBinder::$$c::*)(System::Type*)>(&System::DefaultBinder::$$c::$SelectProperty$b__3_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder::$$c*), "<SelectProperty>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::DefaultBinder::$$c*), "<SelectProperty>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
 };
 // Writing MetadataGetter for method: System::DefaultBinder::$$c::New_ctor

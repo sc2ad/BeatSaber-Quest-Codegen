@@ -183,13 +183,6 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionFilterTypesBinder*, "Zenject", "ConventionFilterTypesBinder");
-// Writing includes for template specializations
-#include "System/Type.hpp"
-#include "System/Func_2.hpp"
-#include "System/Collections/Generic/IEnumerable_1.hpp"
-#include "System/Text/RegularExpressions/RegexOptions.hpp"
-#include "System/Text/RegularExpressions/Regex.hpp"
-#include "Zenject/ConventionBindInfo.hpp"
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::DerivingFromOrEqual
 // Il2CppName: DerivingFromOrEqual
 // Cannot write MetadataGetter for generic methods!
@@ -198,7 +191,8 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::ConventionFilterTypesBinder*, "Zenject", "Conven
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(System::Type*)>(&Zenject::ConventionFilterTypesBinder::DerivingFromOrEqual)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "DerivingFromOrEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* parentType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "DerivingFromOrEqual", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parentType});
   }
 };
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::DerivingFrom
@@ -209,7 +203,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(System::Type*)>(&Zenject::ConventionFilterTypesBinder::DerivingFrom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "DerivingFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* parentType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "DerivingFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parentType});
   }
 };
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::WithAttribute
@@ -220,7 +215,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(System::Type*)>(&Zenject::ConventionFilterTypesBinder::WithAttribute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "WithAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* attribute = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "WithAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attribute});
   }
 };
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::WithoutAttribute
@@ -231,7 +227,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(System::Type*)>(&Zenject::ConventionFilterTypesBinder::WithoutAttribute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "WithoutAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* attribute = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "WithoutAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attribute});
   }
 };
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::WithAttributeWhere
@@ -242,7 +239,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(System::Func_2<System::Type*, bool>*)>(&Zenject::ConventionFilterTypesBinder::Where)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "Where", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<System::Type*, bool>*>()});
+    static auto* predicate = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type"), ::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "Where", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{predicate});
   }
 };
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::InNamespace
@@ -250,7 +248,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(::Il2CppString*)>(&Zenject::ConventionFilterTypesBinder::InNamespace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "InNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* ns = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "InNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ns});
   }
 };
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::InNamespaces
@@ -258,7 +257,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(::Array<::Il2CppString*>*)>(&Zenject::ConventionFilterTypesBinder::InNamespaces)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "InNamespaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    static auto* namespaces = &classof(::Array<::Array<::Il2CppString*>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "InNamespaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{namespaces});
   }
 };
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::InNamespaces
@@ -266,7 +266,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)>(&Zenject::ConventionFilterTypesBinder::InNamespaces)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "InNamespaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>()});
+    static auto* namespaces = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "InNamespaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{namespaces});
   }
 };
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::WithSuffix
@@ -274,7 +275,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(::Il2CppString*)>(&Zenject::ConventionFilterTypesBinder::WithSuffix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "WithSuffix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* suffix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "WithSuffix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{suffix});
   }
 };
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::WithPrefix
@@ -282,7 +284,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(::Il2CppString*)>(&Zenject::ConventionFilterTypesBinder::WithPrefix)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "WithPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* prefix = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "WithPrefix", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefix});
   }
 };
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::MatchingRegex
@@ -290,7 +293,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(::Il2CppString*)>(&Zenject::ConventionFilterTypesBinder::MatchingRegex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "MatchingRegex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* pattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "MatchingRegex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pattern});
   }
 };
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::MatchingRegex
@@ -298,7 +302,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(::Il2CppString*, System::Text::RegularExpressions::RegexOptions)>(&Zenject::ConventionFilterTypesBinder::MatchingRegex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "MatchingRegex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexOptions>()});
+    static auto* pattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* options = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "RegexOptions")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "MatchingRegex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pattern, options});
   }
 };
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::MatchingRegex
@@ -306,7 +312,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(System::Text::RegularExpressions::Regex*)>(&Zenject::ConventionFilterTypesBinder::MatchingRegex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "MatchingRegex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::Regex*>()});
+    static auto* regex = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "Regex")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "MatchingRegex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{regex});
   }
 };
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::IsInNamespace
@@ -314,7 +321,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, ::Il2CppString*)>(&Zenject::ConventionFilterTypesBinder::IsInNamespace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "IsInNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    static auto* requiredNs = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "IsInNamespace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, requiredNs});
   }
 };
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::New_ctor

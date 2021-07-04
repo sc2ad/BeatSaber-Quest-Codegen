@@ -108,12 +108,6 @@ namespace System {
   static_assert(sizeof(RuntimeFieldHandle) == 0x8);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::RuntimeFieldHandle, "System", "RuntimeFieldHandle");
-// Writing includes for template specializations
-#include "System/Runtime/Serialization/SerializationInfo.hpp"
-#include "System/Reflection/FieldInfo.hpp"
-#include "System/Reflection/RtFieldInfo.hpp"
-#include "System/RuntimeType.hpp"
-#include "System/Reflection/FieldAttributes.hpp"
 // Writing MetadataGetter for method: System::RuntimeFieldHandle::RuntimeFieldHandle
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -135,7 +129,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::RuntimeFieldHandle::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::RuntimeFieldHandle::GetObjectData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeFieldHandle), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
+    static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeFieldHandle), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{info, context});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeFieldHandle::SetValueInternal
@@ -143,7 +139,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::FieldInfo*, ::Il2CppObject*, ::Il2CppObject*)>(&System::RuntimeFieldHandle::SetValueInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeFieldHandle), "SetValueInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::FieldInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* fi = &::il2cpp_utils::GetClassFromName("System.Reflection", "FieldInfo")->byval_arg;
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeFieldHandle), "SetValueInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fi, obj, value});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeFieldHandle::SetValue
@@ -151,7 +150,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::RtFieldInfo*, ::Il2CppObject*, ::Il2CppObject*, System::RuntimeType*, System::Reflection::FieldAttributes, System::RuntimeType*, bool&)>(&System::RuntimeFieldHandle::SetValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeFieldHandle), "SetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::RtFieldInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::FieldAttributes>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    static auto* field = &::il2cpp_utils::GetClassFromName("System.Reflection", "RtFieldInfo")->byval_arg;
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* fieldType = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
+    static auto* fieldAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "FieldAttributes")->byval_arg;
+    static auto* declaringType = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
+    static auto* domainInitialized = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeFieldHandle), "SetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{field, obj, value, fieldType, fieldAttr, declaringType, domainInitialized});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeFieldHandle::SetValueDirect
@@ -159,7 +165,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::RtFieldInfo*, System::RuntimeType*, void*, ::Il2CppObject*, System::RuntimeType*)>(&System::RuntimeFieldHandle::SetValueDirect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeFieldHandle), "SetValueDirect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::RtFieldInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>(), ::il2cpp_utils::ExtractIndependentType<void*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
+    static auto* field = &::il2cpp_utils::GetClassFromName("System.Reflection", "RtFieldInfo")->byval_arg;
+    static auto* fieldType = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
+    static auto* pTypedRef = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Void"))->byval_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* contextType = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeFieldHandle), "SetValueDirect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{field, fieldType, pTypedRef, value, contextType});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeFieldHandle::Equals
@@ -167,7 +178,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::RuntimeFieldHandle::*)(::Il2CppObject*)>(&System::RuntimeFieldHandle::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::RuntimeFieldHandle), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::RuntimeFieldHandle), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
 // Writing MetadataGetter for method: System::RuntimeFieldHandle::GetHashCode

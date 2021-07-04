@@ -203,7 +203,6 @@ namespace UnityEngine::UI {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::AspectRatioFitter*, "UnityEngine.UI", "AspectRatioFitter");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::AspectRatioFitter::AspectMode, "UnityEngine.UI", "AspectRatioFitter/AspectMode");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::UI::AspectRatioFitter::get_aspectMode
 // Il2CppName: get_aspectMode
 template<>
@@ -217,7 +216,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AspectRatioFitter::*)(UnityEngine::UI::AspectRatioFitter::AspectMode)>(&UnityEngine::UI::AspectRatioFitter::set_aspectMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AspectRatioFitter*), "set_aspectMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::AspectRatioFitter::AspectMode>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "AspectRatioFitter/AspectMode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AspectRatioFitter*), "set_aspectMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::AspectRatioFitter::get_aspectRatio
@@ -233,7 +233,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::AspectRatioFitter::*)(float)>(&UnityEngine::UI::AspectRatioFitter::set_aspectRatio)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AspectRatioFitter*), "set_aspectRatio", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AspectRatioFitter*), "set_aspectRatio", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::AspectRatioFitter::get_rectTransform
@@ -265,7 +266,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::UI::AspectRatioFitter::*)(float, int)>(&UnityEngine::UI::AspectRatioFitter::GetSizeDeltaToProduceSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AspectRatioFitter*), "GetSizeDeltaToProduceSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* size = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* axis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::AspectRatioFitter*), "GetSizeDeltaToProduceSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size, axis});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::AspectRatioFitter::GetParentSize

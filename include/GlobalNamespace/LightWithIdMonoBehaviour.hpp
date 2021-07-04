@@ -110,8 +110,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(LightWithIdMonoBehaviour) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightWithIdMonoBehaviour*, "", "LightWithIdMonoBehaviour");
-// Writing includes for template specializations
-#include "UnityEngine/Color.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightWithIdMonoBehaviour::get_lightId
 // Il2CppName: get_lightId
 template<>
@@ -149,7 +147,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightWithIdMonoBehaviour::*)(UnityEngine::Color)>(&GlobalNamespace::LightWithIdMonoBehaviour::ColorWasSet)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdMonoBehaviour*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdMonoBehaviour*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LightWithIdMonoBehaviour::OnEnable
@@ -189,7 +188,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightWithIdMonoBehaviour::*)(int)>(&GlobalNamespace::LightWithIdMonoBehaviour::SetLightId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdMonoBehaviour*), "SetLightId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* newLightId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdMonoBehaviour*), "SetLightId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newLightId});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LightWithIdMonoBehaviour::New_ctor

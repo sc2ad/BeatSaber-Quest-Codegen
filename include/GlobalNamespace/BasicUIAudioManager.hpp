@@ -106,7 +106,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(BasicUIAudioManager) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BasicUIAudioManager*, "", "BasicUIAudioManager");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BasicUIAudioManager::Start
 // Il2CppName: Start
 template<>

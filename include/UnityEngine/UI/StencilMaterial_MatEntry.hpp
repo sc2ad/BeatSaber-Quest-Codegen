@@ -110,7 +110,6 @@ namespace UnityEngine::UI {
   static_assert(sizeof(StencilMaterial::MatEntry) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::StencilMaterial::MatEntry*, "UnityEngine.UI", "StencilMaterial/MatEntry");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::UI::StencilMaterial::MatEntry::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

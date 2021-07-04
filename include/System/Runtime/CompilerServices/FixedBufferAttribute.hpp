@@ -59,8 +59,6 @@ namespace System::Runtime::CompilerServices {
   static_assert(sizeof(FixedBufferAttribute) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::FixedBufferAttribute*, "System.Runtime.CompilerServices", "FixedBufferAttribute");
-// Writing includes for template specializations
-#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::FixedBufferAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

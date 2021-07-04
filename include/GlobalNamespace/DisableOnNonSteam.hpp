@@ -40,7 +40,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisableOnNonSteam*, "", "DisableOnNonSteam");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::DisableOnNonSteam::Awake
 // Il2CppName: Awake
 template<>

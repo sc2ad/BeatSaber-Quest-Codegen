@@ -58,8 +58,6 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolCleanupChecker::$$c*, "Zenject", "PoolCleanupChecker/<>c");
-// Writing includes for template specializations
-#include "System/Type.hpp"
 // Writing MetadataGetter for method: Zenject::PoolCleanupChecker::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -73,7 +71,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenject::PoolCleanupChecker::$$c::*)(System::Type*)>(&Zenject::PoolCleanupChecker::$$c::$_ctor$b__2_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::PoolCleanupChecker::$$c*), "<.ctor>b__2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::PoolCleanupChecker::$$c*), "<.ctor>b__2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
 // Writing MetadataGetter for method: Zenject::PoolCleanupChecker::$$c::New_ctor

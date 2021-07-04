@@ -136,8 +136,6 @@ namespace UnityEngine::Rendering {
   static_assert(sizeof(RenderTargetIdentifier) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::RenderTargetIdentifier, "UnityEngine.Rendering", "RenderTargetIdentifier");
-// Writing includes for template specializations
-#include "UnityEngine/Texture.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::RenderTargetIdentifier::RenderTargetIdentifier
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -155,7 +153,8 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::RenderTargetIdentifier, "UnityEng
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Rendering::RenderTargetIdentifier::*)(UnityEngine::Rendering::RenderTargetIdentifier)>(&UnityEngine::Rendering::RenderTargetIdentifier::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::RenderTargetIdentifier), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::RenderTargetIdentifier>()});
+    static auto* rhs = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "RenderTargetIdentifier")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::RenderTargetIdentifier), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rhs});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Rendering::RenderTargetIdentifier::ToString
@@ -179,6 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Rendering::RenderTargetIdentifier::*)(::Il2CppObject*)>(&UnityEngine::Rendering::RenderTargetIdentifier::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::RenderTargetIdentifier), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::RenderTargetIdentifier), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };

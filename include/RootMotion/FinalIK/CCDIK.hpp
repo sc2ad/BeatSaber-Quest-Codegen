@@ -81,7 +81,6 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(CCDIK) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::CCDIK*, "RootMotion.FinalIK", "CCDIK");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::CCDIK::SupportGroup
 // Il2CppName: SupportGroup
 template<>

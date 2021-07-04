@@ -118,7 +118,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(SimpleAudioPlayer) == 0x35);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleAudioPlayer*, "", "SimpleAudioPlayer");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SimpleAudioPlayer::Start
 // Il2CppName: Start
 template<>
@@ -140,7 +139,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleAudioPlayer::*)(float)>(&GlobalNamespace::SimpleAudioPlayer::FadeIn)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleAudioPlayer*), "FadeIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleAudioPlayer*), "FadeIn", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{duration});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SimpleAudioPlayer::get_activeAudioClip
@@ -156,7 +156,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SimpleAudioPlayer::*)(float)>(&GlobalNamespace::SimpleAudioPlayer::FadeOut)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleAudioPlayer*), "FadeOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleAudioPlayer*), "FadeOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{duration});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SimpleAudioPlayer::PauseCurrentChannel

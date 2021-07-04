@@ -37,7 +37,6 @@ namespace UnityEngine::UI::CoroutineTween {
   }; // UnityEngine.UI.CoroutineTween.ColorTween/ColorTweenCallback
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenCallback*, "UnityEngine.UI.CoroutineTween", "ColorTween/ColorTweenCallback");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::UI::CoroutineTween::ColorTween::ColorTweenCallback::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

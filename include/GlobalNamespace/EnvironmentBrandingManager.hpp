@@ -75,7 +75,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnvironmentBrandingManager) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentBrandingManager*, "", "EnvironmentBrandingManager");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentBrandingManager::Start
 // Il2CppName: Start
 template<>

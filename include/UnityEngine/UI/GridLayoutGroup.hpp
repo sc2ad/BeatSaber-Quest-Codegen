@@ -283,7 +283,6 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GridLayoutGroup*, "UnityEngine.UI", "Gri
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GridLayoutGroup::Corner, "UnityEngine.UI", "GridLayoutGroup/Corner");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GridLayoutGroup::Axis, "UnityEngine.UI", "GridLayoutGroup/Axis");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GridLayoutGroup::Constraint, "UnityEngine.UI", "GridLayoutGroup/Constraint");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::UI::GridLayoutGroup::get_startCorner
 // Il2CppName: get_startCorner
 template<>
@@ -297,7 +296,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::GridLayoutGroup::*)(UnityEngine::UI::GridLayoutGroup::Corner)>(&UnityEngine::UI::GridLayoutGroup::set_startCorner)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "set_startCorner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::GridLayoutGroup::Corner>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "GridLayoutGroup/Corner")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "set_startCorner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::GridLayoutGroup::get_startAxis
@@ -313,7 +313,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::GridLayoutGroup::*)(UnityEngine::UI::GridLayoutGroup::Axis)>(&UnityEngine::UI::GridLayoutGroup::set_startAxis)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "set_startAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::GridLayoutGroup::Axis>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "GridLayoutGroup/Axis")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "set_startAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::GridLayoutGroup::get_cellSize
@@ -329,7 +330,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::GridLayoutGroup::*)(UnityEngine::Vector2)>(&UnityEngine::UI::GridLayoutGroup::set_cellSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "set_cellSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "set_cellSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::GridLayoutGroup::get_spacing
@@ -345,7 +347,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::GridLayoutGroup::*)(UnityEngine::Vector2)>(&UnityEngine::UI::GridLayoutGroup::set_spacing)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "set_spacing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "set_spacing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::GridLayoutGroup::get_constraint
@@ -361,7 +364,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::GridLayoutGroup::*)(UnityEngine::UI::GridLayoutGroup::Constraint)>(&UnityEngine::UI::GridLayoutGroup::set_constraint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "set_constraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::GridLayoutGroup::Constraint>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "GridLayoutGroup/Constraint")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "set_constraint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::GridLayoutGroup::get_constraintCount
@@ -377,7 +381,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::GridLayoutGroup::*)(int)>(&UnityEngine::UI::GridLayoutGroup::set_constraintCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "set_constraintCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "set_constraintCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::GridLayoutGroup::SetCellsAlongAxis
@@ -385,7 +390,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::GridLayoutGroup::*)(int)>(&UnityEngine::UI::GridLayoutGroup::SetCellsAlongAxis)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "SetCellsAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* axis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GridLayoutGroup*), "SetCellsAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{axis});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::GridLayoutGroup::New_ctor

@@ -51,7 +51,7 @@ namespace Zenject {
     class $$c__DisplayClass2_0 : public ::il2cpp_utils::il2cpp_type_check::NestedType, public ::Il2CppObject {
       public:
       using declaring_type = SubContainerCreatorByNewGameObjectMethod_4<TParam1, TParam2, TParam3, TParam4>*;
-      static constexpr std::string_view NESTED_NAME = "$$c__DisplayClass2_0";
+      static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass2_0";
       // public Zenject.SubContainerCreatorByNewGameObjectMethod`4<TParam1,TParam2,TParam3,TParam4> <>4__this
       // Size: 0x8
       // Offset: 0x0

@@ -74,9 +74,6 @@ namespace System::Net {
   static_assert(sizeof(ServerCertValidationCallback::CallbackContext) == 0x2D);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ServerCertValidationCallback::CallbackContext*, "System.Net", "ServerCertValidationCallback/CallbackContext");
-// Writing includes for template specializations
-#include "System/Security/Cryptography/X509Certificates/X509Certificate.hpp"
-#include "System/Security/Cryptography/X509Certificates/X509Chain.hpp"
 // Writing MetadataGetter for method: System::Net::ServerCertValidationCallback::CallbackContext::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

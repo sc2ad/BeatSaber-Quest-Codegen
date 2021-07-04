@@ -56,7 +56,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(TimelinePauseMarker) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TimelinePauseMarker*, "", "TimelinePauseMarker");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::TimelinePauseMarker::get_id
 // Il2CppName: get_id
 template<>

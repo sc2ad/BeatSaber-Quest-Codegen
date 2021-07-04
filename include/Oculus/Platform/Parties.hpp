@@ -42,7 +42,6 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Parties*, "Oculus.Platform", "Parties");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::Parties::GetCurrent
 // Il2CppName: GetCurrent
 template<>
@@ -53,9 +52,5 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 };
 // Writing MetadataGetter for method: Oculus::Platform::Parties::SetPartyUpdateNotificationCallback
 // Il2CppName: SetPartyUpdateNotificationCallback
-template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(typename Oculus::Platform::Message_1<Oculus::Platform::Models::PartyUpdateNotification*>::Callback*)>(&Oculus::Platform::Parties::SetPartyUpdateNotificationCallback)> {
-  const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Parties*), "SetPartyUpdateNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<typename Oculus::Platform::Message_1<Oculus::Platform::Models::PartyUpdateNotification*>::Callback*>()});
-  }
-};
+// Cannot write MetadataGetter for a method that has a nested type with a declaring generic type anywhere within it!
+// Talk to sc2ad if this is something you want

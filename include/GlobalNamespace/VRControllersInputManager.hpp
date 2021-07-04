@@ -142,14 +142,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(VRControllersInputManager) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersInputManager*, "", "VRControllersInputManager");
-// Writing includes for template specializations
-#include "UnityEngine/XR/XRNode.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersInputManager::TriggerValue
 // Il2CppName: TriggerValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::VRControllersInputManager::*)(UnityEngine::XR::XRNode)>(&GlobalNamespace::VRControllersInputManager::TriggerValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersInputManager*), "TriggerValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
+    static auto* node = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersInputManager*), "TriggerValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersInputManager::VerticalAxisValue
@@ -157,7 +156,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::VRControllersInputManager::*)(UnityEngine::XR::XRNode)>(&GlobalNamespace::VRControllersInputManager::VerticalAxisValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersInputManager*), "VerticalAxisValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
+    static auto* node = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersInputManager*), "VerticalAxisValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersInputManager::HorizontalAxisValue
@@ -165,7 +165,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::VRControllersInputManager::*)(UnityEngine::XR::XRNode)>(&GlobalNamespace::VRControllersInputManager::HorizontalAxisValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersInputManager*), "HorizontalAxisValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
+    static auto* node = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersInputManager*), "HorizontalAxisValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersInputManager::MenuButtonDown

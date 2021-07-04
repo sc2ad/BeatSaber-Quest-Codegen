@@ -49,8 +49,6 @@ namespace System::Collections::Generic {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::CollectionExtensions*, "System.Collections.Generic", "CollectionExtensions");
-// Writing includes for template specializations
-#include "System/Collections/Generic/IReadOnlyDictionary_2.hpp"
 // Writing MetadataGetter for method: System::Collections::Generic::CollectionExtensions::GetValueOrDefault
 // Il2CppName: GetValueOrDefault
 // Cannot write MetadataGetter for generic methods!

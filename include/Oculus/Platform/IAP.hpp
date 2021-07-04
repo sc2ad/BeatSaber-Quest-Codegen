@@ -59,15 +59,13 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::IAP*, "Oculus.Platform", "IAP");
-// Writing includes for template specializations
-#include "Oculus/Platform/Models/ProductList.hpp"
-#include "Oculus/Platform/Models/PurchaseList.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::IAP::ConsumePurchase
 // Il2CppName: ConsumePurchase
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request* (*)(::Il2CppString*)>(&Oculus::Platform::IAP::ConsumePurchase)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::IAP*), "ConsumePurchase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* sku = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::IAP*), "ConsumePurchase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sku});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::IAP::GetProductsBySKU
@@ -75,7 +73,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::ProductList*>* (*)(::Array<::Il2CppString*>*)>(&Oculus::Platform::IAP::GetProductsBySKU)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::IAP*), "GetProductsBySKU", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    static auto* skus = &classof(::Array<::Array<::Il2CppString*>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::IAP*), "GetProductsBySKU", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{skus});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::IAP::GetViewerPurchases
@@ -99,7 +98,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::Purchase*>* (*)(::Il2CppString*)>(&Oculus::Platform::IAP::LaunchCheckoutFlow)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::IAP*), "LaunchCheckoutFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* sku = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::IAP*), "LaunchCheckoutFlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sku});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::IAP::GetNextProductListPage
@@ -107,7 +107,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::ProductList*>* (*)(Oculus::Platform::Models::ProductList*)>(&Oculus::Platform::IAP::GetNextProductListPage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::IAP*), "GetNextProductListPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Models::ProductList*>()});
+    static auto* list = &::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "ProductList")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::IAP*), "GetNextProductListPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{list});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::IAP::GetNextPurchaseListPage
@@ -115,6 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::PurchaseList*>* (*)(Oculus::Platform::Models::PurchaseList*)>(&Oculus::Platform::IAP::GetNextPurchaseListPage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::IAP*), "GetNextPurchaseListPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Models::PurchaseList*>()});
+    static auto* list = &::il2cpp_utils::GetClassFromName("Oculus.Platform.Models", "PurchaseList")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::IAP*), "GetNextPurchaseListPage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{list});
   }
 };

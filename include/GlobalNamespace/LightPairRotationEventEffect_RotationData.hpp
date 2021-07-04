@@ -82,7 +82,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(LightPairRotationEventEffect::RotationData) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightPairRotationEventEffect::RotationData*, "", "LightPairRotationEventEffect/RotationData");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::LightPairRotationEventEffect::RotationData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

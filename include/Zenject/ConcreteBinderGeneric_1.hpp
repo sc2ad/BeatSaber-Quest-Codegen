@@ -60,7 +60,7 @@ namespace Zenject {
     class $$c__DisplayClass5_0 : public ::il2cpp_utils::il2cpp_type_check::NestedType, public ::Il2CppObject {
       public:
       using declaring_type = ConcreteBinderGeneric_1<TContract>*;
-      static constexpr std::string_view NESTED_NAME = "$$c__DisplayClass5_0";
+      static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass5_0";
       // public System.Type concreteType
       // Size: 0x8
       // Offset: 0x0

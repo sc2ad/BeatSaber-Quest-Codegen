@@ -75,7 +75,6 @@ namespace TMPro {
   static_assert(sizeof(TMP_InputField::$CaretBlink$d__267) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputField::$CaretBlink$d__267*, "TMPro", "TMP_InputField/<CaretBlink>d__267");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: TMPro::TMP_InputField::$CaretBlink$d__267::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

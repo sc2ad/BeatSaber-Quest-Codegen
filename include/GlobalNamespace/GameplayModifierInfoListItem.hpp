@@ -73,14 +73,14 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameplayModifierInfoListItem) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifierInfoListItem*, "", "GameplayModifierInfoListItem");
-// Writing includes for template specializations
-#include "GlobalNamespace/GameplayModifierParamsSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifierInfoListItem::SetModifier
 // Il2CppName: SetModifier
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameplayModifierInfoListItem::*)(GlobalNamespace::GameplayModifierParamsSO*, bool)>(&GlobalNamespace::GameplayModifierInfoListItem::SetModifier)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifierInfoListItem*), "SetModifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifierParamsSO*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* modifierParam = &::il2cpp_utils::GetClassFromName("", "GameplayModifierParamsSO")->byval_arg;
+    static auto* showName = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameplayModifierInfoListItem*), "SetModifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{modifierParam, showName});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifierInfoListItem::New_ctor

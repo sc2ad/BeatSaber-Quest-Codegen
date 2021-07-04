@@ -56,15 +56,14 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ConnectionErrorDialogViewController*, "", "ConnectionErrorDialogViewController");
-// Writing includes for template specializations
-#include "GlobalNamespace/DisconnectedReason.hpp"
-#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ConnectionErrorDialogViewController::Init
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ConnectionErrorDialogViewController::*)(GlobalNamespace::DisconnectedReason, System::Action*)>(&GlobalNamespace::ConnectionErrorDialogViewController::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectionErrorDialogViewController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DisconnectedReason>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    static auto* reason = &::il2cpp_utils::GetClassFromName("", "DisconnectedReason")->byval_arg;
+    static auto* buttonAction = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ConnectionErrorDialogViewController*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reason, buttonAction});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ConnectionErrorDialogViewController::New_ctor

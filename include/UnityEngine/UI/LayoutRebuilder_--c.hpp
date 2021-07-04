@@ -98,8 +98,6 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutRebuilder::$$c*, "UnityEngine.UI", "LayoutRebuilder/<>c");
-// Writing includes for template specializations
-#include "UnityEngine/Component.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -113,7 +111,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutRebuilder::$$c::*)(UnityEngine::UI::LayoutRebuilder*)>(&UnityEngine::UI::LayoutRebuilder::$$c::$_cctor$b__5_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder::$$c*), "<.cctor>b__5_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::LayoutRebuilder*>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "LayoutRebuilder")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder::$$c*), "<.cctor>b__5_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::$$c::$StripDisabledBehavioursFromList$b__10_0
@@ -121,7 +120,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::LayoutRebuilder::$$c::*)(UnityEngine::Component*)>(&UnityEngine::UI::LayoutRebuilder::$$c::$StripDisabledBehavioursFromList$b__10_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder::$$c*), "<StripDisabledBehavioursFromList>b__10_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Component*>()});
+    static auto* e = &::il2cpp_utils::GetClassFromName("UnityEngine", "Component")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder::$$c*), "<StripDisabledBehavioursFromList>b__10_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::$$c::$Rebuild$b__12_0
@@ -129,7 +129,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutRebuilder::$$c::*)(UnityEngine::Component*)>(&UnityEngine::UI::LayoutRebuilder::$$c::$Rebuild$b__12_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder::$$c*), "<Rebuild>b__12_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Component*>()});
+    static auto* e = &::il2cpp_utils::GetClassFromName("UnityEngine", "Component")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder::$$c*), "<Rebuild>b__12_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::$$c::$Rebuild$b__12_1
@@ -137,7 +138,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutRebuilder::$$c::*)(UnityEngine::Component*)>(&UnityEngine::UI::LayoutRebuilder::$$c::$Rebuild$b__12_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder::$$c*), "<Rebuild>b__12_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Component*>()});
+    static auto* e = &::il2cpp_utils::GetClassFromName("UnityEngine", "Component")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder::$$c*), "<Rebuild>b__12_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::$$c::$Rebuild$b__12_2
@@ -145,7 +147,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutRebuilder::$$c::*)(UnityEngine::Component*)>(&UnityEngine::UI::LayoutRebuilder::$$c::$Rebuild$b__12_2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder::$$c*), "<Rebuild>b__12_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Component*>()});
+    static auto* e = &::il2cpp_utils::GetClassFromName("UnityEngine", "Component")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder::$$c*), "<Rebuild>b__12_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::$$c::$Rebuild$b__12_3
@@ -153,7 +156,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutRebuilder::$$c::*)(UnityEngine::Component*)>(&UnityEngine::UI::LayoutRebuilder::$$c::$Rebuild$b__12_3)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder::$$c*), "<Rebuild>b__12_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Component*>()});
+    static auto* e = &::il2cpp_utils::GetClassFromName("UnityEngine", "Component")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder::$$c*), "<Rebuild>b__12_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::$$c::New_ctor

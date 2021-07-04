@@ -84,7 +84,6 @@ namespace Mono::Unity {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Unity::UnityTls*, "Mono.Unity", "UnityTls");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Unity::UnityTls::GetUnityTlsInterface
 // Il2CppName: GetUnityTlsInterface
 template<>

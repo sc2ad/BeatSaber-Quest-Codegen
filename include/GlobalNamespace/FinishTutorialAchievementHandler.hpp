@@ -80,7 +80,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(FinishTutorialAchievementHandler) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FinishTutorialAchievementHandler*, "", "FinishTutorialAchievementHandler");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FinishTutorialAchievementHandler::Start
 // Il2CppName: Start
 template<>

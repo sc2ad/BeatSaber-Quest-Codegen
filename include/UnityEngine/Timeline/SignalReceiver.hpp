@@ -119,17 +119,15 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(SignalReceiver) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::SignalReceiver*, "UnityEngine.Timeline", "SignalReceiver");
-// Writing includes for template specializations
-#include "UnityEngine/Playables/Playable.hpp"
-#include "UnityEngine/Playables/INotification.hpp"
-#include "UnityEngine/Timeline/SignalAsset.hpp"
-#include "UnityEngine/Events/UnityEvent.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::OnNotify
 // Il2CppName: OnNotify
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalReceiver::*)(UnityEngine::Playables::Playable, UnityEngine::Playables::INotification*, ::Il2CppObject*)>(&UnityEngine::Timeline::SignalReceiver::OnNotify)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "OnNotify", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::Playable>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Playables::INotification*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "Playable")->byval_arg;
+    static auto* notification = &::il2cpp_utils::GetClassFromName("UnityEngine.Playables", "INotification")->byval_arg;
+    static auto* context = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "OnNotify", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{origin, notification, context});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::AddReaction
@@ -137,7 +135,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalReceiver::*)(UnityEngine::Timeline::SignalAsset*, UnityEngine::Events::UnityEvent*)>(&UnityEngine::Timeline::SignalReceiver::AddReaction)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "AddReaction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::SignalAsset*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityEvent*>()});
+    static auto* asset = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "SignalAsset")->byval_arg;
+    static auto* reaction = &::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityEvent")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "AddReaction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asset, reaction});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::AddEmptyReaction
@@ -145,7 +145,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Timeline::SignalReceiver::*)(UnityEngine::Events::UnityEvent*)>(&UnityEngine::Timeline::SignalReceiver::AddEmptyReaction)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "AddEmptyReaction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityEvent*>()});
+    static auto* reaction = &::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityEvent")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "AddEmptyReaction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reaction});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::Remove
@@ -153,7 +154,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalReceiver::*)(UnityEngine::Timeline::SignalAsset*)>(&UnityEngine::Timeline::SignalReceiver::Remove)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::SignalAsset*>()});
+    static auto* asset = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "SignalAsset")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asset});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::GetRegisteredSignals
@@ -169,7 +171,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::UnityEvent* (UnityEngine::Timeline::SignalReceiver::*)(UnityEngine::Timeline::SignalAsset*)>(&UnityEngine::Timeline::SignalReceiver::GetReaction)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "GetReaction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::SignalAsset*>()});
+    static auto* key = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "SignalAsset")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "GetReaction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::Count
@@ -185,7 +188,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalReceiver::*)(int, UnityEngine::Timeline::SignalAsset*)>(&UnityEngine::Timeline::SignalReceiver::ChangeSignalAtIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "ChangeSignalAtIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::SignalAsset*>()});
+    static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* newKey = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "SignalAsset")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "ChangeSignalAtIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{idx, newKey});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::RemoveAtIndex
@@ -193,7 +198,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalReceiver::*)(int)>(&UnityEngine::Timeline::SignalReceiver::RemoveAtIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "RemoveAtIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "RemoveAtIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{idx});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::ChangeReactionAtIndex
@@ -201,7 +207,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Timeline::SignalReceiver::*)(int, UnityEngine::Events::UnityEvent*)>(&UnityEngine::Timeline::SignalReceiver::ChangeReactionAtIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "ChangeReactionAtIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityEvent*>()});
+    static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* reaction = &::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityEvent")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "ChangeReactionAtIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{idx, reaction});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::GetReactionAtIndex
@@ -209,7 +217,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Events::UnityEvent* (UnityEngine::Timeline::SignalReceiver::*)(int)>(&UnityEngine::Timeline::SignalReceiver::GetReactionAtIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "GetReactionAtIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "GetReactionAtIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{idx});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::GetSignalAssetAtIndex
@@ -217,7 +226,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::SignalAsset* (UnityEngine::Timeline::SignalReceiver::*)(int)>(&UnityEngine::Timeline::SignalReceiver::GetSignalAssetAtIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "GetSignalAssetAtIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::SignalReceiver*), "GetSignalAssetAtIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{idx});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Timeline::SignalReceiver::OnEnable

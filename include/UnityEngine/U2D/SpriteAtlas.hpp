@@ -36,14 +36,13 @@ namespace UnityEngine::U2D {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::U2D::SpriteAtlas*, "UnityEngine.U2D", "SpriteAtlas");
-// Writing includes for template specializations
-#include "UnityEngine/Sprite.hpp"
 // Writing MetadataGetter for method: UnityEngine::U2D::SpriteAtlas::CanBindTo
 // Il2CppName: CanBindTo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::U2D::SpriteAtlas::*)(UnityEngine::Sprite*)>(&UnityEngine::U2D::SpriteAtlas::CanBindTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::U2D::SpriteAtlas*), "CanBindTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>()});
+    static auto* sprite = &::il2cpp_utils::GetClassFromName("UnityEngine", "Sprite")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::U2D::SpriteAtlas*), "CanBindTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sprite});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::U2D::SpriteAtlas::GetSprite
@@ -51,6 +50,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Sprite* (UnityEngine::U2D::SpriteAtlas::*)(::Il2CppString*)>(&UnityEngine::U2D::SpriteAtlas::GetSprite)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::U2D::SpriteAtlas*), "GetSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::U2D::SpriteAtlas*), "GetSprite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
   }
 };

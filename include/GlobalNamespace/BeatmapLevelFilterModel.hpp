@@ -70,19 +70,17 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelFilterModel*, "", "BeatmapLevelFilterModel");
-// Writing includes for template specializations
-#include "GlobalNamespace/LevelFilterParams.hpp"
-#include "GlobalNamespace/PlayerDataModel.hpp"
-#include "GlobalNamespace/AdditionalContentModel.hpp"
-#include "System/Threading/CancellationToken.hpp"
-#include "GlobalNamespace/IPreviewBeatmapLevel.hpp"
-#include "GlobalNamespace/SongPackMask.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelFilterModel::FilerBeatmapLevelPackCollectionAsync
 // Il2CppName: FilerBeatmapLevelPackCollectionAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::IBeatmapLevelCollection*>* (*)(::Array<GlobalNamespace::IBeatmapLevelPack*>*, GlobalNamespace::LevelFilterParams*, GlobalNamespace::PlayerDataModel*, GlobalNamespace::AdditionalContentModel*, System::Threading::CancellationToken)>(&GlobalNamespace::BeatmapLevelFilterModel::FilerBeatmapLevelPackCollectionAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelFilterModel*), "FilerBeatmapLevelPackCollectionAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::IBeatmapLevelPack*>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelFilterParams*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerDataModel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AdditionalContentModel*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    static auto* beatmapLevelPacks = &classof(::Array<::Array<GlobalNamespace::IBeatmapLevelPack*>*>*)->byval_arg;
+    static auto* levelFilterParams = &::il2cpp_utils::GetClassFromName("", "LevelFilterParams")->byval_arg;
+    static auto* playerDataModel = &::il2cpp_utils::GetClassFromName("", "PlayerDataModel")->byval_arg;
+    static auto* additionalContentModel = &::il2cpp_utils::GetClassFromName("", "AdditionalContentModel")->byval_arg;
+    static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelFilterModel*), "FilerBeatmapLevelPackCollectionAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapLevelPacks, levelFilterParams, playerDataModel, additionalContentModel, cancellationToken});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelFilterModel::LevelContainsText
@@ -90,7 +88,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::IPreviewBeatmapLevel*, ::Array<::Il2CppString*>*)>(&GlobalNamespace::BeatmapLevelFilterModel::LevelContainsText)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelFilterModel*), "LevelContainsText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>()});
+    static auto* beatmapLevel = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
+    static auto* searchTexts = &classof(::Array<::Array<::Il2CppString*>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelFilterModel*), "LevelContainsText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapLevel, searchTexts});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelFilterModel::GetAllBeatmapLevelsAsync
@@ -98,6 +98,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Collections::Generic::List_1<GlobalNamespace::IPreviewBeatmapLevel*>*>* (*)(::Array<GlobalNamespace::IBeatmapLevelPack*>*, GlobalNamespace::SongPackMask, bool, GlobalNamespace::AdditionalContentModel*, System::Threading::CancellationToken)>(&GlobalNamespace::BeatmapLevelFilterModel::GetAllBeatmapLevelsAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelFilterModel*), "GetAllBeatmapLevelsAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::IBeatmapLevelPack*>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SongPackMask>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AdditionalContentModel*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    static auto* beatmapLevelPacks = &classof(::Array<::Array<GlobalNamespace::IBeatmapLevelPack*>*>*)->byval_arg;
+    static auto* songPackMask = &::il2cpp_utils::GetClassFromName("", "SongPackMask")->byval_arg;
+    static auto* onlyOwned = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* additionalContentModel = &::il2cpp_utils::GetClassFromName("", "AdditionalContentModel")->byval_arg;
+    static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelFilterModel*), "GetAllBeatmapLevelsAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapLevelPacks, songPackMask, onlyOwned, additionalContentModel, cancellationToken});
   }
 };

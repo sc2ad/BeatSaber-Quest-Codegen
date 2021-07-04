@@ -58,8 +58,6 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   static_assert(sizeof(PointOnEdgeException) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException*, "UnityEngine.ProBuilder.Poly2Tri", "PointOnEdgeException");
-// Writing includes for template specializations
-#include "UnityEngine/ProBuilder/Poly2Tri/TriangulationPoint.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Poly2Tri::PointOnEdgeException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

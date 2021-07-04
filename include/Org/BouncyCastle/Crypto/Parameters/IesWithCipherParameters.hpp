@@ -36,7 +36,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters*, "Org.BouncyCastle.Crypto.Parameters", "IesWithCipherParameters");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters::get_CipherKeySize
 // Il2CppName: get_CipherKeySize
 template<>

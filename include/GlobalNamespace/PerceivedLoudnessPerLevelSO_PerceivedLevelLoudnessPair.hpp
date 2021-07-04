@@ -51,7 +51,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair*, "", "PerceivedLoudnessPerLevelSO/PerceivedLevelLoudnessPair");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::PerceivedLoudnessPerLevelSO::PerceivedLevelLoudnessPair::get_levelId
 // Il2CppName: get_levelId
 template<>

@@ -59,11 +59,6 @@ namespace OVR::OpenVR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_ComputeDistortion*, "OVR.OpenVR", "IVRSystem/_ComputeDistortion");
-// Writing includes for template specializations
-#include "OVR/OpenVR/EVREye.hpp"
-#include "OVR/OpenVR/DistortionCoordinates_t.hpp"
-#include "System/AsyncCallback.hpp"
-#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_ComputeDistortion::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -73,7 +68,11 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_ComputeDistortion*, "OVR.OpenVR"
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::IVRSystem::_ComputeDistortion::*)(OVR::OpenVR::EVREye, float, float, OVR::OpenVR::DistortionCoordinates_t&)>(&OVR::OpenVR::IVRSystem::_ComputeDistortion::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_ComputeDistortion*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVREye>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::DistortionCoordinates_t&>()});
+    static auto* eEye = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVREye")->byval_arg;
+    static auto* fU = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* fV = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* pDistortionCoordinates = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "DistortionCoordinates_t")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_ComputeDistortion*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eEye, fU, fV, pDistortionCoordinates});
   }
 };
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_ComputeDistortion::BeginInvoke
@@ -81,7 +80,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRSystem::_ComputeDistortion::*)(OVR::OpenVR::EVREye, float, float, OVR::OpenVR::DistortionCoordinates_t&, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRSystem::_ComputeDistortion::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_ComputeDistortion*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::EVREye>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::DistortionCoordinates_t&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* eEye = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVREye")->byval_arg;
+    static auto* fU = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* fV = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* pDistortionCoordinates = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "DistortionCoordinates_t")->this_arg;
+    static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
+    static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_ComputeDistortion*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eEye, fU, fV, pDistortionCoordinates, callback, object});
   }
 };
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_ComputeDistortion::EndInvoke
@@ -89,6 +94,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::IVRSystem::_ComputeDistortion::*)(OVR::OpenVR::DistortionCoordinates_t&, System::IAsyncResult*)>(&OVR::OpenVR::IVRSystem::_ComputeDistortion::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_ComputeDistortion*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::DistortionCoordinates_t&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    static auto* pDistortionCoordinates = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "DistortionCoordinates_t")->this_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::IVRSystem::_ComputeDistortion*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pDistortionCoordinates, result});
   }
 };

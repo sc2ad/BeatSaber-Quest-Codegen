@@ -57,8 +57,6 @@ namespace NUnit::Framework {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::ResultStateException*, "NUnit.Framework", "ResultStateException");
-// Writing includes for template specializations
-#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::ResultStateException::get_ResultState
 // Il2CppName: get_ResultState
 template<>

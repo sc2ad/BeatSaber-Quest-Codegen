@@ -34,14 +34,13 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*, "", "CameraRenderCallbacksManager/ICameraRenderCallbacks");
-// Writing includes for template specializations
-#include "UnityEngine/Camera.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks::OnCameraPostRender
 // Il2CppName: OnCameraPostRender
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks::*)(UnityEngine::Camera*)>(&GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks::OnCameraPostRender)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*), "OnCameraPostRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    static auto* camera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*), "OnCameraPostRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{camera});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks::OnCameraPreRender
@@ -49,6 +48,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks::*)(UnityEngine::Camera*)>(&GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks::OnCameraPreRender)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*), "OnCameraPreRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    static auto* camera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*), "OnCameraPreRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{camera});
   }
 };

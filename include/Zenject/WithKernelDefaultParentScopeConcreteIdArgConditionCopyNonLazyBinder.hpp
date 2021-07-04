@@ -58,9 +58,6 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder*, "Zenject", "WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder");
-// Writing includes for template specializations
-#include "Zenject/SubContainerCreatorBindInfo.hpp"
-#include "Zenject/BindInfo.hpp"
 // Writing MetadataGetter for method: Zenject::WithKernelDefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::WithKernel
 // Il2CppName: WithKernel
 template<>

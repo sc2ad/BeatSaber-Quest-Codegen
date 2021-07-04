@@ -60,7 +60,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(SyncTimeProvider) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SyncTimeProvider*, "", "SyncTimeProvider");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SyncTimeProvider::get_time
 // Il2CppName: get_time
 template<>

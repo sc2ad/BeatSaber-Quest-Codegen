@@ -65,13 +65,16 @@ namespace UnityEngine::AddressableAssets::Utility {
   static_assert(sizeof(DiagnosticInfo) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Utility::DiagnosticInfo*, "UnityEngine.AddressableAssets.Utility", "DiagnosticInfo");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Utility::DiagnosticInfo::CreateEvent
 // Il2CppName: CreateEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent (UnityEngine::AddressableAssets::Utility::DiagnosticInfo::*)(::Il2CppString*, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType, int, int)>(&UnityEngine::AddressableAssets::Utility::DiagnosticInfo::CreateEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Utility::DiagnosticInfo*), "CreateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* category = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* eventType = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement", "ResourceManager/DiagnosticEventType")->byval_arg;
+    static auto* frame = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* val = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Utility::DiagnosticInfo*), "CreateEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{category, eventType, frame, val});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Utility::DiagnosticInfo::New_ctor

@@ -52,7 +52,6 @@ namespace UnityEngine::EventSystems {
   static_assert(sizeof(AbstractEventData) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::AbstractEventData*, "UnityEngine.EventSystems", "AbstractEventData");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::EventSystems::AbstractEventData::Reset
 // Il2CppName: Reset
 template<>

@@ -56,7 +56,7 @@ namespace Priority_Queue {
     class $GetEnumerator$d__25 : public ::il2cpp_utils::il2cpp_type_check::NestedType, public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<TItem>*/ {
       public:
       using declaring_type = GenericPriorityQueue_2<TItem, TPriority>*;
-      static constexpr std::string_view NESTED_NAME = "$GetEnumerator$d__25";
+      static constexpr std::string_view NESTED_NAME = "<GetEnumerator>d__25";
       // private System.Int32 <>1__state
       // Size: 0x4
       // Offset: 0x0

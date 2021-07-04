@@ -54,7 +54,7 @@ namespace GlobalNamespace {
     struct $$RunSync$b__0$d : public ::il2cpp_utils::il2cpp_type_check::NestedType/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
       public:
       using declaring_type = AsyncHelper::$$c__DisplayClass0_0_1<T>*;
-      static constexpr std::string_view NESTED_NAME = "$$RunSync$b__0$d";
+      static constexpr std::string_view NESTED_NAME = "<<RunSync>b__0>d";
       // public System.Int32 <>1__state
       // Size: 0x4
       // Offset: 0x0

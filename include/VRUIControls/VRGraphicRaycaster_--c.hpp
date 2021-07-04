@@ -56,7 +56,6 @@ namespace VRUIControls {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRGraphicRaycaster::$$c*, "VRUIControls", "VRGraphicRaycaster/<>c");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: VRUIControls::VRGraphicRaycaster::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -70,7 +69,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (VRUIControls::VRGraphicRaycaster::$$c::*)(VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult, VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult)>(&VRUIControls::VRGraphicRaycaster::$$c::$RaycastCanvas$b__12_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRGraphicRaycaster::$$c*), "<RaycastCanvas>b__12_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult>(), ::il2cpp_utils::ExtractIndependentType<VRUIControls::VRGraphicRaycaster::VRGraphicRaycastResult>()});
+    static auto* g1 = &::il2cpp_utils::GetClassFromName("VRUIControls", "VRGraphicRaycaster/VRGraphicRaycastResult")->byval_arg;
+    static auto* g2 = &::il2cpp_utils::GetClassFromName("VRUIControls", "VRGraphicRaycaster/VRGraphicRaycastResult")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRGraphicRaycaster::$$c*), "<RaycastCanvas>b__12_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{g1, g2});
   }
 };
 // Writing MetadataGetter for method: VRUIControls::VRGraphicRaycaster::$$c::New_ctor

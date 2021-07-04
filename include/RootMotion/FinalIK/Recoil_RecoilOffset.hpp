@@ -100,9 +100,6 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(Recoil::RecoilOffset) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Recoil::RecoilOffset*, "RootMotion.FinalIK", "Recoil/RecoilOffset");
-// Writing includes for template specializations
-#include "RootMotion/FinalIK/IKSolverFullBodyBiped.hpp"
-#include "UnityEngine/Quaternion.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Recoil::RecoilOffset::Start
 // Il2CppName: Start
 template<>
@@ -116,7 +113,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Recoil::RecoilOffset::*)(RootMotion::FinalIK::IKSolverFullBodyBiped*, UnityEngine::Quaternion, float, float, float)>(&RootMotion::FinalIK::Recoil::RecoilOffset::Apply)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Recoil::RecoilOffset*), "Apply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKSolverFullBodyBiped*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* solver = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverFullBodyBiped")->byval_arg;
+    static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
+    static auto* masterWeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* length = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* timeLeft = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Recoil::RecoilOffset*), "Apply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{solver, rotation, masterWeight, length, timeLeft});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::Recoil::RecoilOffset::New_ctor

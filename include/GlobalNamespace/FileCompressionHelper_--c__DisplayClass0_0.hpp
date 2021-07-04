@@ -76,7 +76,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(FileCompressionHelper::$$c__DisplayClass0_0) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FileCompressionHelper::$$c__DisplayClass0_0*, "", "FileCompressionHelper/<>c__DisplayClass0_0");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FileCompressionHelper::$$c__DisplayClass0_0::$CreateZipFromDirectoryAsync$b__0
 // Il2CppName: <CreateZipFromDirectoryAsync>b__0
 template<>

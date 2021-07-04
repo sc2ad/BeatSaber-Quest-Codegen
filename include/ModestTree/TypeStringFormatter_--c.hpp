@@ -58,8 +58,6 @@ namespace ModestTree {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeStringFormatter::$$c*, "ModestTree", "TypeStringFormatter/<>c");
-// Writing includes for template specializations
-#include "System/Type.hpp"
 // Writing MetadataGetter for method: ModestTree::TypeStringFormatter::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -73,7 +71,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (ModestTree::TypeStringFormatter::$$c::*)(System::Type*)>(&ModestTree::TypeStringFormatter::$$c::$PrettyNameInternal$b__2_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeStringFormatter::$$c*), "<PrettyNameInternal>b__2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeStringFormatter::$$c*), "<PrettyNameInternal>b__2_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
 };
 // Writing MetadataGetter for method: ModestTree::TypeStringFormatter::$$c::New_ctor

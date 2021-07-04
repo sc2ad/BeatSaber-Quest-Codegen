@@ -64,14 +64,14 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameServerPlayerTableCell::$$c__DisplayClass26_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass26_0*, "", "GameServerPlayerTableCell/<>c__DisplayClass26_0");
-// Writing includes for template specializations
-#include "GlobalNamespace/GameplayModifierInfoListItem.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass26_0::$SetData$b__0
 // Il2CppName: <SetData>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass26_0::*)(int, GlobalNamespace::GameplayModifierInfoListItem*)>(&GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass26_0::$SetData$b__0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass26_0*), "<SetData>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifierInfoListItem*>()});
+    static auto* id = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* listItem = &::il2cpp_utils::GetClassFromName("", "GameplayModifierInfoListItem")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass26_0*), "<SetData>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id, listItem});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::GameServerPlayerTableCell::$$c__DisplayClass26_0::New_ctor

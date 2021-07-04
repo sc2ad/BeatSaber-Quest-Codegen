@@ -89,7 +89,6 @@ namespace Zenject {
   static_assert(sizeof(TransientProvider::$$c__DisplayClass11_0) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::TransientProvider::$$c__DisplayClass11_0*, "Zenject", "TransientProvider/<>c__DisplayClass11_0");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Zenject::TransientProvider::$$c__DisplayClass11_0::$GetAllInstancesWithInjectSplit$b__0
 // Il2CppName: <GetAllInstancesWithInjectSplit>b__0
 template<>

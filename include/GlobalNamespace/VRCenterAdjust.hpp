@@ -94,7 +94,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(VRCenterAdjust) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRCenterAdjust*, "", "VRCenterAdjust");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::VRCenterAdjust::Awake
 // Il2CppName: Awake
 template<>

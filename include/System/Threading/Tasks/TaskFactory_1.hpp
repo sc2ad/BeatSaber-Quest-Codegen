@@ -73,7 +73,7 @@ namespace System::Threading::Tasks {
     class FromAsyncTrimPromise_1 : public ::il2cpp_utils::il2cpp_type_check::NestedType, public System::Threading::Tasks::Task_1<TResult> {
       public:
       using declaring_type = TaskFactory_1<TResult>*;
-      static constexpr std::string_view NESTED_NAME = "FromAsyncTrimPromise_1";
+      static constexpr std::string_view NESTED_NAME = "FromAsyncTrimPromise`1";
       // private TInstance m_thisRef
       // Size: 0xFFFFFFFF
       // Offset: 0x0
@@ -137,7 +137,7 @@ namespace System::Threading::Tasks {
     class $$c__DisplayClass35_0 : public ::il2cpp_utils::il2cpp_type_check::NestedType, public ::Il2CppObject {
       public:
       using declaring_type = TaskFactory_1<TResult>*;
-      static constexpr std::string_view NESTED_NAME = "$$c__DisplayClass35_0";
+      static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass35_0";
       // public System.Func`2<System.IAsyncResult,TResult> endFunction
       // Size: 0x8
       // Offset: 0x0
@@ -182,7 +182,7 @@ namespace System::Threading::Tasks {
     class $$c__DisplayClass35_1 : public ::il2cpp_utils::il2cpp_type_check::NestedType, public ::Il2CppObject {
       public:
       using declaring_type = TaskFactory_1<TResult>*;
-      static constexpr std::string_view NESTED_NAME = "$$c__DisplayClass35_1";
+      static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass35_1";
       // public System.Threading.AtomicBoolean invoked
       // Size: 0x8
       // Offset: 0x0

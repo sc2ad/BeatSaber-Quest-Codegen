@@ -25,7 +25,6 @@ namespace UnityEngine::Timeline {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::IInterval*, "UnityEngine.Timeline", "IInterval");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Timeline::IInterval::get_intervalStart
 // Il2CppName: get_intervalStart
 template<>

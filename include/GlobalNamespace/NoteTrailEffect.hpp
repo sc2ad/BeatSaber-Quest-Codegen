@@ -90,7 +90,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteTrailEffect) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteTrailEffect*, "", "NoteTrailEffect");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::NoteTrailEffect::Awake
 // Il2CppName: Awake
 template<>

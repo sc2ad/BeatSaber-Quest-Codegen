@@ -59,13 +59,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(CreditsData) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsData*, "", "CreditsData");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::CreditsData::Deserialize
 // Il2CppName: Deserialize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::CreditsData* (*)(::Il2CppString*)>(&GlobalNamespace::CreditsData::Deserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsData*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CreditsData*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::CreditsData::New_ctor

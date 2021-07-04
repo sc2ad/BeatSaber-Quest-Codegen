@@ -42,7 +42,6 @@ namespace MasterServer {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::RequestWaiter*, "MasterServer", "MessageHandler/RequestWaiter");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: MasterServer::MessageHandler::RequestWaiter::Dispose
 // Il2CppName: Dispose
 template<>

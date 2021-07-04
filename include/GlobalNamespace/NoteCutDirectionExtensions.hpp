@@ -49,14 +49,13 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutDirectionExtensions*, "", "NoteCutDirectionExtensions");
-// Writing includes for template specializations
-#include "GlobalNamespace/NoteCutDirection.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutDirectionExtensions::Direction
 // Il2CppName: Direction
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(GlobalNamespace::NoteCutDirection)>(&GlobalNamespace::NoteCutDirectionExtensions::Direction)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutDirectionExtensions*), "Direction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutDirection>()});
+    static auto* cutDirection = &::il2cpp_utils::GetClassFromName("", "NoteCutDirection")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutDirectionExtensions*), "Direction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cutDirection});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutDirectionExtensions::RotationAngle
@@ -64,7 +63,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(GlobalNamespace::NoteCutDirection)>(&GlobalNamespace::NoteCutDirectionExtensions::RotationAngle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutDirectionExtensions*), "RotationAngle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutDirection>()});
+    static auto* cutDirection = &::il2cpp_utils::GetClassFromName("", "NoteCutDirection")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutDirectionExtensions*), "RotationAngle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cutDirection});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutDirectionExtensions::Rotation
@@ -72,7 +72,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(G
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(GlobalNamespace::NoteCutDirection, float)>(&GlobalNamespace::NoteCutDirectionExtensions::Rotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutDirectionExtensions*), "Rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutDirection>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* cutDirection = &::il2cpp_utils::GetClassFromName("", "NoteCutDirection")->byval_arg;
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutDirectionExtensions*), "Rotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cutDirection, offset});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutDirectionExtensions::IsMainDirection
@@ -80,7 +82,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::NoteCutDirection)>(&GlobalNamespace::NoteCutDirectionExtensions::IsMainDirection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutDirectionExtensions*), "IsMainDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutDirection>()});
+    static auto* cutDirection = &::il2cpp_utils::GetClassFromName("", "NoteCutDirection")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutDirectionExtensions*), "IsMainDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cutDirection});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutDirectionExtensions::MainNoteCutDirectionFromCutDirAngle
@@ -88,6 +91,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::NoteCutDirection (*)(float)>(&GlobalNamespace::NoteCutDirectionExtensions::MainNoteCutDirectionFromCutDirAngle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutDirectionExtensions*), "MainNoteCutDirectionFromCutDirAngle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* angle = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutDirectionExtensions*), "MainNoteCutDirectionFromCutDirAngle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{angle});
   }
 };

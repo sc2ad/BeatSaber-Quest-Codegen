@@ -56,8 +56,6 @@ namespace UnityEngine {
   static_assert(sizeof(WaitUntil) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WaitUntil*, "UnityEngine", "WaitUntil");
-// Writing includes for template specializations
-#include "System/Func_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::WaitUntil::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

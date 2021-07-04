@@ -66,14 +66,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(HostGameServerLobbyFlowCoordinator::$$c__DisplayClass43_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c__DisplayClass43_0*, "", "HostGameServerLobbyFlowCoordinator/<>c__DisplayClass43_0");
-// Writing includes for template specializations
-#include "GlobalNamespace/IConnectedPlayer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c__DisplayClass43_0::$UpdateMissingEntitlementsAsync$b__1
 // Il2CppName: <UpdateMissingEntitlementsAsync>b__1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::EntitlementsStatus>* (GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c__DisplayClass43_0::*)(GlobalNamespace::IConnectedPlayer*)>(&GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c__DisplayClass43_0::$UpdateMissingEntitlementsAsync$b__1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c__DisplayClass43_0*), "<UpdateMissingEntitlementsAsync>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IConnectedPlayer*>()});
+    static auto* player = &::il2cpp_utils::GetClassFromName("", "IConnectedPlayer")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c__DisplayClass43_0*), "<UpdateMissingEntitlementsAsync>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{player});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::HostGameServerLobbyFlowCoordinator::$$c__DisplayClass43_0::New_ctor

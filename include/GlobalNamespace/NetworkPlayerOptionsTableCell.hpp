@@ -115,8 +115,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(NetworkPlayerOptionsTableCell) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayerOptionsTableCell*, "", "NetworkPlayerOptionsTableCell");
-// Writing includes for template specializations
-#include "GlobalNamespace/INetworkPlayer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerOptionsTableCell::get_player
 // Il2CppName: get_player
 template<>
@@ -130,7 +128,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetworkPlayerOptionsTableCell::*)(GlobalNamespace::INetworkPlayer*)>(&GlobalNamespace::NetworkPlayerOptionsTableCell::set_player)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayerOptionsTableCell*), "set_player", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::INetworkPlayer*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("", "INetworkPlayer")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayerOptionsTableCell*), "set_player", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerOptionsTableCell::Refresh

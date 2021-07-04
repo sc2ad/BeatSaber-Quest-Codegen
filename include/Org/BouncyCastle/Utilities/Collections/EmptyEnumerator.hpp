@@ -53,7 +53,6 @@ namespace Org::BouncyCastle::Utilities::Collections {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::EmptyEnumerator*, "Org.BouncyCastle.Utilities.Collections", "EmptyEnumerator");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::EmptyEnumerator::MoveNext
 // Il2CppName: MoveNext
 template<>

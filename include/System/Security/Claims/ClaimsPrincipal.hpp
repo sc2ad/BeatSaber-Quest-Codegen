@@ -131,15 +131,13 @@ namespace System::Security::Claims {
   static_assert(sizeof(ClaimsPrincipal) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Claims::ClaimsPrincipal*, "System.Security.Claims", "ClaimsPrincipal");
-// Writing includes for template specializations
-#include "System/Collections/Generic/IEnumerable_1.hpp"
-#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::Security::Claims::ClaimsPrincipal::SelectPrimaryIdentity
 // Il2CppName: SelectPrimaryIdentity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Claims::ClaimsIdentity* (*)(System::Collections::Generic::IEnumerable_1<System::Security::Claims::ClaimsIdentity*>*)>(&System::Security::Claims::ClaimsPrincipal::SelectPrimaryIdentity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsPrincipal*), "SelectPrimaryIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<System::Security::Claims::ClaimsIdentity*>*>()});
+    static auto* identities = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Security.Claims", "ClaimsIdentity")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsPrincipal*), "SelectPrimaryIdentity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{identities});
   }
 };
 // Writing MetadataGetter for method: System::Security::Claims::ClaimsPrincipal::get_ClaimsPrincipalSelector
@@ -159,7 +157,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Fun
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Claims::ClaimsPrincipal::*)(System::Runtime::Serialization::StreamingContext)>(&System::Security::Claims::ClaimsPrincipal::OnSerializingMethod)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsPrincipal*), "OnSerializingMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsPrincipal*), "OnSerializingMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
 };
 // Writing MetadataGetter for method: System::Security::Claims::ClaimsPrincipal::OnDeserializedMethod
@@ -167,7 +166,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Claims::ClaimsPrincipal::*)(System::Runtime::Serialization::StreamingContext)>(&System::Security::Claims::ClaimsPrincipal::OnDeserializedMethod)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsPrincipal*), "OnDeserializedMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsPrincipal*), "OnDeserializedMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
 };
 // Writing MetadataGetter for method: System::Security::Claims::ClaimsPrincipal::Deserialize
@@ -175,7 +175,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Claims::ClaimsPrincipal::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Security::Claims::ClaimsPrincipal::Deserialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsPrincipal*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
+    static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsPrincipal*), "Deserialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{info, context});
   }
 };
 // Writing MetadataGetter for method: System::Security::Claims::ClaimsPrincipal::DeserializeIdentities
@@ -183,7 +185,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Claims::ClaimsPrincipal::*)(::Il2CppString*)>(&System::Security::Claims::ClaimsPrincipal::DeserializeIdentities)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsPrincipal*), "DeserializeIdentities", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* identities = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::ClaimsPrincipal*), "DeserializeIdentities", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{identities});
   }
 };
 // Writing MetadataGetter for method: System::Security::Claims::ClaimsPrincipal::SerializeIdentities

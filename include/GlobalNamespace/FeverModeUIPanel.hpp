@@ -93,7 +93,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(FeverModeUIPanel) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FeverModeUIPanel*, "", "FeverModeUIPanel");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FeverModeUIPanel::Start
 // Il2CppName: Start
 template<>
@@ -123,7 +122,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FeverModeUIPanel::*)(float)>(&GlobalNamespace::FeverModeUIPanel::SetProgress)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FeverModeUIPanel*), "SetProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* progress = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FeverModeUIPanel*), "SetProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{progress});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::FeverModeUIPanel::HandleFeverModeDidStart
@@ -147,7 +147,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FeverModeUIPanel::*)(float)>(&GlobalNamespace::FeverModeUIPanel::HandleFeverModeChargeProgressDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FeverModeUIPanel*), "HandleFeverModeChargeProgressDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* progress = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FeverModeUIPanel*), "HandleFeverModeChargeProgressDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{progress});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::FeverModeUIPanel::New_ctor

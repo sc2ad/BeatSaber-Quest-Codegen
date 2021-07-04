@@ -49,7 +49,6 @@ namespace Oculus::Platform::Models {
   static_assert(sizeof(Error) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Error*, "Oculus.Platform.Models", "Error");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::Models::Error::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

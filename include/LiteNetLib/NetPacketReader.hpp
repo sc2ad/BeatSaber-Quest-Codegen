@@ -73,10 +73,6 @@ namespace LiteNetLib {
   static_assert(sizeof(NetPacketReader) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPacketReader*, "LiteNetLib", "NetPacketReader");
-// Writing includes for template specializations
-#include "LiteNetLib/NetManager.hpp"
-#include "LiteNetLib/NetEvent.hpp"
-#include "LiteNetLib/NetPacket.hpp"
 // Writing MetadataGetter for method: LiteNetLib::NetPacketReader::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -86,7 +82,8 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPacketReader*, "LiteNetLib", "NetPacketRea
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetPacketReader::*)(LiteNetLib::NetPacket*)>(&LiteNetLib::NetPacketReader::SetSource)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacketReader*), "SetSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<LiteNetLib::NetPacket*>()});
+    static auto* packet = &::il2cpp_utils::GetClassFromName("LiteNetLib", "NetPacket")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetPacketReader*), "SetSource", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});
   }
 };
 // Writing MetadataGetter for method: LiteNetLib::NetPacketReader::RecycleInternal

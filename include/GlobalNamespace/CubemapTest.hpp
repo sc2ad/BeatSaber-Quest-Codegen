@@ -104,7 +104,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(CubemapTest) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CubemapTest*, "", "CubemapTest");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::CubemapTest::Start
 // Il2CppName: Start
 template<>

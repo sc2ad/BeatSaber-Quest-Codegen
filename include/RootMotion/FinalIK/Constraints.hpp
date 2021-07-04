@@ -101,8 +101,6 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(Constraints) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Constraints*, "RootMotion.FinalIK", "Constraints");
-// Writing includes for template specializations
-#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::Constraints::IsValid
 // Il2CppName: IsValid
 template<>
@@ -116,7 +114,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Constraints::*)(UnityEngine::Transform*)>(&RootMotion::FinalIK::Constraints::Initiate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Constraints*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Constraints*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transform});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::Constraints::Update

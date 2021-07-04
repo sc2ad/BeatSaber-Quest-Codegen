@@ -63,9 +63,6 @@ namespace System::Net::Http::Headers {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::CollectionExtensions*, "System.Net.Http.Headers", "CollectionExtensions");
-// Writing includes for template specializations
-#include "System/Collections/Generic/List_1.hpp"
-#include "System/Text/StringBuilder.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::CollectionExtensions::SequenceEqual
 // Il2CppName: SequenceEqual
 // Cannot write MetadataGetter for generic methods!

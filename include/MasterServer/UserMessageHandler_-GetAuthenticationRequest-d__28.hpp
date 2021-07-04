@@ -72,7 +72,6 @@ namespace MasterServer {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageHandler::$GetAuthenticationRequest$d__28, "MasterServer", "UserMessageHandler/<GetAuthenticationRequest>d__28");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: MasterServer::UserMessageHandler::$GetAuthenticationRequest$d__28::MoveNext
 // Il2CppName: MoveNext
 template<>
@@ -86,6 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserMessageHandler::$GetAuthenticationRequest$d__28::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&MasterServer::UserMessageHandler::$GetAuthenticationRequest$d__28::SetStateMachine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserMessageHandler::$GetAuthenticationRequest$d__28), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+    static auto* stateMachine = &::il2cpp_utils::GetClassFromName("System.Runtime.CompilerServices", "IAsyncStateMachine")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::UserMessageHandler::$GetAuthenticationRequest$d__28), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stateMachine});
   }
 };

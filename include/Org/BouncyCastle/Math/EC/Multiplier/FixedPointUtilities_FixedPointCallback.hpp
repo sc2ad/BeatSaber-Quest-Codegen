@@ -74,11 +74,6 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   static_assert(sizeof(FixedPointUtilities::FixedPointCallback) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::FixedPointCallback*, "Org.BouncyCastle.Math.EC.Multiplier", "FixedPointUtilities/FixedPointCallback");
-// Writing includes for template specializations
-#include "Org/BouncyCastle/Math/EC/ECPoint.hpp"
-#include "Org/BouncyCastle/Math/EC/Multiplier/PreCompInfo.hpp"
-#include "Org/BouncyCastle/Math/EC/Multiplier/FixedPointPreCompInfo.hpp"
-#include "Org/BouncyCastle/Math/EC/ECLookupTable.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::FixedPointCallback::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -88,7 +83,8 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* (Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::FixedPointCallback::*)(Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*)>(&Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::FixedPointCallback::Precompute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::FixedPointCallback*), "Precompute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>()});
+    static auto* existing = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC.Multiplier", "PreCompInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::FixedPointCallback*), "Precompute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{existing});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::FixedPointCallback::CheckExisting
@@ -96,7 +92,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::FixedPointCallback::*)(Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo*, int)>(&Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::FixedPointCallback::CheckExisting)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::FixedPointCallback*), "CheckExisting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* existingFP = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC.Multiplier", "FixedPointPreCompInfo")->byval_arg;
+    static auto* n = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::FixedPointCallback*), "CheckExisting", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{existingFP, n});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::FixedPointCallback::CheckTable
@@ -104,6 +102,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::FixedPointCallback::*)(Org::BouncyCastle::Math::EC::ECLookupTable*, int)>(&Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::FixedPointCallback::CheckTable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::FixedPointCallback*), "CheckTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Math::EC::ECLookupTable*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* table = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECLookupTable")->byval_arg;
+    static auto* n = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities::FixedPointCallback*), "CheckTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{table, n});
   }
 };

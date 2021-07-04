@@ -51,14 +51,15 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalLeaderboardTableView*, "", "LocalLeaderboardTableView");
-// Writing includes for template specializations
-#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalLeaderboardTableView::SetScores
 // Il2CppName: SetScores
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalLeaderboardTableView::*)(System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::ScoreData*>*, int, int)>(&GlobalNamespace::LocalLeaderboardTableView::SetScores)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalLeaderboardTableView*), "SetScores", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::ScoreData*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* scores = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "LocalLeaderboardsModel/ScoreData")})->byval_arg;
+    static auto* specialScorePos = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* maxNumberOfCells = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalLeaderboardTableView*), "SetScores", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scores, specialScorePos, maxNumberOfCells});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LocalLeaderboardTableView::New_ctor

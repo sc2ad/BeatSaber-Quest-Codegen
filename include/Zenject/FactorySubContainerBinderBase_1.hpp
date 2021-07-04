@@ -71,7 +71,7 @@ namespace Zenject {
     class $$c__DisplayClass23_0 : public ::il2cpp_utils::il2cpp_type_check::NestedType, public ::Il2CppObject {
       public:
       using declaring_type = FactorySubContainerBinderBase_1<TContract>*;
-      static constexpr std::string_view NESTED_NAME = "$$c__DisplayClass23_0";
+      static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass23_0";
       // public Zenject.FactorySubContainerBinderBase`1<TContract> <>4__this
       // Size: 0x8
       // Offset: 0x0
@@ -116,7 +116,7 @@ namespace Zenject {
     class $$c__DisplayClass25_0 : public ::il2cpp_utils::il2cpp_type_check::NestedType, public ::Il2CppObject {
       public:
       using declaring_type = FactorySubContainerBinderBase_1<TContract>*;
-      static constexpr std::string_view NESTED_NAME = "$$c__DisplayClass25_0";
+      static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass25_0";
       // public Zenject.FactorySubContainerBinderBase`1<TContract> <>4__this
       // Size: 0x8
       // Offset: 0x0
@@ -161,7 +161,7 @@ namespace Zenject {
     class $$c__DisplayClass27_0 : public ::il2cpp_utils::il2cpp_type_check::NestedType, public ::Il2CppObject {
       public:
       using declaring_type = FactorySubContainerBinderBase_1<TContract>*;
-      static constexpr std::string_view NESTED_NAME = "$$c__DisplayClass27_0";
+      static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass27_0";
       // public Zenject.FactorySubContainerBinderBase`1<TContract> <>4__this
       // Size: 0x8
       // Offset: 0x0
@@ -212,7 +212,7 @@ namespace Zenject {
     class $$c__DisplayClass29_0 : public ::il2cpp_utils::il2cpp_type_check::NestedType, public ::Il2CppObject {
       public:
       using declaring_type = FactorySubContainerBinderBase_1<TContract>*;
-      static constexpr std::string_view NESTED_NAME = "$$c__DisplayClass29_0";
+      static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass29_0";
       // public Zenject.FactorySubContainerBinderBase`1<TContract> <>4__this
       // Size: 0x8
       // Offset: 0x0

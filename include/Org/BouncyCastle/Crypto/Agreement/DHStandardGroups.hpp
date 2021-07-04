@@ -211,13 +211,13 @@ namespace Org::BouncyCastle::Crypto::Agreement {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Agreement::DHStandardGroups*, "Org.BouncyCastle.Crypto.Agreement", "DHStandardGroups");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Agreement::DHStandardGroups::FromHex
 // Il2CppName: FromHex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(::Il2CppString*)>(&Org::BouncyCastle::Crypto::Agreement::DHStandardGroups::FromHex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Agreement::DHStandardGroups*), "FromHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* hex = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Agreement::DHStandardGroups*), "FromHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hex});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Agreement::DHStandardGroups::SafePrimeGen2
@@ -225,7 +225,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::DHParameters* (*)(::Il2CppString*)>(&Org::BouncyCastle::Crypto::Agreement::DHStandardGroups::SafePrimeGen2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Agreement::DHStandardGroups*), "SafePrimeGen2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* hexP = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Agreement::DHStandardGroups*), "SafePrimeGen2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hexP});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Agreement::DHStandardGroups::SafePrimeGen2
@@ -233,7 +234,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::DHParameters* (*)(::Il2CppString*, int)>(&Org::BouncyCastle::Crypto::Agreement::DHStandardGroups::SafePrimeGen2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Agreement::DHStandardGroups*), "SafePrimeGen2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* hexP = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* l = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Agreement::DHStandardGroups*), "SafePrimeGen2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hexP, l});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Agreement::DHStandardGroups::_cctor

@@ -238,12 +238,6 @@ namespace Mono::Security::X509 {
   static_assert(sizeof(PKCS12) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::PKCS12*, "Mono.Security.X509", "PKCS12");
-// Writing includes for template specializations
-#include "Mono/Security/PKCS7_EncryptedData.hpp"
-#include "Mono/Security/Cryptography/PKCS8_PrivateKeyInfo.hpp"
-#include "Mono/Security/ASN1.hpp"
-#include "Mono/Security/X509/X509Certificate.hpp"
-#include "System/Collections/IDictionary.hpp"
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -257,7 +251,8 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::PKCS12*, "Mono.Security.X509", "PKC
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::PKCS12::*)(::Array<uint8_t>*)>(&Mono::Security::X509::PKCS12::Decode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* data = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::set_Password
@@ -265,7 +260,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::PKCS12::*)(::Il2CppString*)>(&Mono::Security::X509::PKCS12::set_Password)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "set_Password", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "set_Password", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::get_IterationCount
@@ -281,7 +277,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::PKCS12::*)(int)>(&Mono::Security::X509::PKCS12::set_IterationCount)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "set_IterationCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "set_IterationCount", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::get_Keys
@@ -313,7 +310,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::X509::PKCS12::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Mono::Security::X509::PKCS12::Compare)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* expected = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* actual = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expected, actual});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::GetSymmetricAlgorithm
@@ -321,7 +320,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::SymmetricAlgorithm* (Mono::Security::X509::PKCS12::*)(::Il2CppString*, ::Array<uint8_t>*, int)>(&Mono::Security::X509::PKCS12::GetSymmetricAlgorithm)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "GetSymmetricAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* algorithmOid = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* salt = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* iterationCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "GetSymmetricAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algorithmOid, salt, iterationCount});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::Decrypt
@@ -329,7 +331,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::X509::PKCS12::*)(::Il2CppString*, ::Array<uint8_t>*, int, ::Array<uint8_t>*)>(&Mono::Security::X509::PKCS12::Decrypt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "Decrypt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* algorithmOid = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* salt = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* iterationCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* encryptedData = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "Decrypt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algorithmOid, salt, iterationCount, encryptedData});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::Decrypt
@@ -337,7 +343,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::X509::PKCS12::*)(Mono::Security::PKCS7::EncryptedData*)>(&Mono::Security::X509::PKCS12::Decrypt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "Decrypt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::PKCS7::EncryptedData*>()});
+    static auto* ed = &::il2cpp_utils::GetClassFromName("Mono.Security", "PKCS7/EncryptedData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "Decrypt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ed});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::Encrypt
@@ -345,7 +352,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::X509::PKCS12::*)(::Il2CppString*, ::Array<uint8_t>*, int, ::Array<uint8_t>*)>(&Mono::Security::X509::PKCS12::Encrypt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "Encrypt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* algorithmOid = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* salt = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* iterationCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* data = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "Encrypt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algorithmOid, salt, iterationCount, data});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::GetExistingParameters
@@ -353,7 +364,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::DSAParameters (Mono::Security::X509::PKCS12::*)(bool&)>(&Mono::Security::X509::PKCS12::GetExistingParameters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "GetExistingParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool&>()});
+    static auto* found = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "GetExistingParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{found});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::AddPrivateKey
@@ -361,7 +373,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::PKCS12::*)(Mono::Security::Cryptography::PKCS8::PrivateKeyInfo*)>(&Mono::Security::X509::PKCS12::AddPrivateKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "AddPrivateKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Cryptography::PKCS8::PrivateKeyInfo*>()});
+    static auto* pki = &::il2cpp_utils::GetClassFromName("Mono.Security.Cryptography", "PKCS8/PrivateKeyInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "AddPrivateKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pki});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::ReadSafeBag
@@ -369,7 +382,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::PKCS12::*)(Mono::Security::ASN1*)>(&Mono::Security::X509::PKCS12::ReadSafeBag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "ReadSafeBag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>()});
+    static auto* safeBag = &::il2cpp_utils::GetClassFromName("Mono.Security", "ASN1")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "ReadSafeBag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{safeBag});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::CertificateSafeBag
@@ -377,7 +391,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (Mono::Security::X509::PKCS12::*)(Mono::Security::X509::X509Certificate*, System::Collections::IDictionary*)>(&Mono::Security::X509::PKCS12::CertificateSafeBag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "CertificateSafeBag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::X509::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IDictionary*>()});
+    static auto* x509 = &::il2cpp_utils::GetClassFromName("Mono.Security.X509", "X509Certificate")->byval_arg;
+    static auto* attributes = &::il2cpp_utils::GetClassFromName("System.Collections", "IDictionary")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "CertificateSafeBag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x509, attributes});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::MAC
@@ -385,7 +401,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::X509::PKCS12::*)(::Array<uint8_t>*, ::Array<uint8_t>*, int, ::Array<uint8_t>*)>(&Mono::Security::X509::PKCS12::MAC)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "MAC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* password = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* salt = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* iterations = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* data = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "MAC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{password, salt, iterations, data});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::GetBytes
@@ -401,7 +421,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::PKCS7::ContentInfo* (Mono::Security::X509::PKCS12::*)(Mono::Security::ASN1*, ::Il2CppString*)>(&Mono::Security::X509::PKCS12::EncryptedContentInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "EncryptedContentInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::ASN1*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* safeBags = &::il2cpp_utils::GetClassFromName("Mono.Security", "ASN1")->byval_arg;
+    static auto* algorithmOid = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "EncryptedContentInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{safeBags, algorithmOid});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::AddCertificate
@@ -409,7 +431,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::PKCS12::*)(Mono::Security::X509::X509Certificate*)>(&Mono::Security::X509::PKCS12::AddCertificate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "AddCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::X509::X509Certificate*>()});
+    static auto* cert = &::il2cpp_utils::GetClassFromName("Mono.Security.X509", "X509Certificate")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "AddCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cert});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::AddCertificate
@@ -417,7 +440,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::PKCS12::*)(Mono::Security::X509::X509Certificate*, System::Collections::IDictionary*)>(&Mono::Security::X509::PKCS12::AddCertificate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "AddCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::X509::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IDictionary*>()});
+    static auto* cert = &::il2cpp_utils::GetClassFromName("Mono.Security.X509", "X509Certificate")->byval_arg;
+    static auto* attributes = &::il2cpp_utils::GetClassFromName("System.Collections", "IDictionary")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "AddCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cert, attributes});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::RemoveCertificate
@@ -425,7 +450,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::PKCS12::*)(Mono::Security::X509::X509Certificate*)>(&Mono::Security::X509::PKCS12::RemoveCertificate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "RemoveCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::X509::X509Certificate*>()});
+    static auto* cert = &::il2cpp_utils::GetClassFromName("Mono.Security.X509", "X509Certificate")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "RemoveCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cert});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::RemoveCertificate
@@ -433,7 +459,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::PKCS12::*)(Mono::Security::X509::X509Certificate*, System::Collections::IDictionary*)>(&Mono::Security::X509::PKCS12::RemoveCertificate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "RemoveCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::X509::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IDictionary*>()});
+    static auto* cert = &::il2cpp_utils::GetClassFromName("Mono.Security.X509", "X509Certificate")->byval_arg;
+    static auto* attrs = &::il2cpp_utils::GetClassFromName("System.Collections", "IDictionary")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "RemoveCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cert, attrs});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::Clone

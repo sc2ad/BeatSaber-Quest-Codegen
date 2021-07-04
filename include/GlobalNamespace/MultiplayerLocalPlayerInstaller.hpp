@@ -78,7 +78,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLocalPlayerInstaller) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalPlayerInstaller*, "", "MultiplayerLocalPlayerInstaller");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalPlayerInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>

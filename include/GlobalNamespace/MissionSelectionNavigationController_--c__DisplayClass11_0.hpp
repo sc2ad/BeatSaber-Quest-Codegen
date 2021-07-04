@@ -70,7 +70,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionSelectionNavigationController::$$c__DisplayClass11_0) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionSelectionNavigationController::$$c__DisplayClass11_0*, "", "MissionSelectionNavigationController/<>c__DisplayClass11_0");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MissionSelectionNavigationController::$$c__DisplayClass11_0::$PresentMissionClearedIfNeeded$b__0
 // Il2CppName: <PresentMissionClearedIfNeeded>b__0
 template<>

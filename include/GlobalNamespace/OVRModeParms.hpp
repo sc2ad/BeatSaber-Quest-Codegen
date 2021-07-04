@@ -58,7 +58,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRModeParms) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRModeParms*, "", "OVRModeParms");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRModeParms::Start
 // Il2CppName: Start
 template<>

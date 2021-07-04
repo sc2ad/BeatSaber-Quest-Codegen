@@ -39,13 +39,13 @@ namespace GlobalNamespace {
   }; // FlyingScoreEffect/Pool
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FlyingScoreEffect::Pool*, "", "FlyingScoreEffect/Pool");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FlyingScoreEffect::Pool::OnDespawned
 // Il2CppName: OnDespawned
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FlyingScoreEffect::Pool::*)(GlobalNamespace::FlyingScoreEffect*)>(&GlobalNamespace::FlyingScoreEffect::Pool::OnDespawned)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingScoreEffect::Pool*), "OnDespawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::FlyingScoreEffect*>()});
+    static auto* item = &::il2cpp_utils::GetClassFromName("", "FlyingScoreEffect")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FlyingScoreEffect::Pool*), "OnDespawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{item});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::FlyingScoreEffect::Pool::New_ctor

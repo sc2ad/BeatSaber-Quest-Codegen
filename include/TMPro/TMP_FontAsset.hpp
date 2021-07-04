@@ -561,12 +561,6 @@ namespace TMPro {
   static_assert(sizeof(TMP_FontAsset) == 0x1E0);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontAsset*, "TMPro", "TMP_FontAsset");
-// Writing includes for template specializations
-#include "UnityEngine/Font.hpp"
-#include "System/Collections/Generic/List_1.hpp"
-#include "TMPro/TMP_FontFeatureTable.hpp"
-#include "UnityEngine/TextCore/Glyph.hpp"
-#include "TMPro/TMP_Character.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_version
 // Il2CppName: get_version
 template<>
@@ -580,7 +574,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(::Il2CppString*)>(&TMPro::TMP_FontAsset::set_version)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_sourceFontFile
@@ -596,7 +591,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(UnityEngine::Font*)>(&TMPro::TMP_FontAsset::set_sourceFontFile)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_sourceFontFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Font*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Font")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_sourceFontFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_atlasPopulationMode
@@ -612,7 +608,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::Atla
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(TMPro::AtlasPopulationMode)>(&TMPro::TMP_FontAsset::set_atlasPopulationMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_atlasPopulationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::AtlasPopulationMode>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("TMPro", "AtlasPopulationMode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_atlasPopulationMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_faceInfo
@@ -628,7 +625,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(UnityEngine::TextCore::FaceInfo)>(&TMPro::TMP_FontAsset::set_faceInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_faceInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::FaceInfo>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore", "FaceInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_faceInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_glyphTable
@@ -644,7 +642,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>*)>(&TMPro::TMP_FontAsset::set_glyphTable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_glyphTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>*>()});
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.TextCore", "Glyph")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_glyphTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_glyphLookupTable
@@ -668,7 +667,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(System::Collections::Generic::List_1<TMPro::TMP_Character*>*)>(&TMPro::TMP_FontAsset::set_characterTable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_characterTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<TMPro::TMP_Character*>*>()});
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("TMPro", "TMP_Character")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_characterTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_characterLookupTable
@@ -700,7 +700,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(::Array<UnityEngine::Texture2D*>*)>(&TMPro::TMP_FontAsset::set_atlasTextures)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_atlasTextures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Texture2D*>*>()});
+    static auto* value = &classof(::Array<::Array<UnityEngine::Texture2D*>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_atlasTextures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_usedGlyphRects
@@ -716,7 +717,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*)>(&TMPro::TMP_FontAsset::set_usedGlyphRects)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_usedGlyphRects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*>()});
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.TextCore", "GlyphRect")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_usedGlyphRects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_freeGlyphRects
@@ -732,7 +734,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*)>(&TMPro::TMP_FontAsset::set_freeGlyphRects)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_freeGlyphRects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*>()});
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.TextCore", "GlyphRect")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_freeGlyphRects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_fontInfo
@@ -756,7 +759,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(int)>(&TMPro::TMP_FontAsset::set_atlasWidth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_atlasWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_atlasWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_atlasHeight
@@ -772,7 +776,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(int)>(&TMPro::TMP_FontAsset::set_atlasHeight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_atlasHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_atlasHeight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_atlasPadding
@@ -788,7 +793,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(int)>(&TMPro::TMP_FontAsset::set_atlasPadding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_atlasPadding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_atlasPadding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_atlasRenderMode
@@ -804,7 +810,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(UnityEngine::TextCore::LowLevel::GlyphRenderMode)>(&TMPro::TMP_FontAsset::set_atlasRenderMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_atlasRenderMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphRenderMode>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore.LowLevel", "GlyphRenderMode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_atlasRenderMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_fontFeatureTable
@@ -820,7 +827,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(TMPro::TMP_FontFeatureTable*)>(&TMPro::TMP_FontAsset::set_fontFeatureTable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_fontFeatureTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontFeatureTable*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_FontFeatureTable")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_fontFeatureTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_fallbackFontAssetTable
@@ -836,7 +844,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>*)>(&TMPro::TMP_FontAsset::set_fallbackFontAssetTable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_fallbackFontAssetTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<TMPro::TMP_FontAsset*>*>()});
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("TMPro", "TMP_FontAsset")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_fallbackFontAssetTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_creationSettings
@@ -852,7 +861,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::Font
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(TMPro::FontAssetCreationSettings)>(&TMPro::TMP_FontAsset::set_creationSettings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_creationSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::FontAssetCreationSettings>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("TMPro", "FontAssetCreationSettings")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_creationSettings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_fontWeightTable
@@ -868,7 +878,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<TMP
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(::Array<TMPro::TMP_FontWeightPair>*)>(&TMPro::TMP_FontAsset::set_fontWeightTable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_fontWeightTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<TMPro::TMP_FontWeightPair>*>()});
+    static auto* value = &classof(::Array<::Array<TMPro::TMP_FontWeightPair>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_fontWeightTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::CreateFontAsset
@@ -876,7 +887,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_FontAsset* (*)(UnityEngine::Font*)>(&TMPro::TMP_FontAsset::CreateFontAsset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "CreateFontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Font*>()});
+    static auto* font = &::il2cpp_utils::GetClassFromName("UnityEngine", "Font")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "CreateFontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{font});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::CreateFontAsset
@@ -884,7 +896,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_FontAsset* (*)(UnityEngine::Font*, int, int, UnityEngine::TextCore::LowLevel::GlyphRenderMode, int, int, TMPro::AtlasPopulationMode)>(&TMPro::TMP_FontAsset::CreateFontAsset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "CreateFontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Font*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::LowLevel::GlyphRenderMode>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::AtlasPopulationMode>()});
+    static auto* font = &::il2cpp_utils::GetClassFromName("UnityEngine", "Font")->byval_arg;
+    static auto* samplingPointSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* atlasPadding = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* renderMode = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore.LowLevel", "GlyphRenderMode")->byval_arg;
+    static auto* atlasWidth = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* atlasHeight = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* atlasPopulationMode = &::il2cpp_utils::GetClassFromName("TMPro", "AtlasPopulationMode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "CreateFontAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{font, samplingPointSize, atlasPadding, renderMode, atlasWidth, atlasHeight, atlasPopulationMode});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::Awake
@@ -940,7 +959,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(int)>(&TMPro::TMP_FontAsset::HasCharacter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "HasCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* character = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "HasCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{character});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::HasCharacter
@@ -948,7 +968,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::Il2CppChar)>(&TMPro::TMP_FontAsset::HasCharacter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "HasCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    static auto* character = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "HasCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{character});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::HasCharacter
@@ -956,7 +977,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::Il2CppChar, bool)>(&TMPro::TMP_FontAsset::HasCharacter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "HasCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* character = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    static auto* searchFallbacks = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "HasCharacter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{character, searchFallbacks});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::HasCharacter_Internal
@@ -964,7 +987,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::Il2CppChar, bool)>(&TMPro::TMP_FontAsset::HasCharacter_Internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "HasCharacter_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* character = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    static auto* searchFallbacks = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "HasCharacter_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{character, searchFallbacks});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::HasCharacters
@@ -972,7 +997,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::Il2CppString*, System::Collections::Generic::List_1<::Il2CppChar>*&)>(&TMPro::TMP_FontAsset::HasCharacters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "HasCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<::Il2CppChar>*&>()});
+    static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* missingCharacters = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Char")})->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "HasCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text, missingCharacters});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::HasCharacters
@@ -980,7 +1007,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::Il2CppString*)>(&TMPro::TMP_FontAsset::HasCharacters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "HasCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "HasCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::GetCharacters
@@ -988,7 +1016,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(TMPro::TMP_FontAsset*)>(&TMPro::TMP_FontAsset::GetCharacters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "GetCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*>()});
+    static auto* fontAsset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_FontAsset")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "GetCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fontAsset});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::GetCharactersArray
@@ -996,7 +1025,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(TMPro::TMP_FontAsset*)>(&TMPro::TMP_FontAsset::GetCharactersArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "GetCharactersArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_FontAsset*>()});
+    static auto* fontAsset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_FontAsset")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "GetCharactersArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fontAsset});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::TryAddCharacters
@@ -1004,7 +1034,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::Array<uint>*)>(&TMPro::TMP_FontAsset::TryAddCharacters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "TryAddCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>()});
+    static auto* unicodes = &classof(::Array<::Array<uint>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "TryAddCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unicodes});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::TryAddCharacters
@@ -1012,7 +1043,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::Array<uint>*, ::Array<uint>*&)>(&TMPro::TMP_FontAsset::TryAddCharacters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "TryAddCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint>*&>()});
+    static auto* unicodes = &classof(::Array<::Array<uint>*>*)->byval_arg;
+    static auto* missingUnicodes = &classof(::Array<::Array<uint>*>*)->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "TryAddCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unicodes, missingUnicodes});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::TryAddCharacters
@@ -1020,7 +1053,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::Il2CppString*)>(&TMPro::TMP_FontAsset::TryAddCharacters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "TryAddCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* characters = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "TryAddCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{characters});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::TryAddCharacters
@@ -1028,7 +1062,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::Il2CppString*, ::Il2CppString*&)>(&TMPro::TMP_FontAsset::TryAddCharacters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "TryAddCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    static auto* characters = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* missingCharacters = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "TryAddCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{characters, missingCharacters});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::TryAddCharacter_Internal
@@ -1036,7 +1072,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(uint)>(&TMPro::TMP_FontAsset::TryAddCharacter_Internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "TryAddCharacter_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* unicode = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "TryAddCharacter_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unicode});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::AddCharacter_Internal
@@ -1044,7 +1081,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Character* (TMPro::TMP_FontAsset::*)(uint, UnityEngine::TextCore::Glyph*)>(&TMPro::TMP_FontAsset::AddCharacter_Internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "AddCharacter_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextCore::Glyph*>()});
+    static auto* unicode = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* glyph = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore", "Glyph")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "AddCharacter_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unicode, glyph});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::TryAddCharacterInternal
@@ -1052,7 +1091,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(uint, TMPro::TMP_Character*&)>(&TMPro::TMP_FontAsset::TryAddCharacterInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "TryAddCharacterInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Character*&>()});
+    static auto* unicode = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* character = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Character")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "TryAddCharacterInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unicode, character});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::GetGlyphIndex
@@ -1060,7 +1101,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro::TMP_FontAsset::*)(uint)>(&TMPro::TMP_FontAsset::GetGlyphIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "GetGlyphIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* unicode = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "GetGlyphIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unicode});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::UpdateAtlasTexture
@@ -1076,7 +1118,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(uint, uint)>(&TMPro::TMP_FontAsset::UpdateGlyphAdjustmentRecords)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "UpdateGlyphAdjustmentRecords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* unicode = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* glyphIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "UpdateGlyphAdjustmentRecords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unicode, glyphIndex});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::ClearFontAssetData
@@ -1084,7 +1128,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(bool)>(&TMPro::TMP_FontAsset::ClearFontAssetData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "ClearFontAssetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* setAtlasSizeToZero = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "ClearFontAssetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{setAtlasSizeToZero});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::UpgradeFontAsset

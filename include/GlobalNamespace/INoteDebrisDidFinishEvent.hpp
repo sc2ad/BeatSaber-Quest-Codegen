@@ -28,13 +28,12 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::INoteDebrisDidFinishEvent*, "", "INoteDebrisDidFinishEvent");
-// Writing includes for template specializations
-#include "GlobalNamespace/NoteDebris.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::INoteDebrisDidFinishEvent::HandleNoteDebrisDidFinish
 // Il2CppName: HandleNoteDebrisDidFinish
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::INoteDebrisDidFinishEvent::*)(GlobalNamespace::NoteDebris*)>(&GlobalNamespace::INoteDebrisDidFinishEvent::HandleNoteDebrisDidFinish)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INoteDebrisDidFinishEvent*), "HandleNoteDebrisDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteDebris*>()});
+    static auto* noteDebris = &::il2cpp_utils::GetClassFromName("", "NoteDebris")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::INoteDebrisDidFinishEvent*), "HandleNoteDebrisDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteDebris});
   }
 };

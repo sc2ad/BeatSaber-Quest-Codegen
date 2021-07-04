@@ -65,7 +65,6 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(KeySizes) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::KeySizes*, "System.Security.Cryptography", "KeySizes");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::Cryptography::KeySizes::get_MinSize
 // Il2CppName: get_MinSize
 template<>
@@ -99,7 +98,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::KeySizes::*)(int)>(&System::Security::Cryptography::KeySizes::IsLegal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::KeySizes*), "IsLegal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* keySize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::KeySizes*), "IsLegal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keySize});
   }
 };
 // Writing MetadataGetter for method: System::Security::Cryptography::KeySizes::IsLegalKeySize
@@ -107,6 +107,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<System::Security::Cryptography::KeySizes*>*, int)>(&System::Security::Cryptography::KeySizes::IsLegalKeySize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::KeySizes*), "IsLegalKeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Security::Cryptography::KeySizes*>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* legalKeys = &classof(::Array<::Array<System::Security::Cryptography::KeySizes*>*>*)->byval_arg;
+    static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::KeySizes*), "IsLegalKeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{legalKeys, size});
   }
 };

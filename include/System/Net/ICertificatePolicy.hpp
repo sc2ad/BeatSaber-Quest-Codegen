@@ -35,15 +35,15 @@ namespace System::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::ICertificatePolicy*, "System.Net", "ICertificatePolicy");
-// Writing includes for template specializations
-#include "System/Net/ServicePoint.hpp"
-#include "System/Security/Cryptography/X509Certificates/X509Certificate.hpp"
-#include "System/Net/WebRequest.hpp"
 // Writing MetadataGetter for method: System::Net::ICertificatePolicy::CheckValidationResult
 // Il2CppName: CheckValidationResult
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::ICertificatePolicy::*)(System::Net::ServicePoint*, System::Security::Cryptography::X509Certificates::X509Certificate*, System::Net::WebRequest*, int)>(&System::Net::ICertificatePolicy::CheckValidationResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::ICertificatePolicy*), "CheckValidationResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::ServicePoint*>(), ::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::X509Certificates::X509Certificate*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::WebRequest*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* srvPoint = &::il2cpp_utils::GetClassFromName("System.Net", "ServicePoint")->byval_arg;
+    static auto* certificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate")->byval_arg;
+    static auto* request = &::il2cpp_utils::GetClassFromName("System.Net", "WebRequest")->byval_arg;
+    static auto* certificateProblem = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::ICertificatePolicy*), "CheckValidationResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{srvPoint, certificate, request, certificateProblem});
   }
 };

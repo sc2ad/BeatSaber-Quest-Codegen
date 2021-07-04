@@ -48,17 +48,23 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteBasicCutInfoHelper*, "", "NoteBasicCutInfoHelper");
-// Writing includes for template specializations
-#include "UnityEngine/Transform.hpp"
-#include "GlobalNamespace/ColorType.hpp"
-#include "GlobalNamespace/NoteCutDirection.hpp"
-#include "GlobalNamespace/SaberType.hpp"
-#include "UnityEngine/Vector3.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteBasicCutInfoHelper::GetBasicCutInfo
 // Il2CppName: GetBasicCutInfo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Transform*, GlobalNamespace::ColorType, GlobalNamespace::NoteCutDirection, GlobalNamespace::SaberType, float, UnityEngine::Vector3, float, bool&, bool&, bool&, float&, float&)>(&GlobalNamespace::NoteBasicCutInfoHelper::GetBasicCutInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteBasicCutInfoHelper*), "GetBasicCutInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutDirection>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::SaberType>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<float&>(), ::il2cpp_utils::ExtractIndependentType<float&>()});
+    static auto* noteTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    static auto* colorType = &::il2cpp_utils::GetClassFromName("", "ColorType")->byval_arg;
+    static auto* cutDirection = &::il2cpp_utils::GetClassFromName("", "NoteCutDirection")->byval_arg;
+    static auto* saberType = &::il2cpp_utils::GetClassFromName("", "SaberType")->byval_arg;
+    static auto* saberBladeSpeed = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* cutDirVec = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* cutAngleTolerance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* directionOK = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
+    static auto* speedOK = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
+    static auto* saberTypeOK = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
+    static auto* cutDirDeviation = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
+    static auto* cutDirAngle = &::il2cpp_utils::GetClassFromName("System", "Single")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteBasicCutInfoHelper*), "GetBasicCutInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteTransform, colorType, cutDirection, saberType, saberBladeSpeed, cutDirVec, cutAngleTolerance, directionOK, speedOK, saberTypeOK, cutDirDeviation, cutDirAngle});
   }
 };

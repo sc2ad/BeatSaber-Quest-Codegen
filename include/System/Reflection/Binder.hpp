@@ -76,16 +76,19 @@ namespace System::Reflection {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Binder*, "System.Reflection", "Binder");
-// Writing includes for template specializations
-#include "System/Reflection/BindingFlags.hpp"
-#include "System/Globalization/CultureInfo.hpp"
-#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::Reflection::Binder::BindToMethod
 // Il2CppName: BindToMethod
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (System::Reflection::Binder::*)(System::Reflection::BindingFlags, ::Array<System::Reflection::MethodBase*>*, ::Array<::Il2CppObject*>*&, ::Array<System::Reflection::ParameterModifier>*, System::Globalization::CultureInfo*, ::Array<::Il2CppString*>*, ::Il2CppObject*&)>(&System::Reflection::Binder::BindToMethod)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Binder*), "BindToMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::MethodBase*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*&>()});
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* match = &classof(::Array<::Array<System::Reflection::MethodBase*>*>*)->byval_arg;
+    static auto* args = &classof(::Array<::Array<::Il2CppObject*>*>*)->this_arg;
+    static auto* modifiers = &classof(::Array<::Array<System::Reflection::ParameterModifier>*>*)->byval_arg;
+    static auto* culture = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
+    static auto* names = &classof(::Array<::Array<::Il2CppString*>*>*)->byval_arg;
+    static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Binder*), "BindToMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindingAttr, match, args, modifiers, culture, names, state});
   }
 };
 // Writing MetadataGetter for method: System::Reflection::Binder::BindToField
@@ -93,7 +96,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::FieldInfo* (System::Reflection::Binder::*)(System::Reflection::BindingFlags, ::Array<System::Reflection::FieldInfo*>*, ::Il2CppObject*, System::Globalization::CultureInfo*)>(&System::Reflection::Binder::BindToField)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Binder*), "BindToField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::FieldInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* match = &classof(::Array<::Array<System::Reflection::FieldInfo*>*>*)->byval_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* culture = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Binder*), "BindToField", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindingAttr, match, value, culture});
   }
 };
 // Writing MetadataGetter for method: System::Reflection::Binder::SelectMethod
@@ -101,7 +108,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodBase* (System::Reflection::Binder::*)(System::Reflection::BindingFlags, ::Array<System::Reflection::MethodBase*>*, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&System::Reflection::Binder::SelectMethod)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Binder*), "SelectMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::MethodBase*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>()});
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* match = &classof(::Array<::Array<System::Reflection::MethodBase*>*>*)->byval_arg;
+    static auto* types = &classof(::Array<::Array<System::Type*>*>*)->byval_arg;
+    static auto* modifiers = &classof(::Array<::Array<System::Reflection::ParameterModifier>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Binder*), "SelectMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindingAttr, match, types, modifiers});
   }
 };
 // Writing MetadataGetter for method: System::Reflection::Binder::SelectProperty
@@ -109,7 +120,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::PropertyInfo* (System::Reflection::Binder::*)(System::Reflection::BindingFlags, ::Array<System::Reflection::PropertyInfo*>*, System::Type*, ::Array<System::Type*>*, ::Array<System::Reflection::ParameterModifier>*)>(&System::Reflection::Binder::SelectProperty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Binder*), "SelectProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::BindingFlags>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::PropertyInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterModifier>*>()});
+    static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
+    static auto* match = &classof(::Array<::Array<System::Reflection::PropertyInfo*>*>*)->byval_arg;
+    static auto* returnType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    static auto* indexes = &classof(::Array<::Array<System::Type*>*>*)->byval_arg;
+    static auto* modifiers = &classof(::Array<::Array<System::Reflection::ParameterModifier>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Binder*), "SelectProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindingAttr, match, returnType, indexes, modifiers});
   }
 };
 // Writing MetadataGetter for method: System::Reflection::Binder::ChangeType
@@ -117,7 +133,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Reflection::Binder::*)(::Il2CppObject*, System::Type*, System::Globalization::CultureInfo*)>(&System::Reflection::Binder::ChangeType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Binder*), "ChangeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    static auto* culture = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Binder*), "ChangeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, type, culture});
   }
 };
 // Writing MetadataGetter for method: System::Reflection::Binder::ReorderArgumentArray
@@ -125,7 +144,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::Binder::*)(::Array<::Il2CppObject*>*&, ::Il2CppObject*)>(&System::Reflection::Binder::ReorderArgumentArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Binder*), "ReorderArgumentArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* args = &classof(::Array<::Array<::Il2CppObject*>*>*)->this_arg;
+    static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::Binder*), "ReorderArgumentArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args, state});
   }
 };
 // Writing MetadataGetter for method: System::Reflection::Binder::New_ctor

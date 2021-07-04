@@ -188,10 +188,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionNodesManager) == 0x59);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodesManager*, "", "MissionNodesManager");
-// Writing includes for template specializations
-#include "GlobalNamespace/MissionNode.hpp"
-#include "System/Collections/Generic/HashSet_1.hpp"
-#include "GlobalNamespace/MissionNodeVisualController.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::get_rootMissionNode
 // Il2CppName: get_rootMissionNode
 template<>
@@ -261,7 +257,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MissionNodesManager::*)(GlobalNamespace::MissionNode*)>(&GlobalNamespace::MissionNodesManager::MissionWasCleared)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "MissionWasCleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>()});
+    static auto* missionNode = &::il2cpp_utils::GetClassFromName("", "MissionNode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "MissionWasCleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{missionNode});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::GetMissionNodeWithModelClearedStateInconsistency
@@ -309,7 +306,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>* (GlobalNamespace::MissionNodesManager::*)(GlobalNamespace::MissionNode*, System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>*)>(&GlobalNamespace::MissionNodesManager::GetAllMissionNodes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "GetAllMissionNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>*>()});
+    static auto* node = &::il2cpp_utils::GetClassFromName("", "MissionNode")->byval_arg;
+    static auto* visited = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "HashSet`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MissionNode")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "GetAllMissionNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node, visited});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::GetNewEnabledConnection
@@ -349,7 +348,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodesManager::*)(GlobalNamespace::MissionNodeVisualController*, bool)>(&GlobalNamespace::MissionNodesManager::SetupNodeTree)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "SetupNodeTree", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNodeVisualController*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* node = &::il2cpp_utils::GetClassFromName("", "MissionNodeVisualController")->byval_arg;
+    static auto* parentCleared = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "SetupNodeTree", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node, parentCleared});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::IsNodeInteractable
@@ -357,7 +358,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MissionNodesManager::*)(GlobalNamespace::MissionNodeVisualController*, bool)>(&GlobalNamespace::MissionNodesManager::IsNodeInteractable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "IsNodeInteractable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNodeVisualController*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* node = &::il2cpp_utils::GetClassFromName("", "MissionNodeVisualController")->byval_arg;
+    static auto* parentCleared = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "IsNodeInteractable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{node, parentCleared});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::SetupNodeConnections

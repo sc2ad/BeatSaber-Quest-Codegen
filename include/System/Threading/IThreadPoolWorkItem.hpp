@@ -31,8 +31,6 @@ namespace System::Threading {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::IThreadPoolWorkItem*, "System.Threading", "IThreadPoolWorkItem");
-// Writing includes for template specializations
-#include "System/Threading/ThreadAbortException.hpp"
 // Writing MetadataGetter for method: System::Threading::IThreadPoolWorkItem::ExecuteWorkItem
 // Il2CppName: ExecuteWorkItem
 template<>
@@ -46,6 +44,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::IThreadPoolWorkItem::*)(System::Threading::ThreadAbortException*)>(&System::Threading::IThreadPoolWorkItem::MarkAborted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::IThreadPoolWorkItem*), "MarkAborted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadAbortException*>()});
+    static auto* tae = &::il2cpp_utils::GetClassFromName("System.Threading", "ThreadAbortException")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::IThreadPoolWorkItem*), "MarkAborted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tae});
   }
 };

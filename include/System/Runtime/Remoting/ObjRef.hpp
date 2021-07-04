@@ -181,12 +181,6 @@ namespace System::Runtime::Remoting {
   static_assert(sizeof(ObjRef) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ObjRef*, "System.Runtime.Remoting", "ObjRef");
-// Writing includes for template specializations
-#include "System/Runtime/Remoting/IChannelInfo.hpp"
-#include "System/Type.hpp"
-#include "System/Runtime/Serialization/SerializationInfo.hpp"
-#include "System/Runtime/Remoting/IEnvoyInfo.hpp"
-#include "System/Runtime/Remoting/IRemotingTypeInfo.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::ObjRef::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -196,7 +190,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ObjRef*, "System.Runtime.Remot
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ObjRef* (System::Runtime::Remoting::ObjRef::*)(int, ::Array<uint8_t>*)>(&System::Runtime::Remoting::ObjRef::DeserializeInTheCurrentDomain)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ObjRef*), "DeserializeInTheCurrentDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* domainId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* tInfo = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ObjRef*), "DeserializeInTheCurrentDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{domainId, tInfo});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Remoting::ObjRef::SerializeType
@@ -244,7 +240,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ObjRef::*)(System::Runtime::Remoting::IEnvoyInfo*)>(&System::Runtime::Remoting::ObjRef::set_EnvoyInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ObjRef*), "set_EnvoyInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::IEnvoyInfo*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "IEnvoyInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ObjRef*), "set_EnvoyInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Remoting::ObjRef::get_TypeInfo
@@ -260,7 +257,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ObjRef::*)(System::Runtime::Remoting::IRemotingTypeInfo*)>(&System::Runtime::Remoting::ObjRef::set_TypeInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ObjRef*), "set_TypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::IRemotingTypeInfo*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "IRemotingTypeInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ObjRef*), "set_TypeInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Remoting::ObjRef::get_URI
@@ -276,7 +274,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ObjRef::*)(::Il2CppString*)>(&System::Runtime::Remoting::ObjRef::set_URI)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ObjRef*), "set_URI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ObjRef*), "set_URI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Remoting::ObjRef::GetObjectData
@@ -284,7 +283,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::ObjRef::*)(System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Runtime::Remoting::ObjRef::GetObjectData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ObjRef*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
+    static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ObjRef*), "GetObjectData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{info, context});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Remoting::ObjRef::GetRealObject
@@ -292,7 +293,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::ObjRef::*)(System::Runtime::Serialization::StreamingContext)>(&System::Runtime::Remoting::ObjRef::GetRealObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ObjRef*), "GetRealObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ObjRef*), "GetRealObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Remoting::ObjRef::UpdateChannelInfo

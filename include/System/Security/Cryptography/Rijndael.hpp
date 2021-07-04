@@ -53,7 +53,6 @@ namespace System::Security::Cryptography {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::Rijndael*, "System.Security.Cryptography", "Rijndael");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::Cryptography::Rijndael::_cctor
 // Il2CppName: .cctor
 template<>

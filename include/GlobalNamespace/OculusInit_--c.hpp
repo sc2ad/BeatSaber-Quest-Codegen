@@ -50,7 +50,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusInit::$$c*, "", "OculusInit/<>c");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OculusInit::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -64,7 +63,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusInit::$$c::*)(Oculus::Platform::Message*)>(&GlobalNamespace::OculusInit::$$c::$InitCallback$b__3_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusInit::$$c*), "<InitCallback>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message*>()});
+    static auto* message = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "Message")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusInit::$$c*), "<InitCallback>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OculusInit::$$c::New_ctor

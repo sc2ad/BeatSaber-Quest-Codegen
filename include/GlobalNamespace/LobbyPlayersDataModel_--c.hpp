@@ -61,8 +61,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LobbyPlayersDataModel::$$c*, "", "LobbyPlayersDataModel/<>c");
-// Writing includes for template specializations
-#include "GlobalNamespace/IBeatmapLevelPack.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LobbyPlayersDataModel::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -76,7 +74,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::LobbyPlayersDataModel::$$c::*)(GlobalNamespace::IBeatmapLevelPack*)>(&GlobalNamespace::LobbyPlayersDataModel::$$c::$SetOwnedSongPacks$b__42_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyPlayersDataModel::$$c*), "<SetOwnedSongPacks>b__42_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>()});
+    static auto* pack = &::il2cpp_utils::GetClassFromName("", "IBeatmapLevelPack")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LobbyPlayersDataModel::$$c*), "<SetOwnedSongPacks>b__42_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pack});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LobbyPlayersDataModel::$$c::New_ctor

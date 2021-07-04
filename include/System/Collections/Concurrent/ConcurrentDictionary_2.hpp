@@ -226,7 +226,7 @@ namespace System::Collections::Concurrent {
     class $GetEnumerator$d__32 : public ::il2cpp_utils::il2cpp_type_check::NestedType, public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*/ {
       public:
       using declaring_type = ConcurrentDictionary_2<TKey, TValue>*;
-      static constexpr std::string_view NESTED_NAME = "$GetEnumerator$d__32";
+      static constexpr std::string_view NESTED_NAME = "<GetEnumerator>d__32";
       // private System.Int32 <>1__state
       // Size: 0x4
       // Offset: 0x0

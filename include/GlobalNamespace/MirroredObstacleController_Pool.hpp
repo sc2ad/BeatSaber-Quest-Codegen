@@ -36,7 +36,6 @@ namespace GlobalNamespace {
   }; // MirroredObstacleController/Pool
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirroredObstacleController::Pool*, "", "MirroredObstacleController/Pool");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MirroredObstacleController::Pool::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

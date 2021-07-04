@@ -29,7 +29,6 @@ namespace UnityEngine::Profiling {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Profiling::Profiler*, "UnityEngine.Profiling", "Profiler");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Profiling::Profiler::GetMonoUsedSizeLong
 // Il2CppName: GetMonoUsedSizeLong
 template<>

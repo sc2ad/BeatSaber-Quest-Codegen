@@ -88,7 +88,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     class $$c__DisplayClass45_0 : public ::il2cpp_utils::il2cpp_type_check::NestedType, public ::Il2CppObject {
       public:
       using declaring_type = AsyncOperationBase_1<TObject>*;
-      static constexpr std::string_view NESTED_NAME = "$$c__DisplayClass45_0";
+      static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass45_0";
       // public System.Threading.WaitHandle waitHandle
       // Size: 0x8
       // Offset: 0x0
@@ -132,7 +132,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     class $$c__DisplayClass47_0 : public ::il2cpp_utils::il2cpp_type_check::NestedType, public ::Il2CppObject {
       public:
       using declaring_type = AsyncOperationBase_1<TObject>*;
-      static constexpr std::string_view NESTED_NAME = "$$c__DisplayClass47_0";
+      static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass47_0";
       // public System.Threading.WaitHandle waitHandle
       // Size: 0x8
       // Offset: 0x0
@@ -176,7 +176,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     class $$c__DisplayClass58_0 : public ::il2cpp_utils::il2cpp_type_check::NestedType, public ::Il2CppObject {
       public:
       using declaring_type = AsyncOperationBase_1<TObject>*;
-      static constexpr std::string_view NESTED_NAME = "$$c__DisplayClass58_0";
+      static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass58_0";
       // public System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> value
       // Size: 0x8
       // Offset: 0x0
@@ -213,7 +213,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     class $$c__DisplayClass59_0 : public ::il2cpp_utils::il2cpp_type_check::NestedType, public ::Il2CppObject {
       public:
       using declaring_type = AsyncOperationBase_1<TObject>*;
-      static constexpr std::string_view NESTED_NAME = "$$c__DisplayClass59_0";
+      static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass59_0";
       // public System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> value
       // Size: 0x8
       // Offset: 0x0

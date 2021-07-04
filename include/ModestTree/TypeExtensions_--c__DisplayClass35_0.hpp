@@ -58,14 +58,13 @@ namespace ModestTree {
   static_assert(sizeof(TypeExtensions::$$c__DisplayClass35_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::TypeExtensions::$$c__DisplayClass35_0*, "ModestTree", "TypeExtensions/<>c__DisplayClass35_0");
-// Writing includes for template specializations
-#include "System/Attribute.hpp"
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::$$c__DisplayClass35_0::$AllAttributes$b__0
 // Il2CppName: <AllAttributes>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (ModestTree::TypeExtensions::$$c__DisplayClass35_0::*)(System::Attribute*)>(&ModestTree::TypeExtensions::$$c__DisplayClass35_0::$AllAttributes$b__0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions::$$c__DisplayClass35_0*), "<AllAttributes>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Attribute*>()});
+    static auto* a = &::il2cpp_utils::GetClassFromName("System", "Attribute")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions::$$c__DisplayClass35_0*), "<AllAttributes>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a});
   }
 };
 // Writing MetadataGetter for method: ModestTree::TypeExtensions::$$c__DisplayClass35_0::New_ctor

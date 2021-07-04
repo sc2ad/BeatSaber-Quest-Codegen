@@ -166,15 +166,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteLineConnectionController) == 0x7D);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteLineConnectionController*, "", "NoteLineConnectionController");
-// Writing includes for template specializations
-#include "System/Action_1.hpp"
-#include "GlobalNamespace/NoteController.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteLineConnectionController::add_didFinishEvent
 // Il2CppName: add_didFinishEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteLineConnectionController::*)(System::Action_1<GlobalNamespace::NoteLineConnectionController*>*)>(&GlobalNamespace::NoteLineConnectionController::add_didFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteLineConnectionController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::NoteLineConnectionController*>*>()});
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "NoteLineConnectionController")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteLineConnectionController*), "add_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::NoteLineConnectionController::remove_didFinishEvent
@@ -182,7 +180,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteLineConnectionController::*)(System::Action_1<GlobalNamespace::NoteLineConnectionController*>*)>(&GlobalNamespace::NoteLineConnectionController::remove_didFinishEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteLineConnectionController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action_1<GlobalNamespace::NoteLineConnectionController*>*>()});
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "NoteLineConnectionController")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteLineConnectionController*), "remove_didFinishEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::NoteLineConnectionController::Setup
@@ -190,7 +189,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteLineConnectionController::*)(GlobalNamespace::NoteController*, GlobalNamespace::NoteController*, float, float, float)>(&GlobalNamespace::NoteLineConnectionController::Setup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteLineConnectionController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteController*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* noteController0 = &::il2cpp_utils::GetClassFromName("", "NoteController")->byval_arg;
+    static auto* noteController1 = &::il2cpp_utils::GetClassFromName("", "NoteController")->byval_arg;
+    static auto* fadeOutStartDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* fadeOutEndDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* noteTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteLineConnectionController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteController0, noteController1, fadeOutStartDistance, fadeOutEndDistance, noteTime});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::NoteLineConnectionController::Update

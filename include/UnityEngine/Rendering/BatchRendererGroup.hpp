@@ -53,14 +53,14 @@ namespace UnityEngine::Rendering {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::BatchRendererGroup*, "UnityEngine.Rendering", "BatchRendererGroup");
-// Writing includes for template specializations
-#include "UnityEngine/Rendering/BatchRendererCullingOutput.hpp"
-#include "UnityEngine/Rendering/LODParameters.hpp"
 // Writing MetadataGetter for method: UnityEngine::Rendering::BatchRendererGroup::InvokeOnPerformCulling
 // Il2CppName: InvokeOnPerformCulling
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Rendering::BatchRendererGroup*, UnityEngine::Rendering::BatchRendererCullingOutput&, UnityEngine::Rendering::LODParameters&)>(&UnityEngine::Rendering::BatchRendererGroup::InvokeOnPerformCulling)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::BatchRendererGroup*), "InvokeOnPerformCulling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::BatchRendererGroup*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::BatchRendererCullingOutput&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::LODParameters&>()});
+    static auto* group = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "BatchRendererGroup")->byval_arg;
+    static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "BatchRendererCullingOutput")->this_arg;
+    static auto* lodParameters = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "LODParameters")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::BatchRendererGroup*), "InvokeOnPerformCulling", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{group, context, lodParameters});
   }
 };

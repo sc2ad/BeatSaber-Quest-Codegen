@@ -89,7 +89,6 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Texture2DArray*, "UnityEngine", "Texture2DArray");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Texture2DArray::get_allSlices
 // Il2CppName: get_allSlices
 template<>
@@ -103,7 +102,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Texture2DArray*, int, int, int, int, UnityEngine::Experimental::Rendering::GraphicsFormat, UnityEngine::Experimental::Rendering::TextureCreationFlags)>(&UnityEngine::Texture2DArray::Internal_CreateImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture2DArray*), "Internal_CreateImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2DArray*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::GraphicsFormat>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::TextureCreationFlags>()});
+    static auto* mono = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture2DArray")->byval_arg;
+    static auto* w = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* d = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* mipCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.Rendering", "GraphicsFormat")->byval_arg;
+    static auto* flags = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.Rendering", "TextureCreationFlags")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture2DArray*), "Internal_CreateImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mono, w, h, d, mipCount, format, flags});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Texture2DArray::Internal_Create
@@ -111,7 +117,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture2DArray*, int, int, int, int, UnityEngine::Experimental::Rendering::GraphicsFormat, UnityEngine::Experimental::Rendering::TextureCreationFlags)>(&UnityEngine::Texture2DArray::Internal_Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture2DArray*), "Internal_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture2DArray*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::GraphicsFormat>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::TextureCreationFlags>()});
+    static auto* mono = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture2DArray")->byval_arg;
+    static auto* w = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* d = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* mipCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.Rendering", "GraphicsFormat")->byval_arg;
+    static auto* flags = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.Rendering", "TextureCreationFlags")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture2DArray*), "Internal_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mono, w, h, d, mipCount, format, flags});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Texture2DArray::New_ctor

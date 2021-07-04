@@ -94,8 +94,6 @@ namespace TMPro {
   static_assert(sizeof(TMP_SpriteAnimator) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteAnimator*, "TMPro", "TMP_SpriteAnimator");
-// Writing includes for template specializations
-#include "TMPro/TMP_SpriteAsset.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAnimator::Awake
 // Il2CppName: Awake
 template<>
@@ -133,7 +131,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SpriteAnimator::*)(int, TMPro::TMP_SpriteAsset*, int, int, int)>(&TMPro::TMP_SpriteAnimator::DoSpriteAnimation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAnimator*), "DoSpriteAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* currentCharacter = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* spriteAsset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_SpriteAsset")->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* framerate = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAnimator*), "DoSpriteAnimation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{currentCharacter, spriteAsset, start, end, framerate});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAnimator::DoSpriteAnimationInternal
@@ -141,7 +144,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (TMPro::TMP_SpriteAnimator::*)(int, TMPro::TMP_SpriteAsset*, int, int, int)>(&TMPro::TMP_SpriteAnimator::DoSpriteAnimationInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAnimator*), "DoSpriteAnimationInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* currentCharacter = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* spriteAsset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_SpriteAsset")->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* framerate = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAnimator*), "DoSpriteAnimationInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{currentCharacter, spriteAsset, start, end, framerate});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAnimator::New_ctor

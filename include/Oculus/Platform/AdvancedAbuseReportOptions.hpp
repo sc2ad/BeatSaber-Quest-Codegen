@@ -71,15 +71,13 @@ namespace Oculus::Platform {
   static_assert(sizeof(AdvancedAbuseReportOptions) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::AdvancedAbuseReportOptions*, "Oculus.Platform", "AdvancedAbuseReportOptions");
-// Writing includes for template specializations
-#include "Oculus/Platform/AbuseReportType.hpp"
-#include "Oculus/Platform/AbuseReportVideoMode.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::AdvancedAbuseReportOptions::SetObjectType
 // Il2CppName: SetObjectType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::AdvancedAbuseReportOptions::*)(::Il2CppString*)>(&Oculus::Platform::AdvancedAbuseReportOptions::SetObjectType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AdvancedAbuseReportOptions*), "SetObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AdvancedAbuseReportOptions*), "SetObjectType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::AdvancedAbuseReportOptions::SetReportType
@@ -87,7 +85,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::AdvancedAbuseReportOptions::*)(Oculus::Platform::AbuseReportType)>(&Oculus::Platform::AdvancedAbuseReportOptions::SetReportType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AdvancedAbuseReportOptions*), "SetReportType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::AbuseReportType>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "AbuseReportType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AdvancedAbuseReportOptions*), "SetReportType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::AdvancedAbuseReportOptions::SetVideoMode
@@ -95,7 +94,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::AdvancedAbuseReportOptions::*)(Oculus::Platform::AbuseReportVideoMode)>(&Oculus::Platform::AdvancedAbuseReportOptions::SetVideoMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AdvancedAbuseReportOptions*), "SetVideoMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::AbuseReportVideoMode>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "AbuseReportVideoMode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::AdvancedAbuseReportOptions*), "SetVideoMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::AdvancedAbuseReportOptions::operator System::IntPtr

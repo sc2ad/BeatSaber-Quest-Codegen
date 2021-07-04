@@ -56,7 +56,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRRaycaster::$$c*, "", "OVRRaycaster/<>c");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRRaycaster::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -70,7 +69,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::OVRRaycaster::$$c::*)(GlobalNamespace::OVRRaycaster::RaycastHit, GlobalNamespace::OVRRaycaster::RaycastHit)>(&GlobalNamespace::OVRRaycaster::$$c::$GraphicRaycast$b__16_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRRaycaster::$$c*), "<GraphicRaycast>b__16_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRRaycaster::RaycastHit>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRRaycaster::RaycastHit>()});
+    static auto* g1 = &::il2cpp_utils::GetClassFromName("", "OVRRaycaster/RaycastHit")->byval_arg;
+    static auto* g2 = &::il2cpp_utils::GetClassFromName("", "OVRRaycaster/RaycastHit")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRRaycaster::$$c*), "<GraphicRaycast>b__16_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{g1, g2});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRRaycaster::$$c::New_ctor

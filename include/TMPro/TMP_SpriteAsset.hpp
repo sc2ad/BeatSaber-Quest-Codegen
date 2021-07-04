@@ -199,8 +199,6 @@ namespace TMPro {
   static_assert(sizeof(TMP_SpriteAsset) == 0x79);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteAsset*, "TMPro", "TMP_SpriteAsset");
-// Writing includes for template specializations
-#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::get_version
 // Il2CppName: get_version
 template<>
@@ -214,7 +212,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SpriteAsset::*)(::Il2CppString*)>(&TMPro::TMP_SpriteAsset::set_version)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "set_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "set_version", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::get_spriteCharacterTable
@@ -230,7 +229,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SpriteAsset::*)(System::Collections::Generic::List_1<TMPro::TMP_SpriteCharacter*>*)>(&TMPro::TMP_SpriteAsset::set_spriteCharacterTable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "set_spriteCharacterTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<TMPro::TMP_SpriteCharacter*>*>()});
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("TMPro", "TMP_SpriteCharacter")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "set_spriteCharacterTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::get_spriteGlyphTable
@@ -246,7 +246,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SpriteAsset::*)(System::Collections::Generic::List_1<TMPro::TMP_SpriteGlyph*>*)>(&TMPro::TMP_SpriteAsset::set_spriteGlyphTable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "set_spriteGlyphTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<TMPro::TMP_SpriteGlyph*>*>()});
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("TMPro", "TMP_SpriteGlyph")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "set_spriteGlyphTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::Awake
@@ -278,7 +279,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TMP_SpriteAsset::*)(int)>(&TMPro::TMP_SpriteAsset::GetSpriteIndexFromHashcode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "GetSpriteIndexFromHashcode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* hashCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "GetSpriteIndexFromHashcode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hashCode});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::GetSpriteIndexFromUnicode
@@ -286,7 +288,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TMP_SpriteAsset::*)(uint)>(&TMPro::TMP_SpriteAsset::GetSpriteIndexFromUnicode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "GetSpriteIndexFromUnicode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* unicode = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "GetSpriteIndexFromUnicode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unicode});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::GetSpriteIndexFromName
@@ -294,7 +297,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TMP_SpriteAsset::*)(::Il2CppString*)>(&TMPro::TMP_SpriteAsset::GetSpriteIndexFromName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "GetSpriteIndexFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "GetSpriteIndexFromName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::SearchForSpriteByUnicode
@@ -302,7 +306,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(TMPro::TMP_SpriteAsset*, uint, bool, int&)>(&TMPro::TMP_SpriteAsset::SearchForSpriteByUnicode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "SearchForSpriteByUnicode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    static auto* spriteAsset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_SpriteAsset")->byval_arg;
+    static auto* unicode = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* includeFallbacks = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* spriteIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "SearchForSpriteByUnicode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{spriteAsset, unicode, includeFallbacks, spriteIndex});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::SearchForSpriteByUnicodeInternal
@@ -310,7 +318,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>*, uint, bool, int&)>(&TMPro::TMP_SpriteAsset::SearchForSpriteByUnicodeInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "SearchForSpriteByUnicodeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    static auto* spriteAssets = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("TMPro", "TMP_SpriteAsset")})->byval_arg;
+    static auto* unicode = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* includeFallbacks = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* spriteIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "SearchForSpriteByUnicodeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{spriteAssets, unicode, includeFallbacks, spriteIndex});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::SearchForSpriteByUnicodeInternal
@@ -318,7 +330,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(TMPro::TMP_SpriteAsset*, uint, bool, int&)>(&TMPro::TMP_SpriteAsset::SearchForSpriteByUnicodeInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "SearchForSpriteByUnicodeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    static auto* spriteAsset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_SpriteAsset")->byval_arg;
+    static auto* unicode = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* includeFallbacks = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* spriteIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "SearchForSpriteByUnicodeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{spriteAsset, unicode, includeFallbacks, spriteIndex});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::SearchForSpriteByHashCode
@@ -326,7 +342,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(TMPro::TMP_SpriteAsset*, int, bool, int&)>(&TMPro::TMP_SpriteAsset::SearchForSpriteByHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "SearchForSpriteByHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    static auto* spriteAsset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_SpriteAsset")->byval_arg;
+    static auto* hashCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* includeFallbacks = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* spriteIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "SearchForSpriteByHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{spriteAsset, hashCode, includeFallbacks, spriteIndex});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::SearchForSpriteByHashCodeInternal
@@ -334,7 +354,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>*, int, bool, int&)>(&TMPro::TMP_SpriteAsset::SearchForSpriteByHashCodeInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "SearchForSpriteByHashCodeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<TMPro::TMP_SpriteAsset*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    static auto* spriteAssets = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("TMPro", "TMP_SpriteAsset")})->byval_arg;
+    static auto* hashCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* searchFallbacks = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* spriteIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "SearchForSpriteByHashCodeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{spriteAssets, hashCode, searchFallbacks, spriteIndex});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::SearchForSpriteByHashCodeInternal
@@ -342,7 +366,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_SpriteAsset* (*)(TMPro::TMP_SpriteAsset*, int, bool, int&)>(&TMPro::TMP_SpriteAsset::SearchForSpriteByHashCodeInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "SearchForSpriteByHashCodeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_SpriteAsset*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    static auto* spriteAsset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_SpriteAsset")->byval_arg;
+    static auto* hashCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* searchFallbacks = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* spriteIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteAsset*), "SearchForSpriteByHashCodeInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{spriteAsset, hashCode, searchFallbacks, spriteIndex});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAsset::SortGlyphTable

@@ -68,7 +68,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteTrailParticleSystem) == 0xAF);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteTrailParticleSystem*, "", "NoteTrailParticleSystem");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::NoteTrailParticleSystem::Awake
 // Il2CppName: Awake
 template<>
@@ -82,7 +81,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteTrailParticleSystem::*)(UnityEngine::Vector3, UnityEngine::Vector3, int)>(&GlobalNamespace::NoteTrailParticleSystem::Emit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteTrailParticleSystem*), "Emit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* startPos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* endPos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteTrailParticleSystem*), "Emit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{startPos, endPos, count});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::NoteTrailParticleSystem::New_ctor

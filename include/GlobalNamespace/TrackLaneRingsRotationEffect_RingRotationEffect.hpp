@@ -65,7 +65,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(TrackLaneRingsRotationEffect::RingRotationEffect) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect*, "", "TrackLaneRingsRotationEffect/RingRotationEffect");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsRotationEffect::RingRotationEffect::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

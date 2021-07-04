@@ -83,7 +83,6 @@ namespace System::Threading {
   static_assert(sizeof(ExecutionContext::Reader) == 0x8);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ExecutionContext::Reader, "System.Threading", "ExecutionContext/Reader");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Threading::ExecutionContext::Reader::Reader
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -109,7 +108,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ExecutionContext::Reader::*)(bool)>(&System::Threading::ExecutionContext::Reader::IsDefaultFTContext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext::Reader), "IsDefaultFTContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* ignoreSyncCtx = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext::Reader), "IsDefaultFTContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ignoreSyncCtx});
   }
 };
 // Writing MetadataGetter for method: System::Threading::ExecutionContext::Reader::get_IsFlowSuppressed
@@ -157,6 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::ExecutionContext::Reader::*)(System::Threading::ExecutionContext*)>(&System::Threading::ExecutionContext::Reader::HasSameLocalValues)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext::Reader), "HasSameLocalValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ExecutionContext*>()});
+    static auto* other = &::il2cpp_utils::GetClassFromName("System.Threading", "ExecutionContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::ExecutionContext::Reader), "HasSameLocalValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };

@@ -105,11 +105,6 @@ namespace System::Text::RegularExpressions {
   static_assert(sizeof(CachedCodeEntry) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::CachedCodeEntry*, "System.Text.RegularExpressions", "CachedCodeEntry");
-// Writing includes for template specializations
-#include "System/Collections/Hashtable.hpp"
-#include "System/Text/RegularExpressions/RegexCode.hpp"
-#include "System/Text/RegularExpressions/ExclusiveReference.hpp"
-#include "System/Text/RegularExpressions/SharedReference.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::CachedCodeEntry::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

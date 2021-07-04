@@ -65,8 +65,6 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AudioSettings*, "UnityEngine", "AudioSettings");
-// Writing includes for template specializations
-#include "UnityEngine/AudioConfiguration.hpp"
 // Writing MetadataGetter for method: UnityEngine::AudioSettings::GetSampleRate
 // Il2CppName: GetSampleRate
 template<>
@@ -112,7 +110,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&UnityEngine::AudioSettings::InvokeOnAudioConfigurationChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSettings*), "InvokeOnAudioConfigurationChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* deviceWasChanged = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSettings*), "InvokeOnAudioConfigurationChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deviceWasChanged});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AudioSettings::StartAudioOutput
@@ -136,6 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AudioConfiguration&)>(&UnityEngine::AudioSettings::GetConfiguration_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSettings*), "GetConfiguration_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioConfiguration&>()});
+    static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioConfiguration")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioSettings*), "GetConfiguration_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ret});
   }
 };

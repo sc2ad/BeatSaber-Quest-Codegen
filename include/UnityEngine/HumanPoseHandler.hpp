@@ -81,18 +81,14 @@ namespace UnityEngine {
   static_assert(sizeof(HumanPoseHandler) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanPoseHandler*, "UnityEngine", "HumanPoseHandler");
-// Writing includes for template specializations
-#include "UnityEngine/Avatar.hpp"
-#include "UnityEngine/Transform.hpp"
-#include "UnityEngine/Vector3.hpp"
-#include "UnityEngine/Quaternion.hpp"
-#include "UnityEngine/HumanPose.hpp"
 // Writing MetadataGetter for method: UnityEngine::HumanPoseHandler::Internal_Create
 // Il2CppName: Internal_Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(UnityEngine::Avatar*, UnityEngine::Transform*)>(&UnityEngine::HumanPoseHandler::Internal_Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::HumanPoseHandler*), "Internal_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Avatar*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    static auto* avatar = &::il2cpp_utils::GetClassFromName("UnityEngine", "Avatar")->byval_arg;
+    static auto* root = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::HumanPoseHandler*), "Internal_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{avatar, root});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::HumanPoseHandler::Internal_Destroy
@@ -100,7 +96,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr)>(&UnityEngine::HumanPoseHandler::Internal_Destroy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::HumanPoseHandler*), "Internal_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::HumanPoseHandler*), "Internal_Destroy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ptr});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::HumanPoseHandler::GetHumanPose
@@ -108,7 +105,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::HumanPoseHandler::*)(UnityEngine::Vector3&, UnityEngine::Quaternion&, ::Array<float>*&)>(&UnityEngine::HumanPoseHandler::GetHumanPose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::HumanPoseHandler*), "GetHumanPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*&>()});
+    static auto* bodyPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
+    static auto* bodyRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
+    static auto* muscles = &classof(::Array<::Array<float>*>*)->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::HumanPoseHandler*), "GetHumanPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bodyPosition, bodyRotation, muscles});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::HumanPoseHandler::Dispose
@@ -128,6 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::HumanPoseHandler::*)(UnityEngine::HumanPose&)>(&UnityEngine::HumanPoseHandler::GetHumanPose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::HumanPoseHandler*), "GetHumanPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::HumanPose&>()});
+    static auto* humanPose = &::il2cpp_utils::GetClassFromName("UnityEngine", "HumanPose")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::HumanPoseHandler*), "GetHumanPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{humanPose});
   }
 };

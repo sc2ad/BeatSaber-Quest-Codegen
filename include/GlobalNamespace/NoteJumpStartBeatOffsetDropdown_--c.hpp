@@ -59,8 +59,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteJumpStartBeatOffsetDropdown::$$c*, "", "NoteJumpStartBeatOffsetDropdown/<>c");
-// Writing includes for template specializations
-#include "System/Tuple_2.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteJumpStartBeatOffsetDropdown::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -74,7 +72,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::NoteJumpStartBeatOffsetDropdown::$$c::*)(System::Tuple_2<float, ::Il2CppString*>*)>(&GlobalNamespace::NoteJumpStartBeatOffsetDropdown::$$c::$Start$b__7_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJumpStartBeatOffsetDropdown::$$c*), "<Start>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Tuple_2<float, ::Il2CppString*>*>()});
+    static auto* x = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Tuple`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single"), ::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteJumpStartBeatOffsetDropdown::$$c*), "<Start>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::NoteJumpStartBeatOffsetDropdown::$$c::New_ctor

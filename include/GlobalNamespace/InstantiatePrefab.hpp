@@ -57,7 +57,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(InstantiatePrefab) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::InstantiatePrefab*, "", "InstantiatePrefab");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::InstantiatePrefab::Awake
 // Il2CppName: Awake
 template<>

@@ -73,18 +73,19 @@ namespace Microsoft::Win32 {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::NativeMethods*, "Microsoft.Win32", "NativeMethods");
-// Writing includes for template specializations
-#include "System/Runtime/InteropServices/HandleRef.hpp"
-#include "System/Runtime/InteropServices/SafeHandle.hpp"
-#include "Microsoft/Win32/SafeHandles/SafeWaitHandle.hpp"
-#include "Microsoft/Win32/SafeHandles/SafeProcessHandle.hpp"
-#include "System/IntPtr.hpp"
 // Writing MetadataGetter for method: Microsoft::Win32::NativeMethods::DuplicateHandle
 // Il2CppName: DuplicateHandle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Runtime::InteropServices::HandleRef, System::Runtime::InteropServices::SafeHandle*, System::Runtime::InteropServices::HandleRef, Microsoft::Win32::SafeHandles::SafeWaitHandle*&, int, bool, int)>(&Microsoft::Win32::NativeMethods::DuplicateHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::NativeMethods*), "DuplicateHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::HandleRef>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::SafeHandle*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::HandleRef>(), ::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeWaitHandle*&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* hSourceProcessHandle = &::il2cpp_utils::GetClassFromName("System.Runtime.InteropServices", "HandleRef")->byval_arg;
+    static auto* hSourceHandle = &::il2cpp_utils::GetClassFromName("System.Runtime.InteropServices", "SafeHandle")->byval_arg;
+    static auto* hTargetProcess = &::il2cpp_utils::GetClassFromName("System.Runtime.InteropServices", "HandleRef")->byval_arg;
+    static auto* targetHandle = &::il2cpp_utils::GetClassFromName("Microsoft.Win32.SafeHandles", "SafeWaitHandle")->this_arg;
+    static auto* dwDesiredAccess = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* bInheritHandle = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* dwOptions = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::NativeMethods*), "DuplicateHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hSourceProcessHandle, hSourceHandle, hTargetProcess, targetHandle, dwDesiredAccess, bInheritHandle, dwOptions});
   }
 };
 // Writing MetadataGetter for method: Microsoft::Win32::NativeMethods::DuplicateHandle
@@ -92,7 +93,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Runtime::InteropServices::HandleRef, System::Runtime::InteropServices::HandleRef, System::Runtime::InteropServices::HandleRef, Microsoft::Win32::SafeHandles::SafeProcessHandle*&, int, bool, int)>(&Microsoft::Win32::NativeMethods::DuplicateHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::NativeMethods*), "DuplicateHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::HandleRef>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::HandleRef>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::HandleRef>(), ::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeProcessHandle*&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* hSourceProcessHandle = &::il2cpp_utils::GetClassFromName("System.Runtime.InteropServices", "HandleRef")->byval_arg;
+    static auto* hSourceHandle = &::il2cpp_utils::GetClassFromName("System.Runtime.InteropServices", "HandleRef")->byval_arg;
+    static auto* hTargetProcess = &::il2cpp_utils::GetClassFromName("System.Runtime.InteropServices", "HandleRef")->byval_arg;
+    static auto* targetHandle = &::il2cpp_utils::GetClassFromName("Microsoft.Win32.SafeHandles", "SafeProcessHandle")->this_arg;
+    static auto* dwDesiredAccess = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* bInheritHandle = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* dwOptions = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::NativeMethods*), "DuplicateHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hSourceProcessHandle, hSourceHandle, hTargetProcess, targetHandle, dwDesiredAccess, bInheritHandle, dwOptions});
   }
 };
 // Writing MetadataGetter for method: Microsoft::Win32::NativeMethods::GetCurrentProcess
@@ -108,7 +116,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, int&)>(&Microsoft::Win32::NativeMethods::GetExitCodeProcess)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::NativeMethods*), "GetExitCodeProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    static auto* processHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* exitCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::NativeMethods*), "GetExitCodeProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{processHandle, exitCode});
   }
 };
 // Writing MetadataGetter for method: Microsoft::Win32::NativeMethods::GetExitCodeProcess
@@ -116,7 +126,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Microsoft::Win32::SafeHandles::SafeProcessHandle*, int&)>(&Microsoft::Win32::NativeMethods::GetExitCodeProcess)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::NativeMethods*), "GetExitCodeProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeProcessHandle*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    static auto* processHandle = &::il2cpp_utils::GetClassFromName("Microsoft.Win32.SafeHandles", "SafeProcessHandle")->byval_arg;
+    static auto* exitCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::NativeMethods*), "GetExitCodeProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{processHandle, exitCode});
   }
 };
 // Writing MetadataGetter for method: Microsoft::Win32::NativeMethods::TerminateProcess
@@ -124,7 +136,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Mi
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, int)>(&Microsoft::Win32::NativeMethods::TerminateProcess)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::NativeMethods*), "TerminateProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* processHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* exitCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::NativeMethods*), "TerminateProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{processHandle, exitCode});
   }
 };
 // Writing MetadataGetter for method: Microsoft::Win32::NativeMethods::TerminateProcess
@@ -132,7 +146,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Microsoft::Win32::SafeHandles::SafeProcessHandle*, int)>(&Microsoft::Win32::NativeMethods::TerminateProcess)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::NativeMethods*), "TerminateProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeProcessHandle*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* processHandle = &::il2cpp_utils::GetClassFromName("Microsoft.Win32.SafeHandles", "SafeProcessHandle")->byval_arg;
+    static auto* exitCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::NativeMethods*), "TerminateProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{processHandle, exitCode});
   }
 };
 // Writing MetadataGetter for method: Microsoft::Win32::NativeMethods::GetProcessTimes
@@ -140,7 +156,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Mi
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, int64_t&, int64_t&, int64_t&, int64_t&)>(&Microsoft::Win32::NativeMethods::GetProcessTimes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::NativeMethods*), "GetProcessTimes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>()});
+    static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* creation = &::il2cpp_utils::GetClassFromName("System", "Int64")->this_arg;
+    static auto* exit = &::il2cpp_utils::GetClassFromName("System", "Int64")->this_arg;
+    static auto* kernel = &::il2cpp_utils::GetClassFromName("System", "Int64")->this_arg;
+    static auto* user = &::il2cpp_utils::GetClassFromName("System", "Int64")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::NativeMethods*), "GetProcessTimes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle, creation, exit, kernel, user});
   }
 };
 // Writing MetadataGetter for method: Microsoft::Win32::NativeMethods::GetProcessTimes
@@ -148,7 +169,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Microsoft::Win32::SafeHandles::SafeProcessHandle*, int64_t&, int64_t&, int64_t&, int64_t&)>(&Microsoft::Win32::NativeMethods::GetProcessTimes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::NativeMethods*), "GetProcessTimes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeProcessHandle*>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>(), ::il2cpp_utils::ExtractIndependentType<int64_t&>()});
+    static auto* handle = &::il2cpp_utils::GetClassFromName("Microsoft.Win32.SafeHandles", "SafeProcessHandle")->byval_arg;
+    static auto* creation = &::il2cpp_utils::GetClassFromName("System", "Int64")->this_arg;
+    static auto* exit = &::il2cpp_utils::GetClassFromName("System", "Int64")->this_arg;
+    static auto* kernel = &::il2cpp_utils::GetClassFromName("System", "Int64")->this_arg;
+    static auto* user = &::il2cpp_utils::GetClassFromName("System", "Int64")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::NativeMethods*), "GetProcessTimes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle, creation, exit, kernel, user});
   }
 };
 // Writing MetadataGetter for method: Microsoft::Win32::NativeMethods::GetCurrentProcessId
@@ -164,6 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr)>(&Microsoft::Win32::NativeMethods::CloseProcess)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::NativeMethods*), "CloseProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::NativeMethods*), "CloseProcess", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle});
   }
 };

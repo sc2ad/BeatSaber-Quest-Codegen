@@ -78,7 +78,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(AnniversaryManager) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AnniversaryManager*, "", "AnniversaryManager");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::AnniversaryManager::Start
 // Il2CppName: Start
 template<>
@@ -100,7 +99,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AnniversaryManager::*)(GlobalNamespace::MainMenuViewController*, GlobalNamespace::MainMenuViewController::MenuButton)>(&GlobalNamespace::AnniversaryManager::HandleMainMenuViewControllerDidFinish)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnniversaryManager*), "HandleMainMenuViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MainMenuViewController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MainMenuViewController::MenuButton>()});
+    static auto* mainMenuViewController = &::il2cpp_utils::GetClassFromName("", "MainMenuViewController")->byval_arg;
+    static auto* menuButton = &::il2cpp_utils::GetClassFromName("", "MainMenuViewController/MenuButton")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AnniversaryManager*), "HandleMainMenuViewControllerDidFinish", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mainMenuViewController, menuButton});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::AnniversaryManager::StartFireworks

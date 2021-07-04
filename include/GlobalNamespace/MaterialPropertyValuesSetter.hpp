@@ -100,7 +100,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MaterialPropertyValuesSetter) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyValuesSetter*, "", "MaterialPropertyValuesSetter");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyValuesSetter::Start
 // Il2CppName: Start
 template<>

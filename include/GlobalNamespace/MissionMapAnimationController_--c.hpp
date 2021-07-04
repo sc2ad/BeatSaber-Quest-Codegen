@@ -68,8 +68,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionMapAnimationController::$$c*, "", "MissionMapAnimationController/<>c");
-// Writing includes for template specializations
-#include "GlobalNamespace/MissionNodeConnection.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionMapAnimationController::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -83,7 +81,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MissionMapAnimationController::$$c::*)(GlobalNamespace::MissionNodeConnection*)>(&GlobalNamespace::MissionMapAnimationController::$$c::$UpdateNodesAndConnectionCoroutine$b__15_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController::$$c*), "<UpdateNodesAndConnectionCoroutine>b__15_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNodeConnection*>()});
+    static auto* connection = &::il2cpp_utils::GetClassFromName("", "MissionNodeConnection")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController::$$c*), "<UpdateNodesAndConnectionCoroutine>b__15_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connection});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MissionMapAnimationController::$$c::$UpdateNodesAndConnectionCoroutine$b__15_1
@@ -91,7 +90,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::MissionMapAnimationController::$$c::*)(GlobalNamespace::MissionNodeConnection*)>(&GlobalNamespace::MissionMapAnimationController::$$c::$UpdateNodesAndConnectionCoroutine$b__15_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController::$$c*), "<UpdateNodesAndConnectionCoroutine>b__15_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNodeConnection*>()});
+    static auto* connection = &::il2cpp_utils::GetClassFromName("", "MissionNodeConnection")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController::$$c*), "<UpdateNodesAndConnectionCoroutine>b__15_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connection});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MissionMapAnimationController::$$c::New_ctor

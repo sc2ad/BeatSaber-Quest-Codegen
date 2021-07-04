@@ -61,8 +61,6 @@ namespace UnityEngine::ProBuilder {
   static_assert(sizeof(ChangelogEntry) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::ChangelogEntry*, "UnityEngine.ProBuilder", "ChangelogEntry");
-// Writing includes for template specializations
-#include "UnityEngine/ProBuilder/SemVer.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ChangelogEntry::get_versionInfo
 // Il2CppName: get_versionInfo
 template<>

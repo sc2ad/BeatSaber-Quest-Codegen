@@ -97,14 +97,14 @@ namespace UnityEngine {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ReflectionProbe*, "UnityEngine", "ReflectionProbe");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ReflectionProbe::ReflectionProbeEvent, "UnityEngine", "ReflectionProbe/ReflectionProbeEvent");
-// Writing includes for template specializations
-#include "UnityEngine/Cubemap.hpp"
 // Writing MetadataGetter for method: UnityEngine::ReflectionProbe::CallReflectionProbeEvent
 // Il2CppName: CallReflectionProbeEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ReflectionProbe*, UnityEngine::ReflectionProbe::ReflectionProbeEvent)>(&UnityEngine::ReflectionProbe::CallReflectionProbeEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ReflectionProbe*), "CallReflectionProbeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ReflectionProbe*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ReflectionProbe::ReflectionProbeEvent>()});
+    static auto* probe = &::il2cpp_utils::GetClassFromName("UnityEngine", "ReflectionProbe")->byval_arg;
+    static auto* probeEvent = &::il2cpp_utils::GetClassFromName("UnityEngine", "ReflectionProbe/ReflectionProbeEvent")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ReflectionProbe*), "CallReflectionProbeEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{probe, probeEvent});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ReflectionProbe::CallSetDefaultReflection
@@ -112,6 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Cubemap*)>(&UnityEngine::ReflectionProbe::CallSetDefaultReflection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ReflectionProbe*), "CallSetDefaultReflection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Cubemap*>()});
+    static auto* defaultReflectionCubemap = &::il2cpp_utils::GetClassFromName("UnityEngine", "Cubemap")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ReflectionProbe*), "CallSetDefaultReflection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{defaultReflectionCubemap});
   }
 };

@@ -57,10 +57,6 @@ namespace Valve::VR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRApplications::_GetApplicationsErrorNameFromEnum*, "Valve.VR", "IVRApplications/_GetApplicationsErrorNameFromEnum");
-// Writing includes for template specializations
-#include "Valve/VR/EVRApplicationError.hpp"
-#include "System/AsyncCallback.hpp"
-#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRApplications::_GetApplicationsErrorNameFromEnum::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -70,7 +66,8 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRApplications::_GetApplicationsErrorNameFrom
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Valve::VR::IVRApplications::_GetApplicationsErrorNameFromEnum::*)(Valve::VR::EVRApplicationError)>(&Valve::VR::IVRApplications::_GetApplicationsErrorNameFromEnum::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRApplications::_GetApplicationsErrorNameFromEnum*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRApplicationError>()});
+    static auto* error = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRApplicationError")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRApplications::_GetApplicationsErrorNameFromEnum*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::IVRApplications::_GetApplicationsErrorNameFromEnum::BeginInvoke
@@ -78,7 +75,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRApplications::_GetApplicationsErrorNameFromEnum::*)(Valve::VR::EVRApplicationError, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRApplications::_GetApplicationsErrorNameFromEnum::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRApplications::_GetApplicationsErrorNameFromEnum*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::EVRApplicationError>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* error = &::il2cpp_utils::GetClassFromName("Valve.VR", "EVRApplicationError")->byval_arg;
+    static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
+    static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRApplications::_GetApplicationsErrorNameFromEnum*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{error, callback, object});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::IVRApplications::_GetApplicationsErrorNameFromEnum::EndInvoke
@@ -86,6 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Valve::VR::IVRApplications::_GetApplicationsErrorNameFromEnum::*)(System::IAsyncResult*)>(&Valve::VR::IVRApplications::_GetApplicationsErrorNameFromEnum::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRApplications::_GetApplicationsErrorNameFromEnum*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRApplications::_GetApplicationsErrorNameFromEnum*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
 };

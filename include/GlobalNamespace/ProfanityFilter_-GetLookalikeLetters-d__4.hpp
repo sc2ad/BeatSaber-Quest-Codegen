@@ -105,7 +105,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(ProfanityFilter::$GetLookalikeLetters$d__4) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ProfanityFilter::$GetLookalikeLetters$d__4*, "", "ProfanityFilter/<GetLookalikeLetters>d__4");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ProfanityFilter::$GetLookalikeLetters$d__4::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

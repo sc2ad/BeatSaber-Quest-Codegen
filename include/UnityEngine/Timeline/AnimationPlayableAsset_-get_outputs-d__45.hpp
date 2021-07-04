@@ -103,7 +103,6 @@ namespace UnityEngine::Timeline {
   static_assert(sizeof(AnimationPlayableAsset::$get_outputs$d__45) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::AnimationPlayableAsset::$get_outputs$d__45*, "UnityEngine.Timeline", "AnimationPlayableAsset/<get_outputs>d__45");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Timeline::AnimationPlayableAsset::$get_outputs$d__45::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

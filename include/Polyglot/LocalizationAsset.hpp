@@ -66,8 +66,6 @@ namespace Polyglot {
   static_assert(sizeof(LocalizationAsset) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::LocalizationAsset*, "Polyglot", "LocalizationAsset");
-// Writing includes for template specializations
-#include "UnityEngine/TextAsset.hpp"
 // Writing MetadataGetter for method: Polyglot::LocalizationAsset::get_TextAsset
 // Il2CppName: get_TextAsset
 template<>
@@ -81,7 +79,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizationAsset::*)(UnityEngine::TextAsset*)>(&Polyglot::LocalizationAsset::set_TextAsset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationAsset*), "set_TextAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::TextAsset*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextAsset")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationAsset*), "set_TextAsset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Polyglot::LocalizationAsset::get_Format
@@ -97,7 +96,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Polyglot::G
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Polyglot::LocalizationAsset::*)(Polyglot::GoogleDriveDownloadFormat)>(&Polyglot::LocalizationAsset::set_Format)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationAsset*), "set_Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Polyglot::GoogleDriveDownloadFormat>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("Polyglot", "GoogleDriveDownloadFormat")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::LocalizationAsset*), "set_Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Polyglot::LocalizationAsset::New_ctor

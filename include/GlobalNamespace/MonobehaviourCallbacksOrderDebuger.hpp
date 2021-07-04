@@ -46,7 +46,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MonobehaviourCallbacksOrderDebuger*, "", "MonobehaviourCallbacksOrderDebuger");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MonobehaviourCallbacksOrderDebuger::Awake
 // Il2CppName: Awake
 template<>

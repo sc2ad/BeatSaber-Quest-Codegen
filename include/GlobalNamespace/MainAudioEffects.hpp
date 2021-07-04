@@ -92,7 +92,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MainAudioEffects) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainAudioEffects*, "", "MainAudioEffects");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MainAudioEffects::Start
 // Il2CppName: Start
 template<>

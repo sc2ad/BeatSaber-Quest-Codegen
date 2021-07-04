@@ -35,7 +35,6 @@ namespace LiteNetLib::Utils {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::InvalidTypeException*, "LiteNetLib.Utils", "InvalidTypeException");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: LiteNetLib::Utils::InvalidTypeException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

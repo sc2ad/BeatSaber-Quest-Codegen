@@ -60,7 +60,6 @@ namespace UnityEngine {
   static_assert(sizeof(Transform::Enumerator) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Transform::Enumerator*, "UnityEngine", "Transform/Enumerator");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Transform::Enumerator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

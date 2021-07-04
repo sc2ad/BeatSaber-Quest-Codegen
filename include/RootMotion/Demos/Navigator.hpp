@@ -231,8 +231,6 @@ namespace RootMotion::Demos {
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Demos::Navigator*, "RootMotion.Demos", "Navigator");
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::Demos::Navigator::State, "RootMotion.Demos", "Navigator/State");
-// Writing includes for template specializations
-#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: RootMotion::Demos::Navigator::get_normalizedDeltaPosition
 // Il2CppName: get_normalizedDeltaPosition
 template<>
@@ -246,7 +244,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::Demos::Navigator::*)(UnityEngine::Vector3)>(&RootMotion::Demos::Navigator::set_normalizedDeltaPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::Demos::Navigator*), "set_normalizedDeltaPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::Demos::Navigator*), "set_normalizedDeltaPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: RootMotion::Demos::Navigator::get_state
@@ -262,7 +261,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::Demos::Navigator::*)(RootMotion::Demos::Navigator::State)>(&RootMotion::Demos::Navigator::set_state)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::Demos::Navigator*), "set_state", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::Demos::Navigator::State>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("RootMotion.Demos", "Navigator/State")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::Demos::Navigator*), "set_state", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: RootMotion::Demos::Navigator::Initiate
@@ -270,7 +270,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::Demos::Navigator::*)(UnityEngine::Transform*)>(&RootMotion::Demos::Navigator::Initiate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::Demos::Navigator*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::Demos::Navigator*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transform});
   }
 };
 // Writing MetadataGetter for method: RootMotion::Demos::Navigator::Update
@@ -278,7 +279,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::Demos::Navigator::*)(UnityEngine::Vector3)>(&RootMotion::Demos::Navigator::Update)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::Demos::Navigator*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    static auto* targetPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::Demos::Navigator*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{targetPosition});
   }
 };
 // Writing MetadataGetter for method: RootMotion::Demos::Navigator::CalculatePath
@@ -286,7 +288,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::Demos::Navigator::*)(UnityEngine::Vector3)>(&RootMotion::Demos::Navigator::CalculatePath)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::Demos::Navigator*), "CalculatePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    static auto* targetPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::Demos::Navigator*), "CalculatePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{targetPosition});
   }
 };
 // Writing MetadataGetter for method: RootMotion::Demos::Navigator::Find
@@ -294,7 +297,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::Demos::Navigator::*)(UnityEngine::Vector3)>(&RootMotion::Demos::Navigator::Find)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::Demos::Navigator*), "Find", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    static auto* targetPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::Demos::Navigator*), "Find", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{targetPosition});
   }
 };
 // Writing MetadataGetter for method: RootMotion::Demos::Navigator::Stop
@@ -310,7 +314,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RootMotion::Demos::Navigator::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&RootMotion::Demos::Navigator::HorDistance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::Demos::Navigator*), "HorDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    static auto* p1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* p2 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::Demos::Navigator*), "HorDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p1, p2});
   }
 };
 // Writing MetadataGetter for method: RootMotion::Demos::Navigator::Visualize

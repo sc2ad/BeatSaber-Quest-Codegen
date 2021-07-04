@@ -99,7 +99,6 @@ namespace GlobalNamespace {
   }; // NodePoseSyncStateManager
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NodePoseSyncStateManager*, "", "NodePoseSyncStateManager");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::NodePoseSyncStateManager::get_serializablePool
 // Il2CppName: get_serializablePool
 template<>
@@ -121,7 +120,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PoseSerializable (GlobalNamespace::NodePoseSyncStateManager::*)(GlobalNamespace::PoseSerializable, float, GlobalNamespace::PoseSerializable, float, float)>(&GlobalNamespace::NodePoseSyncStateManager::Interpolate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncStateManager*), "Interpolate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PoseSerializable>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PoseSerializable>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* prev = &::il2cpp_utils::GetClassFromName("", "PoseSerializable")->byval_arg;
+    static auto* prevTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* curr = &::il2cpp_utils::GetClassFromName("", "PoseSerializable")->byval_arg;
+    static auto* currTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncStateManager*), "Interpolate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prev, prevTime, curr, currTime, time});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::NodePoseSyncStateManager::Smooth
@@ -129,7 +133,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::PoseSerializable (GlobalNamespace::NodePoseSyncStateManager::*)(GlobalNamespace::PoseSerializable, GlobalNamespace::PoseSerializable, float)>(&GlobalNamespace::NodePoseSyncStateManager::Smooth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncStateManager*), "Smooth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PoseSerializable>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PoseSerializable>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* a = &::il2cpp_utils::GetClassFromName("", "PoseSerializable")->byval_arg;
+    static auto* b = &::il2cpp_utils::GetClassFromName("", "PoseSerializable")->byval_arg;
+    static auto* smooth = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NodePoseSyncStateManager*), "Smooth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b, smooth});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::NodePoseSyncStateManager::get_deltaUpdateFrequency

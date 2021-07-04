@@ -77,7 +77,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(NetworkPlayerEntitlementChecker::CachedTcs) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs*, "", "NetworkPlayerEntitlementChecker/CachedTcs");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs::get_task
 // Il2CppName: get_task
 template<>
@@ -91,7 +90,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs::*)(GlobalNamespace::EntitlementsStatus)>(&GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs::SetResult)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs*), "SetResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EntitlementsStatus>()});
+    static auto* status = &::il2cpp_utils::GetClassFromName("", "EntitlementsStatus")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs*), "SetResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{status});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::NetworkPlayerEntitlementChecker::CachedTcs::Refresh

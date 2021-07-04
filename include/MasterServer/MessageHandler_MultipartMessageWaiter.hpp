@@ -108,9 +108,6 @@ namespace MasterServer {
   static_assert(sizeof(MessageHandler::MultipartMessageWaiter) == 0x32);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::MultipartMessageWaiter*, "MasterServer", "MessageHandler/MultipartMessageWaiter");
-// Writing includes for template specializations
-#include "GlobalNamespace/SmallBufferPool.hpp"
-#include "MasterServer/IMasterServerMultipartMessage.hpp"
 // Writing MetadataGetter for method: MasterServer::MessageHandler::MultipartMessageWaiter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -120,7 +117,8 @@ DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::MultipartMessageWaiter*, "M
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::MultipartMessageWaiter::*)(MasterServer::IMasterServerMultipartMessage*)>(&MasterServer::MessageHandler::MultipartMessageWaiter::Append)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::MultipartMessageWaiter*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerMultipartMessage*>()});
+    static auto* packet = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerMultipartMessage")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::MultipartMessageWaiter*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packet});
   }
 };
 // Writing MetadataGetter for method: MasterServer::MessageHandler::MultipartMessageWaiter::get_isWaiting

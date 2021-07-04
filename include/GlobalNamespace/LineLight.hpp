@@ -100,7 +100,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(LineLight) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LineLight*, "", "LineLight");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::LineLight::get_p0
 // Il2CppName: get_p0
 template<>

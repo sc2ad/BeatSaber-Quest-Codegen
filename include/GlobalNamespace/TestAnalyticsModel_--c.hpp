@@ -58,7 +58,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TestAnalyticsModel::$$c*, "", "TestAnalyticsModel/<>c");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::TestAnalyticsModel::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -72,7 +71,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::TestAnalyticsModel::$$c::*)(System::Collections::Generic::KeyValuePair_2<::Il2CppString*, ::Il2CppString*>)>(&GlobalNamespace::TestAnalyticsModel::$$c::$LogEvent$b__3_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestAnalyticsModel::$$c*), "<LogEvent>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, ::Il2CppString*>>()});
+    static auto* kvp = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "KeyValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TestAnalyticsModel::$$c*), "<LogEvent>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{kvp});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::TestAnalyticsModel::$$c::New_ctor

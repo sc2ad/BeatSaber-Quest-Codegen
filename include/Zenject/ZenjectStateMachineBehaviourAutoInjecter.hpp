@@ -71,14 +71,13 @@ namespace Zenject {
   static_assert(sizeof(ZenjectStateMachineBehaviourAutoInjecter) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectStateMachineBehaviourAutoInjecter*, "Zenject", "ZenjectStateMachineBehaviourAutoInjecter");
-// Writing includes for template specializations
-#include "Zenject/DiContainer.hpp"
 // Writing MetadataGetter for method: Zenject::ZenjectStateMachineBehaviourAutoInjecter::Construct
 // Il2CppName: Construct
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectStateMachineBehaviourAutoInjecter::*)(Zenject::DiContainer*)>(&Zenject::ZenjectStateMachineBehaviourAutoInjecter::Construct)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectStateMachineBehaviourAutoInjecter*), "Construct", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectStateMachineBehaviourAutoInjecter*), "Construct", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
   }
 };
 // Writing MetadataGetter for method: Zenject::ZenjectStateMachineBehaviourAutoInjecter::Start

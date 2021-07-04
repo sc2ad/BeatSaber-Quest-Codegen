@@ -77,7 +77,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(CustomBoundingBox) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomBoundingBox*, "", "CustomBoundingBox");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::CustomBoundingBox::Awake
 // Il2CppName: Awake
 template<>

@@ -63,7 +63,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(QuickPlaySongPacksDropdown::SongPackMaskItem) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem*, "", "QuickPlaySongPacksDropdown/SongPackMaskItem");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlaySongPacksDropdown::SongPackMaskItem::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -58,7 +58,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(QuickPlayLobbyFlowCoordinator::$$c__DisplayClass61_1) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::QuickPlayLobbyFlowCoordinator::$$c__DisplayClass61_1*, "", "QuickPlayLobbyFlowCoordinator/<>c__DisplayClass61_1");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::QuickPlayLobbyFlowCoordinator::$$c__DisplayClass61_1::$Finish$b__0
 // Il2CppName: <Finish>b__0
 template<>

@@ -65,7 +65,6 @@ namespace UnityEngine::EventSystems {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::OVRPhysicsRaycaster::$$c*, "UnityEngine.EventSystems", "OVRPhysicsRaycaster/<>c");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRPhysicsRaycaster::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -79,7 +78,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::EventSystems::OVRPhysicsRaycaster::$$c::*)(UnityEngine::RaycastHit, UnityEngine::RaycastHit)>(&UnityEngine::EventSystems::OVRPhysicsRaycaster::$$c::$Raycast$b__15_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRPhysicsRaycaster::$$c*), "<Raycast>b__15_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit>()});
+    static auto* r1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->byval_arg;
+    static auto* r2 = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRPhysicsRaycaster::$$c*), "<Raycast>b__15_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{r1, r2});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRPhysicsRaycaster::$$c::$Spherecast$b__16_0
@@ -87,7 +88,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::EventSystems::OVRPhysicsRaycaster::$$c::*)(UnityEngine::RaycastHit, UnityEngine::RaycastHit)>(&UnityEngine::EventSystems::OVRPhysicsRaycaster::$$c::$Spherecast$b__16_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRPhysicsRaycaster::$$c*), "<Spherecast>b__16_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit>()});
+    static auto* r1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->byval_arg;
+    static auto* r2 = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::OVRPhysicsRaycaster::$$c*), "<Spherecast>b__16_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{r1, r2});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::EventSystems::OVRPhysicsRaycaster::$$c::New_ctor

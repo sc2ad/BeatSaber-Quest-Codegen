@@ -118,14 +118,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRInput::OVRControllerBase::VirtualTouchMap) == 0x44);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OVRControllerBase::VirtualTouchMap*, "", "OVRInput/OVRControllerBase/VirtualTouchMap");
-// Writing includes for template specializations
-#include "GlobalNamespace/OVRInput_Touch.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerBase::VirtualTouchMap::ToRawMask
 // Il2CppName: ToRawMask
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRInput::RawTouch (GlobalNamespace::OVRInput::OVRControllerBase::VirtualTouchMap::*)(GlobalNamespace::OVRInput::Touch)>(&GlobalNamespace::OVRInput::OVRControllerBase::VirtualTouchMap::ToRawMask)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerBase::VirtualTouchMap*), "ToRawMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Touch>()});
+    static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Touch")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput::OVRControllerBase::VirtualTouchMap*), "ToRawMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::OVRControllerBase::VirtualTouchMap::New_ctor

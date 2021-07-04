@@ -115,7 +115,6 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(IKSolverVR::VirtualBone) == 0x5C);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::VirtualBone*, "RootMotion.FinalIK", "IKSolverVR/VirtualBone");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::VirtualBone::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -125,7 +124,9 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverVR::VirtualBone*, "RootMotio
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::VirtualBone::*)(UnityEngine::Vector3, UnityEngine::Quaternion)>(&RootMotion::FinalIK::IKSolverVR::VirtualBone::Read)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::VirtualBone*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::VirtualBone*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position, rotation});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::VirtualBone::SwingRotation
@@ -133,7 +134,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*, int, UnityEngine::Vector3, float)>(&RootMotion::FinalIK::IKSolverVR::VirtualBone::SwingRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::VirtualBone*), "SwingRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* bones = &classof(::Array<::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*>*)->byval_arg;
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* swingTarget = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::VirtualBone*), "SwingRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bones, index, swingTarget, weight});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::VirtualBone::PreSolve
@@ -141,7 +146,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*&)>(&RootMotion::FinalIK::IKSolverVR::VirtualBone::PreSolve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::VirtualBone*), "PreSolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*&>()});
+    static auto* bones = &classof(::Array<::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*>*)->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::VirtualBone*), "PreSolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bones});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::VirtualBone::RotateAroundPoint
@@ -149,7 +155,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*, int, UnityEngine::Vector3, UnityEngine::Quaternion)>(&RootMotion::FinalIK::IKSolverVR::VirtualBone::RotateAroundPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::VirtualBone*), "RotateAroundPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    static auto* bones = &classof(::Array<::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*>*)->byval_arg;
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::VirtualBone*), "RotateAroundPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bones, index, point, rotation});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::VirtualBone::RotateBy
@@ -157,7 +167,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*, int, UnityEngine::Quaternion)>(&RootMotion::FinalIK::IKSolverVR::VirtualBone::RotateBy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::VirtualBone*), "RotateBy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    static auto* bones = &classof(::Array<::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*>*)->byval_arg;
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::VirtualBone*), "RotateBy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bones, index, rotation});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::VirtualBone::RotateBy
@@ -165,7 +178,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*, UnityEngine::Quaternion)>(&RootMotion::FinalIK::IKSolverVR::VirtualBone::RotateBy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::VirtualBone*), "RotateBy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    static auto* bones = &classof(::Array<::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*>*)->byval_arg;
+    static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::VirtualBone*), "RotateBy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bones, rotation});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::VirtualBone::RotateTo
@@ -173,7 +188,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*, int, UnityEngine::Quaternion)>(&RootMotion::FinalIK::IKSolverVR::VirtualBone::RotateTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::VirtualBone*), "RotateTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    static auto* bones = &classof(::Array<::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*>*)->byval_arg;
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::VirtualBone*), "RotateTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bones, index, rotation});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::VirtualBone::SolveTrigonometric
@@ -181,7 +199,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*, int, int, int, UnityEngine::Vector3, UnityEngine::Vector3, float)>(&RootMotion::FinalIK::IKSolverVR::VirtualBone::SolveTrigonometric)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::VirtualBone*), "SolveTrigonometric", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* bones = &classof(::Array<::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*>*)->byval_arg;
+    static auto* first = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* second = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* third = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* targetPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* bendNormal = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::VirtualBone*), "SolveTrigonometric", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bones, first, second, third, targetPosition, bendNormal, weight});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::VirtualBone::GetDirectionToBendPoint
@@ -189,7 +214,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3, float, UnityEngine::Vector3, float, float)>(&RootMotion::FinalIK::IKSolverVR::VirtualBone::GetDirectionToBendPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::VirtualBone*), "GetDirectionToBendPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* directionMag = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* bendDirection = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* sqrMag1 = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* sqrMag2 = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::VirtualBone*), "GetDirectionToBendPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{direction, directionMag, bendDirection, sqrMag1, sqrMag2});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::VirtualBone::SolveFABRIK
@@ -197,7 +227,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*, UnityEngine::Vector3, UnityEngine::Vector3, float, float, int, float, UnityEngine::Vector3)>(&RootMotion::FinalIK::IKSolverVR::VirtualBone::SolveFABRIK)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::VirtualBone*), "SolveFABRIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    static auto* bones = &classof(::Array<::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*>*)->byval_arg;
+    static auto* startPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* targetPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* minNormalizedTargetDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* iterations = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* length = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* startOffset = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::VirtualBone*), "SolveFABRIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bones, startPosition, targetPosition, weight, minNormalizedTargetDistance, iterations, length, startOffset});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::VirtualBone::SolveFABRIKJoint
@@ -205,7 +243,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&RootMotion::FinalIK::IKSolverVR::VirtualBone::SolveFABRIKJoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::VirtualBone*), "SolveFABRIKJoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* pos1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* pos2 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* length = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::VirtualBone*), "SolveFABRIKJoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pos1, pos2, length});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::VirtualBone::SolveCCD
@@ -213,6 +254,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*, UnityEngine::Vector3, float, int)>(&RootMotion::FinalIK::IKSolverVR::VirtualBone::SolveCCD)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::VirtualBone*), "SolveCCD", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* bones = &classof(::Array<::Array<RootMotion::FinalIK::IKSolverVR::VirtualBone*>*>*)->byval_arg;
+    static auto* targetPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* iterations = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::VirtualBone*), "SolveCCD", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bones, targetPosition, weight, iterations});
   }
 };

@@ -137,15 +137,14 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(OffsetModifier::OffsetLimits) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetModifier::OffsetLimits*, "RootMotion.FinalIK", "OffsetModifier/OffsetLimits");
-// Writing includes for template specializations
-#include "RootMotion/FinalIK/IKEffector.hpp"
-#include "UnityEngine/Quaternion.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::OffsetModifier::OffsetLimits::Apply
 // Il2CppName: Apply
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::OffsetModifier::OffsetLimits::*)(RootMotion::FinalIK::IKEffector*, UnityEngine::Quaternion)>(&RootMotion::FinalIK::OffsetModifier::OffsetLimits::Apply)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::OffsetModifier::OffsetLimits*), "Apply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKEffector*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    static auto* e = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKEffector")->byval_arg;
+    static auto* rootRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::OffsetModifier::OffsetLimits*), "Apply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e, rootRotation});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::OffsetModifier::OffsetLimits::SpringAxis
@@ -153,7 +152,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RootMotion::FinalIK::OffsetModifier::OffsetLimits::*)(float, float, float)>(&RootMotion::FinalIK::OffsetModifier::OffsetLimits::SpringAxis)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::OffsetModifier::OffsetLimits*), "SpringAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* min = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* max = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::OffsetModifier::OffsetLimits*), "SpringAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, min, max});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::OffsetModifier::OffsetLimits::Spring
@@ -161,7 +163,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Root
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RootMotion::FinalIK::OffsetModifier::OffsetLimits::*)(float, float, bool)>(&RootMotion::FinalIK::OffsetModifier::OffsetLimits::Spring)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::OffsetModifier::OffsetLimits*), "Spring", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* limit = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* negative = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::OffsetModifier::OffsetLimits*), "Spring", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, limit, negative});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::OffsetModifier::OffsetLimits::New_ctor

@@ -94,7 +94,6 @@ namespace System::Collections {
   static_assert(sizeof(ArrayList::ArrayListEnumeratorSimple) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::ArrayList::ArrayListEnumeratorSimple*, "System.Collections", "ArrayList/ArrayListEnumeratorSimple");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Collections::ArrayList::ArrayListEnumeratorSimple::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

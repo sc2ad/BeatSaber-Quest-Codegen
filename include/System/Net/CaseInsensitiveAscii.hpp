@@ -66,13 +66,13 @@ namespace System::Net {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::CaseInsensitiveAscii*, "System.Net", "CaseInsensitiveAscii");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::CaseInsensitiveAscii::GetHashCode
 // Il2CppName: GetHashCode
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::CaseInsensitiveAscii::*)(::Il2CppObject*)>(&System::Net::CaseInsensitiveAscii::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::CaseInsensitiveAscii*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* myObject = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::CaseInsensitiveAscii*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{myObject});
   }
 };
 // Writing MetadataGetter for method: System::Net::CaseInsensitiveAscii::Compare
@@ -80,7 +80,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::CaseInsensitiveAscii::*)(::Il2CppObject*, ::Il2CppObject*)>(&System::Net::CaseInsensitiveAscii::Compare)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::CaseInsensitiveAscii*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* firstObject = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* secondObject = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::CaseInsensitiveAscii*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{firstObject, secondObject});
   }
 };
 // Writing MetadataGetter for method: System::Net::CaseInsensitiveAscii::FastGetHashCode
@@ -88,7 +90,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::CaseInsensitiveAscii::*)(::Il2CppString*)>(&System::Net::CaseInsensitiveAscii::FastGetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::CaseInsensitiveAscii*), "FastGetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* myString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::CaseInsensitiveAscii*), "FastGetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{myString});
   }
 };
 // Writing MetadataGetter for method: System::Net::CaseInsensitiveAscii::Equals
@@ -96,7 +99,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::CaseInsensitiveAscii::*)(::Il2CppObject*, ::Il2CppObject*)>(&System::Net::CaseInsensitiveAscii::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::CaseInsensitiveAscii*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* firstObject = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* secondObject = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::CaseInsensitiveAscii*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{firstObject, secondObject});
   }
 };
 // Writing MetadataGetter for method: System::Net::CaseInsensitiveAscii::_cctor

@@ -99,7 +99,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(SteamVR_Frustum) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_Frustum*, "", "SteamVR_Frustum");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Frustum::UpdateModel
 // Il2CppName: UpdateModel
 template<>
@@ -113,7 +112,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_Frustum::*)(int, bool)>(&GlobalNamespace::SteamVR_Frustum::OnDeviceConnected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Frustum*), "OnDeviceConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* connected = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_Frustum*), "OnDeviceConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i, connected});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Frustum::OnEnable

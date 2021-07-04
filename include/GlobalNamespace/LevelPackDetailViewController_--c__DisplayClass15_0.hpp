@@ -61,7 +61,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(LevelPackDetailViewController::$$c__DisplayClass15_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelPackDetailViewController::$$c__DisplayClass15_0*, "", "LevelPackDetailViewController/<>c__DisplayClass15_0");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::LevelPackDetailViewController::$$c__DisplayClass15_0::$DidActivate$b__1
 // Il2CppName: <DidActivate>b__1
 template<>

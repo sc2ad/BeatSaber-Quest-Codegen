@@ -36,7 +36,6 @@ namespace Mono::Security::Cryptography {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::KeyBuilder*, "Mono.Security.Cryptography", "KeyBuilder");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Security::Cryptography::KeyBuilder::get_Rng
 // Il2CppName: get_Rng
 template<>
@@ -50,6 +49,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(int)>(&Mono::Security::Cryptography::KeyBuilder::Key)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::KeyBuilder*), "Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::KeyBuilder*), "Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size});
   }
 };

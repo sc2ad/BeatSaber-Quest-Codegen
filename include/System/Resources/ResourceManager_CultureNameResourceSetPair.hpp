@@ -33,7 +33,6 @@ namespace System::Resources {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Resources::ResourceManager::CultureNameResourceSetPair*, "System.Resources", "ResourceManager/CultureNameResourceSetPair");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Resources::ResourceManager::CultureNameResourceSetPair::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -112,16 +112,13 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DiffieHellmanUtility*, "", "DiffieHellmanUtility");
-// Writing includes for template specializations
-#include "GlobalNamespace/DiffieHellmanUtility_KeyType.hpp"
-#include "Org/BouncyCastle/Crypto/Agreement/DHBasicAgreement.hpp"
-#include "Org/BouncyCastle/Crypto/Agreement/ECDHBasicAgreement.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::GenerateKeysAsync
 // Il2CppName: GenerateKeysAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::IDiffieHellmanKeyPair*>* (*)(GlobalNamespace::DiffieHellmanUtility::KeyType)>(&GlobalNamespace::DiffieHellmanUtility::GenerateKeysAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility*), "GenerateKeysAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DiffieHellmanUtility::KeyType>()});
+    static auto* keyType = &::il2cpp_utils::GetClassFromName("", "DiffieHellmanUtility/KeyType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility*), "GenerateKeysAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keyType});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::GenerateKeys
@@ -129,7 +126,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IDiffieHellmanKeyPair* (*)(GlobalNamespace::DiffieHellmanUtility::KeyType)>(&GlobalNamespace::DiffieHellmanUtility::GenerateKeys)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility*), "GenerateKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::DiffieHellmanUtility::KeyType>()});
+    static auto* keyType = &::il2cpp_utils::GetClassFromName("", "DiffieHellmanUtility/KeyType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility*), "GenerateKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keyType});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::GenerateDiffieHellmanKeys
@@ -153,7 +151,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*, ::Array<uint8_t>*)>(&GlobalNamespace::DiffieHellmanUtility::GetPreMasterSecret)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility*), "GetPreMasterSecret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* dhBasicAgreement = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto.Agreement", "DHBasicAgreement")->byval_arg;
+    static auto* clientPublicKey = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility*), "GetPreMasterSecret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dhBasicAgreement, clientPublicKey});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::GetPreMasterSecret
@@ -161,7 +161,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*, ::Array<uint8_t>*)>(&GlobalNamespace::DiffieHellmanUtility::GetPreMasterSecret)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility*), "GetPreMasterSecret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* ecdhBasicAgreement = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto.Agreement", "ECDHBasicAgreement")->byval_arg;
+    static auto* clientPublicKey = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility*), "GetPreMasterSecret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ecdhBasicAgreement, clientPublicKey});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::_cctor

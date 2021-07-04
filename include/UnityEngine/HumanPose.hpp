@@ -55,7 +55,6 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::HumanPose, "UnityEngine", "HumanPose");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::HumanPose::Init
 // Il2CppName: Init
 template<>

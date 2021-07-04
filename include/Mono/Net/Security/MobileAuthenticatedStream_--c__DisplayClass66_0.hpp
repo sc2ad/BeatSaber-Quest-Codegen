@@ -51,7 +51,6 @@ namespace Mono::Net::Security {
   static_assert(sizeof(MobileAuthenticatedStream::$$c__DisplayClass66_0) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MobileAuthenticatedStream::$$c__DisplayClass66_0*, "Mono.Net.Security", "MobileAuthenticatedStream/<>c__DisplayClass66_0");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Net::Security::MobileAuthenticatedStream::$$c__DisplayClass66_0::$InnerRead$b__0
 // Il2CppName: <InnerRead>b__0
 template<>

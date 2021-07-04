@@ -36,7 +36,6 @@ namespace System {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::FlagsAttribute*, "System", "FlagsAttribute");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::FlagsAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

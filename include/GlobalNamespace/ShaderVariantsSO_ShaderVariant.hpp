@@ -63,8 +63,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(ShaderVariantsSO::ShaderVariant) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderVariantsSO::ShaderVariant*, "", "ShaderVariantsSO/ShaderVariant");
-// Writing includes for template specializations
-#include "UnityEngine/Shader.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ShaderVariantsSO::ShaderVariant::get_variants
 // Il2CppName: get_variants
 template<>

@@ -66,13 +66,13 @@ namespace Libraries::HM::HMLib::VR {
   static_assert(sizeof(HapticPresetSO) == 0x25);
 }
 DEFINE_IL2CPP_ARG_TYPE(Libraries::HM::HMLib::VR::HapticPresetSO*, "Libraries.HM.HMLib.VR", "HapticPresetSO");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Libraries::HM::HMLib::VR::HapticPresetSO::CopyFrom
 // Il2CppName: CopyFrom
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Libraries::HM::HMLib::VR::HapticPresetSO::*)(Libraries::HM::HMLib::VR::HapticPresetSO*)>(&Libraries::HM::HMLib::VR::HapticPresetSO::CopyFrom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Libraries::HM::HMLib::VR::HapticPresetSO*), "CopyFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Libraries::HM::HMLib::VR::HapticPresetSO*>()});
+    static auto* hapticPreset = &::il2cpp_utils::GetClassFromName("Libraries.HM.HMLib.VR", "HapticPresetSO")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Libraries::HM::HMLib::VR::HapticPresetSO*), "CopyFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hapticPreset});
   }
 };
 // Writing MetadataGetter for method: Libraries::HM::HMLib::VR::HapticPresetSO::New_ctor

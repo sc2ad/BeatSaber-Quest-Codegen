@@ -101,11 +101,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c*, "", "SongPackMaskModelSO/SongPackMaskItem/<>c");
-// Writing includes for template specializations
-#include "GlobalNamespace/IBeatmapLevelPack.hpp"
-#include "GlobalNamespace/BeatmapLevelPackSO.hpp"
-#include "GlobalNamespace/PreviewBeatmapLevelPackSO.hpp"
-#include "GlobalNamespace/BeatmapLevelPackCollectionSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -119,7 +114,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::*)(GlobalNamespace::IBeatmapLevelPack*)>(&GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::$get_songPackMask$b__11_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c*), "<get_songPackMask>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>()});
+    static auto* pack = &::il2cpp_utils::GetClassFromName("", "IBeatmapLevelPack")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c*), "<get_songPackMask>b__11_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pack});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::$get_songPackMask$b__11_1
@@ -127,7 +123,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::*)(GlobalNamespace::BeatmapLevelPackSO*)>(&GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::$get_songPackMask$b__11_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c*), "<get_songPackMask>b__11_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapLevelPackSO*>()});
+    static auto* pack = &::il2cpp_utils::GetClassFromName("", "BeatmapLevelPackSO")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c*), "<get_songPackMask>b__11_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pack});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::$get_songPackMask$b__11_2
@@ -135,7 +132,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::*)(GlobalNamespace::PreviewBeatmapLevelPackSO*)>(&GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::$get_songPackMask$b__11_2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c*), "<get_songPackMask>b__11_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PreviewBeatmapLevelPackSO*>()});
+    static auto* pack = &::il2cpp_utils::GetClassFromName("", "PreviewBeatmapLevelPackSO")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c*), "<get_songPackMask>b__11_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pack});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::$get_songPackMask$b__11_3
@@ -143,7 +141,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppString*>* (GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::*)(GlobalNamespace::BeatmapLevelPackCollectionSO*)>(&GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::$get_songPackMask$b__11_3)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c*), "<get_songPackMask>b__11_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapLevelPackCollectionSO*>()});
+    static auto* collection = &::il2cpp_utils::GetClassFromName("", "BeatmapLevelPackCollectionSO")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c*), "<get_songPackMask>b__11_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{collection});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::$get_songPackMask$b__11_4
@@ -151,7 +150,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::*)(GlobalNamespace::IBeatmapLevelPack*)>(&GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::$get_songPackMask$b__11_4)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c*), "<get_songPackMask>b__11_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IBeatmapLevelPack*>()});
+    static auto* pack = &::il2cpp_utils::GetClassFromName("", "IBeatmapLevelPack")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c*), "<get_songPackMask>b__11_4", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pack});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c::New_ctor

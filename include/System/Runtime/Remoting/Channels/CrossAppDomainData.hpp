@@ -57,7 +57,6 @@ namespace System::Runtime::Remoting::Channels {
   static_assert(sizeof(CrossAppDomainData) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::CrossAppDomainData*, "System.Runtime.Remoting.Channels", "CrossAppDomainData");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::CrossAppDomainData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

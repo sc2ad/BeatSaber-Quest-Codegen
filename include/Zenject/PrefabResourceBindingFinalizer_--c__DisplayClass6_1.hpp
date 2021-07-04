@@ -67,15 +67,14 @@ namespace Zenject {
   static_assert(sizeof(PrefabResourceBindingFinalizer::$$c__DisplayClass6_1) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass6_1*, "Zenject", "PrefabResourceBindingFinalizer/<>c__DisplayClass6_1");
-// Writing includes for template specializations
-#include "Zenject/DiContainer.hpp"
-#include "System/Type.hpp"
 // Writing MetadataGetter for method: Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass6_1::$FinalizeBindingSelf$b__1
 // Il2CppName: <FinalizeBindingSelf>b__1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IProvider* (Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass6_1::*)(Zenject::DiContainer*, System::Type*)>(&Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass6_1::$FinalizeBindingSelf$b__1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass6_1*), "<FinalizeBindingSelf>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* _ = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
+    static auto* contractType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass6_1*), "<FinalizeBindingSelf>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_, contractType});
   }
 };
 // Writing MetadataGetter for method: Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass6_1::New_ctor

@@ -59,13 +59,13 @@ namespace UnityEngine {
   static_assert(sizeof(CreateAssetMenuAttribute) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CreateAssetMenuAttribute*, "UnityEngine", "CreateAssetMenuAttribute");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::CreateAssetMenuAttribute::set_menuName
 // Il2CppName: set_menuName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CreateAssetMenuAttribute::*)(::Il2CppString*)>(&UnityEngine::CreateAssetMenuAttribute::set_menuName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CreateAssetMenuAttribute*), "set_menuName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CreateAssetMenuAttribute*), "set_menuName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::CreateAssetMenuAttribute::set_fileName
@@ -73,7 +73,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::CreateAssetMenuAttribute::*)(::Il2CppString*)>(&UnityEngine::CreateAssetMenuAttribute::set_fileName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CreateAssetMenuAttribute*), "set_fileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CreateAssetMenuAttribute*), "set_fileName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::CreateAssetMenuAttribute::New_ctor

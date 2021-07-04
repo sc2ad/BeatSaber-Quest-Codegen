@@ -52,7 +52,6 @@ namespace UnityEngine {
   static_assert(sizeof(AddComponentMenu) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddComponentMenu*, "UnityEngine", "AddComponentMenu");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::AddComponentMenu::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

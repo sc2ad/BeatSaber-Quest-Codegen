@@ -82,15 +82,13 @@ namespace System::Runtime::Remoting::Lifetime {
   static_assert(sizeof(LeaseManager) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::LeaseManager*, "System.Runtime.Remoting.Lifetime", "LeaseManager");
-// Writing includes for template specializations
-#include "System/TimeSpan.hpp"
-#include "System/Runtime/Remoting/ServerIdentity.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::LeaseManager::SetPollTime
 // Il2CppName: SetPollTime
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Lifetime::LeaseManager::*)(System::TimeSpan)>(&System::Runtime::Remoting::Lifetime::LeaseManager::SetPollTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::LeaseManager*), "SetPollTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
+    static auto* timeSpan = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::LeaseManager*), "SetPollTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{timeSpan});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::LeaseManager::TrackLifetime
@@ -98,7 +96,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Lifetime::LeaseManager::*)(System::Runtime::Remoting::ServerIdentity*)>(&System::Runtime::Remoting::Lifetime::LeaseManager::TrackLifetime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::LeaseManager*), "TrackLifetime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::ServerIdentity*>()});
+    static auto* identity = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting", "ServerIdentity")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::LeaseManager*), "TrackLifetime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{identity});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::LeaseManager::StartManager
@@ -122,7 +121,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Lifetime::LeaseManager::*)(::Il2CppObject*)>(&System::Runtime::Remoting::Lifetime::LeaseManager::ManageLeases)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::LeaseManager*), "ManageLeases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::LeaseManager*), "ManageLeases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::LeaseManager::New_ctor

@@ -96,8 +96,6 @@ namespace UnityEngine::ResourceManagement::Util {
   static_assert(sizeof(ObjectInitializationData) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::Util::ObjectInitializationData, "UnityEngine.ResourceManagement.Util", "ObjectInitializationData");
-// Writing includes for template specializations
-#include "UnityEngine/ResourceManagement/ResourceManager.hpp"
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::ObjectInitializationData::get_Id
 // Il2CppName: get_Id
 template<>
@@ -130,7 +128,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle (UnityEngine::ResourceManagement::Util::ObjectInitializationData::*)(UnityEngine::ResourceManagement::ResourceManager*, ::Il2CppString*)>(&UnityEngine::ResourceManagement::Util::ObjectInitializationData::GetAsyncInitHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::ObjectInitializationData), "GetAsyncInitHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ResourceManagement::ResourceManager*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* rm = &::il2cpp_utils::GetClassFromName("UnityEngine.ResourceManagement", "ResourceManager")->byval_arg;
+    static auto* idOverride = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::ObjectInitializationData), "GetAsyncInitHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rm, idOverride});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::Util::ObjectInitializationData::ToString

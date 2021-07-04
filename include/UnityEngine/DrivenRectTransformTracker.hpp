@@ -42,16 +42,15 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DrivenRectTransformTracker, "UnityEngine", "DrivenRectTransformTracker");
-// Writing includes for template specializations
-#include "UnityEngine/Object.hpp"
-#include "UnityEngine/RectTransform.hpp"
-#include "UnityEngine/DrivenTransformProperties.hpp"
 // Writing MetadataGetter for method: UnityEngine::DrivenRectTransformTracker::Add
 // Il2CppName: Add
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::DrivenRectTransformTracker::*)(UnityEngine::Object*, UnityEngine::RectTransform*, UnityEngine::DrivenTransformProperties)>(&UnityEngine::DrivenRectTransformTracker::Add)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::DrivenRectTransformTracker), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Object*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::DrivenTransformProperties>()});
+    static auto* driver = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
+    static auto* rectTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
+    static auto* drivenProperties = &::il2cpp_utils::GetClassFromName("UnityEngine", "DrivenTransformProperties")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::DrivenRectTransformTracker), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{driver, rectTransform, drivenProperties});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::DrivenRectTransformTracker::Clear

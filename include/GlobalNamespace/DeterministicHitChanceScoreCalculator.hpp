@@ -67,8 +67,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(DeterministicHitChanceScoreCalculator) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DeterministicHitChanceScoreCalculator*, "", "DeterministicHitChanceScoreCalculator");
-// Writing includes for template specializations
-#include "GlobalNamespace/MockNoteData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DeterministicHitChanceScoreCalculator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -78,6 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DeterministicHitChanceScoreCalculator*, 
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::DeterministicHitChanceScoreCalculator::*)(GlobalNamespace::MockNoteData*)>(&GlobalNamespace::DeterministicHitChanceScoreCalculator::GetScoreForNote)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DeterministicHitChanceScoreCalculator*), "GetScoreForNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockNoteData*>()});
+    static auto* noteData = &::il2cpp_utils::GetClassFromName("", "MockNoteData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DeterministicHitChanceScoreCalculator*), "GetScoreForNote", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{noteData});
   }
 };

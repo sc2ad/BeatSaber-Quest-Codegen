@@ -68,15 +68,13 @@ namespace Oculus::Platform {
   static_assert(sizeof(VoipOptions) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipOptions*, "Oculus.Platform", "VoipOptions");
-// Writing includes for template specializations
-#include "Oculus/Platform/VoipBitrate.hpp"
-#include "Oculus/Platform/VoipDtxState.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::VoipOptions::SetBitrateForNewConnections
 // Il2CppName: SetBitrateForNewConnections
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::VoipOptions::*)(Oculus::Platform::VoipBitrate)>(&Oculus::Platform::VoipOptions::SetBitrateForNewConnections)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::VoipOptions*), "SetBitrateForNewConnections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::VoipBitrate>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "VoipBitrate")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::VoipOptions*), "SetBitrateForNewConnections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::VoipOptions::SetCreateNewConnectionUseDtx
@@ -84,7 +82,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::VoipOptions::*)(Oculus::Platform::VoipDtxState)>(&Oculus::Platform::VoipOptions::SetCreateNewConnectionUseDtx)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::VoipOptions*), "SetCreateNewConnectionUseDtx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::VoipDtxState>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "VoipDtxState")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::VoipOptions*), "SetCreateNewConnectionUseDtx", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::VoipOptions::operator System::IntPtr

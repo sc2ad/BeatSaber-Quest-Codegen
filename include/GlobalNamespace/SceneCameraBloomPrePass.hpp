@@ -89,14 +89,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(SceneCameraBloomPrePass) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SceneCameraBloomPrePass*, "", "SceneCameraBloomPrePass");
-// Writing includes for template specializations
-#include "UnityEngine/Camera.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SceneCameraBloomPrePass::OnCameraPreRender
 // Il2CppName: OnCameraPreRender
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneCameraBloomPrePass::*)(UnityEngine::Camera*)>(&GlobalNamespace::SceneCameraBloomPrePass::OnCameraPreRender)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneCameraBloomPrePass*), "OnCameraPreRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    static auto* camera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneCameraBloomPrePass*), "OnCameraPreRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{camera});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SceneCameraBloomPrePass::OnCameraPostRender
@@ -104,7 +103,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SceneCameraBloomPrePass::*)(UnityEngine::Camera*)>(&GlobalNamespace::SceneCameraBloomPrePass::OnCameraPostRender)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneCameraBloomPrePass*), "OnCameraPostRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    static auto* camera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SceneCameraBloomPrePass*), "OnCameraPostRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{camera});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SceneCameraBloomPrePass::New_ctor

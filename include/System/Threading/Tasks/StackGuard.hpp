@@ -60,7 +60,6 @@ namespace System::Threading::Tasks {
   static_assert(sizeof(StackGuard) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::StackGuard*, "System.Threading.Tasks", "StackGuard");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Threading::Tasks::StackGuard::TryBeginInliningScope
 // Il2CppName: TryBeginInliningScope
 template<>

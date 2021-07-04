@@ -95,7 +95,6 @@ namespace System::Security::Cryptography {
   static_assert(sizeof(CspParameters) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::CspParameters*, "System.Security.Cryptography", "CspParameters");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::Cryptography::CspParameters::get_Flags
 // Il2CppName: get_Flags
 template<>
@@ -109,7 +108,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::CspParameters::*)(System::Security::Cryptography::CspProviderFlags)>(&System::Security::Cryptography::CspParameters::set_Flags)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CspParameters*), "set_Flags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Cryptography::CspProviderFlags>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "CspProviderFlags")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CspParameters*), "set_Flags", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Security::Cryptography::CspParameters::New_ctor

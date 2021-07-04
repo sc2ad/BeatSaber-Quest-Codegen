@@ -64,7 +64,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(CustomTimelineTween) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomTimelineTween*, "", "CustomTimelineTween");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::CustomTimelineTween::OnValidate
 // Il2CppName: OnValidate
 template<>

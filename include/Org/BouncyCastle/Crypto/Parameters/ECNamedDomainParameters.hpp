@@ -77,12 +77,6 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   static_assert(sizeof(ECNamedDomainParameters) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters*, "Org.BouncyCastle.Crypto.Parameters", "ECNamedDomainParameters");
-// Writing includes for template specializations
-#include "Org/BouncyCastle/Asn1/DerObjectIdentifier.hpp"
-#include "Org/BouncyCastle/Asn1/X9/X9ECParameters.hpp"
-#include "Org/BouncyCastle/Math/EC/ECCurve.hpp"
-#include "Org/BouncyCastle/Math/EC/ECPoint.hpp"
-#include "Org/BouncyCastle/Math/BigInteger.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters::get_Name
 // Il2CppName: get_Name
 template<>

@@ -56,8 +56,6 @@ namespace Zenject {
   static_assert(sizeof(PoolableManager::PoolableInfo) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolableManager::PoolableInfo, "Zenject", "PoolableManager/PoolableInfo");
-// Writing includes for template specializations
-#include "Zenject/IPoolable.hpp"
 // Writing MetadataGetter for method: Zenject::PoolableManager::PoolableInfo::PoolableInfo
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

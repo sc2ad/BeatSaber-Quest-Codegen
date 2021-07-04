@@ -140,13 +140,14 @@ namespace GlobalNamespace {
   static_assert(sizeof(PrepareLevelCompletionResults) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PrepareLevelCompletionResults*, "", "PrepareLevelCompletionResults");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::PrepareLevelCompletionResults::FillLevelCompletionResults
 // Il2CppName: FillLevelCompletionResults
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LevelCompletionResults* (GlobalNamespace::PrepareLevelCompletionResults::*)(GlobalNamespace::LevelCompletionResults::LevelEndStateType, GlobalNamespace::LevelCompletionResults::LevelEndAction)>(&GlobalNamespace::PrepareLevelCompletionResults::FillLevelCompletionResults)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PrepareLevelCompletionResults*), "FillLevelCompletionResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults::LevelEndStateType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults::LevelEndAction>()});
+    static auto* levelEndStateType = &::il2cpp_utils::GetClassFromName("", "LevelCompletionResults/LevelEndStateType")->byval_arg;
+    static auto* levelEndAction = &::il2cpp_utils::GetClassFromName("", "LevelCompletionResults/LevelEndAction")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PrepareLevelCompletionResults*), "FillLevelCompletionResults", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelEndStateType, levelEndAction});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PrepareLevelCompletionResults::New_ctor

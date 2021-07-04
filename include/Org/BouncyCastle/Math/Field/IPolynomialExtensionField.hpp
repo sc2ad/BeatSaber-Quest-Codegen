@@ -34,7 +34,6 @@ namespace Org::BouncyCastle::Math::Field {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::IPolynomialExtensionField*, "Org.BouncyCastle.Math.Field", "IPolynomialExtensionField");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Field::IPolynomialExtensionField::get_MinimalPolynomial
 // Il2CppName: get_MinimalPolynomial
 template<>

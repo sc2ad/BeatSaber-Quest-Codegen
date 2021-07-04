@@ -49,7 +49,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(SaberManager::InitData) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberManager::InitData*, "", "SaberManager/InitData");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SaberManager::InitData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

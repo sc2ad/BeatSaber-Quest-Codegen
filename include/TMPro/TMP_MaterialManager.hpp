@@ -141,12 +141,6 @@ namespace TMPro {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_MaterialManager*, "TMPro", "TMP_MaterialManager");
-// Writing includes for template specializations
-#include "UnityEngine/Camera.hpp"
-#include "UnityEngine/Material.hpp"
-#include "UnityEngine/GameObject.hpp"
-#include "UnityEngine/UI/MaskableGraphic.hpp"
-#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_MaterialManager::_cctor
 // Il2CppName: .cctor
 template<>
@@ -160,7 +154,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Camera*)>(&TMPro::TMP_MaterialManager::OnPreRender)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "OnPreRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    static auto* cam = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "OnPreRender", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cam});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_MaterialManager::OnPreRenderCanvas
@@ -176,7 +171,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)(UnityEngine::Material*, int)>(&TMPro::TMP_MaterialManager::GetStencilMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "GetStencilMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* baseMaterial = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    static auto* stencilID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "GetStencilMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{baseMaterial, stencilID});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_MaterialManager::ReleaseStencilMaterial
@@ -184,7 +181,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Material*)>(&TMPro::TMP_MaterialManager::ReleaseStencilMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "ReleaseStencilMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    static auto* stencilMaterial = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "ReleaseStencilMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stencilMaterial});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_MaterialManager::GetBaseMaterial
@@ -192,7 +190,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)(UnityEngine::Material*)>(&TMPro::TMP_MaterialManager::GetBaseMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "GetBaseMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    static auto* stencilMaterial = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "GetBaseMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stencilMaterial});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_MaterialManager::SetStencil
@@ -200,7 +199,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)(UnityEngine::Material*, int)>(&TMPro::TMP_MaterialManager::SetStencil)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "SetStencil", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* material = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    static auto* stencilID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "SetStencil", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{material, stencilID});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_MaterialManager::AddMaskingMaterial
@@ -208,7 +209,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Material*, UnityEngine::Material*, int)>(&TMPro::TMP_MaterialManager::AddMaskingMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "AddMaskingMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* baseMaterial = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    static auto* stencilMaterial = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    static auto* stencilID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "AddMaskingMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{baseMaterial, stencilMaterial, stencilID});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_MaterialManager::RemoveStencilMaterial
@@ -216,7 +220,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Material*)>(&TMPro::TMP_MaterialManager::RemoveStencilMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "RemoveStencilMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    static auto* stencilMaterial = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "RemoveStencilMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stencilMaterial});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_MaterialManager::ReleaseBaseMaterial
@@ -224,7 +229,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Material*)>(&TMPro::TMP_MaterialManager::ReleaseBaseMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "ReleaseBaseMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    static auto* baseMaterial = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "ReleaseBaseMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{baseMaterial});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_MaterialManager::ClearMaterials
@@ -240,7 +246,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::GameObject*)>(&TMPro::TMP_MaterialManager::GetStencilID)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "GetStencilID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "GetStencilID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_MaterialManager::GetMaterialForRendering
@@ -248,7 +255,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)(UnityEngine::UI::MaskableGraphic*, UnityEngine::Material*)>(&TMPro::TMP_MaterialManager::GetMaterialForRendering)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "GetMaterialForRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::MaskableGraphic*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    static auto* graphic = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "MaskableGraphic")->byval_arg;
+    static auto* baseMaterial = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "GetMaterialForRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{graphic, baseMaterial});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_MaterialManager::FindRootSortOverrideCanvas
@@ -256,7 +265,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*)>(&TMPro::TMP_MaterialManager::FindRootSortOverrideCanvas)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "FindRootSortOverrideCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    static auto* start = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "FindRootSortOverrideCanvas", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{start});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_MaterialManager::GetFallbackMaterial
@@ -264,7 +274,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Material* (*)(UnityEngine::Material*, UnityEngine::Material*)>(&TMPro::TMP_MaterialManager::GetFallbackMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "GetFallbackMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    static auto* sourceMaterial = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    static auto* targetMaterial = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "GetFallbackMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourceMaterial, targetMaterial});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_MaterialManager::AddFallbackMaterialReference
@@ -272,7 +284,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Material*)>(&TMPro::TMP_MaterialManager::AddFallbackMaterialReference)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "AddFallbackMaterialReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    static auto* targetMaterial = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "AddFallbackMaterialReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{targetMaterial});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_MaterialManager::RemoveFallbackMaterialReference
@@ -280,7 +293,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Material*)>(&TMPro::TMP_MaterialManager::RemoveFallbackMaterialReference)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "RemoveFallbackMaterialReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    static auto* targetMaterial = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "RemoveFallbackMaterialReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{targetMaterial});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_MaterialManager::CleanupFallbackMaterials
@@ -296,7 +310,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Material*)>(&TMPro::TMP_MaterialManager::ReleaseFallbackMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "ReleaseFallbackMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    static auto* fallackMaterial = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "ReleaseFallbackMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fallackMaterial});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_MaterialManager::CopyMaterialPresetProperties
@@ -304,6 +319,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Material*, UnityEngine::Material*)>(&TMPro::TMP_MaterialManager::CopyMaterialPresetProperties)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "CopyMaterialPresetProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>()});
+    static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    static auto* destination = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_MaterialManager*), "CopyMaterialPresetProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source, destination});
   }
 };

@@ -50,7 +50,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRWaitCursor) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRWaitCursor*, "", "OVRWaitCursor");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRWaitCursor::Update
 // Il2CppName: Update
 template<>

@@ -173,11 +173,6 @@ namespace UnityEngine::EventSystems {
   static_assert(sizeof(BaseInputModule) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::BaseInputModule*, "UnityEngine.EventSystems", "BaseInputModule");
-// Writing includes for template specializations
-#include "UnityEngine/EventSystems/BaseInput.hpp"
-#include "System/Collections/Generic/List_1.hpp"
-#include "UnityEngine/GameObject.hpp"
-#include "UnityEngine/EventSystems/PointerEventData.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::BaseInputModule::get_input
 // Il2CppName: get_input
 template<>
@@ -199,7 +194,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::BaseInputModule::*)(UnityEngine::EventSystems::BaseInput*)>(&UnityEngine::EventSystems::BaseInputModule::set_inputOverride)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseInputModule*), "set_inputOverride", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::BaseInput*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "BaseInput")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseInputModule*), "set_inputOverride", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::EventSystems::BaseInputModule::get_eventSystem
@@ -223,7 +219,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::RaycastResult (*)(System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*)>(&UnityEngine::EventSystems::BaseInputModule::FindFirstRaycast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseInputModule*), "FindFirstRaycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>*>()});
+    static auto* candidates = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "RaycastResult")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseInputModule*), "FindFirstRaycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{candidates});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::EventSystems::BaseInputModule::DetermineMoveDirection
@@ -231,7 +228,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::MoveDirection (*)(float, float)>(&UnityEngine::EventSystems::BaseInputModule::DetermineMoveDirection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseInputModule*), "DetermineMoveDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* y = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseInputModule*), "DetermineMoveDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::EventSystems::BaseInputModule::DetermineMoveDirection
@@ -239,7 +238,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::MoveDirection (*)(float, float, float)>(&UnityEngine::EventSystems::BaseInputModule::DetermineMoveDirection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseInputModule*), "DetermineMoveDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* y = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* deadZone = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseInputModule*), "DetermineMoveDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y, deadZone});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::EventSystems::BaseInputModule::FindCommonRoot
@@ -247,7 +249,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(UnityEngine::GameObject*, UnityEngine::GameObject*)>(&UnityEngine::EventSystems::BaseInputModule::FindCommonRoot)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseInputModule*), "FindCommonRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    static auto* g1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
+    static auto* g2 = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseInputModule*), "FindCommonRoot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{g1, g2});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::EventSystems::BaseInputModule::HandlePointerExitAndEnter
@@ -255,7 +259,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::BaseInputModule::*)(UnityEngine::EventSystems::PointerEventData*, UnityEngine::GameObject*)>(&UnityEngine::EventSystems::BaseInputModule::HandlePointerExitAndEnter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseInputModule*), "HandlePointerExitAndEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    static auto* currentPointerData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
+    static auto* newEnterTarget = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseInputModule*), "HandlePointerExitAndEnter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{currentPointerData, newEnterTarget});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::EventSystems::BaseInputModule::GetAxisEventData
@@ -263,7 +269,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::EventSystems::AxisEventData* (UnityEngine::EventSystems::BaseInputModule::*)(float, float, float)>(&UnityEngine::EventSystems::BaseInputModule::GetAxisEventData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseInputModule*), "GetAxisEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* y = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* moveDeadZone = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseInputModule*), "GetAxisEventData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y, moveDeadZone});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::EventSystems::BaseInputModule::GetBaseEventData
@@ -279,7 +288,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::EventSystems::BaseInputModule::*)(int)>(&UnityEngine::EventSystems::BaseInputModule::IsPointerOverGameObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseInputModule*), "IsPointerOverGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* pointerId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::BaseInputModule*), "IsPointerOverGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pointerId});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::EventSystems::BaseInputModule::ShouldActivateModule

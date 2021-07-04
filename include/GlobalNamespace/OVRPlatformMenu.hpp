@@ -144,7 +144,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlatformMenu*, "", "OVRPlatformMenu");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlatformMenu::eHandler, "", "OVRPlatformMenu/eHandler");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlatformMenu::HandleBackButtonState
 // Il2CppName: HandleBackButtonState
 template<>

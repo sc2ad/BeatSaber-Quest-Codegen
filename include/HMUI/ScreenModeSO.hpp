@@ -55,7 +55,6 @@ namespace HMUI {
   static_assert(sizeof(ScreenModeSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScreenModeSO*, "HMUI", "ScreenModeSO");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::ScreenModeSO::get_data
 // Il2CppName: get_data
 template<>

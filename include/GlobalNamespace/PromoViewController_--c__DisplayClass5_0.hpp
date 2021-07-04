@@ -51,7 +51,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(PromoViewController::$$c__DisplayClass5_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PromoViewController::$$c__DisplayClass5_0*, "", "PromoViewController/<>c__DisplayClass5_0");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::PromoViewController::$$c__DisplayClass5_0::$DidActivate$b__0
 // Il2CppName: <DidActivate>b__0
 template<>

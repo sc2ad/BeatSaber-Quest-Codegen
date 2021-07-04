@@ -110,7 +110,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(PresentServerSettingsAfterNClicks) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PresentServerSettingsAfterNClicks*, "", "PresentServerSettingsAfterNClicks");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::PresentServerSettingsAfterNClicks::OnEnable
 // Il2CppName: OnEnable
 template<>

@@ -88,7 +88,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(WaypointData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::WaypointData*, "", "WaypointData");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::WaypointData::get_offsetDirection
 // Il2CppName: get_offsetDirection
 template<>
@@ -102,7 +101,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::WaypointData::*)(GlobalNamespace::OffsetDirection)>(&GlobalNamespace::WaypointData::set_offsetDirection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointData*), "set_offsetDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OffsetDirection>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("", "OffsetDirection")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointData*), "set_offsetDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::WaypointData::get_noteLineLayer
@@ -118,7 +118,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::WaypointData::*)(GlobalNamespace::NoteLineLayer)>(&GlobalNamespace::WaypointData::set_noteLineLayer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointData*), "set_noteLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteLineLayer>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("", "NoteLineLayer")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointData*), "set_noteLineLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::WaypointData::New_ctor
@@ -154,6 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::WaypointData::*)(int)>(&GlobalNamespace::WaypointData::MirrorLineIndex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointData*), "MirrorLineIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* lineCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::WaypointData*), "MirrorLineIndex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lineCount});
   }
 };

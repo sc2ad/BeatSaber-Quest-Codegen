@@ -96,9 +96,6 @@ namespace Oculus::Platform {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Callback*, "Oculus.Platform", "Callback");
-// Writing includes for template specializations
-#include "Oculus/Platform/Message_Callback.hpp"
-#include "Oculus/Platform/Request.hpp"
 // Writing MetadataGetter for method: Oculus::Platform::Callback::SetNotificationCallback
 // Il2CppName: SetNotificationCallback
 // Cannot write MetadataGetter for generic methods!
@@ -107,7 +104,9 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Callback*, "Oculus.Platform", "Callback
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Oculus::Platform::Message::MessageType, Oculus::Platform::Message::Callback*)>(&Oculus::Platform::Callback::SetNotificationCallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Callback*), "SetNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message::MessageType>(), ::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message::Callback*>()});
+    static auto* type = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "Message/MessageType")->byval_arg;
+    static auto* callback = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "Message/Callback")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Callback*), "SetNotificationCallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, callback});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Callback::AddRequest
@@ -115,7 +114,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Oc
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Oculus::Platform::Request*)>(&Oculus::Platform::Callback::AddRequest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Callback*), "AddRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Request*>()});
+    static auto* request = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "Request")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Callback*), "AddRequest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{request});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Callback::RunCallbacks
@@ -131,7 +131,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint)>(&Oculus::Platform::Callback::RunLimitedCallbacks)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Callback*), "RunLimitedCallbacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* limit = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Callback*), "RunLimitedCallbacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{limit});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Callback::OnApplicationQuit
@@ -155,7 +156,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Oculus::Platform::Message*)>(&Oculus::Platform::Callback::HandleMessage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Callback*), "HandleMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Oculus::Platform::Message*>()});
+    static auto* msg = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "Message")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Callback*), "HandleMessage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{msg});
   }
 };
 // Writing MetadataGetter for method: Oculus::Platform::Callback::_cctor

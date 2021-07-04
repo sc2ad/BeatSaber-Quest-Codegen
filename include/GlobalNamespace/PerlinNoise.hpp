@@ -62,7 +62,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PerlinNoise*, "", "PerlinNoise");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::PerlinNoise::_cctor
 // Il2CppName: .cctor
 template<>
@@ -76,7 +75,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float, float, int, float, int)>(&GlobalNamespace::PerlinNoise::OctavePerlin3D)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PerlinNoise*), "OctavePerlin3D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* y = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* z = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* octaves = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* persistence = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* repeat = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PerlinNoise*), "OctavePerlin3D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y, z, octaves, persistence, repeat});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PerlinNoise::Perlin3D
@@ -84,7 +89,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float, float, int)>(&GlobalNamespace::PerlinNoise::Perlin3D)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PerlinNoise*), "Perlin3D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* y = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* z = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* repeat = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PerlinNoise*), "Perlin3D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y, z, repeat});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PerlinNoise::Inc
@@ -92,7 +101,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&GlobalNamespace::PerlinNoise::Inc)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PerlinNoise*), "Inc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* num = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* repeat = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PerlinNoise*), "Inc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{num, repeat});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PerlinNoise::Grad3D
@@ -100,7 +111,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(int, float, float, float)>(&GlobalNamespace::PerlinNoise::Grad3D)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PerlinNoise*), "Grad3D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* hash = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* x = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* y = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* z = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PerlinNoise*), "Grad3D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hash, x, y, z});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PerlinNoise::Fade
@@ -108,7 +123,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(i
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float)>(&GlobalNamespace::PerlinNoise::Fade)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PerlinNoise*), "Fade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PerlinNoise*), "Fade", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PerlinNoise::Lerp
@@ -116,7 +132,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float, float)>(&GlobalNamespace::PerlinNoise::Lerp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PerlinNoise*), "Lerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* a = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* b = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* x = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PerlinNoise*), "Lerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b, x});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PerlinNoise::New_ctor

@@ -66,8 +66,6 @@ namespace System::Runtime::Remoting::Activation {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Activation::IConstructionCallMessage*, "System.Runtime.Remoting.Activation", "IConstructionCallMessage");
-// Writing includes for template specializations
-#include "System/Runtime/Remoting/Activation/IActivator.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Activation::IConstructionCallMessage::get_ActivationType
 // Il2CppName: get_ActivationType
 template<>
@@ -97,7 +95,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Activation::IConstructionCallMessage::*)(System::Runtime::Remoting::Activation::IActivator*)>(&System::Runtime::Remoting::Activation::IConstructionCallMessage::set_Activator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::IConstructionCallMessage*), "set_Activator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Activation::IActivator*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Activation", "IActivator")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::IConstructionCallMessage*), "set_Activator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Remoting::Activation::IConstructionCallMessage::get_CallSiteActivationAttributes

@@ -42,13 +42,14 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer*, "", "NoteCutter/CuttableBySaberSortParamsComparer");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer::Compare
 // Il2CppName: Compare
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer::*)(::Il2CppObject*, ::Il2CppObject*)>(&GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer::Compare)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* p0 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* p1 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p0, p1});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer::New_ctor

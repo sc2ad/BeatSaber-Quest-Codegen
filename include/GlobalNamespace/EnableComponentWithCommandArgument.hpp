@@ -62,7 +62,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnableComponentWithCommandArgument) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableComponentWithCommandArgument*, "", "EnableComponentWithCommandArgument");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::EnableComponentWithCommandArgument::Awake
 // Il2CppName: Awake
 template<>

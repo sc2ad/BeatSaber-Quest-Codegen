@@ -34,13 +34,15 @@ namespace NUnit::Framework::Constraints {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::FloatingPointNumerics*, "NUnit.Framework.Constraints", "FloatingPointNumerics");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::FloatingPointNumerics::AreAlmostEqualUlps
 // Il2CppName: AreAlmostEqualUlps
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float, float, int)>(&NUnit::Framework::Constraints::FloatingPointNumerics::AreAlmostEqualUlps)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::FloatingPointNumerics*), "AreAlmostEqualUlps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* left = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* right = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* maxUlps = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::FloatingPointNumerics*), "AreAlmostEqualUlps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{left, right, maxUlps});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::FloatingPointNumerics::AreAlmostEqualUlps
@@ -48,6 +50,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(fl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(double, double, int64_t)>(&NUnit::Framework::Constraints::FloatingPointNumerics::AreAlmostEqualUlps)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::FloatingPointNumerics*), "AreAlmostEqualUlps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<double>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    static auto* left = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
+    static auto* right = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
+    static auto* maxUlps = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::FloatingPointNumerics*), "AreAlmostEqualUlps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{left, right, maxUlps});
   }
 };

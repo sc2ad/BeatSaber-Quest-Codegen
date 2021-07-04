@@ -169,12 +169,6 @@ namespace Zenject {
   static_assert(sizeof(Context) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Context*, "Zenject", "Context");
-// Writing includes for template specializations
-#include "System/Collections/Generic/IEnumerable_1.hpp"
-#include "System/Type.hpp"
-#include "Zenject/InstallerBase.hpp"
-#include "System/Collections/Generic/List_1.hpp"
-#include "Zenject/ZenjectBinding.hpp"
 // Writing MetadataGetter for method: Zenject::Context::get_Installers
 // Il2CppName: get_Installers
 template<>
@@ -188,7 +182,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Context::*)(System::Collections::Generic::IEnumerable_1<Zenject::MonoInstaller*>*)>(&Zenject::Context::set_Installers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "set_Installers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<Zenject::MonoInstaller*>*>()});
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "MonoInstaller")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "set_Installers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Zenject::Context::get_InstallerPrefabs
@@ -204,7 +199,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Context::*)(System::Collections::Generic::IEnumerable_1<Zenject::MonoInstaller*>*)>(&Zenject::Context::set_InstallerPrefabs)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "set_InstallerPrefabs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<Zenject::MonoInstaller*>*>()});
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "MonoInstaller")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "set_InstallerPrefabs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Zenject::Context::get_ScriptableObjectInstallers
@@ -220,7 +216,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Context::*)(System::Collections::Generic::IEnumerable_1<Zenject::ScriptableObjectInstaller*>*)>(&Zenject::Context::set_ScriptableObjectInstallers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "set_ScriptableObjectInstallers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<Zenject::ScriptableObjectInstaller*>*>()});
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "ScriptableObjectInstaller")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "set_ScriptableObjectInstallers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Zenject::Context::get_NormalInstallerTypes
@@ -236,7 +233,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Context::*)(System::Collections::Generic::IEnumerable_1<System::Type*>*)>(&Zenject::Context::set_NormalInstallerTypes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "set_NormalInstallerTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<System::Type*>*>()});
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "set_NormalInstallerTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Zenject::Context::get_NormalInstallers
@@ -252,7 +250,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Context::*)(System::Collections::Generic::IEnumerable_1<Zenject::InstallerBase*>*)>(&Zenject::Context::set_NormalInstallers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "set_NormalInstallers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<Zenject::InstallerBase*>*>()});
+    static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "InstallerBase")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "set_NormalInstallers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Zenject::Context::get_Container
@@ -276,7 +275,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Context::*)(System::Type*)>(&Zenject::Context::AddNormalInstallerType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "AddNormalInstallerType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* installerType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "AddNormalInstallerType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{installerType});
   }
 };
 // Writing MetadataGetter for method: Zenject::Context::AddNormalInstaller
@@ -284,7 +284,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Context::*)(Zenject::InstallerBase*)>(&Zenject::Context::AddNormalInstaller)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "AddNormalInstaller", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InstallerBase*>()});
+    static auto* installer = &::il2cpp_utils::GetClassFromName("Zenject", "InstallerBase")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "AddNormalInstaller", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{installer});
   }
 };
 // Writing MetadataGetter for method: Zenject::Context::CheckInstallerPrefabTypes
@@ -292,7 +293,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Context::*)(System::Collections::Generic::List_1<Zenject::MonoInstaller*>*, System::Collections::Generic::List_1<Zenject::MonoInstaller*>*)>(&Zenject::Context::CheckInstallerPrefabTypes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "CheckInstallerPrefabTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::MonoInstaller*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::MonoInstaller*>*>()});
+    static auto* installers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "MonoInstaller")})->byval_arg;
+    static auto* installerPrefabs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "MonoInstaller")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "CheckInstallerPrefabTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{installers, installerPrefabs});
   }
 };
 // Writing MetadataGetter for method: Zenject::Context::InstallInstallers
@@ -308,7 +311,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Context::*)(System::Collections::Generic::List_1<Zenject::InstallerBase*>*, System::Collections::Generic::List_1<System::Type*>*, System::Collections::Generic::List_1<Zenject::ScriptableObjectInstaller*>*, System::Collections::Generic::List_1<Zenject::MonoInstaller*>*, System::Collections::Generic::List_1<Zenject::MonoInstaller*>*)>(&Zenject::Context::InstallInstallers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "InstallInstallers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::InstallerBase*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::ScriptableObjectInstaller*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::MonoInstaller*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::MonoInstaller*>*>()});
+    static auto* normalInstallers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "InstallerBase")})->byval_arg;
+    static auto* normalInstallerTypes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type")})->byval_arg;
+    static auto* scriptableObjectInstallers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "ScriptableObjectInstaller")})->byval_arg;
+    static auto* installers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "MonoInstaller")})->byval_arg;
+    static auto* installerPrefabs = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "MonoInstaller")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "InstallInstallers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{normalInstallers, normalInstallerTypes, scriptableObjectInstallers, installers, installerPrefabs});
   }
 };
 // Writing MetadataGetter for method: Zenject::Context::InstallSceneBindings
@@ -316,7 +324,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Context::*)(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*)>(&Zenject::Context::InstallSceneBindings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "InstallSceneBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>()});
+    static auto* injectableMonoBehaviours = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "MonoBehaviour")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "InstallSceneBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{injectableMonoBehaviours});
   }
 };
 // Writing MetadataGetter for method: Zenject::Context::InstallZenjectBinding
@@ -324,7 +333,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Context::*)(Zenject::ZenjectBinding*)>(&Zenject::Context::InstallZenjectBinding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "InstallZenjectBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ZenjectBinding*>()});
+    static auto* binding = &::il2cpp_utils::GetClassFromName("Zenject", "ZenjectBinding")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "InstallZenjectBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{binding});
   }
 };
 // Writing MetadataGetter for method: Zenject::Context::GetInjectableMonoBehaviours
@@ -332,7 +342,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Context::*)(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*)>(&Zenject::Context::GetInjectableMonoBehaviours)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "GetInjectableMonoBehaviours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>()});
+    static auto* components = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "MonoBehaviour")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Context*), "GetInjectableMonoBehaviours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{components});
   }
 };
 // Writing MetadataGetter for method: Zenject::Context::New_ctor

@@ -58,9 +58,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassLight::LightsDataItem) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassLight::LightsDataItem*, "", "BloomPrePassLight/LightsDataItem");
-// Writing includes for template specializations
-#include "GlobalNamespace/BloomPrePassLightTypeSO.hpp"
-#include "System/Collections/Generic/HashSet_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassLight::LightsDataItem::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

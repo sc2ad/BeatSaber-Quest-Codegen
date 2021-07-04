@@ -53,7 +53,6 @@ namespace JetBrains::Annotations {
   static_assert(sizeof(AssertionConditionAttribute) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AssertionConditionAttribute*, "JetBrains.Annotations", "AssertionConditionAttribute");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: JetBrains::Annotations::AssertionConditionAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -71,6 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<JetBrains::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::AssertionConditionAttribute::*)(JetBrains::Annotations::AssertionConditionType)>(&JetBrains::Annotations::AssertionConditionAttribute::set_ConditionType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AssertionConditionAttribute*), "set_ConditionType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<JetBrains::Annotations::AssertionConditionType>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("JetBrains.Annotations", "AssertionConditionType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AssertionConditionAttribute*), "set_ConditionType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };

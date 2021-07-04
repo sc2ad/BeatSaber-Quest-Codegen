@@ -74,7 +74,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(SignalListener) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SignalListener*, "", "SignalListener");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SignalListener::OnEnable
 // Il2CppName: OnEnable
 template<>

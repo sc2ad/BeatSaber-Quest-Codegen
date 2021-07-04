@@ -51,7 +51,6 @@ namespace JetBrains::Annotations {
   static_assert(sizeof(AspRequiredAttributeAttribute) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(JetBrains::Annotations::AspRequiredAttributeAttribute*, "JetBrains.Annotations", "AspRequiredAttributeAttribute");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: JetBrains::Annotations::AspRequiredAttributeAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -69,6 +68,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (JetBrains::Annotations::AspRequiredAttributeAttribute::*)(::Il2CppString*)>(&JetBrains::Annotations::AspRequiredAttributeAttribute::set_Attribute)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspRequiredAttributeAttribute*), "set_Attribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(JetBrains::Annotations::AspRequiredAttributeAttribute*), "set_Attribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };

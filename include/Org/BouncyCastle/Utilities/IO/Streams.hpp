@@ -43,15 +43,13 @@ namespace Org::BouncyCastle::Utilities::IO {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::Streams*, "Org.BouncyCastle.Utilities.IO", "Streams");
-// Writing includes for template specializations
-#include "System/IO/Stream.hpp"
-#include "System/IO/MemoryStream.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::Streams::ReadAll
 // Il2CppName: ReadAll
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(System::IO::Stream*)>(&Org::BouncyCastle::Utilities::IO::Streams::ReadAll)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Streams*), "ReadAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+    static auto* inStr = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Streams*), "ReadAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inStr});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::Streams::ReadFully
@@ -59,7 +57,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IO::Stream*, ::Array<uint8_t>*)>(&Org::BouncyCastle::Utilities::IO::Streams::ReadFully)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Streams*), "ReadFully", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* inStr = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
+    static auto* buf = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Streams*), "ReadFully", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inStr, buf});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::Streams::ReadFully
@@ -67,7 +67,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IO::Stream*, ::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Utilities::IO::Streams::ReadFully)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Streams*), "ReadFully", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* inStr = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
+    static auto* buf = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Streams*), "ReadFully", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inStr, buf, off, len});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::Streams::PipeAll
@@ -75,7 +79,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IO::Stream*, System::IO::Stream*)>(&Org::BouncyCastle::Utilities::IO::Streams::PipeAll)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Streams*), "PipeAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>(), ::il2cpp_utils::ExtractIndependentType<System::IO::Stream*>()});
+    static auto* inStr = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
+    static auto* outStr = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Streams*), "PipeAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inStr, outStr});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::Streams::WriteBufTo
@@ -83,6 +89,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IO::MemoryStream*, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Utilities::IO::Streams::WriteBufTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Streams*), "WriteBufTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::MemoryStream*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* buf = &::il2cpp_utils::GetClassFromName("System.IO", "MemoryStream")->byval_arg;
+    static auto* output = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Streams*), "WriteBufTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buf, output, offset});
   }
 };

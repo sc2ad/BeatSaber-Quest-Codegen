@@ -59,14 +59,14 @@ namespace NUnit::Compatibility {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Compatibility::AdditionalTypeExtensions*, "NUnit.Compatibility", "AdditionalTypeExtensions");
-// Writing includes for template specializations
-#include "System/Type.hpp"
 // Writing MetadataGetter for method: NUnit::Compatibility::AdditionalTypeExtensions::ParametersMatch
 // Il2CppName: ParametersMatch
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<System::Reflection::ParameterInfo*>*, ::Array<System::Type*>*)>(&NUnit::Compatibility::AdditionalTypeExtensions::ParametersMatch)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Compatibility::AdditionalTypeExtensions*), "ParametersMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Reflection::ParameterInfo*>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<System::Type*>*>()});
+    static auto* pinfos = &classof(::Array<::Array<System::Reflection::ParameterInfo*>*>*)->byval_arg;
+    static auto* ptypes = &classof(::Array<::Array<System::Type*>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Compatibility::AdditionalTypeExtensions*), "ParametersMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pinfos, ptypes});
   }
 };
 // Writing MetadataGetter for method: NUnit::Compatibility::AdditionalTypeExtensions::IsCastableFrom
@@ -74,7 +74,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*, System::Type*)>(&NUnit::Compatibility::AdditionalTypeExtensions::IsCastableFrom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Compatibility::AdditionalTypeExtensions*), "IsCastableFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* to = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    static auto* from = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Compatibility::AdditionalTypeExtensions*), "IsCastableFrom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{to, from});
   }
 };
 // Writing MetadataGetter for method: NUnit::Compatibility::AdditionalTypeExtensions::_cctor

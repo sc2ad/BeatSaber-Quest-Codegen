@@ -66,7 +66,6 @@ namespace OnlineServices::API {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::TestApiLeaderboardsModel::$LogoutAsync$d__0, "OnlineServices.API", "TestApiLeaderboardsModel/<LogoutAsync>d__0");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: OnlineServices::API::TestApiLeaderboardsModel::$LogoutAsync$d__0::MoveNext
 // Il2CppName: MoveNext
 template<>
@@ -80,6 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Onlin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::API::TestApiLeaderboardsModel::$LogoutAsync$d__0::*)(System::Runtime::CompilerServices::IAsyncStateMachine*)>(&OnlineServices::API::TestApiLeaderboardsModel::$LogoutAsync$d__0::SetStateMachine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::TestApiLeaderboardsModel::$LogoutAsync$d__0), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::CompilerServices::IAsyncStateMachine*>()});
+    static auto* stateMachine = &::il2cpp_utils::GetClassFromName("System.Runtime.CompilerServices", "IAsyncStateMachine")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::TestApiLeaderboardsModel::$LogoutAsync$d__0), "SetStateMachine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stateMachine});
   }
 };

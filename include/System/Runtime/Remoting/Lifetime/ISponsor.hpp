@@ -34,13 +34,12 @@ namespace System::Runtime::Remoting::Lifetime {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Lifetime::ISponsor*, "System.Runtime.Remoting.Lifetime", "ISponsor");
-// Writing includes for template specializations
-#include "System/Runtime/Remoting/Lifetime/ILease.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Lifetime::ISponsor::Renewal
 // Il2CppName: Renewal
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (System::Runtime::Remoting::Lifetime::ISponsor::*)(System::Runtime::Remoting::Lifetime::ILease*)>(&System::Runtime::Remoting::Lifetime::ISponsor::Renewal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::ISponsor*), "Renewal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Lifetime::ILease*>()});
+    static auto* lease = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Lifetime", "ILease")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Lifetime::ISponsor*), "Renewal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lease});
   }
 };

@@ -28,7 +28,6 @@ namespace System::Security::Principal {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Principal::IIdentity*, "System.Security.Principal", "IIdentity");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::Principal::IIdentity::get_AuthenticationType
 // Il2CppName: get_AuthenticationType
 template<>

@@ -36,14 +36,13 @@ namespace System::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebExceptionMapping*, "System.Net", "WebExceptionMapping");
-// Writing includes for template specializations
-#include "System/Net/WebExceptionStatus.hpp"
 // Writing MetadataGetter for method: System::Net::WebExceptionMapping::GetWebStatusString
 // Il2CppName: GetWebStatusString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Net::WebExceptionStatus)>(&System::Net::WebExceptionMapping::GetWebStatusString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::WebExceptionMapping*), "GetWebStatusString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebExceptionStatus>()});
+    static auto* status = &::il2cpp_utils::GetClassFromName("System.Net", "WebExceptionStatus")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebExceptionMapping*), "GetWebStatusString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{status});
   }
 };
 // Writing MetadataGetter for method: System::Net::WebExceptionMapping::_cctor

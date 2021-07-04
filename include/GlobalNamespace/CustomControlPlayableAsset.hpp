@@ -57,7 +57,6 @@ namespace GlobalNamespace {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomControlPlayableAsset*, "", "CustomControlPlayableAsset");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::CustomControlPlayableAsset::get_clipCaps
 // Il2CppName: get_clipCaps
 template<>

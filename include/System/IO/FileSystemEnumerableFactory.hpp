@@ -35,13 +35,18 @@ namespace System::IO {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::FileSystemEnumerableFactory*, "System.IO", "FileSystemEnumerableFactory");
-// Writing includes for template specializations
-#include "System/IO/SearchOption.hpp"
 // Writing MetadataGetter for method: System::IO::FileSystemEnumerableFactory::CreateFileNameIterator
 // Il2CppName: CreateFileNameIterator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppString*>* (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, bool, bool, System::IO::SearchOption, bool)>(&System::IO::FileSystemEnumerableFactory::CreateFileNameIterator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemEnumerableFactory*), "CreateFileNameIterator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::IO::SearchOption>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* originalUserPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* searchPattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* includeFiles = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* includeDirs = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* searchOption = &::il2cpp_utils::GetClassFromName("System.IO", "SearchOption")->byval_arg;
+    static auto* checkHost = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::IO::FileSystemEnumerableFactory*), "CreateFileNameIterator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path, originalUserPath, searchPattern, includeFiles, includeDirs, searchOption, checkHost});
   }
 };

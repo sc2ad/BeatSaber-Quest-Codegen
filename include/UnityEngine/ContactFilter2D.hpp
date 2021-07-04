@@ -126,7 +126,6 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ContactFilter2D, "UnityEngine", "ContactFilter2D");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::ContactFilter2D::CheckConsistency
 // Il2CppName: CheckConsistency
 template<>
@@ -140,7 +139,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ContactFilter2D::*)(UnityEngine::LayerMask)>(&UnityEngine::ContactFilter2D::SetLayerMask)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ContactFilter2D), "SetLayerMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::LayerMask>()});
+    static auto* layerMask = &::il2cpp_utils::GetClassFromName("UnityEngine", "LayerMask")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ContactFilter2D), "SetLayerMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layerMask});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ContactFilter2D::SetDepth
@@ -148,7 +148,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ContactFilter2D::*)(float, float)>(&UnityEngine::ContactFilter2D::SetDepth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ContactFilter2D), "SetDepth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* minDepth = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* maxDepth = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ContactFilter2D), "SetDepth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{minDepth, maxDepth});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ContactFilter2D::CreateLegacyFilter
@@ -156,7 +158,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ContactFilter2D (*)(int, float, float)>(&UnityEngine::ContactFilter2D::CreateLegacyFilter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ContactFilter2D), "CreateLegacyFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* minDepth = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* maxDepth = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ContactFilter2D), "CreateLegacyFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layerMask, minDepth, maxDepth});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ContactFilter2D::CheckConsistency_Injected
@@ -164,6 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ContactFilter2D&)>(&UnityEngine::ContactFilter2D::CheckConsistency_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ContactFilter2D), "CheckConsistency_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ContactFilter2D&>()});
+    static auto* _unity_self = &::il2cpp_utils::GetClassFromName("UnityEngine", "ContactFilter2D")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ContactFilter2D), "CheckConsistency_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_unity_self});
   }
 };

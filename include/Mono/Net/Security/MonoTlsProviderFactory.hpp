@@ -97,7 +97,6 @@ namespace Mono::Net::Security {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::MonoTlsProviderFactory*, "Mono.Net.Security", "MonoTlsProviderFactory");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Net::Security::MonoTlsProviderFactory::GetProviderInternal
 // Il2CppName: GetProviderInternal
 template<>
@@ -119,7 +118,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::Interface::MonoTlsProvider* (*)(::Il2CppString*, bool)>(&Mono::Net::Security::MonoTlsProviderFactory::LookupProvider)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MonoTlsProviderFactory*), "LookupProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* throwOnError = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MonoTlsProviderFactory*), "LookupProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, throwOnError});
   }
 };
 // Writing MetadataGetter for method: Mono::Net::Security::MonoTlsProviderFactory::InitializeProviderRegistration

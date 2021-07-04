@@ -64,7 +64,6 @@ namespace OVR::OpenVR {
   static_assert(sizeof(RenderModel_TextureMap_t_Packed) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::RenderModel_TextureMap_t_Packed, "OVR.OpenVR", "RenderModel_TextureMap_t_Packed");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: OVR::OpenVR::RenderModel_TextureMap_t_Packed::RenderModel_TextureMap_t_Packed
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -74,6 +73,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::RenderModel_TextureMap_t_Packed, "OVR.OpenVR
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::RenderModel_TextureMap_t_Packed::*)(OVR::OpenVR::RenderModel_TextureMap_t&)>(&OVR::OpenVR::RenderModel_TextureMap_t_Packed::Unpack)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::RenderModel_TextureMap_t_Packed), "Unpack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::RenderModel_TextureMap_t&>()});
+    static auto* unpacked = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "RenderModel_TextureMap_t")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::RenderModel_TextureMap_t_Packed), "Unpack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unpacked});
   }
 };

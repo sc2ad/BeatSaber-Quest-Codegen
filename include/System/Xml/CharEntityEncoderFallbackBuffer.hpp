@@ -91,8 +91,6 @@ namespace System::Xml {
   static_assert(sizeof(CharEntityEncoderFallbackBuffer) == 0x44);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::CharEntityEncoderFallbackBuffer*, "System.Xml", "CharEntityEncoderFallbackBuffer");
-// Writing includes for template specializations
-#include "System/Xml/CharEntityEncoderFallback.hpp"
 // Writing MetadataGetter for method: System::Xml::CharEntityEncoderFallbackBuffer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -102,7 +100,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Xml::CharEntityEncoderFallbackBuffer*, "System.Xm
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Xml::CharEntityEncoderFallbackBuffer::*)(::Il2CppChar, ::Il2CppChar)>(&System::Xml::CharEntityEncoderFallbackBuffer::SurrogateCharToUtf32)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::CharEntityEncoderFallbackBuffer*), "SurrogateCharToUtf32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    static auto* highSurrogate = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    static auto* lowSurrogate = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::CharEntityEncoderFallbackBuffer*), "SurrogateCharToUtf32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{highSurrogate, lowSurrogate});
   }
 };
 // Writing MetadataGetter for method: System::Xml::CharEntityEncoderFallbackBuffer::Fallback
@@ -110,7 +110,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::CharEntityEncoderFallbackBuffer::*)(::Il2CppChar, int)>(&System::Xml::CharEntityEncoderFallbackBuffer::Fallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::CharEntityEncoderFallbackBuffer*), "Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* charUnknown = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::CharEntityEncoderFallbackBuffer*), "Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{charUnknown, index});
   }
 };
 // Writing MetadataGetter for method: System::Xml::CharEntityEncoderFallbackBuffer::Fallback
@@ -118,7 +120,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Xml::CharEntityEncoderFallbackBuffer::*)(::Il2CppChar, ::Il2CppChar, int)>(&System::Xml::CharEntityEncoderFallbackBuffer::Fallback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::CharEntityEncoderFallbackBuffer*), "Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* charUnknownHigh = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    static auto* charUnknownLow = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::CharEntityEncoderFallbackBuffer*), "Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{charUnknownHigh, charUnknownLow, index});
   }
 };
 // Writing MetadataGetter for method: System::Xml::CharEntityEncoderFallbackBuffer::GetNextChar

@@ -79,7 +79,6 @@ namespace NUnit::Framework::Constraints {
   static_assert(sizeof(ComparisonConstraint) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ComparisonConstraint*, "NUnit.Framework.Constraints", "ComparisonConstraint");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ComparisonConstraint::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -89,6 +88,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ComparisonConstraint*, "NU
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Constraints::ConstraintResult* (NUnit::Framework::Constraints::ComparisonConstraint::*)(::Il2CppObject*)>(&NUnit::Framework::Constraints::ComparisonConstraint::ApplyTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ComparisonConstraint*), "ApplyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* actual = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ComparisonConstraint*), "ApplyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{actual});
   }
 };

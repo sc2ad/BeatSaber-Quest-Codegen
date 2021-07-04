@@ -158,7 +158,6 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Variant, "System", "Variant");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Variant::Clear
 // Il2CppName: Clear
 template<>

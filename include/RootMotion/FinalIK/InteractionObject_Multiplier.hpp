@@ -59,13 +59,14 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(InteractionObject::Multiplier) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionObject::Multiplier*, "RootMotion.FinalIK", "InteractionObject/Multiplier");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::Multiplier::GetValue
 // Il2CppName: GetValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (RootMotion::FinalIK::InteractionObject::Multiplier::*)(RootMotion::FinalIK::InteractionObject::WeightCurve*, float)>(&RootMotion::FinalIK::InteractionObject::Multiplier::GetValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject::Multiplier*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::InteractionObject::WeightCurve*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* weightCurve = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "InteractionObject/WeightCurve")->byval_arg;
+    static auto* timer = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionObject::Multiplier*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{weightCurve, timer});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionObject::Multiplier::New_ctor

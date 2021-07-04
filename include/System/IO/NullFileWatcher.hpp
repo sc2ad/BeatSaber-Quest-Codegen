@@ -57,14 +57,13 @@ namespace System::IO {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::NullFileWatcher*, "System.IO", "NullFileWatcher");
-// Writing includes for template specializations
-#include "System/IO/FileSystemWatcher.hpp"
 // Writing MetadataGetter for method: System::IO::NullFileWatcher::StartDispatching
 // Il2CppName: StartDispatching
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::NullFileWatcher::*)(System::IO::FileSystemWatcher*)>(&System::IO::NullFileWatcher::StartDispatching)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::NullFileWatcher*), "StartDispatching", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::FileSystemWatcher*>()});
+    static auto* fsw = &::il2cpp_utils::GetClassFromName("System.IO", "FileSystemWatcher")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::IO::NullFileWatcher*), "StartDispatching", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fsw});
   }
 };
 // Writing MetadataGetter for method: System::IO::NullFileWatcher::StopDispatching
@@ -72,7 +71,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::NullFileWatcher::*)(System::IO::FileSystemWatcher*)>(&System::IO::NullFileWatcher::StopDispatching)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::NullFileWatcher*), "StopDispatching", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::FileSystemWatcher*>()});
+    static auto* fsw = &::il2cpp_utils::GetClassFromName("System.IO", "FileSystemWatcher")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::IO::NullFileWatcher*), "StopDispatching", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fsw});
   }
 };
 // Writing MetadataGetter for method: System::IO::NullFileWatcher::GetInstance
@@ -80,7 +80,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IO::IFileWatcher*&)>(&System::IO::NullFileWatcher::GetInstance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::NullFileWatcher*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::IFileWatcher*&>()});
+    static auto* watcher = &::il2cpp_utils::GetClassFromName("System.IO", "IFileWatcher")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::IO::NullFileWatcher*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{watcher});
   }
 };
 // Writing MetadataGetter for method: System::IO::NullFileWatcher::New_ctor

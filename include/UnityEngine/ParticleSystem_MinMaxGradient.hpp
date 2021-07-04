@@ -88,7 +88,6 @@ namespace UnityEngine {
   static_assert(sizeof(ParticleSystem::MinMaxGradient) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MinMaxGradient, "UnityEngine", "ParticleSystem/MinMaxGradient");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MinMaxGradient::MinMaxGradient
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

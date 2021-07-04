@@ -66,14 +66,13 @@ namespace System::Runtime::Serialization {
   static_assert(sizeof(FormatterServices::$$c__DisplayClass9_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::FormatterServices::$$c__DisplayClass9_0*, "System.Runtime.Serialization", "FormatterServices/<>c__DisplayClass9_0");
-// Writing includes for template specializations
-#include "System/Runtime/Serialization/MemberHolder.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::FormatterServices::$$c__DisplayClass9_0::$GetSerializableMembers$b__0
 // Il2CppName: <GetSerializableMembers>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Reflection::MemberInfo*>* (System::Runtime::Serialization::FormatterServices::$$c__DisplayClass9_0::*)(System::Runtime::Serialization::MemberHolder*)>(&System::Runtime::Serialization::FormatterServices::$$c__DisplayClass9_0::$GetSerializableMembers$b__0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::FormatterServices::$$c__DisplayClass9_0*), "<GetSerializableMembers>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::MemberHolder*>()});
+    static auto* _ = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "MemberHolder")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::FormatterServices::$$c__DisplayClass9_0*), "<GetSerializableMembers>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::FormatterServices::$$c__DisplayClass9_0::New_ctor

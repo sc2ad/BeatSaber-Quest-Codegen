@@ -66,14 +66,13 @@ namespace Zenject {
   static_assert(sizeof(AnimatorIkHandlerManager) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::AnimatorIkHandlerManager*, "Zenject", "AnimatorIkHandlerManager");
-// Writing includes for template specializations
-#include "System/Collections/Generic/List_1.hpp"
 // Writing MetadataGetter for method: Zenject::AnimatorIkHandlerManager::Construct
 // Il2CppName: Construct
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::AnimatorIkHandlerManager::*)(System::Collections::Generic::List_1<Zenject::IAnimatorIkHandler*>*)>(&Zenject::AnimatorIkHandlerManager::Construct)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::AnimatorIkHandlerManager*), "Construct", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::IAnimatorIkHandler*>*>()});
+    static auto* handlers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "IAnimatorIkHandler")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::AnimatorIkHandlerManager*), "Construct", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handlers});
   }
 };
 // Writing MetadataGetter for method: Zenject::AnimatorIkHandlerManager::OnAnimatorIk

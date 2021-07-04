@@ -63,7 +63,6 @@ namespace HMUI {
   static_assert(sizeof(FlowCoordinator::$$c__DisplayClass38_0) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::FlowCoordinator::$$c__DisplayClass38_0*, "HMUI", "FlowCoordinator/<>c__DisplayClass38_0");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::FlowCoordinator::$$c__DisplayClass38_0::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

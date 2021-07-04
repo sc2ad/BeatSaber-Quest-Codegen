@@ -44,7 +44,6 @@ namespace TMPro::SpriteAssetUtilities {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::SpriteAssetUtilities::TexturePacker*, "TMPro.SpriteAssetUtilities", "TexturePacker");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: TMPro::SpriteAssetUtilities::TexturePacker::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

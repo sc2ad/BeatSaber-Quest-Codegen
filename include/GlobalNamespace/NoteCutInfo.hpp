@@ -142,8 +142,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteCutInfo) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutInfo, "", "NoteCutInfo");
-// Writing includes for template specializations
-#include "GlobalNamespace/ISaberSwingRatingCounter.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutInfo::get_allIsOK
 // Il2CppName: get_allIsOK
 template<>

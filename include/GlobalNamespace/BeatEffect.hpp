@@ -146,7 +146,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatEffect) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatEffect*, "", "BeatEffect");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BeatEffect::get_didFinishEvent
 // Il2CppName: get_didFinishEvent
 template<>
@@ -160,7 +159,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatEffect::*)(UnityEngine::Color, float, UnityEngine::Quaternion)>(&GlobalNamespace::BeatEffect::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatEffect*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    static auto* animationDuration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* rotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatEffect*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{color, animationDuration, rotation});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatEffect::ManualUpdate
@@ -168,7 +170,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatEffect::*)(float)>(&GlobalNamespace::BeatEffect::ManualUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatEffect*), "ManualUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* deltaTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatEffect*), "ManualUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deltaTime});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatEffect::New_ctor

@@ -51,7 +51,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandardLevelInfoSaveData::DifficultyBeatmapSet) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmapSet*, "", "StandardLevelInfoSaveData/DifficultyBeatmapSet");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelInfoSaveData::DifficultyBeatmapSet::get_beatmapCharacteristicName
 // Il2CppName: get_beatmapCharacteristicName
 template<>

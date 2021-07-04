@@ -66,13 +66,13 @@ namespace UnityEngine {
   static_assert(sizeof(IntegratedSubsystem) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::IntegratedSubsystem*, "UnityEngine", "IntegratedSubsystem");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::IntegratedSubsystem::SetHandle
 // Il2CppName: SetHandle
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::IntegratedSubsystem::*)(UnityEngine::IntegratedSubsystem*)>(&UnityEngine::IntegratedSubsystem::SetHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::IntegratedSubsystem*), "SetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::IntegratedSubsystem*>()});
+    static auto* inst = &::il2cpp_utils::GetClassFromName("UnityEngine", "IntegratedSubsystem")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::IntegratedSubsystem*), "SetHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inst});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::IntegratedSubsystem::New_ctor

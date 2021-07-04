@@ -496,7 +496,7 @@ namespace System::Collections::Generic {
     class $$c__DisplayClass52_0 : public ::il2cpp_utils::il2cpp_type_check::NestedType, public ::Il2CppObject {
       public:
       using declaring_type = SortedSet_1<T>*;
-      static constexpr std::string_view NESTED_NAME = "$$c__DisplayClass52_0";
+      static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass52_0";
       // public System.Int32 index
       // Size: 0x4
       // Offset: 0x0
@@ -541,7 +541,7 @@ namespace System::Collections::Generic {
     class $$c__DisplayClass53_0 : public ::il2cpp_utils::il2cpp_type_check::NestedType, public ::Il2CppObject {
       public:
       using declaring_type = SortedSet_1<T>*;
-      static constexpr std::string_view NESTED_NAME = "$$c__DisplayClass53_0";
+      static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass53_0";
       // public System.Int32 index
       // Size: 0x4
       // Offset: 0x0
@@ -571,7 +571,7 @@ namespace System::Collections::Generic {
     class $$c__DisplayClass53_1 : public ::il2cpp_utils::il2cpp_type_check::NestedType, public ::Il2CppObject {
       public:
       using declaring_type = SortedSet_1<T>*;
-      static constexpr std::string_view NESTED_NAME = "$$c__DisplayClass53_1";
+      static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass53_1";
       // public System.Object[] objects
       // Size: 0x8
       // Offset: 0x0

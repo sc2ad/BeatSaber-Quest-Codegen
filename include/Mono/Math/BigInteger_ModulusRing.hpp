@@ -60,7 +60,6 @@ namespace Mono::Math {
   static_assert(sizeof(BigInteger::ModulusRing) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Math::BigInteger::ModulusRing*, "Mono.Math", "BigInteger/ModulusRing");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Math::BigInteger::ModulusRing::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -70,7 +69,8 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Math::BigInteger::ModulusRing*, "Mono.Math", "BigIn
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Math::BigInteger::ModulusRing::*)(Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::ModulusRing::BarrettReduction)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::ModulusRing*), "BarrettReduction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("Mono.Math", "BigInteger")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::ModulusRing*), "BarrettReduction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
 // Writing MetadataGetter for method: Mono::Math::BigInteger::ModulusRing::Multiply
@@ -78,7 +78,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (Mono::Math::BigInteger::ModulusRing::*)(Mono::Math::BigInteger*, Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::ModulusRing::Multiply)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::ModulusRing*), "Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>()});
+    static auto* a = &::il2cpp_utils::GetClassFromName("Mono.Math", "BigInteger")->byval_arg;
+    static auto* b = &::il2cpp_utils::GetClassFromName("Mono.Math", "BigInteger")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::ModulusRing*), "Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
   }
 };
 // Writing MetadataGetter for method: Mono::Math::BigInteger::ModulusRing::Difference
@@ -86,7 +88,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (Mono::Math::BigInteger::ModulusRing::*)(Mono::Math::BigInteger*, Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::ModulusRing::Difference)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::ModulusRing*), "Difference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>()});
+    static auto* a = &::il2cpp_utils::GetClassFromName("Mono.Math", "BigInteger")->byval_arg;
+    static auto* b = &::il2cpp_utils::GetClassFromName("Mono.Math", "BigInteger")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::ModulusRing*), "Difference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
   }
 };
 // Writing MetadataGetter for method: Mono::Math::BigInteger::ModulusRing::Pow
@@ -94,7 +98,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (Mono::Math::BigInteger::ModulusRing::*)(Mono::Math::BigInteger*, Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::ModulusRing::Pow)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::ModulusRing*), "Pow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>()});
+    static auto* a = &::il2cpp_utils::GetClassFromName("Mono.Math", "BigInteger")->byval_arg;
+    static auto* k = &::il2cpp_utils::GetClassFromName("Mono.Math", "BigInteger")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::ModulusRing*), "Pow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, k});
   }
 };
 // Writing MetadataGetter for method: Mono::Math::BigInteger::ModulusRing::Pow
@@ -102,6 +108,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math::BigInteger* (Mono::Math::BigInteger::ModulusRing::*)(uint, Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::ModulusRing::Pow)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::ModulusRing*), "Pow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<Mono::Math::BigInteger*>()});
+    static auto* b = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* exp = &::il2cpp_utils::GetClassFromName("Mono.Math", "BigInteger")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::ModulusRing*), "Pow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{b, exp});
   }
 };

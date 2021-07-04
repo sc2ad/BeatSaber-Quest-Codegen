@@ -84,8 +84,6 @@ namespace System::Text::RegularExpressions {
   static_assert(sizeof(RegexFC) == 0x1A);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexFC*, "System.Text.RegularExpressions", "RegexFC");
-// Writing includes for template specializations
-#include "System/Globalization/CultureInfo.hpp"
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexFC::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -103,7 +101,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::RegexFC*, "System.Text.
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::RegularExpressions::RegexFC::*)(System::Text::RegularExpressions::RegexFC*, bool)>(&System::Text::RegularExpressions::RegexFC::AddFC)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexFC*), "AddFC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::RegexFC*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* fc = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "RegexFC")->byval_arg;
+    static auto* concatenate = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexFC*), "AddFC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fc, concatenate});
   }
 };
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexFC::GetFirstChars
@@ -111,7 +111,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Text::RegularExpressions::RegexFC::*)(System::Globalization::CultureInfo*)>(&System::Text::RegularExpressions::RegexFC::GetFirstChars)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexFC*), "GetFirstChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::CultureInfo*>()});
+    static auto* culture = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Text::RegularExpressions::RegexFC*), "GetFirstChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{culture});
   }
 };
 // Writing MetadataGetter for method: System::Text::RegularExpressions::RegexFC::IsCaseInsensitive

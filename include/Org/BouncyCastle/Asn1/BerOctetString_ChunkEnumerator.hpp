@@ -81,7 +81,6 @@ namespace Org::BouncyCastle::Asn1 {
   static_assert(sizeof(BerOctetString::ChunkEnumerator) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator*, "Org.BouncyCastle.Asn1", "BerOctetString/ChunkEnumerator");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

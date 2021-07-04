@@ -67,14 +67,13 @@ namespace Zenject {
   static_assert(sizeof(FromBinder::$$c__DisplayClass64_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FromBinder::$$c__DisplayClass64_0*, "Zenject", "FromBinder/<>c__DisplayClass64_0");
-// Writing includes for template specializations
-#include "Zenject/InjectContext.hpp"
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c__DisplayClass64_0::$FromComponentsSibling$b__1
 // Il2CppName: <FromComponentsSibling>b__1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* (Zenject::FromBinder::$$c__DisplayClass64_0::*)(Zenject::InjectContext*)>(&Zenject::FromBinder::$$c__DisplayClass64_0::$FromComponentsSibling$b__1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder::$$c__DisplayClass64_0*), "<FromComponentsSibling>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+    static auto* ctx = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder::$$c__DisplayClass64_0*), "<FromComponentsSibling>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ctx});
   }
 };
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c__DisplayClass64_0::New_ctor

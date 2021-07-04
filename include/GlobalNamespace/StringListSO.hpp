@@ -50,7 +50,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(StringListSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StringListSO*, "", "StringListSO");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::StringListSO::get_strings
 // Il2CppName: get_strings
 template<>

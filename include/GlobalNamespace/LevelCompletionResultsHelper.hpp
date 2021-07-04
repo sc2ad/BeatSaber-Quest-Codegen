@@ -46,19 +46,30 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCompletionResultsHelper*, "", "LevelCompletionResultsHelper");
-// Writing includes for template specializations
-#include "GlobalNamespace/GameplayModifiers.hpp"
-#include "GlobalNamespace/GameplayModifiersModelSO.hpp"
-#include "GlobalNamespace/PlayerData.hpp"
-#include "GlobalNamespace/PlayerLevelStatsData.hpp"
-#include "GlobalNamespace/IDifficultyBeatmap.hpp"
-#include "GlobalNamespace/PlatformLeaderboardsModel.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelCompletionResultsHelper::Create
 // Il2CppName: Create
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LevelCompletionResults* (*)(int, ::Array<GlobalNamespace::BeatmapObjectExecutionRating*>*, GlobalNamespace::GameplayModifiers*, GlobalNamespace::GameplayModifiersModelSO*, int, int, int, ::Array<float>*, float, float, ::Array<float>*, float, float, float, GlobalNamespace::LevelCompletionResults::LevelEndStateType, GlobalNamespace::LevelCompletionResults::LevelEndAction, float, float)>(&GlobalNamespace::LevelCompletionResultsHelper::Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCompletionResultsHelper*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::BeatmapObjectExecutionRating*>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiersModelSO*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults::LevelEndStateType>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults::LevelEndAction>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* levelNotesCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* beatmapObjectExecutionRatings = &classof(::Array<::Array<GlobalNamespace::BeatmapObjectExecutionRating*>*>*)->byval_arg;
+    static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
+    static auto* gameplayModifiersModel = &::il2cpp_utils::GetClassFromName("", "GameplayModifiersModelSO")->byval_arg;
+    static auto* rawScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* modifiedScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* maxCombo = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* saberActivityValues = &classof(::Array<::Array<float>*>*)->byval_arg;
+    static auto* leftSaberMovementDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* rightSaberMovementDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* handActivityValues = &classof(::Array<::Array<float>*>*)->byval_arg;
+    static auto* leftHandMovementDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* rightHandMovementDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* songDuration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* levelEndStateType = &::il2cpp_utils::GetClassFromName("", "LevelCompletionResults/LevelEndStateType")->byval_arg;
+    static auto* levelEndAction = &::il2cpp_utils::GetClassFromName("", "LevelCompletionResults/LevelEndAction")->byval_arg;
+    static auto* energy = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* songTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCompletionResultsHelper*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelNotesCount, beatmapObjectExecutionRatings, gameplayModifiers, gameplayModifiersModel, rawScore, modifiedScore, maxCombo, saberActivityValues, leftSaberMovementDistance, rightSaberMovementDistance, handActivityValues, leftHandMovementDistance, rightHandMovementDistance, songDuration, levelEndStateType, levelEndAction, energy, songTime});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LevelCompletionResultsHelper::ProcessScore
@@ -66,6 +77,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::PlayerData*, GlobalNamespace::PlayerLevelStatsData*, GlobalNamespace::LevelCompletionResults*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::PlatformLeaderboardsModel*)>(&GlobalNamespace::LevelCompletionResultsHelper::ProcessScore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCompletionResultsHelper*), "ProcessScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerLevelStatsData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::LevelCompletionResults*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlatformLeaderboardsModel*>()});
+    static auto* playerData = &::il2cpp_utils::GetClassFromName("", "PlayerData")->byval_arg;
+    static auto* playerLevelStats = &::il2cpp_utils::GetClassFromName("", "PlayerLevelStatsData")->byval_arg;
+    static auto* levelCompletionResults = &::il2cpp_utils::GetClassFromName("", "LevelCompletionResults")->byval_arg;
+    static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
+    static auto* platformLeaderboardsModel = &::il2cpp_utils::GetClassFromName("", "PlatformLeaderboardsModel")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelCompletionResultsHelper*), "ProcessScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playerData, playerLevelStats, levelCompletionResults, difficultyBeatmap, platformLeaderboardsModel});
   }
 };

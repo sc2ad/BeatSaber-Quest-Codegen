@@ -84,7 +84,6 @@ namespace UnityEngine {
   bool operator ==(const UnityEngine::PropertyName& lhs, const UnityEngine::PropertyName& rhs);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PropertyName, "UnityEngine", "PropertyName");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::PropertyName::PropertyName
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -98,7 +97,8 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PropertyName, "UnityEngine", "PropertyName")
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::PropertyName::*)(UnityEngine::PropertyName)>(&UnityEngine::PropertyName::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PropertyName), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PropertyName>()});
+    static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine", "PropertyName")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PropertyName), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PropertyName::GetHashCode
@@ -114,7 +114,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::PropertyName::*)(::Il2CppObject*)>(&UnityEngine::PropertyName::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PropertyName), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* other = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PropertyName), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PropertyName::ToString

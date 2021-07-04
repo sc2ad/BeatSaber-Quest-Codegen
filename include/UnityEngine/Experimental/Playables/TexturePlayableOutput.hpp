@@ -54,7 +54,6 @@ namespace UnityEngine::Experimental::Playables {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Playables::TexturePlayableOutput, "UnityEngine.Experimental.Playables", "TexturePlayableOutput");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Experimental::Playables::TexturePlayableOutput::GetHandle
 // Il2CppName: GetHandle
 template<>

@@ -181,7 +181,6 @@ namespace System {
   static_assert(sizeof(AppDomainSetup) == 0xB0);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::AppDomainSetup*, "System", "AppDomainSetup");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::AppDomainSetup::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

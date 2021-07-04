@@ -47,12 +47,14 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::CullingGroup*, "UnityEngine", "CullingGroup");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::CullingGroup::SendEvents
 // Il2CppName: SendEvents
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::CullingGroup*, System::IntPtr, int)>(&UnityEngine::CullingGroup::SendEvents)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CullingGroup*), "SendEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::CullingGroup*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* cullingGroup = &::il2cpp_utils::GetClassFromName("UnityEngine", "CullingGroup")->byval_arg;
+    static auto* eventsPtr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::CullingGroup*), "SendEvents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cullingGroup, eventsPtr, count});
   }
 };

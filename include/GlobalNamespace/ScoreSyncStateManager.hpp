@@ -96,7 +96,6 @@ namespace GlobalNamespace {
   }; // ScoreSyncStateManager
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScoreSyncStateManager*, "", "ScoreSyncStateManager");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ScoreSyncStateManager::get_serializablePool
 // Il2CppName: get_serializablePool
 template<>
@@ -118,7 +117,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::ScoreSyncStateManager::*)(int, float, int, float, float)>(&GlobalNamespace::ScoreSyncStateManager::Interpolate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreSyncStateManager*), "Interpolate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* prev = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* prevTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* curr = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* currTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScoreSyncStateManager*), "Interpolate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prev, prevTime, curr, currTime, time});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ScoreSyncStateManager::get_deltaUpdateFrequency

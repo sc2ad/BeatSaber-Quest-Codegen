@@ -99,7 +99,6 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(BodyTilt) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::BodyTilt*, "RootMotion.FinalIK", "BodyTilt");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::BodyTilt::Start
 // Il2CppName: Start
 template<>

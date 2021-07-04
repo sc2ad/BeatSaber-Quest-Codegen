@@ -98,7 +98,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(BaseNetworkPlayerModel::$GetOtherPlayers$d__56) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BaseNetworkPlayerModel::$GetOtherPlayers$d__56*, "", "BaseNetworkPlayerModel/<GetOtherPlayers>d__56");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BaseNetworkPlayerModel::$GetOtherPlayers$d__56::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

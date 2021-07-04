@@ -575,20 +575,6 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput*, "", "OVRInput");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::Controller, "", "OVRInput/Controller");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OpenVRController, "", "OVRInput/OpenVRController");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRInput::OpenVRControllerDetails, "", "OVRInput/OpenVRControllerDetails");
-// Writing includes for template specializations
-#include "GlobalNamespace/OVRInput_Button.hpp"
-#include "GlobalNamespace/OVRInput_RawButton.hpp"
-#include "GlobalNamespace/OVRInput_Touch.hpp"
-#include "GlobalNamespace/OVRInput_RawTouch.hpp"
-#include "GlobalNamespace/OVRInput_NearTouch.hpp"
-#include "GlobalNamespace/OVRInput_RawNearTouch.hpp"
-#include "GlobalNamespace/OVRInput_Axis1D.hpp"
-#include "GlobalNamespace/OVRInput_RawAxis1D.hpp"
-#include "GlobalNamespace/OVRInput_Axis2D.hpp"
-#include "GlobalNamespace/OVRInput_RawAxis2D.hpp"
-#include "UnityEngine/XR/XRNode.hpp"
-#include "OVR/OpenVR/ETrackedDeviceProperty.hpp"
-#include "UnityEngine/Vector2.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::get_pluginSupportsActiveController
 // Il2CppName: get_pluginSupportsActiveController
 template<>
@@ -626,7 +612,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetControllerOrientationTracked)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetControllerOrientationTracked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* controllerType = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetControllerOrientationTracked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controllerType});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetControllerOrientationValid
@@ -634,7 +621,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetControllerOrientationValid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetControllerOrientationValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* controllerType = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetControllerOrientationValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controllerType});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetControllerPositionTracked
@@ -642,7 +630,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetControllerPositionTracked)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetControllerPositionTracked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* controllerType = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetControllerPositionTracked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controllerType});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetControllerPositionValid
@@ -650,7 +639,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetControllerPositionValid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetControllerPositionValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* controllerType = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetControllerPositionValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controllerType});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetLocalControllerPosition
@@ -658,7 +648,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetLocalControllerPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetLocalControllerPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* controllerType = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetLocalControllerPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controllerType});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetLocalControllerVelocity
@@ -666,7 +657,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetLocalControllerVelocity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetLocalControllerVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* controllerType = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetLocalControllerVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controllerType});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetLocalControllerAcceleration
@@ -674,7 +666,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetLocalControllerAcceleration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetLocalControllerAcceleration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* controllerType = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetLocalControllerAcceleration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controllerType});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetLocalControllerRotation
@@ -682,7 +675,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Quaternion (*)(GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetLocalControllerRotation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetLocalControllerRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* controllerType = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetLocalControllerRotation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controllerType});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetLocalControllerAngularVelocity
@@ -690,7 +684,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetLocalControllerAngularVelocity)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetLocalControllerAngularVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* controllerType = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetLocalControllerAngularVelocity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controllerType});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetLocalControllerAngularAcceleration
@@ -698,7 +693,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetLocalControllerAngularAcceleration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetLocalControllerAngularAcceleration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* controllerType = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetLocalControllerAngularAcceleration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controllerType});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetDominantHand
@@ -714,7 +710,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Button, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::Get)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Button>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Button")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::Get
@@ -722,7 +720,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::RawButton, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::Get)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawButton>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* rawMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/RawButton")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rawMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetResolvedButton
@@ -730,7 +730,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Button, GlobalNamespace::OVRInput::RawButton, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetResolvedButton)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetResolvedButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Button>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawButton>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Button")->byval_arg;
+    static auto* rawMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/RawButton")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetResolvedButton", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask, rawMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetDown
@@ -738,7 +741,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Button, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetDown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Button>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Button")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetDown
@@ -746,7 +751,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::RawButton, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetDown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawButton>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* rawMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/RawButton")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rawMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetResolvedButtonDown
@@ -754,7 +761,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Button, GlobalNamespace::OVRInput::RawButton, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetResolvedButtonDown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetResolvedButtonDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Button>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawButton>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Button")->byval_arg;
+    static auto* rawMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/RawButton")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetResolvedButtonDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask, rawMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetUp
@@ -762,7 +772,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Button, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Button>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Button")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetUp
@@ -770,7 +782,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::RawButton, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawButton>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* rawMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/RawButton")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rawMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetResolvedButtonUp
@@ -778,7 +792,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Button, GlobalNamespace::OVRInput::RawButton, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetResolvedButtonUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetResolvedButtonUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Button>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawButton>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Button")->byval_arg;
+    static auto* rawMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/RawButton")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetResolvedButtonUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask, rawMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::Get
@@ -786,7 +803,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Touch, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::Get)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Touch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Touch")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::Get
@@ -794,7 +813,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::RawTouch, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::Get)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* rawMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/RawTouch")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rawMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetResolvedTouch
@@ -802,7 +823,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Touch, GlobalNamespace::OVRInput::RawTouch, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetResolvedTouch)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetResolvedTouch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Touch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Touch")->byval_arg;
+    static auto* rawMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/RawTouch")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetResolvedTouch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask, rawMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetDown
@@ -810,7 +834,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Touch, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetDown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Touch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Touch")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetDown
@@ -818,7 +844,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::RawTouch, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetDown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* rawMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/RawTouch")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rawMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetResolvedTouchDown
@@ -826,7 +854,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Touch, GlobalNamespace::OVRInput::RawTouch, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetResolvedTouchDown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetResolvedTouchDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Touch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Touch")->byval_arg;
+    static auto* rawMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/RawTouch")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetResolvedTouchDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask, rawMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetUp
@@ -834,7 +865,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Touch, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Touch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Touch")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetUp
@@ -842,7 +875,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::RawTouch, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* rawMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/RawTouch")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rawMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetResolvedTouchUp
@@ -850,7 +885,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Touch, GlobalNamespace::OVRInput::RawTouch, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetResolvedTouchUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetResolvedTouchUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Touch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Touch")->byval_arg;
+    static auto* rawMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/RawTouch")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetResolvedTouchUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask, rawMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::Get
@@ -858,7 +896,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::NearTouch, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::Get)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::NearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/NearTouch")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::Get
@@ -866,7 +906,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::RawNearTouch, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::Get)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawNearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* rawMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/RawNearTouch")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rawMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetResolvedNearTouch
@@ -874,7 +916,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::NearTouch, GlobalNamespace::OVRInput::RawNearTouch, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetResolvedNearTouch)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetResolvedNearTouch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::NearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawNearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/NearTouch")->byval_arg;
+    static auto* rawMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/RawNearTouch")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetResolvedNearTouch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask, rawMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetDown
@@ -882,7 +927,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::NearTouch, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetDown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::NearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/NearTouch")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetDown
@@ -890,7 +937,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::RawNearTouch, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetDown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawNearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* rawMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/RawNearTouch")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rawMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetResolvedNearTouchDown
@@ -898,7 +947,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::NearTouch, GlobalNamespace::OVRInput::RawNearTouch, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetResolvedNearTouchDown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetResolvedNearTouchDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::NearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawNearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/NearTouch")->byval_arg;
+    static auto* rawMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/RawNearTouch")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetResolvedNearTouchDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask, rawMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetUp
@@ -906,7 +958,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::NearTouch, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::NearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/NearTouch")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetUp
@@ -914,7 +968,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::RawNearTouch, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawNearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* rawMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/RawNearTouch")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rawMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetResolvedNearTouchUp
@@ -922,7 +978,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::NearTouch, GlobalNamespace::OVRInput::RawNearTouch, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetResolvedNearTouchUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetResolvedNearTouchUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::NearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawNearTouch>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/NearTouch")->byval_arg;
+    static auto* rawMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/RawNearTouch")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetResolvedNearTouchUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask, rawMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::Get
@@ -930,7 +989,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(GlobalNamespace::OVRInput::Axis1D, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::Get)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Axis1D>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Axis1D")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::Get
@@ -938,7 +999,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(G
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(GlobalNamespace::OVRInput::RawAxis1D, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::Get)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawAxis1D>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* rawMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/RawAxis1D")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rawMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetResolvedAxis1D
@@ -946,7 +1009,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(G
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(GlobalNamespace::OVRInput::Axis1D, GlobalNamespace::OVRInput::RawAxis1D, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetResolvedAxis1D)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetResolvedAxis1D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Axis1D>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawAxis1D>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Axis1D")->byval_arg;
+    static auto* rawMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/RawAxis1D")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetResolvedAxis1D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask, rawMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::Get
@@ -954,7 +1020,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(G
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(GlobalNamespace::OVRInput::Axis2D, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::Get)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Axis2D>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Axis2D")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::Get
@@ -962,7 +1030,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(GlobalNamespace::OVRInput::RawAxis2D, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::Get)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawAxis2D>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* rawMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/RawAxis2D")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "Get", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rawMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetResolvedAxis2D
@@ -970,7 +1040,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(GlobalNamespace::OVRInput::Axis2D, GlobalNamespace::OVRInput::RawAxis2D, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetResolvedAxis2D)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetResolvedAxis2D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Axis2D>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::RawAxis2D>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* virtualMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Axis2D")->byval_arg;
+    static auto* rawMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/RawAxis2D")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetResolvedAxis2D", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{virtualMask, rawMask, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetConnectedControllers
@@ -986,7 +1059,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::IsControllerConnected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "IsControllerConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* controller = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "IsControllerConnected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controller});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetActiveController
@@ -1002,7 +1076,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, float, UnityEngine::XR::XRNode)>(&GlobalNamespace::OVRInput::StartVibration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "StartVibration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
+    static auto* amplitude = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* controllerNode = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "StartVibration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{amplitude, duration, controllerNode});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::SetOpenVRLocalPose
@@ -1010,7 +1087,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(fl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Quaternion, UnityEngine::Quaternion)>(&GlobalNamespace::OVRInput::SetOpenVRLocalPose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "SetOpenVRLocalPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    static auto* leftPos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* rightPos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* leftRot = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
+    static auto* rightRot = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "SetOpenVRLocalPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{leftPos, rightPos, leftRot, rightRot});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetOpenVRStringProperty
@@ -1018,7 +1099,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(OVR::OpenVR::ETrackedDeviceProperty, uint)>(&GlobalNamespace::OVRInput::GetOpenVRStringProperty)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetOpenVRStringProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<OVR::OpenVR::ETrackedDeviceProperty>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* prop = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackedDeviceProperty")->byval_arg;
+    static auto* deviceId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetOpenVRStringProperty", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prop, deviceId});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::UpdateXRControllerNodeIds
@@ -1050,7 +1133,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, UnityEngine::XR::XRNode)>(&GlobalNamespace::OVRInput::PlayHapticImpulse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "PlayHapticImpulse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
+    static auto* amplitude = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* deviceNode = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "PlayHapticImpulse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{amplitude, deviceNode});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::IsValidOpenVRDevice
@@ -1058,7 +1143,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(fl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint)>(&GlobalNamespace::OVRInput::IsValidOpenVRDevice)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "IsValidOpenVRDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* deviceId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "IsValidOpenVRDevice", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deviceId});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::SetControllerVibration
@@ -1066,7 +1152,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ui
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float, float, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::SetControllerVibration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "SetControllerVibration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* frequency = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* amplitude = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "SetControllerVibration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{frequency, amplitude, controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::GetControllerBatteryPercentRemaining
@@ -1074,7 +1163,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(fl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::GetControllerBatteryPercentRemaining)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetControllerBatteryPercentRemaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "GetControllerBatteryPercentRemaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controllerMask});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::CalculateAbsMax
@@ -1082,7 +1172,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2, UnityEngine::Vector2)>(&GlobalNamespace::OVRInput::CalculateAbsMax)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "CalculateAbsMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* b = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "CalculateAbsMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::CalculateAbsMax
@@ -1090,7 +1182,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float)>(&GlobalNamespace::OVRInput::CalculateAbsMax)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "CalculateAbsMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* a = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* b = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "CalculateAbsMax", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::CalculateDeadzone
@@ -1098,7 +1192,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(UnityEngine::Vector2, float)>(&GlobalNamespace::OVRInput::CalculateDeadzone)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "CalculateDeadzone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* a = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* deadzone = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "CalculateDeadzone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, deadzone});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::CalculateDeadzone
@@ -1106,7 +1202,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(float, float)>(&GlobalNamespace::OVRInput::CalculateDeadzone)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "CalculateDeadzone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* a = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* deadzone = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "CalculateDeadzone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, deadzone});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRInput::ShouldResolveController
@@ -1114,6 +1212,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(f
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVRInput::Controller, GlobalNamespace::OVRInput::Controller)>(&GlobalNamespace::OVRInput::ShouldResolveController)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "ShouldResolveController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRInput::Controller>()});
+    static auto* controllerType = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    static auto* controllerMask = &::il2cpp_utils::GetClassFromName("", "OVRInput/Controller")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRInput*), "ShouldResolveController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controllerType, controllerMask});
   }
 };

@@ -69,10 +69,6 @@ namespace Zenject {
   static_assert(sizeof(SubContainerCreatorByNewPrefabDynamicContext) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewPrefabDynamicContext*, "Zenject", "SubContainerCreatorByNewPrefabDynamicContext");
-// Writing includes for template specializations
-#include "Zenject/DiContainer.hpp"
-#include "Zenject/IPrefabProvider.hpp"
-#include "Zenject/GameObjectCreationParameters.hpp"
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorByNewPrefabDynamicContext::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -82,6 +78,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewPrefabDynamicContext*, "
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (Zenject::SubContainerCreatorByNewPrefabDynamicContext::*)(bool&)>(&Zenject::SubContainerCreatorByNewPrefabDynamicContext::CreateGameObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorByNewPrefabDynamicContext*), "CreateGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool&>()});
+    static auto* shouldMakeActive = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorByNewPrefabDynamicContext*), "CreateGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{shouldMakeActive});
   }
 };

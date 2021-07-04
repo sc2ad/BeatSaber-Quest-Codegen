@@ -184,14 +184,16 @@ namespace GlobalNamespace {
   static_assert(sizeof(SaberTrailRenderer) == 0x64);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SaberTrailRenderer*, "", "SaberTrailRenderer");
-// Writing includes for template specializations
-#include "GlobalNamespace/TrailElementCollection.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SaberTrailRenderer::Init
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberTrailRenderer::*)(float, float, int, float)>(&GlobalNamespace::SaberTrailRenderer::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* trailWidth = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* trailDuration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* granularity = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* whiteSectionMaxDuration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{trailWidth, trailDuration, granularity, whiteSectionMaxDuration});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SaberTrailRenderer::OnDestroy
@@ -231,7 +233,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberTrailRenderer::*)(float)>(&GlobalNamespace::SaberTrailRenderer::SetTrailWidth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), "SetTrailWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* width = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), "SetTrailWidth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{width});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SaberTrailRenderer::UpdateMesh
@@ -239,7 +242,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberTrailRenderer::*)(GlobalNamespace::TrailElementCollection*, UnityEngine::Color)>(&GlobalNamespace::SaberTrailRenderer::UpdateMesh)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), "UpdateMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TrailElementCollection*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    static auto* trailElementCollection = &::il2cpp_utils::GetClassFromName("", "TrailElementCollection")->byval_arg;
+    static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), "UpdateMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{trailElementCollection, color});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SaberTrailRenderer::UpdateVertices
@@ -247,7 +252,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SaberTrailRenderer::*)(GlobalNamespace::TrailElementCollection*, UnityEngine::Color)>(&GlobalNamespace::SaberTrailRenderer::UpdateVertices)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), "UpdateVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TrailElementCollection*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    static auto* trailElementCollection = &::il2cpp_utils::GetClassFromName("", "TrailElementCollection")->byval_arg;
+    static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SaberTrailRenderer*), "UpdateVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{trailElementCollection, color});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SaberTrailRenderer::UpdateIndices

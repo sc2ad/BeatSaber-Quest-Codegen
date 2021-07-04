@@ -84,9 +84,6 @@ namespace System::Collections::Specialized {
   static_assert(sizeof(CompatibleComparer) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::CompatibleComparer*, "System.Collections.Specialized", "CompatibleComparer");
-// Writing includes for template specializations
-#include "System/Collections/IComparer.hpp"
-#include "System/Collections/IHashCodeProvider.hpp"
 // Writing MetadataGetter for method: System::Collections::Specialized::CompatibleComparer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -96,7 +93,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::CompatibleComparer*, "S
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Collections::Specialized::CompatibleComparer::*)(::Il2CppObject*, ::Il2CppObject*)>(&System::Collections::Specialized::CompatibleComparer::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::CompatibleComparer*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* a = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* b = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::CompatibleComparer*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
   }
 };
 // Writing MetadataGetter for method: System::Collections::Specialized::CompatibleComparer::GetHashCode
@@ -104,7 +103,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Specialized::CompatibleComparer::*)(::Il2CppObject*)>(&System::Collections::Specialized::CompatibleComparer::GetHashCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::CompatibleComparer*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::CompatibleComparer*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
 // Writing MetadataGetter for method: System::Collections::Specialized::CompatibleComparer::get_Comparer

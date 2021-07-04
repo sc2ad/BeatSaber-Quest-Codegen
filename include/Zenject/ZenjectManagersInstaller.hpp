@@ -38,7 +38,6 @@ namespace Zenject {
   }; // Zenject.ZenjectManagersInstaller
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectManagersInstaller*, "Zenject", "ZenjectManagersInstaller");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Zenject::ZenjectManagersInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>

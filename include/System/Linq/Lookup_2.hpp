@@ -66,7 +66,7 @@ namespace System::Linq {
       class $GetEnumerator$d__7 : public ::il2cpp_utils::il2cpp_type_check::NestedType, public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<TElement>*/ {
         public:
         using declaring_type = typename Lookup_2<TKey, TElement>::Grouping*;
-        static constexpr std::string_view NESTED_NAME = "$GetEnumerator$d__7";
+        static constexpr std::string_view NESTED_NAME = "<GetEnumerator>d__7";
         // private System.Int32 <>1__state
         // Size: 0x4
         // Offset: 0x0
@@ -312,7 +312,7 @@ namespace System::Linq {
     class $GetEnumerator$d__12 : public ::il2cpp_utils::il2cpp_type_check::NestedType, public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<System::Linq::IGrouping_2<TKey, TElement>*>*/ {
       public:
       using declaring_type = Lookup_2<TKey, TElement>*;
-      static constexpr std::string_view NESTED_NAME = "$GetEnumerator$d__12";
+      static constexpr std::string_view NESTED_NAME = "<GetEnumerator>d__12";
       // private System.Int32 <>1__state
       // Size: 0x4
       // Offset: 0x0

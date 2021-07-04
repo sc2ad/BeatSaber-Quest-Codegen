@@ -25,7 +25,6 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ICloneable*, "System", "ICloneable");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::ICloneable::Clone
 // Il2CppName: Clone
 template<>

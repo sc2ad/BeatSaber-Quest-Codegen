@@ -200,10 +200,6 @@ namespace System::Threading {
   static_assert(sizeof(WaitHandle) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::WaitHandle*, "System.Threading", "WaitHandle");
-// Writing includes for template specializations
-#include "Microsoft/Win32/SafeHandles/SafeWaitHandle.hpp"
-#include "System/TimeSpan.hpp"
-#include "System/Runtime/InteropServices/SafeHandle.hpp"
 // Writing MetadataGetter for method: System::Threading::WaitHandle::Init
 // Il2CppName: Init
 template<>
@@ -217,7 +213,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::WaitHandle::*)(System::IntPtr)>(&System::Threading::WaitHandle::set_Handle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "set_Handle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "set_Handle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Threading::WaitHandle::get_SafeWaitHandle
@@ -233,7 +230,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Microsoft::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::WaitHandle::*)(Microsoft::Win32::SafeHandles::SafeWaitHandle*)>(&System::Threading::WaitHandle::set_SafeWaitHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "set_SafeWaitHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeWaitHandle*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("Microsoft.Win32.SafeHandles", "SafeWaitHandle")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "set_SafeWaitHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Threading::WaitHandle::SetHandleInternal
@@ -241,7 +239,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::WaitHandle::*)(Microsoft::Win32::SafeHandles::SafeWaitHandle*)>(&System::Threading::WaitHandle::SetHandleInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "SetHandleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Microsoft::Win32::SafeHandles::SafeWaitHandle*>()});
+    static auto* handle = &::il2cpp_utils::GetClassFromName("Microsoft.Win32.SafeHandles", "SafeWaitHandle")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "SetHandleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle});
   }
 };
 // Writing MetadataGetter for method: System::Threading::WaitHandle::WaitOne
@@ -249,7 +248,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::WaitHandle::*)(int, bool)>(&System::Threading::WaitHandle::WaitOne)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "WaitOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* millisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* exitContext = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "WaitOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{millisecondsTimeout, exitContext});
   }
 };
 // Writing MetadataGetter for method: System::Threading::WaitHandle::WaitOne
@@ -257,7 +258,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::WaitHandle::*)(System::TimeSpan, bool)>(&System::Threading::WaitHandle::WaitOne)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "WaitOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* timeout = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
+    static auto* exitContext = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "WaitOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{timeout, exitContext});
   }
 };
 // Writing MetadataGetter for method: System::Threading::WaitHandle::WaitOne
@@ -273,7 +276,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::WaitHandle::*)(int)>(&System::Threading::WaitHandle::WaitOne)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "WaitOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* millisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "WaitOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{millisecondsTimeout});
   }
 };
 // Writing MetadataGetter for method: System::Threading::WaitHandle::WaitOne
@@ -281,7 +285,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::WaitHandle::*)(System::TimeSpan)>(&System::Threading::WaitHandle::WaitOne)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "WaitOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
+    static auto* timeout = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "WaitOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{timeout});
   }
 };
 // Writing MetadataGetter for method: System::Threading::WaitHandle::WaitOne
@@ -289,7 +294,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::WaitHandle::*)(int64_t, bool)>(&System::Threading::WaitHandle::WaitOne)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "WaitOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* timeout = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    static auto* exitContext = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "WaitOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{timeout, exitContext});
   }
 };
 // Writing MetadataGetter for method: System::Threading::WaitHandle::InternalWaitOne
@@ -297,7 +304,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Runtime::InteropServices::SafeHandle*, int64_t, bool, bool)>(&System::Threading::WaitHandle::InternalWaitOne)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "InternalWaitOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::SafeHandle*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* waitableSafeHandle = &::il2cpp_utils::GetClassFromName("System.Runtime.InteropServices", "SafeHandle")->byval_arg;
+    static auto* millisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    static auto* hasThreadAffinity = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* exitContext = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "InternalWaitOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{waitableSafeHandle, millisecondsTimeout, hasThreadAffinity, exitContext});
   }
 };
 // Writing MetadataGetter for method: System::Threading::WaitHandle::WaitAny
@@ -305,7 +316,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<System::Threading::WaitHandle*>*, int, bool)>(&System::Threading::WaitHandle::WaitAny)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "WaitAny", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Threading::WaitHandle*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* waitHandles = &classof(::Array<::Array<System::Threading::WaitHandle*>*>*)->byval_arg;
+    static auto* millisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* exitContext = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "WaitAny", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{waitHandles, millisecondsTimeout, exitContext});
   }
 };
 // Writing MetadataGetter for method: System::Threading::WaitHandle::WaitAny
@@ -313,7 +327,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<System::Threading::WaitHandle*>*, System::TimeSpan, bool)>(&System::Threading::WaitHandle::WaitAny)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "WaitAny", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Threading::WaitHandle*>*>(), ::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* waitHandles = &classof(::Array<::Array<System::Threading::WaitHandle*>*>*)->byval_arg;
+    static auto* timeout = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
+    static auto* exitContext = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "WaitAny", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{waitHandles, timeout, exitContext});
   }
 };
 // Writing MetadataGetter for method: System::Threading::WaitHandle::ThrowAbandonedMutexException
@@ -329,7 +346,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, System::Threading::WaitHandle*)>(&System::Threading::WaitHandle::ThrowAbandonedMutexException)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "ThrowAbandonedMutexException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::WaitHandle*>()});
+    static auto* location = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* handle = &::il2cpp_utils::GetClassFromName("System.Threading", "WaitHandle")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "ThrowAbandonedMutexException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{location, handle});
   }
 };
 // Writing MetadataGetter for method: System::Threading::WaitHandle::Close
@@ -345,7 +364,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::WaitHandle::*)(bool)>(&System::Threading::WaitHandle::Dispose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* explicitDisposing = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "Dispose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{explicitDisposing});
   }
 };
 // Writing MetadataGetter for method: System::Threading::WaitHandle::Dispose
@@ -361,7 +381,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<System::Threading::WaitHandle*>*, int, bool, bool)>(&System::Threading::WaitHandle::WaitMultiple)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "WaitMultiple", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Threading::WaitHandle*>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* waitHandles = &classof(::Array<::Array<System::Threading::WaitHandle*>*>*)->byval_arg;
+    static auto* millisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* exitContext = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* WaitAll = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "WaitMultiple", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{waitHandles, millisecondsTimeout, exitContext, WaitAll});
   }
 };
 // Writing MetadataGetter for method: System::Threading::WaitHandle::WaitOneNative
@@ -369,7 +393,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Runtime::InteropServices::SafeHandle*, uint, bool, bool)>(&System::Threading::WaitHandle::WaitOneNative)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "WaitOneNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::InteropServices::SafeHandle*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* waitableSafeHandle = &::il2cpp_utils::GetClassFromName("System.Runtime.InteropServices", "SafeHandle")->byval_arg;
+    static auto* millisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* hasThreadAffinity = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* exitContext = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "WaitOneNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{waitableSafeHandle, millisecondsTimeout, hasThreadAffinity, exitContext});
   }
 };
 // Writing MetadataGetter for method: System::Threading::WaitHandle::Wait_internal
@@ -377,7 +405,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr*, int, bool, int)>(&System::Threading::WaitHandle::Wait_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "Wait_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* handles = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "IntPtr"))->byval_arg;
+    static auto* numHandles = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* waitAll = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* ms = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::WaitHandle*), "Wait_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handles, numHandles, waitAll, ms});
   }
 };
 // Writing MetadataGetter for method: System::Threading::WaitHandle::_cctor

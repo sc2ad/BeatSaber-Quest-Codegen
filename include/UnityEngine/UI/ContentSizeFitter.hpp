@@ -173,7 +173,6 @@ namespace UnityEngine::UI {
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ContentSizeFitter*, "UnityEngine.UI", "ContentSizeFitter");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ContentSizeFitter::FitMode, "UnityEngine.UI", "ContentSizeFitter/FitMode");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::UI::ContentSizeFitter::get_horizontalFit
 // Il2CppName: get_horizontalFit
 template<>
@@ -187,7 +186,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ContentSizeFitter::*)(UnityEngine::UI::ContentSizeFitter::FitMode)>(&UnityEngine::UI::ContentSizeFitter::set_horizontalFit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ContentSizeFitter*), "set_horizontalFit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ContentSizeFitter::FitMode>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "ContentSizeFitter/FitMode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ContentSizeFitter*), "set_horizontalFit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::ContentSizeFitter::get_verticalFit
@@ -203,7 +203,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ContentSizeFitter::*)(UnityEngine::UI::ContentSizeFitter::FitMode)>(&UnityEngine::UI::ContentSizeFitter::set_verticalFit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ContentSizeFitter*), "set_verticalFit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::ContentSizeFitter::FitMode>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "ContentSizeFitter/FitMode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ContentSizeFitter*), "set_verticalFit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::ContentSizeFitter::get_rectTransform
@@ -219,7 +220,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::ContentSizeFitter::*)(int)>(&UnityEngine::UI::ContentSizeFitter::HandleSelfFittingAlongAxis)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ContentSizeFitter*), "HandleSelfFittingAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* axis = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ContentSizeFitter*), "HandleSelfFittingAlongAxis", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{axis});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::ContentSizeFitter::SetLayoutHorizontal

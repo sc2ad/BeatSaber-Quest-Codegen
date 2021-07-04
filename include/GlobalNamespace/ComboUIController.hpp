@@ -110,7 +110,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(ComboUIController) == 0x35);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ComboUIController*, "", "ComboUIController");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ComboUIController::Start
 // Il2CppName: Start
 template<>
@@ -156,7 +155,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ComboUIController::*)(int)>(&GlobalNamespace::ComboUIController::HandleComboDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ComboUIController*), "HandleComboDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* combo = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ComboUIController*), "HandleComboDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{combo});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ComboUIController::HandleComboBreakingEventHappened

@@ -92,7 +92,6 @@ namespace UnityEngine::TestTools {
   static_assert(sizeof(EnumerableTestMethodCommand::$ExecuteEnumerableAndRecordExceptions$d__3) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::EnumerableTestMethodCommand::$ExecuteEnumerableAndRecordExceptions$d__3*, "UnityEngine.TestTools", "EnumerableTestMethodCommand/<ExecuteEnumerableAndRecordExceptions>d__3");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::TestTools::EnumerableTestMethodCommand::$ExecuteEnumerableAndRecordExceptions$d__3::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

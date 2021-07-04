@@ -31,7 +31,6 @@ namespace System::Net::NetworkInformation {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::IPv4InterfaceStatistics*, "System.Net.NetworkInformation", "IPv4InterfaceStatistics");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::NetworkInformation::IPv4InterfaceStatistics::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

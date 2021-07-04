@@ -38,7 +38,6 @@ namespace Oculus::Platform::Models {
   }; // Oculus.Platform.Models.ProductList
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::ProductList*, "Oculus.Platform.Models", "ProductList");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::Models::ProductList::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -151,17 +151,13 @@ namespace UnityEngine::UI {
   static_assert(sizeof(LayoutRebuilder) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::LayoutRebuilder*, "UnityEngine.UI", "LayoutRebuilder");
-// Writing includes for template specializations
-#include "UnityEngine/RectTransform.hpp"
-#include "System/Collections/Generic/List_1.hpp"
-#include "UnityEngine/UI/CanvasUpdate.hpp"
-#include "UnityEngine/Events/UnityAction_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::Initialize
 // Il2CppName: Initialize
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutRebuilder::*)(UnityEngine::RectTransform*)>(&UnityEngine::UI::LayoutRebuilder::Initialize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+    static auto* controller = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "Initialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controller});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::Clear
@@ -185,7 +181,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RectTransform*)>(&UnityEngine::UI::LayoutRebuilder::ReapplyDrivenProperties)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "ReapplyDrivenProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+    static auto* driven = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "ReapplyDrivenProperties", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{driven});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::get_transform
@@ -209,7 +206,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Collections::Generic::List_1<UnityEngine::Component*>*)>(&UnityEngine::UI::LayoutRebuilder::StripDisabledBehavioursFromList)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "StripDisabledBehavioursFromList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Component*>*>()});
+    static auto* components = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Component")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "StripDisabledBehavioursFromList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{components});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::ForceRebuildLayoutImmediate
@@ -217,7 +215,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RectTransform*)>(&UnityEngine::UI::LayoutRebuilder::ForceRebuildLayoutImmediate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "ForceRebuildLayoutImmediate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+    static auto* layoutRoot = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "ForceRebuildLayoutImmediate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layoutRoot});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::Rebuild
@@ -225,7 +224,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutRebuilder::*)(UnityEngine::UI::CanvasUpdate)>(&UnityEngine::UI::LayoutRebuilder::Rebuild)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "Rebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::CanvasUpdate>()});
+    static auto* executing = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "CanvasUpdate")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "Rebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{executing});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::PerformLayoutControl
@@ -233,7 +233,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutRebuilder::*)(UnityEngine::RectTransform*, UnityEngine::Events::UnityAction_1<UnityEngine::Component*>*)>(&UnityEngine::UI::LayoutRebuilder::PerformLayoutControl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "PerformLayoutControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<UnityEngine::Component*>*>()});
+    static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
+    static auto* action = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Component")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "PerformLayoutControl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rect, action});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::PerformLayoutCalculation
@@ -241,7 +243,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::LayoutRebuilder::*)(UnityEngine::RectTransform*, UnityEngine::Events::UnityAction_1<UnityEngine::Component*>*)>(&UnityEngine::UI::LayoutRebuilder::PerformLayoutCalculation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "PerformLayoutCalculation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Events::UnityAction_1<UnityEngine::Component*>*>()});
+    static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
+    static auto* action = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("UnityEngine.Events", "UnityAction`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Component")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "PerformLayoutCalculation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rect, action});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::MarkLayoutForRebuild
@@ -249,7 +253,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RectTransform*)>(&UnityEngine::UI::LayoutRebuilder::MarkLayoutForRebuild)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "MarkLayoutForRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+    static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "MarkLayoutForRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rect});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::ValidController
@@ -257,7 +262,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::RectTransform*, System::Collections::Generic::List_1<UnityEngine::Component*>*)>(&UnityEngine::UI::LayoutRebuilder::ValidController)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "ValidController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<UnityEngine::Component*>*>()});
+    static auto* layoutRoot = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
+    static auto* comps = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Component")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "ValidController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layoutRoot, comps});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::MarkLayoutRootForRebuild
@@ -265,7 +272,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::RectTransform*)>(&UnityEngine::UI::LayoutRebuilder::MarkLayoutRootForRebuild)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "MarkLayoutRootForRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RectTransform*>()});
+    static auto* controller = &::il2cpp_utils::GetClassFromName("UnityEngine", "RectTransform")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "MarkLayoutRootForRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controller});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::LayoutComplete
@@ -297,7 +305,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::LayoutRebuilder::*)(::Il2CppObject*)>(&UnityEngine::UI::LayoutRebuilder::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::LayoutRebuilder*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::LayoutRebuilder::ToString

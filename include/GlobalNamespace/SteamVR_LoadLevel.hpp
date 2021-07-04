@@ -309,8 +309,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(SteamVR_LoadLevel) == 0xF1);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_LoadLevel*, "", "SteamVR_LoadLevel");
-// Writing includes for template specializations
-#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_LoadLevel::get_loading
 // Il2CppName: get_loading
 template<>
@@ -356,7 +354,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, bool, float, float, float, float, float)>(&GlobalNamespace::SteamVR_LoadLevel::Begin)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_LoadLevel*), "Begin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* levelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* showGrid = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* fadeOutTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* r = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* g = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* b = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* a = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_LoadLevel*), "Begin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelName, showGrid, fadeOutTime, r, g, b, a});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_LoadLevel::OnGUI
@@ -388,7 +393,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (GlobalNamespace::SteamVR_LoadLevel::*)(::Il2CppString*, UnityEngine::Transform*, float)>(&GlobalNamespace::SteamVR_LoadLevel::GetOverlayHandle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_LoadLevel*), "GetOverlayHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* overlayName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    static auto* widthInMeters = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_LoadLevel*), "GetOverlayHandle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{overlayName, transform, widthInMeters});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_LoadLevel::New_ctor

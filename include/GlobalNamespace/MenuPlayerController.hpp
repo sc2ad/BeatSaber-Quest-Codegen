@@ -85,7 +85,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MenuPlayerController) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuPlayerController*, "", "MenuPlayerController");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MenuPlayerController::get_leftController
 // Il2CppName: get_leftController
 template<>

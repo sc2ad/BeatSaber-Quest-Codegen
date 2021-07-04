@@ -65,14 +65,16 @@ namespace System {
   static_assert(sizeof(CurrentSystemTimeZone) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::CurrentSystemTimeZone*, "System", "CurrentSystemTimeZone");
-// Writing includes for template specializations
-#include "System/DateTime.hpp"
 // Writing MetadataGetter for method: System::CurrentSystemTimeZone::GetTimeZoneData
 // Il2CppName: GetTimeZoneData
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, ::Array<int64_t>*&, ::Array<::Il2CppString*>*&, bool&)>(&System::CurrentSystemTimeZone::GetTimeZoneData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::CurrentSystemTimeZone*), "GetTimeZoneData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<int64_t>*&>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppString*>*&>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    static auto* year = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* data = &classof(::Array<::Array<int64_t>*>*)->this_arg;
+    static auto* names = &classof(::Array<::Array<::Il2CppString*>*>*)->this_arg;
+    static auto* daylight_inverted = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::CurrentSystemTimeZone*), "GetTimeZoneData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{year, data, names, daylight_inverted});
   }
 };
 // Writing MetadataGetter for method: System::CurrentSystemTimeZone::New_ctor
@@ -84,6 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TimeSpan (System::CurrentSystemTimeZone::*)(System::DateTime)>(&System::CurrentSystemTimeZone::GetUtcOffset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::CurrentSystemTimeZone*), "GetUtcOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::DateTime>()});
+    static auto* dateTime = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::CurrentSystemTimeZone*), "GetUtcOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dateTime});
   }
 };

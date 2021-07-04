@@ -69,7 +69,6 @@ namespace UnityEngine {
   static_assert(sizeof(ContextMenu) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ContextMenu*, "UnityEngine", "ContextMenu");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::ContextMenu::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

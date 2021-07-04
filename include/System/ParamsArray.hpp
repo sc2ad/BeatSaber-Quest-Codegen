@@ -116,7 +116,6 @@ namespace System {
   static_assert(sizeof(ParamsArray) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ParamsArray, "System", "ParamsArray");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::ParamsArray::ParamsArray
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -146,7 +145,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::ParamsArray::*)(int)>(&System::ParamsArray::get_Item)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ParamsArray), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ParamsArray), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }
 };
 // Writing MetadataGetter for method: System::ParamsArray::GetAtSlow
@@ -154,7 +154,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::ParamsArray::*)(int)>(&System::ParamsArray::GetAtSlow)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ParamsArray), "GetAtSlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ParamsArray), "GetAtSlow", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }
 };
 // Writing MetadataGetter for method: System::ParamsArray::_cctor

@@ -68,7 +68,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(BTSCharacterDataModel) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterDataModel*, "", "BTSCharacterDataModel");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacterDataModel::get_prefabsWithIds
 // Il2CppName: get_prefabsWithIds
 template<>

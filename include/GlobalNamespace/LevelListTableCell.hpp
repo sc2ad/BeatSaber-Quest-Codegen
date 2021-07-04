@@ -212,15 +212,14 @@ namespace GlobalNamespace {
   static_assert(sizeof(LevelListTableCell) == 0xF0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelListTableCell*, "", "LevelListTableCell");
-// Writing includes for template specializations
-#include "GlobalNamespace/IPreviewBeatmapLevel.hpp"
-#include "GlobalNamespace/AdditionalContentModel.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelListTableCell::SetDataFromLevelAsync
 // Il2CppName: SetDataFromLevelAsync
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelListTableCell::*)(GlobalNamespace::IPreviewBeatmapLevel*, bool)>(&GlobalNamespace::LevelListTableCell::SetDataFromLevelAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelListTableCell*), "SetDataFromLevelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IPreviewBeatmapLevel*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* level = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
+    static auto* isFavorite = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelListTableCell*), "SetDataFromLevelAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{level, isFavorite});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LevelListTableCell::RefreshVisuals
@@ -236,7 +235,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelListTableCell::*)(GlobalNamespace::AdditionalContentModel*, ::Il2CppString*)>(&GlobalNamespace::LevelListTableCell::RefreshAvailabilityAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelListTableCell*), "RefreshAvailabilityAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AdditionalContentModel*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* contentModel = &::il2cpp_utils::GetClassFromName("", "AdditionalContentModel")->byval_arg;
+    static auto* levelID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelListTableCell*), "RefreshAvailabilityAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{contentModel, levelID});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LevelListTableCell::CancelAsyncOperations
@@ -252,7 +253,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelListTableCell::*)(HMUI::SelectableCell::TransitionType)>(&GlobalNamespace::LevelListTableCell::SelectionDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelListTableCell*), "SelectionDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
+    static auto* transitionType = &::il2cpp_utils::GetClassFromName("HMUI", "SelectableCell/TransitionType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelListTableCell*), "SelectionDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transitionType});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LevelListTableCell::HighlightDidChange
@@ -260,7 +262,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelListTableCell::*)(HMUI::SelectableCell::TransitionType)>(&GlobalNamespace::LevelListTableCell::HighlightDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelListTableCell*), "HighlightDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::SelectableCell::TransitionType>()});
+    static auto* transitionType = &::il2cpp_utils::GetClassFromName("HMUI", "SelectableCell/TransitionType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelListTableCell*), "HighlightDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transitionType});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LevelListTableCell::WasPreparedForReuse

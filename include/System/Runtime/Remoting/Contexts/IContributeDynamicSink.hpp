@@ -29,7 +29,6 @@ namespace System::Runtime::Remoting::Contexts {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::IContributeDynamicSink*, "System.Runtime.Remoting.Contexts", "IContributeDynamicSink");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::IContributeDynamicSink::GetDynamicSink
 // Il2CppName: GetDynamicSink
 template<>

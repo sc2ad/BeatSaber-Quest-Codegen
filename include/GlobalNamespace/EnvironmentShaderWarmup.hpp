@@ -101,7 +101,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(EnvironmentShaderWarmup) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnvironmentShaderWarmup*, "", "EnvironmentShaderWarmup");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentShaderWarmup::Start
 // Il2CppName: Start
 template<>
@@ -115,7 +114,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::EnvironmentShaderWarmup::*)(int)>(&GlobalNamespace::EnvironmentShaderWarmup::HideAfterFrames)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentShaderWarmup*), "HideAfterFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* numberOfFrames = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EnvironmentShaderWarmup*), "HideAfterFrames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{numberOfFrames});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::EnvironmentShaderWarmup::New_ctor

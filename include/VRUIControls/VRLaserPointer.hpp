@@ -81,13 +81,13 @@ namespace VRUIControls {
   static_assert(sizeof(VRLaserPointer) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRLaserPointer*, "VRUIControls", "VRLaserPointer");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: VRUIControls::VRLaserPointer::SetLocalPosition
 // Il2CppName: SetLocalPosition
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRLaserPointer::*)(UnityEngine::Vector3)>(&VRUIControls::VRLaserPointer::SetLocalPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRLaserPointer*), "SetLocalPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRLaserPointer*), "SetLocalPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{position});
   }
 };
 // Writing MetadataGetter for method: VRUIControls::VRLaserPointer::SetLocalScale
@@ -95,7 +95,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIC
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRLaserPointer::*)(UnityEngine::Vector3)>(&VRUIControls::VRLaserPointer::SetLocalScale)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRLaserPointer*), "SetLocalScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    static auto* scale = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRLaserPointer*), "SetLocalScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scale});
   }
 };
 // Writing MetadataGetter for method: VRUIControls::VRLaserPointer::SetFadeDistance
@@ -103,7 +104,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIC
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRLaserPointer::*)(float)>(&VRUIControls::VRLaserPointer::SetFadeDistance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRLaserPointer*), "SetFadeDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* distance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRLaserPointer*), "SetFadeDistance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{distance});
   }
 };
 // Writing MetadataGetter for method: VRUIControls::VRLaserPointer::New_ctor

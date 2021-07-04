@@ -69,14 +69,14 @@ namespace System {
   static_assert(sizeof(ByteMatcher) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ByteMatcher*, "System", "ByteMatcher");
-// Writing includes for template specializations
-#include "System/TermInfoStrings.hpp"
 // Writing MetadataGetter for method: System::ByteMatcher::AddMapping
 // Il2CppName: AddMapping
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::ByteMatcher::*)(System::TermInfoStrings, ::Array<uint8_t>*)>(&System::ByteMatcher::AddMapping)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ByteMatcher*), "AddMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TermInfoStrings>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* key = &::il2cpp_utils::GetClassFromName("System", "TermInfoStrings")->byval_arg;
+    static auto* val = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ByteMatcher*), "AddMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key, val});
   }
 };
 // Writing MetadataGetter for method: System::ByteMatcher::Sort
@@ -92,7 +92,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::ByteMatcher::*)(int)>(&System::ByteMatcher::StartsWith)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ByteMatcher*), "StartsWith", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* c = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ByteMatcher*), "StartsWith", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
 };
 // Writing MetadataGetter for method: System::ByteMatcher::Match
@@ -100,7 +101,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TermInfoStrings (System::ByteMatcher::*)(::Array<::Il2CppChar>*, int, int, int&)>(&System::ByteMatcher::Match)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ByteMatcher*), "Match", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    static auto* buffer = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* used = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ByteMatcher*), "Match", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, offset, length, used});
   }
 };
 // Writing MetadataGetter for method: System::ByteMatcher::New_ctor

@@ -58,7 +58,6 @@ namespace HMUI {
   static_assert(sizeof(ModalView::$$c__DisplayClass17_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ModalView::$$c__DisplayClass17_0*, "HMUI", "ModalView/<>c__DisplayClass17_0");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::ModalView::$$c__DisplayClass17_0::$Hide$b__0
 // Il2CppName: <Hide>b__0
 template<>

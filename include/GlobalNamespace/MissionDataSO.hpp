@@ -118,7 +118,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionDataSO) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionDataSO*, "", "MissionDataSO");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MissionDataSO::get_missionObjectives
 // Il2CppName: get_missionObjectives
 template<>

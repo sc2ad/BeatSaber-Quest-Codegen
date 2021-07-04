@@ -40,16 +40,18 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::OVRP_0_1_1*, "", "OVRPlugin/OVRP_0_1_1");
-// Writing includes for template specializations
-#include "GlobalNamespace/OVRPlugin_Bool.hpp"
-#include "System/IntPtr.hpp"
-#include "GlobalNamespace/OVRPlugin_Vector3f.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_0_1_1::ovrp_SetOverlayQuad2
 // Il2CppName: ovrp_SetOverlayQuad2
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Bool (*)(GlobalNamespace::OVRPlugin::Bool, GlobalNamespace::OVRPlugin::Bool, System::IntPtr, System::IntPtr, GlobalNamespace::OVRPlugin::Posef, GlobalNamespace::OVRPlugin::Vector3f)>(&GlobalNamespace::OVRPlugin::OVRP_0_1_1::ovrp_SetOverlayQuad2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_0_1_1*), "ovrp_SetOverlayQuad2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Bool>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Posef>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Vector3f>()});
+    static auto* onTop = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->byval_arg;
+    static auto* headLocked = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Bool")->byval_arg;
+    static auto* texture = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* device = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* pose = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Posef")->byval_arg;
+    static auto* scale = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Vector3f")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRPlugin::OVRP_0_1_1*), "ovrp_SetOverlayQuad2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{onTop, headLocked, texture, device, pose, scale});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_0_1_1::_cctor

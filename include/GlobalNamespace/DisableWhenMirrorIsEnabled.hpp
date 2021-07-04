@@ -69,8 +69,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(DisableWhenMirrorIsEnabled) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DisableWhenMirrorIsEnabled*, "", "DisableWhenMirrorIsEnabled");
-// Writing includes for template specializations
-#include "GlobalNamespace/Mirror.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DisableWhenMirrorIsEnabled::get_mirror
 // Il2CppName: get_mirror
 template<>
@@ -84,7 +82,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisableWhenMirrorIsEnabled::*)(GlobalNamespace::Mirror*)>(&GlobalNamespace::DisableWhenMirrorIsEnabled::set_mirror)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisableWhenMirrorIsEnabled*), "set_mirror", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Mirror*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("", "Mirror")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisableWhenMirrorIsEnabled*), "set_mirror", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::DisableWhenMirrorIsEnabled::Start
@@ -108,7 +107,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DisableWhenMirrorIsEnabled::*)(bool)>(&GlobalNamespace::DisableWhenMirrorIsEnabled::HandleMirrorDidChangeEnabledState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisableWhenMirrorIsEnabled*), "HandleMirrorDidChangeEnabledState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* isEnabled = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DisableWhenMirrorIsEnabled*), "HandleMirrorDidChangeEnabledState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isEnabled});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::DisableWhenMirrorIsEnabled::New_ctor

@@ -62,14 +62,13 @@ namespace System::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebRequest::WebProxyWrapperOpaque*, "System.Net", "WebRequest/WebProxyWrapperOpaque");
-// Writing includes for template specializations
-#include "System/Uri.hpp"
 // Writing MetadataGetter for method: System::Net::WebRequest::WebProxyWrapperOpaque::GetProxy
 // Il2CppName: GetProxy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (System::Net::WebRequest::WebProxyWrapperOpaque::*)(System::Uri*)>(&System::Net::WebRequest::WebProxyWrapperOpaque::GetProxy)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::WebRequest::WebProxyWrapperOpaque*), "GetProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+    static auto* destination = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebRequest::WebProxyWrapperOpaque*), "GetProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{destination});
   }
 };
 // Writing MetadataGetter for method: System::Net::WebRequest::WebProxyWrapperOpaque::IsBypassed
@@ -77,7 +76,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebRequest::WebProxyWrapperOpaque::*)(System::Uri*)>(&System::Net::WebRequest::WebProxyWrapperOpaque::IsBypassed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::WebRequest::WebProxyWrapperOpaque*), "IsBypassed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Uri*>()});
+    static auto* host = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebRequest::WebProxyWrapperOpaque*), "IsBypassed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{host});
   }
 };
 // Writing MetadataGetter for method: System::Net::WebRequest::WebProxyWrapperOpaque::get_Credentials

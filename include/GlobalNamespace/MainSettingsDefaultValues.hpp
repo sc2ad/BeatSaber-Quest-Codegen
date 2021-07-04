@@ -214,14 +214,13 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainSettingsDefaultValues*, "", "MainSettingsDefaultValues");
-// Writing includes for template specializations
-#include "GlobalNamespace/MainSettingsModelSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsDefaultValues::SetFixedDefaultValues
 // Il2CppName: SetFixedDefaultValues
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(GlobalNamespace::MainSettingsModelSO*)>(&GlobalNamespace::MainSettingsDefaultValues::SetFixedDefaultValues)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsDefaultValues*), "SetFixedDefaultValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MainSettingsModelSO*>()});
+    static auto* mainSettingsModel = &::il2cpp_utils::GetClassFromName("", "MainSettingsModelSO")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainSettingsDefaultValues*), "SetFixedDefaultValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mainSettingsModel});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MainSettingsDefaultValues::New_ctor

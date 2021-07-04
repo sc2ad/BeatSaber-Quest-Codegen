@@ -52,8 +52,6 @@ namespace Zenject {
   static_assert(sizeof(DisposableManager::LateDisposableInfo) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposableManager::LateDisposableInfo*, "Zenject", "DisposableManager/LateDisposableInfo");
-// Writing includes for template specializations
-#include "Zenject/ILateDisposable.hpp"
 // Writing MetadataGetter for method: Zenject::DisposableManager::LateDisposableInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

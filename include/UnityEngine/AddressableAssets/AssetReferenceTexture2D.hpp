@@ -39,7 +39,6 @@ namespace UnityEngine::AddressableAssets {
   }; // UnityEngine.AddressableAssets.AssetReferenceTexture2D
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::AssetReferenceTexture2D*, "UnityEngine.AddressableAssets", "AssetReferenceTexture2D");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AssetReferenceTexture2D::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

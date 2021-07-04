@@ -73,14 +73,13 @@ namespace TMPro {
   static_assert(sizeof(FastAction) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::FastAction*, "TMPro", "FastAction");
-// Writing includes for template specializations
-#include "System/Action.hpp"
 // Writing MetadataGetter for method: TMPro::FastAction::Add
 // Il2CppName: Add
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::FastAction::*)(System::Action*)>(&TMPro::FastAction::Add)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::FastAction*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    static auto* rhs = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::FastAction*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rhs});
   }
 };
 // Writing MetadataGetter for method: TMPro::FastAction::Remove
@@ -88,7 +87,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::FastAction::*)(System::Action*)>(&TMPro::FastAction::Remove)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::FastAction*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    static auto* rhs = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::FastAction*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rhs});
   }
 };
 // Writing MetadataGetter for method: TMPro::FastAction::Call

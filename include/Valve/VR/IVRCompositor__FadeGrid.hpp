@@ -52,9 +52,6 @@ namespace Valve::VR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_FadeGrid*, "Valve.VR", "IVRCompositor/_FadeGrid");
-// Writing includes for template specializations
-#include "System/AsyncCallback.hpp"
-#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_FadeGrid::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -64,7 +61,9 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_FadeGrid*, "Valve.VR", "IVRCom
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRCompositor::_FadeGrid::*)(float, bool)>(&Valve::VR::IVRCompositor::_FadeGrid::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_FadeGrid*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* fSeconds = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* bFadeIn = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_FadeGrid*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fSeconds, bFadeIn});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_FadeGrid::BeginInvoke
@@ -72,7 +71,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRCompositor::_FadeGrid::*)(float, bool, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRCompositor::_FadeGrid::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_FadeGrid*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* fSeconds = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* bFadeIn = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
+    static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_FadeGrid*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fSeconds, bFadeIn, callback, object});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::IVRCompositor::_FadeGrid::EndInvoke
@@ -80,6 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRCompositor::_FadeGrid::*)(System::IAsyncResult*)>(&Valve::VR::IVRCompositor::_FadeGrid::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_FadeGrid*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_FadeGrid*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
 };

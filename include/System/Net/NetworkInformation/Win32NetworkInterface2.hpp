@@ -101,13 +101,13 @@ namespace System::Net::NetworkInformation {
   static_assert(sizeof(Win32NetworkInterface2) == 0x208);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32NetworkInterface2*, "System.Net.NetworkInformation", "Win32NetworkInterface2");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::NetworkInformation::Win32NetworkInterface2::GetIfEntry
 // Il2CppName: GetIfEntry
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::NetworkInformation::Win32_MIB_IFROW&)>(&System::Net::NetworkInformation::Win32NetworkInterface2::GetIfEntry)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::Win32NetworkInterface2*), "GetIfEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::NetworkInformation::Win32_MIB_IFROW&>()});
+    static auto* row = &::il2cpp_utils::GetClassFromName("System.Net.NetworkInformation", "Win32_MIB_IFROW")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::Win32NetworkInterface2*), "GetIfEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{row});
   }
 };
 // Writing MetadataGetter for method: System::Net::NetworkInformation::Win32NetworkInterface2::New_ctor

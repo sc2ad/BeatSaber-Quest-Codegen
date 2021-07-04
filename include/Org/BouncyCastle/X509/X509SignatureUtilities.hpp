@@ -46,15 +46,13 @@ namespace Org::BouncyCastle::X509 {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::X509::X509SignatureUtilities*, "Org.BouncyCastle.X509", "X509SignatureUtilities");
-// Writing includes for template specializations
-#include "Org/BouncyCastle/Asn1/X509/AlgorithmIdentifier.hpp"
-#include "Org/BouncyCastle/Asn1/DerObjectIdentifier.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::X509SignatureUtilities::GetSignatureName
 // Il2CppName: GetSignatureName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(&Org::BouncyCastle::X509::X509SignatureUtilities::GetSignatureName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509SignatureUtilities*), "GetSignatureName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>()});
+    static auto* sigAlgId = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1.X509", "AlgorithmIdentifier")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509SignatureUtilities*), "GetSignatureName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sigAlgId});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::X509SignatureUtilities::GetDigestAlgName
@@ -62,7 +60,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&Org::BouncyCastle::X509::X509SignatureUtilities::GetDigestAlgName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509SignatureUtilities*), "GetDigestAlgName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::DerObjectIdentifier*>()});
+    static auto* digestAlgOID = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DerObjectIdentifier")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509SignatureUtilities*), "GetDigestAlgName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{digestAlgOID});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::X509SignatureUtilities::_cctor

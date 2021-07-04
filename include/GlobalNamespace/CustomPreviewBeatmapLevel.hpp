@@ -276,13 +276,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(CustomPreviewBeatmapLevel) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomPreviewBeatmapLevel*, "", "CustomPreviewBeatmapLevel");
-// Writing includes for template specializations
-#include "System/Threading/CancellationToken.hpp"
-#include "UnityEngine/Sprite.hpp"
-#include "GlobalNamespace/StandardLevelInfoSaveData.hpp"
-#include "GlobalNamespace/IAudioClipAsyncLoader.hpp"
-#include "GlobalNamespace/ISpriteAsyncLoader.hpp"
-#include "GlobalNamespace/EnvironmentInfoSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CustomPreviewBeatmapLevel::get_audioClipAsyncLoader
 // Il2CppName: get_audioClipAsyncLoader
 template<>
@@ -440,7 +433,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* (GlobalNamespace::CustomPreviewBeatmapLevel::*)(System::Threading::CancellationToken)>(&GlobalNamespace::CustomPreviewBeatmapLevel::GetPreviewAudioClipAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomPreviewBeatmapLevel*), "GetPreviewAudioClipAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomPreviewBeatmapLevel*), "GetPreviewAudioClipAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::CustomPreviewBeatmapLevel::GetCoverImageAsync
@@ -448,7 +442,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* (GlobalNamespace::CustomPreviewBeatmapLevel::*)(System::Threading::CancellationToken)>(&GlobalNamespace::CustomPreviewBeatmapLevel::GetCoverImageAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomPreviewBeatmapLevel*), "GetCoverImageAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomPreviewBeatmapLevel*), "GetCoverImageAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::CustomPreviewBeatmapLevel::get_previewDifficultyBeatmapSets

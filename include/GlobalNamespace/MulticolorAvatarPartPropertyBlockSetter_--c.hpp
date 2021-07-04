@@ -58,8 +58,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::$$c*, "", "MulticolorAvatarPartPropertyBlockSetter/<>c");
-// Writing includes for template specializations
-#include "GlobalNamespace/MulticolorAvatarPartPropertyBlockSetter_ColorData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -73,7 +71,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::$$c::*)(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*)>(&GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::$$c::$OnValidate$b__10_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::$$c*), "<OnValidate>b__10_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::ColorData*>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("", "MulticolorAvatarPartPropertyBlockSetter/ColorData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::$$c*), "<OnValidate>b__10_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MulticolorAvatarPartPropertyBlockSetter::$$c::New_ctor

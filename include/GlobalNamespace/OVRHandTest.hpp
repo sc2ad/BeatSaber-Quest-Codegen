@@ -165,7 +165,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRHandTest) == 0x174);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHandTest*, "", "OVRHandTest");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRHandTest::Start
 // Il2CppName: Start
 template<>

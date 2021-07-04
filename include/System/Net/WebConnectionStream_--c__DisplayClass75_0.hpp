@@ -58,14 +58,13 @@ namespace System::Net {
   static_assert(sizeof(WebConnectionStream::$$c__DisplayClass75_0) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionStream::$$c__DisplayClass75_0*, "System.Net", "WebConnectionStream/<>c__DisplayClass75_0");
-// Writing includes for template specializations
-#include "System/Net/SimpleAsyncResult.hpp"
 // Writing MetadataGetter for method: System::Net::WebConnectionStream::$$c__DisplayClass75_0::$SetHeadersAsync$b__0
 // Il2CppName: <SetHeadersAsync>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnectionStream::$$c__DisplayClass75_0::*)(System::Net::SimpleAsyncResult*)>(&System::Net::WebConnectionStream::$$c__DisplayClass75_0::$SetHeadersAsync$b__0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionStream::$$c__DisplayClass75_0*), "<SetHeadersAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::SimpleAsyncResult*>()});
+    static auto* r = &::il2cpp_utils::GetClassFromName("System.Net", "SimpleAsyncResult")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionStream::$$c__DisplayClass75_0*), "<SetHeadersAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{r});
   }
 };
 // Writing MetadataGetter for method: System::Net::WebConnectionStream::$$c__DisplayClass75_0::New_ctor

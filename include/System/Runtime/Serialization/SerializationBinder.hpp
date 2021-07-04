@@ -45,14 +45,15 @@ namespace System::Runtime::Serialization {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::SerializationBinder*, "System.Runtime.Serialization", "SerializationBinder");
-// Writing includes for template specializations
-#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationBinder::BindToName
 // Il2CppName: BindToName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::SerializationBinder::*)(System::Type*, ::Il2CppString*&, ::Il2CppString*&)>(&System::Runtime::Serialization::SerializationBinder::BindToName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationBinder*), "BindToName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    static auto* serializedType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    static auto* assemblyName = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
+    static auto* typeName = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationBinder*), "BindToName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serializedType, assemblyName, typeName});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationBinder::BindToType
@@ -60,7 +61,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::Runtime::Serialization::SerializationBinder::*)(::Il2CppString*, ::Il2CppString*)>(&System::Runtime::Serialization::SerializationBinder::BindToType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationBinder*), "BindToType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* assemblyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* typeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationBinder*), "BindToType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assemblyName, typeName});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationBinder::New_ctor

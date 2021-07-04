@@ -58,13 +58,13 @@ namespace NUnit::Framework::Internal::Builders {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::CombinatorialStrategy*, "NUnit.Framework.Internal.Builders", "CombinatorialStrategy");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::CombinatorialStrategy::GetTestCases
 // Il2CppName: GetTestCases
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestCaseData*>* (NUnit::Framework::Internal::Builders::CombinatorialStrategy::*)(::Array<System::Collections::IEnumerable*>*)>(&NUnit::Framework::Internal::Builders::CombinatorialStrategy::GetTestCases)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::CombinatorialStrategy*), "GetTestCases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<System::Collections::IEnumerable*>*>()});
+    static auto* sources = &classof(::Array<::Array<System::Collections::IEnumerable*>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::CombinatorialStrategy*), "GetTestCases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sources});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::CombinatorialStrategy::New_ctor

@@ -52,9 +52,6 @@ namespace System::Runtime::Remoting::Channels {
   static_assert(sizeof(AsyncRequest) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Channels::AsyncRequest*, "System.Runtime.Remoting.Channels", "AsyncRequest");
-// Writing includes for template specializations
-#include "System/Runtime/Remoting/Messaging/IMessage.hpp"
-#include "System/Runtime/Remoting/Messaging/IMessageSink.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::AsyncRequest::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

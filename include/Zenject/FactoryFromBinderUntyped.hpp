@@ -50,11 +50,6 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FactoryFromBinderUntyped*, "Zenject", "FactoryFromBinderUntyped");
-// Writing includes for template specializations
-#include "Zenject/DiContainer.hpp"
-#include "System/Type.hpp"
-#include "Zenject/BindInfo.hpp"
-#include "Zenject/FactoryBindInfo.hpp"
 // Writing MetadataGetter for method: Zenject::FactoryFromBinderUntyped::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

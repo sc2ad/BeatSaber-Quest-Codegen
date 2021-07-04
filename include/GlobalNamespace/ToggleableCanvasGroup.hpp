@@ -85,7 +85,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(ToggleableCanvasGroup) == 0x29);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ToggleableCanvasGroup*, "", "ToggleableCanvasGroup");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ToggleableCanvasGroup::OnEnable
 // Il2CppName: OnEnable
 template<>
@@ -107,7 +106,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ToggleableCanvasGroup::*)(bool)>(&GlobalNamespace::ToggleableCanvasGroup::HandleToggleValueChanged)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ToggleableCanvasGroup*), "HandleToggleValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* isOn = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ToggleableCanvasGroup*), "HandleToggleValueChanged", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isOn});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ToggleableCanvasGroup::SetCanvasGroupData
@@ -115,7 +115,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ToggleableCanvasGroup::*)(bool)>(&GlobalNamespace::ToggleableCanvasGroup::SetCanvasGroupData)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ToggleableCanvasGroup*), "SetCanvasGroupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* isOn = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ToggleableCanvasGroup*), "SetCanvasGroupData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{isOn});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ToggleableCanvasGroup::New_ctor

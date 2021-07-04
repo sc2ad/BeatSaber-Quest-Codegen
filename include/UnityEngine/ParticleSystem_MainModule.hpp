@@ -118,9 +118,6 @@ namespace UnityEngine {
   static_assert(sizeof(ParticleSystem::MainModule) == 0x8);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ParticleSystem::MainModule, "UnityEngine", "ParticleSystem/MainModule");
-// Writing includes for template specializations
-#include "UnityEngine/ParticleSystem_MinMaxCurve.hpp"
-#include "UnityEngine/ParticleSystem_MinMaxGradient.hpp"
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::MainModule
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -154,7 +151,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::MainModule::*)(UnityEngine::ParticleSystem::MinMaxCurve)>(&UnityEngine::ParticleSystem::MainModule::set_startLifetime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_startLifetime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MinMaxCurve>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/MinMaxCurve")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_startLifetime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::get_startSpeed
@@ -170,7 +168,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::MainModule::*)(UnityEngine::ParticleSystem::MinMaxCurve)>(&UnityEngine::ParticleSystem::MainModule::set_startSpeed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_startSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MinMaxCurve>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/MinMaxCurve")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_startSpeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::get_startSpeedMultiplier
@@ -186,7 +185,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::MainModule::*)(float)>(&UnityEngine::ParticleSystem::MainModule::set_startSpeedMultiplier)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_startSpeedMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_startSpeedMultiplier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::get_startColor
@@ -202,7 +202,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::MainModule::*)(UnityEngine::ParticleSystem::MinMaxGradient)>(&UnityEngine::ParticleSystem::MainModule::set_startColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_startColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MinMaxGradient>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/MinMaxGradient")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_startColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::get_maxParticles
@@ -218,7 +219,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::MainModule::*)(int)>(&UnityEngine::ParticleSystem::MainModule::set_maxParticles)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_maxParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_maxParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::get_duration_Injected
@@ -226,7 +228,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::ParticleSystem::MainModule&)>(&UnityEngine::ParticleSystem::MainModule::get_duration_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "get_duration_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MainModule&>()});
+    static auto* _unity_self = &::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/MainModule")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "get_duration_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_unity_self});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::get_loop_Injected
@@ -234,7 +237,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(U
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::ParticleSystem::MainModule&)>(&UnityEngine::ParticleSystem::MainModule::get_loop_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "get_loop_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MainModule&>()});
+    static auto* _unity_self = &::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/MainModule")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "get_loop_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_unity_self});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::get_startLifetime_Injected
@@ -242,7 +246,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem::MainModule&, UnityEngine::ParticleSystem::MinMaxCurve&)>(&UnityEngine::ParticleSystem::MainModule::get_startLifetime_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "get_startLifetime_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MainModule&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MinMaxCurve&>()});
+    static auto* _unity_self = &::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/MainModule")->this_arg;
+    static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/MinMaxCurve")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "get_startLifetime_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_unity_self, ret});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::set_startLifetime_Injected
@@ -250,7 +256,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem::MainModule&, UnityEngine::ParticleSystem::MinMaxCurve&)>(&UnityEngine::ParticleSystem::MainModule::set_startLifetime_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_startLifetime_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MainModule&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MinMaxCurve&>()});
+    static auto* _unity_self = &::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/MainModule")->this_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/MinMaxCurve")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_startLifetime_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_unity_self, value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::get_startSpeed_Injected
@@ -258,7 +266,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem::MainModule&, UnityEngine::ParticleSystem::MinMaxCurve&)>(&UnityEngine::ParticleSystem::MainModule::get_startSpeed_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "get_startSpeed_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MainModule&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MinMaxCurve&>()});
+    static auto* _unity_self = &::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/MainModule")->this_arg;
+    static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/MinMaxCurve")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "get_startSpeed_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_unity_self, ret});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::set_startSpeed_Injected
@@ -266,7 +276,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem::MainModule&, UnityEngine::ParticleSystem::MinMaxCurve&)>(&UnityEngine::ParticleSystem::MainModule::set_startSpeed_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_startSpeed_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MainModule&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MinMaxCurve&>()});
+    static auto* _unity_self = &::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/MainModule")->this_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/MinMaxCurve")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_startSpeed_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_unity_self, value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::get_startSpeedMultiplier_Injected
@@ -274,7 +286,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(UnityEngine::ParticleSystem::MainModule&)>(&UnityEngine::ParticleSystem::MainModule::get_startSpeedMultiplier_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "get_startSpeedMultiplier_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MainModule&>()});
+    static auto* _unity_self = &::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/MainModule")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "get_startSpeedMultiplier_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_unity_self});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::set_startSpeedMultiplier_Injected
@@ -282,7 +295,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(U
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem::MainModule&, float)>(&UnityEngine::ParticleSystem::MainModule::set_startSpeedMultiplier_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_startSpeedMultiplier_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MainModule&>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* _unity_self = &::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/MainModule")->this_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_startSpeedMultiplier_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_unity_self, value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::get_startColor_Injected
@@ -290,7 +305,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem::MainModule&, UnityEngine::ParticleSystem::MinMaxGradient&)>(&UnityEngine::ParticleSystem::MainModule::get_startColor_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "get_startColor_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MainModule&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MinMaxGradient&>()});
+    static auto* _unity_self = &::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/MainModule")->this_arg;
+    static auto* ret = &::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/MinMaxGradient")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "get_startColor_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_unity_self, ret});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::set_startColor_Injected
@@ -298,7 +315,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem::MainModule&, UnityEngine::ParticleSystem::MinMaxGradient&)>(&UnityEngine::ParticleSystem::MainModule::set_startColor_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_startColor_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MainModule&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MinMaxGradient&>()});
+    static auto* _unity_self = &::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/MainModule")->this_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/MinMaxGradient")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_startColor_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_unity_self, value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::get_maxParticles_Injected
@@ -306,7 +325,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::ParticleSystem::MainModule&)>(&UnityEngine::ParticleSystem::MainModule::get_maxParticles_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "get_maxParticles_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MainModule&>()});
+    static auto* _unity_self = &::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/MainModule")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "get_maxParticles_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_unity_self});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::MainModule::set_maxParticles_Injected
@@ -314,6 +334,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ParticleSystem::MainModule&, int)>(&UnityEngine::ParticleSystem::MainModule::set_maxParticles_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_maxParticles_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::ParticleSystem::MainModule&>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* _unity_self = &::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/MainModule")->this_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem::MainModule), "set_maxParticles_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_unity_self, value});
   }
 };

@@ -73,7 +73,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(JumpMarker) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::JumpMarker*, "", "JumpMarker");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::JumpMarker::get_id
 // Il2CppName: get_id
 template<>

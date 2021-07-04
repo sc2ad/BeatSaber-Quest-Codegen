@@ -133,14 +133,14 @@ namespace GlobalNamespace {
   static_assert(sizeof(EffectPoolsManualInstaller) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EffectPoolsManualInstaller*, "", "EffectPoolsManualInstaller");
-// Writing includes for template specializations
-#include "Zenject/DiContainer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::EffectPoolsManualInstaller::ManualInstallBindings
 // Il2CppName: ManualInstallBindings
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EffectPoolsManualInstaller::*)(Zenject::DiContainer*, bool)>(&GlobalNamespace::EffectPoolsManualInstaller::ManualInstallBindings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EffectPoolsManualInstaller*), "ManualInstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
+    static auto* shortBeatEffect = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EffectPoolsManualInstaller*), "ManualInstallBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container, shortBeatEffect});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::EffectPoolsManualInstaller::New_ctor

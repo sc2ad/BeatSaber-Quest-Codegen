@@ -55,7 +55,6 @@ namespace TMPro {
   static_assert(sizeof(TMP_Settings::LineBreakingTable) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Settings::LineBreakingTable*, "TMPro", "TMP_Settings/LineBreakingTable");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: TMPro::TMP_Settings::LineBreakingTable::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

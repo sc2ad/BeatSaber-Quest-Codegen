@@ -91,15 +91,15 @@ namespace System::Reflection {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::MonoPropertyInfo, "System.Reflection", "MonoPropertyInfo");
-// Writing includes for template specializations
-#include "System/Reflection/MonoProperty.hpp"
-#include "System/Reflection/PInfo.hpp"
 // Writing MetadataGetter for method: System::Reflection::MonoPropertyInfo::get_property_info
 // Il2CppName: get_property_info
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::MonoProperty*, System::Reflection::MonoPropertyInfo&, System::Reflection::PInfo)>(&System::Reflection::MonoPropertyInfo::get_property_info)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoPropertyInfo), "get_property_info", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MonoProperty*>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MonoPropertyInfo&>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::PInfo>()});
+    static auto* prop = &::il2cpp_utils::GetClassFromName("System.Reflection", "MonoProperty")->byval_arg;
+    static auto* info = &::il2cpp_utils::GetClassFromName("System.Reflection", "MonoPropertyInfo")->this_arg;
+    static auto* req_info = &::il2cpp_utils::GetClassFromName("System.Reflection", "PInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoPropertyInfo), "get_property_info", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prop, info, req_info});
   }
 };
 // Writing MetadataGetter for method: System::Reflection::MonoPropertyInfo::GetTypeModifiers
@@ -107,7 +107,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (*)(System::Reflection::MonoProperty*, bool)>(&System::Reflection::MonoPropertyInfo::GetTypeModifiers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoPropertyInfo), "GetTypeModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MonoProperty*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* prop = &::il2cpp_utils::GetClassFromName("System.Reflection", "MonoProperty")->byval_arg;
+    static auto* optional = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoPropertyInfo), "GetTypeModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prop, optional});
   }
 };
 // Writing MetadataGetter for method: System::Reflection::MonoPropertyInfo::get_default_value
@@ -115,6 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Sys
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Reflection::MonoProperty*)>(&System::Reflection::MonoPropertyInfo::get_default_value)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoPropertyInfo), "get_default_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::MonoProperty*>()});
+    static auto* prop = &::il2cpp_utils::GetClassFromName("System.Reflection", "MonoProperty")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Reflection::MonoPropertyInfo), "get_default_value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prop});
   }
 };

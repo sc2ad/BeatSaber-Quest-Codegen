@@ -114,7 +114,6 @@ namespace Oculus::Platform {
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Matchmaking::CustomQuery*, "Oculus.Platform", "Matchmaking/CustomQuery");
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Matchmaking::CustomQuery::Criterion, "Oculus.Platform", "Matchmaking/CustomQuery/Criterion");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::Matchmaking::CustomQuery::ToUnmanaged
 // Il2CppName: ToUnmanaged
 template<>

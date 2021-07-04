@@ -32,14 +32,14 @@ namespace System::Net {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetRes*, "System.Net", "NetRes");
-// Writing includes for template specializations
-#include "System/Net/WebExceptionStatus.hpp"
 // Writing MetadataGetter for method: System::Net::NetRes::GetWebStatusString
 // Il2CppName: GetWebStatusString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, System::Net::WebExceptionStatus)>(&System::Net::NetRes::GetWebStatusString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::NetRes*), "GetWebStatusString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::WebExceptionStatus>()});
+    static auto* Res = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* Status = &::il2cpp_utils::GetClassFromName("System.Net", "WebExceptionStatus")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetRes*), "GetWebStatusString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{Res, Status});
   }
 };
 // Writing MetadataGetter for method: System::Net::NetRes::GetWebStatusString
@@ -47,6 +47,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Net::WebExceptionStatus)>(&System::Net::NetRes::GetWebStatusString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::NetRes*), "GetWebStatusString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::WebExceptionStatus>()});
+    static auto* Status = &::il2cpp_utils::GetClassFromName("System.Net", "WebExceptionStatus")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetRes*), "GetWebStatusString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{Status});
   }
 };

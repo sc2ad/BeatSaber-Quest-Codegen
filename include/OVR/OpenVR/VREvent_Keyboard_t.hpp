@@ -88,7 +88,6 @@ namespace OVR::OpenVR {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::VREvent_Keyboard_t, "OVR.OpenVR", "VREvent_Keyboard_t");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: OVR::OpenVR::VREvent_Keyboard_t::get_cNewInput
 // Il2CppName: get_cNewInput
 template<>

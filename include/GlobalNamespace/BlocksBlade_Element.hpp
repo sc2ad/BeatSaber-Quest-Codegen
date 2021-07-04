@@ -47,7 +47,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(BlocksBlade::Element) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlocksBlade::Element*, "", "BlocksBlade/Element");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BlocksBlade::Element::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

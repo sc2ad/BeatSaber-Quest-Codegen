@@ -22,7 +22,6 @@ namespace Org::BouncyCastle::OpenSsl {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::OpenSsl::IPasswordFinder*, "Org.BouncyCastle.OpenSsl", "IPasswordFinder");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::OpenSsl::IPasswordFinder::GetPassword
 // Il2CppName: GetPassword
 template<>

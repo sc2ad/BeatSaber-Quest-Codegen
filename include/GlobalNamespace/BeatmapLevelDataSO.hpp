@@ -76,7 +76,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapLevelDataSO) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataSO*, "", "BeatmapLevelDataSO");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataSO::get_audioClip
 // Il2CppName: get_audioClip
 template<>

@@ -77,8 +77,6 @@ namespace System::Runtime::CompilerServices {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter, "System.Runtime.CompilerServices", "YieldAwaitable/YieldAwaiter");
-// Writing includes for template specializations
-#include "System/Action.hpp"
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter::get_IsCompleted
 // Il2CppName: get_IsCompleted
 template<>
@@ -92,7 +90,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter::*)(System::Action*)>(&System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter::OnCompleted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter), "OnCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    static auto* continuation = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter), "OnCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{continuation});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter::UnsafeOnCompleted
@@ -100,7 +99,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter::*)(System::Action*)>(&System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter::UnsafeOnCompleted)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter), "UnsafeOnCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    static auto* continuation = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter), "UnsafeOnCompleted", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{continuation});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter::QueueContinuation
@@ -108,7 +108,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action*, bool)>(&System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter::QueueContinuation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter), "QueueContinuation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* continuation = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    static auto* flowContext = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter), "QueueContinuation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{continuation, flowContext});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter::RunAction
@@ -116,7 +118,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppObject*)>(&System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter::RunAction)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter), "RunAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter), "RunAction", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter::GetResult

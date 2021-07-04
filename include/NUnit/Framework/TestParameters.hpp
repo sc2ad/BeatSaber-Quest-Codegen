@@ -70,13 +70,14 @@ namespace NUnit::Framework {
   static_assert(sizeof(TestParameters) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::TestParameters*, "NUnit.Framework", "TestParameters");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: NUnit::Framework::TestParameters::Add
 // Il2CppName: Add
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::TestParameters::*)(::Il2CppString*, ::Il2CppString*)>(&NUnit::Framework::TestParameters::Add)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::TestParameters*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::TestParameters*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, value});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::TestParameters::CreateModifiedInvariantCulture

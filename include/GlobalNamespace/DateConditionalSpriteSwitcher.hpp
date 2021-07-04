@@ -88,7 +88,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(DateConditionalSpriteSwitcher) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DateConditionalSpriteSwitcher*, "", "DateConditionalSpriteSwitcher");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::DateConditionalSpriteSwitcher::Awake
 // Il2CppName: Awake
 template<>

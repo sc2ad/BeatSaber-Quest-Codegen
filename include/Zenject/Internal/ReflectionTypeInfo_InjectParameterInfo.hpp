@@ -58,9 +58,6 @@ namespace Zenject::Internal {
   static_assert(sizeof(ReflectionTypeInfo::InjectParameterInfo) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo*, "Zenject.Internal", "ReflectionTypeInfo/InjectParameterInfo");
-// Writing includes for template specializations
-#include "System/Reflection/ParameterInfo.hpp"
-#include "Zenject/InjectableInfo.hpp"
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionTypeInfo::InjectParameterInfo::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

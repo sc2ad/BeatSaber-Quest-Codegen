@@ -75,9 +75,6 @@ namespace Assets::OVR::Scripts {
   static_assert(sizeof(FixRecord) == 0x3A);
 }
 DEFINE_IL2CPP_ARG_TYPE(Assets::OVR::Scripts::FixRecord*, "Assets.OVR.Scripts", "FixRecord");
-// Writing includes for template specializations
-#include "Assets/OVR/Scripts/FixMethodDelegate.hpp"
-#include "UnityEngine/Object.hpp"
 // Writing MetadataGetter for method: Assets::OVR::Scripts::FixRecord::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

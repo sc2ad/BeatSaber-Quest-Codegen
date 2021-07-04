@@ -80,7 +80,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(UnifiedNetworkPlayerModel::CreatePartyConfig) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig*, "", "UnifiedNetworkPlayerModel/CreatePartyConfig");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::UnifiedNetworkPlayerModel::CreatePartyConfig::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

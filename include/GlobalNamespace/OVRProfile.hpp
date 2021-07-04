@@ -65,7 +65,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRProfile*, "", "OVRProfile");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRProfile::get_id
 // Il2CppName: get_id
 template<>

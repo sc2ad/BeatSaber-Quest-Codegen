@@ -94,8 +94,6 @@ namespace HMUI {
   static_assert(sizeof(ScreenModeController) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScreenModeController*, "HMUI", "ScreenModeController");
-// Writing includes for template specializations
-#include "HMUI/ScreenModeData.hpp"
 // Writing MetadataGetter for method: HMUI::ScreenModeController::Awake
 // Il2CppName: Awake
 template<>
@@ -109,7 +107,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScreenModeController::*)(HMUI::ScreenModeData*)>(&HMUI::ScreenModeController::SetMode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::ScreenModeController*), "SetMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::ScreenModeData*>()});
+    static auto* screenModeData = &::il2cpp_utils::GetClassFromName("HMUI", "ScreenModeData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScreenModeController*), "SetMode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{screenModeData});
   }
 };
 // Writing MetadataGetter for method: HMUI::ScreenModeController::SetDefaultMode

@@ -113,18 +113,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockPlayerGamePoseGeneratorAI) == 0x44);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerGamePoseGeneratorAI*, "", "MockPlayerGamePoseGeneratorAI");
-// Writing includes for template specializations
-#include "GlobalNamespace/IMultiplayerSessionManager.hpp"
-#include "GlobalNamespace/IGameplayRpcManager.hpp"
-#include "GlobalNamespace/IMockPlayerScoreCalculator.hpp"
-#include "GlobalNamespace/NoteCutDirection.hpp"
-#include "GlobalNamespace/MockNoteData.hpp"
-#include "UnityEngine/Vector3.hpp"
-#include "UnityEngine/Pose.hpp"
-#include "GlobalNamespace/MockBeatmapData.hpp"
-#include "GlobalNamespace/GameplayModifiers.hpp"
-#include "System/Threading/CancellationToken.hpp"
-#include "System/Action.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerGamePoseGeneratorAI::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -134,7 +122,8 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockPlayerGamePoseGeneratorAI*, "", "Moc
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(GlobalNamespace::NoteCutDirection)>(&GlobalNamespace::MockPlayerGamePoseGeneratorAI::GetCutDirection)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerGamePoseGeneratorAI*), "GetCutDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NoteCutDirection>()});
+    static auto* cutDirection = &::il2cpp_utils::GetClassFromName("", "NoteCutDirection")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerGamePoseGeneratorAI*), "GetCutDirection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cutDirection});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerGamePoseGeneratorAI::GetNotePosition
@@ -142,7 +131,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(int, GlobalNamespace::MockNoteData*)>(&GlobalNamespace::MockPlayerGamePoseGeneratorAI::GetNotePosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerGamePoseGeneratorAI*), "GetNotePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockNoteData*>()});
+    static auto* lineCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* noteData = &::il2cpp_utils::GetClassFromName("", "MockNoteData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerGamePoseGeneratorAI*), "GetNotePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lineCount, noteData});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerGamePoseGeneratorAI::Blerp
@@ -150,7 +141,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::Vector3, float)>(&GlobalNamespace::MockPlayerGamePoseGeneratorAI::Blerp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerGamePoseGeneratorAI*), "Blerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* prevStart = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* prevEnd = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* currStart = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* currEnd = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerGamePoseGeneratorAI*), "Blerp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prevStart, prevEnd, currStart, currEnd, t});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerGamePoseGeneratorAI::ProcessNotes
@@ -158,7 +154,17 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Pose (GlobalNamespace::MockPlayerGamePoseGeneratorAI::*)(::Array<GlobalNamespace::MockNoteData*>*, UnityEngine::Vector3, int&, int&, int&, ::Array<GlobalNamespace::MockNoteData*>*, int&, int, float, bool&)>(&GlobalNamespace::MockPlayerGamePoseGeneratorAI::ProcessNotes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerGamePoseGeneratorAI*), "ProcessNotes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::MockNoteData*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::MockNoteData*>*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    static auto* notes = &classof(::Array<::Array<GlobalNamespace::MockNoteData*>*>*)->byval_arg;
+    static auto* handDirection = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* noteIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* prevHitScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* nextHitScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* bombs = &classof(::Array<::Array<GlobalNamespace::MockNoteData*>*>*)->byval_arg;
+    static auto* bombIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* lineCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* songTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* wasHitOrMiss = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerGamePoseGeneratorAI*), "ProcessNotes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{notes, handDirection, noteIndex, prevHitScore, nextHitScore, bombs, bombIndex, lineCount, songTime, wasHitOrMiss});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerGamePoseGeneratorAI::ProcessObstacles
@@ -166,7 +172,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Pose (GlobalNamespace::MockPlayerGamePoseGeneratorAI::*)(::Array<GlobalNamespace::MockObstacleData*>*, int&, int, UnityEngine::Pose, UnityEngine::Pose, UnityEngine::Pose, float)>(&GlobalNamespace::MockPlayerGamePoseGeneratorAI::ProcessObstacles)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerGamePoseGeneratorAI*), "ProcessObstacles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::MockObstacleData*>*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Pose>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Pose>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Pose>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* obstacles = &classof(::Array<::Array<GlobalNamespace::MockObstacleData*>*>*)->byval_arg;
+    static auto* obstacleIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* lineCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* prevHeadPose = &::il2cpp_utils::GetClassFromName("UnityEngine", "Pose")->byval_arg;
+    static auto* leftHandPose = &::il2cpp_utils::GetClassFromName("UnityEngine", "Pose")->byval_arg;
+    static auto* rightHandPose = &::il2cpp_utils::GetClassFromName("UnityEngine", "Pose")->byval_arg;
+    static auto* songTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerGamePoseGeneratorAI*), "ProcessObstacles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obstacles, obstacleIndex, lineCount, prevHeadPose, leftHandPose, rightHandPose, songTime});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerGamePoseGeneratorAI::UpdateScore
@@ -174,7 +187,18 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerGamePoseGeneratorAI::*)(int&, int&, int&, int, int, UnityEngine::Pose, UnityEngine::Pose, float, float, GlobalNamespace::MockNoteData*, GlobalNamespace::MockNoteData*)>(&GlobalNamespace::MockPlayerGamePoseGeneratorAI::UpdateScore)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerGamePoseGeneratorAI*), "UpdateScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Pose>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Pose>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockNoteData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockNoteData*>()});
+    static auto* currentScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* currentCombo = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* currentMultiplier = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* hitScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* lineCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* lastPose = &::il2cpp_utils::GetClassFromName("UnityEngine", "Pose")->byval_arg;
+    static auto* currentPose = &::il2cpp_utils::GetClassFromName("UnityEngine", "Pose")->byval_arg;
+    static auto* lastSongTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* songTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* noteData = &::il2cpp_utils::GetClassFromName("", "MockNoteData")->byval_arg;
+    static auto* nextNoteData = &::il2cpp_utils::GetClassFromName("", "MockNoteData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerGamePoseGeneratorAI*), "UpdateScore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{currentScore, currentCombo, currentMultiplier, hitScore, lineCount, lastPose, currentPose, lastSongTime, songTime, noteData, nextNoteData});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerGamePoseGeneratorAI::SendPoses
@@ -182,7 +206,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockPlayerGamePoseGeneratorAI::*)(float, GlobalNamespace::MockBeatmapData*, GlobalNamespace::GameplayModifiers*, System::Threading::CancellationToken, System::Action*)>(&GlobalNamespace::MockPlayerGamePoseGeneratorAI::SendPoses)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerGamePoseGeneratorAI*), "SendPoses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MockBeatmapData*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayModifiers*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    static auto* introStartTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* beatmapData = &::il2cpp_utils::GetClassFromName("", "MockBeatmapData")->byval_arg;
+    static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
+    static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
+    static auto* onSongFinished = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockPlayerGamePoseGeneratorAI*), "SendPoses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{introStartTime, beatmapData, gameplayModifiers, cancellationToken, onSongFinished});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerGamePoseGeneratorAI::SimulateFail

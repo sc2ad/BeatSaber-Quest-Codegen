@@ -429,15 +429,14 @@ namespace System {
   static_assert(sizeof(TermInfoDriver) == 0x11C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::TermInfoDriver*, "System", "TermInfoDriver");
-// Writing includes for template specializations
-#include "System/ConsoleKeyInfo.hpp"
-#include "System/TermInfoStrings.hpp"
 // Writing MetadataGetter for method: System::TermInfoDriver::TryTermInfoDir
 // Il2CppName: TryTermInfoDir
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppString*)>(&System::TermInfoDriver::TryTermInfoDir)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "TryTermInfoDir", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* dir = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* term = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "TryTermInfoDir", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dir, term});
   }
 };
 // Writing MetadataGetter for method: System::TermInfoDriver::SearchTerminfo
@@ -445,7 +444,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::TermInfoDriver::SearchTerminfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "SearchTerminfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* term = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "SearchTerminfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{term});
   }
 };
 // Writing MetadataGetter for method: System::TermInfoDriver::WriteConsole
@@ -453,7 +453,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoDriver::*)(::Il2CppString*)>(&System::TermInfoDriver::WriteConsole)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "WriteConsole", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "WriteConsole", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
   }
 };
 // Writing MetadataGetter for method: System::TermInfoDriver::New_ctor
@@ -489,7 +490,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoDriver::*)(System::ConsoleKeyInfo)>(&System::TermInfoDriver::WriteSpecialKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "WriteSpecialKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ConsoleKeyInfo>()});
+    static auto* key = &::il2cpp_utils::GetClassFromName("System", "ConsoleKeyInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "WriteSpecialKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
   }
 };
 // Writing MetadataGetter for method: System::TermInfoDriver::WriteSpecialKey
@@ -497,7 +499,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoDriver::*)(::Il2CppChar)>(&System::TermInfoDriver::WriteSpecialKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "WriteSpecialKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    static auto* c = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "WriteSpecialKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
 };
 // Writing MetadataGetter for method: System::TermInfoDriver::IsSpecialKey
@@ -505,7 +508,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::TermInfoDriver::*)(System::ConsoleKeyInfo)>(&System::TermInfoDriver::IsSpecialKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "IsSpecialKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ConsoleKeyInfo>()});
+    static auto* key = &::il2cpp_utils::GetClassFromName("System", "ConsoleKeyInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "IsSpecialKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
   }
 };
 // Writing MetadataGetter for method: System::TermInfoDriver::IsSpecialKey
@@ -513,7 +517,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::TermInfoDriver::*)(::Il2CppChar)>(&System::TermInfoDriver::IsSpecialKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "IsSpecialKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    static auto* c = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "IsSpecialKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
 };
 // Writing MetadataGetter for method: System::TermInfoDriver::GetCursorPosition
@@ -553,7 +558,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoDriver::*)(int)>(&System::TermInfoDriver::AddToBuffer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "AddToBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* b = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "AddToBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{b});
   }
 };
 // Writing MetadataGetter for method: System::TermInfoDriver::AdjustBuffer
@@ -569,7 +575,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ConsoleKeyInfo (System::TermInfoDriver::*)(int, bool)>(&System::TermInfoDriver::CreateKeyInfoFromInt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "CreateKeyInfoFromInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* n = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* alt = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "CreateKeyInfoFromInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{n, alt});
   }
 };
 // Writing MetadataGetter for method: System::TermInfoDriver::GetKeyFromBuffer
@@ -577,7 +585,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Con
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::TermInfoDriver::*)(bool)>(&System::TermInfoDriver::GetKeyFromBuffer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "GetKeyFromBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* cooked = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "GetKeyFromBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cooked});
   }
 };
 // Writing MetadataGetter for method: System::TermInfoDriver::ReadKeyInternal
@@ -585,7 +594,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ConsoleKeyInfo (System::TermInfoDriver::*)(bool&)>(&System::TermInfoDriver::ReadKeyInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "ReadKeyInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool&>()});
+    static auto* fresh = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "ReadKeyInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fresh});
   }
 };
 // Writing MetadataGetter for method: System::TermInfoDriver::InputPending
@@ -601,7 +611,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoDriver::*)(::Il2CppChar)>(&System::TermInfoDriver::QueueEcho)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "QueueEcho", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    static auto* c = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "QueueEcho", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
 };
 // Writing MetadataGetter for method: System::TermInfoDriver::Echo
@@ -609,7 +620,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoDriver::*)(System::ConsoleKeyInfo)>(&System::TermInfoDriver::Echo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "Echo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ConsoleKeyInfo>()});
+    static auto* key = &::il2cpp_utils::GetClassFromName("System", "ConsoleKeyInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "Echo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
   }
 };
 // Writing MetadataGetter for method: System::TermInfoDriver::EchoFlush
@@ -625,7 +637,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TermInfoDriver::*)(::Array<::Il2CppChar>*&, int, int)>(&System::TermInfoDriver::Read)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* dest = &classof(::Array<::Array<::Il2CppChar>*>*)->this_arg;
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dest, index, count});
   }
 };
 // Writing MetadataGetter for method: System::TermInfoDriver::ReadKey
@@ -633,7 +648,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ConsoleKeyInfo (System::TermInfoDriver::*)(bool)>(&System::TermInfoDriver::ReadKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "ReadKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* intercept = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "ReadKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{intercept});
   }
 };
 // Writing MetadataGetter for method: System::TermInfoDriver::ReadLine
@@ -657,7 +673,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TermInfoDriver::*)(bool)>(&System::TermInfoDriver::ReadUntilConditionInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "ReadUntilConditionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* haltOnNewLine = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "ReadUntilConditionInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{haltOnNewLine});
   }
 };
 // Writing MetadataGetter for method: System::TermInfoDriver::SetCursorPosition
@@ -665,7 +682,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoDriver::*)(int, int)>(&System::TermInfoDriver::SetCursorPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "SetCursorPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* left = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* top = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "SetCursorPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{left, top});
   }
 };
 // Writing MetadataGetter for method: System::TermInfoDriver::CreateKeyMap
@@ -689,7 +708,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoDriver::*)(System::TermInfoStrings)>(&System::TermInfoDriver::AddStringMapping)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "AddStringMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TermInfoStrings>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "TermInfoStrings")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TermInfoDriver*), "AddStringMapping", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
 };
 // Writing MetadataGetter for method: System::TermInfoDriver::_cctor

@@ -79,14 +79,14 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomFogParamsAnimator) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomFogParamsAnimator*, "", "BloomFogParamsAnimator");
-// Writing includes for template specializations
-#include "GlobalNamespace/BloomFogEnvironmentParams.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogParamsAnimator::AnimateBloomFogParamsChange
 // Il2CppName: AnimateBloomFogParamsChange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomFogParamsAnimator::*)(GlobalNamespace::BloomFogEnvironmentParams*, float)>(&GlobalNamespace::BloomFogParamsAnimator::AnimateBloomFogParamsChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogParamsAnimator*), "AnimateBloomFogParamsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BloomFogEnvironmentParams*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* envFogParams = &::il2cpp_utils::GetClassFromName("", "BloomFogEnvironmentParams")->byval_arg;
+    static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogParamsAnimator*), "AnimateBloomFogParamsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{envFogParams, duration});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogParamsAnimator::AnimationCoroutine
@@ -94,7 +94,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::BloomFogParamsAnimator::*)(GlobalNamespace::BloomFogEnvironmentParams*, float)>(&GlobalNamespace::BloomFogParamsAnimator::AnimationCoroutine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogParamsAnimator*), "AnimationCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BloomFogEnvironmentParams*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* envFogParams = &::il2cpp_utils::GetClassFromName("", "BloomFogEnvironmentParams")->byval_arg;
+    static auto* duration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogParamsAnimator*), "AnimationCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{envFogParams, duration});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogParamsAnimator::SetBloomFogParamsChange
@@ -102,7 +104,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomFogParamsAnimator::*)(GlobalNamespace::BloomFogEnvironmentParams*, float)>(&GlobalNamespace::BloomFogParamsAnimator::SetBloomFogParamsChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogParamsAnimator*), "SetBloomFogParamsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BloomFogEnvironmentParams*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* envFogParams = &::il2cpp_utils::GetClassFromName("", "BloomFogEnvironmentParams")->byval_arg;
+    static auto* transition = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogParamsAnimator*), "SetBloomFogParamsChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{envFogParams, transition});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogParamsAnimator::GetDefaultBloomFogParams
@@ -118,7 +122,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomFogParamsAnimator::*)(GlobalNamespace::BloomFogEnvironmentParams*)>(&GlobalNamespace::BloomFogParamsAnimator::SetDefaultBloomFogParams)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogParamsAnimator*), "SetDefaultBloomFogParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BloomFogEnvironmentParams*>()});
+    static auto* newDefaultBloomFogParams = &::il2cpp_utils::GetClassFromName("", "BloomFogEnvironmentParams")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomFogParamsAnimator*), "SetDefaultBloomFogParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newDefaultBloomFogParams});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BloomFogParamsAnimator::New_ctor

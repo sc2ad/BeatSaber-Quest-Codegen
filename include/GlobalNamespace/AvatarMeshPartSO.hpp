@@ -45,7 +45,6 @@ namespace GlobalNamespace {
   }; // AvatarMeshPartSO
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarMeshPartSO*, "", "AvatarMeshPartSO");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::AvatarMeshPartSO::get_mesh
 // Il2CppName: get_mesh
 template<>

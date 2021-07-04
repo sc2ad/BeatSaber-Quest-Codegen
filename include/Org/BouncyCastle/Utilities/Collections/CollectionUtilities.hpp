@@ -39,16 +39,13 @@ namespace Org::BouncyCastle::Utilities::Collections {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Collections::CollectionUtilities*, "Org.BouncyCastle.Utilities.Collections", "CollectionUtilities");
-// Writing includes for template specializations
-#include "System/Collections/IDictionary.hpp"
-#include "System/Collections/IEnumerator.hpp"
-#include "System/Collections/IEnumerable.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::CollectionUtilities::ReadOnly
 // Il2CppName: ReadOnly
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IDictionary* (*)(System::Collections::IDictionary*)>(&Org::BouncyCastle::Utilities::Collections::CollectionUtilities::ReadOnly)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::CollectionUtilities*), "ReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IDictionary*>()});
+    static auto* d = &::il2cpp_utils::GetClassFromName("System.Collections", "IDictionary")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::CollectionUtilities*), "ReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{d});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::CollectionUtilities::RequireNext
@@ -56,7 +53,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Collections::IEnumerator*)>(&Org::BouncyCastle::Utilities::Collections::CollectionUtilities::RequireNext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::CollectionUtilities*), "RequireNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerator*>()});
+    static auto* e = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerator")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::CollectionUtilities*), "RequireNext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{e});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Collections::CollectionUtilities::ToString
@@ -64,6 +62,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::Collections::IEnumerable*)>(&Org::BouncyCastle::Utilities::Collections::CollectionUtilities::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::CollectionUtilities*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::IEnumerable*>()});
+    static auto* c = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerable")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Collections::CollectionUtilities*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
 };

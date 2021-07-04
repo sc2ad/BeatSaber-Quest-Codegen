@@ -58,8 +58,6 @@ namespace Valve::VR {
   static_assert(sizeof(CVRDriverManager) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRDriverManager*, "Valve.VR", "CVRDriverManager");
-// Writing includes for template specializations
-#include "System/Text/StringBuilder.hpp"
 // Writing MetadataGetter for method: Valve::VR::CVRDriverManager::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -77,6 +75,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRDriverManager::*)(uint, System::Text::StringBuilder*, uint)>(&Valve::VR::CVRDriverManager::GetDriverName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRDriverManager*), "GetDriverName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>(), ::il2cpp_utils::ExtractIndependentType<uint>()});
+    static auto* nDriver = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* pchValue = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
+    static auto* unBufferSize = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRDriverManager*), "GetDriverName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nDriver, pchValue, unBufferSize});
   }
 };

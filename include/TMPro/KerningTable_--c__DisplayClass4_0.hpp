@@ -58,14 +58,13 @@ namespace TMPro {
   static_assert(sizeof(KerningTable::$$c__DisplayClass4_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningTable::$$c__DisplayClass4_0*, "TMPro", "KerningTable/<>c__DisplayClass4_0");
-// Writing includes for template specializations
-#include "TMPro/KerningPair.hpp"
 // Writing MetadataGetter for method: TMPro::KerningTable::$$c__DisplayClass4_0::$AddGlyphPairAdjustmentRecord$b__0
 // Il2CppName: <AddGlyphPairAdjustmentRecord>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::KerningTable::$$c__DisplayClass4_0::*)(TMPro::KerningPair*)>(&TMPro::KerningTable::$$c__DisplayClass4_0::$AddGlyphPairAdjustmentRecord$b__0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::KerningTable::$$c__DisplayClass4_0*), "<AddGlyphPairAdjustmentRecord>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::KerningPair*>()});
+    static auto* item = &::il2cpp_utils::GetClassFromName("TMPro", "KerningPair")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::KerningTable::$$c__DisplayClass4_0*), "<AddGlyphPairAdjustmentRecord>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{item});
   }
 };
 // Writing MetadataGetter for method: TMPro::KerningTable::$$c__DisplayClass4_0::New_ctor

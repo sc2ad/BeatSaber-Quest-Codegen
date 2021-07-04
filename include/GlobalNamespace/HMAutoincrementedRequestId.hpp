@@ -72,7 +72,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(HMAutoincrementedRequestId) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMAutoincrementedRequestId*, "", "HMAutoincrementedRequestId");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::HMAutoincrementedRequestId::get_RequestId
 // Il2CppName: get_RequestId
 template<>
@@ -86,7 +85,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (G
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::HMAutoincrementedRequestId::*)(GlobalNamespace::HMAutoincrementedRequestId*)>(&GlobalNamespace::HMAutoincrementedRequestId::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMAutoincrementedRequestId*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::HMAutoincrementedRequestId*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("", "HMAutoincrementedRequestId")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMAutoincrementedRequestId*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::HMAutoincrementedRequestId::_cctor
@@ -106,7 +106,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::HMAutoincrementedRequestId::*)(::Il2CppObject*)>(&GlobalNamespace::HMAutoincrementedRequestId::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMAutoincrementedRequestId*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMAutoincrementedRequestId*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::HMAutoincrementedRequestId::GetHashCode

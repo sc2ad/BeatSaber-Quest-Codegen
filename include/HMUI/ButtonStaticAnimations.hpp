@@ -102,7 +102,6 @@ namespace HMUI {
   static_assert(sizeof(ButtonStaticAnimations) == 0x41);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ButtonStaticAnimations*, "HMUI", "ButtonStaticAnimations");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::ButtonStaticAnimations::Awake
 // Il2CppName: Awake
 template<>
@@ -140,7 +139,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ButtonStaticAnimations::*)(HMUI::NoTransitionsButton::SelectionState)>(&HMUI::ButtonStaticAnimations::HandleButtonSelectionStateDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::ButtonStaticAnimations*), "HandleButtonSelectionStateDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::NoTransitionsButton::SelectionState>()});
+    static auto* state = &::il2cpp_utils::GetClassFromName("HMUI", "NoTransitionsButton/SelectionState")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ButtonStaticAnimations*), "HandleButtonSelectionStateDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
   }
 };
 // Writing MetadataGetter for method: HMUI::ButtonStaticAnimations::New_ctor

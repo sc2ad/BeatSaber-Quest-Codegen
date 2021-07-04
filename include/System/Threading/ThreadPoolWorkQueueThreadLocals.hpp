@@ -71,7 +71,6 @@ namespace System::Threading {
   static_assert(sizeof(ThreadPoolWorkQueueThreadLocals) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::ThreadPoolWorkQueueThreadLocals*, "System.Threading", "ThreadPoolWorkQueueThreadLocals");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Threading::ThreadPoolWorkQueueThreadLocals::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

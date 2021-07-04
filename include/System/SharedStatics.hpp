@@ -58,8 +58,6 @@ namespace System {
   static_assert(sizeof(SharedStatics) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::SharedStatics*, "System", "SharedStatics");
-// Writing includes for template specializations
-#include "System/Security/Util/Tokenizer_StringMaker.hpp"
 // Writing MetadataGetter for method: System::SharedStatics::GetSharedStringMaker
 // Il2CppName: GetSharedStringMaker
 template<>
@@ -73,7 +71,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Security::Util::Tokenizer::StringMaker*&)>(&System::SharedStatics::ReleaseSharedStringMaker)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::SharedStatics*), "ReleaseSharedStringMaker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Util::Tokenizer::StringMaker*&>()});
+    static auto* maker = &::il2cpp_utils::GetClassFromName("System.Security.Util", "Tokenizer/StringMaker")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::SharedStatics*), "ReleaseSharedStringMaker", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{maker});
   }
 };
 // Writing MetadataGetter for method: System::SharedStatics::_cctor

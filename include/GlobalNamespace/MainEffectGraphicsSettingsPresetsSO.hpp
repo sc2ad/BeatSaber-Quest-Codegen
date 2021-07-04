@@ -64,7 +64,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MainEffectGraphicsSettingsPresetsSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*, "", "MainEffectGraphicsSettingsPresetsSO");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::get_presets
 // Il2CppName: get_presets
 template<>

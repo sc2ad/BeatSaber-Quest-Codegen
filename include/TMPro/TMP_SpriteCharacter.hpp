@@ -71,8 +71,6 @@ namespace TMPro {
   static_assert(sizeof(TMP_SpriteCharacter) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteCharacter*, "TMPro", "TMP_SpriteCharacter");
-// Writing includes for template specializations
-#include "TMPro/TMP_SpriteGlyph.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_SpriteCharacter::get_name
 // Il2CppName: get_name
 template<>
@@ -86,7 +84,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_SpriteCharacter::*)(::Il2CppString*)>(&TMPro::TMP_SpriteCharacter::set_name)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteCharacter*), "set_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_SpriteCharacter*), "set_name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_SpriteCharacter::get_hashCode

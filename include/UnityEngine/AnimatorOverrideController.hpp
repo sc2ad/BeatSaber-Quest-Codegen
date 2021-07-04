@@ -77,9 +77,6 @@ namespace UnityEngine {
   static_assert(sizeof(AnimatorOverrideController) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorOverrideController*, "UnityEngine", "AnimatorOverrideController");
-// Writing includes for template specializations
-#include "UnityEngine/AnimationClip.hpp"
-#include "System/Collections/Generic/IList_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::AnimatorOverrideController::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -89,7 +86,9 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorOverrideController*, "UnityEngine", 
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AnimatorOverrideController*, UnityEngine::RuntimeAnimatorController*)>(&UnityEngine::AnimatorOverrideController::Internal_Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimatorOverrideController*), "Internal_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorOverrideController*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RuntimeAnimatorController*>()});
+    static auto* self = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimatorOverrideController")->byval_arg;
+    static auto* controller = &::il2cpp_utils::GetClassFromName("UnityEngine", "RuntimeAnimatorController")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimatorOverrideController*), "Internal_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{self, controller});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AnimatorOverrideController::SetClip
@@ -97,7 +96,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimatorOverrideController::*)(UnityEngine::AnimationClip*, UnityEngine::AnimationClip*, bool)>(&UnityEngine::AnimatorOverrideController::SetClip)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimatorOverrideController*), "SetClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* originalClip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")->byval_arg;
+    static auto* overrideClip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")->byval_arg;
+    static auto* notify = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimatorOverrideController*), "SetClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{originalClip, overrideClip, notify});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AnimatorOverrideController::SendNotification
@@ -113,7 +115,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimatorOverrideController::*)(System::Collections::Generic::IList_1<System::Collections::Generic::KeyValuePair_2<UnityEngine::AnimationClip*, UnityEngine::AnimationClip*>>*)>(&UnityEngine::AnimatorOverrideController::ApplyOverrides)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimatorOverrideController*), "ApplyOverrides", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<System::Collections::Generic::KeyValuePair_2<UnityEngine::AnimationClip*, UnityEngine::AnimationClip*>>*>()});
+    static auto* overrides = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "KeyValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip"), ::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")})})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimatorOverrideController*), "ApplyOverrides", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{overrides});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AnimatorOverrideController::OnInvalidateOverrideController
@@ -121,6 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AnimatorOverrideController*)>(&UnityEngine::AnimatorOverrideController::OnInvalidateOverrideController)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimatorOverrideController*), "OnInvalidateOverrideController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimatorOverrideController*>()});
+    static auto* controller = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimatorOverrideController")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimatorOverrideController*), "OnInvalidateOverrideController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{controller});
   }
 };

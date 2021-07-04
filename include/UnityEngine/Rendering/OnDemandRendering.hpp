@@ -33,7 +33,6 @@ namespace UnityEngine::Rendering {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::OnDemandRendering*, "UnityEngine.Rendering", "OnDemandRendering");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Rendering::OnDemandRendering::get_renderFrameInterval
 // Il2CppName: get_renderFrameInterval
 template<>
@@ -47,7 +46,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int&)>(&UnityEngine::Rendering::OnDemandRendering::GetRenderFrameInterval)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::OnDemandRendering*), "GetRenderFrameInterval", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int&>()});
+    static auto* frameInterval = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::OnDemandRendering*), "GetRenderFrameInterval", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{frameInterval});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Rendering::OnDemandRendering::_cctor

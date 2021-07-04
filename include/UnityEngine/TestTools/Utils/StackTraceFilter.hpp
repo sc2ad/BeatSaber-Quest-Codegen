@@ -40,13 +40,13 @@ namespace UnityEngine::TestTools::Utils {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::Utils::StackTraceFilter*, "UnityEngine.TestTools.Utils", "StackTraceFilter");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::TestTools::Utils::StackTraceFilter::Filter
 // Il2CppName: Filter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&UnityEngine::TestTools::Utils::StackTraceFilter::Filter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Utils::StackTraceFilter*), "Filter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* inputStackTrace = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::Utils::StackTraceFilter*), "Filter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputStackTrace});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::TestTools::Utils::StackTraceFilter::_cctor

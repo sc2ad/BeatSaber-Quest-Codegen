@@ -66,7 +66,6 @@ namespace System::Net::Http {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::HttpClientHandler::$$c*, "System.Net.Http", "HttpClientHandler/<>c");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::Http::HttpClientHandler::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -80,7 +79,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::HttpClientHandler::$$c::*)(::Il2CppString*)>(&System::Net::Http::HttpClientHandler::$$c::$CreateWebRequest$b__61_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpClientHandler::$$c*), "<CreateWebRequest>b__61_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* l = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpClientHandler::$$c*), "<CreateWebRequest>b__61_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{l});
   }
 };
 // Writing MetadataGetter for method: System::Net::Http::HttpClientHandler::$$c::$SendAsync$b__64_0
@@ -88,7 +88,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::Http::HttpClientHandler::$$c::*)(::Il2CppObject*)>(&System::Net::Http::HttpClientHandler::$$c::$SendAsync$b__64_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpClientHandler::$$c*), "<SendAsync>b__64_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* l = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::HttpClientHandler::$$c*), "<SendAsync>b__64_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{l});
   }
 };
 // Writing MetadataGetter for method: System::Net::Http::HttpClientHandler::$$c::New_ctor

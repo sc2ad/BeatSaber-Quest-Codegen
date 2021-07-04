@@ -63,7 +63,6 @@ namespace UnityEngine::Experimental::Playables {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::Playables::TextureMixerPlayable, "UnityEngine.Experimental.Playables", "TextureMixerPlayable");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Experimental::Playables::TextureMixerPlayable::GetHandle
 // Il2CppName: GetHandle
 template<>
@@ -77,6 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Experimental::Playables::TextureMixerPlayable::*)(UnityEngine::Experimental::Playables::TextureMixerPlayable)>(&UnityEngine::Experimental::Playables::TextureMixerPlayable::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::Playables::TextureMixerPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Playables::TextureMixerPlayable>()});
+    static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.Playables", "TextureMixerPlayable")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Experimental::Playables::TextureMixerPlayable), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };

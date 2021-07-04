@@ -51,7 +51,6 @@ namespace HMUI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::StackedController::$$c*, "HMUI", "StackedController/<>c");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::StackedController::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -65,7 +64,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackedController::$$c::*)(float, ::Array<HMUI::ViewController*>*)>(&HMUI::StackedController::$$c::$PushViewController$g__AnimationLayouter_3_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::StackedController::$$c*), "<PushViewController>g__AnimationLayouter|3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<::Array<HMUI::ViewController*>*>()});
+    static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* viewControllers = &classof(::Array<::Array<HMUI::ViewController*>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(HMUI::StackedController::$$c*), "<PushViewController>g__AnimationLayouter|3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t, viewControllers});
   }
 };
 // Writing MetadataGetter for method: HMUI::StackedController::$$c::New_ctor

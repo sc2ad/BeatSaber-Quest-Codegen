@@ -68,7 +68,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRMRAudioFilter) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMRAudioFilter*, "", "OVRMRAudioFilter");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRMRAudioFilter::Start
 // Il2CppName: Start
 template<>
@@ -82,7 +81,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRMRAudioFilter::*)(::Array<float>*, int)>(&GlobalNamespace::OVRMRAudioFilter::OnAudioFilterRead)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMRAudioFilter*), "OnAudioFilterRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<float>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* data = &classof(::Array<::Array<float>*>*)->byval_arg;
+    static auto* channels = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRMRAudioFilter*), "OnAudioFilterRead", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, channels});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRMRAudioFilter::New_ctor

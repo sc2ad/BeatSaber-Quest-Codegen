@@ -61,8 +61,6 @@ namespace UnityEngine::Timeline {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::TrackAsset::$$c*, "UnityEngine.Timeline", "TrackAsset/<>c");
-// Writing includes for template specializations
-#include "UnityEngine/Timeline/TimelineClip.hpp"
 // Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -76,7 +74,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Timeline::TrackAsset::$$c::*)(UnityEngine::Timeline::TimelineClip*, UnityEngine::Timeline::TimelineClip*)>(&UnityEngine::Timeline::TrackAsset::$$c::$SortClips$b__121_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset::$$c*), "<SortClips>b__121_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::TimelineClip*>()});
+    static auto* clip1 = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TimelineClip")->byval_arg;
+    static auto* clip2 = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TimelineClip")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset::$$c*), "<SortClips>b__121_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clip1, clip2});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::$$c::New_ctor

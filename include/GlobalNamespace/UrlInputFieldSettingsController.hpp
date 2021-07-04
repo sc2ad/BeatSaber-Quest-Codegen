@@ -50,14 +50,13 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UrlInputFieldSettingsController*, "", "UrlInputFieldSettingsController");
-// Writing includes for template specializations
-#include "HMUI/InputFieldView.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::UrlInputFieldSettingsController::HandleInputFieldDidChange
 // Il2CppName: HandleInputFieldDidChange
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UrlInputFieldSettingsController::*)(HMUI::InputFieldView*)>(&GlobalNamespace::UrlInputFieldSettingsController::HandleInputFieldDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UrlInputFieldSettingsController*), "HandleInputFieldDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::InputFieldView*>()});
+    static auto* inputFieldView = &::il2cpp_utils::GetClassFromName("HMUI", "InputFieldView")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::UrlInputFieldSettingsController*), "HandleInputFieldDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputFieldView});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::UrlInputFieldSettingsController::New_ctor

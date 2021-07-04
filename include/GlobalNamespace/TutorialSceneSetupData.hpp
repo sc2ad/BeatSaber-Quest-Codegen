@@ -51,8 +51,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(TutorialSceneSetupData) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSceneSetupData*, "", "TutorialSceneSetupData");
-// Writing includes for template specializations
-#include "GlobalNamespace/ColorScheme.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::TutorialSceneSetupData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

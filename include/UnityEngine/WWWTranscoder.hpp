@@ -83,13 +83,14 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::WWWTranscoder*, "UnityEngine", "WWWTranscoder");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::WWWTranscoder::Hex2Byte
 // Il2CppName: Hex2Byte
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::Array<uint8_t>*, int)>(&UnityEngine::WWWTranscoder::Hex2Byte)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::WWWTranscoder*), "Hex2Byte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* b = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::WWWTranscoder*), "Hex2Byte", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{b, offset});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::WWWTranscoder::Byte2Hex
@@ -97,7 +98,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(uint8_t, ::Array<uint8_t>*)>(&UnityEngine::WWWTranscoder::Byte2Hex)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::WWWTranscoder*), "Byte2Hex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* b = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
+    static auto* hexChars = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::WWWTranscoder*), "Byte2Hex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{b, hexChars});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::WWWTranscoder::URLEncode
@@ -105,7 +108,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*)>(&UnityEngine::WWWTranscoder::URLEncode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::WWWTranscoder*), "URLEncode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* toEncode = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::WWWTranscoder*), "URLEncode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{toEncode});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::WWWTranscoder::Encode
@@ -113,7 +117,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*, uint8_t, ::Array<uint8_t>*, ::Array<uint8_t>*, bool)>(&UnityEngine::WWWTranscoder::Encode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::WWWTranscoder*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* input = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* escapeChar = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
+    static auto* space = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* forbidden = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* uppercase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::WWWTranscoder*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, escapeChar, space, forbidden, uppercase});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::WWWTranscoder::ByteArrayContains
@@ -121,7 +130,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint8_t>*, uint8_t)>(&UnityEngine::WWWTranscoder::ByteArrayContains)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::WWWTranscoder*), "ByteArrayContains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>()});
+    static auto* array = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* b = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::WWWTranscoder*), "ByteArrayContains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array, b});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::WWWTranscoder::URLDecode
@@ -129,7 +140,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*)>(&UnityEngine::WWWTranscoder::URLDecode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::WWWTranscoder*), "URLDecode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* toEncode = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::WWWTranscoder*), "URLDecode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{toEncode});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::WWWTranscoder::ByteSubArrayEquals
@@ -137,7 +149,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint8_t>*, int, ::Array<uint8_t>*)>(&UnityEngine::WWWTranscoder::ByteSubArrayEquals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::WWWTranscoder*), "ByteSubArrayEquals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* array = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* comperand = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::WWWTranscoder*), "ByteSubArrayEquals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array, index, comperand});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::WWWTranscoder::Decode
@@ -145,7 +160,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*, uint8_t, ::Array<uint8_t>*)>(&UnityEngine::WWWTranscoder::Decode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::WWWTranscoder*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* input = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* escapeChar = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
+    static auto* space = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::WWWTranscoder*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, escapeChar, space});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::WWWTranscoder::_cctor

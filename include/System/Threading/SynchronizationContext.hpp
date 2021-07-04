@@ -104,14 +104,14 @@ namespace System::Threading {
   static_assert(sizeof(SynchronizationContext) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::SynchronizationContext*, "System.Threading", "SynchronizationContext");
-// Writing includes for template specializations
-#include "System/Threading/SendOrPostCallback.hpp"
 // Writing MetadataGetter for method: System::Threading::SynchronizationContext::Send
 // Il2CppName: Send
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::SynchronizationContext::*)(System::Threading::SendOrPostCallback*, ::Il2CppObject*)>(&System::Threading::SynchronizationContext::Send)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::SynchronizationContext*), "Send", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SendOrPostCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* d = &::il2cpp_utils::GetClassFromName("System.Threading", "SendOrPostCallback")->byval_arg;
+    static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::SynchronizationContext*), "Send", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{d, state});
   }
 };
 // Writing MetadataGetter for method: System::Threading::SynchronizationContext::Post
@@ -119,7 +119,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::SynchronizationContext::*)(System::Threading::SendOrPostCallback*, ::Il2CppObject*)>(&System::Threading::SynchronizationContext::Post)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::SynchronizationContext*), "Post", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SendOrPostCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* d = &::il2cpp_utils::GetClassFromName("System.Threading", "SendOrPostCallback")->byval_arg;
+    static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::SynchronizationContext*), "Post", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{d, state});
   }
 };
 // Writing MetadataGetter for method: System::Threading::SynchronizationContext::OperationStarted
@@ -143,7 +145,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::SynchronizationContext*)>(&System::Threading::SynchronizationContext::SetSynchronizationContext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::SynchronizationContext*), "SetSynchronizationContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::SynchronizationContext*>()});
+    static auto* syncContext = &::il2cpp_utils::GetClassFromName("System.Threading", "SynchronizationContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::SynchronizationContext*), "SetSynchronizationContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{syncContext});
   }
 };
 // Writing MetadataGetter for method: System::Threading::SynchronizationContext::get_Current

@@ -64,12 +64,12 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DTSubString, "System", "DTSubString");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::DTSubString::get_Item
 // Il2CppName: get_Item
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (System::DTSubString::*)(int)>(&System::DTSubString::get_Item)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DTSubString), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* relativeIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::DTSubString), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{relativeIndex});
   }
 };

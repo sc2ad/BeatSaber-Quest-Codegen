@@ -38,8 +38,6 @@ namespace System::ComponentModel {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::ComponentModel::ISynchronizeInvoke*, "System.ComponentModel", "ISynchronizeInvoke");
-// Writing includes for template specializations
-#include "System/Delegate.hpp"
 // Writing MetadataGetter for method: System::ComponentModel::ISynchronizeInvoke::get_InvokeRequired
 // Il2CppName: get_InvokeRequired
 template<>
@@ -53,6 +51,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::ComponentModel::ISynchronizeInvoke::*)(System::Delegate*, ::Array<::Il2CppObject*>*)>(&System::ComponentModel::ISynchronizeInvoke::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ISynchronizeInvoke*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Delegate*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    static auto* method = &::il2cpp_utils::GetClassFromName("System", "Delegate")->byval_arg;
+    static auto* args = &classof(::Array<::Array<::Il2CppObject*>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::ComponentModel::ISynchronizeInvoke*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method, args});
   }
 };

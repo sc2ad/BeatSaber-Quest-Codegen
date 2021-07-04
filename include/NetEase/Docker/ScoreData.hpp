@@ -72,7 +72,6 @@ namespace NetEase::Docker {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NetEase::Docker::ScoreData, "NetEase.Docker", "ScoreData");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: NetEase::Docker::ScoreData::get_Name
 // Il2CppName: get_Name
 template<>
@@ -86,7 +85,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::ScoreData::*)(::Il2CppString*)>(&NetEase::Docker::ScoreData::set_Name)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::ScoreData), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::ScoreData), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: NetEase::Docker::ScoreData::get_Score
@@ -102,7 +102,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (NetEas
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::ScoreData::*)(int)>(&NetEase::Docker::ScoreData::set_Score)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::ScoreData), "set_Score", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::ScoreData), "set_Score", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: NetEase::Docker::ScoreData::set_TimeStamp
@@ -110,6 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NetEase::Docker::ScoreData::*)(int64_t)>(&NetEase::Docker::ScoreData::set_TimeStamp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::ScoreData), "set_TimeStamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NetEase::Docker::ScoreData), "set_TimeStamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };

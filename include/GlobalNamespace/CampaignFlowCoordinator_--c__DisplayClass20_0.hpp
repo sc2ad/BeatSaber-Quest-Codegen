@@ -58,7 +58,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(CampaignFlowCoordinator::$$c__DisplayClass20_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CampaignFlowCoordinator::$$c__DisplayClass20_0*, "", "CampaignFlowCoordinator/<>c__DisplayClass20_0");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::CampaignFlowCoordinator::$$c__DisplayClass20_0::$HandleMissionHelpViewControllerDidFinish$b__0
 // Il2CppName: <HandleMissionHelpViewControllerDidFinish>b__0
 template<>

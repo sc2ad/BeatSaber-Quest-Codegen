@@ -83,7 +83,6 @@ namespace Mono::Net {
   static_assert(sizeof(CFNetwork::GetProxyData) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork::GetProxyData*, "Mono.Net", "CFNetwork/GetProxyData");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::GetProxyData::Dispose
 // Il2CppName: Dispose
 template<>

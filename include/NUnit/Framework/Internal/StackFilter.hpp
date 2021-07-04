@@ -36,13 +36,13 @@ namespace NUnit::Framework::Internal {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::StackFilter*, "NUnit.Framework.Internal", "StackFilter");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: NUnit::Framework::Internal::StackFilter::Filter
 // Il2CppName: Filter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&NUnit::Framework::Internal::StackFilter::Filter)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::StackFilter*), "Filter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* rawTrace = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::StackFilter*), "Filter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rawTrace});
   }
 };
 // Writing MetadataGetter for method: NUnit::Framework::Internal::StackFilter::_cctor

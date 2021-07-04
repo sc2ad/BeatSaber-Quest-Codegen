@@ -118,9 +118,6 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(FullBodyBipedIK) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FullBodyBipedIK*, "RootMotion.FinalIK", "FullBodyBipedIK");
-// Writing includes for template specializations
-#include "RootMotion/BipedReferences.hpp"
-#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::FullBodyBipedIK::OpenSetupTutorial
 // Il2CppName: OpenSetupTutorial
 template<>
@@ -158,7 +155,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FullBodyBipedIK::*)(RootMotion::BipedReferences*, UnityEngine::Transform*)>(&RootMotion::FinalIK::FullBodyBipedIK::SetReferences)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FullBodyBipedIK*), "SetReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::BipedReferences*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    static auto* references = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedReferences")->byval_arg;
+    static auto* rootNode = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FullBodyBipedIK*), "SetReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{references, rootNode});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::FullBodyBipedIK::ReferencesError
@@ -166,7 +165,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::FullBodyBipedIK::*)(::Il2CppString*&)>(&RootMotion::FinalIK::FullBodyBipedIK::ReferencesError)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FullBodyBipedIK*), "ReferencesError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    static auto* errorMessage = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FullBodyBipedIK*), "ReferencesError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{errorMessage});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::FullBodyBipedIK::ReferencesWarning
@@ -174,7 +174,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::FullBodyBipedIK::*)(::Il2CppString*&)>(&RootMotion::FinalIK::FullBodyBipedIK::ReferencesWarning)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FullBodyBipedIK*), "ReferencesWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    static auto* warningMessage = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FullBodyBipedIK*), "ReferencesWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{warningMessage});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::FullBodyBipedIK::Reinitiate

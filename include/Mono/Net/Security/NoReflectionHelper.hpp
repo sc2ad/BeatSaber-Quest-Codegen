@@ -25,13 +25,14 @@ namespace Mono::Net::Security {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::NoReflectionHelper*, "Mono.Net.Security", "NoReflectionHelper");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Net::Security::NoReflectionHelper::GetInternalValidator
 // Il2CppName: GetInternalValidator
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, ::Il2CppObject*)>(&Mono::Net::Security::NoReflectionHelper::GetInternalValidator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::NoReflectionHelper*), "GetInternalValidator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* provider = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* settings = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::NoReflectionHelper*), "GetInternalValidator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider, settings});
   }
 };
 // Writing MetadataGetter for method: Mono::Net::Security::NoReflectionHelper::GetProvider

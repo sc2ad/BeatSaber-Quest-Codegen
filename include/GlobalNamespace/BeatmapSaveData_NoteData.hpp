@@ -93,7 +93,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapSaveData::NoteData) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapSaveData::NoteData*, "", "BeatmapSaveData/NoteData");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::NoteData::get_time
 // Il2CppName: get_time
 template<>
@@ -143,6 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapSaveData::NoteData::*)(float)>(&GlobalNamespace::BeatmapSaveData::NoteData::MoveTime)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapSaveData::NoteData*), "MoveTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapSaveData::NoteData*), "MoveTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{offset});
   }
 };

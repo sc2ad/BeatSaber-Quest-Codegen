@@ -59,7 +59,6 @@ namespace Microsoft::Win32 {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Microsoft::Win32::Registry*, "Microsoft.Win32", "Registry");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Microsoft::Win32::Registry::_cctor
 // Il2CppName: .cctor
 template<>

@@ -139,16 +139,13 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PhysicsScene, "UnityEngine", "PhysicsScene");
-// Writing includes for template specializations
-#include "UnityEngine/QueryTriggerInteraction.hpp"
-#include "UnityEngine/Ray.hpp"
-#include "UnityEngine/Quaternion.hpp"
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Equals
 // Il2CppName: Equals
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::PhysicsScene::*)(UnityEngine::PhysicsScene)>(&UnityEngine::PhysicsScene::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene>()});
+    static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Raycast
@@ -156,7 +153,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::PhysicsScene::*)(UnityEngine::Vector3, UnityEngine::Vector3, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Raycast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+    static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{origin, direction, maxDistance, layerMask, queryTriggerInteraction});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Internal_RaycastTest
@@ -164,7 +166,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::PhysicsScene, UnityEngine::Ray, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Internal_RaycastTest)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Internal_RaycastTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+    static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene")->byval_arg;
+    static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
+    static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Internal_RaycastTest", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{physicsScene, ray, maxDistance, layerMask, queryTriggerInteraction});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Raycast
@@ -172,7 +179,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::PhysicsScene::*)(UnityEngine::Vector3, UnityEngine::Vector3, UnityEngine::RaycastHit&, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Raycast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+    static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* hitInfo = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->this_arg;
+    static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{origin, direction, hitInfo, maxDistance, layerMask, queryTriggerInteraction});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Internal_Raycast
@@ -180,7 +193,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::PhysicsScene, UnityEngine::Ray, float, UnityEngine::RaycastHit&, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Internal_Raycast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Internal_Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+    static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene")->byval_arg;
+    static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
+    static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* hit = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->this_arg;
+    static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Internal_Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{physicsScene, ray, maxDistance, hit, layerMask, queryTriggerInteraction});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Raycast
@@ -188,7 +207,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::PhysicsScene::*)(UnityEngine::Vector3, UnityEngine::Vector3, ::Array<UnityEngine::RaycastHit>*, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Raycast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::RaycastHit>*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+    static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* raycastHits = &classof(::Array<::Array<UnityEngine::RaycastHit>*>*)->byval_arg;
+    static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Raycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{origin, direction, raycastHits, maxDistance, layerMask, queryTriggerInteraction});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Internal_RaycastNonAlloc
@@ -196,7 +221,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::PhysicsScene, UnityEngine::Ray, ::Array<UnityEngine::RaycastHit>*, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Internal_RaycastNonAlloc)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Internal_RaycastNonAlloc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::RaycastHit>*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+    static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene")->byval_arg;
+    static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
+    static auto* raycastHits = &classof(::Array<::Array<UnityEngine::RaycastHit>*>*)->byval_arg;
+    static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* mask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Internal_RaycastNonAlloc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{physicsScene, ray, raycastHits, maxDistance, mask, queryTriggerInteraction});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Query_CapsuleCast
@@ -204,7 +235,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::PhysicsScene, UnityEngine::Vector3, UnityEngine::Vector3, float, UnityEngine::Vector3, float, UnityEngine::RaycastHit&, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Query_CapsuleCast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Query_CapsuleCast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+    static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene")->byval_arg;
+    static auto* point1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* point2 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* hitInfo = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->this_arg;
+    static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Query_CapsuleCast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{physicsScene, point1, point2, radius, direction, maxDistance, hitInfo, layerMask, queryTriggerInteraction});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Internal_CapsuleCast
@@ -212,7 +252,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::PhysicsScene, UnityEngine::Vector3, UnityEngine::Vector3, float, UnityEngine::Vector3, UnityEngine::RaycastHit&, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Internal_CapsuleCast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Internal_CapsuleCast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+    static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene")->byval_arg;
+    static auto* point1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* point2 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* hitInfo = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->this_arg;
+    static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Internal_CapsuleCast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{physicsScene, point1, point2, radius, direction, hitInfo, maxDistance, layerMask, queryTriggerInteraction});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::CapsuleCast
@@ -220,7 +269,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::PhysicsScene::*)(UnityEngine::Vector3, UnityEngine::Vector3, float, UnityEngine::Vector3, UnityEngine::RaycastHit&, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::CapsuleCast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "CapsuleCast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+    static auto* point1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* point2 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* hitInfo = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->this_arg;
+    static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "CapsuleCast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{point1, point2, radius, direction, hitInfo, maxDistance, layerMask, queryTriggerInteraction});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Query_SphereCast
@@ -228,7 +285,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::PhysicsScene, UnityEngine::Vector3, float, UnityEngine::Vector3, float, UnityEngine::RaycastHit&, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Query_SphereCast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Query_SphereCast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+    static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene")->byval_arg;
+    static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* hitInfo = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->this_arg;
+    static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Query_SphereCast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{physicsScene, origin, radius, direction, maxDistance, hitInfo, layerMask, queryTriggerInteraction});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Internal_SphereCast
@@ -236,7 +301,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::PhysicsScene, UnityEngine::Vector3, float, UnityEngine::Vector3, UnityEngine::RaycastHit&, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Internal_SphereCast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Internal_SphereCast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+    static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene")->byval_arg;
+    static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* hitInfo = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->this_arg;
+    static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Internal_SphereCast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{physicsScene, origin, radius, direction, hitInfo, maxDistance, layerMask, queryTriggerInteraction});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::SphereCast
@@ -244,7 +317,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::PhysicsScene::*)(UnityEngine::Vector3, float, UnityEngine::Vector3, UnityEngine::RaycastHit&, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::SphereCast)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "SphereCast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+    static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* hitInfo = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->this_arg;
+    static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "SphereCast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{origin, radius, direction, hitInfo, maxDistance, layerMask, queryTriggerInteraction});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::OverlapBoxNonAlloc_Internal
@@ -252,7 +332,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::PhysicsScene, UnityEngine::Vector3, UnityEngine::Vector3, ::Array<UnityEngine::Collider*>*, UnityEngine::Quaternion, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::OverlapBoxNonAlloc_Internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "OverlapBoxNonAlloc_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Collider*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+    static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene")->byval_arg;
+    static auto* center = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* halfExtents = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* results = &classof(::Array<::Array<UnityEngine::Collider*>*>*)->byval_arg;
+    static auto* orientation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
+    static auto* mask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "OverlapBoxNonAlloc_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{physicsScene, center, halfExtents, results, orientation, mask, queryTriggerInteraction});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::OverlapBox
@@ -260,7 +347,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::PhysicsScene::*)(UnityEngine::Vector3, UnityEngine::Vector3, ::Array<UnityEngine::Collider*>*, UnityEngine::Quaternion, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::OverlapBox)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "OverlapBox", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Collider*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+    static auto* center = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* halfExtents = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* results = &classof(::Array<::Array<UnityEngine::Collider*>*>*)->byval_arg;
+    static auto* orientation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
+    static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "OverlapBox", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{center, halfExtents, results, orientation, layerMask, queryTriggerInteraction});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Internal_RaycastTest_Injected
@@ -268,7 +361,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::PhysicsScene&, UnityEngine::Ray&, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Internal_RaycastTest_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Internal_RaycastTest_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+    static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene")->this_arg;
+    static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->this_arg;
+    static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Internal_RaycastTest_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{physicsScene, ray, maxDistance, layerMask, queryTriggerInteraction});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Internal_Raycast_Injected
@@ -276,7 +374,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::PhysicsScene&, UnityEngine::Ray&, float, UnityEngine::RaycastHit&, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Internal_Raycast_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Internal_Raycast_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+    static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene")->this_arg;
+    static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->this_arg;
+    static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* hit = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->this_arg;
+    static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Internal_Raycast_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{physicsScene, ray, maxDistance, hit, layerMask, queryTriggerInteraction});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Internal_RaycastNonAlloc_Injected
@@ -284,7 +388,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::PhysicsScene&, UnityEngine::Ray&, ::Array<UnityEngine::RaycastHit>*, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Internal_RaycastNonAlloc_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Internal_RaycastNonAlloc_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Ray&>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::RaycastHit>*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+    static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene")->this_arg;
+    static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->this_arg;
+    static auto* raycastHits = &classof(::Array<::Array<UnityEngine::RaycastHit>*>*)->byval_arg;
+    static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* mask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Internal_RaycastNonAlloc_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{physicsScene, ray, raycastHits, maxDistance, mask, queryTriggerInteraction});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Query_CapsuleCast_Injected
@@ -292,7 +402,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::PhysicsScene&, UnityEngine::Vector3&, UnityEngine::Vector3&, float, UnityEngine::Vector3&, float, UnityEngine::RaycastHit&, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Query_CapsuleCast_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Query_CapsuleCast_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+    static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene")->this_arg;
+    static auto* point1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
+    static auto* point2 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
+    static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
+    static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* hitInfo = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->this_arg;
+    static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Query_CapsuleCast_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{physicsScene, point1, point2, radius, direction, maxDistance, hitInfo, layerMask, queryTriggerInteraction});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::Query_SphereCast_Injected
@@ -300,7 +419,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::PhysicsScene&, UnityEngine::Vector3&, float, UnityEngine::Vector3&, float, UnityEngine::RaycastHit&, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::Query_SphereCast_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Query_SphereCast_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RaycastHit&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+    static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene")->this_arg;
+    static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
+    static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
+    static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* hitInfo = &::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit")->this_arg;
+    static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Query_SphereCast_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{physicsScene, origin, radius, direction, maxDistance, hitInfo, layerMask, queryTriggerInteraction});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::OverlapBoxNonAlloc_Internal_Injected
@@ -308,7 +435,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::PhysicsScene&, UnityEngine::Vector3&, UnityEngine::Vector3&, ::Array<UnityEngine::Collider*>*, UnityEngine::Quaternion&, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::PhysicsScene::OverlapBoxNonAlloc_Internal_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "OverlapBoxNonAlloc_Internal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::PhysicsScene&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Collider*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::QueryTriggerInteraction>()});
+    static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene")->this_arg;
+    static auto* center = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
+    static auto* halfExtents = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
+    static auto* results = &classof(::Array<::Array<UnityEngine::Collider*>*>*)->byval_arg;
+    static auto* orientation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
+    static auto* mask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "OverlapBoxNonAlloc_Internal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{physicsScene, center, halfExtents, results, orientation, mask, queryTriggerInteraction});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::PhysicsScene::ToString
@@ -332,6 +466,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::PhysicsScene::*)(::Il2CppObject*)>(&UnityEngine::PhysicsScene::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* other = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::PhysicsScene), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };

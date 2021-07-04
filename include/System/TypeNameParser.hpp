@@ -47,15 +47,17 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::TypeNameParser*, "System", "TypeNameParser");
-// Writing includes for template specializations
-#include "System/Func_2.hpp"
-#include "System/Func_4.hpp"
-#include "System/Threading/StackCrawlMark.hpp"
 // Writing MetadataGetter for method: System::TypeNameParser::GetType
 // Il2CppName: GetType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(::Il2CppString*, System::Func_2<System::Reflection::AssemblyName*, System::Reflection::Assembly*>*, System::Func_4<System::Reflection::Assembly*, ::Il2CppString*, bool, System::Type*>*, bool, bool, System::Threading::StackCrawlMark&)>(&System::TypeNameParser::GetType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TypeNameParser*), "GetType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_2<System::Reflection::AssemblyName*, System::Reflection::Assembly*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_4<System::Reflection::Assembly*, ::Il2CppString*, bool, System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>()});
+    static auto* typeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* assemblyResolver = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Reflection", "AssemblyName"), ::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")})->byval_arg;
+    static auto* typeResolver = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`4"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly"), ::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "Boolean"), ::il2cpp_utils::GetClassFromName("System", "Type")})->byval_arg;
+    static auto* throwOnError = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* ignoreCase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* stackMark = &::il2cpp_utils::GetClassFromName("System.Threading", "StackCrawlMark")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TypeNameParser*), "GetType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeName, assemblyResolver, typeResolver, throwOnError, ignoreCase, stackMark});
   }
 };

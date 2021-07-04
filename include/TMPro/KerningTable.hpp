@@ -84,8 +84,6 @@ namespace TMPro {
   static_assert(sizeof(KerningTable) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::KerningTable*, "TMPro", "KerningTable");
-// Writing includes for template specializations
-#include "TMPro/GlyphValueRecord_Legacy.hpp"
 // Writing MetadataGetter for method: TMPro::KerningTable::AddKerningPair
 // Il2CppName: AddKerningPair
 template<>
@@ -99,7 +97,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::KerningTable::*)(uint, uint, float)>(&TMPro::KerningTable::AddKerningPair)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::KerningTable*), "AddKerningPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* first = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* second = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::KerningTable*), "AddKerningPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{first, second, offset});
   }
 };
 // Writing MetadataGetter for method: TMPro::KerningTable::AddGlyphPairAdjustmentRecord
@@ -107,7 +108,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::KerningTable::*)(uint, TMPro::GlyphValueRecord_Legacy, uint, TMPro::GlyphValueRecord_Legacy)>(&TMPro::KerningTable::AddGlyphPairAdjustmentRecord)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::KerningTable*), "AddGlyphPairAdjustmentRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::GlyphValueRecord_Legacy>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<TMPro::GlyphValueRecord_Legacy>()});
+    static auto* first = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* firstAdjustments = &::il2cpp_utils::GetClassFromName("TMPro", "GlyphValueRecord_Legacy")->byval_arg;
+    static auto* second = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* secondAdjustments = &::il2cpp_utils::GetClassFromName("TMPro", "GlyphValueRecord_Legacy")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::KerningTable*), "AddGlyphPairAdjustmentRecord", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{first, firstAdjustments, second, secondAdjustments});
   }
 };
 // Writing MetadataGetter for method: TMPro::KerningTable::RemoveKerningPair
@@ -115,7 +120,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::KerningTable::*)(int, int)>(&TMPro::KerningTable::RemoveKerningPair)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::KerningTable*), "RemoveKerningPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* left = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* right = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::KerningTable*), "RemoveKerningPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{left, right});
   }
 };
 // Writing MetadataGetter for method: TMPro::KerningTable::RemoveKerningPair
@@ -123,7 +130,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::KerningTable::*)(int)>(&TMPro::KerningTable::RemoveKerningPair)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::KerningTable*), "RemoveKerningPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::KerningTable*), "RemoveKerningPair", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});
   }
 };
 // Writing MetadataGetter for method: TMPro::KerningTable::SortKerningPairs

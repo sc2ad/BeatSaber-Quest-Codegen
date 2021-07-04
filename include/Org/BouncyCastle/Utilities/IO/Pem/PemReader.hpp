@@ -59,8 +59,6 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
   static_assert(sizeof(PemReader) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::Pem::PemReader*, "Org.BouncyCastle.Utilities.IO.Pem", "PemReader");
-// Writing includes for template specializations
-#include "System/IO/TextReader.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::Pem::PemReader::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -78,6 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Utilities::IO::Pem::PemObject* (Org::BouncyCastle::Utilities::IO::Pem::PemReader::*)(::Il2CppString*)>(&Org::BouncyCastle::Utilities::IO::Pem::PemReader::LoadObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Pem::PemReader*), "LoadObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* type = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Pem::PemReader*), "LoadObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
   }
 };

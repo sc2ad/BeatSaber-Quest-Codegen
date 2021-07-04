@@ -85,7 +85,6 @@ namespace UnityEngine {
   static_assert(sizeof(Pose) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Pose, "UnityEngine", "Pose");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Pose::Pose
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -103,7 +102,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Pose::*)(UnityEngine::Pose)>(&UnityEngine::Pose::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Pose), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Pose>()});
+    static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine", "Pose")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Pose), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Pose::_cctor
@@ -127,7 +127,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Pose::*)(::Il2CppObject*)>(&UnityEngine::Pose::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Pose), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Pose), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Pose::GetHashCode

@@ -75,7 +75,6 @@ namespace UnityEngine::UI {
   static_assert(sizeof(InputField::$CaretBlink$d__159) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::InputField::$CaretBlink$d__159*, "UnityEngine.UI", "InputField/<CaretBlink>d__159");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::UI::InputField::$CaretBlink$d__159::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -104,10 +104,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapObjectAvoidancePathEvaluator) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapObjectAvoidancePathEvaluator*, "", "BeatmapObjectAvoidancePathEvaluator");
-// Writing includes for template specializations
-#include "GlobalNamespace/IAudioTimeSource.hpp"
-#include "GlobalNamespace/PlayerTransforms.hpp"
-#include "GlobalNamespace/BezierSplineEvaluator.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapObjectAvoidancePathEvaluator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

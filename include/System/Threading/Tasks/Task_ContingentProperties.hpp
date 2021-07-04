@@ -116,7 +116,6 @@ namespace System::Threading::Tasks {
   static_assert(sizeof(Task::ContingentProperties) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Tasks::Task::ContingentProperties*, "System.Threading.Tasks", "Task/ContingentProperties");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Threading::Tasks::Task::ContingentProperties::SetCompleted
 // Il2CppName: SetCompleted
 template<>

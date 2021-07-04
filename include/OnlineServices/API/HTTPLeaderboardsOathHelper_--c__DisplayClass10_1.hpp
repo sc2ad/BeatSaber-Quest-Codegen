@@ -64,14 +64,13 @@ namespace OnlineServices::API {
   static_assert(sizeof(HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1*, "OnlineServices.API", "HTTPLeaderboardsOathHelper/<>c__DisplayClass10_1");
-// Writing includes for template specializations
-#include "UnityEngine/AsyncOperation.hpp"
 // Writing MetadataGetter for method: OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1::$SendWebRequestAsync$b__0
 // Il2CppName: <SendWebRequestAsync>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1::*)(UnityEngine::AsyncOperation*)>(&OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1::$SendWebRequestAsync$b__0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1*), "<SendWebRequestAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AsyncOperation*>()});
+    static auto* asyncOperation2 = &::il2cpp_utils::GetClassFromName("UnityEngine", "AsyncOperation")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1*), "<SendWebRequestAsync>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{asyncOperation2});
   }
 };
 // Writing MetadataGetter for method: OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1::New_ctor

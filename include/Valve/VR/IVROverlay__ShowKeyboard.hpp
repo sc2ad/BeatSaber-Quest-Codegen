@@ -57,9 +57,6 @@ namespace Valve::VR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_ShowKeyboard*, "Valve.VR", "IVROverlay/_ShowKeyboard");
-// Writing includes for template specializations
-#include "System/AsyncCallback.hpp"
-#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: Valve::VR::IVROverlay::_ShowKeyboard::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -69,7 +66,14 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVROverlay::_ShowKeyboard*, "Valve.VR", "IVROv
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::IVROverlay::_ShowKeyboard::*)(int, int, ::Il2CppString*, uint, ::Il2CppString*, bool, uint64_t)>(&Valve::VR::IVROverlay::_ShowKeyboard::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVROverlay::_ShowKeyboard*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>()});
+    static auto* eInputMode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* eLineInputMode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* pchDescription = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* unCharMax = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* pchExistingText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* bUseMinimalMode = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* uUserValue = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVROverlay::_ShowKeyboard*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eInputMode, eLineInputMode, pchDescription, unCharMax, pchExistingText, bUseMinimalMode, uUserValue});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::IVROverlay::_ShowKeyboard::BeginInvoke
@@ -77,7 +81,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVROverlay::_ShowKeyboard::*)(int, int, ::Il2CppString*, uint, ::Il2CppString*, bool, uint64_t, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVROverlay::_ShowKeyboard::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVROverlay::_ShowKeyboard*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<uint64_t>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* eInputMode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* eLineInputMode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* pchDescription = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* unCharMax = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
+    static auto* pchExistingText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* bUseMinimalMode = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* uUserValue = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
+    static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
+    static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVROverlay::_ShowKeyboard*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eInputMode, eLineInputMode, pchDescription, unCharMax, pchExistingText, bUseMinimalMode, uUserValue, callback, object});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::IVROverlay::_ShowKeyboard::EndInvoke
@@ -85,6 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVROverlayError (Valve::VR::IVROverlay::_ShowKeyboard::*)(System::IAsyncResult*)>(&Valve::VR::IVROverlay::_ShowKeyboard::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVROverlay::_ShowKeyboard*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVROverlay::_ShowKeyboard*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});
   }
 };

@@ -24,7 +24,6 @@ namespace Unity {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Unity::ThrowStub*, "Unity", "ThrowStub");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Unity::ThrowStub::ThrowNotSupportedException
 // Il2CppName: ThrowNotSupportedException
 template<>

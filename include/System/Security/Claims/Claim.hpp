@@ -146,9 +146,6 @@ namespace System::Security::Claims {
   static_assert(sizeof(Claim) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Claims::Claim*, "System.Security.Claims", "Claim");
-// Writing includes for template specializations
-#include "System/Security/Claims/ClaimsIdentity.hpp"
-#include "System/Runtime/Serialization/StreamingContext.hpp"
 // Writing MetadataGetter for method: System::Security::Claims::Claim::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -166,7 +163,8 @@ DEFINE_IL2CPP_ARG_TYPE(System::Security::Claims::Claim*, "System.Security.Claims
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Claims::Claim::*)(System::Runtime::Serialization::StreamingContext)>(&System::Security::Claims::Claim::OnDeserializedMethod)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::Claim*), "OnDeserializedMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::Claim*), "OnDeserializedMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{context});
   }
 };
 // Writing MetadataGetter for method: System::Security::Claims::Claim::get_Properties
@@ -190,7 +188,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Claims::Claim::*)(System::Security::Claims::ClaimsIdentity*)>(&System::Security::Claims::Claim::set_Subject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::Claim*), "set_Subject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Claims::ClaimsIdentity*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System.Security.Claims", "ClaimsIdentity")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::Claim*), "set_Subject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Security::Claims::Claim::get_Type
@@ -214,7 +213,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Claims::Claim* (System::Security::Claims::Claim::*)(System::Security::Claims::ClaimsIdentity*)>(&System::Security::Claims::Claim::Clone)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::Claim*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Claims::ClaimsIdentity*>()});
+    static auto* identity = &::il2cpp_utils::GetClassFromName("System.Security.Claims", "ClaimsIdentity")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Claims::Claim*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{identity});
   }
 };
 // Writing MetadataGetter for method: System::Security::Claims::Claim::ToString

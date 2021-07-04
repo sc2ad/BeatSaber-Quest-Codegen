@@ -114,11 +114,6 @@ namespace LiteNetLib::Utils {
   static_assert(sizeof(NtpRequest) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NtpRequest*, "LiteNetLib.Utils", "NtpRequest");
-// Writing includes for template specializations
-#include "System/Net/IPEndPoint.hpp"
-#include "System/Action_1.hpp"
-#include "System/Net/IPAddress.hpp"
-#include "System/Net/Sockets/SocketError.hpp"
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpRequest::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -128,7 +123,9 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NtpRequest*, "LiteNetLib.Utils", "NtpR
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NtpRequest* (*)(System::Net::IPEndPoint*, System::Action_1<LiteNetLib::Utils::NtpPacket*>*)>(&LiteNetLib::Utils::NtpRequest::Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpRequest*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<LiteNetLib::Utils::NtpPacket*>*>()});
+    static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
+    static auto* onRequestComplete = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NtpPacket")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpRequest*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{endPoint, onRequestComplete});
   }
 };
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpRequest::Create
@@ -136,7 +133,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NtpRequest* (*)(System::Net::IPAddress*, System::Action_1<LiteNetLib::Utils::NtpPacket*>*)>(&LiteNetLib::Utils::NtpRequest::Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpRequest*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<LiteNetLib::Utils::NtpPacket*>*>()});
+    static auto* ipAddress = &::il2cpp_utils::GetClassFromName("System.Net", "IPAddress")->byval_arg;
+    static auto* onRequestComplete = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NtpPacket")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpRequest*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ipAddress, onRequestComplete});
   }
 };
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpRequest::Create
@@ -144,7 +143,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NtpRequest* (*)(::Il2CppString*, int, System::Action_1<LiteNetLib::Utils::NtpPacket*>*)>(&LiteNetLib::Utils::NtpRequest::Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpRequest*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<LiteNetLib::Utils::NtpPacket*>*>()});
+    static auto* ntpServerAddress = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* port = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* onRequestComplete = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NtpPacket")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpRequest*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ntpServerAddress, port, onRequestComplete});
   }
 };
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpRequest::Create
@@ -152,7 +154,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NtpRequest* (*)(::Il2CppString*, System::Action_1<LiteNetLib::Utils::NtpPacket*>*)>(&LiteNetLib::Utils::NtpRequest::Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpRequest*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<LiteNetLib::Utils::NtpPacket*>*>()});
+    static auto* ntpServerAddress = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* onRequestComplete = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("LiteNetLib.Utils", "NtpPacket")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpRequest*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ntpServerAddress, onRequestComplete});
   }
 };
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpRequest::Send
@@ -176,6 +180,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NtpRequest::*)(::Array<uint8_t>*, int, System::Net::Sockets::SocketError, System::Net::IPEndPoint*)>(&LiteNetLib::Utils::NtpRequest::LiteNetLib_INetSocketListener_OnMessageReceived)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpRequest*), "LiteNetLib.INetSocketListener.OnMessageReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::SocketError>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPEndPoint*>()});
+    static auto* data = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* errorCode = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "SocketError")->byval_arg;
+    static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpRequest*), "LiteNetLib.INetSocketListener.OnMessageReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, length, errorCode, remoteEndPoint});
   }
 };

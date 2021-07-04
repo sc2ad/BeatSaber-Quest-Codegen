@@ -80,15 +80,13 @@ namespace Org::BouncyCastle::Asn1::X509 {
   static_assert(sizeof(AttCertIssuer) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::AttCertIssuer*, "Org.BouncyCastle.Asn1.X509", "AttCertIssuer");
-// Writing includes for template specializations
-#include "Org/BouncyCastle/Asn1/X509/GeneralNames.hpp"
-#include "Org/BouncyCastle/Asn1/X509/V2Form.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::AttCertIssuer::GetInstance
 // Il2CppName: GetInstance
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::X509::AttCertIssuer* (*)(::Il2CppObject*)>(&Org::BouncyCastle::Asn1::X509::AttCertIssuer::GetInstance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::AttCertIssuer*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::AttCertIssuer*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::AttCertIssuer::New_ctor

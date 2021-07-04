@@ -51,13 +51,16 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IPv6AddressHelper*, "System", "IPv6AddressHelper");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::IPv6AddressHelper::ParseCanonicalName
 // Il2CppName: ParseCanonicalName
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, int, bool&, ::Il2CppString*&)>(&System::IPv6AddressHelper::ParseCanonicalName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IPv6AddressHelper*), "ParseCanonicalName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* isLoopback = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
+    static auto* scopeId = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::IPv6AddressHelper*), "ParseCanonicalName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str, start, isLoopback, scopeId});
   }
 };
 // Writing MetadataGetter for method: System::IPv6AddressHelper::CreateCanonicalName
@@ -65,7 +68,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(uint16_t*)>(&System::IPv6AddressHelper::CreateCanonicalName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IPv6AddressHelper*), "CreateCanonicalName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t*>()});
+    static auto* numbers = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "UInt16"))->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::IPv6AddressHelper*), "CreateCanonicalName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{numbers});
   }
 };
 // Writing MetadataGetter for method: System::IPv6AddressHelper::FindCompressionRange
@@ -73,7 +77,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::KeyValuePair_2<int, int> (*)(uint16_t*)>(&System::IPv6AddressHelper::FindCompressionRange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IPv6AddressHelper*), "FindCompressionRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t*>()});
+    static auto* numbers = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "UInt16"))->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::IPv6AddressHelper*), "FindCompressionRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{numbers});
   }
 };
 // Writing MetadataGetter for method: System::IPv6AddressHelper::ShouldHaveIpv4Embedded
@@ -81,7 +86,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint16_t*)>(&System::IPv6AddressHelper::ShouldHaveIpv4Embedded)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IPv6AddressHelper*), "ShouldHaveIpv4Embedded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint16_t*>()});
+    static auto* numbers = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "UInt16"))->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::IPv6AddressHelper*), "ShouldHaveIpv4Embedded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{numbers});
   }
 };
 // Writing MetadataGetter for method: System::IPv6AddressHelper::InternalIsValid
@@ -89,7 +95,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ui
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, int, int&, bool)>(&System::IPv6AddressHelper::InternalIsValid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IPv6AddressHelper*), "InternalIsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* name = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* validateStrictAddress = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::IPv6AddressHelper*), "InternalIsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, start, end, validateStrictAddress});
   }
 };
 // Writing MetadataGetter for method: System::IPv6AddressHelper::IsValid
@@ -97,7 +107,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, int, int&)>(&System::IPv6AddressHelper::IsValid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IPv6AddressHelper*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    static auto* name = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::IPv6AddressHelper*), "IsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, start, end});
   }
 };
 // Writing MetadataGetter for method: System::IPv6AddressHelper::IsValidStrict
@@ -105,7 +118,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar*, int, int&)>(&System::IPv6AddressHelper::IsValidStrict)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IPv6AddressHelper*), "IsValidStrict", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    static auto* name = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::IPv6AddressHelper*), "IsValidStrict", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, start, end});
   }
 };
 // Writing MetadataGetter for method: System::IPv6AddressHelper::Parse
@@ -113,6 +129,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, uint16_t*, int, ::Il2CppString*&)>(&System::IPv6AddressHelper::Parse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IPv6AddressHelper*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<uint16_t*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>()});
+    static auto* address = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* numbers = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "UInt16"))->byval_arg;
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* scopeId = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::IPv6AddressHelper*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{address, numbers, start, scopeId});
   }
 };

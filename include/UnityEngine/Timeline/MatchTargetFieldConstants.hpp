@@ -47,13 +47,14 @@ namespace UnityEngine::Timeline {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::MatchTargetFieldConstants*, "UnityEngine.Timeline", "MatchTargetFieldConstants");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Timeline::MatchTargetFieldConstants::HasAny
 // Il2CppName: HasAny
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Timeline::MatchTargetFields, UnityEngine::Timeline::MatchTargetFields)>(&UnityEngine::Timeline::MatchTargetFieldConstants::HasAny)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::MatchTargetFieldConstants*), "HasAny", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::MatchTargetFields>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::MatchTargetFields>()});
+    static auto* me = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "MatchTargetFields")->byval_arg;
+    static auto* fields = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "MatchTargetFields")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::MatchTargetFieldConstants*), "HasAny", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{me, fields});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Timeline::MatchTargetFieldConstants::Toggle
@@ -61,7 +62,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Timeline::MatchTargetFields (*)(UnityEngine::Timeline::MatchTargetFields, UnityEngine::Timeline::MatchTargetFields)>(&UnityEngine::Timeline::MatchTargetFieldConstants::Toggle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::MatchTargetFieldConstants*), "Toggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::MatchTargetFields>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Timeline::MatchTargetFields>()});
+    static auto* me = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "MatchTargetFields")->byval_arg;
+    static auto* flag = &::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "MatchTargetFields")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::MatchTargetFieldConstants*), "Toggle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{me, flag});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Timeline::MatchTargetFieldConstants::_cctor

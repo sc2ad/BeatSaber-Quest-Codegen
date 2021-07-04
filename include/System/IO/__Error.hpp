@@ -58,7 +58,6 @@ namespace System::IO {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IO::__Error*, "System.IO", "__Error");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::IO::__Error::EndOfFile
 // Il2CppName: EndOfFile
 template<>
@@ -136,7 +135,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, bool)>(&System::IO::__Error::GetDisplayablePath)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::__Error*), "GetDisplayablePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* isInvalidPath = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::IO::__Error*), "GetDisplayablePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path, isInvalidPath});
   }
 };
 // Writing MetadataGetter for method: System::IO::__Error::WinIOError
@@ -144,7 +145,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Il2CppString*)>(&System::IO::__Error::WinIOError)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::IO::__Error*), "WinIOError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* errorCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* maybeFullPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::IO::__Error*), "WinIOError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{errorCode, maybeFullPath});
   }
 };
 // Writing MetadataGetter for method: System::IO::__Error::WriteNotSupported

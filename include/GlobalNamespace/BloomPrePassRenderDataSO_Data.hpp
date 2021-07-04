@@ -84,7 +84,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(BloomPrePassRenderDataSO::Data) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassRenderDataSO::Data*, "", "BloomPrePassRenderDataSO/Data");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassRenderDataSO::Data::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

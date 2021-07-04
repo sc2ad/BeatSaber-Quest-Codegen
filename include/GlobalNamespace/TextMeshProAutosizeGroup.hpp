@@ -57,7 +57,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(TextMeshProAutosizeGroup) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextMeshProAutosizeGroup*, "", "TextMeshProAutosizeGroup");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::TextMeshProAutosizeGroup::Start
 // Il2CppName: Start
 template<>

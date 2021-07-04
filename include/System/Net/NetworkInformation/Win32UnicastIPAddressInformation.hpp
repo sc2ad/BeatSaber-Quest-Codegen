@@ -69,8 +69,6 @@ namespace System::Net::NetworkInformation {
   static_assert(sizeof(Win32UnicastIPAddressInformation) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32UnicastIPAddressInformation*, "System.Net.NetworkInformation", "Win32UnicastIPAddressInformation");
-// Writing includes for template specializations
-#include "System/Net/Sockets/AddressFamily.hpp"
 // Writing MetadataGetter for method: System::Net::NetworkInformation::Win32UnicastIPAddressInformation::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -80,7 +78,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::Win32UnicastIPAddressInf
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPAddress* (*)(uint8_t, System::Net::Sockets::AddressFamily)>(&System::Net::NetworkInformation::Win32UnicastIPAddressInformation::PrefixLengthToSubnetMask)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::Win32UnicastIPAddressInformation*), "PrefixLengthToSubnetMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<uint8_t>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Sockets::AddressFamily>()});
+    static auto* prefixLength = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
+    static auto* family = &::il2cpp_utils::GetClassFromName("System.Net.Sockets", "AddressFamily")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::Win32UnicastIPAddressInformation*), "PrefixLengthToSubnetMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{prefixLength, family});
   }
 };
 // Writing MetadataGetter for method: System::Net::NetworkInformation::Win32UnicastIPAddressInformation::get_Address

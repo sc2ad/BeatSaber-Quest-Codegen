@@ -65,7 +65,6 @@ namespace Oculus::Platform::Models {
   static_assert(sizeof(Leaderboard) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::Leaderboard*, "Oculus.Platform.Models", "Leaderboard");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::Models::Leaderboard::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

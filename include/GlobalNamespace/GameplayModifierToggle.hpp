@@ -119,7 +119,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(GameplayModifierToggle) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::GameplayModifierToggle*, "", "GameplayModifierToggle");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::GameplayModifierToggle::get_toggle
 // Il2CppName: get_toggle
 template<>

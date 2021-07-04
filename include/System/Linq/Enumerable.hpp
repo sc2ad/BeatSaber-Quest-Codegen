@@ -668,13 +668,6 @@ namespace System::Linq {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Linq::Enumerable*, "System.Linq", "Enumerable");
-// Writing includes for template specializations
-#include "System/Collections/Generic/IEnumerable_1.hpp"
-#include "System/Func_2.hpp"
-#include "System/Linq/IOrderedEnumerable_1.hpp"
-#include "System/Collections/Generic/IEqualityComparer_1.hpp"
-#include "System/Collections/IEnumerable.hpp"
-#include "System/Func_3.hpp"
 // Writing MetadataGetter for method: System::Linq::Enumerable::Where
 // Il2CppName: Where
 // Cannot write MetadataGetter for generic methods!
@@ -818,7 +811,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Linq::Enumerable*, "System.Linq", "Enumerable");
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (*)(int, int)>(&System::Linq::Enumerable::Range)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Linq::Enumerable*), "Range", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Linq::Enumerable*), "Range", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{start, count});
   }
 };
 // Writing MetadataGetter for method: System::Linq::Enumerable::RangeIterator
@@ -826,7 +821,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<int>* (*)(int, int)>(&System::Linq::Enumerable::RangeIterator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Linq::Enumerable*), "RangeIterator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Linq::Enumerable*), "RangeIterator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{start, count});
   }
 };
 // Writing MetadataGetter for method: System::Linq::Enumerable::Repeat
@@ -864,7 +861,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Collections::Generic::IEnumerable_1<int>*)>(&System::Linq::Enumerable::Sum)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Linq::Enumerable*), "Sum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
+    static auto* source = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Linq::Enumerable*), "Sum", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source});
   }
 };
 // Writing MetadataGetter for method: System::Linq::Enumerable::Sum
@@ -875,7 +873,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(System::Collections::Generic::IEnumerable_1<float>*)>(&System::Linq::Enumerable::Min)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Linq::Enumerable*), "Min", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<float>*>()});
+    static auto* source = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Linq::Enumerable*), "Min", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source});
   }
 };
 // Writing MetadataGetter for method: System::Linq::Enumerable::Max
@@ -883,7 +882,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(S
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Collections::Generic::IEnumerable_1<int>*)>(&System::Linq::Enumerable::Max)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Linq::Enumerable*), "Max", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<int>*>()});
+    static auto* source = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Linq::Enumerable*), "Max", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source});
   }
 };
 // Writing MetadataGetter for method: System::Linq::Enumerable::Max
@@ -891,7 +891,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(System::Collections::Generic::IEnumerable_1<float>*)>(&System::Linq::Enumerable::Max)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Linq::Enumerable*), "Max", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<float>*>()});
+    static auto* source = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Linq::Enumerable*), "Max", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source});
   }
 };
 // Writing MetadataGetter for method: System::Linq::Enumerable::Max

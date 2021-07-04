@@ -36,7 +36,6 @@ namespace System::Diagnostics {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::DebuggerStepThroughAttribute*, "System.Diagnostics", "DebuggerStepThroughAttribute");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Diagnostics::DebuggerStepThroughAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

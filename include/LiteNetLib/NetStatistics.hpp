@@ -107,7 +107,6 @@ namespace LiteNetLib {
   static_assert(sizeof(NetStatistics) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetStatistics*, "LiteNetLib", "NetStatistics");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: LiteNetLib::NetStatistics::get_PacketsSent
 // Il2CppName: get_PacketsSent
 template<>
@@ -185,7 +184,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetStatistics::*)(int64_t)>(&LiteNetLib::NetStatistics::AddBytesSent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetStatistics*), "AddBytesSent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    static auto* bytesSent = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetStatistics*), "AddBytesSent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytesSent});
   }
 };
 // Writing MetadataGetter for method: LiteNetLib::NetStatistics::AddBytesReceived
@@ -193,7 +193,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetStatistics::*)(int64_t)>(&LiteNetLib::NetStatistics::AddBytesReceived)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetStatistics*), "AddBytesReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    static auto* bytesReceived = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetStatistics*), "AddBytesReceived", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytesReceived});
   }
 };
 // Writing MetadataGetter for method: LiteNetLib::NetStatistics::IncrementPacketLoss
@@ -209,7 +210,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::NetStatistics::*)(int64_t)>(&LiteNetLib::NetStatistics::AddPacketLoss)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetStatistics*), "AddPacketLoss", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    static auto* packetLoss = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetStatistics*), "AddPacketLoss", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packetLoss});
   }
 };
 // Writing MetadataGetter for method: LiteNetLib::NetStatistics::ToString

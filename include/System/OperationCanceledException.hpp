@@ -97,8 +97,6 @@ namespace System {
   static_assert(sizeof(OperationCanceledException) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::OperationCanceledException*, "System", "OperationCanceledException");
-// Writing includes for template specializations
-#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::OperationCanceledException::get_CancellationToken
 // Il2CppName: get_CancellationToken
 template<>
@@ -112,7 +110,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::OperationCanceledException::*)(System::Threading::CancellationToken)>(&System::OperationCanceledException::set_CancellationToken)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::OperationCanceledException*), "set_CancellationToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::OperationCanceledException*), "set_CancellationToken", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::OperationCanceledException::New_ctor

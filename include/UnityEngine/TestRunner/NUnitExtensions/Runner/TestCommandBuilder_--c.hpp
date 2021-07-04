@@ -83,10 +83,6 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "TestCommandBuilder/<>c");
-// Writing includes for template specializations
-#include "NUnit/Framework/Interfaces/ITestBuilder.hpp"
-#include "NUnit/Framework/Interfaces/ISimpleTestBuilder.hpp"
-#include "System/Collections/Generic/IEnumerable_1.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -100,7 +96,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::*)(NUnit::Framework::Interfaces::ITestBuilder*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::$GetTestBuilderName$b__1_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c*), "<GetTestBuilderName>b__1_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ITestBuilder*>()});
+    static auto* attribute = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITestBuilder")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c*), "<GetTestBuilderName>b__1_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attribute});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::$GetTestBuilderName$b__1_1
@@ -108,7 +105,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::*)(NUnit::Framework::Interfaces::ISimpleTestBuilder*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::$GetTestBuilderName$b__1_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c*), "<GetTestBuilderName>b__1_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::ISimpleTestBuilder*>()});
+    static auto* attribute = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ISimpleTestBuilder")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c*), "<GetTestBuilderName>b__1_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attribute});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::$GetTestBuilderName$b__1_2
@@ -116,7 +114,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppString*>* (UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::*)(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::$GetTestBuilderName$b__1_2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c*), "<GetTestBuilderName>b__1_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>()});
+    static auto* v = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c*), "<GetTestBuilderName>b__1_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::TestCommandBuilder::$$c::New_ctor

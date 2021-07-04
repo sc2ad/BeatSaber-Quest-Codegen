@@ -301,7 +301,6 @@ namespace System::Threading {
   static_assert(sizeof(InternalThread) == 0x120);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::InternalThread*, "System.Threading", "InternalThread");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Threading::InternalThread::Thread_free_internal
 // Il2CppName: Thread_free_internal
 template<>

@@ -200,14 +200,13 @@ namespace System::Globalization {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::HebrewNumber*, "System.Globalization", "HebrewNumber");
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::HebrewNumber::HS, "System.Globalization", "HebrewNumber/HS");
-// Writing includes for template specializations
-#include "System/Globalization/HebrewNumberParsingContext.hpp"
 // Writing MetadataGetter for method: System::Globalization::HebrewNumber::ToString
 // Il2CppName: ToString
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(int)>(&System::Globalization::HebrewNumber::ToString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::HebrewNumber*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* Number = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::HebrewNumber*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{Number});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::HebrewNumber::ParseByChar
@@ -215,7 +214,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::HebrewNumberParsingState (*)(::Il2CppChar, System::Globalization::HebrewNumberParsingContext&)>(&System::Globalization::HebrewNumber::ParseByChar)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::HebrewNumber*), "ParseByChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::HebrewNumberParsingContext&>()});
+    static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    static auto* context = &::il2cpp_utils::GetClassFromName("System.Globalization", "HebrewNumberParsingContext")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::HebrewNumber*), "ParseByChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch, context});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::HebrewNumber::IsDigit
@@ -223,7 +224,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppChar)>(&System::Globalization::HebrewNumber::IsDigit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::HebrewNumber*), "IsDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::HebrewNumber*), "IsDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::HebrewNumber::_cctor

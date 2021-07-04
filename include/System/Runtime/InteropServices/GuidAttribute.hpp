@@ -48,7 +48,6 @@ namespace System::Runtime::InteropServices {
   static_assert(sizeof(GuidAttribute) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::GuidAttribute*, "System.Runtime.InteropServices", "GuidAttribute");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::InteropServices::GuidAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

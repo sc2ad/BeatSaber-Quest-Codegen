@@ -95,7 +95,6 @@ namespace TMPro {
   static_assert(sizeof(TMP_StyleSheet) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_StyleSheet*, "TMPro", "TMP_StyleSheet");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: TMPro::TMP_StyleSheet::get_instance
 // Il2CppName: get_instance
 template<>
@@ -117,7 +116,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Style* (*)(int)>(&TMPro::TMP_StyleSheet::GetStyle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_StyleSheet*), "GetStyle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* hashCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_StyleSheet*), "GetStyle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hashCode});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_StyleSheet::GetStyleInternal
@@ -125,7 +125,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Style* (TMPro::TMP_StyleSheet::*)(int)>(&TMPro::TMP_StyleSheet::GetStyleInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_StyleSheet*), "GetStyleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* hashCode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_StyleSheet*), "GetStyleInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hashCode});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_StyleSheet::UpdateStyleDictionaryKey
@@ -133,7 +134,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_StyleSheet::*)(int, int)>(&TMPro::TMP_StyleSheet::UpdateStyleDictionaryKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_StyleSheet*), "UpdateStyleDictionaryKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* old_key = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* new_key = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_StyleSheet*), "UpdateStyleDictionaryKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{old_key, new_key});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_StyleSheet::UpdateStyleSheet

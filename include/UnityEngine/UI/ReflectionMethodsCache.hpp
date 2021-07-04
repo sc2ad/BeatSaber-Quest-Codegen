@@ -96,7 +96,6 @@ namespace UnityEngine::UI {
   static_assert(sizeof(ReflectionMethodsCache) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ReflectionMethodsCache*, "UnityEngine.UI", "ReflectionMethodsCache");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::UI::ReflectionMethodsCache::get_Singleton
 // Il2CppName: get_Singleton
 template<>

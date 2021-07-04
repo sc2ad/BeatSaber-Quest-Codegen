@@ -25,13 +25,14 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SR*, "", "SR");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SR::Format
 // Il2CppName: Format
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppObject*)>(&GlobalNamespace::SR::Format)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SR*), "Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* resourceFormat = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* p1 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SR*), "Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resourceFormat, p1});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SR::Format
@@ -39,6 +40,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*)>(&GlobalNamespace::SR::Format)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SR*), "Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* resourceFormat = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* p1 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* p2 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SR*), "Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{resourceFormat, p1, p2});
   }
 };

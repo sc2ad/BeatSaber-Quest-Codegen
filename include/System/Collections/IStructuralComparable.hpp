@@ -31,13 +31,13 @@ namespace System::Collections {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::IStructuralComparable*, "System.Collections", "IStructuralComparable");
-// Writing includes for template specializations
-#include "System/Collections/IComparer.hpp"
 // Writing MetadataGetter for method: System::Collections::IStructuralComparable::CompareTo
 // Il2CppName: CompareTo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::IStructuralComparable::*)(::Il2CppObject*, System::Collections::IComparer*)>(&System::Collections::IStructuralComparable::CompareTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Collections::IStructuralComparable*), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::IComparer*>()});
+    static auto* other = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* comparer = &::il2cpp_utils::GetClassFromName("System.Collections", "IComparer")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Collections::IStructuralComparable*), "CompareTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other, comparer});
   }
 };

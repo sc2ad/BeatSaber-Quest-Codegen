@@ -75,7 +75,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(Deeplink) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Deeplink*, "", "Deeplink");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::Deeplink::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

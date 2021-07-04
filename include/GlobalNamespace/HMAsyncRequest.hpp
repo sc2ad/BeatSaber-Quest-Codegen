@@ -71,8 +71,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(HMAsyncRequest) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HMAsyncRequest*, "", "HMAsyncRequest");
-// Writing includes for template specializations
-#include "GlobalNamespace/HMAsyncRequest_CancelHander.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HMAsyncRequest::get_CancelHandler
 // Il2CppName: get_CancelHandler
 template<>
@@ -86,7 +84,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::HMAsyncRequest::*)(GlobalNamespace::HMAsyncRequest::CancelHander*)>(&GlobalNamespace::HMAsyncRequest::set_CancelHandler)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMAsyncRequest*), "set_CancelHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::HMAsyncRequest::CancelHander*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("", "HMAsyncRequest/CancelHander")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HMAsyncRequest*), "set_CancelHandler", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::HMAsyncRequest::get_cancelled

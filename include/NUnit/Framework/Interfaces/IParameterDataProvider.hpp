@@ -33,13 +33,12 @@ namespace NUnit::Framework::Interfaces {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::IParameterDataProvider*, "NUnit.Framework.Interfaces", "IParameterDataProvider");
-// Writing includes for template specializations
-#include "NUnit/Framework/Interfaces/IParameterInfo.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::IParameterDataProvider::GetDataFor
 // Il2CppName: GetDataFor
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerable* (NUnit::Framework::Interfaces::IParameterDataProvider::*)(NUnit::Framework::Interfaces::IParameterInfo*)>(&NUnit::Framework::Interfaces::IParameterDataProvider::GetDataFor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::IParameterDataProvider*), "GetDataFor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Interfaces::IParameterInfo*>()});
+    static auto* parameter = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "IParameterInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::IParameterDataProvider*), "GetDataFor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parameter});
   }
 };

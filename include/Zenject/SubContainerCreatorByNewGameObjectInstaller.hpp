@@ -75,12 +75,6 @@ namespace Zenject {
   static_assert(sizeof(SubContainerCreatorByNewGameObjectInstaller) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewGameObjectInstaller*, "Zenject", "SubContainerCreatorByNewGameObjectInstaller");
-// Writing includes for template specializations
-#include "Zenject/DiContainer.hpp"
-#include "Zenject/GameObjectCreationParameters.hpp"
-#include "System/Type.hpp"
-#include "System/Collections/Generic/List_1.hpp"
-#include "Zenject/GameObjectContext.hpp"
 // Writing MetadataGetter for method: Zenject::SubContainerCreatorByNewGameObjectInstaller::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -90,6 +84,8 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::SubContainerCreatorByNewGameObjectInstaller*, "Z
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::SubContainerCreatorByNewGameObjectInstaller::*)(System::Collections::Generic::List_1<Zenject::TypeValuePair>*, Zenject::GameObjectContext*)>(&Zenject::SubContainerCreatorByNewGameObjectInstaller::AddInstallers)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorByNewGameObjectInstaller*), "AddInstallers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<Zenject::TypeValuePair>*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::GameObjectContext*>()});
+    static auto* args = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("Zenject", "TypeValuePair")})->byval_arg;
+    static auto* context = &::il2cpp_utils::GetClassFromName("Zenject", "GameObjectContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::SubContainerCreatorByNewGameObjectInstaller*), "AddInstallers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args, context});
   }
 };

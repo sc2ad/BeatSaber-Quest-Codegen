@@ -76,7 +76,6 @@ namespace Valve::VR {
   static_assert(sizeof(RenderModel_t_Packed) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_t_Packed, "Valve.VR", "RenderModel_t_Packed");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Valve::VR::RenderModel_t_Packed::RenderModel_t_Packed
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -86,6 +85,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::RenderModel_t_Packed, "Valve.VR", "RenderModel
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::RenderModel_t_Packed::*)(Valve::VR::RenderModel_t&)>(&Valve::VR::RenderModel_t_Packed::Unpack)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::RenderModel_t_Packed), "Unpack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::RenderModel_t&>()});
+    static auto* unpacked = &::il2cpp_utils::GetClassFromName("Valve.VR", "RenderModel_t")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::RenderModel_t_Packed), "Unpack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unpacked});
   }
 };

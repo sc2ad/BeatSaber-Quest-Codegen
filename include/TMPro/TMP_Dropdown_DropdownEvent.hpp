@@ -35,7 +35,6 @@ namespace TMPro {
   }; // TMPro.TMP_Dropdown/DropdownEvent
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Dropdown::DropdownEvent*, "TMPro", "TMP_Dropdown/DropdownEvent");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: TMPro::TMP_Dropdown::DropdownEvent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

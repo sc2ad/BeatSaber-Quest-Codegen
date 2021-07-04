@@ -74,7 +74,6 @@ namespace TMPro {
   static_assert(sizeof(TMP_MaterialManager::FallbackMaterial) == 0x34);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_MaterialManager::FallbackMaterial*, "TMPro", "TMP_MaterialManager/FallbackMaterial");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: TMPro::TMP_MaterialManager::FallbackMaterial::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

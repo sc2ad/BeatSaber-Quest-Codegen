@@ -22,7 +22,6 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::IDisposable*, "System", "IDisposable");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::IDisposable::Dispose
 // Il2CppName: Dispose
 template<>

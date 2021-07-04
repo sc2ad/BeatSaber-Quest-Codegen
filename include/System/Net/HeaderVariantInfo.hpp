@@ -55,7 +55,6 @@ namespace System::Net {
   static_assert(sizeof(HeaderVariantInfo) == 0xC);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::HeaderVariantInfo, "System.Net", "HeaderVariantInfo");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::HeaderVariantInfo::HeaderVariantInfo
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

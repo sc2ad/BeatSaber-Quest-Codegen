@@ -41,13 +41,14 @@ namespace UnityEngine::Timeline {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::HashUtility*, "UnityEngine.Timeline", "HashUtility");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Timeline::HashUtility::CombineHash
 // Il2CppName: CombineHash
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int)>(&UnityEngine::Timeline::HashUtility::CombineHash)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::HashUtility*), "CombineHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* h1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h2 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::HashUtility*), "CombineHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{h1, h2});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Timeline::HashUtility::CombineHash
@@ -55,7 +56,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int, int)>(&UnityEngine::Timeline::HashUtility::CombineHash)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::HashUtility*), "CombineHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* h1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h2 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h3 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::HashUtility*), "CombineHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{h1, h2, h3});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Timeline::HashUtility::CombineHash
@@ -63,7 +67,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int, int, int)>(&UnityEngine::Timeline::HashUtility::CombineHash)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::HashUtility*), "CombineHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* h1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h2 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h3 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h4 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::HashUtility*), "CombineHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{h1, h2, h3, h4});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Timeline::HashUtility::CombineHash
@@ -71,7 +79,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int, int, int, int)>(&UnityEngine::Timeline::HashUtility::CombineHash)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::HashUtility*), "CombineHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* h1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h2 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h3 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h4 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h5 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::HashUtility*), "CombineHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{h1, h2, h3, h4, h5});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Timeline::HashUtility::CombineHash
@@ -79,7 +92,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int, int, int, int, int)>(&UnityEngine::Timeline::HashUtility::CombineHash)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::HashUtility*), "CombineHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* h1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h2 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h3 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h4 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h5 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h6 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::HashUtility*), "CombineHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{h1, h2, h3, h4, h5, h6});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Timeline::HashUtility::CombineHash
@@ -87,7 +106,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int, int, int, int, int, int)>(&UnityEngine::Timeline::HashUtility::CombineHash)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::HashUtility*), "CombineHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* h1 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h2 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h3 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h4 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h5 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h6 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* h7 = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::HashUtility*), "CombineHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{h1, h2, h3, h4, h5, h6, h7});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Timeline::HashUtility::CombineHash
@@ -95,6 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<int>*)>(&UnityEngine::Timeline::HashUtility::CombineHash)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::HashUtility*), "CombineHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    static auto* hashes = &classof(::Array<::Array<int>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::HashUtility*), "CombineHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hashes});
   }
 };

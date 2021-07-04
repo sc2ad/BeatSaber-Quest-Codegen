@@ -61,10 +61,6 @@ namespace UnityEngine::AI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AI::NavMesh*, "UnityEngine.AI", "NavMesh");
-// Writing includes for template specializations
-#include "UnityEngine/Vector3.hpp"
-#include "UnityEngine/AI/NavMeshPath.hpp"
-#include "UnityEngine/AI/NavMeshHit.hpp"
 // Writing MetadataGetter for method: UnityEngine::AI::NavMesh::Internal_CallOnNavMeshPreUpdate
 // Il2CppName: Internal_CallOnNavMeshPreUpdate
 template<>
@@ -78,7 +74,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3, UnityEngine::Vector3, int, UnityEngine::AI::NavMeshPath*)>(&UnityEngine::AI::NavMesh::CalculatePath)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AI::NavMesh*), "CalculatePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AI::NavMeshPath*>()});
+    static auto* sourcePosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* targetPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* areaMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* path = &::il2cpp_utils::GetClassFromName("UnityEngine.AI", "NavMeshPath")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AI::NavMesh*), "CalculatePath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourcePosition, targetPosition, areaMask, path});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AI::NavMesh::CalculatePathInternal
@@ -86,7 +86,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3, UnityEngine::Vector3, int, UnityEngine::AI::NavMeshPath*)>(&UnityEngine::AI::NavMesh::CalculatePathInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AI::NavMesh*), "CalculatePathInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AI::NavMeshPath*>()});
+    static auto* sourcePosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* targetPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* areaMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* path = &::il2cpp_utils::GetClassFromName("UnityEngine.AI", "NavMeshPath")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AI::NavMesh*), "CalculatePathInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourcePosition, targetPosition, areaMask, path});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AI::NavMesh::SamplePosition
@@ -94,7 +98,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3, UnityEngine::AI::NavMeshHit&, float, int)>(&UnityEngine::AI::NavMesh::SamplePosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AI::NavMesh*), "SamplePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AI::NavMeshHit&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* sourcePosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* hit = &::il2cpp_utils::GetClassFromName("UnityEngine.AI", "NavMeshHit")->this_arg;
+    static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* areaMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AI::NavMesh*), "SamplePosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourcePosition, hit, maxDistance, areaMask});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AI::NavMesh::CalculatePathInternal_Injected
@@ -102,7 +110,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3&, UnityEngine::Vector3&, int, UnityEngine::AI::NavMeshPath*)>(&UnityEngine::AI::NavMesh::CalculatePathInternal_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AI::NavMesh*), "CalculatePathInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AI::NavMeshPath*>()});
+    static auto* sourcePosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
+    static auto* targetPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
+    static auto* areaMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* path = &::il2cpp_utils::GetClassFromName("UnityEngine.AI", "NavMeshPath")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AI::NavMesh*), "CalculatePathInternal_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourcePosition, targetPosition, areaMask, path});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::AI::NavMesh::SamplePosition_Injected
@@ -110,6 +122,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Vector3&, UnityEngine::AI::NavMeshHit&, float, int)>(&UnityEngine::AI::NavMesh::SamplePosition_Injected)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AI::NavMesh*), "SamplePosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AI::NavMeshHit&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* sourcePosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
+    static auto* hit = &::il2cpp_utils::GetClassFromName("UnityEngine.AI", "NavMeshHit")->this_arg;
+    static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* areaMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::AI::NavMesh*), "SamplePosition_Injected", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourcePosition, hit, maxDistance, areaMask});
   }
 };

@@ -28,7 +28,6 @@ namespace UnityEngine::Playables {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::IPlayable*, "UnityEngine.Playables", "IPlayable");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Playables::IPlayable::GetHandle
 // Il2CppName: GetHandle
 template<>

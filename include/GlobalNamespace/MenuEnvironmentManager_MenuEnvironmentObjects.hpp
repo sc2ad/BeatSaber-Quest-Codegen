@@ -62,7 +62,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MenuEnvironmentManager::MenuEnvironmentObjects) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects*, "", "MenuEnvironmentManager/MenuEnvironmentObjects");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentObjects::get_menuEnvironmentType
 // Il2CppName: get_menuEnvironmentType
 template<>

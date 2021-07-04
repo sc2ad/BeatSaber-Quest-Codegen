@@ -108,7 +108,6 @@ namespace HMUI {
   static_assert(sizeof(InputFieldViewStaticAnimations) == 0x49);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::InputFieldViewStaticAnimations*, "HMUI", "InputFieldViewStaticAnimations");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::InputFieldViewStaticAnimations::Awake
 // Il2CppName: Awake
 template<>
@@ -146,7 +145,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::InputFieldViewStaticAnimations::*)(HMUI::InputFieldView::SelectionState)>(&HMUI::InputFieldViewStaticAnimations::HandleInputFieldViewSelectionStateDidChange)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldViewStaticAnimations*), "HandleInputFieldViewSelectionStateDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::InputFieldView::SelectionState>()});
+    static auto* state = &::il2cpp_utils::GetClassFromName("HMUI", "InputFieldView/SelectionState")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(HMUI::InputFieldViewStaticAnimations*), "HandleInputFieldViewSelectionStateDidChange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state});
   }
 };
 // Writing MetadataGetter for method: HMUI::InputFieldViewStaticAnimations::New_ctor

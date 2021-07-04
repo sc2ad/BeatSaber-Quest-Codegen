@@ -79,9 +79,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(LevelStatsView) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelStatsView*, "", "LevelStatsView");
-// Writing includes for template specializations
-#include "GlobalNamespace/IDifficultyBeatmap.hpp"
-#include "GlobalNamespace/PlayerData.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LevelStatsView::Hide
 // Il2CppName: Hide
 template<>
@@ -95,7 +92,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelStatsView::*)(GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::PlayerData*)>(&GlobalNamespace::LevelStatsView::ShowStats)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelStatsView*), "ShowStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IDifficultyBeatmap*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PlayerData*>()});
+    static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;
+    static auto* playerData = &::il2cpp_utils::GetClassFromName("", "PlayerData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelStatsView*), "ShowStats", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficultyBeatmap, playerData});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LevelStatsView::New_ctor

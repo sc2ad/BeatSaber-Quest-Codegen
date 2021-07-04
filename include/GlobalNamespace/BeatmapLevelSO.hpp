@@ -390,13 +390,6 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSO*, "", "BeatmapLevelSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult, "", "BeatmapLevelSO/GetBeatmapLevelDataResult");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult::Result, "", "BeatmapLevelSO/GetBeatmapLevelDataResult/Result");
-// Writing includes for template specializations
-#include "UnityEngine/AudioClip.hpp"
-#include "UnityEngine/Sprite.hpp"
-#include "GlobalNamespace/EnvironmentInfoSO.hpp"
-#include "System/Threading/CancellationToken.hpp"
-#include "GlobalNamespace/BeatmapCharacteristicSO.hpp"
-#include "GlobalNamespace/BeatmapDifficulty.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::get_levelID
 // Il2CppName: get_levelID
 template<>
@@ -546,7 +539,23 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelSO::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, UnityEngine::AudioClip*, float, float, float, float, float, float, UnityEngine::Sprite*, GlobalNamespace::EnvironmentInfoSO*, GlobalNamespace::EnvironmentInfoSO*, ::Array<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet*>*)>(&GlobalNamespace::BeatmapLevelSO::InitFull)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO*), "InitFull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioClip*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnvironmentInfoSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnvironmentInfoSO*>(), ::il2cpp_utils::ExtractIndependentType<::Array<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet*>*>()});
+    static auto* levelID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* songName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* songSubName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* songAuthorName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* levelAuthorName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* audioClip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")->byval_arg;
+    static auto* beatsPerMinute = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* songTimeOffset = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* shuffle = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* shufflePeriod = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* previewStartTime = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* previewDuration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* coverImage = &::il2cpp_utils::GetClassFromName("UnityEngine", "Sprite")->byval_arg;
+    static auto* environmentInfo = &::il2cpp_utils::GetClassFromName("", "EnvironmentInfoSO")->byval_arg;
+    static auto* allDirectionsEnvironmentInfo = &::il2cpp_utils::GetClassFromName("", "EnvironmentInfoSO")->byval_arg;
+    static auto* difficultyBeatmapSets = &classof(::Array<::Array<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet*>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO*), "InitFull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{levelID, songName, songSubName, songAuthorName, levelAuthorName, audioClip, beatsPerMinute, songTimeOffset, shuffle, shufflePeriod, previewStartTime, previewDuration, coverImage, environmentInfo, allDirectionsEnvironmentInfo, difficultyBeatmapSets});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::InitData
@@ -562,7 +571,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::AudioClip*>* (GlobalNamespace::BeatmapLevelSO::*)(System::Threading::CancellationToken)>(&GlobalNamespace::BeatmapLevelSO::GetPreviewAudioClipAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO*), "GetPreviewAudioClipAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO*), "GetPreviewAudioClipAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::GetCoverImageAsync
@@ -570,7 +580,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* (GlobalNamespace::BeatmapLevelSO::*)(System::Threading::CancellationToken)>(&GlobalNamespace::BeatmapLevelSO::GetCoverImageAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO*), "GetCoverImageAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO*), "GetCoverImageAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cancellationToken});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::get_beatmapLevelData
@@ -586,7 +597,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult>* (GlobalNamespace::BeatmapLevelSO::*)(System::Threading::CancellationToken)>(&GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataAsync)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO*), "GetBeatmapLevelDataAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::CancellationToken>()});
+    static auto* token = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO*), "GetBeatmapLevelDataAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{token});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::GetDifficultyBeatmap
@@ -594,7 +606,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::IDifficultyBeatmap* (GlobalNamespace::BeatmapLevelSO::*)(GlobalNamespace::BeatmapCharacteristicSO*, GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::BeatmapLevelSO::GetDifficultyBeatmap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO*), "GetDifficultyBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapCharacteristicSO*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapDifficulty>()});
+    static auto* characteristic = &::il2cpp_utils::GetClassFromName("", "BeatmapCharacteristicSO")->byval_arg;
+    static auto* difficulty = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficulty")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO*), "GetDifficultyBeatmap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{characteristic, difficulty});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::OnEnable

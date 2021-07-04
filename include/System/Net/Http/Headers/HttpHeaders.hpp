@@ -169,10 +169,6 @@ namespace System::Net::Http::Headers {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Http::Headers::HttpHeaders*, "System.Net.Http.Headers", "HttpHeaders");
-// Writing includes for template specializations
-#include "System/Net/Http/Headers/HeaderInfo.hpp"
-#include "System/Net/Http/Headers/HttpHeaders_HeaderBucket.hpp"
-#include "System/Func_2.hpp"
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpHeaders::_cctor
 // Il2CppName: .cctor
 template<>
@@ -190,7 +186,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::HttpHeaders::*)(::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*, System::Net::Http::Headers::HeaderInfo*, bool)>(&System::Net::Http::Headers::HttpHeaders::AddInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpHeaders*), "AddInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::HeaderInfo*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* values = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
+    static auto* headerInfo = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "HeaderInfo")->byval_arg;
+    static auto* ignoreInvalid = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpHeaders*), "AddInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, values, headerInfo, ignoreInvalid});
   }
 };
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpHeaders::TryAddWithoutValidation
@@ -198,7 +198,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::HttpHeaders::*)(::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)>(&System::Net::Http::Headers::HttpHeaders::TryAddWithoutValidation)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpHeaders*), "TryAddWithoutValidation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* values = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpHeaders*), "TryAddWithoutValidation", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, values});
   }
 };
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpHeaders::TryCheckName
@@ -206,7 +208,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::Http::Headers::HttpHeaders::*)(::Il2CppString*, System::Net::Http::Headers::HeaderInfo*&)>(&System::Net::Http::Headers::HttpHeaders::TryCheckName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpHeaders*), "TryCheckName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::HeaderInfo*&>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* headerInfo = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "HeaderInfo")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpHeaders*), "TryCheckName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, headerInfo});
   }
 };
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpHeaders::GetEnumerator
@@ -230,7 +234,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*)>(&System::Net::Http::Headers::HttpHeaders::GetSingleHeaderString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpHeaders*), "GetSingleHeaderString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>()});
+    static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* values = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpHeaders*), "GetSingleHeaderString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key, values});
   }
 };
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpHeaders::GetAllHeaderValues
@@ -238,7 +244,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<::Il2CppString*>* (System::Net::Http::Headers::HttpHeaders::*)(System::Net::Http::Headers::HttpHeaders::HeaderBucket*, System::Net::Http::Headers::HeaderInfo*)>(&System::Net::Http::Headers::HttpHeaders::GetAllHeaderValues)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpHeaders*), "GetAllHeaderValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::HttpHeaders::HeaderBucket*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::Http::Headers::HeaderInfo*>()});
+    static auto* bucket = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "HttpHeaders/HeaderBucket")->byval_arg;
+    static auto* headerInfo = &::il2cpp_utils::GetClassFromName("System.Net.Http.Headers", "HeaderInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpHeaders*), "GetAllHeaderValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bucket, headerInfo});
   }
 };
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpHeaders::GetKnownHeaderKind
@@ -246,7 +254,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::Http::Headers::HttpHeaderKind (*)(::Il2CppString*)>(&System::Net::Http::Headers::HttpHeaders::GetKnownHeaderKind)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpHeaders*), "GetKnownHeaderKind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::HttpHeaders*), "GetKnownHeaderKind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
   }
 };
 // Writing MetadataGetter for method: System::Net::Http::Headers::HttpHeaders::GetValue

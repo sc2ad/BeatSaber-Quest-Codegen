@@ -122,7 +122,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(EmptyDifficultyBeatmap) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EmptyDifficultyBeatmap*, "", "EmptyDifficultyBeatmap");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::EmptyDifficultyBeatmap::get_level
 // Il2CppName: get_level
 template<>

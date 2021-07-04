@@ -71,13 +71,14 @@ namespace GlobalNamespace {
   static_assert(sizeof(BlueNoiseDithering) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BlueNoiseDithering*, "", "BlueNoiseDithering");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BlueNoiseDithering::SetBlueNoiseShaderParams
 // Il2CppName: SetBlueNoiseShaderParams
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BlueNoiseDithering::*)(int, int)>(&GlobalNamespace::BlueNoiseDithering::SetBlueNoiseShaderParams)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlueNoiseDithering*), "SetBlueNoiseShaderParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* cameraPixelWidth = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* cameraPixelHeight = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BlueNoiseDithering*), "SetBlueNoiseShaderParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cameraPixelWidth, cameraPixelHeight});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BlueNoiseDithering::New_ctor

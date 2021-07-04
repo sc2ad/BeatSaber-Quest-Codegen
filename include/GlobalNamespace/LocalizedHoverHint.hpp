@@ -53,14 +53,14 @@ namespace GlobalNamespace {
   }; // LocalizedHoverHint
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LocalizedHoverHint*, "", "LocalizedHoverHint");
-// Writing includes for template specializations
-#include "HMUI/HoverHint.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LocalizedHoverHint::SetText
 // Il2CppName: SetText
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalizedHoverHint::*)(HMUI::HoverHint*, ::Il2CppString*)>(&GlobalNamespace::LocalizedHoverHint::SetText)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalizedHoverHint*), "SetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::HoverHint*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* hoverHint = &::il2cpp_utils::GetClassFromName("HMUI", "HoverHint")->byval_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalizedHoverHint*), "SetText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hoverHint, value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LocalizedHoverHint::UpdateAlignment
@@ -68,7 +68,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LocalizedHoverHint::*)(HMUI::HoverHint*, Polyglot::LanguageDirection)>(&GlobalNamespace::LocalizedHoverHint::UpdateAlignment)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalizedHoverHint*), "UpdateAlignment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<HMUI::HoverHint*>(), ::il2cpp_utils::ExtractIndependentType<Polyglot::LanguageDirection>()});
+    static auto* hoverHint = &::il2cpp_utils::GetClassFromName("HMUI", "HoverHint")->byval_arg;
+    static auto* direction = &::il2cpp_utils::GetClassFromName("Polyglot", "LanguageDirection")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LocalizedHoverHint*), "UpdateAlignment", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hoverHint, direction});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LocalizedHoverHint::New_ctor

@@ -34,13 +34,13 @@ namespace UnityEngine::Networking {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::UnityWebRequestMultimedia*, "UnityEngine.Networking", "UnityWebRequestMultimedia");
-// Writing includes for template specializations
-#include "UnityEngine/AudioType.hpp"
 // Writing MetadataGetter for method: UnityEngine::Networking::UnityWebRequestMultimedia::GetAudioClip
 // Il2CppName: GetAudioClip
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Networking::UnityWebRequest* (*)(::Il2CppString*, UnityEngine::AudioType)>(&UnityEngine::Networking::UnityWebRequestMultimedia::GetAudioClip)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequestMultimedia*), "GetAudioClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AudioType>()});
+    static auto* uri = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* audioType = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::UnityWebRequestMultimedia*), "GetAudioClip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uri, audioType});
   }
 };

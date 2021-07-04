@@ -199,15 +199,6 @@ namespace System::Runtime::Serialization {
   static_assert(sizeof(ObjectManager) == 0x54);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectManager*, "System.Runtime.Serialization", "ObjectManager");
-// Writing includes for template specializations
-#include "System/Runtime/Serialization/ISurrogateSelector.hpp"
-#include "System/Runtime/Serialization/ObjectHolder.hpp"
-#include "System/Runtime/Serialization/FixupHolder.hpp"
-#include "System/Reflection/FieldInfo.hpp"
-#include "System/Runtime/Serialization/SerializationInfo.hpp"
-#include "System/Reflection/MemberInfo.hpp"
-#include "System/RuntimeType.hpp"
-#include "System/Runtime/Serialization/DeserializationEventHandler.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectManager::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -217,7 +208,8 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectManager*, "System.R
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Serialization::ObjectManager::*)(::Il2CppObject*)>(&System::Runtime::Serialization::ObjectManager::CanCallGetType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "CanCallGetType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "CanCallGetType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectManager::set_TopObject
@@ -225,7 +217,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectManager::*)(::Il2CppObject*)>(&System::Runtime::Serialization::ObjectManager::set_TopObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "set_TopObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "set_TopObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectManager::get_TopObject
@@ -249,7 +242,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::ObjectHolder* (System::Runtime::Serialization::ObjectManager::*)(int64_t)>(&System::Runtime::Serialization::ObjectManager::FindObjectHolder)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "FindObjectHolder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    static auto* objectID = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "FindObjectHolder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objectID});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectManager::FindOrCreateObjectHolder
@@ -257,7 +251,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::ObjectHolder* (System::Runtime::Serialization::ObjectManager::*)(int64_t)>(&System::Runtime::Serialization::ObjectManager::FindOrCreateObjectHolder)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "FindOrCreateObjectHolder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    static auto* objectID = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "FindOrCreateObjectHolder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objectID});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectManager::AddObjectHolder
@@ -265,7 +260,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectManager::*)(System::Runtime::Serialization::ObjectHolder*)>(&System::Runtime::Serialization::ObjectManager::AddObjectHolder)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "AddObjectHolder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::ObjectHolder*>()});
+    static auto* holder = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "ObjectHolder")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "AddObjectHolder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{holder});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectManager::GetCompletionInfo
@@ -273,7 +269,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Serialization::ObjectManager::*)(System::Runtime::Serialization::FixupHolder*, System::Runtime::Serialization::ObjectHolder*&, ::Il2CppObject*&, bool)>(&System::Runtime::Serialization::ObjectManager::GetCompletionInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "GetCompletionInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::FixupHolder*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::ObjectHolder*&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* fixup = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "FixupHolder")->byval_arg;
+    static auto* holder = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "ObjectHolder")->this_arg;
+    static auto* member = &::il2cpp_utils::GetClassFromName("System", "Object")->this_arg;
+    static auto* bThrowIfMissing = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "GetCompletionInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fixup, holder, member, bThrowIfMissing});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectManager::FixupSpecialObject
@@ -281,7 +281,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectManager::*)(System::Runtime::Serialization::ObjectHolder*)>(&System::Runtime::Serialization::ObjectManager::FixupSpecialObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "FixupSpecialObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::ObjectHolder*>()});
+    static auto* holder = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "ObjectHolder")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "FixupSpecialObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{holder});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectManager::ResolveObjectReference
@@ -289,7 +290,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Serialization::ObjectManager::*)(System::Runtime::Serialization::ObjectHolder*)>(&System::Runtime::Serialization::ObjectManager::ResolveObjectReference)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "ResolveObjectReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::ObjectHolder*>()});
+    static auto* holder = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "ObjectHolder")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "ResolveObjectReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{holder});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectManager::DoValueTypeFixup
@@ -297,7 +299,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Serialization::ObjectManager::*)(System::Reflection::FieldInfo*, System::Runtime::Serialization::ObjectHolder*, ::Il2CppObject*)>(&System::Runtime::Serialization::ObjectManager::DoValueTypeFixup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "DoValueTypeFixup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Reflection::FieldInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::ObjectHolder*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* memberToFix = &::il2cpp_utils::GetClassFromName("System.Reflection", "FieldInfo")->byval_arg;
+    static auto* holder = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "ObjectHolder")->byval_arg;
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "DoValueTypeFixup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{memberToFix, holder, value});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectManager::CompleteObject
@@ -305,7 +310,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectManager::*)(System::Runtime::Serialization::ObjectHolder*, bool)>(&System::Runtime::Serialization::ObjectManager::CompleteObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "CompleteObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::ObjectHolder*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* holder = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "ObjectHolder")->byval_arg;
+    static auto* bObjectFullyComplete = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "CompleteObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{holder, bObjectFullyComplete});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectManager::DoNewlyRegisteredObjectFixups
@@ -313,7 +320,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectManager::*)(System::Runtime::Serialization::ObjectHolder*)>(&System::Runtime::Serialization::ObjectManager::DoNewlyRegisteredObjectFixups)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "DoNewlyRegisteredObjectFixups", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::ObjectHolder*>()});
+    static auto* holder = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "ObjectHolder")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "DoNewlyRegisteredObjectFixups", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{holder});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectManager::GetObject
@@ -321,7 +329,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Serialization::ObjectManager::*)(int64_t)>(&System::Runtime::Serialization::ObjectManager::GetObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "GetObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    static auto* objectID = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "GetObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objectID});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectManager::RegisterString
@@ -329,7 +338,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectManager::*)(::Il2CppString*, int64_t, System::Runtime::Serialization::SerializationInfo*, int64_t, System::Reflection::MemberInfo*)>(&System::Runtime::Serialization::ObjectManager::RegisterString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "RegisterString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MemberInfo*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* objectID = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
+    static auto* idOfContainingObj = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    static auto* member = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "RegisterString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, objectID, info, idOfContainingObj, member});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectManager::RegisterObject
@@ -337,7 +351,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectManager::*)(::Il2CppObject*, int64_t, System::Runtime::Serialization::SerializationInfo*, int64_t, System::Reflection::MemberInfo*, ::Array<int>*)>(&System::Runtime::Serialization::ObjectManager::RegisterObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "RegisterObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MemberInfo*>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* objectID = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
+    static auto* idOfContainingObj = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    static auto* member = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
+    static auto* arrayIndex = &classof(::Array<::Array<int>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "RegisterObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, objectID, info, idOfContainingObj, member, arrayIndex});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectManager::CompleteISerializableObject
@@ -345,7 +365,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectManager::*)(::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::StreamingContext)>(&System::Runtime::Serialization::ObjectManager::CompleteISerializableObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "CompleteISerializableObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
+    static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "CompleteISerializableObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, info, context});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectManager::GetConstructor
@@ -353,7 +376,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::RuntimeConstructorInfo* (*)(System::RuntimeType*)>(&System::Runtime::Serialization::ObjectManager::GetConstructor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "GetConstructor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::RuntimeType*>()});
+    static auto* t = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "GetConstructor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectManager::DoFixups
@@ -369,7 +393,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectManager::*)(System::Runtime::Serialization::FixupHolder*, int64_t, int64_t)>(&System::Runtime::Serialization::ObjectManager::RegisterFixup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "RegisterFixup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::FixupHolder*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    static auto* fixup = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "FixupHolder")->byval_arg;
+    static auto* objectToBeFixed = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    static auto* objectRequired = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "RegisterFixup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fixup, objectToBeFixed, objectRequired});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectManager::RecordFixup
@@ -377,7 +404,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectManager::*)(int64_t, System::Reflection::MemberInfo*, int64_t)>(&System::Runtime::Serialization::ObjectManager::RecordFixup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "RecordFixup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MemberInfo*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    static auto* objectToBeFixed = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    static auto* member = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
+    static auto* objectRequired = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "RecordFixup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objectToBeFixed, member, objectRequired});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectManager::RecordDelayedFixup
@@ -385,7 +415,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectManager::*)(int64_t, ::Il2CppString*, int64_t)>(&System::Runtime::Serialization::ObjectManager::RecordDelayedFixup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "RecordDelayedFixup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    static auto* objectToBeFixed = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    static auto* memberName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* objectRequired = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "RecordDelayedFixup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objectToBeFixed, memberName, objectRequired});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectManager::RecordArrayElementFixup
@@ -393,7 +426,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectManager::*)(int64_t, ::Array<int>*, int64_t)>(&System::Runtime::Serialization::ObjectManager::RecordArrayElementFixup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "RecordArrayElementFixup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<::Array<int>*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    static auto* arrayToBeFixed = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    static auto* indices = &classof(::Array<::Array<int>*>*)->byval_arg;
+    static auto* objectRequired = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "RecordArrayElementFixup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{arrayToBeFixed, indices, objectRequired});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectManager::RaiseDeserializationEvent
@@ -409,7 +445,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectManager::*)(System::Runtime::Serialization::DeserializationEventHandler*)>(&System::Runtime::Serialization::ObjectManager::AddOnDeserialization)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "AddOnDeserialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::DeserializationEventHandler*>()});
+    static auto* handler = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "DeserializationEventHandler")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "AddOnDeserialization", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handler});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectManager::AddOnDeserialized
@@ -417,7 +454,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectManager::*)(::Il2CppObject*)>(&System::Runtime::Serialization::ObjectManager::AddOnDeserialized)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "AddOnDeserialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "AddOnDeserialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectManager::RaiseOnDeserializedEvent
@@ -425,7 +463,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectManager::*)(::Il2CppObject*)>(&System::Runtime::Serialization::ObjectManager::RaiseOnDeserializedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "RaiseOnDeserializedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "RaiseOnDeserializedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectManager::RaiseOnDeserializingEvent
@@ -433,6 +472,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectManager::*)(::Il2CppObject*)>(&System::Runtime::Serialization::ObjectManager::RaiseOnDeserializingEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "RaiseOnDeserializingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::ObjectManager*), "RaiseOnDeserializingEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };

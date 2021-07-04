@@ -24,13 +24,12 @@ namespace NUnit::Framework::Constraints {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Constraints::ConstraintOperator*, "NUnit.Framework.Constraints", "ConstraintOperator");
-// Writing includes for template specializations
-#include "NUnit/Framework/Constraints/ConstraintBuilder_ConstraintStack.hpp"
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::ConstraintOperator::Reduce
 // Il2CppName: Reduce
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::ConstraintOperator::*)(NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack*)>(&NUnit::Framework::Constraints::ConstraintOperator::Reduce)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ConstraintOperator*), "Reduce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack*>()});
+    static auto* stack = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Constraints", "ConstraintBuilder/ConstraintStack")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::ConstraintOperator*), "Reduce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stack});
   }
 };

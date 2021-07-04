@@ -63,7 +63,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(AppStaticSettingsSO) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AppStaticSettingsSO*, "", "AppStaticSettingsSO");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::AppStaticSettingsSO::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

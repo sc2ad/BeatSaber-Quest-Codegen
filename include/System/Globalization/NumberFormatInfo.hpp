@@ -419,16 +419,13 @@ namespace System::Globalization {
   static_assert(sizeof(NumberFormatInfo) == 0xD5);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::NumberFormatInfo*, "System.Globalization", "NumberFormatInfo");
-// Writing includes for template specializations
-#include "System/Runtime/Serialization/StreamingContext.hpp"
-#include "System/Globalization/CultureData.hpp"
-#include "System/Type.hpp"
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::OnSerializing
 // Il2CppName: OnSerializing
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::NumberFormatInfo::*)(System::Runtime::Serialization::StreamingContext)>(&System::Globalization::NumberFormatInfo::OnSerializing)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "OnSerializing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    static auto* ctx = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "OnSerializing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ctx});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::OnDeserializing
@@ -436,7 +433,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::NumberFormatInfo::*)(System::Runtime::Serialization::StreamingContext)>(&System::Globalization::NumberFormatInfo::OnDeserializing)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "OnDeserializing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    static auto* ctx = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "OnDeserializing", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ctx});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::OnDeserialized
@@ -444,7 +442,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::NumberFormatInfo::*)(System::Runtime::Serialization::StreamingContext)>(&System::Globalization::NumberFormatInfo::OnDeserialized)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "OnDeserialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::StreamingContext>()});
+    static auto* ctx = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "OnDeserialized", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ctx});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::VerifyGroupSeparator
@@ -452,7 +451,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*)>(&System::Globalization::NumberFormatInfo::VerifyGroupSeparator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "VerifyGroupSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* groupSep = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* propertyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "VerifyGroupSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{groupSep, propertyName});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::New_ctor
@@ -480,7 +481,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::NumberFormatInfo* (*)(System::IFormatProvider*)>(&System::Globalization::NumberFormatInfo::GetInstance)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IFormatProvider*>()});
+    static auto* formatProvider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "GetInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{formatProvider});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::Clone
@@ -552,7 +554,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::NumberFormatInfo::*)(::Il2CppString*)>(&System::Globalization::NumberFormatInfo::set_CurrencyGroupSeparator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "set_CurrencyGroupSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "set_CurrencyGroupSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_CurrencySymbol
@@ -656,7 +659,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::NumberFormatInfo::*)(::Il2CppString*)>(&System::Globalization::NumberFormatInfo::set_NumberGroupSeparator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "set_NumberGroupSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "set_NumberGroupSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_CurrencyPositivePattern
@@ -712,7 +716,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Globalization::NumberFormatInfo::*)(::Il2CppString*)>(&System::Globalization::NumberFormatInfo::set_PercentGroupSeparator)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "set_PercentGroupSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "set_PercentGroupSeparator", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_PercentSymbol
@@ -736,7 +741,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Globalization::NumberFormatInfo::*)(System::Type*)>(&System::Globalization::NumberFormatInfo::GetFormat)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "GetFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* formatType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "GetFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{formatType});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::ReadOnly
@@ -744,7 +750,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::NumberFormatInfo* (*)(System::Globalization::NumberFormatInfo*)>(&System::Globalization::NumberFormatInfo::ReadOnly)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "ReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberFormatInfo*>()});
+    static auto* nfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberFormatInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "ReadOnly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nfi});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::ValidateParseStyleInteger
@@ -752,7 +759,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Globalization::NumberStyles)>(&System::Globalization::NumberFormatInfo::ValidateParseStyleInteger)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "ValidateParseStyleInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>()});
+    static auto* style = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "ValidateParseStyleInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{style});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::ValidateParseStyleFloatingPoint
@@ -760,7 +768,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Globalization::NumberStyles)>(&System::Globalization::NumberFormatInfo::ValidateParseStyleFloatingPoint)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "ValidateParseStyleFloatingPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::NumberStyles>()});
+    static auto* style = &::il2cpp_utils::GetClassFromName("System.Globalization", "NumberStyles")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "ValidateParseStyleFloatingPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{style});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::New_ctor

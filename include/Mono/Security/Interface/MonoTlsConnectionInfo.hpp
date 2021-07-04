@@ -80,7 +80,6 @@ namespace Mono::Security::Interface {
   static_assert(sizeof(MonoTlsConnectionInfo) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoTlsConnectionInfo*, "Mono.Security.Interface", "MonoTlsConnectionInfo");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsConnectionInfo::get_CipherSuiteCode
 // Il2CppName: get_CipherSuiteCode
 template<>
@@ -94,7 +93,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsConnectionInfo::*)(Mono::Security::Interface::CipherSuiteCode)>(&Mono::Security::Interface::MonoTlsConnectionInfo::set_CipherSuiteCode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsConnectionInfo*), "set_CipherSuiteCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::CipherSuiteCode>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("Mono.Security.Interface", "CipherSuiteCode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsConnectionInfo*), "set_CipherSuiteCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsConnectionInfo::get_ProtocolVersion
@@ -110,7 +110,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsConnectionInfo::*)(Mono::Security::Interface::TlsProtocols)>(&Mono::Security::Interface::MonoTlsConnectionInfo::set_ProtocolVersion)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsConnectionInfo*), "set_ProtocolVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::Security::Interface::TlsProtocols>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("Mono.Security.Interface", "TlsProtocols")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsConnectionInfo*), "set_ProtocolVersion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsConnectionInfo::set_PeerDomainName
@@ -118,7 +119,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsConnectionInfo::*)(::Il2CppString*)>(&Mono::Security::Interface::MonoTlsConnectionInfo::set_PeerDomainName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsConnectionInfo*), "set_PeerDomainName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsConnectionInfo*), "set_PeerDomainName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsConnectionInfo::ToString

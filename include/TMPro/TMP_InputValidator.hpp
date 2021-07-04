@@ -38,13 +38,15 @@ namespace TMPro {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_InputValidator*, "TMPro", "TMP_InputValidator");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: TMPro::TMP_InputValidator::Validate
 // Il2CppName: Validate
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (TMPro::TMP_InputValidator::*)(::Il2CppString*&, int&, ::Il2CppChar)>(&TMPro::TMP_InputValidator::Validate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_InputValidator*), "Validate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppChar>()});
+    static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
+    static auto* pos = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_InputValidator*), "Validate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text, pos, ch});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_InputValidator::New_ctor

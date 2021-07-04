@@ -102,9 +102,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(VRsenalLogger) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRsenalLogger*, "", "VRsenalLogger");
-// Writing includes for template specializations
-#include "GlobalNamespace/ScenesTransitionSetupDataSO.hpp"
-#include "Zenject/DiContainer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::VRsenalLogger::Awake
 // Il2CppName: Awake
 template<>
@@ -126,7 +123,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRsenalLogger::*)(GlobalNamespace::ScenesTransitionSetupDataSO*, Zenject::DiContainer*)>(&GlobalNamespace::VRsenalLogger::HandleGameScenesManagerInstallEarlyBindings)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRsenalLogger*), "HandleGameScenesManagerInstallEarlyBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ScenesTransitionSetupDataSO*>(), ::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    static auto* scenesTransitionSetupData = &::il2cpp_utils::GetClassFromName("", "ScenesTransitionSetupDataSO")->byval_arg;
+    static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRsenalLogger*), "HandleGameScenesManagerInstallEarlyBindings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scenesTransitionSetupData, container});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::VRsenalLogger::HandlePlayerNameWasEntered
@@ -134,7 +133,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRsenalLogger::*)(::Il2CppString*)>(&GlobalNamespace::VRsenalLogger::HandlePlayerNameWasEntered)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRsenalLogger*), "HandlePlayerNameWasEntered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* playerName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRsenalLogger*), "HandlePlayerNameWasEntered", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playerName});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::VRsenalLogger::New_ctor

@@ -86,7 +86,6 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AnimatorStateInfo, "UnityEngine", "AnimatorStateInfo");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::AnimatorStateInfo::get_normalizedTime
 // Il2CppName: get_normalizedTime
 template<>

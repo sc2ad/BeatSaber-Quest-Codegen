@@ -63,7 +63,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlayerVRControllersManager) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerVRControllersManager*, "", "PlayerVRControllersManager");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::PlayerVRControllersManager::DisableAllVRControllers
 // Il2CppName: DisableAllVRControllers
 template<>

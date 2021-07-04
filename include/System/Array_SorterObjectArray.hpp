@@ -89,8 +89,6 @@ namespace System {
   static_assert(sizeof(Array::SorterObjectArray) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Array::SorterObjectArray, "System", "Array/SorterObjectArray");
-// Writing includes for template specializations
-#include "System/Collections/IComparer.hpp"
 // Writing MetadataGetter for method: System::Array::SorterObjectArray::SorterObjectArray
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -100,7 +98,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Array::SorterObjectArray, "System", "Array/Sorter
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::SorterObjectArray::*)(int, int)>(&System::Array::SorterObjectArray::SwapIfGreaterWithItems)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), "SwapIfGreaterWithItems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* a = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* b = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), "SwapIfGreaterWithItems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a, b});
   }
 };
 // Writing MetadataGetter for method: System::Array::SorterObjectArray::Swap
@@ -108,7 +108,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::SorterObjectArray::*)(int, int)>(&System::Array::SorterObjectArray::Swap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), "Swap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* j = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), "Swap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i, j});
   }
 };
 // Writing MetadataGetter for method: System::Array::SorterObjectArray::Sort
@@ -116,7 +118,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::SorterObjectArray::*)(int, int)>(&System::Array::SorterObjectArray::Sort)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), "Sort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* left = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), "Sort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{left, length});
   }
 };
 // Writing MetadataGetter for method: System::Array::SorterObjectArray::IntrospectiveSort
@@ -124,7 +128,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::SorterObjectArray::*)(int, int)>(&System::Array::SorterObjectArray::IntrospectiveSort)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), "IntrospectiveSort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* left = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), "IntrospectiveSort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{left, length});
   }
 };
 // Writing MetadataGetter for method: System::Array::SorterObjectArray::IntroSort
@@ -132,7 +138,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::SorterObjectArray::*)(int, int, int)>(&System::Array::SorterObjectArray::IntroSort)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), "IntroSort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* lo = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* hi = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* depthLimit = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), "IntroSort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lo, hi, depthLimit});
   }
 };
 // Writing MetadataGetter for method: System::Array::SorterObjectArray::PickPivotAndPartition
@@ -140,7 +149,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Array::SorterObjectArray::*)(int, int)>(&System::Array::SorterObjectArray::PickPivotAndPartition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), "PickPivotAndPartition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* lo = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* hi = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), "PickPivotAndPartition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lo, hi});
   }
 };
 // Writing MetadataGetter for method: System::Array::SorterObjectArray::Heapsort
@@ -148,7 +159,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::SorterObjectArray::*)(int, int)>(&System::Array::SorterObjectArray::Heapsort)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), "Heapsort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* lo = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* hi = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), "Heapsort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lo, hi});
   }
 };
 // Writing MetadataGetter for method: System::Array::SorterObjectArray::DownHeap
@@ -156,7 +169,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::SorterObjectArray::*)(int, int, int)>(&System::Array::SorterObjectArray::DownHeap)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), "DownHeap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* n = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* lo = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), "DownHeap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i, n, lo});
   }
 };
 // Writing MetadataGetter for method: System::Array::SorterObjectArray::InsertionSort
@@ -164,6 +180,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::SorterObjectArray::*)(int, int)>(&System::Array::SorterObjectArray::InsertionSort)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), "InsertionSort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* lo = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* hi = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Array::SorterObjectArray), "InsertionSort", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lo, hi});
   }
 };

@@ -87,8 +87,6 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolableManager::$$c*, "Zenject", "PoolableManager/<>c");
-// Writing includes for template specializations
-#include "ModestTree/Util/ValuePair_2.hpp"
 // Writing MetadataGetter for method: Zenject::PoolableManager::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -102,7 +100,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenject::PoolableManager::$$c::*)(Zenject::PoolableManager::PoolableInfo)>(&Zenject::PoolableManager::$$c::$_ctor$b__2_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::PoolableManager::$$c*), "<.ctor>b__2_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::PoolableManager::PoolableInfo>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("Zenject", "PoolableManager/PoolableInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::PoolableManager::$$c*), "<.ctor>b__2_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
 // Writing MetadataGetter for method: Zenject::PoolableManager::$$c::$_ctor$b__2_2
@@ -110,7 +109,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Zenjec
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IPoolable* (Zenject::PoolableManager::$$c::*)(Zenject::PoolableManager::PoolableInfo)>(&Zenject::PoolableManager::$$c::$_ctor$b__2_2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::PoolableManager::$$c*), "<.ctor>b__2_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::PoolableManager::PoolableInfo>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("Zenject", "PoolableManager/PoolableInfo")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::PoolableManager::$$c*), "<.ctor>b__2_2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
 // Writing MetadataGetter for method: Zenject::PoolableManager::$$c::$CreatePoolableInfo$b__3_1
@@ -118,7 +118,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::IP
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Nullable_1<int> (Zenject::PoolableManager::$$c::*)(ModestTree::Util::ValuePair_2<System::Type*, int>*)>(&Zenject::PoolableManager::$$c::$CreatePoolableInfo$b__3_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::PoolableManager::$$c*), "<CreatePoolableInfo>b__3_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<ModestTree::Util::ValuePair_2<System::Type*, int>*>()});
+    static auto* x = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("ModestTree.Util", "ValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type"), ::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::PoolableManager::$$c*), "<CreatePoolableInfo>b__3_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
 // Writing MetadataGetter for method: Zenject::PoolableManager::$$c::New_ctor

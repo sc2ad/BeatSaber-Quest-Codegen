@@ -104,7 +104,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(PatternFightSceneSetup) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PatternFightSceneSetup*, "", "PatternFightSceneSetup");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::PatternFightSceneSetup::InstallBindings
 // Il2CppName: InstallBindings
 template<>

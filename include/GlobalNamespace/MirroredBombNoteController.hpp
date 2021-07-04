@@ -46,7 +46,6 @@ namespace GlobalNamespace {
   }; // MirroredBombNoteController
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MirroredBombNoteController*, "", "MirroredBombNoteController");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MirroredBombNoteController::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

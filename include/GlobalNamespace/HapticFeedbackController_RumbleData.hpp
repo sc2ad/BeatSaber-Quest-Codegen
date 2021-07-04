@@ -67,7 +67,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(HapticFeedbackController::RumbleData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HapticFeedbackController::RumbleData*, "", "HapticFeedbackController/RumbleData");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::HapticFeedbackController::RumbleData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

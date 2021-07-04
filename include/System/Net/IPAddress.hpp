@@ -203,7 +203,6 @@ namespace System::Net {
   static_assert(sizeof(IPAddress) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::IPAddress*, "System.Net", "IPAddress");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::IPAddress::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -229,7 +228,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::IPAddress*, "System.Net", "IPAddress");
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, System::Net::IPAddress*&)>(&System::Net::IPAddress::TryParse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::IPAddress*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*&>()});
+    static auto* ipString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* address = &::il2cpp_utils::GetClassFromName("System.Net", "IPAddress")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::IPAddress*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ipString, address});
   }
 };
 // Writing MetadataGetter for method: System::Net::IPAddress::Parse
@@ -237,7 +238,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPAddress* (*)(::Il2CppString*)>(&System::Net::IPAddress::Parse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::IPAddress*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* ipString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::IPAddress*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ipString});
   }
 };
 // Writing MetadataGetter for method: System::Net::IPAddress::InternalParse
@@ -245,7 +247,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::IPAddress* (*)(::Il2CppString*, bool)>(&System::Net::IPAddress::InternalParse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::IPAddress*), "InternalParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* ipString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* tryParse = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::IPAddress*), "InternalParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ipString, tryParse});
   }
 };
 // Writing MetadataGetter for method: System::Net::IPAddress::GetAddressBytes
@@ -277,7 +281,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Net::IPAddress*)>(&System::Net::IPAddress::IsLoopback)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::IPAddress*), "IsLoopback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::IPAddress*>()});
+    static auto* address = &::il2cpp_utils::GetClassFromName("System.Net", "IPAddress")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::IPAddress*), "IsLoopback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{address});
   }
 };
 // Writing MetadataGetter for method: System::Net::IPAddress::get_IsIPv6Multicast
@@ -293,7 +298,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::IPAddress::*)(::Il2CppObject*, bool)>(&System::Net::IPAddress::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::IPAddress*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* comparandObj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* compareScopeId = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::IPAddress*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{comparandObj, compareScopeId});
   }
 };
 // Writing MetadataGetter for method: System::Net::IPAddress::MapToIPv6
@@ -325,7 +332,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::IPAddress::*)(::Il2CppObject*)>(&System::Net::IPAddress::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::IPAddress*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* comparand = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::IPAddress*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{comparand});
   }
 };
 // Writing MetadataGetter for method: System::Net::IPAddress::GetHashCode

@@ -91,8 +91,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MaterialPropertyBlockAnimator) == 0x2D);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyBlockAnimator*, "", "MaterialPropertyBlockAnimator");
-// Writing includes for template specializations
-#include "GlobalNamespace/MaterialPropertyBlockController.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyBlockAnimator::get_materialPropertyBlockController
 // Il2CppName: get_materialPropertyBlockController
 template<>
@@ -106,7 +104,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MaterialPropertyBlockAnimator::*)(GlobalNamespace::MaterialPropertyBlockController*)>(&GlobalNamespace::MaterialPropertyBlockAnimator::set_materialPropertyBlockController)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MaterialPropertyBlockAnimator*), "set_materialPropertyBlockController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MaterialPropertyBlockController*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("", "MaterialPropertyBlockController")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MaterialPropertyBlockAnimator*), "set_materialPropertyBlockController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyBlockAnimator::SetProperty

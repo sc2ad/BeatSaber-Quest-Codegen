@@ -48,7 +48,6 @@ namespace UnityEngine {
   static_assert(sizeof(DefaultExecutionOrder) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::DefaultExecutionOrder*, "UnityEngine", "DefaultExecutionOrder");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::DefaultExecutionOrder::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

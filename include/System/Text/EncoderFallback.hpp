@@ -77,7 +77,6 @@ namespace System::Text {
   static_assert(sizeof(EncoderFallback) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::EncoderFallback*, "System.Text", "EncoderFallback");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Text::EncoderFallback::get_InternalSyncObject
 // Il2CppName: get_InternalSyncObject
 template<>

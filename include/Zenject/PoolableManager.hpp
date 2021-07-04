@@ -84,9 +84,6 @@ namespace Zenject {
   static_assert(sizeof(PoolableManager) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolableManager*, "Zenject", "PoolableManager");
-// Writing includes for template specializations
-#include "System/Collections/Generic/List_1.hpp"
-#include "Zenject/IPoolable.hpp"
 // Writing MetadataGetter for method: Zenject::PoolableManager::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -96,7 +93,9 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::PoolableManager*, "Zenject", "PoolableManager");
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::PoolableManager::PoolableInfo (Zenject::PoolableManager::*)(Zenject::IPoolable*, System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*)>(&Zenject::PoolableManager::CreatePoolableInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::PoolableManager*), "CreatePoolableInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IPoolable*>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*>()});
+    static auto* poolable = &::il2cpp_utils::GetClassFromName("Zenject", "IPoolable")->byval_arg;
+    static auto* priorities = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("ModestTree.Util", "ValuePair`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Type"), ::il2cpp_utils::GetClassFromName("System", "Int32")})})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::PoolableManager*), "CreatePoolableInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{poolable, priorities});
   }
 };
 // Writing MetadataGetter for method: Zenject::PoolableManager::TriggerOnSpawned

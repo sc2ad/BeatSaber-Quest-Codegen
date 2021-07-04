@@ -112,9 +112,6 @@ namespace HMUI {
   static_assert(sizeof(HoverHintPanel) == 0x39);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverHintPanel*, "HMUI", "HoverHintPanel");
-// Writing includes for template specializations
-#include "UnityEngine/Transform.hpp"
-#include "UnityEngine/Rect.hpp"
 // Writing MetadataGetter for method: HMUI::HoverHintPanel::get_isShown
 // Il2CppName: get_isShown
 template<>
@@ -128,7 +125,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HMUI:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::HoverHintPanel::*)(bool)>(&HMUI::HoverHintPanel::set_isShown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHintPanel*), "set_isShown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHintPanel*), "set_isShown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: HMUI::HoverHintPanel::Awake
@@ -144,7 +142,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::HoverHintPanel::*)(::Il2CppString*, UnityEngine::Transform*, UnityEngine::Vector2, UnityEngine::Rect)>(&HMUI::HoverHintPanel::Show)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHintPanel*), "Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>()});
+    static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* parent = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    static auto* containerSize = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* spawnRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHintPanel*), "Show", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text, parent, containerSize, spawnRect});
   }
 };
 // Writing MetadataGetter for method: HMUI::HoverHintPanel::Hide
@@ -160,7 +162,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (HMUI::HoverHintPanel::*)(UnityEngine::Vector2, UnityEngine::Rect, UnityEngine::Vector2)>(&HMUI::HoverHintPanel::CalculatePanelPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHintPanel*), "CalculatePanelPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    static auto* containerSize = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    static auto* spawnRect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* panelSize = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(HMUI::HoverHintPanel*), "CalculatePanelPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{containerSize, spawnRect, panelSize});
   }
 };
 // Writing MetadataGetter for method: HMUI::HoverHintPanel::New_ctor

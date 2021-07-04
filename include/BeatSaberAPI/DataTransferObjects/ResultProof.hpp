@@ -50,7 +50,6 @@ namespace BeatSaberAPI::DataTransferObjects {
   static_assert(sizeof(ResultProof) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::ResultProof*, "BeatSaberAPI.DataTransferObjects", "ResultProof");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: BeatSaberAPI::DataTransferObjects::ResultProof::get_proof
 // Il2CppName: get_proof
 template<>
@@ -64,7 +63,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (BeatSaberAPI::DataTransferObjects::ResultProof::*)(::Il2CppString*)>(&BeatSaberAPI::DataTransferObjects::ResultProof::set_proof)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(BeatSaberAPI::DataTransferObjects::ResultProof*), "set_proof", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(BeatSaberAPI::DataTransferObjects::ResultProof*), "set_proof", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: BeatSaberAPI::DataTransferObjects::ResultProof::New_ctor

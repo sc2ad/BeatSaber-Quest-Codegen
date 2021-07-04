@@ -51,7 +51,6 @@ namespace UnityEngine::Timeline {
   }; // UnityEngine.Timeline.MarkerTrack
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::MarkerTrack*, "UnityEngine.Timeline", "MarkerTrack");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Timeline::MarkerTrack::get_outputs
 // Il2CppName: get_outputs
 template<>

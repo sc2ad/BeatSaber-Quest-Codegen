@@ -49,7 +49,6 @@ namespace UnityEngine {
   static_assert(sizeof(RangeInt) == 0x8);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RangeInt, "UnityEngine", "RangeInt");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::RangeInt::get_end
 // Il2CppName: get_end
 template<>

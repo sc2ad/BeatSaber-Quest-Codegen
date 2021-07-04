@@ -42,7 +42,6 @@ namespace GlobalNamespace {
   }; // MenuRpcManager/SelectBeatmapRpc
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuRpcManager::SelectBeatmapRpc*, "", "MenuRpcManager/SelectBeatmapRpc");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MenuRpcManager::SelectBeatmapRpc::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

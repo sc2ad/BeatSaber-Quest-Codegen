@@ -123,7 +123,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(FPSCounterUIController) == 0x54);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FPSCounterUIController*, "", "FPSCounterUIController");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FPSCounterUIController::Awake
 // Il2CppName: Awake
 template<>

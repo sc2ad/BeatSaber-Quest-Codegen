@@ -61,12 +61,6 @@ namespace Valve::VR {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRRenderModels::_GetComponentStatePacked*, "Valve.VR", "CVRRenderModels/_GetComponentStatePacked");
-// Writing includes for template specializations
-#include "Valve/VR/VRControllerState_t_Packed.hpp"
-#include "Valve/VR/RenderModel_ControllerMode_State_t.hpp"
-#include "Valve/VR/RenderModel_ComponentState_t.hpp"
-#include "System/AsyncCallback.hpp"
-#include "System/IAsyncResult.hpp"
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::_GetComponentStatePacked::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -76,7 +70,12 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::CVRRenderModels::_GetComponentStatePacked*, "V
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRRenderModels::_GetComponentStatePacked::*)(::Il2CppString*, ::Il2CppString*, Valve::VR::VRControllerState_t_Packed&, Valve::VR::RenderModel_ControllerMode_State_t&, Valve::VR::RenderModel_ComponentState_t&)>(&Valve::VR::CVRRenderModels::_GetComponentStatePacked::Invoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRRenderModels::_GetComponentStatePacked*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VRControllerState_t_Packed&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::RenderModel_ControllerMode_State_t&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::RenderModel_ComponentState_t&>()});
+    static auto* pchRenderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* pchComponentName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* pControllerState = &::il2cpp_utils::GetClassFromName("Valve.VR", "VRControllerState_t_Packed")->this_arg;
+    static auto* pState = &::il2cpp_utils::GetClassFromName("Valve.VR", "RenderModel_ControllerMode_State_t")->this_arg;
+    static auto* pComponentState = &::il2cpp_utils::GetClassFromName("Valve.VR", "RenderModel_ComponentState_t")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRRenderModels::_GetComponentStatePacked*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pchRenderModelName, pchComponentName, pControllerState, pState, pComponentState});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::_GetComponentStatePacked::BeginInvoke
@@ -84,7 +83,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::CVRRenderModels::_GetComponentStatePacked::*)(::Il2CppString*, ::Il2CppString*, Valve::VR::VRControllerState_t_Packed&, Valve::VR::RenderModel_ControllerMode_State_t&, Valve::VR::RenderModel_ComponentState_t&, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::CVRRenderModels::_GetComponentStatePacked::BeginInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRRenderModels::_GetComponentStatePacked*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::VRControllerState_t_Packed&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::RenderModel_ControllerMode_State_t&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::RenderModel_ComponentState_t&>(), ::il2cpp_utils::ExtractIndependentType<System::AsyncCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* pchRenderModelName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* pchComponentName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* pControllerState = &::il2cpp_utils::GetClassFromName("Valve.VR", "VRControllerState_t_Packed")->this_arg;
+    static auto* pState = &::il2cpp_utils::GetClassFromName("Valve.VR", "RenderModel_ControllerMode_State_t")->this_arg;
+    static auto* pComponentState = &::il2cpp_utils::GetClassFromName("Valve.VR", "RenderModel_ComponentState_t")->this_arg;
+    static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
+    static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRRenderModels::_GetComponentStatePacked*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pchRenderModelName, pchComponentName, pControllerState, pState, pComponentState, callback, object});
   }
 };
 // Writing MetadataGetter for method: Valve::VR::CVRRenderModels::_GetComponentStatePacked::EndInvoke
@@ -92,6 +98,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve::VR::CVRRenderModels::_GetComponentStatePacked::*)(Valve::VR::VRControllerState_t_Packed&, Valve::VR::RenderModel_ControllerMode_State_t&, Valve::VR::RenderModel_ComponentState_t&, System::IAsyncResult*)>(&Valve::VR::CVRRenderModels::_GetComponentStatePacked::EndInvoke)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRRenderModels::_GetComponentStatePacked*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Valve::VR::VRControllerState_t_Packed&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::RenderModel_ControllerMode_State_t&>(), ::il2cpp_utils::ExtractIndependentType<Valve::VR::RenderModel_ComponentState_t&>(), ::il2cpp_utils::ExtractIndependentType<System::IAsyncResult*>()});
+    static auto* pControllerState = &::il2cpp_utils::GetClassFromName("Valve.VR", "VRControllerState_t_Packed")->this_arg;
+    static auto* pState = &::il2cpp_utils::GetClassFromName("Valve.VR", "RenderModel_ControllerMode_State_t")->this_arg;
+    static auto* pComponentState = &::il2cpp_utils::GetClassFromName("Valve.VR", "RenderModel_ComponentState_t")->this_arg;
+    static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRRenderModels::_GetComponentStatePacked*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pControllerState, pState, pComponentState, result});
   }
 };

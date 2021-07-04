@@ -153,12 +153,6 @@ namespace System {
   static_assert(sizeof(TypeSpec) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::TypeSpec*, "System", "TypeSpec");
-// Writing includes for template specializations
-#include "System/TypeSpec_DisplayNameFormat.hpp"
-#include "System/Text/StringBuilder.hpp"
-#include "System/Func_2.hpp"
-#include "System/Func_4.hpp"
-#include "System/ModifierSpec.hpp"
 // Writing MetadataGetter for method: System::TypeSpec::get_HasModifiers
 // Il2CppName: get_HasModifiers
 template<>
@@ -172,7 +166,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TypeSpec::*)(System::TypeSpec::DisplayNameFormat)>(&System::TypeSpec::GetDisplayFullName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TypeSpec*), "GetDisplayFullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TypeSpec::DisplayNameFormat>()});
+    static auto* flags = &::il2cpp_utils::GetClassFromName("System", "TypeSpec/DisplayNameFormat")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TypeSpec*), "GetDisplayFullName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{flags});
   }
 };
 // Writing MetadataGetter for method: System::TypeSpec::GetModifierString
@@ -180,7 +175,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::TypeSpec::*)(System::Text::StringBuilder*)>(&System::TypeSpec::GetModifierString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TypeSpec*), "GetModifierString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::StringBuilder*>()});
+    static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TypeSpec*), "GetModifierString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sb});
   }
 };
 // Writing MetadataGetter for method: System::TypeSpec::get_DisplayFullName
@@ -196,7 +192,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeSpec* (*)(::Il2CppString*)>(&System::TypeSpec::Parse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TypeSpec*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* typeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TypeSpec*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeName});
   }
 };
 // Writing MetadataGetter for method: System::TypeSpec::UnescapeInternalName
@@ -204,7 +201,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*)>(&System::TypeSpec::UnescapeInternalName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TypeSpec*), "UnescapeInternalName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* displayName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TypeSpec*), "UnescapeInternalName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{displayName});
   }
 };
 // Writing MetadataGetter for method: System::TypeSpec::Resolve
@@ -212,7 +210,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (System::TypeSpec::*)(System::Func_2<System::Reflection::AssemblyName*, System::Reflection::Assembly*>*, System::Func_4<System::Reflection::Assembly*, ::Il2CppString*, bool, System::Type*>*, bool, bool)>(&System::TypeSpec::Resolve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TypeSpec*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Func_2<System::Reflection::AssemblyName*, System::Reflection::Assembly*>*>(), ::il2cpp_utils::ExtractIndependentType<System::Func_4<System::Reflection::Assembly*, ::Il2CppString*, bool, System::Type*>*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* assemblyResolver = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Reflection", "AssemblyName"), ::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")})->byval_arg;
+    static auto* typeResolver = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`4"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly"), ::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "Boolean"), ::il2cpp_utils::GetClassFromName("System", "Type")})->byval_arg;
+    static auto* throwOnError = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* ignoreCase = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TypeSpec*), "Resolve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assemblyResolver, typeResolver, throwOnError, ignoreCase});
   }
 };
 // Writing MetadataGetter for method: System::TypeSpec::AddName
@@ -220,7 +222,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TypeSpec::*)(::Il2CppString*)>(&System::TypeSpec::AddName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TypeSpec*), "AddName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* type_name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TypeSpec*), "AddName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type_name});
   }
 };
 // Writing MetadataGetter for method: System::TypeSpec::AddModifier
@@ -228,7 +231,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TypeSpec::*)(System::ModifierSpec*)>(&System::TypeSpec::AddModifier)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TypeSpec*), "AddModifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ModifierSpec*>()});
+    static auto* md = &::il2cpp_utils::GetClassFromName("System", "ModifierSpec")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TypeSpec*), "AddModifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{md});
   }
 };
 // Writing MetadataGetter for method: System::TypeSpec::SkipSpace
@@ -236,7 +240,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, int&)>(&System::TypeSpec::SkipSpace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TypeSpec*), "SkipSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* pos = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TypeSpec*), "SkipSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, pos});
   }
 };
 // Writing MetadataGetter for method: System::TypeSpec::BoundCheck
@@ -244,7 +250,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::Il2CppString*)>(&System::TypeSpec::BoundCheck)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TypeSpec*), "BoundCheck", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TypeSpec*), "BoundCheck", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{idx, s});
   }
 };
 // Writing MetadataGetter for method: System::TypeSpec::ParsedTypeIdentifier
@@ -252,7 +260,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeIdentifier* (*)(::Il2CppString*)>(&System::TypeSpec::ParsedTypeIdentifier)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TypeSpec*), "ParsedTypeIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* displayName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TypeSpec*), "ParsedTypeIdentifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{displayName});
   }
 };
 // Writing MetadataGetter for method: System::TypeSpec::Parse
@@ -260,7 +269,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypeSpec* (*)(::Il2CppString*, int&, bool, bool)>(&System::TypeSpec::Parse)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::TypeSpec*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* p = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* is_recurse = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* allow_aqn = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::TypeSpec*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, p, is_recurse, allow_aqn});
   }
 };
 // Writing MetadataGetter for method: System::TypeSpec::New_ctor

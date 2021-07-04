@@ -60,8 +60,6 @@ namespace System {
   static_assert(sizeof(ResolveEventArgs) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::ResolveEventArgs*, "System", "ResolveEventArgs");
-// Writing includes for template specializations
-#include "System/Reflection/Assembly.hpp"
 // Writing MetadataGetter for method: System::ResolveEventArgs::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

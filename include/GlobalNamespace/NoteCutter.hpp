@@ -78,14 +78,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(NoteCutter) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteCutter*, "", "NoteCutter");
-// Writing includes for template specializations
-#include "GlobalNamespace/Saber.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutter::Cut
 // Il2CppName: Cut
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NoteCutter::*)(GlobalNamespace::Saber*)>(&GlobalNamespace::NoteCutter::Cut)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutter*), "Cut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::Saber*>()});
+    static auto* saber = &::il2cpp_utils::GetClassFromName("", "Saber")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NoteCutter*), "Cut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{saber});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::NoteCutter::New_ctor

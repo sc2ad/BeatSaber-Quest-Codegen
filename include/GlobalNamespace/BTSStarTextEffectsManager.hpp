@@ -89,9 +89,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(BTSStarTextEffectsManager) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEffectsManager*, "", "BTSStarTextEffectsManager");
-// Writing includes for template specializations
-#include "UnityEngine/Sprite.hpp"
-#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEffectsManager::Start
 // Il2CppName: Start
 template<>
@@ -113,7 +110,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSStarTextEffectsManager::*)(UnityEngine::Sprite*, UnityEngine::Transform*, float)>(&GlobalNamespace::BTSStarTextEffectsManager::HandleBTSStarTextEventEffect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSStarTextEffectsManager*), "HandleBTSStarTextEventEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Sprite*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* sprite = &::il2cpp_utils::GetClassFromName("UnityEngine", "Sprite")->byval_arg;
+    static auto* parentTransform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    static auto* desiredAnimationLength = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSStarTextEffectsManager*), "HandleBTSStarTextEventEffect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sprite, parentTransform, desiredAnimationLength});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEffectsManager::DespawnEffectDelayed
@@ -121,7 +121,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::BTSStarTextEffectsManager::*)(GlobalNamespace::BTSStarTextEffectController*)>(&GlobalNamespace::BTSStarTextEffectsManager::DespawnEffectDelayed)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSStarTextEffectsManager*), "DespawnEffectDelayed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BTSStarTextEffectController*>()});
+    static auto* effectController = &::il2cpp_utils::GetClassFromName("", "BTSStarTextEffectController")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSStarTextEffectsManager*), "DespawnEffectDelayed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{effectController});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEffectsManager::New_ctor

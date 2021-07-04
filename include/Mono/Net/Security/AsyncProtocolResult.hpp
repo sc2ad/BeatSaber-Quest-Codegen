@@ -67,8 +67,6 @@ namespace Mono::Net::Security {
   static_assert(sizeof(AsyncProtocolResult) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::AsyncProtocolResult*, "Mono.Net.Security", "AsyncProtocolResult");
-// Writing includes for template specializations
-#include "System/Runtime/ExceptionServices/ExceptionDispatchInfo.hpp"
 // Writing MetadataGetter for method: Mono::Net::Security::AsyncProtocolResult::get_UserResult
 // Il2CppName: get_UserResult
 template<>

@@ -71,14 +71,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(MenuTransitionsHelper::$$c__DisplayClass24_0) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass24_0*, "", "MenuTransitionsHelper/<>c__DisplayClass24_0");
-// Writing includes for template specializations
-#include "Zenject/DiContainer.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass24_0::$HandleMultiplayerLevelDidFinish$b__0
 // Il2CppName: <HandleMultiplayerLevelDidFinish>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass24_0::*)(Zenject::DiContainer*)>(&GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass24_0::$HandleMultiplayerLevelDidFinish$b__0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass24_0*), "<HandleMultiplayerLevelDidFinish>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass24_0*), "<HandleMultiplayerLevelDidFinish>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass24_0::New_ctor

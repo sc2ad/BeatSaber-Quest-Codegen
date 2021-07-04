@@ -24,7 +24,6 @@ namespace System::Security::Util {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer::ITokenReader*, "System.Security.Util", "Tokenizer/ITokenReader");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Security::Util::Tokenizer::ITokenReader::Read
 // Il2CppName: Read
 template<>

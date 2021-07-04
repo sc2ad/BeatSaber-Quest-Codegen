@@ -34,13 +34,12 @@ namespace UnityEngine {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ISubsystemDescriptorImpl*, "UnityEngine", "ISubsystemDescriptorImpl");
-// Writing includes for template specializations
-#include "System/IntPtr.hpp"
 // Writing MetadataGetter for method: UnityEngine::ISubsystemDescriptorImpl::set_ptr
 // Il2CppName: set_ptr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ISubsystemDescriptorImpl::*)(System::IntPtr)>(&UnityEngine::ISubsystemDescriptorImpl::set_ptr)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ISubsystemDescriptorImpl*), "set_ptr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ISubsystemDescriptorImpl*), "set_ptr", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };

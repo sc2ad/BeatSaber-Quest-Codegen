@@ -107,8 +107,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MasterServerEndPoint) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerEndPoint*, "", "MasterServerEndPoint");
-// Writing includes for template specializations
-#include "System/Net/IPEndPoint.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerEndPoint::get_endPoint
 // Il2CppName: get_endPoint
 template<>
@@ -154,7 +152,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MasterServerEndPoint::*)(GlobalNamespace::MasterServerEndPoint*)>(&GlobalNamespace::MasterServerEndPoint::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerEndPoint*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MasterServerEndPoint*>()});
+    static auto* other = &::il2cpp_utils::GetClassFromName("", "MasterServerEndPoint")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerEndPoint*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerEndPoint::ToString
@@ -170,7 +169,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MasterServerEndPoint::*)(::Il2CppObject*)>(&GlobalNamespace::MasterServerEndPoint::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerEndPoint*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MasterServerEndPoint*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerEndPoint::GetHashCode

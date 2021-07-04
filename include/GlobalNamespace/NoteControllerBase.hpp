@@ -65,7 +65,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NoteControllerBase*, "", "NoteControllerBase");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::NoteControllerBase::get_didInitEvent
 // Il2CppName: get_didInitEvent
 template<>

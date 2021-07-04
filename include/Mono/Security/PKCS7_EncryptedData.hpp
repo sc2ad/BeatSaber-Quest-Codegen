@@ -81,8 +81,6 @@ namespace Mono::Security {
   static_assert(sizeof(PKCS7::EncryptedData) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::PKCS7::EncryptedData*, "Mono.Security", "PKCS7/EncryptedData");
-// Writing includes for template specializations
-#include "Mono/Security/ASN1.hpp"
 // Writing MetadataGetter for method: Mono::Security::PKCS7::EncryptedData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

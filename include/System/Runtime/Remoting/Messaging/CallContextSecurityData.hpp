@@ -62,7 +62,6 @@ namespace System::Runtime::Remoting::Messaging {
   static_assert(sizeof(CallContextSecurityData) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CallContextSecurityData*, "System.Runtime.Remoting.Messaging", "CallContextSecurityData");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CallContextSecurityData::get_HasInfo
 // Il2CppName: get_HasInfo
 template<>

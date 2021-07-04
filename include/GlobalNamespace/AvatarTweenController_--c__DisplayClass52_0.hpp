@@ -60,13 +60,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(AvatarTweenController::$$c__DisplayClass52_0) == 0x24);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarTweenController::$$c__DisplayClass52_0*, "", "AvatarTweenController/<>c__DisplayClass52_0");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::AvatarTweenController::$$c__DisplayClass52_0::$CreatePopTween$b__0
 // Il2CppName: <CreatePopTween>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AvatarTweenController::$$c__DisplayClass52_0::*)(float)>(&GlobalNamespace::AvatarTweenController::$$c__DisplayClass52_0::$CreatePopTween$b__0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarTweenController::$$c__DisplayClass52_0*), "<CreatePopTween>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* val = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarTweenController::$$c__DisplayClass52_0*), "<CreatePopTween>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::AvatarTweenController::$$c__DisplayClass52_0::New_ctor

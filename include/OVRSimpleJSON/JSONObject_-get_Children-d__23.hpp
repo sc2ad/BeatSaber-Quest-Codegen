@@ -108,7 +108,6 @@ namespace OVRSimpleJSON {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONObject::$get_Children$d__23*, "OVRSimpleJSON", "JSONObject/<get_Children>d__23");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONObject::$get_Children$d__23::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

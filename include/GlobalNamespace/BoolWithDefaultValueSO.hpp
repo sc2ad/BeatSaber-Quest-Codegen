@@ -48,7 +48,6 @@ namespace GlobalNamespace {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BoolWithDefaultValueSO*, "", "BoolWithDefaultValueSO");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BoolWithDefaultValueSO::OnEnable
 // Il2CppName: OnEnable
 template<>

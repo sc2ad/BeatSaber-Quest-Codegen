@@ -97,8 +97,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(LightmappingSceneSetup) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightmappingSceneSetup*, "", "LightmappingSceneSetup");
-// Writing includes for template specializations
-#include "GlobalNamespace/ColorSchemeSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::LightmappingSceneSetup::get_colorScheme
 // Il2CppName: get_colorScheme
 template<>
@@ -112,7 +110,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightmappingSceneSetup::*)(GlobalNamespace::ColorSchemeSO*)>(&GlobalNamespace::LightmappingSceneSetup::set_colorScheme)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmappingSceneSetup*), "set_colorScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::ColorSchemeSO*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("", "ColorSchemeSO")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightmappingSceneSetup*), "set_colorScheme", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LightmappingSceneSetup::InstallBindings

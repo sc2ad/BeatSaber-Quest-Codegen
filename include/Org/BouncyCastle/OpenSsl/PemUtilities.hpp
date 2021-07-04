@@ -45,9 +45,6 @@ namespace Org::BouncyCastle::OpenSsl {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::OpenSsl::PemUtilities*, "Org.BouncyCastle.OpenSsl", "PemUtilities");
-// Writing includes for template specializations
-#include "Org/BouncyCastle/OpenSsl/PemUtilities_PemBaseAlg.hpp"
-#include "Org/BouncyCastle/OpenSsl/PemUtilities_PemMode.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::OpenSsl::PemUtilities::_cctor
 // Il2CppName: .cctor
 template<>
@@ -61,7 +58,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg&, Org::BouncyCastle::OpenSsl::PemUtilities::PemMode&)>(&Org::BouncyCastle::OpenSsl::PemUtilities::ParseDekAlgName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::OpenSsl::PemUtilities*), "ParseDekAlgName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg&>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::OpenSsl::PemUtilities::PemMode&>()});
+    static auto* dekAlgName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* baseAlg = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.OpenSsl", "PemUtilities/PemBaseAlg")->this_arg;
+    static auto* mode = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.OpenSsl", "PemUtilities/PemMode")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::OpenSsl::PemUtilities*), "ParseDekAlgName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dekAlgName, baseAlg, mode});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::OpenSsl::PemUtilities::Crypt
@@ -69,7 +69,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(bool, ::Array<uint8_t>*, ::Array<::Il2CppChar>*, ::Il2CppString*, ::Array<uint8_t>*)>(&Org::BouncyCastle::OpenSsl::PemUtilities::Crypt)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::OpenSsl::PemUtilities*), "Crypt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>(), ::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* encrypt = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* bytes = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* password = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* dekAlgName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* iv = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::OpenSsl::PemUtilities*), "Crypt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{encrypt, bytes, password, dekAlgName, iv});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::OpenSsl::PemUtilities::GetCipherParameters
@@ -77,6 +82,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ICipherParameters* (*)(::Array<::Il2CppChar>*, Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg, ::Array<uint8_t>*)>(&Org::BouncyCastle::OpenSsl::PemUtilities::GetCipherParameters)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::OpenSsl::PemUtilities*), "GetCipherParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppChar>*>(), ::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg>(), ::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* password = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* baseAlg = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.OpenSsl", "PemUtilities/PemBaseAlg")->byval_arg;
+    static auto* salt = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::OpenSsl::PemUtilities*), "GetCipherParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{password, baseAlg, salt});
   }
 };

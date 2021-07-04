@@ -44,7 +44,6 @@ namespace System::Xml {
   static_assert(sizeof(TernaryTreeReadOnly) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::TernaryTreeReadOnly*, "System.Xml", "TernaryTreeReadOnly");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Xml::TernaryTreeReadOnly::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -54,6 +53,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Xml::TernaryTreeReadOnly*, "System.Xml", "Ternary
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (System::Xml::TernaryTreeReadOnly::*)(::Il2CppString*)>(&System::Xml::TernaryTreeReadOnly::FindCaseInsensitiveString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Xml::TernaryTreeReadOnly*), "FindCaseInsensitiveString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* stringToFind = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Xml::TernaryTreeReadOnly*), "FindCaseInsensitiveString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stringToFind});
   }
 };

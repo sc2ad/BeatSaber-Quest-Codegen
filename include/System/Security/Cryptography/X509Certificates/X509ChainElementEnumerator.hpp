@@ -71,8 +71,6 @@ namespace System::Security::Cryptography::X509Certificates {
   static_assert(sizeof(X509ChainElementEnumerator) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509ChainElementEnumerator*, "System.Security.Cryptography.X509Certificates", "X509ChainElementEnumerator");
-// Writing includes for template specializations
-#include "System/Collections/IEnumerable.hpp"
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainElementEnumerator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

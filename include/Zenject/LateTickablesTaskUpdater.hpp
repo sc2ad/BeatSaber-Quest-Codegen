@@ -42,14 +42,13 @@ namespace Zenject {
   }; // Zenject.LateTickablesTaskUpdater
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::LateTickablesTaskUpdater*, "Zenject", "LateTickablesTaskUpdater");
-// Writing includes for template specializations
-#include "Zenject/ILateTickable.hpp"
 // Writing MetadataGetter for method: Zenject::LateTickablesTaskUpdater::UpdateItem
 // Il2CppName: UpdateItem
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::LateTickablesTaskUpdater::*)(Zenject::ILateTickable*)>(&Zenject::LateTickablesTaskUpdater::UpdateItem)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::LateTickablesTaskUpdater*), "UpdateItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::ILateTickable*>()});
+    static auto* task = &::il2cpp_utils::GetClassFromName("Zenject", "ILateTickable")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::LateTickablesTaskUpdater*), "UpdateItem", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{task});
   }
 };
 // Writing MetadataGetter for method: Zenject::LateTickablesTaskUpdater::New_ctor

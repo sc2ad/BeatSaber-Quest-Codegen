@@ -41,13 +41,13 @@ namespace HMUI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::ScrollViewItemForVisibilityController*, "HMUI", "ScrollViewItemForVisibilityController");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: HMUI::ScrollViewItemForVisibilityController::GetWorldCorners
 // Il2CppName: GetWorldCorners
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ScrollViewItemForVisibilityController::*)(::Array<UnityEngine::Vector3>*)>(&HMUI::ScrollViewItemForVisibilityController::GetWorldCorners)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollViewItemForVisibilityController*), "GetWorldCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector3>*>()});
+    static auto* fourCornersArray = &classof(::Array<::Array<UnityEngine::Vector3>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(HMUI::ScrollViewItemForVisibilityController*), "GetWorldCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fourCornersArray});
   }
 };
 // Writing MetadataGetter for method: HMUI::ScrollViewItemForVisibilityController::New_ctor

@@ -90,9 +90,6 @@ namespace System {
   static_assert(sizeof(DelegateSerializationHolder::DelegateEntry) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::DelegateSerializationHolder::DelegateEntry*, "System", "DelegateSerializationHolder/DelegateEntry");
-// Writing includes for template specializations
-#include "System/Delegate.hpp"
-#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::DelegateSerializationHolder::DelegateEntry::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -102,6 +99,8 @@ DEFINE_IL2CPP_ARG_TYPE(System::DelegateSerializationHolder::DelegateEntry*, "Sys
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (System::DelegateSerializationHolder::DelegateEntry::*)(System::Runtime::Serialization::SerializationInfo*, int)>(&System::DelegateSerializationHolder::DelegateEntry::DeserializeDelegate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DelegateSerializationHolder::DelegateEntry*), "DeserializeDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::SerializationInfo*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;
+    static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::DelegateSerializationHolder::DelegateEntry*), "DeserializeDelegate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{info, index});
   }
 };

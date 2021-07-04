@@ -59,7 +59,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(SettingsSubMenuInfo) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SettingsSubMenuInfo*, "", "SettingsSubMenuInfo");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SettingsSubMenuInfo::get_viewController
 // Il2CppName: get_viewController
 template<>

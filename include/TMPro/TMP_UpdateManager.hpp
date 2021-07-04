@@ -144,10 +144,6 @@ namespace TMPro {
   static_assert(sizeof(TMP_UpdateManager) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_UpdateManager*, "TMPro", "TMP_UpdateManager");
-// Writing includes for template specializations
-#include "TMPro/TMP_Text.hpp"
-#include "UnityEngine/Rendering/ScriptableRenderContext.hpp"
-#include "UnityEngine/Camera.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_UpdateManager::get_instance
 // Il2CppName: get_instance
 template<>
@@ -161,7 +157,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(TMPro::TMP_Text*)>(&TMPro::TMP_UpdateManager::RegisterTextObjectForUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "RegisterTextObjectForUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>()});
+    static auto* textObject = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "RegisterTextObjectForUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{textObject});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_UpdateManager::InternalRegisterTextObjectForUpdate
@@ -169,7 +166,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(TM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_UpdateManager::*)(TMPro::TMP_Text*)>(&TMPro::TMP_UpdateManager::InternalRegisterTextObjectForUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "InternalRegisterTextObjectForUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>()});
+    static auto* textObject = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "InternalRegisterTextObjectForUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{textObject});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_UpdateManager::RegisterTextElementForLayoutRebuild
@@ -177,7 +175,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(TMPro::TMP_Text*)>(&TMPro::TMP_UpdateManager::RegisterTextElementForLayoutRebuild)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "RegisterTextElementForLayoutRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>()});
+    static auto* element = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "RegisterTextElementForLayoutRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{element});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_UpdateManager::InternalRegisterTextElementForLayoutRebuild
@@ -185,7 +184,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(TM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_UpdateManager::*)(TMPro::TMP_Text*)>(&TMPro::TMP_UpdateManager::InternalRegisterTextElementForLayoutRebuild)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "InternalRegisterTextElementForLayoutRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>()});
+    static auto* element = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "InternalRegisterTextElementForLayoutRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{element});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_UpdateManager::RegisterTextElementForGraphicRebuild
@@ -193,7 +193,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(TMPro::TMP_Text*)>(&TMPro::TMP_UpdateManager::RegisterTextElementForGraphicRebuild)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "RegisterTextElementForGraphicRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>()});
+    static auto* element = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "RegisterTextElementForGraphicRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{element});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_UpdateManager::InternalRegisterTextElementForGraphicRebuild
@@ -201,7 +202,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(TM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_UpdateManager::*)(TMPro::TMP_Text*)>(&TMPro::TMP_UpdateManager::InternalRegisterTextElementForGraphicRebuild)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "InternalRegisterTextElementForGraphicRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>()});
+    static auto* element = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "InternalRegisterTextElementForGraphicRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{element});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_UpdateManager::OnBeginFrameRendering
@@ -209,7 +211,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_UpdateManager::*)(UnityEngine::Rendering::ScriptableRenderContext, ::Array<UnityEngine::Camera*>*)>(&TMPro::TMP_UpdateManager::OnBeginFrameRendering)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "OnBeginFrameRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rendering::ScriptableRenderContext>(), ::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Camera*>*>()});
+    static auto* renderContext = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "ScriptableRenderContext")->byval_arg;
+    static auto* cameras = &classof(::Array<::Array<UnityEngine::Camera*>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "OnBeginFrameRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{renderContext, cameras});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_UpdateManager::OnCameraPreCull
@@ -217,7 +221,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_UpdateManager::*)(UnityEngine::Camera*)>(&TMPro::TMP_UpdateManager::OnCameraPreCull)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "OnCameraPreCull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>()});
+    static auto* cam = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "OnCameraPreCull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cam});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_UpdateManager::DoRebuilds
@@ -233,7 +238,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(TMPro::TMP_Text*)>(&TMPro::TMP_UpdateManager::UnRegisterTextObjectForUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "UnRegisterTextObjectForUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>()});
+    static auto* textObject = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "UnRegisterTextObjectForUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{textObject});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_UpdateManager::UnRegisterTextElementForRebuild
@@ -241,7 +247,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(TM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(TMPro::TMP_Text*)>(&TMPro::TMP_UpdateManager::UnRegisterTextElementForRebuild)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "UnRegisterTextElementForRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>()});
+    static auto* element = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "UnRegisterTextElementForRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{element});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_UpdateManager::InternalUnRegisterTextElementForGraphicRebuild
@@ -249,7 +256,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(TM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_UpdateManager::*)(TMPro::TMP_Text*)>(&TMPro::TMP_UpdateManager::InternalUnRegisterTextElementForGraphicRebuild)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "InternalUnRegisterTextElementForGraphicRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>()});
+    static auto* element = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "InternalUnRegisterTextElementForGraphicRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{element});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_UpdateManager::InternalUnRegisterTextElementForLayoutRebuild
@@ -257,7 +265,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_UpdateManager::*)(TMPro::TMP_Text*)>(&TMPro::TMP_UpdateManager::InternalUnRegisterTextElementForLayoutRebuild)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "InternalUnRegisterTextElementForLayoutRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>()});
+    static auto* element = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "InternalUnRegisterTextElementForLayoutRebuild", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{element});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_UpdateManager::InternalUnRegisterTextObjectForUpdate
@@ -265,7 +274,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_UpdateManager::*)(TMPro::TMP_Text*)>(&TMPro::TMP_UpdateManager::InternalUnRegisterTextObjectForUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "InternalUnRegisterTextObjectForUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Text*>()});
+    static auto* textObject = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_UpdateManager*), "InternalUnRegisterTextObjectForUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{textObject});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_UpdateManager::New_ctor

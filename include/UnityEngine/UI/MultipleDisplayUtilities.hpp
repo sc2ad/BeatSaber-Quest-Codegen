@@ -37,15 +37,14 @@ namespace UnityEngine::UI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::MultipleDisplayUtilities*, "UnityEngine.UI", "MultipleDisplayUtilities");
-// Writing includes for template specializations
-#include "UnityEngine/EventSystems/PointerEventData.hpp"
-#include "UnityEngine/Vector2.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::MultipleDisplayUtilities::GetRelativeMousePositionForDrag
 // Il2CppName: GetRelativeMousePositionForDrag
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::EventSystems::PointerEventData*, UnityEngine::Vector2&)>(&UnityEngine::UI::MultipleDisplayUtilities::GetRelativeMousePositionForDrag)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MultipleDisplayUtilities*), "GetRelativeMousePositionForDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2&>()});
+    static auto* eventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::MultipleDisplayUtilities*), "GetRelativeMousePositionForDrag", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eventData, position});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::MultipleDisplayUtilities::GetMousePositionRelativeToMainDisplayResolution

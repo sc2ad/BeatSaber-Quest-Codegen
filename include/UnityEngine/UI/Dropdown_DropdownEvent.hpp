@@ -35,7 +35,6 @@ namespace UnityEngine::UI {
   }; // UnityEngine.UI.Dropdown/DropdownEvent
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Dropdown::DropdownEvent*, "UnityEngine.UI", "Dropdown/DropdownEvent");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::UI::Dropdown::DropdownEvent::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

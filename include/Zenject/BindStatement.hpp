@@ -98,9 +98,6 @@ namespace Zenject {
   static_assert(sizeof(BindStatement) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::BindStatement*, "Zenject", "BindStatement");
-// Writing includes for template specializations
-#include "Zenject/IBindingFinalizer.hpp"
-#include "Zenject/DiContainer.hpp"
 // Writing MetadataGetter for method: Zenject::BindStatement::get_BindingInheritanceMethod
 // Il2CppName: get_BindingInheritanceMethod
 template<>
@@ -122,7 +119,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::BindStatement::*)(Zenject::IBindingFinalizer*)>(&Zenject::BindStatement::SetFinalizer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::BindStatement*), "SetFinalizer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::IBindingFinalizer*>()});
+    static auto* bindingFinalizer = &::il2cpp_utils::GetClassFromName("Zenject", "IBindingFinalizer")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::BindStatement*), "SetFinalizer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bindingFinalizer});
   }
 };
 // Writing MetadataGetter for method: Zenject::BindStatement::AssertHasFinalizer
@@ -138,7 +136,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::BindStatement::*)(System::IDisposable*)>(&Zenject::BindStatement::AddDisposable)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::BindStatement*), "AddDisposable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IDisposable*>()});
+    static auto* disposable = &::il2cpp_utils::GetClassFromName("System", "IDisposable")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::BindStatement*), "AddDisposable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{disposable});
   }
 };
 // Writing MetadataGetter for method: Zenject::BindStatement::SpawnBindInfo
@@ -154,7 +153,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Bi
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::BindStatement::*)(Zenject::DiContainer*)>(&Zenject::BindStatement::FinalizeBinding)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::BindStatement*), "FinalizeBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DiContainer*>()});
+    static auto* container = &::il2cpp_utils::GetClassFromName("Zenject", "DiContainer")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::BindStatement*), "FinalizeBinding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{container});
   }
 };
 // Writing MetadataGetter for method: Zenject::BindStatement::Reset

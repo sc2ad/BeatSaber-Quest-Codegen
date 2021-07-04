@@ -61,16 +61,14 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockBeatmapProvider*, "", "MockBeatmapProvider");
-// Writing includes for template specializations
-#include "GlobalNamespace/BeatmapIdentifierNetSerializable.hpp"
-#include "GlobalNamespace/GameplayServerConfiguration.hpp"
-#include "System/Collections/Generic/Dictionary_2.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapProvider::VerifyBeatmapForConfiguration
 // Il2CppName: VerifyBeatmapForConfiguration
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::MockBeatmapProvider::*)(GlobalNamespace::BeatmapIdentifierNetSerializable*, GlobalNamespace::GameplayServerConfiguration)>(&GlobalNamespace::MockBeatmapProvider::VerifyBeatmapForConfiguration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapProvider*), "VerifyBeatmapForConfiguration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapIdentifierNetSerializable*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
+    static auto* beatmapId = &::il2cpp_utils::GetClassFromName("", "BeatmapIdentifierNetSerializable")->byval_arg;
+    static auto* configuration = &::il2cpp_utils::GetClassFromName("", "GameplayServerConfiguration")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapProvider*), "VerifyBeatmapForConfiguration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapId, configuration});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapProvider::SelectBeatmapFromSuggestionsConfigurationAndOwnedSongPacks
@@ -78,7 +76,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapIdentifierNetSerializable* (GlobalNamespace::MockBeatmapProvider::*)(int, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>*, GlobalNamespace::GameplayServerConfiguration, System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SongPackMask>*)>(&GlobalNamespace::MockBeatmapProvider::SelectBeatmapFromSuggestionsConfigurationAndOwnedSongPacks)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapProvider*), "SelectBeatmapFromSuggestionsConfigurationAndOwnedSongPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::BeatmapIdentifierNetSerializable*>*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::SongPackMask>*>()});
+    static auto* playerCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* suggestedBeatmaps = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "BeatmapIdentifierNetSerializable")})->byval_arg;
+    static auto* configuration = &::il2cpp_utils::GetClassFromName("", "GameplayServerConfiguration")->byval_arg;
+    static auto* ownedSongPacks = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "Dictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("", "SongPackMask")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapProvider*), "SelectBeatmapFromSuggestionsConfigurationAndOwnedSongPacks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{playerCount, suggestedBeatmaps, configuration, ownedSongPacks});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapProvider::Dispose

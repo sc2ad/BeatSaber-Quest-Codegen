@@ -309,7 +309,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRPlugin::ControllerState4) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRPlugin::ControllerState4, "", "OVRPlugin/ControllerState4");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::ControllerState4::ControllerState4
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

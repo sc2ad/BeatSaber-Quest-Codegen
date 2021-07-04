@@ -65,14 +65,15 @@ namespace Mono::Net {
   static_assert(sizeof(CFNetwork::$$c__DisplayClass13_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Net::CFNetwork::$$c__DisplayClass13_0*, "Mono.Net", "CFNetwork/<>c__DisplayClass13_0");
-// Writing includes for template specializations
-#include "System/IntPtr.hpp"
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::$$c__DisplayClass13_0::$ExecuteProxyAutoConfigurationURL$b__0
 // Il2CppName: <ExecuteProxyAutoConfigurationURL>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::CFNetwork::$$c__DisplayClass13_0::*)(System::IntPtr, System::IntPtr, System::IntPtr)>(&Mono::Net::CFNetwork::$$c__DisplayClass13_0::$ExecuteProxyAutoConfigurationURL$b__0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork::$$c__DisplayClass13_0*), "<ExecuteProxyAutoConfigurationURL>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* client = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* proxyList = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* error = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork::$$c__DisplayClass13_0*), "<ExecuteProxyAutoConfigurationURL>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{client, proxyList, error});
   }
 };
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::$$c__DisplayClass13_0::New_ctor

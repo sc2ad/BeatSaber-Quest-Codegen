@@ -61,8 +61,6 @@ namespace UnityEngine::UI {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::GraphicRaycaster::$$c*, "UnityEngine.UI", "GraphicRaycaster/<>c");
-// Writing includes for template specializations
-#include "UnityEngine/UI/Graphic.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::GraphicRaycaster::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -76,7 +74,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::UI::GraphicRaycaster::$$c::*)(UnityEngine::UI::Graphic*, UnityEngine::UI::Graphic*)>(&UnityEngine::UI::GraphicRaycaster::$$c::$Raycast$b__24_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRaycaster::$$c*), "<Raycast>b__24_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Graphic*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Graphic*>()});
+    static auto* g1 = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Graphic")->byval_arg;
+    static auto* g2 = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Graphic")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::GraphicRaycaster::$$c*), "<Raycast>b__24_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{g1, g2});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::GraphicRaycaster::$$c::New_ctor

@@ -51,15 +51,13 @@ namespace Mono {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeMarshal*, "Mono", "RuntimeMarshal");
-// Writing includes for template specializations
-#include "System/IntPtr.hpp"
-#include "Mono/MonoAssemblyName.hpp"
 // Writing MetadataGetter for method: Mono::RuntimeMarshal::PtrToUtf8String
 // Il2CppName: PtrToUtf8String
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(System::IntPtr)>(&Mono::RuntimeMarshal::PtrToUtf8String)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeMarshal*), "PtrToUtf8String", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeMarshal*), "PtrToUtf8String", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ptr});
   }
 };
 // Writing MetadataGetter for method: Mono::RuntimeMarshal::MarshalString
@@ -67,7 +65,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::SafeStringMarshal (*)(::Il2CppString*)>(&Mono::RuntimeMarshal::MarshalString)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeMarshal*), "MarshalString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeMarshal*), "MarshalString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
   }
 };
 // Writing MetadataGetter for method: Mono::RuntimeMarshal::DecodeBlobSize
@@ -75,7 +74,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::SafeS
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, System::IntPtr&)>(&Mono::RuntimeMarshal::DecodeBlobSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeMarshal*), "DecodeBlobSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr&>()});
+    static auto* in_ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* out_ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeMarshal*), "DecodeBlobSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{in_ptr, out_ptr});
   }
 };
 // Writing MetadataGetter for method: Mono::RuntimeMarshal::DecodeBlobArray
@@ -83,7 +84,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(System::IntPtr)>(&Mono::RuntimeMarshal::DecodeBlobArray)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeMarshal*), "DecodeBlobArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeMarshal*), "DecodeBlobArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ptr});
   }
 };
 // Writing MetadataGetter for method: Mono::RuntimeMarshal::AsciHexDigitValue
@@ -91,7 +93,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&Mono::RuntimeMarshal::AsciHexDigitValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeMarshal*), "AsciHexDigitValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* c = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeMarshal*), "AsciHexDigitValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{c});
   }
 };
 // Writing MetadataGetter for method: Mono::RuntimeMarshal::FreeAssemblyName
@@ -99,6 +102,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mono::MonoAssemblyName&, bool)>(&Mono::RuntimeMarshal::FreeAssemblyName)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeMarshal*), "FreeAssemblyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::MonoAssemblyName&>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* name = &::il2cpp_utils::GetClassFromName("Mono", "MonoAssemblyName")->this_arg;
+    static auto* freeStruct = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeMarshal*), "FreeAssemblyName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, freeStruct});
   }
 };

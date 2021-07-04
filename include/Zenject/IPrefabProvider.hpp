@@ -28,7 +28,6 @@ namespace Zenject {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Zenject::IPrefabProvider*, "Zenject", "IPrefabProvider");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Zenject::IPrefabProvider::GetPrefab
 // Il2CppName: GetPrefab
 template<>

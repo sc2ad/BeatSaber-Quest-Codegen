@@ -197,8 +197,6 @@ namespace UnityEngine {
   static_assert(sizeof(SliderHandler) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::SliderHandler, "UnityEngine", "SliderHandler");
-// Writing includes for template specializations
-#include "UnityEngine/GUIStyle.hpp"
 // Writing MetadataGetter for method: UnityEngine::SliderHandler::SliderHandler
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -312,7 +310,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::SliderHandler::*)(float)>(&UnityEngine::SliderHandler::Clamp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SliderHandler), "Clamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SliderHandler), "Clamp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::SliderHandler::ThumbSelectionRect
@@ -328,7 +327,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::SliderHandler::*)(float)>(&UnityEngine::SliderHandler::StartDraggingWithValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SliderHandler), "StartDraggingWithValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* dragStartValue = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::SliderHandler), "StartDraggingWithValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dragStartValue});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::SliderHandler::SliderState

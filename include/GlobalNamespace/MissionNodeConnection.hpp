@@ -145,8 +145,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionNodeConnection) == 0x59);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNodeConnection*, "", "MissionNodeConnection");
-// Writing includes for template specializations
-#include "GlobalNamespace/MissionNodeVisualController.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeConnection::get_parentMissionNode
 // Il2CppName: get_parentMissionNode
 template<>
@@ -176,7 +174,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeConnection::*)(GlobalNamespace::MissionNodeVisualController*, GlobalNamespace::MissionNodeVisualController*)>(&GlobalNamespace::MissionNodeConnection::Setup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeConnection*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNodeVisualController*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNodeVisualController*>()});
+    static auto* parentMissionNode = &::il2cpp_utils::GetClassFromName("", "MissionNodeVisualController")->byval_arg;
+    static auto* childMissionNode = &::il2cpp_utils::GetClassFromName("", "MissionNodeVisualController")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeConnection*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parentMissionNode, childMissionNode});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeConnection::UpdateConnectionRectTransform
@@ -192,7 +192,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionNodeConnection::*)(bool)>(&GlobalNamespace::MissionNodeConnection::SetActive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeConnection*), "SetActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* animated = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodeConnection*), "SetActive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{animated});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodeConnection::MissionConnectionEnabledDidFinish

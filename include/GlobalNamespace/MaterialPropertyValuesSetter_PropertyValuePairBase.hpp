@@ -57,7 +57,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MaterialPropertyValuesSetter::PropertyValuePairBase) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase*, "", "MaterialPropertyValuesSetter/PropertyValuePairBase");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase::get_propertyId
 // Il2CppName: get_propertyId
 template<>
@@ -71,7 +70,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase::*)(int)>(&GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase::set_propertyId)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase*), "set_propertyId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase*), "set_propertyId", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase::RefreshPropertyId

@@ -50,7 +50,6 @@ namespace UnityEngine {
   static_assert(sizeof(Motion) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Motion*, "UnityEngine", "Motion");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Motion::get_isLooping
 // Il2CppName: get_isLooping
 template<>

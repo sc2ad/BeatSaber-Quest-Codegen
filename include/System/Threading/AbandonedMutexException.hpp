@@ -86,9 +86,6 @@ namespace System::Threading {
   static_assert(sizeof(AbandonedMutexException) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::AbandonedMutexException*, "System.Threading", "AbandonedMutexException");
-// Writing includes for template specializations
-#include "System/Threading/WaitHandle.hpp"
-#include "System/Runtime/Serialization/SerializationInfo.hpp"
 // Writing MetadataGetter for method: System::Threading::AbandonedMutexException::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -98,7 +95,9 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::AbandonedMutexException*, "System.Thre
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::AbandonedMutexException::*)(int, System::Threading::WaitHandle*)>(&System::Threading::AbandonedMutexException::SetupException)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::AbandonedMutexException*), "SetupException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::WaitHandle*>()});
+    static auto* location = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* handle = &::il2cpp_utils::GetClassFromName("System.Threading", "WaitHandle")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::AbandonedMutexException*), "SetupException", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{location, handle});
   }
 };
 // Writing MetadataGetter for method: System::Threading::AbandonedMutexException::New_ctor

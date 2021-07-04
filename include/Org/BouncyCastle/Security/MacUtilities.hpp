@@ -41,7 +41,6 @@ namespace Org::BouncyCastle::Security {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Security::MacUtilities*, "Org.BouncyCastle.Security", "MacUtilities");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::MacUtilities::_cctor
 // Il2CppName: .cctor
 template<>
@@ -55,6 +54,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::IMac* (*)(::Il2CppString*)>(&Org::BouncyCastle::Security::MacUtilities::GetMac)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::MacUtilities*), "GetMac", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* algorithm = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::MacUtilities*), "GetMac", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algorithm});
   }
 };

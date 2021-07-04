@@ -37,13 +37,13 @@ namespace TMPro {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_Glyph*, "TMPro", "TMP_Glyph");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: TMPro::TMP_Glyph::Clone
 // Il2CppName: Clone
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<TMPro::TMP_Glyph* (*)(TMPro::TMP_Glyph*)>(&TMPro::TMP_Glyph::Clone)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Glyph*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_Glyph*>()});
+    static auto* source = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_Glyph")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Glyph*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_Glyph::New_ctor

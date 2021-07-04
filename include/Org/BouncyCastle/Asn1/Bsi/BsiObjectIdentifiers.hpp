@@ -121,7 +121,6 @@ namespace Org::BouncyCastle::Asn1::Bsi {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Bsi::BsiObjectIdentifiers*, "Org.BouncyCastle.Asn1.Bsi", "BsiObjectIdentifiers");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Bsi::BsiObjectIdentifiers::_cctor
 // Il2CppName: .cctor
 template<>

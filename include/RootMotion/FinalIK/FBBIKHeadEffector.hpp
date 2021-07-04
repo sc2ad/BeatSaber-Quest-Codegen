@@ -418,8 +418,6 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(FBBIKHeadEffector) == 0x170);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBBIKHeadEffector*, "RootMotion.FinalIK", "FBBIKHeadEffector");
-// Writing includes for template specializations
-#include "RootMotion/FinalIK/IKEffector.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKHeadEffector::Start
 // Il2CppName: Start
 template<>
@@ -473,7 +471,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBBIKHeadEffector::*)(int)>(&RootMotion::FinalIK::FBBIKHeadEffector::Iterate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBBIKHeadEffector*), "Iterate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* iteration = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBBIKHeadEffector*), "Iterate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{iteration});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKHeadEffector::OnPostUpdate
@@ -505,7 +504,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBBIKHeadEffector::*)(RootMotion::FinalIK::IKEffector*, UnityEngine::Vector3, float, UnityEngine::Vector3)>(&RootMotion::FinalIK::FBBIKHeadEffector::LerpSolverPosition)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBBIKHeadEffector*), "LerpSolverPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKEffector*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    static auto* effector = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKEffector")->byval_arg;
+    static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* weight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* offset = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBBIKHeadEffector*), "LerpSolverPosition", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{effector, position, weight, offset});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKHeadEffector::Solve
@@ -513,7 +516,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBBIKHeadEffector::*)(UnityEngine::Vector3&, UnityEngine::Vector3&, float)>(&RootMotion::FinalIK::FBBIKHeadEffector::Solve)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBBIKHeadEffector*), "Solve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* pos1 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
+    static auto* pos2 = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
+    static auto* nominalDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBBIKHeadEffector*), "Solve", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pos1, pos2, nominalDistance});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::FBBIKHeadEffector::OnDestroy

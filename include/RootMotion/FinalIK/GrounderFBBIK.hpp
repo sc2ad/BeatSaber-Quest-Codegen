@@ -150,9 +150,6 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(GrounderFBBIK) == 0x6D);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GrounderFBBIK*, "RootMotion.FinalIK", "GrounderFBBIK");
-// Writing includes for template specializations
-#include "RootMotion/FinalIK/IKEffector.hpp"
-#include "RootMotion/FinalIK/Grounding_Leg.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::GrounderFBBIK::OpenTutorial
 // Il2CppName: OpenTutorial
 template<>
@@ -214,7 +211,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::GrounderFBBIK::*)(RootMotion::FinalIK::IKEffector*, RootMotion::FinalIK::Grounding::Leg*)>(&RootMotion::FinalIK::GrounderFBBIK::SetLegIK)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::GrounderFBBIK*), "SetLegIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::IKEffector*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::Grounding::Leg*>()});
+    static auto* effector = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKEffector")->byval_arg;
+    static auto* leg = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "Grounding/Leg")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::GrounderFBBIK*), "SetLegIK", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{effector, leg});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::GrounderFBBIK::OnDrawGizmosSelected

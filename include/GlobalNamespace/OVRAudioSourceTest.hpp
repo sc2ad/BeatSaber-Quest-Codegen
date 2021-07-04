@@ -59,7 +59,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRAudioSourceTest) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRAudioSourceTest*, "", "OVRAudioSourceTest");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRAudioSourceTest::Start
 // Il2CppName: Start
 template<>

@@ -43,7 +43,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandardLevelFailedController::InitData) == 0x11);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelFailedController::InitData*, "", "StandardLevelFailedController/InitData");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelFailedController::InitData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

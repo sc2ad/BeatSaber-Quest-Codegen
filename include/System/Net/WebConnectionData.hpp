@@ -129,8 +129,6 @@ namespace System::Net {
   static_assert(sizeof(WebConnectionData) == 0x54);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::WebConnectionData*, "System.Net", "WebConnectionData");
-// Writing includes for template specializations
-#include "System/Net/HttpWebRequest.hpp"
 // Writing MetadataGetter for method: System::Net::WebConnectionData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -148,7 +146,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnectionData::*)(System::Net::HttpWebRequest*)>(&System::Net::WebConnectionData::set_request)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionData*), "set_request", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::HttpWebRequest*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System.Net", "HttpWebRequest")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionData*), "set_request", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Net::WebConnectionData::get_ReadState
@@ -164,7 +163,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnectionData::*)(System::Net::ReadState)>(&System::Net::WebConnectionData::set_ReadState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionData*), "set_ReadState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Net::ReadState>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System.Net", "ReadState")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionData*), "set_ReadState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Net::WebConnectionData::New_ctor

@@ -45,7 +45,6 @@ namespace System::Net::Configuration {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Net::Configuration::ProxyElement*, "System.Net.Configuration", "ProxyElement");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Net::Configuration::ProxyElement::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

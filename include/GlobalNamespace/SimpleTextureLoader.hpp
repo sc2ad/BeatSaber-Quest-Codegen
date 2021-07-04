@@ -58,14 +58,15 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SimpleTextureLoader*, "", "SimpleTextureLoader");
-// Writing includes for template specializations
-#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::SimpleTextureLoader::LoadTexture
 // Il2CppName: LoadTexture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, bool, System::Action_1<UnityEngine::Texture2D*>*)>(&GlobalNamespace::SimpleTextureLoader::LoadTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleTextureLoader*), "LoadTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Texture2D*>*>()});
+    static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* useCache = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* finishedCallback = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Texture2D")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleTextureLoader*), "LoadTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filePath, useCache, finishedCallback});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SimpleTextureLoader::LoadTextureCoroutine
@@ -73,7 +74,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (*)(::Il2CppString*, bool, System::Action_1<UnityEngine::Texture2D*>*)>(&GlobalNamespace::SimpleTextureLoader::LoadTextureCoroutine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleTextureLoader*), "LoadTextureCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::Texture2D*>*>()});
+    static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* useCache = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* finishedCallback = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Texture2D")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SimpleTextureLoader*), "LoadTextureCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filePath, useCache, finishedCallback});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::SimpleTextureLoader::_cctor

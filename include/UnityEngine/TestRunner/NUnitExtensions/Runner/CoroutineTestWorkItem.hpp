@@ -90,10 +90,6 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   static_assert(sizeof(CoroutineTestWorkItem) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem*, "UnityEngine.TestRunner.NUnitExtensions.Runner", "CoroutineTestWorkItem");
-// Writing includes for template specializations
-#include "UnityEngine/MonoBehaviour.hpp"
-#include "NUnit/Framework/Internal/TestMethod.hpp"
-#include "NUnit/Framework/Interfaces/ITestFilter.hpp"
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem::get_monoBehaviourCoroutineRunner
 // Il2CppName: get_monoBehaviourCoroutineRunner
 template<>
@@ -107,7 +103,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::MonoBehaviour*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem::set_monoBehaviourCoroutineRunner)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem*), "set_monoBehaviourCoroutineRunner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::MonoBehaviour*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "MonoBehaviour")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem*), "set_monoBehaviourCoroutineRunner", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::CoroutineTestWorkItem::New_ctor

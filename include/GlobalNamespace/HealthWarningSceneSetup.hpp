@@ -60,7 +60,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(HealthWarningSceneSetup) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HealthWarningSceneSetup*, "", "HealthWarningSceneSetup");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::HealthWarningSceneSetup::InstallBindings
 // Il2CppName: InstallBindings
 template<>

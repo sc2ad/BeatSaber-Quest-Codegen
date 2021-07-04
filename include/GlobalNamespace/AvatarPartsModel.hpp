@@ -150,9 +150,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(AvatarPartsModel) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AvatarPartsModel*, "", "AvatarPartsModel");
-// Writing includes for template specializations
-#include "GlobalNamespace/AvatarPartsModelSO.hpp"
-#include "GlobalNamespace/SkinColorSetSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPartsModel::get_headTopCollection
 // Il2CppName: get_headTopCollection
 template<>
@@ -226,7 +223,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (GlobalNamespace::AvatarPartsModel::*)(::Il2CppString*)>(&GlobalNamespace::AvatarPartsModel::GetColorIndexById)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModel*), "GetColorIndexById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModel*), "GetColorIndexById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPartsModel::GetSkinColorById
@@ -234,7 +232,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::SkinColorSO* (GlobalNamespace::AvatarPartsModel::*)(::Il2CppString*)>(&GlobalNamespace::AvatarPartsModel::GetSkinColorById)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModel*), "GetSkinColorById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModel*), "GetSkinColorById", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{id});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPartsModel::GetRandomColor

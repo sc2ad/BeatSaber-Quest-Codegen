@@ -63,15 +63,14 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BakedLightTexturePacking*, "", "BakedLightTexturePacking");
-// Writing includes for template specializations
-#include "System/Collections/Generic/IReadOnlyList_1.hpp"
-#include "UnityEngine/RenderTextureDescriptor.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BakedLightTexturePacking::PackTextures
 // Il2CppName: PackTextures
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::RenderTexture* (*)(System::Collections::Generic::IReadOnlyList_1<UnityEngine::RenderTexture*>*, UnityEngine::RenderTextureDescriptor)>(&GlobalNamespace::BakedLightTexturePacking::PackTextures)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BakedLightTexturePacking*), "PackTextures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IReadOnlyList_1<UnityEngine::RenderTexture*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTextureDescriptor>()});
+    static auto* textures = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IReadOnlyList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")})->byval_arg;
+    static auto* descriptor = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTextureDescriptor")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BakedLightTexturePacking*), "PackTextures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{textures, descriptor});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BakedLightTexturePacking::_cctor

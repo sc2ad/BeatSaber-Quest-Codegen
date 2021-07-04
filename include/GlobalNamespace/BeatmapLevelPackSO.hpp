@@ -109,7 +109,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(BeatmapLevelPackSO) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelPackSO*, "", "BeatmapLevelPackSO");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelPackSO::get_packID
 // Il2CppName: get_packID
 template<>

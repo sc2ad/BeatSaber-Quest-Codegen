@@ -127,8 +127,6 @@ namespace UnityEngine {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Cubemap*, "UnityEngine", "Cubemap");
-// Writing includes for template specializations
-#include "UnityEngine/CubemapFace.hpp"
 // Writing MetadataGetter for method: UnityEngine::Cubemap::get_format
 // Il2CppName: get_format
 template<>
@@ -142,7 +140,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Cubemap*, int, int, UnityEngine::Experimental::Rendering::GraphicsFormat, UnityEngine::Experimental::Rendering::TextureCreationFlags, System::IntPtr)>(&UnityEngine::Cubemap::Internal_CreateImpl)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cubemap*), "Internal_CreateImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Cubemap*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::GraphicsFormat>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::TextureCreationFlags>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* mono = &::il2cpp_utils::GetClassFromName("UnityEngine", "Cubemap")->byval_arg;
+    static auto* ext = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* mipCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.Rendering", "GraphicsFormat")->byval_arg;
+    static auto* flags = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.Rendering", "TextureCreationFlags")->byval_arg;
+    static auto* nativeTex = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cubemap*), "Internal_CreateImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mono, ext, mipCount, format, flags, nativeTex});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Cubemap::Internal_Create
@@ -150,7 +154,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Cubemap*, int, int, UnityEngine::Experimental::Rendering::GraphicsFormat, UnityEngine::Experimental::Rendering::TextureCreationFlags, System::IntPtr)>(&UnityEngine::Cubemap::Internal_Create)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cubemap*), "Internal_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Cubemap*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::GraphicsFormat>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Experimental::Rendering::TextureCreationFlags>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* mono = &::il2cpp_utils::GetClassFromName("UnityEngine", "Cubemap")->byval_arg;
+    static auto* ext = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* mipCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.Rendering", "GraphicsFormat")->byval_arg;
+    static auto* flags = &::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.Rendering", "TextureCreationFlags")->byval_arg;
+    static auto* nativeTex = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cubemap*), "Internal_Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mono, ext, mipCount, format, flags, nativeTex});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Cubemap::SmoothEdges
@@ -158,7 +168,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Cubemap::*)(int)>(&UnityEngine::Cubemap::SmoothEdges)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cubemap*), "SmoothEdges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* smoothRegionWidthInPixels = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cubemap*), "SmoothEdges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{smoothRegionWidthInPixels});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Cubemap::SmoothEdges
@@ -174,7 +185,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Color>* (UnityEngine::Cubemap::*)(UnityEngine::CubemapFace, int)>(&UnityEngine::Cubemap::GetPixels)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cubemap*), "GetPixels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::CubemapFace>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* face = &::il2cpp_utils::GetClassFromName("UnityEngine", "CubemapFace")->byval_arg;
+    static auto* miplevel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cubemap*), "GetPixels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{face, miplevel});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Cubemap::GetPixels
@@ -182,7 +195,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Color>* (UnityEngine::Cubemap::*)(UnityEngine::CubemapFace)>(&UnityEngine::Cubemap::GetPixels)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cubemap*), "GetPixels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::CubemapFace>()});
+    static auto* face = &::il2cpp_utils::GetClassFromName("UnityEngine", "CubemapFace")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cubemap*), "GetPixels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{face});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Cubemap::SetPixels
@@ -190,7 +204,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Cubemap::*)(::Array<UnityEngine::Color>*, UnityEngine::CubemapFace, int)>(&UnityEngine::Cubemap::SetPixels)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cubemap*), "SetPixels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Color>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::CubemapFace>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* colors = &classof(::Array<::Array<UnityEngine::Color>*>*)->byval_arg;
+    static auto* face = &::il2cpp_utils::GetClassFromName("UnityEngine", "CubemapFace")->byval_arg;
+    static auto* miplevel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cubemap*), "SetPixels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colors, face, miplevel});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Cubemap::SetPixels
@@ -198,7 +215,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Cubemap::*)(::Array<UnityEngine::Color>*, UnityEngine::CubemapFace)>(&UnityEngine::Cubemap::SetPixels)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cubemap*), "SetPixels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Color>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::CubemapFace>()});
+    static auto* colors = &classof(::Array<::Array<UnityEngine::Color>*>*)->byval_arg;
+    static auto* face = &::il2cpp_utils::GetClassFromName("UnityEngine", "CubemapFace")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cubemap*), "SetPixels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colors, face});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Cubemap::New_ctor
@@ -234,7 +253,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Cubemap* (*)(int, UnityEngine::TextureFormat, bool, System::IntPtr)>(&UnityEngine::Cubemap::CreateExternalTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cubemap*), "CreateExternalTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::TextureFormat>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>()});
+    static auto* width = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* format = &::il2cpp_utils::GetClassFromName("UnityEngine", "TextureFormat")->byval_arg;
+    static auto* mipmap = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* nativeTex = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cubemap*), "CreateExternalTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{width, format, mipmap, nativeTex});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::Cubemap::get_isReadable

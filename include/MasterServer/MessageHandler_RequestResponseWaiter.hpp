@@ -91,9 +91,6 @@ namespace MasterServer {
   // WARNING Not writing size check since size may be invalid!
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::RequestResponseWaiter*, "MasterServer", "MessageHandler/RequestResponseWaiter");
-// Writing includes for template specializations
-#include "MasterServer/IMasterServerMessage.hpp"
-#include "System/Exception.hpp"
 // Writing MetadataGetter for method: MasterServer::MessageHandler::RequestResponseWaiter::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -103,7 +100,8 @@ DEFINE_IL2CPP_ARG_TYPE(MasterServer::MessageHandler::RequestResponseWaiter*, "Ma
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::RequestResponseWaiter::*)(MasterServer::IMasterServerMessage*)>(&MasterServer::MessageHandler::RequestResponseWaiter::Complete)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::RequestResponseWaiter*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<MasterServer::IMasterServerMessage*>()});
+    static auto* response = &::il2cpp_utils::GetClassFromName("MasterServer", "IMasterServerMessage")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::RequestResponseWaiter*), "Complete", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{response});
   }
 };
 // Writing MetadataGetter for method: MasterServer::MessageHandler::RequestResponseWaiter::Fail
@@ -111,7 +109,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::MessageHandler::RequestResponseWaiter::*)(System::Exception*)>(&MasterServer::MessageHandler::RequestResponseWaiter::Fail)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::RequestResponseWaiter*), "Fail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    static auto* ex = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler::RequestResponseWaiter*), "Fail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ex});
   }
 };
 // Writing MetadataGetter for method: MasterServer::MessageHandler::RequestResponseWaiter::Cancel

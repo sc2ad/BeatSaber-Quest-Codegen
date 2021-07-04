@@ -39,7 +39,6 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TableViewWithDetailCell::IDataSource*, "", "TableViewWithDetailCell/IDataSource");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::TableViewWithDetailCell::IDataSource::CellSize
 // Il2CppName: CellSize
 template<>
@@ -61,7 +60,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (GlobalNamespace::TableViewWithDetailCell::IDataSource::*)(GlobalNamespace::TableViewWithDetailCell*, int, bool)>(&GlobalNamespace::TableViewWithDetailCell::IDataSource::CellForContent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TableViewWithDetailCell::IDataSource*), "CellForContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TableViewWithDetailCell*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* tableView = &::il2cpp_utils::GetClassFromName("", "TableViewWithDetailCell")->byval_arg;
+    static auto* idx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* detailOpened = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TableViewWithDetailCell::IDataSource*), "CellForContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tableView, idx, detailOpened});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::TableViewWithDetailCell::IDataSource::CellForDetail
@@ -69,6 +71,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::Table
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HMUI::TableCell* (GlobalNamespace::TableViewWithDetailCell::IDataSource::*)(GlobalNamespace::TableViewWithDetailCell*, int)>(&GlobalNamespace::TableViewWithDetailCell::IDataSource::CellForDetail)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TableViewWithDetailCell::IDataSource*), "CellForDetail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::TableViewWithDetailCell*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* tableView = &::il2cpp_utils::GetClassFromName("", "TableViewWithDetailCell")->byval_arg;
+    static auto* contentIdx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TableViewWithDetailCell::IDataSource*), "CellForDetail", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tableView, contentIdx});
   }
 };

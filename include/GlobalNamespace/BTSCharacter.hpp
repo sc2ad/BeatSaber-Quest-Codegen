@@ -107,8 +107,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(BTSCharacter) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacter*, "", "BTSCharacter");
-// Writing includes for template specializations
-#include "UnityEngine/AnimationClip.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacter::get_characterName
 // Il2CppName: get_characterName
 template<>
@@ -146,7 +144,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BTSCharacter::*)(UnityEngine::AnimationClip*, bool)>(&GlobalNamespace::BTSCharacter::SetAlternativeAnimationAndMaterial)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacter*), "SetAlternativeAnimationAndMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* animation = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")->byval_arg;
+    static auto* alternativeMaterialOn = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BTSCharacter*), "SetAlternativeAnimationAndMaterial", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{animation, alternativeMaterialOn});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::BTSCharacter::New_ctor

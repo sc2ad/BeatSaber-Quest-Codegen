@@ -42,14 +42,14 @@ namespace Org::BouncyCastle::Utilities {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Enums*, "Org.BouncyCastle.Utilities", "Enums");
-// Writing includes for template specializations
-#include "System/Type.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Enums::GetEnumValue
 // Il2CppName: GetEnumValue
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Enum* (*)(System::Type*, ::Il2CppString*)>(&Org::BouncyCastle::Utilities::Enums::GetEnumValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Enums*), "GetEnumValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Enums*), "GetEnumValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType, s});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Enums::GetEnumValues
@@ -57,7 +57,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Enu
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Type*)>(&Org::BouncyCastle::Utilities::Enums::GetEnumValues)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Enums*), "GetEnumValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Enums*), "GetEnumValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Enums::GetArbitraryValue
@@ -65,7 +66,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Arr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Enum* (*)(System::Type*)>(&Org::BouncyCastle::Utilities::Enums::GetArbitraryValue)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Enums*), "GetArbitraryValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Enums*), "GetArbitraryValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Enums::IsEnumType
@@ -73,6 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Enu
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Type*)>(&Org::BouncyCastle::Utilities::Enums::IsEnumType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Enums*), "IsEnumType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Type*>()});
+    static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Enums*), "IsEnumType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
 };

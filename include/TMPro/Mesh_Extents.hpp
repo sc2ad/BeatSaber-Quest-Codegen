@@ -54,7 +54,6 @@ namespace TMPro {
   static_assert(sizeof(Mesh_Extents) == 0x10);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::Mesh_Extents, "TMPro", "Mesh_Extents");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: TMPro::Mesh_Extents::Mesh_Extents
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

@@ -74,8 +74,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(CrashManagerSO) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CrashManagerSO*, "", "CrashManagerSO");
-// Writing includes for template specializations
-#include "UnityEngine/LogType.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::CrashManagerSO::get_logString
 // Il2CppName: get_logString
 template<>
@@ -113,7 +111,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CrashManagerSO::*)(::Il2CppString*, ::Il2CppString*, UnityEngine::LogType)>(&GlobalNamespace::CrashManagerSO::HandleLog)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CrashManagerSO*), "HandleLog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::LogType>()});
+    static auto* logString = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* stackTrace = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* type = &::il2cpp_utils::GetClassFromName("UnityEngine", "LogType")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CrashManagerSO*), "HandleLog", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{logString, stackTrace, type});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::CrashManagerSO::New_ctor

@@ -114,7 +114,6 @@ namespace UnityEngine::Events {
   static_assert(sizeof(ArgumentCache) == 0x31);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::ArgumentCache*, "UnityEngine.Events", "ArgumentCache");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Events::ArgumentCache::get_unityObjectArgument
 // Il2CppName: get_unityObjectArgument
 template<>

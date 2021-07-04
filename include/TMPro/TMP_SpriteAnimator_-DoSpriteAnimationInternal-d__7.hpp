@@ -162,7 +162,6 @@ namespace TMPro {
   static_assert(sizeof(TMP_SpriteAnimator::$DoSpriteAnimationInternal$d__7) == 0x1F8);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_SpriteAnimator::$DoSpriteAnimationInternal$d__7*, "TMPro", "TMP_SpriteAnimator/<DoSpriteAnimationInternal>d__7");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: TMPro::TMP_SpriteAnimator::$DoSpriteAnimationInternal$d__7::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

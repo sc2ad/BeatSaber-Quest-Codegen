@@ -91,7 +91,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionLevelFinishedController) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionLevelFinishedController*, "", "MissionLevelFinishedController");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelFinishedController::Start
 // Il2CppName: Start
 template<>

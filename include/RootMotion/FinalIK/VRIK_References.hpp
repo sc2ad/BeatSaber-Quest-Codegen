@@ -198,8 +198,6 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(VRIK::References) == 0xC0);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIK::References*, "RootMotion.FinalIK", "VRIK/References");
-// Writing includes for template specializations
-#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::VRIK::References::GetTransforms
 // Il2CppName: GetTransforms
 template<>
@@ -229,7 +227,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, RootMotion::FinalIK::VRIK::References*&)>(&RootMotion::FinalIK::VRIK::References::AutoDetectReferences)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIK::References*), "AutoDetectReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<RootMotion::FinalIK::VRIK::References*&>()});
+    static auto* root = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    static auto* references = &::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "VRIK/References")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIK::References*), "AutoDetectReferences", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{root, references});
   }
 };
 // Writing MetadataGetter for method: RootMotion::FinalIK::VRIK::References::New_ctor

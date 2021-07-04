@@ -72,8 +72,6 @@ namespace UnityEngine::EventSystems {
   static_assert(sizeof(AxisEventData) == 0x2C);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::AxisEventData*, "UnityEngine.EventSystems", "AxisEventData");
-// Writing includes for template specializations
-#include "UnityEngine/EventSystems/EventSystem.hpp"
 // Writing MetadataGetter for method: UnityEngine::EventSystems::AxisEventData::get_moveVector
 // Il2CppName: get_moveVector
 template<>
@@ -87,7 +85,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::AxisEventData::*)(UnityEngine::Vector2)>(&UnityEngine::EventSystems::AxisEventData::set_moveVector)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::AxisEventData*), "set_moveVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector2>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::AxisEventData*), "set_moveVector", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::EventSystems::AxisEventData::get_moveDir
@@ -103,7 +102,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::EventSystems::AxisEventData::*)(UnityEngine::EventSystems::MoveDirection)>(&UnityEngine::EventSystems::AxisEventData::set_moveDir)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::AxisEventData*), "set_moveDir", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::MoveDirection>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "MoveDirection")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::EventSystems::AxisEventData*), "set_moveDir", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::EventSystems::AxisEventData::New_ctor

@@ -30,7 +30,6 @@ namespace Oculus::Platform {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CloudStorage2*, "Oculus.Platform", "CloudStorage2");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::CloudStorage2::GetUserDirectoryPath
 // Il2CppName: GetUserDirectoryPath
 template<>

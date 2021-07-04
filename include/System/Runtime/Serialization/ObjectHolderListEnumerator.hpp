@@ -72,8 +72,6 @@ namespace System::Runtime::Serialization {
   static_assert(sizeof(ObjectHolderListEnumerator) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::ObjectHolderListEnumerator*, "System.Runtime.Serialization", "ObjectHolderListEnumerator");
-// Writing includes for template specializations
-#include "System/Runtime/Serialization/ObjectHolderList.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectHolderListEnumerator::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

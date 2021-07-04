@@ -37,7 +37,6 @@ namespace UnityEngine::Timeline {
   }; // UnityEngine.Timeline.ControlTrack
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Timeline::ControlTrack*, "UnityEngine.Timeline", "ControlTrack");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::Timeline::ControlTrack::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

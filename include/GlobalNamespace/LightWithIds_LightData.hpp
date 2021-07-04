@@ -82,7 +82,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(LightWithIds::LightData) == 0x25);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightWithIds::LightData*, "", "LightWithIds/LightData");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::LightWithIds::LightData::get_lightId
 // Il2CppName: get_lightId
 template<>
@@ -128,7 +127,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LightWithIds::LightData::*)(UnityEngine::Color)>(&GlobalNamespace::LightWithIds::LightData::ColorWasSet)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIds::LightData*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    static auto* newColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIds::LightData*), "ColorWasSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newColor});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LightWithIds::LightData::ProcessColor
@@ -136,7 +136,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color (GlobalNamespace::LightWithIds::LightData::*)(UnityEngine::Color)>(&GlobalNamespace::LightWithIds::LightData::ProcessColor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIds::LightData*), "ProcessColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Color>()});
+    static auto* newColor = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIds::LightData*), "ProcessColor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newColor});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::LightWithIds::LightData::New_ctor

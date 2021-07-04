@@ -34,7 +34,6 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IBeatmapLevel*, "", "IBeatmapLevel");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::IBeatmapLevel::get_beatmapLevelData
 // Il2CppName: get_beatmapLevelData
 template<>

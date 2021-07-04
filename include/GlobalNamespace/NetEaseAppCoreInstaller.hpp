@@ -59,7 +59,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(NetEaseAppCoreInstaller) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NetEaseAppCoreInstaller*, "", "NetEaseAppCoreInstaller");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::NetEaseAppCoreInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>

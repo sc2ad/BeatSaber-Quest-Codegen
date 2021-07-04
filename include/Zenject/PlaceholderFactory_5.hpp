@@ -47,7 +47,7 @@ namespace Zenject {
     class $get_ParamTypes$d__2 : public ::il2cpp_utils::il2cpp_type_check::NestedType, public ::Il2CppObject/*, public System::Collections::Generic::IEnumerable_1<System::Type*>, public System::Collections::Generic::IEnumerator_1<System::Type*>*/ {
       public:
       using declaring_type = PlaceholderFactory_5<TParam1, TParam2, TParam3, TParam4, TValue>*;
-      static constexpr std::string_view NESTED_NAME = "$get_ParamTypes$d__2";
+      static constexpr std::string_view NESTED_NAME = "<get_ParamTypes>d__2";
       // private System.Int32 <>1__state
       // Size: 0x4
       // Offset: 0x0

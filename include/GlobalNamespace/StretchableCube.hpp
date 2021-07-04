@@ -186,7 +186,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(StretchableCube) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StretchableCube*, "", "StretchableCube");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::StretchableCube::Awake
 // Il2CppName: Awake
 template<>
@@ -216,7 +215,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StretchableCube::*)(::Array<UnityEngine::Vector2>*)>(&GlobalNamespace::StretchableCube::RecalculateUVs)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StretchableCube*), "RecalculateUVs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<UnityEngine::Vector2>*>()});
+    static auto* uvs = &classof(::Array<::Array<UnityEngine::Vector2>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StretchableCube*), "RecalculateUVs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uvs});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::StretchableCube::RefreshUVs

@@ -58,7 +58,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(LevelCollectionNavigationController::$$c__DisplayClass51_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCollectionNavigationController::$$c__DisplayClass51_0*, "", "LevelCollectionNavigationController/<>c__DisplayClass51_0");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::LevelCollectionNavigationController::$$c__DisplayClass51_0::$PresentDetailViewController$b__0
 // Il2CppName: <PresentDetailViewController>b__0
 template<>

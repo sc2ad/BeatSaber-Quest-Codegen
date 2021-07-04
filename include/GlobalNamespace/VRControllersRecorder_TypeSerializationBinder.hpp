@@ -48,13 +48,14 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRControllersRecorder::TypeSerializationBinder*, "", "VRControllersRecorder/TypeSerializationBinder");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::TypeSerializationBinder::BindToType
 // Il2CppName: BindToType
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (GlobalNamespace::VRControllersRecorder::TypeSerializationBinder::*)(::Il2CppString*, ::Il2CppString*)>(&GlobalNamespace::VRControllersRecorder::TypeSerializationBinder::BindToType)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder::TypeSerializationBinder*), "BindToType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* assemblyName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* typeName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRControllersRecorder::TypeSerializationBinder*), "BindToType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assemblyName, typeName});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorder::TypeSerializationBinder::New_ctor

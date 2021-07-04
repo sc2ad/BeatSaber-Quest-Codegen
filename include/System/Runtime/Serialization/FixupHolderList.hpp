@@ -65,8 +65,6 @@ namespace System::Runtime::Serialization {
   static_assert(sizeof(FixupHolderList) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::FixupHolderList*, "System.Runtime.Serialization", "FixupHolderList");
-// Writing includes for template specializations
-#include "System/Runtime/Serialization/FixupHolder.hpp"
 // Writing MetadataGetter for method: System::Runtime::Serialization::FixupHolderList::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -76,7 +74,8 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::FixupHolderList*, "System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::FixupHolderList::*)(System::Runtime::Serialization::FixupHolder*)>(&System::Runtime::Serialization::FixupHolderList::Add)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::FixupHolderList*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Serialization::FixupHolder*>()});
+    static auto* fixup = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "FixupHolder")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::FixupHolderList*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fixup});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Serialization::FixupHolderList::EnlargeArray

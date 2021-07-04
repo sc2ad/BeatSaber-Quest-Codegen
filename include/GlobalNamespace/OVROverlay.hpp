@@ -651,12 +651,6 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROverlay*, "", "OVROverlay");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROverlay::OverlayShape, "", "OVROverlay/OverlayShape");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROverlay::OverlayType, "", "OVROverlay/OverlayType");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROverlay::LayerTexture, "", "OVROverlay/LayerTexture");
-// Writing includes for template specializations
-#include "UnityEngine/Texture.hpp"
-#include "UnityEngine/XR/XRNode.hpp"
-#include "UnityEngine/RenderTexture.hpp"
-#include "UnityEngine/Material.hpp"
-#include "GlobalNamespace/OVRPose.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlay::get_previewInEditor
 // Il2CppName: get_previewInEditor
 template<>
@@ -670,7 +664,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVROverlay::*)(bool)>(&GlobalNamespace::OVROverlay::set_previewInEditor)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlay*), "set_previewInEditor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlay*), "set_previewInEditor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlay::OverrideOverlayTextureInfo
@@ -678,7 +673,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVROverlay::*)(UnityEngine::Texture*, System::IntPtr, UnityEngine::XR::XRNode)>(&GlobalNamespace::OVROverlay::OverrideOverlayTextureInfo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlay*), "OverrideOverlayTextureInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::XRNode>()});
+    static auto* srcTexture = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* nativePtr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* node = &::il2cpp_utils::GetClassFromName("UnityEngine.XR", "XRNode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlay*), "OverrideOverlayTextureInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{srcTexture, nativePtr, node});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlay::get_layout
@@ -702,7 +700,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(GlobalNamespace::OVROverlay::OverlayShape)>(&GlobalNamespace::OVROverlay::NeedsTexturesForShape)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlay*), "NeedsTexturesForShape", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVROverlay::OverlayShape>()});
+    static auto* shape = &::il2cpp_utils::GetClassFromName("", "OVROverlay/OverlayShape")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlay*), "NeedsTexturesForShape", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{shape});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlay::CreateLayer
@@ -710,7 +709,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVROverlay::*)(int, int, GlobalNamespace::OVRPlugin::EyeTextureFormat, int, GlobalNamespace::OVRPlugin::Sizei, GlobalNamespace::OVRPlugin::OverlayShape)>(&GlobalNamespace::OVROverlay::CreateLayer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlay*), "CreateLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::EyeTextureFormat>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Sizei>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::OverlayShape>()});
+    static auto* mipLevels = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* sampleCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* etFormat = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/EyeTextureFormat")->byval_arg;
+    static auto* flags = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* size = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Sizei")->byval_arg;
+    static auto* shape = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/OverlayShape")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlay*), "CreateLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mipLevels, sampleCount, etFormat, flags, size, shape});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlay::CreateLayerTextures
@@ -718,7 +723,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVROverlay::*)(bool, GlobalNamespace::OVRPlugin::Sizei, bool)>(&GlobalNamespace::OVROverlay::CreateLayerTextures)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlay*), "CreateLayerTextures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Sizei>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* useMipmaps = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* size = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Sizei")->byval_arg;
+    static auto* isHdr = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlay*), "CreateLayerTextures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{useMipmaps, size, isHdr});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlay::DestroyLayerTextures
@@ -742,7 +750,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVROverlay::*)(UnityEngine::Rect, UnityEngine::Rect, UnityEngine::Rect, UnityEngine::Rect)>(&GlobalNamespace::OVROverlay::SetSrcDestRects)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlay*), "SetSrcDestRects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>()});
+    static auto* srcLeft = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* srcRight = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* destLeft = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* destRight = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlay*), "SetSrcDestRects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{srcLeft, srcRight, destLeft, destRight});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlay::UpdateTextureRectMatrix
@@ -758,7 +770,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVROverlay::*)(UnityEngine::Vector4, UnityEngine::Vector4)>(&GlobalNamespace::OVROverlay::SetPerLayerColorScaleAndOffset)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlay*), "SetPerLayerColorScaleAndOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector4>()});
+    static auto* scale = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
+    static auto* offset = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlay*), "SetPerLayerColorScaleAndOffset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scale, offset});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlay::LatchLayerTextures
@@ -782,7 +796,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (GlobalNamespace::OVROverlay::*)(int)>(&GlobalNamespace::OVROverlay::GetBlitRect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlay*), "GetBlitRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* eyeId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlay*), "GetBlitRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eyeId});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlay::BlitSubImage
@@ -790,7 +805,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVROverlay::*)(UnityEngine::Texture*, UnityEngine::RenderTexture*, UnityEngine::Material*, UnityEngine::Rect)>(&GlobalNamespace::OVROverlay::BlitSubImage)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlay*), "BlitSubImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>()});
+    static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* dst = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
+    static auto* mat = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlay*), "BlitSubImage", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src, dst, mat, rect});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlay::PopulateLayer
@@ -798,7 +817,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVROverlay::*)(int, bool, GlobalNamespace::OVRPlugin::Sizei, int, int)>(&GlobalNamespace::OVROverlay::PopulateLayer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlay*), "PopulateLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Sizei>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* mipLevels = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* isHdr = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* size = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Sizei")->byval_arg;
+    static auto* sampleCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* stage = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlay*), "PopulateLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mipLevels, isHdr, size, sampleCount, stage});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlay::SubmitLayer
@@ -806,7 +830,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVROverlay::*)(bool, bool, bool, GlobalNamespace::OVRPose, UnityEngine::Vector3, int)>(&GlobalNamespace::OVROverlay::SubmitLayer)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlay*), "SubmitLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPose>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* overlay = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* headLocked = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* noDepthBufferTesting = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* pose = &::il2cpp_utils::GetClassFromName("", "OVRPose")->byval_arg;
+    static auto* scale = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* frameIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlay*), "SubmitLayer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{overlay, headLocked, noDepthBufferTesting, pose, scale, frameIndex});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlay::SetupEditorPreview
@@ -870,7 +900,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVROverlay::*)(GlobalNamespace::OVRPose&, UnityEngine::Vector3&, bool&, bool&)>(&GlobalNamespace::OVROverlay::ComputeSubmit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlay*), "ComputeSubmit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPose&>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3&>(), ::il2cpp_utils::ExtractIndependentType<bool&>(), ::il2cpp_utils::ExtractIndependentType<bool&>()});
+    static auto* pose = &::il2cpp_utils::GetClassFromName("", "OVRPose")->this_arg;
+    static auto* scale = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
+    static auto* overlay = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
+    static auto* headLocked = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlay*), "ComputeSubmit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pose, scale, overlay, headLocked});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlay::OpenVROverlayUpdate
@@ -878,7 +912,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVROverlay::*)(UnityEngine::Vector3, GlobalNamespace::OVRPose)>(&GlobalNamespace::OVROverlay::OpenVROverlayUpdate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlay*), "OpenVROverlayUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPose>()});
+    static auto* scale = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* pose = &::il2cpp_utils::GetClassFromName("", "OVRPose")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVROverlay*), "OpenVROverlayUpdate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scale, pose});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVROverlay::LateUpdate

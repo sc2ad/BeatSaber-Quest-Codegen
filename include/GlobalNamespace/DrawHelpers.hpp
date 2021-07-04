@@ -43,15 +43,22 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DrawHelpers*, "", "DrawHelpers");
-// Writing includes for template specializations
-#include "UnityEngine/Texture.hpp"
-#include "UnityEngine/Material.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::DrawHelpers::DrawTexture
 // Il2CppName: DrawTexture
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Texture*, float, float, float, float, UnityEngine::Material*, float, float, float, float)>(&GlobalNamespace::DrawHelpers::DrawTexture)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DrawHelpers*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Texture*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Material*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* texture = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
+    static auto* x = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* y = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* w = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* h = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* mat = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
+    static auto* sx = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* sy = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* sw = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* sh = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DrawHelpers*), "DrawTexture", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{texture, x, y, w, h, mat, sx, sy, sw, sh});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::DrawHelpers::New_ctor

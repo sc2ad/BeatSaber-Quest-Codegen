@@ -133,8 +133,6 @@ namespace ModestTree {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(ModestTree::LinqExtensions*, "ModestTree", "LinqExtensions");
-// Writing includes for template specializations
-#include "System/Collections/Generic/IEnumerable_1.hpp"
 // Writing MetadataGetter for method: ModestTree::LinqExtensions::Yield
 // Il2CppName: Yield
 // Cannot write MetadataGetter for generic methods!

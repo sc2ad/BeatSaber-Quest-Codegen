@@ -64,9 +64,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FindUnityObjectsHelper*, "", "FindUnityObjectsHelper");
-// Writing includes for template specializations
-#include "UnityEngine/GameObject.hpp"
-#include "System/Collections/Generic/IReadOnlyList_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::FindUnityObjectsHelper::GetMonoBehavioursInLoadedScenes
 // Il2CppName: GetMonoBehavioursInLoadedScenes
 template<>
@@ -88,7 +85,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<UnityEngine::GameObject*>* (*)(UnityEngine::GameObject*)>(&GlobalNamespace::FindUnityObjectsHelper::GetAllGameObjectsInGameObject)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FindUnityObjectsHelper*), "GetAllGameObjectsInGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    static auto* go = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FindUnityObjectsHelper*), "GetAllGameObjectsInGameObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{go});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::FindUnityObjectsHelper::GetAllGameObjectsInLoadedScenes

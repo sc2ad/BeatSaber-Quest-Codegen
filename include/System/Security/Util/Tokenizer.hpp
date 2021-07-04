@@ -232,9 +232,6 @@ namespace System::Security::Util {
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer*, "System.Security.Util", "Tokenizer");
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Util::Tokenizer::TokenSource, "System.Security.Util", "Tokenizer/TokenSource");
-// Writing includes for template specializations
-#include "System/Text/Encoding.hpp"
-#include "System/Security/Util/TokenizerStream.hpp"
 // Writing MetadataGetter for method: System::Security::Util::Tokenizer::BasicInitialization
 // Il2CppName: BasicInitialization
 template<>
@@ -260,7 +257,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Util::Tokenizer::*)(System::Text::Encoding*)>(&System::Security::Util::Tokenizer::ChangeFormat)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Tokenizer*), "ChangeFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
+    static auto* encoding = &::il2cpp_utils::GetClassFromName("System.Text", "Encoding")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Tokenizer*), "ChangeFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{encoding});
   }
 };
 // Writing MetadataGetter for method: System::Security::Util::Tokenizer::GetTokens
@@ -268,7 +266,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Util::Tokenizer::*)(System::Security::Util::TokenizerStream*, int, bool)>(&System::Security::Util::Tokenizer::GetTokens)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Tokenizer*), "GetTokens", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Util::TokenizerStream*>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* stream = &::il2cpp_utils::GetClassFromName("System.Security.Util", "TokenizerStream")->byval_arg;
+    static auto* maxNum = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* endAfterKet = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Security::Util::Tokenizer*), "GetTokens", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stream, maxNum, endAfterKet});
   }
 };
 // Writing MetadataGetter for method: System::Security::Util::Tokenizer::GetStringToken

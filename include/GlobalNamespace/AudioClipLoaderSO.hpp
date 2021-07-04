@@ -80,14 +80,14 @@ namespace GlobalNamespace {
   static_assert(sizeof(AudioClipLoaderSO) == 0x19);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AudioClipLoaderSO*, "", "AudioClipLoaderSO");
-// Writing includes for template specializations
-#include "System/Action_1.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipLoaderSO::LoadAudioFile
 // Il2CppName: LoadAudioFile
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AudioClipLoaderSO::*)(::Il2CppString*, System::Action_1<UnityEngine::AudioClip*>*)>(&GlobalNamespace::AudioClipLoaderSO::LoadAudioFile)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipLoaderSO*), "LoadAudioFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::AudioClip*>*>()});
+    static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* finishCallback = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipLoaderSO*), "LoadAudioFile", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filePath, finishCallback});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipLoaderSO::LoadAudioFileCoroutine
@@ -95,7 +95,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::AudioClipLoaderSO::*)(::Il2CppString*, System::Action_1<UnityEngine::AudioClip*>*)>(&GlobalNamespace::AudioClipLoaderSO::LoadAudioFileCoroutine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipLoaderSO*), "LoadAudioFileCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<UnityEngine::AudioClip*>*>()});
+    static auto* filePath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* finishCallback = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AudioClipLoaderSO*), "LoadAudioFileCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filePath, finishCallback});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::AudioClipLoaderSO::OnEnable

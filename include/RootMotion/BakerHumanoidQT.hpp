@@ -189,12 +189,6 @@ namespace RootMotion {
   static_assert(sizeof(BakerHumanoidQT) == 0x9D);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BakerHumanoidQT*, "RootMotion", "BakerHumanoidQT");
-// Writing includes for template specializations
-#include "UnityEngine/Transform.hpp"
-#include "UnityEngine/Avatar.hpp"
-#include "UnityEngine/Vector3.hpp"
-#include "UnityEngine/AnimationCurve.hpp"
-#include "UnityEngine/AnimationClip.hpp"
 // Writing MetadataGetter for method: RootMotion::BakerHumanoidQT::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -216,7 +210,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerHumanoidQT::*)(float, UnityEngine::Avatar*, float, UnityEngine::Vector3, UnityEngine::Quaternion)>(&RootMotion::BakerHumanoidQT::SetIKKeyframes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerHumanoidQT*), "SetIKKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Avatar*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* avatar = &::il2cpp_utils::GetClassFromName("UnityEngine", "Avatar")->byval_arg;
+    static auto* humanScale = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* bodyPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* bodyRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerHumanoidQT*), "SetIKKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time, avatar, humanScale, bodyPosition, bodyRotation});
   }
 };
 // Writing MetadataGetter for method: RootMotion::BakerHumanoidQT::SetKeyframes
@@ -224,7 +223,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerHumanoidQT::*)(float, UnityEngine::Vector3, UnityEngine::Quaternion)>(&RootMotion::BakerHumanoidQT::SetKeyframes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerHumanoidQT*), "SetKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Quaternion>()});
+    static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* pos = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* rot = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerHumanoidQT*), "SetKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time, pos, rot});
   }
 };
 // Writing MetadataGetter for method: RootMotion::BakerHumanoidQT::MoveLastKeyframes
@@ -232,7 +234,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerHumanoidQT::*)(float)>(&RootMotion::BakerHumanoidQT::MoveLastKeyframes)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerHumanoidQT*), "MoveLastKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerHumanoidQT*), "MoveLastKeyframes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
 };
 // Writing MetadataGetter for method: RootMotion::BakerHumanoidQT::SetLoopFrame
@@ -240,7 +243,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerHumanoidQT::*)(float)>(&RootMotion::BakerHumanoidQT::SetLoopFrame)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerHumanoidQT*), "SetLoopFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerHumanoidQT*), "SetLoopFrame", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time});
   }
 };
 // Writing MetadataGetter for method: RootMotion::BakerHumanoidQT::MoveLastKeyframe
@@ -248,7 +252,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerHumanoidQT::*)(float, UnityEngine::AnimationCurve*)>(&RootMotion::BakerHumanoidQT::MoveLastKeyframe)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerHumanoidQT*), "MoveLastKeyframe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>()});
+    static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* curve = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerHumanoidQT*), "MoveLastKeyframe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time, curve});
   }
 };
 // Writing MetadataGetter for method: RootMotion::BakerHumanoidQT::MultiplyLength
@@ -256,7 +262,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerHumanoidQT::*)(UnityEngine::AnimationCurve*, float)>(&RootMotion::BakerHumanoidQT::MultiplyLength)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerHumanoidQT*), "MultiplyLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationCurve*>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* curve = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve")->byval_arg;
+    static auto* mlp = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerHumanoidQT*), "MultiplyLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{curve, mlp});
   }
 };
 // Writing MetadataGetter for method: RootMotion::BakerHumanoidQT::SetCurves
@@ -264,6 +272,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerHumanoidQT::*)(UnityEngine::AnimationClip*&, float, float)>(&RootMotion::BakerHumanoidQT::SetCurves)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerHumanoidQT*), "SetCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AnimationClip*&>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationClip")->this_arg;
+    static auto* maxError = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* lengthMlp = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::BakerHumanoidQT*), "SetCurves", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clip, maxError, lengthMlp});
   }
 };

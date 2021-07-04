@@ -271,24 +271,13 @@ namespace Zenject {
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposeBlock*, "Zenject", "DisposeBlock");
 DEFINE_IL2CPP_ARG_TYPE(Zenject::DisposeBlock::SpawnedObjectPoolPair, "Zenject", "DisposeBlock/SpawnedObjectPoolPair");
-// Writing includes for template specializations
-#include "System/Collections/Generic/IList_1.hpp"
-#include "Zenject/IDespawnableMemoryPool_1.hpp"
-#include "Zenject/IMemoryPool_1.hpp"
-#include "Zenject/IMemoryPool_2.hpp"
-#include "Zenject/IMemoryPool_3.hpp"
-#include "Zenject/IMemoryPool_4.hpp"
-#include "Zenject/IMemoryPool_5.hpp"
-#include "Zenject/IMemoryPool_6.hpp"
-#include "Zenject/IMemoryPool_7.hpp"
-#include "Zenject/IMemoryPool_8.hpp"
-#include "System/Collections/Generic/IEnumerable_1.hpp"
 // Writing MetadataGetter for method: Zenject::DisposeBlock::OnSpawned
 // Il2CppName: OnSpawned
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::DisposeBlock*)>(&Zenject::DisposeBlock::OnSpawned)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposeBlock*), "OnSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DisposeBlock*>()});
+    static auto* that = &::il2cpp_utils::GetClassFromName("Zenject", "DisposeBlock")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposeBlock*), "OnSpawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{that});
   }
 };
 // Writing MetadataGetter for method: Zenject::DisposeBlock::OnDespawned
@@ -296,7 +285,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ze
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Zenject::DisposeBlock*)>(&Zenject::DisposeBlock::OnDespawned)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposeBlock*), "OnDespawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::DisposeBlock*>()});
+    static auto* that = &::il2cpp_utils::GetClassFromName("Zenject", "DisposeBlock")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposeBlock*), "OnDespawned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{that});
   }
 };
 // Writing MetadataGetter for method: Zenject::DisposeBlock::LazyInitializeDisposableList
@@ -315,7 +305,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DisposeBlock::*)(System::IDisposable*)>(&Zenject::DisposeBlock::Add)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposeBlock*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IDisposable*>()});
+    static auto* disposable = &::il2cpp_utils::GetClassFromName("System", "IDisposable")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposeBlock*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{disposable});
   }
 };
 // Writing MetadataGetter for method: Zenject::DisposeBlock::Remove
@@ -323,7 +314,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DisposeBlock::*)(System::IDisposable*)>(&Zenject::DisposeBlock::Remove)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposeBlock*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IDisposable*>()});
+    static auto* disposable = &::il2cpp_utils::GetClassFromName("System", "IDisposable")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::DisposeBlock*), "Remove", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{disposable});
   }
 };
 // Writing MetadataGetter for method: Zenject::DisposeBlock::StoreSpawnedObject

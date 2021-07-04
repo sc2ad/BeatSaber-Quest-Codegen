@@ -24,7 +24,6 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::__Il2CppComObject*, "System", "__Il2CppComObject");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::__Il2CppComObject::Finalize
 // Il2CppName: Finalize
 template<>

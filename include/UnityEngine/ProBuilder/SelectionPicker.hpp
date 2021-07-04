@@ -65,19 +65,17 @@ namespace UnityEngine::ProBuilder {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectionPicker*, "UnityEngine.ProBuilder", "SelectionPicker");
-// Writing includes for template specializations
-#include "UnityEngine/Camera.hpp"
-#include "UnityEngine/Rect.hpp"
-#include "System/Collections/Generic/IList_1.hpp"
-#include "UnityEngine/ProBuilder/PickerOptions.hpp"
-#include "UnityEngine/Vector3.hpp"
-#include "UnityEngine/ProBuilder/ProBuilderMesh.hpp"
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPicker::PickVerticesInRect
 // Il2CppName: PickVerticesInRect
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::HashSet_1<int>*>* (*)(UnityEngine::Camera*, UnityEngine::Rect, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>*, UnityEngine::ProBuilder::PickerOptions, float)>(&UnityEngine::ProBuilder::SelectionPicker::PickVerticesInRect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SelectionPicker*), "PickVerticesInRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::PickerOptions>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* cam = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* selectable = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")})->byval_arg;
+    static auto* options = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PickerOptions")->byval_arg;
+    static auto* pixelsPerPoint = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SelectionPicker*), "PickVerticesInRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cam, rect, selectable, options, pixelsPerPoint});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPicker::PickFacesInRect
@@ -85,7 +83,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>*>* (*)(UnityEngine::Camera*, UnityEngine::Rect, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>*, UnityEngine::ProBuilder::PickerOptions, float)>(&UnityEngine::ProBuilder::SelectionPicker::PickFacesInRect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SelectionPicker*), "PickFacesInRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::PickerOptions>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* cam = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* selectable = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")})->byval_arg;
+    static auto* options = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PickerOptions")->byval_arg;
+    static auto* pixelsPerPoint = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SelectionPicker*), "PickFacesInRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cam, rect, selectable, options, pixelsPerPoint});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPicker::PickEdgesInRect
@@ -93,7 +96,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Edge>*>* (*)(UnityEngine::Camera*, UnityEngine::Rect, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>*, UnityEngine::ProBuilder::PickerOptions, float)>(&UnityEngine::ProBuilder::SelectionPicker::PickEdgesInRect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SelectionPicker*), "PickEdgesInRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Rect>(), ::il2cpp_utils::ExtractIndependentType<System::Collections::Generic::IList_1<UnityEngine::ProBuilder::ProBuilderMesh*>*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::PickerOptions>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* cam = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    static auto* rect = &::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")->byval_arg;
+    static auto* selectable = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")})->byval_arg;
+    static auto* options = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "PickerOptions")->byval_arg;
+    static auto* pixelsPerPoint = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SelectionPicker*), "PickEdgesInRect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cam, rect, selectable, options, pixelsPerPoint});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::SelectionPicker::PickFace
@@ -101,6 +109,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Face* (*)(UnityEngine::Camera*, UnityEngine::Vector3, UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::SelectionPicker::PickFace)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SelectionPicker*), "PickFace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Camera*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::ProBuilder::ProBuilderMesh*>()});
+    static auto* camera = &::il2cpp_utils::GetClassFromName("UnityEngine", "Camera")->byval_arg;
+    static auto* mousePosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* pickable = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::SelectionPicker*), "PickFace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{camera, mousePosition, pickable});
   }
 };

@@ -117,7 +117,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(SongPackMaskModelSO::SongPackMaskItem) == 0x50);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*, "", "SongPackMaskModelSO/SongPackMaskItem");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::get_serializedName
 // Il2CppName: get_serializedName
 template<>

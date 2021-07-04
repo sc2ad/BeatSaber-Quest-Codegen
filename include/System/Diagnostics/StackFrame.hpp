@@ -149,14 +149,20 @@ namespace System::Diagnostics {
   static_assert(sizeof(StackFrame) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Diagnostics::StackFrame*, "System.Diagnostics", "StackFrame");
-// Writing includes for template specializations
-#include "System/Reflection/MethodBase.hpp"
 // Writing MetadataGetter for method: System::Diagnostics::StackFrame::get_frame_info
 // Il2CppName: get_frame_info
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, bool, System::Reflection::MethodBase*&, int&, int&, ::Il2CppString*&, int&, int&)>(&System::Diagnostics::StackFrame::get_frame_info)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackFrame*), "get_frame_info", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Reflection::MethodBase*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*&>(), ::il2cpp_utils::ExtractIndependentType<int&>(), ::il2cpp_utils::ExtractIndependentType<int&>()});
+    static auto* skip = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* needFileInfo = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodBase")->this_arg;
+    static auto* iloffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* native_offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* file = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
+    static auto* line = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    static auto* column = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Diagnostics::StackFrame*), "get_frame_info", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{skip, needFileInfo, method, iloffset, native_offset, file, line, column});
   }
 };
 // Writing MetadataGetter for method: System::Diagnostics::StackFrame::New_ctor

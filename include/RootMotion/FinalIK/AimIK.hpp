@@ -84,7 +84,6 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(AimIK) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::AimIK*, "RootMotion.FinalIK", "AimIK");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: RootMotion::FinalIK::AimIK::OpenSetupTutorial
 // Il2CppName: OpenSetupTutorial
 template<>

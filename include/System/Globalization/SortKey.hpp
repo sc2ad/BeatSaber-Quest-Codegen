@@ -99,13 +99,14 @@ namespace System::Globalization {
   static_assert(sizeof(SortKey) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Globalization::SortKey*, "System.Globalization", "SortKey");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Globalization::SortKey::Compare
 // Il2CppName: Compare
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Globalization::SortKey*, System::Globalization::SortKey*)>(&System::Globalization::SortKey::Compare)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::SortKey*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Globalization::SortKey*>(), ::il2cpp_utils::ExtractIndependentType<System::Globalization::SortKey*>()});
+    static auto* sortkey1 = &::il2cpp_utils::GetClassFromName("System.Globalization", "SortKey")->byval_arg;
+    static auto* sortkey2 = &::il2cpp_utils::GetClassFromName("System.Globalization", "SortKey")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::SortKey*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sortkey1, sortkey2});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::SortKey::New_ctor
@@ -137,7 +138,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Globalization::SortKey::*)(::Il2CppObject*)>(&System::Globalization::SortKey::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Globalization::SortKey*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Globalization::SortKey*), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Globalization::SortKey::GetHashCode

@@ -64,7 +64,6 @@ namespace System {
   static_assert(sizeof(TypeIdentifiers::Display) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::TypeIdentifiers::Display*, "System", "TypeIdentifiers/Display");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::TypeIdentifiers::Display::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

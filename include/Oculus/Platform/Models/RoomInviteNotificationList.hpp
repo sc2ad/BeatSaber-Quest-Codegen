@@ -38,7 +38,6 @@ namespace Oculus::Platform::Models {
   }; // Oculus.Platform.Models.RoomInviteNotificationList
 }
 DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::Models::RoomInviteNotificationList*, "Oculus.Platform.Models", "RoomInviteNotificationList");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Oculus::Platform::Models::RoomInviteNotificationList::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

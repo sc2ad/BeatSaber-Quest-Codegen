@@ -59,7 +59,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(BTSStarTextEventInstaller) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSStarTextEventInstaller*, "", "BTSStarTextEventInstaller");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::BTSStarTextEventInstaller::InstallBindings
 // Il2CppName: InstallBindings
 template<>

@@ -35,7 +35,6 @@ namespace GlobalNamespace {
   }; // CutScoreBuffer/Pool
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CutScoreBuffer::Pool*, "", "CutScoreBuffer/Pool");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::CutScoreBuffer::Pool::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

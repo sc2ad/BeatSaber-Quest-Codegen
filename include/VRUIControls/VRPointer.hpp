@@ -195,8 +195,6 @@ namespace VRUIControls {
   static_assert(sizeof(VRPointer) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(VRUIControls::VRPointer*, "VRUIControls", "VRPointer");
-// Writing includes for template specializations
-#include "UnityEngine/EventSystems/PointerEventData.hpp"
 // Writing MetadataGetter for method: VRUIControls::VRPointer::get_vrController
 // Il2CppName: get_vrController
 template<>
@@ -266,7 +264,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIC
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRPointer::*)(UnityEngine::EventSystems::PointerEventData*)>(&VRUIControls::VRPointer::RefreshLaserPointerAndLaserHit)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRPointer*), "RefreshLaserPointerAndLaserHit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    static auto* pointerData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRPointer*), "RefreshLaserPointerAndLaserHit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pointerData});
   }
 };
 // Writing MetadataGetter for method: VRUIControls::VRPointer::OnApplicationFocus
@@ -274,7 +273,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIC
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRPointer::*)(bool)>(&VRUIControls::VRPointer::OnApplicationFocus)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRPointer*), "OnApplicationFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* hasFocus = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRPointer*), "OnApplicationFocus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hasFocus});
   }
 };
 // Writing MetadataGetter for method: VRUIControls::VRPointer::DestroyLaserAndHit
@@ -298,7 +298,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (VRUIControls::VRPointer::*)(UnityEngine::EventSystems::PointerEventData*)>(&VRUIControls::VRPointer::Process)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRPointer*), "Process", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::EventSystems::PointerEventData*>()});
+    static auto* pointerEventData = &::il2cpp_utils::GetClassFromName("UnityEngine.EventSystems", "PointerEventData")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(VRUIControls::VRPointer*), "Process", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pointerEventData});
   }
 };
 // Writing MetadataGetter for method: VRUIControls::VRPointer::New_ctor

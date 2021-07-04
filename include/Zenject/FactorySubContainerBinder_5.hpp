@@ -69,7 +69,7 @@ namespace Zenject {
     class $$c__DisplayClass1_0 : public ::il2cpp_utils::il2cpp_type_check::NestedType, public ::Il2CppObject {
       public:
       using declaring_type = FactorySubContainerBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>*;
-      static constexpr std::string_view NESTED_NAME = "$$c__DisplayClass1_0";
+      static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass1_0";
       // public Zenject.FactorySubContainerBinder`5<TParam1,TParam2,TParam3,TParam4,TContract> <>4__this
       // Size: 0x8
       // Offset: 0x0
@@ -114,7 +114,7 @@ namespace Zenject {
     class $$c__DisplayClass2_0 : public ::il2cpp_utils::il2cpp_type_check::NestedType, public ::Il2CppObject {
       public:
       using declaring_type = FactorySubContainerBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>*;
-      static constexpr std::string_view NESTED_NAME = "$$c__DisplayClass2_0";
+      static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass2_0";
       // public Zenject.FactorySubContainerBinder`5<TParam1,TParam2,TParam3,TParam4,TContract> <>4__this
       // Size: 0x8
       // Offset: 0x0
@@ -159,7 +159,7 @@ namespace Zenject {
     class $$c__DisplayClass3_0 : public ::il2cpp_utils::il2cpp_type_check::NestedType, public ::Il2CppObject {
       public:
       using declaring_type = FactorySubContainerBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>*;
-      static constexpr std::string_view NESTED_NAME = "$$c__DisplayClass3_0";
+      static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass3_0";
       // public Zenject.FactorySubContainerBinder`5<TParam1,TParam2,TParam3,TParam4,TContract> <>4__this
       // Size: 0x8
       // Offset: 0x0
@@ -210,7 +210,7 @@ namespace Zenject {
     class $$c__DisplayClass4_0 : public ::il2cpp_utils::il2cpp_type_check::NestedType, public ::Il2CppObject {
       public:
       using declaring_type = FactorySubContainerBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>*;
-      static constexpr std::string_view NESTED_NAME = "$$c__DisplayClass4_0";
+      static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass4_0";
       // public Zenject.FactorySubContainerBinder`5<TParam1,TParam2,TParam3,TParam4,TContract> <>4__this
       // Size: 0x8
       // Offset: 0x0

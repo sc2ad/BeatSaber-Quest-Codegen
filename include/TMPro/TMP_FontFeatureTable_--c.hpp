@@ -68,8 +68,6 @@ namespace TMPro {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_FontFeatureTable::$$c*, "TMPro", "TMP_FontFeatureTable/<>c");
-// Writing includes for template specializations
-#include "TMPro/TMP_GlyphPairAdjustmentRecord.hpp"
 // Writing MetadataGetter for method: TMPro::TMP_FontFeatureTable::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -83,7 +81,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro::TMP_FontFeatureTable::$$c::*)(TMPro::TMP_GlyphPairAdjustmentRecord*)>(&TMPro::TMP_FontFeatureTable::$$c::$SortGlyphPairAdjustmentRecords$b__6_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontFeatureTable::$$c*), "<SortGlyphPairAdjustmentRecords>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphPairAdjustmentRecord*>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_GlyphPairAdjustmentRecord")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontFeatureTable::$$c*), "<SortGlyphPairAdjustmentRecords>b__6_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontFeatureTable::$$c::$SortGlyphPairAdjustmentRecords$b__6_1
@@ -91,7 +90,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (TMPro::TMP_FontFeatureTable::$$c::*)(TMPro::TMP_GlyphPairAdjustmentRecord*)>(&TMPro::TMP_FontFeatureTable::$$c::$SortGlyphPairAdjustmentRecords$b__6_1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontFeatureTable::$$c*), "<SortGlyphPairAdjustmentRecords>b__6_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<TMPro::TMP_GlyphPairAdjustmentRecord*>()});
+    static auto* s = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_GlyphPairAdjustmentRecord")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontFeatureTable::$$c*), "<SortGlyphPairAdjustmentRecords>b__6_1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
   }
 };
 // Writing MetadataGetter for method: TMPro::TMP_FontFeatureTable::$$c::New_ctor

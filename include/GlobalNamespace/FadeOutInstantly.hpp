@@ -58,7 +58,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(FadeOutInstantly) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FadeOutInstantly*, "", "FadeOutInstantly");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FadeOutInstantly::Start
 // Il2CppName: Start
 template<>

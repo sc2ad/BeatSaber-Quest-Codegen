@@ -24,7 +24,6 @@ namespace GlobalNamespace {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRMeshRenderer::IOVRMeshRendererDataProvider*, "", "OVRMeshRenderer/IOVRMeshRendererDataProvider");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRMeshRenderer::IOVRMeshRendererDataProvider::GetMeshRendererData
 // Il2CppName: GetMeshRendererData
 template<>

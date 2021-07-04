@@ -35,7 +35,6 @@ namespace GlobalNamespace {
   }; // FloatSignal
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FloatSignal*, "", "FloatSignal");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FloatSignal::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

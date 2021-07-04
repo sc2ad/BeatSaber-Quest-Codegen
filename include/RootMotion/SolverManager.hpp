@@ -133,8 +133,6 @@ namespace RootMotion {
   static_assert(sizeof(SolverManager) == 0x33);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::SolverManager*, "RootMotion", "SolverManager");
-// Writing includes for template specializations
-#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: RootMotion::SolverManager::Disable
 // Il2CppName: Disable
 template<>
@@ -212,7 +210,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::SolverManager::*)(UnityEngine::Transform*, bool)>(&RootMotion::SolverManager::FindAnimatorRecursive)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::SolverManager*), "FindAnimatorRecursive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* t = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    static auto* findInChildren = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::SolverManager*), "FindAnimatorRecursive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t, findInChildren});
   }
 };
 // Writing MetadataGetter for method: RootMotion::SolverManager::get_isAnimated

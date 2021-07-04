@@ -117,7 +117,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(SpawnLaserAnimation) == 0x49);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnLaserAnimation*, "", "SpawnLaserAnimation");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::SpawnLaserAnimation::InitIfNeeded
 // Il2CppName: InitIfNeeded
 template<>

@@ -69,7 +69,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultiplayerLocalInactivePlayerOutroAnimator) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator*, "", "MultiplayerLocalInactivePlayerOutroAnimator");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator::Start
 // Il2CppName: Start
 template<>

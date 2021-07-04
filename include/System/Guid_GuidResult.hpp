@@ -101,14 +101,13 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Guid::GuidResult, "System", "Guid/GuidResult");
-// Writing includes for template specializations
-#include "System/Exception.hpp"
 // Writing MetadataGetter for method: System::Guid::GuidResult::Init
 // Il2CppName: Init
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Guid::GuidResult::*)(System::Guid::GuidParseThrowStyle)>(&System::Guid::GuidResult::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid::GuidResult), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid::GuidParseThrowStyle>()});
+    static auto* canThrow = &::il2cpp_utils::GetClassFromName("System", "Guid/GuidParseThrowStyle")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid::GuidResult), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{canThrow});
   }
 };
 // Writing MetadataGetter for method: System::Guid::GuidResult::SetFailure
@@ -116,7 +115,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Guid::GuidResult::*)(System::Exception*)>(&System::Guid::GuidResult::SetFailure)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid::GuidResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    static auto* nativeException = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid::GuidResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nativeException});
   }
 };
 // Writing MetadataGetter for method: System::Guid::GuidResult::SetFailure
@@ -124,7 +124,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Guid::GuidResult::*)(System::Guid::ParseFailureKind, ::Il2CppString*)>(&System::Guid::GuidResult::SetFailure)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid::GuidResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid::ParseFailureKind>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* failure = &::il2cpp_utils::GetClassFromName("System", "Guid/ParseFailureKind")->byval_arg;
+    static auto* failureMessageID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid::GuidResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{failure, failureMessageID});
   }
 };
 // Writing MetadataGetter for method: System::Guid::GuidResult::SetFailure
@@ -132,7 +134,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Guid::GuidResult::*)(System::Guid::ParseFailureKind, ::Il2CppString*, ::Il2CppObject*)>(&System::Guid::GuidResult::SetFailure)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid::GuidResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid::ParseFailureKind>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* failure = &::il2cpp_utils::GetClassFromName("System", "Guid/ParseFailureKind")->byval_arg;
+    static auto* failureMessageID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* failureMessageFormatArgument = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid::GuidResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{failure, failureMessageID, failureMessageFormatArgument});
   }
 };
 // Writing MetadataGetter for method: System::Guid::GuidResult::SetFailure
@@ -140,7 +145,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Guid::GuidResult::*)(System::Guid::ParseFailureKind, ::Il2CppString*, ::Il2CppObject*, ::Il2CppString*, System::Exception*)>(&System::Guid::GuidResult::SetFailure)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Guid::GuidResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Guid::ParseFailureKind>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Exception*>()});
+    static auto* failure = &::il2cpp_utils::GetClassFromName("System", "Guid/ParseFailureKind")->byval_arg;
+    static auto* failureMessageID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* failureMessageFormatArgument = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* failureArgumentName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* innerException = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Guid::GuidResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{failure, failureMessageID, failureMessageFormatArgument, failureArgumentName, innerException});
   }
 };
 // Writing MetadataGetter for method: System::Guid::GuidResult::GetGuidParseException

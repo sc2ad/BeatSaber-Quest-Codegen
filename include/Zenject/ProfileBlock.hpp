@@ -76,8 +76,6 @@ namespace Zenject {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ProfileBlock*, "Zenject", "ProfileBlock");
-// Writing includes for template specializations
-#include "System/Text/RegularExpressions/Regex.hpp"
 // Writing MetadataGetter for method: Zenject::ProfileBlock::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -99,7 +97,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::RegularExpressions::Regex*)>(&Zenject::ProfileBlock::set_ProfilePattern)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ProfileBlock*), "set_ProfilePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::RegularExpressions::Regex*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System.Text.RegularExpressions", "Regex")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProfileBlock*), "set_ProfilePattern", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Zenject::ProfileBlock::Start
@@ -115,7 +114,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Pr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ProfileBlock* (*)(::Il2CppString*, ::Il2CppObject*, ::Il2CppObject*)>(&Zenject::ProfileBlock::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ProfileBlock*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* sampleNameFormat = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* obj1 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* obj2 = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProfileBlock*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sampleNameFormat, obj1, obj2});
   }
 };
 // Writing MetadataGetter for method: Zenject::ProfileBlock::Start
@@ -123,7 +125,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Pr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ProfileBlock* (*)(::Il2CppString*, ::Il2CppObject*)>(&Zenject::ProfileBlock::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ProfileBlock*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* sampleNameFormat = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProfileBlock*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sampleNameFormat, obj});
   }
 };
 // Writing MetadataGetter for method: Zenject::ProfileBlock::Start
@@ -131,7 +135,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Pr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ProfileBlock* (*)(::Il2CppString*)>(&Zenject::ProfileBlock::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ProfileBlock*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* sampleName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ProfileBlock*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sampleName});
   }
 };
 // Writing MetadataGetter for method: Zenject::ProfileBlock::Dispose

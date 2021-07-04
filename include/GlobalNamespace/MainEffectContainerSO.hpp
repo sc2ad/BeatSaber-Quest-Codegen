@@ -72,8 +72,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MainEffectContainerSO) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectContainerSO*, "", "MainEffectContainerSO");
-// Writing includes for template specializations
-#include "GlobalNamespace/MainEffectSO.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MainEffectContainerSO::get_mainEffect
 // Il2CppName: get_mainEffect
 template<>
@@ -87,7 +85,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MainEffectContainerSO::*)(GlobalNamespace::MainEffectSO*)>(&GlobalNamespace::MainEffectContainerSO::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectContainerSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MainEffectSO*>()});
+    static auto* mainEffect = &::il2cpp_utils::GetClassFromName("", "MainEffectSO")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectContainerSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mainEffect});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MainEffectContainerSO::OnEnable

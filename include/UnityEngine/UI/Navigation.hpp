@@ -171,8 +171,6 @@ namespace UnityEngine::UI {
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Navigation, "UnityEngine.UI", "Navigation");
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Navigation::Mode, "UnityEngine.UI", "Navigation/Mode");
-// Writing includes for template specializations
-#include "UnityEngine/UI/Selectable.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::Navigation::get_mode
 // Il2CppName: get_mode
 template<>
@@ -186,7 +184,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Navigation::*)(UnityEngine::UI::Navigation::Mode)>(&UnityEngine::UI::Navigation::set_mode)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Navigation), "set_mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Navigation::Mode>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Navigation/Mode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Navigation), "set_mode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::Navigation::get_selectOnUp
@@ -202,7 +201,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Navigation::*)(UnityEngine::UI::Selectable*)>(&UnityEngine::UI::Navigation::set_selectOnUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Navigation), "set_selectOnUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Selectable*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Selectable")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Navigation), "set_selectOnUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::Navigation::get_selectOnDown
@@ -218,7 +218,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Navigation::*)(UnityEngine::UI::Selectable*)>(&UnityEngine::UI::Navigation::set_selectOnDown)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Navigation), "set_selectOnDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Selectable*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Selectable")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Navigation), "set_selectOnDown", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::Navigation::get_selectOnLeft
@@ -234,7 +235,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Navigation::*)(UnityEngine::UI::Selectable*)>(&UnityEngine::UI::Navigation::set_selectOnLeft)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Navigation), "set_selectOnLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Selectable*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Selectable")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Navigation), "set_selectOnLeft", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::Navigation::get_selectOnRight
@@ -250,7 +252,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UI::Navigation::*)(UnityEngine::UI::Selectable*)>(&UnityEngine::UI::Navigation::set_selectOnRight)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Navigation), "set_selectOnRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Selectable*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Selectable")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Navigation), "set_selectOnRight", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::Navigation::get_defaultNavigation
@@ -266,6 +269,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::UI::Navigation::*)(UnityEngine::UI::Navigation)>(&UnityEngine::UI::Navigation::Equals)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Navigation), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Navigation>()});
+    static auto* other = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Navigation")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Navigation), "Equals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{other});
   }
 };

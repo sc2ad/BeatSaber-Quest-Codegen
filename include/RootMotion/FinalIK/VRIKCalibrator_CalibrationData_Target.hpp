@@ -67,8 +67,6 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(VRIKCalibrator::CalibrationData::Target) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*, "RootMotion.FinalIK", "VRIKCalibrator/CalibrationData/Target");
-// Writing includes for template specializations
-#include "UnityEngine/Transform.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -78,6 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Tar
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target::*)(UnityEngine::Transform*)>(&RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target::SetTo)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*), "SetTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    static auto* t = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target*), "SetTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
 };

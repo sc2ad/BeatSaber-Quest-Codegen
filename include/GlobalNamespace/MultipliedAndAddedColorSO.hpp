@@ -73,7 +73,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MultipliedAndAddedColorSO) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultipliedAndAddedColorSO*, "", "MultipliedAndAddedColorSO");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MultipliedAndAddedColorSO::get_color
 // Il2CppName: get_color
 template<>

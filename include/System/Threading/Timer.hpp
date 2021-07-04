@@ -134,8 +134,6 @@ namespace System::Threading {
   static_assert(sizeof(Timer) == 0x41);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Timer*, "System.Threading", "Timer");
-// Writing includes for template specializations
-#include "System/Threading/TimerCallback.hpp"
 // Writing MetadataGetter for method: System::Threading::Timer::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -149,7 +147,11 @@ DEFINE_IL2CPP_ARG_TYPE(System::Threading::Timer*, "System.Threading", "Timer");
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Timer::*)(System::Threading::TimerCallback*, ::Il2CppObject*, int64_t, int64_t)>(&System::Threading::Timer::Init)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Timer*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::TimerCallback*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int64_t>()});
+    static auto* callback = &::il2cpp_utils::GetClassFromName("System.Threading", "TimerCallback")->byval_arg;
+    static auto* state = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* dueTime = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    static auto* period = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Timer*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{callback, state, dueTime, period});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Timer::Change
@@ -157,7 +159,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Timer::*)(int, int)>(&System::Threading::Timer::Change)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Timer*), "Change", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* dueTime = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* period = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Timer*), "Change", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dueTime, period});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Timer::Change
@@ -165,7 +169,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Timer::*)(System::TimeSpan, System::TimeSpan)>(&System::Threading::Timer::Change)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Timer*), "Change", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::TimeSpan>(), ::il2cpp_utils::ExtractIndependentType<System::TimeSpan>()});
+    static auto* dueTime = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
+    static auto* period = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Timer*), "Change", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dueTime, period});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Timer::Dispose
@@ -181,7 +187,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Timer::*)(int64_t, int64_t, bool)>(&System::Threading::Timer::Change)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Timer*), "Change", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<int64_t>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* dueTime = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    static auto* period = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
+    static auto* first = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Timer*), "Change", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dueTime, period, first});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Timer::KeepRootedWhileScheduled

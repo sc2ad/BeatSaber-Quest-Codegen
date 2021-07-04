@@ -814,7 +814,6 @@ namespace OVR::OpenVR {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::InputOriginInfo_t, "OVR.OpenVR", "InputOriginInfo_t");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: OVR::OpenVR::InputOriginInfo_t::get_rchRenderModelComponentName
 // Il2CppName: get_rchRenderModelComponentName
 template<>

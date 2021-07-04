@@ -83,14 +83,13 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRResources*, "", "OVRResources");
-// Writing includes for template specializations
-#include "UnityEngine/AssetBundle.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRResources::Load
 // Il2CppName: Load
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(::Il2CppString*)>(&GlobalNamespace::OVRResources::Load)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRResources*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRResources*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRResources::Load
@@ -101,7 +100,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AssetBundle*)>(&GlobalNamespace::OVRResources::SetResourceBundle)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRResources*), "SetResourceBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::AssetBundle*>()});
+    static auto* bundle = &::il2cpp_utils::GetClassFromName("UnityEngine", "AssetBundle")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRResources*), "SetResourceBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bundle});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRResources::New_ctor

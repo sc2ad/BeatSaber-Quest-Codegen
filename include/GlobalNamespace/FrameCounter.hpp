@@ -53,7 +53,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(FrameCounter) == 0x1C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FrameCounter*, "", "FrameCounter");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::FrameCounter::Update
 // Il2CppName: Update
 template<>

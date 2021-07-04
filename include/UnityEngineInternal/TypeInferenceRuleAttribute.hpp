@@ -58,7 +58,6 @@ namespace UnityEngineInternal {
   static_assert(sizeof(TypeInferenceRuleAttribute) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngineInternal::TypeInferenceRuleAttribute*, "UnityEngineInternal", "TypeInferenceRuleAttribute");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngineInternal::TypeInferenceRuleAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

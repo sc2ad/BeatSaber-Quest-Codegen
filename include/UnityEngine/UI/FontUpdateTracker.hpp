@@ -56,15 +56,13 @@ namespace UnityEngine::UI {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::FontUpdateTracker*, "UnityEngine.UI", "FontUpdateTracker");
-// Writing includes for template specializations
-#include "UnityEngine/UI/Text.hpp"
-#include "UnityEngine/Font.hpp"
 // Writing MetadataGetter for method: UnityEngine::UI::FontUpdateTracker::TrackText
 // Il2CppName: TrackText
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::Text*)>(&UnityEngine::UI::FontUpdateTracker::TrackText)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::FontUpdateTracker*), "TrackText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Text*>()});
+    static auto* t = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Text")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::FontUpdateTracker*), "TrackText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::FontUpdateTracker::RebuildForFont
@@ -72,7 +70,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Font*)>(&UnityEngine::UI::FontUpdateTracker::RebuildForFont)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::FontUpdateTracker*), "RebuildForFont", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Font*>()});
+    static auto* f = &::il2cpp_utils::GetClassFromName("UnityEngine", "Font")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::FontUpdateTracker*), "RebuildForFont", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{f});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::FontUpdateTracker::UntrackText
@@ -80,7 +79,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::Text*)>(&UnityEngine::UI::FontUpdateTracker::UntrackText)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::FontUpdateTracker*), "UntrackText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::UI::Text*>()});
+    static auto* t = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Text")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::FontUpdateTracker*), "UntrackText", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{t});
   }
 };
 // Writing MetadataGetter for method: UnityEngine::UI::FontUpdateTracker::_cctor

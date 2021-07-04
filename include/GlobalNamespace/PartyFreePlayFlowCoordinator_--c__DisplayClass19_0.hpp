@@ -80,14 +80,14 @@ namespace GlobalNamespace {
   static_assert(sizeof(PartyFreePlayFlowCoordinator::$$c__DisplayClass19_0) == 0x31);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PartyFreePlayFlowCoordinator::$$c__DisplayClass19_0*, "", "PartyFreePlayFlowCoordinator/<>c__DisplayClass19_0");
-// Writing includes for template specializations
-#include "GlobalNamespace/EnterPlayerGuestNameViewController.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PartyFreePlayFlowCoordinator::$$c__DisplayClass19_0::$ProcessLevelCompletionResultsAfterLevelDidFinish$b__0
 // Il2CppName: <ProcessLevelCompletionResultsAfterLevelDidFinish>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PartyFreePlayFlowCoordinator::$$c__DisplayClass19_0::*)(GlobalNamespace::EnterPlayerGuestNameViewController*, ::Il2CppString*)>(&GlobalNamespace::PartyFreePlayFlowCoordinator::$$c__DisplayClass19_0::$ProcessLevelCompletionResultsAfterLevelDidFinish$b__0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyFreePlayFlowCoordinator::$$c__DisplayClass19_0*), "<ProcessLevelCompletionResultsAfterLevelDidFinish>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::EnterPlayerGuestNameViewController*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* viewController = &::il2cpp_utils::GetClassFromName("", "EnterPlayerGuestNameViewController")->byval_arg;
+    static auto* playerName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PartyFreePlayFlowCoordinator::$$c__DisplayClass19_0*), "<ProcessLevelCompletionResultsAfterLevelDidFinish>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{viewController, playerName});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PartyFreePlayFlowCoordinator::$$c__DisplayClass19_0::New_ctor

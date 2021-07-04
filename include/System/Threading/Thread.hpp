@@ -368,17 +368,6 @@ namespace System::Threading {
   static_assert(sizeof(Thread) == 0x49);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Threading::Thread*, "System.Threading", "Thread");
-// Writing includes for template specializations
-#include "System/Threading/ThreadStart.hpp"
-#include "System/Threading/ParameterizedThreadStart.hpp"
-#include "System/Threading/StackCrawlMark.hpp"
-#include "System/Threading/ExecutionContext_Reader.hpp"
-#include "System/Threading/ThreadPriority.hpp"
-#include "System/Delegate.hpp"
-#include "System/MulticastDelegate.hpp"
-#include "System/Threading/InternalThread.hpp"
-#include "System/Security/Principal/IPrincipal.hpp"
-#include "System/Threading/ThreadState.hpp"
 // Writing MetadataGetter for method: System::Threading::Thread::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -400,7 +389,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(::Il2CppObject*)>(&System::Threading::Thread::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* parameter = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parameter});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Thread::Start
@@ -408,7 +398,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(System::Threading::StackCrawlMark&)>(&System::Threading::Thread::Start)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>()});
+    static auto* stackMark = &::il2cpp_utils::GetClassFromName("System.Threading", "StackCrawlMark")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "Start", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{stackMark});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Thread::GetExecutionContextReader
@@ -432,7 +423,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(bool)>(&System::Threading::Thread::set_ExecutionContextBelongsToCurrentScope)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "set_ExecutionContextBelongsToCurrentScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "set_ExecutionContextBelongsToCurrentScope", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Thread::GetMutableExecutionContext
@@ -448,7 +440,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(System::Threading::ExecutionContext*, bool)>(&System::Threading::Thread::SetExecutionContext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "SetExecutionContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ExecutionContext*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System.Threading", "ExecutionContext")->byval_arg;
+    static auto* belongsToCurrentScope = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "SetExecutionContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, belongsToCurrentScope});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Thread::SetExecutionContext
@@ -456,7 +450,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(System::Threading::ExecutionContext::Reader, bool)>(&System::Threading::Thread::SetExecutionContext)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "SetExecutionContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ExecutionContext::Reader>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System.Threading", "ExecutionContext/Reader")->byval_arg;
+    static auto* belongsToCurrentScope = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "SetExecutionContext", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, belongsToCurrentScope});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Thread::ResetAbort
@@ -480,7 +476,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(System::Threading::ThreadPriority)>(&System::Threading::Thread::set_Priority)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "set_Priority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadPriority>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System.Threading", "ThreadPriority")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "set_Priority", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Thread::SetPriorityNative
@@ -488,7 +485,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(int)>(&System::Threading::Thread::SetPriorityNative)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "SetPriorityNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* priority = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "SetPriorityNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{priority});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Thread::JoinInternal
@@ -496,7 +494,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Threading::Thread::*)(int)>(&System::Threading::Thread::JoinInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "JoinInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* millisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "JoinInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{millisecondsTimeout});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Thread::Join
@@ -512,7 +511,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&System::Threading::Thread::SleepInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "SleepInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* millisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "SleepInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{millisecondsTimeout});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Thread::Sleep
@@ -520,7 +520,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&System::Threading::Thread::Sleep)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "Sleep", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* millisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "Sleep", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{millisecondsTimeout});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Thread::YieldInternal
@@ -544,7 +545,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(System::Delegate*, int)>(&System::Threading::Thread::SetStartHelper)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "SetStartHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Delegate*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "Delegate")->byval_arg;
+    static auto* maxStackSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "SetStartHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{start, maxStackSize});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Thread::get_CurrentUICulture
@@ -616,7 +619,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*)>(&System::Threading::Thread::ByteArrayToCurrentDomain)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "ByteArrayToCurrentDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<uint8_t>*>()});
+    static auto* arr = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "ByteArrayToCurrentDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{arr});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Thread::DeserializePrincipal
@@ -624,7 +628,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::Thread*)>(&System::Threading::Thread::DeserializePrincipal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "DeserializePrincipal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::Thread*>()});
+    static auto* th = &::il2cpp_utils::GetClassFromName("System.Threading", "Thread")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "DeserializePrincipal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{th});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Thread::get_CurrentPrincipal
@@ -672,7 +677,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (System::Threading::Thread::*)(System::MulticastDelegate*)>(&System::Threading::Thread::Thread_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "Thread_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MulticastDelegate*>()});
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "MulticastDelegate")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "Thread_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{start});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Thread::get_IsThreadPoolThread
@@ -696,7 +702,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(bool)>(&System::Threading::Thread::set_IsBackground)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "set_IsBackground", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "set_IsBackground", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Thread::SetName_internal
@@ -704,7 +711,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::InternalThread*, ::Il2CppString*)>(&System::Threading::Thread::SetName_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "SetName_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::InternalThread*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* thread = &::il2cpp_utils::GetClassFromName("System.Threading", "InternalThread")->byval_arg;
+    static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "SetName_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{thread, name});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Thread::set_Name
@@ -712,7 +721,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(::Il2CppString*)>(&System::Threading::Thread::set_Name)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "set_Name", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Thread::get_ThreadState
@@ -728,7 +738,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::InternalThread*, ::Il2CppObject*)>(&System::Threading::Thread::Abort_internal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "Abort_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::InternalThread*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* thread = &::il2cpp_utils::GetClassFromName("System.Threading", "InternalThread")->byval_arg;
+    static auto* stateInfo = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "Abort_internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{thread, stateInfo});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Thread::Abort
@@ -760,7 +772,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int)>(&System::Threading::Thread::SpinWait)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "SpinWait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* iterations = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "SpinWait", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{iterations});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Thread::StartInternal
@@ -768,7 +781,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(System::Security::Principal::IPrincipal*, System::Threading::StackCrawlMark&)>(&System::Threading::Thread::StartInternal)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "StartInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Security::Principal::IPrincipal*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::StackCrawlMark&>()});
+    static auto* principal = &::il2cpp_utils::GetClassFromName("System.Security.Principal", "IPrincipal")->byval_arg;
+    static auto* stackMark = &::il2cpp_utils::GetClassFromName("System.Threading", "StackCrawlMark")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "StartInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{principal, stackMark});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Thread::SetState
@@ -776,7 +791,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::InternalThread*, System::Threading::ThreadState)>(&System::Threading::Thread::SetState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "SetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::InternalThread*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadState>()});
+    static auto* thread = &::il2cpp_utils::GetClassFromName("System.Threading", "InternalThread")->byval_arg;
+    static auto* set = &::il2cpp_utils::GetClassFromName("System.Threading", "ThreadState")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "SetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{thread, set});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Thread::ClrState
@@ -784,7 +801,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Threading::InternalThread*, System::Threading::ThreadState)>(&System::Threading::Thread::ClrState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "ClrState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::InternalThread*>(), ::il2cpp_utils::ExtractIndependentType<System::Threading::ThreadState>()});
+    static auto* thread = &::il2cpp_utils::GetClassFromName("System.Threading", "InternalThread")->byval_arg;
+    static auto* clr = &::il2cpp_utils::GetClassFromName("System.Threading", "ThreadState")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "ClrState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{thread, clr});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Thread::GetState
@@ -792,7 +811,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::ThreadState (*)(System::Threading::InternalThread*)>(&System::Threading::Thread::GetState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "GetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Threading::InternalThread*>()});
+    static auto* thread = &::il2cpp_utils::GetClassFromName("System.Threading", "InternalThread")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "GetState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{thread});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Thread::SystemMaxStackStize
@@ -808,7 +828,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int)>(&System::Threading::Thread::GetProcessDefaultStackSize)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "GetProcessDefaultStackSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* maxStackSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "GetProcessDefaultStackSize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{maxStackSize});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Thread::SetStart
@@ -816,7 +837,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Threading::Thread::*)(System::MulticastDelegate*, int)>(&System::Threading::Thread::SetStart)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "SetStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::MulticastDelegate*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* start = &::il2cpp_utils::GetClassFromName("System", "MulticastDelegate")->byval_arg;
+    static auto* maxStackSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "SetStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{start, maxStackSize});
   }
 };
 // Writing MetadataGetter for method: System::Threading::Thread::get_ManagedThreadId

@@ -96,15 +96,13 @@ namespace Zenject {
   static_assert(sizeof(FromBinder::$$c__DisplayClass65_1) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::FromBinder::$$c__DisplayClass65_1*, "Zenject", "FromBinder/<>c__DisplayClass65_1");
-// Writing includes for template specializations
-#include "Zenject/InjectContext.hpp"
-#include "UnityEngine/GameObject.hpp"
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c__DisplayClass65_1::$FromComponentInHierarchy$b__1
 // Il2CppName: <FromComponentInHierarchy>b__1
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>* (Zenject::FromBinder::$$c__DisplayClass65_1::*)(Zenject::InjectContext*)>(&Zenject::FromBinder::$$c__DisplayClass65_1::$FromComponentInHierarchy$b__1)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder::$$c__DisplayClass65_1*), "<FromComponentInHierarchy>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::InjectContext*>()});
+    static auto* ctx = &::il2cpp_utils::GetClassFromName("Zenject", "InjectContext")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder::$$c__DisplayClass65_1*), "<FromComponentInHierarchy>b__1", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ctx});
   }
 };
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c__DisplayClass65_1::$FromComponentInHierarchy$b__2
@@ -112,7 +110,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Component* (Zenject::FromBinder::$$c__DisplayClass65_1::*)(UnityEngine::GameObject*)>(&Zenject::FromBinder::$$c__DisplayClass65_1::$FromComponentInHierarchy$b__2)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder::$$c__DisplayClass65_1*), "<FromComponentInHierarchy>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::GameObject*>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::FromBinder::$$c__DisplayClass65_1*), "<FromComponentInHierarchy>b__2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
 // Writing MetadataGetter for method: Zenject::FromBinder::$$c__DisplayClass65_1::New_ctor

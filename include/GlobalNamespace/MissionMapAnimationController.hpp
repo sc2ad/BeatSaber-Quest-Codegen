@@ -150,9 +150,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MissionMapAnimationController) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionMapAnimationController*, "", "MissionMapAnimationController");
-// Writing includes for template specializations
-#include "System/Action.hpp"
-#include "GlobalNamespace/MissionNode.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MissionMapAnimationController::get_animatedUpdateIsRequired
 // Il2CppName: get_animatedUpdateIsRequired
 template<>
@@ -174,7 +171,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionMapAnimationController::*)(bool, System::Action*)>(&GlobalNamespace::MissionMapAnimationController::UpdateMissionMapAfterMissionWasCleared)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController*), "UpdateMissionMapAfterMissionWasCleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    static auto* animated = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* finishCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController*), "UpdateMissionMapAfterMissionWasCleared", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{animated, finishCallback});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MissionMapAnimationController::UpdateMissionMapCoroutine
@@ -182,7 +181,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::MissionMapAnimationController::*)(GlobalNamespace::MissionNode*, System::Action*)>(&GlobalNamespace::MissionMapAnimationController::UpdateMissionMapCoroutine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController*), "UpdateMissionMapCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>(), ::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    static auto* lastClearedMissionNode = &::il2cpp_utils::GetClassFromName("", "MissionNode")->byval_arg;
+    static auto* finishCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController*), "UpdateMissionMapCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lastClearedMissionNode, finishCallback});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MissionMapAnimationController::UpdateClearedNodeStateCoroutine
@@ -190,7 +191,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (GlobalNamespace::MissionMapAnimationController::*)(GlobalNamespace::MissionNode*)>(&GlobalNamespace::MissionMapAnimationController::UpdateClearedNodeStateCoroutine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController*), "UpdateClearedNodeStateCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::MissionNode*>()});
+    static auto* lastClearedMissionNode = &::il2cpp_utils::GetClassFromName("", "MissionNode")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionMapAnimationController*), "UpdateClearedNodeStateCoroutine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lastClearedMissionNode});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MissionMapAnimationController::UpdateStageCoroutine

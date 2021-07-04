@@ -127,10 +127,6 @@ namespace UnityEngine::Playables {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Playables::PlayableOutputExtensions*, "UnityEngine.Playables", "PlayableOutputExtensions");
-// Writing includes for template specializations
-#include "UnityEngine/Object.hpp"
-#include "UnityEngine/Playables/INotification.hpp"
-#include "UnityEngine/Playables/INotificationReceiver.hpp"
 // Writing MetadataGetter for method: UnityEngine::Playables::PlayableOutputExtensions::SetReferenceObject
 // Il2CppName: SetReferenceObject
 // Cannot write MetadataGetter for generic methods!

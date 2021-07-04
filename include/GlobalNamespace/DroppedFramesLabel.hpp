@@ -105,7 +105,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(DroppedFramesLabel) == 0x3C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DroppedFramesLabel*, "", "DroppedFramesLabel");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::DroppedFramesLabel::Start
 // Il2CppName: Start
 template<>

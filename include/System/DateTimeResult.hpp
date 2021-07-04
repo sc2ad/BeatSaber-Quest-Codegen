@@ -153,7 +153,6 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::DateTimeResult, "System", "DateTimeResult");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::DateTimeResult::Init
 // Il2CppName: Init
 template<>
@@ -167,7 +166,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::DateTimeResult::*)(int, int, int)>(&System::DateTimeResult::SetDate)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DateTimeResult), "SetDate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* year = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* month = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    static auto* day = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::DateTimeResult), "SetDate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{year, month, day});
   }
 };
 // Writing MetadataGetter for method: System::DateTimeResult::SetFailure
@@ -175,7 +177,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::DateTimeResult::*)(System::ParseFailureKind, ::Il2CppString*, ::Il2CppObject*)>(&System::DateTimeResult::SetFailure)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DateTimeResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ParseFailureKind>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>()});
+    static auto* failure = &::il2cpp_utils::GetClassFromName("System", "ParseFailureKind")->byval_arg;
+    static auto* failureMessageID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* failureMessageFormatArgument = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::DateTimeResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{failure, failureMessageID, failureMessageFormatArgument});
   }
 };
 // Writing MetadataGetter for method: System::DateTimeResult::SetFailure
@@ -183,6 +188,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::DateTimeResult::*)(System::ParseFailureKind, ::Il2CppString*, ::Il2CppObject*, ::Il2CppString*)>(&System::DateTimeResult::SetFailure)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::DateTimeResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::ParseFailureKind>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppObject*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* failure = &::il2cpp_utils::GetClassFromName("System", "ParseFailureKind")->byval_arg;
+    static auto* failureMessageID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* failureMessageFormatArgument = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
+    static auto* failureArgumentName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::DateTimeResult), "SetFailure", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{failure, failureMessageID, failureMessageFormatArgument, failureArgumentName});
   }
 };

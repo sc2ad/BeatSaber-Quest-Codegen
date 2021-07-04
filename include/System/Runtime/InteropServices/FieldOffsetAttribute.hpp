@@ -45,7 +45,6 @@ namespace System::Runtime::InteropServices {
   static_assert(sizeof(FieldOffsetAttribute) == 0x14);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::InteropServices::FieldOffsetAttribute*, "System.Runtime.InteropServices", "FieldOffsetAttribute");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Runtime::InteropServices::FieldOffsetAttribute::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

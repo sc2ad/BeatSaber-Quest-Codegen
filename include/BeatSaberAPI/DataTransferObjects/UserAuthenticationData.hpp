@@ -81,7 +81,6 @@ namespace BeatSaberAPI::DataTransferObjects {
   static_assert(sizeof(UserAuthenticationData) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::UserAuthenticationData*, "BeatSaberAPI.DataTransferObjects", "UserAuthenticationData");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: BeatSaberAPI::DataTransferObjects::UserAuthenticationData::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

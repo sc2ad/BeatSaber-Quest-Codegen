@@ -45,14 +45,13 @@ namespace System::Runtime::Remoting::Contexts {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Contexts::ContextCallbackObject*, "System.Runtime.Remoting.Contexts", "ContextCallbackObject");
-// Writing includes for template specializations
-#include "System/Runtime/Remoting/Contexts/CrossContextDelegate.hpp"
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::ContextCallbackObject::DoCallBack
 // Il2CppName: DoCallBack
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Contexts::ContextCallbackObject::*)(System::Runtime::Remoting::Contexts::CrossContextDelegate*)>(&System::Runtime::Remoting::Contexts::ContextCallbackObject::DoCallBack)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::ContextCallbackObject*), "DoCallBack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Runtime::Remoting::Contexts::CrossContextDelegate*>()});
+    static auto* deleg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Contexts", "CrossContextDelegate")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Contexts::ContextCallbackObject*), "DoCallBack", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{deleg});
   }
 };
 // Writing MetadataGetter for method: System::Runtime::Remoting::Contexts::ContextCallbackObject::New_ctor

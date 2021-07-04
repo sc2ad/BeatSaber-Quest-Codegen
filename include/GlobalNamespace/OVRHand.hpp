@@ -350,10 +350,6 @@ namespace GlobalNamespace {
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHand*, "", "OVRHand");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHand::Hand, "", "OVRHand/Hand");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHand::TrackingConfidence, "", "OVRHand/TrackingConfidence");
-// Writing includes for template specializations
-#include "UnityEngine/Transform.hpp"
-#include "GlobalNamespace/OVRPlugin_Step.hpp"
-#include "GlobalNamespace/OVRHand_HandFinger.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRHand::get_IsDataValid
 // Il2CppName: get_IsDataValid
 template<>
@@ -367,7 +363,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHand::*)(bool)>(&GlobalNamespace::OVRHand::set_IsDataValid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHand*), "set_IsDataValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHand*), "set_IsDataValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRHand::get_IsDataHighConfidence
@@ -383,7 +380,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHand::*)(bool)>(&GlobalNamespace::OVRHand::set_IsDataHighConfidence)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHand*), "set_IsDataHighConfidence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHand*), "set_IsDataHighConfidence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRHand::get_IsTracked
@@ -399,7 +397,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHand::*)(bool)>(&GlobalNamespace::OVRHand::set_IsTracked)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHand*), "set_IsTracked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHand*), "set_IsTracked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRHand::get_IsSystemGestureInProgress
@@ -415,7 +414,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHand::*)(bool)>(&GlobalNamespace::OVRHand::set_IsSystemGestureInProgress)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHand*), "set_IsSystemGestureInProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHand*), "set_IsSystemGestureInProgress", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRHand::get_IsPointerPoseValid
@@ -431,7 +431,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHand::*)(bool)>(&GlobalNamespace::OVRHand::set_IsPointerPoseValid)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHand*), "set_IsPointerPoseValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHand*), "set_IsPointerPoseValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRHand::get_PointerPose
@@ -447,7 +448,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHand::*)(UnityEngine::Transform*)>(&GlobalNamespace::OVRHand::set_PointerPose)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHand*), "set_PointerPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Transform*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHand*), "set_PointerPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRHand::get_HandScale
@@ -463,7 +465,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHand::*)(float)>(&GlobalNamespace::OVRHand::set_HandScale)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHand*), "set_HandScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHand*), "set_HandScale", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRHand::get_HandConfidence
@@ -479,7 +482,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHand::*)(GlobalNamespace::OVRHand::TrackingConfidence)>(&GlobalNamespace::OVRHand::set_HandConfidence)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHand*), "set_HandConfidence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRHand::TrackingConfidence>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("", "OVRHand/TrackingConfidence")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHand*), "set_HandConfidence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRHand::get_IsDominantHand
@@ -495,7 +499,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHand::*)(bool)>(&GlobalNamespace::OVRHand::set_IsDominantHand)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHand*), "set_IsDominantHand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHand*), "set_IsDominantHand", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRHand::Awake
@@ -527,7 +532,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRHand::*)(GlobalNamespace::OVRPlugin::Step)>(&GlobalNamespace::OVRHand::GetHandState)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHand*), "GetHandState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRPlugin::Step>()});
+    static auto* step = &::il2cpp_utils::GetClassFromName("", "OVRPlugin/Step")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHand*), "GetHandState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{step});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRHand::GetFingerIsPinching
@@ -535,7 +541,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::OVRHand::*)(GlobalNamespace::OVRHand::HandFinger)>(&GlobalNamespace::OVRHand::GetFingerIsPinching)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHand*), "GetFingerIsPinching", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRHand::HandFinger>()});
+    static auto* finger = &::il2cpp_utils::GetClassFromName("", "OVRHand/HandFinger")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHand*), "GetFingerIsPinching", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{finger});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRHand::GetFingerPinchStrength
@@ -543,7 +550,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::OVRHand::*)(GlobalNamespace::OVRHand::HandFinger)>(&GlobalNamespace::OVRHand::GetFingerPinchStrength)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHand*), "GetFingerPinchStrength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRHand::HandFinger>()});
+    static auto* finger = &::il2cpp_utils::GetClassFromName("", "OVRHand/HandFinger")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHand*), "GetFingerPinchStrength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{finger});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRHand::GetFingerConfidence
@@ -551,7 +559,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRHand::TrackingConfidence (GlobalNamespace::OVRHand::*)(GlobalNamespace::OVRHand::HandFinger)>(&GlobalNamespace::OVRHand::GetFingerConfidence)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHand*), "GetFingerConfidence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRHand::HandFinger>()});
+    static auto* finger = &::il2cpp_utils::GetClassFromName("", "OVRHand/HandFinger")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRHand*), "GetFingerConfidence", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{finger});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRHand::OVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonType

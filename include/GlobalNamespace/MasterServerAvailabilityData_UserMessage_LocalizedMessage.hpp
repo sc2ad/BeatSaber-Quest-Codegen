@@ -47,7 +47,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(MasterServerAvailabilityData::UserMessage::LocalizedMessage) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage*, "", "MasterServerAvailabilityData/UserMessage/LocalizedMessage");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::MasterServerAvailabilityData::UserMessage::LocalizedMessage::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!

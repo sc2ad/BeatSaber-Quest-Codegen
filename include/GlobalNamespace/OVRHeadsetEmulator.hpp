@@ -218,7 +218,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHeadsetEmulator*, "", "OVRHeadsetEmulator");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRHeadsetEmulator::OpMode, "", "OVRHeadsetEmulator/OpMode");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVRHeadsetEmulator::Start
 // Il2CppName: Start
 template<>

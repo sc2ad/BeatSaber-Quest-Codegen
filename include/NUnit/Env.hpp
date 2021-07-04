@@ -34,7 +34,6 @@ namespace NUnit {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Env*, "NUnit", "Env");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: NUnit::Env::_cctor
 // Il2CppName: .cctor
 template<>

@@ -43,7 +43,6 @@ namespace System::Collections::Generic {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Generic::DictionaryHashHelpers*, "System.Collections.Generic", "DictionaryHashHelpers");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: System::Collections::Generic::DictionaryHashHelpers::get_SerializationInfoTable
 // Il2CppName: get_SerializationInfoTable
 template<>

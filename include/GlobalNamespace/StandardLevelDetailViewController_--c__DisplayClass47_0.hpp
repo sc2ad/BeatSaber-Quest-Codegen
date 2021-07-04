@@ -94,7 +94,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(StandardLevelDetailViewController::$$c__DisplayClass47_0) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StandardLevelDetailViewController::$$c__DisplayClass47_0*, "", "StandardLevelDetailViewController/<>c__DisplayClass47_0");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::StandardLevelDetailViewController::$$c__DisplayClass47_0::$DidActivate$b__2
 // Il2CppName: <DidActivate>b__2
 template<>

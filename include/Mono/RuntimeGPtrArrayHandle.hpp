@@ -69,8 +69,6 @@ namespace Mono {
   static_assert(sizeof(RuntimeGPtrArrayHandle) == 0x8);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::RuntimeGPtrArrayHandle, "Mono", "RuntimeGPtrArrayHandle");
-// Writing includes for template specializations
-#include "Mono/RuntimeStructs_GPtrArray.hpp"
 // Writing MetadataGetter for method: Mono::RuntimeGPtrArrayHandle::RuntimeGPtrArrayHandle
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -88,7 +86,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Mono::RuntimeGPtrArrayHandle::*)(int)>(&Mono::RuntimeGPtrArrayHandle::get_Item)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeGPtrArrayHandle), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeGPtrArrayHandle), "get_Item", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i});
   }
 };
 // Writing MetadataGetter for method: Mono::RuntimeGPtrArrayHandle::Lookup
@@ -96,7 +95,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (Mono::RuntimeGPtrArrayHandle::*)(int)>(&Mono::RuntimeGPtrArrayHandle::Lookup)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeGPtrArrayHandle), "Lookup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeGPtrArrayHandle), "Lookup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{i});
   }
 };
 // Writing MetadataGetter for method: Mono::RuntimeGPtrArrayHandle::GPtrArrayFree
@@ -104,7 +104,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Int
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mono::RuntimeStructs::GPtrArray*)>(&Mono::RuntimeGPtrArrayHandle::GPtrArrayFree)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeGPtrArrayHandle), "GPtrArrayFree", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::RuntimeStructs::GPtrArray*>()});
+    static auto* value = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("Mono", "RuntimeStructs/GPtrArray"))->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeGPtrArrayHandle), "GPtrArrayFree", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Mono::RuntimeGPtrArrayHandle::DestroyAndFree
@@ -112,6 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Mono::RuntimeGPtrArrayHandle&)>(&Mono::RuntimeGPtrArrayHandle::DestroyAndFree)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeGPtrArrayHandle), "DestroyAndFree", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Mono::RuntimeGPtrArrayHandle&>()});
+    static auto* h = &::il2cpp_utils::GetClassFromName("Mono", "RuntimeGPtrArrayHandle")->this_arg;
+    return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeGPtrArrayHandle), "DestroyAndFree", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{h});
   }
 };

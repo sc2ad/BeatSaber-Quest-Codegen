@@ -163,9 +163,6 @@ namespace GlobalNamespace {
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PyramidBloomRendererSO*, "", "PyramidBloomRendererSO");
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PyramidBloomRendererSO::Level, "", "PyramidBloomRendererSO/Level");
-// Writing includes for template specializations
-#include "UnityEngine/RenderTexture.hpp"
-#include "GlobalNamespace/PyramidBloomRendererSO_Pass.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PyramidBloomRendererSO::OnDisable
 // Il2CppName: OnDisable
 template<>
@@ -179,7 +176,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PyramidBloomRendererSO::*)(UnityEngine::RenderTexture*, UnityEngine::RenderTexture*, float, bool, bool, bool)>(&GlobalNamespace::PyramidBloomRendererSO::RenderBloom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PyramidBloomRendererSO*), "RenderBloom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
+    static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
+    static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* alphaWeights = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* betterQuality = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* gammaCorrection = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PyramidBloomRendererSO*), "RenderBloom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src, dest, radius, alphaWeights, betterQuality, gammaCorrection});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PyramidBloomRendererSO::RenderBloom
@@ -187,7 +190,22 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PyramidBloomRendererSO::*)(UnityEngine::RenderTexture*, UnityEngine::RenderTexture*, float, float, float, bool, bool, float, float, float, float, GlobalNamespace::PyramidBloomRendererSO::Pass, GlobalNamespace::PyramidBloomRendererSO::Pass, GlobalNamespace::PyramidBloomRendererSO::Pass, GlobalNamespace::PyramidBloomRendererSO::Pass)>(&GlobalNamespace::PyramidBloomRendererSO::RenderBloom)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PyramidBloomRendererSO*), "RenderBloom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::RenderTexture*>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<bool>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PyramidBloomRendererSO::Pass>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PyramidBloomRendererSO::Pass>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PyramidBloomRendererSO::Pass>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::PyramidBloomRendererSO::Pass>()});
+    static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
+    static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
+    static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* intensity = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* downIntensityOffset = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* uniformPyramidWeights = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* downsampleOnFirstPass = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    static auto* pyramidWeightsParam = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* alphaWeights = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* firstUpsampleBrightness = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* finalUpsampleBrightness = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* preFilterPass = &::il2cpp_utils::GetClassFromName("", "PyramidBloomRendererSO/Pass")->byval_arg;
+    static auto* downsamplePass = &::il2cpp_utils::GetClassFromName("", "PyramidBloomRendererSO/Pass")->byval_arg;
+    static auto* upsamplePass = &::il2cpp_utils::GetClassFromName("", "PyramidBloomRendererSO/Pass")->byval_arg;
+    static auto* finalUpsamplePass = &::il2cpp_utils::GetClassFromName("", "PyramidBloomRendererSO/Pass")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PyramidBloomRendererSO*), "RenderBloom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src, dest, radius, intensity, downIntensityOffset, uniformPyramidWeights, downsampleOnFirstPass, pyramidWeightsParam, alphaWeights, firstUpsampleBrightness, finalUpsampleBrightness, preFilterPass, downsamplePass, upsamplePass, finalUpsamplePass});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::PyramidBloomRendererSO::OnEnable

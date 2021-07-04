@@ -56,13 +56,13 @@ namespace Zenject::Internal {
   static_assert(sizeof(ReflectionInfoTypeInfoConverter::$$c__DisplayClass4_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass4_0*, "Zenject.Internal", "ReflectionInfoTypeInfoConverter/<>c__DisplayClass4_0");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass4_0::$TryCreateFactoryMethod$b__0
 // Il2CppName: <TryCreateFactoryMethod>b__0
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass4_0::*)(::Array<::Il2CppObject*>*)>(&Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass4_0::$TryCreateFactoryMethod$b__0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass4_0*), "<TryCreateFactoryMethod>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Array<::Il2CppObject*>*>()});
+    static auto* args = &classof(::Array<::Array<::Il2CppObject*>*>*)->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass4_0*), "<TryCreateFactoryMethod>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
   }
 };
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass4_0::New_ctor

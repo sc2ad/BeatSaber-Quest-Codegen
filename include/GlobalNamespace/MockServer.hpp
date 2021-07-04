@@ -104,20 +104,13 @@ namespace GlobalNamespace {
   static_assert(sizeof(MockServer) == 0xE0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockServer*, "", "MockServer");
-// Writing includes for template specializations
-#include "System/Action.hpp"
-#include "GlobalNamespace/MockServerSettings.hpp"
-#include "GlobalNamespace/GameplayServerConfiguration.hpp"
-#include "GlobalNamespace/IMultiplayerSessionManager.hpp"
-#include "GlobalNamespace/AvatarPartsModel.hpp"
-#include "GlobalNamespace/BeatmapLevelsModel.hpp"
-#include "GlobalNamespace/NodePoseSyncStateManager.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::MockServer::add_joinedEvent
 // Il2CppName: add_joinedEvent
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockServer::*)(System::Action*)>(&GlobalNamespace::MockServer::add_joinedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockServer*), "add_joinedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockServer*), "add_joinedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MockServer::remove_joinedEvent
@@ -125,7 +118,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockServer::*)(System::Action*)>(&GlobalNamespace::MockServer::remove_joinedEvent)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockServer*), "remove_joinedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Action*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockServer*), "remove_joinedEvent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MockServer::New_ctor
@@ -137,7 +131,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockServer::*)(GlobalNamespace::GameplayServerConfiguration)>(&GlobalNamespace::MockServer::SetConfiguration)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockServer*), "SetConfiguration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::GameplayServerConfiguration>()});
+    static auto* configuration = &::il2cpp_utils::GetClassFromName("", "GameplayServerConfiguration")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockServer*), "SetConfiguration", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{configuration});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MockServer::get_canJoin
@@ -161,7 +156,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockServer::*)(::Il2CppString*)>(&GlobalNamespace::MockServer::Join)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockServer*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockServer*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{password});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MockServer::Connect
@@ -169,7 +165,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockServer::*)(GlobalNamespace::IMultiplayerSessionManager*, GlobalNamespace::AvatarPartsModel*, GlobalNamespace::BeatmapLevelsModel*, GlobalNamespace::NodePoseSyncStateManager*)>(&GlobalNamespace::MockServer::Connect)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockServer*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::IMultiplayerSessionManager*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::AvatarPartsModel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::BeatmapLevelsModel*>(), ::il2cpp_utils::ExtractIndependentType<GlobalNamespace::NodePoseSyncStateManager*>()});
+    static auto* multiplayerSessionManager = &::il2cpp_utils::GetClassFromName("", "IMultiplayerSessionManager")->byval_arg;
+    static auto* avatarPartsModel = &::il2cpp_utils::GetClassFromName("", "AvatarPartsModel")->byval_arg;
+    static auto* beatmapLevelsModel = &::il2cpp_utils::GetClassFromName("", "BeatmapLevelsModel")->byval_arg;
+    static auto* nodePoseSyncStateManager = &::il2cpp_utils::GetClassFromName("", "NodePoseSyncStateManager")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockServer*), "Connect", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{multiplayerSessionManager, avatarPartsModel, beatmapLevelsModel, nodePoseSyncStateManager});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::MockServer::Disconnect

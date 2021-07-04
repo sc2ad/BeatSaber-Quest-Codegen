@@ -34,7 +34,6 @@ namespace Org::BouncyCastle::Asn1 {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1OctetStringParser*, "Org.BouncyCastle.Asn1", "Asn1OctetStringParser");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1OctetStringParser::GetOctetStream
 // Il2CppName: GetOctetStream
 template<>

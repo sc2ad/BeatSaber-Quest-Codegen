@@ -152,9 +152,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(OVRGrabbable) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVRGrabbable*, "", "OVRGrabbable");
-// Writing includes for template specializations
-#include "GlobalNamespace/OVRGrabber.hpp"
-#include "UnityEngine/Collider.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::OVRGrabbable::get_allowOffhandGrab
 // Il2CppName: get_allowOffhandGrab
 template<>
@@ -232,7 +229,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGrabbable::*)(GlobalNamespace::OVRGrabber*, UnityEngine::Collider*)>(&GlobalNamespace::OVRGrabbable::GrabBegin)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGrabbable*), "GrabBegin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<GlobalNamespace::OVRGrabber*>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Collider*>()});
+    static auto* hand = &::il2cpp_utils::GetClassFromName("", "OVRGrabber")->byval_arg;
+    static auto* grabPoint = &::il2cpp_utils::GetClassFromName("UnityEngine", "Collider")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGrabbable*), "GrabBegin", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hand, grabPoint});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRGrabbable::GrabEnd
@@ -240,7 +239,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRGrabbable::*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&GlobalNamespace::OVRGrabbable::GrabEnd)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGrabbable*), "GrabEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>(), ::il2cpp_utils::ExtractIndependentType<UnityEngine::Vector3>()});
+    static auto* linearVelocity = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    static auto* angularVelocity = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGrabbable*), "GrabEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{linearVelocity, angularVelocity});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::OVRGrabbable::Awake

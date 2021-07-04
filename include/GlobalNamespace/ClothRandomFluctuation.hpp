@@ -124,8 +124,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(ClothRandomFluctuation) == 0x5C);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ClothRandomFluctuation*, "", "ClothRandomFluctuation");
-// Writing includes for template specializations
-#include "UnityEngine/Cloth.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::ClothRandomFluctuation::Update
 // Il2CppName: Update
 template<>
@@ -139,7 +137,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ClothRandomFluctuation::*)(UnityEngine::Cloth*)>(&GlobalNamespace::ClothRandomFluctuation::FluctuateCloth)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ClothRandomFluctuation*), "FluctuateCloth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::Cloth*>()});
+    static auto* cloth = &::il2cpp_utils::GetClassFromName("UnityEngine", "Cloth")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ClothRandomFluctuation*), "FluctuateCloth", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cloth});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ClothRandomFluctuation::GetNoise
@@ -147,7 +146,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (GlobalNamespace::ClothRandomFluctuation::*)(float, float)>(&GlobalNamespace::ClothRandomFluctuation::GetNoise)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ClothRandomFluctuation*), "GetNoise", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ClothRandomFluctuation*), "GetNoise", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{time, offset});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::ClothRandomFluctuation::New_ctor

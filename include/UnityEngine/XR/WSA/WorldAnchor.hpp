@@ -47,12 +47,13 @@ namespace UnityEngine::XR::WSA {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::XR::WSA::WorldAnchor*, "UnityEngine.XR.WSA", "WorldAnchor");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::XR::WSA::WorldAnchor::Internal_TriggerEventOnTrackingLost
 // Il2CppName: Internal_TriggerEventOnTrackingLost
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::XR::WSA::WorldAnchor*, bool)>(&UnityEngine::XR::WSA::WorldAnchor::Internal_TriggerEventOnTrackingLost)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::WSA::WorldAnchor*), "Internal_TriggerEventOnTrackingLost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<UnityEngine::XR::WSA::WorldAnchor*>(), ::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* worldAnchor = &::il2cpp_utils::GetClassFromName("UnityEngine.XR.WSA", "WorldAnchor")->byval_arg;
+    static auto* located = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(UnityEngine::XR::WSA::WorldAnchor*), "Internal_TriggerEventOnTrackingLost", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{worldAnchor, located});
   }
 };

@@ -174,8 +174,6 @@ namespace Zenject {
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectBinding*, "Zenject", "ZenjectBinding");
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenjectBinding::BindTypes, "Zenject", "ZenjectBinding/BindTypes");
-// Writing includes for template specializations
-#include "Zenject/Context.hpp"
 // Writing MetadataGetter for method: Zenject::ZenjectBinding::get_UseSceneContext
 // Il2CppName: get_UseSceneContext
 template<>
@@ -205,7 +203,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ZenjectBinding::*)(Zenject::Context*)>(&Zenject::ZenjectBinding::set_Context)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectBinding*), "set_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Zenject::Context*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("Zenject", "Context")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Zenject::ZenjectBinding*), "set_Context", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: Zenject::ZenjectBinding::get_Components

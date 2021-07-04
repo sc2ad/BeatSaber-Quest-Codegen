@@ -127,7 +127,6 @@ namespace OVRSimpleJSON {
 }
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode::Enumerator, "OVRSimpleJSON", "JSONNode/Enumerator");
 DEFINE_IL2CPP_ARG_TYPE(OVRSimpleJSON::JSONNode::Enumerator::Type, "OVRSimpleJSON", "JSONNode/Enumerator/Type");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::Enumerator::get_IsValid
 // Il2CppName: get_IsValid
 template<>
@@ -138,12 +137,12 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVRSi
 };
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::Enumerator::Enumerator
 // Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
+// Cannot write MetadataGetter for a method that has a nested type with a declaring generic type anywhere within it!
+// Talk to sc2ad if this is something you want
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::Enumerator::Enumerator
 // Il2CppName: .ctor
-// Cannot get method pointer of value based method overload from template for constructor!
-// Try using FindMethod instead!
+// Cannot write MetadataGetter for a method that has a nested type with a declaring generic type anywhere within it!
+// Talk to sc2ad if this is something you want
 // Writing MetadataGetter for method: OVRSimpleJSON::JSONNode::Enumerator::get_Current
 // Il2CppName: get_Current
 template<>

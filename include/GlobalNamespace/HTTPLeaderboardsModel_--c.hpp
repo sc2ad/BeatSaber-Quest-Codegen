@@ -61,8 +61,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::HTTPLeaderboardsModel::$$c*, "", "HTTPLeaderboardsModel/<>c");
-// Writing includes for template specializations
-#include "BeatSaberAPI/DataTransferObjects/LeaderboardEntry.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::HTTPLeaderboardsModel::$$c::_cctor
 // Il2CppName: .cctor
 template<>
@@ -76,7 +74,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::HTTPLeaderboardsModel::$$c::*)(BeatSaberAPI::DataTransferObjects::LeaderboardEntry*)>(&GlobalNamespace::HTTPLeaderboardsModel::$$c::$GetLeaderboardEntriesAsync$b__10_0)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HTTPLeaderboardsModel::$$c*), "<GetLeaderboardEntriesAsync>b__10_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<BeatSaberAPI::DataTransferObjects::LeaderboardEntry*>()});
+    static auto* x = &::il2cpp_utils::GetClassFromName("BeatSaberAPI.DataTransferObjects", "LeaderboardEntry")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::HTTPLeaderboardsModel::$$c*), "<GetLeaderboardEntriesAsync>b__10_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
 // Writing MetadataGetter for method: GlobalNamespace::HTTPLeaderboardsModel::$$c::New_ctor

@@ -178,7 +178,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(ParametricBoxController) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParametricBoxController*, "", "ParametricBoxController");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::ParametricBoxController::Awake
 // Il2CppName: Awake
 template<>

@@ -28,7 +28,6 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*, "UnityEngine.ResourceManagement.ResourceProviders", "IAssetBundleResource");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource::GetAssetBundle
 // Il2CppName: GetAssetBundle
 template<>

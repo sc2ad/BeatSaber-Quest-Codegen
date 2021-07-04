@@ -39,7 +39,6 @@ namespace GlobalNamespace {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OVROnCompleteListener*, "", "OVROnCompleteListener");
-// Writing includes for template specializations
 // Writing MetadataGetter for method: GlobalNamespace::OVROnCompleteListener::onSuccess
 // Il2CppName: onSuccess
 template<>

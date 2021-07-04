@@ -124,8 +124,6 @@ namespace RootMotion::FinalIK {
   static_assert(sizeof(RagdollUtility::Rigidbone) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RagdollUtility::Rigidbone*, "RootMotion.FinalIK", "RagdollUtility/Rigidbone");
-// Writing includes for template specializations
-#include "UnityEngine/Rigidbody.hpp"
 // Writing MetadataGetter for method: RootMotion::FinalIK::RagdollUtility::Rigidbone::New_ctor
 // Il2CppName: .ctor
 // Cannot get method pointer of value based method overload from template for constructor!
@@ -143,6 +141,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RagdollUtility::Rigidbone::*)(float, float)>(&RootMotion::FinalIK::RagdollUtility::Rigidbone::WakeUp)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RagdollUtility::Rigidbone*), "WakeUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<float>(), ::il2cpp_utils::ExtractIndependentType<float>()});
+    static auto* velocityWeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    static auto* angularVelocityWeight = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RagdollUtility::Rigidbone*), "WakeUp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{velocityWeight, angularVelocityWeight});
   }
 };

@@ -123,11 +123,6 @@ namespace System {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(System::Console*, "System", "Console");
-// Writing includes for template specializations
-#include "System/Text/Encoding.hpp"
-#include "System/IntPtr.hpp"
-#include "System/IO/FileAccess.hpp"
-#include "System/IO/TextWriter.hpp"
 // Writing MetadataGetter for method: System::Console::_cctor
 // Il2CppName: .cctor
 template<>
@@ -141,7 +136,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Text::Encoding*, System::Text::Encoding*)>(&System::Console::SetupStreams)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Console*), "SetupStreams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>(), ::il2cpp_utils::ExtractIndependentType<System::Text::Encoding*>()});
+    static auto* inputEncoding = &::il2cpp_utils::GetClassFromName("System.Text", "Encoding")->byval_arg;
+    static auto* outputEncoding = &::il2cpp_utils::GetClassFromName("System.Text", "Encoding")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Console*), "SetupStreams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputEncoding, outputEncoding});
   }
 };
 // Writing MetadataGetter for method: System::Console::get_Error
@@ -165,7 +162,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (*)(System::IntPtr, System::IO::FileAccess, int)>(&System::Console::Open)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Console*), "Open", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IntPtr>(), ::il2cpp_utils::ExtractIndependentType<System::IO::FileAccess>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
+    static auto* access = &::il2cpp_utils::GetClassFromName("System.IO", "FileAccess")->byval_arg;
+    static auto* bufferSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Console*), "Open", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle, access, bufferSize});
   }
 };
 // Writing MetadataGetter for method: System::Console::OpenStandardError
@@ -173,7 +173,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (*)(int)>(&System::Console::OpenStandardError)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Console*), "OpenStandardError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* bufferSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Console*), "OpenStandardError", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bufferSize});
   }
 };
 // Writing MetadataGetter for method: System::Console::OpenStandardInput
@@ -181,7 +182,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (*)(int)>(&System::Console::OpenStandardInput)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Console*), "OpenStandardInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* bufferSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Console*), "OpenStandardInput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bufferSize});
   }
 };
 // Writing MetadataGetter for method: System::Console::OpenStandardOutput
@@ -189,7 +191,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (*)(int)>(&System::Console::OpenStandardOutput)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Console*), "OpenStandardOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* bufferSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Console*), "OpenStandardOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bufferSize});
   }
 };
 // Writing MetadataGetter for method: System::Console::SetOut
@@ -197,7 +200,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IO::TextWriter*)>(&System::Console::SetOut)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Console*), "SetOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<System::IO::TextWriter*>()});
+    static auto* newOut = &::il2cpp_utils::GetClassFromName("System.IO", "TextWriter")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Console*), "SetOut", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{newOut});
   }
 };
 // Writing MetadataGetter for method: System::Console::WriteLine
@@ -205,7 +209,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*)>(&System::Console::WriteLine)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Console*), "WriteLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>()});
+    static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Console*), "WriteLine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
 // Writing MetadataGetter for method: System::Console::get_InputEncoding
@@ -237,7 +242,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Con
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ConsoleKeyInfo (*)(bool)>(&System::Console::ReadKey)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(System::Console*), "ReadKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<bool>()});
+    static auto* intercept = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(System::Console*), "ReadKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{intercept});
   }
 };
 // Writing MetadataGetter for method: System::Console::DoConsoleCancelEvent

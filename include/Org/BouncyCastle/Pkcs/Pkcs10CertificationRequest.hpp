@@ -79,8 +79,6 @@ namespace Org::BouncyCastle::Pkcs {
   #pragma pack(pop)
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest*, "Org.BouncyCastle.Pkcs", "Pkcs10CertificationRequest");
-// Writing includes for template specializations
-#include "Org/BouncyCastle/Asn1/X509/AlgorithmIdentifier.hpp"
 // Writing MetadataGetter for method: Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::_cctor
 // Il2CppName: .cctor
 template<>
@@ -94,7 +92,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::RsassaPssParameters* (*)(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, int)>(&Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::CreatePssParams)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest*), "CreatePssParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*>(), ::il2cpp_utils::ExtractIndependentType<int>()});
+    static auto* hashAlgId = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1.X509", "AlgorithmIdentifier")->byval_arg;
+    static auto* saltSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest*), "CreatePssParams", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hashAlgId, saltSize});
   }
 };
 // Writing MetadataGetter for method: Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::New_ctor

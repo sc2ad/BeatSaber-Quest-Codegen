@@ -92,9 +92,6 @@ namespace GlobalNamespace {
   static_assert(sizeof(PlatformAuthenticationTokenProvider) == 0x31);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformAuthenticationTokenProvider*, "", "PlatformAuthenticationTokenProvider");
-// Writing includes for template specializations
-#include "GlobalNamespace/IPlatformUserModel.hpp"
-#include "GlobalNamespace/UserInfo.hpp"
 // Writing MetadataGetter for method: GlobalNamespace::PlatformAuthenticationTokenProvider::get_hashedUserId
 // Il2CppName: get_hashedUserId
 template<>

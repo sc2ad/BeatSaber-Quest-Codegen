@@ -45,15 +45,16 @@ namespace Polyglot {
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
 DEFINE_IL2CPP_ARG_TYPE(Polyglot::GoogleDownload*, "Polyglot", "GoogleDownload");
-// Writing includes for template specializations
-#include "System/Action_1.hpp"
-#include "Polyglot/GoogleDriveDownloadFormat.hpp"
-#include "System/Func_2.hpp"
 // Writing MetadataGetter for method: Polyglot::GoogleDownload::DownloadSheet
 // Il2CppName: DownloadSheet
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (*)(::Il2CppString*, ::Il2CppString*, System::Action_1<::Il2CppString*>*, Polyglot::GoogleDriveDownloadFormat, System::Func_2<float, bool>*)>(&Polyglot::GoogleDownload::DownloadSheet)> {
   const MethodInfo* get() {
-    return ::il2cpp_utils::FindMethod(classof(Polyglot::GoogleDownload*), "DownloadSheet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<::Il2CppString*>(), ::il2cpp_utils::ExtractIndependentType<System::Action_1<::Il2CppString*>*>(), ::il2cpp_utils::ExtractIndependentType<Polyglot::GoogleDriveDownloadFormat>(), ::il2cpp_utils::ExtractIndependentType<System::Func_2<float, bool>*>()});
+    static auto* docsId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* sheetId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
+    static auto* done = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
+    static auto* format = &::il2cpp_utils::GetClassFromName("Polyglot", "GoogleDriveDownloadFormat")->byval_arg;
+    static auto* progressbar = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Func`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Single"), ::il2cpp_utils::GetClassFromName("System", "Boolean")})->byval_arg;
+    return ::il2cpp_utils::FindMethod(classof(Polyglot::GoogleDownload*), "DownloadSheet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{docsId, sheetId, done, format, progressbar});
   }
 };
