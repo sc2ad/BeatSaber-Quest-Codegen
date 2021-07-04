@@ -140,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (*)(::Array<Mono::Net::CFProxy*>*, System::Uri*, System::Net::NetworkCredential*&)>(&Mono::Net::CFNetwork::CFWebProxy::SelectProxy)> {
   const MethodInfo* get() {
-    static auto* proxies = &classof(::Array<::Array<Mono::Net::CFProxy*>*>*)->byval_arg;
+    static auto* proxies = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Mono.Net", "CFProxy"), 1)->byval_arg;
     static auto* targetUri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
     static auto* credentials = &::il2cpp_utils::GetClassFromName("System.Net", "NetworkCredential")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::CFNetwork::CFWebProxy*), "SelectProxy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{proxies, targetUri, credentials});

@@ -673,7 +673,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Hashtable::*)(::Array<System::Collections::Hashtable::bucket>*, ::Il2CppObject*, ::Il2CppObject*, int)>(&System::Collections::Hashtable::putEntry)> {
   const MethodInfo* get() {
-    static auto* newBuckets = &classof(::Array<::Array<System::Collections::Hashtable::bucket>*>*)->byval_arg;
+    static auto* newBuckets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Collections", "Hashtable/bucket"), 1)->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* nvalue = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* hashcode = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

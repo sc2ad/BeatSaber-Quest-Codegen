@@ -107,7 +107,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementsModelSO::*)(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult, ::Array<::Il2CppString*>*)>(&GlobalNamespace::AchievementsModelSO::$Initialize$b__3_0)> {
   const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("", "PlatformAchievementsModelSO/GetUnlockedAchievementsResult")->byval_arg;
-    static auto* achievementIds = &classof(::Array<::Array<::Il2CppString*>*>*)->byval_arg;
+    static auto* achievementIds = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AchievementsModelSO*), "<Initialize>b__3_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result, achievementIds});
   }
 };

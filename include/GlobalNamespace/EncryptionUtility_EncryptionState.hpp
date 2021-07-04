@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EncryptionUtility::EncryptionState::*)(::Array<uint8_t>*, int&, int&, int)>(&GlobalNamespace::EncryptionUtility::EncryptionState::EncryptData)> {
   const MethodInfo* get() {
-    static auto* data = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* extraPrefixBytes = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -191,7 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::EncryptionUtility::EncryptionState::*)(::Array<uint8_t>*, int&, int&)>(&GlobalNamespace::EncryptionUtility::EncryptionState::TryDecryptData)> {
   const MethodInfo* get() {
-    static auto* data = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EncryptionUtility::EncryptionState*), "TryDecryptData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, offset, length});
@@ -202,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (GlobalNamespace::EncryptionUtility::EncryptionState::*)(::Array<uint8_t>*, int, int)>(&GlobalNamespace::EncryptionUtility::EncryptionState::ComputeSendMac)> {
   const MethodInfo* get() {
-    static auto* data = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EncryptionUtility::EncryptionState*), "ComputeSendMac", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, offset, count});
@@ -213,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (GlobalNamespace::EncryptionUtility::EncryptionState::*)(::Array<uint8_t>*, int, int)>(&GlobalNamespace::EncryptionUtility::EncryptionState::ComputeReceiveMac)> {
   const MethodInfo* get() {
-    static auto* data = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EncryptionUtility::EncryptionState*), "ComputeReceiveMac", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, offset, count});
@@ -254,9 +254,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*)>(&GlobalNamespace::EncryptionUtility::EncryptionState::MakeSeed)> {
   const MethodInfo* get() {
-    static auto* baseSeed = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* serverSeed = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* clientSeed = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* baseSeed = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* serverSeed = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* clientSeed = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EncryptionUtility::EncryptionState*), "MakeSeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{baseSeed, serverSeed, clientSeed});
   }
 };
@@ -265,8 +265,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*, ::Array<uint8_t>*, int)>(&GlobalNamespace::EncryptionUtility::EncryptionState::PRF)> {
   const MethodInfo* get() {
-    static auto* key = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* seed = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* key = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* seed = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EncryptionUtility::EncryptionState*), "PRF", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key, seed, length});
   }
@@ -276,8 +276,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, ::Array<uint8_t>*, int&)>(&GlobalNamespace::EncryptionUtility::EncryptionState::PRF_Hash)> {
   const MethodInfo* get() {
-    static auto* key = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* seed = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* key = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* seed = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EncryptionUtility::EncryptionState*), "PRF_Hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key, seed, length});
   }

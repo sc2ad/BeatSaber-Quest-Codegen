@@ -264,7 +264,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PacketEncryptionLayer::*)(::Array<uint8_t>*)>(&GlobalNamespace::PacketEncryptionLayer::SetUnencryptedTrafficFilter)> {
   const MethodInfo* get() {
-    static auto* unencryptedTrafficFilter = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* unencryptedTrafficFilter = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "SetUnencryptedTrafficFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unencryptedTrafficFilter});
   }
 };
@@ -274,9 +274,9 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::EncryptionUtility::IEncryptionState* (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, bool)>(&GlobalNamespace::PacketEncryptionLayer::AddEncryptedEndpoint)> {
   const MethodInfo* get() {
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
-    static auto* preMasterSecret = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* serverRandom = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* clientRandom = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* preMasterSecret = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* serverRandom = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* clientRandom = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* isClient = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "AddEncryptedEndpoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{endPoint, preMasterSecret, serverRandom, clientRandom, isClient});
   }
@@ -287,9 +287,9 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<GlobalNamespace::EncryptionUtility::IEncryptionState*>* (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, bool)>(&GlobalNamespace::PacketEncryptionLayer::AddEncryptedEndpointAsync)> {
   const MethodInfo* get() {
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
-    static auto* preMasterSecret = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* serverRandom = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* clientRandom = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* preMasterSecret = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* serverRandom = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* clientRandom = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* isClient = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "AddEncryptedEndpointAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{endPoint, preMasterSecret, serverRandom, clientRandom, isClient});
   }
@@ -310,9 +310,9 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, bool)>(&GlobalNamespace::PacketEncryptionLayer::AddPendingEncryptedEndpointAsync)> {
   const MethodInfo* get() {
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
-    static auto* preMasterSecret = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* serverRandom = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* clientRandom = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* preMasterSecret = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* serverRandom = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* clientRandom = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* isClient = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "AddPendingEncryptedEndpointAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{endPoint, preMasterSecret, serverRandom, clientRandom, isClient});
   }
@@ -359,7 +359,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::Array<GlobalNamespace::EncryptionUtility::IEncryptionState*>*&)>(&GlobalNamespace::PacketEncryptionLayer::TryGetPotentialPendingEncryptionStates)> {
   const MethodInfo* get() {
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
-    static auto* encryptionStates = &classof(::Array<::Array<GlobalNamespace::EncryptionUtility::IEncryptionState*>*>*)->this_arg;
+    static auto* encryptionStates = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "EncryptionUtility/IEncryptionState"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "TryGetPotentialPendingEncryptionStates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{endPoint, encryptionStates});
   }
 };
@@ -378,7 +378,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PacketEncryptionLayer::*)(::Array<uint8_t>*, int, int)>(&GlobalNamespace::PacketEncryptionLayer::MatchesFilter)> {
   const MethodInfo* get() {
-    static auto* data = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "MatchesFilter", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, offset, length});
@@ -390,7 +390,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*&, int&, int&, bool&)>(&GlobalNamespace::PacketEncryptionLayer::ProcessInboundPacketInternal)> {
   const MethodInfo* get() {
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
-    static auto* data = &classof(::Array<::Array<uint8_t>*>*)->this_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* encrypted = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
@@ -403,7 +403,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*&, int&, int&, bool&)>(&GlobalNamespace::PacketEncryptionLayer::ProcessOutBoundPacketInternal)> {
   const MethodInfo* get() {
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
-    static auto* data = &classof(::Array<::Array<uint8_t>*>*)->this_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* encrypted = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
@@ -434,7 +434,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*&, int&, int&)>(&GlobalNamespace::PacketEncryptionLayer::ProcessInboundPacket)> {
   const MethodInfo* get() {
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
-    static auto* data = &classof(::Array<::Array<uint8_t>*>*)->this_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "ProcessInboundPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{remoteEndPoint, data, offset, length});
@@ -446,7 +446,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PacketEncryptionLayer::*)(System::Net::IPEndPoint*, ::Array<uint8_t>*&, int&, int&)>(&GlobalNamespace::PacketEncryptionLayer::ProcessOutBoundPacket)> {
   const MethodInfo* get() {
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
-    static auto* data = &classof(::Array<::Array<uint8_t>*>*)->this_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer*), "ProcessOutBoundPacket", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{remoteEndPoint, data, offset, length});

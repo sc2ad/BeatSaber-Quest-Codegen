@@ -64,7 +64,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::HeaderHandler*, "Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Messaging::HeaderHandler::*)(::Array<System::Runtime::Remoting::Messaging::Header*>*)>(&System::Runtime::Remoting::Messaging::HeaderHandler::Invoke)> {
   const MethodInfo* get() {
-    static auto* headers = &classof(::Array<::Array<System::Runtime::Remoting::Messaging::Header*>*>*)->byval_arg;
+    static auto* headers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "Header"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::HeaderHandler*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{headers});
   }
 };
@@ -73,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Runtime::Remoting::Messaging::HeaderHandler::*)(::Array<System::Runtime::Remoting::Messaging::Header*>*, System::AsyncCallback*, ::Il2CppObject*)>(&System::Runtime::Remoting::Messaging::HeaderHandler::BeginInvoke)> {
   const MethodInfo* get() {
-    static auto* headers = &classof(::Array<::Array<System::Runtime::Remoting::Messaging::Header*>*>*)->byval_arg;
+    static auto* headers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "Header"), 1)->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::HeaderHandler*), "BeginInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{headers, callback, object});

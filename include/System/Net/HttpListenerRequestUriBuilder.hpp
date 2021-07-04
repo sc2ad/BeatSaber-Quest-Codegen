@@ -331,7 +331,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
   const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* args = &classof(::Array<::Array<::Il2CppObject*>*>*)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpListenerRequestUriBuilder*), "LogWarning", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{methodName, message, args});
   }
 };

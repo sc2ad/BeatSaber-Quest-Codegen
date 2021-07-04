@@ -684,7 +684,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Material*>* (TMPro::TextMeshProUGUI::*)(::Array<UnityEngine::Material*>*)>(&TMPro::TextMeshProUGUI::GetMaterials)> {
   const MethodInfo* get() {
-    static auto* mats = &classof(::Array<::Array<UnityEngine::Material*>*>*)->byval_arg;
+    static auto* mats = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "GetMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mats});
   }
 };
@@ -710,7 +710,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshProUGUI::*)(::Array<UnityEngine::Material*>*)>(&TMPro::TextMeshProUGUI::SetSharedMaterials)> {
   const MethodInfo* get() {
-    static auto* materials = &classof(::Array<::Array<UnityEngine::Material*>*>*)->byval_arg;
+    static auto* materials = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "SetSharedMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{materials});
   }
 };
@@ -779,7 +779,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TextMeshProUGUI::*)(::Array<TMPro::TMP_Text::UnicodeChar>*)>(&TMPro::TextMeshProUGUI::SetArraySizes)> {
   const MethodInfo* get() {
-    static auto* chars = &classof(::Array<::Array<TMPro::TMP_Text::UnicodeChar>*>*)->byval_arg;
+    static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshProUGUI*), "SetArraySizes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{chars});
   }
 };

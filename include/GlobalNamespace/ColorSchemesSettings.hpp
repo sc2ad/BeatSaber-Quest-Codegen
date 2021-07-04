@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::ColorScheme*>* (*)(::Array<GlobalNamespace::ColorSchemeSO*>*)>(&GlobalNamespace::ColorSchemesSettings::ConvertColorSchemeSOs)> {
   const MethodInfo* get() {
-    static auto* colorSchemeSOs = &classof(::Array<::Array<GlobalNamespace::ColorSchemeSO*>*>*)->byval_arg;
+    static auto* colorSchemeSOs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "ColorSchemeSO"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemesSettings*), "ConvertColorSchemeSOs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorSchemeSOs});
   }
 };

@@ -350,8 +350,8 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::RuntimeType*, ::Array<uint64_t>*&, ::Array<::Il2CppString*>*&)>(&System::Enum::GetEnumValuesAndNames)> {
   const MethodInfo* get() {
     static auto* enumType = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
-    static auto* values = &classof(::Array<::Array<uint64_t>*>*)->this_arg;
-    static auto* names = &classof(::Array<::Array<::Il2CppString*>*>*)->this_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->this_arg;
+    static auto* names = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Enum*), "GetEnumValuesAndNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enumType, values, names});
   }
 };

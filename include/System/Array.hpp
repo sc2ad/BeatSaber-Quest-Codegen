@@ -948,7 +948,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Type*, ::Array<int64_t>*)>(&System::Array::CreateInstance)> {
   const MethodInfo* get() {
     static auto* elementType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* lengths = &classof(::Array<::Array<int64_t>*>*)->byval_arg;
+    static auto* lengths = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int64"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Array*), "CreateInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{elementType, lengths});
   }
 };
@@ -1215,7 +1215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Array::*)(::Array<int64_t>*)>(&System::Array::GetValue)> {
   const MethodInfo* get() {
-    static auto* indices = &classof(::Array<::Array<int64_t>*>*)->byval_arg;
+    static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int64"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Array*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{indices});
   }
 };
@@ -1458,7 +1458,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::*)(::Il2CppObject*, ::Array<int64_t>*)>(&System::Array::SetValue)> {
   const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    static auto* indices = &classof(::Array<::Array<int64_t>*>*)->byval_arg;
+    static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int64"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Array*), "SetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, indices});
   }
 };
@@ -1748,7 +1748,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Array::*)(::Array<int>*)>(&System::Array::GetValue)> {
   const MethodInfo* get() {
-    static auto* indices = &classof(::Array<::Array<int>*>*)->byval_arg;
+    static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Array*), "GetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{indices});
   }
 };
@@ -1758,7 +1758,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Array::*)(::Il2CppObject*, ::Array<int>*)>(&System::Array::SetValue)> {
   const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    static auto* indices = &classof(::Array<::Array<int>*>*)->byval_arg;
+    static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Array*), "SetValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, indices});
   }
 };
@@ -1800,8 +1800,8 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Type*, ::Array<int>*, ::Array<int>*)>(&System::Array::CreateInstanceImpl)> {
   const MethodInfo* get() {
     static auto* elementType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* lengths = &classof(::Array<::Array<int>*>*)->byval_arg;
-    static auto* bounds = &classof(::Array<::Array<int>*>*)->byval_arg;
+    static auto* lengths = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* bounds = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Array*), "CreateInstanceImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{elementType, lengths, bounds});
   }
 };
@@ -1883,8 +1883,8 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Type*, ::Array<int>*, ::Array<int>*)>(&System::Array::UnsafeCreateInstance)> {
   const MethodInfo* get() {
     static auto* elementType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* lengths = &classof(::Array<::Array<int>*>*)->byval_arg;
-    static auto* lowerBounds = &classof(::Array<::Array<int>*>*)->byval_arg;
+    static auto* lengths = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* lowerBounds = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Array*), "UnsafeCreateInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{elementType, lengths, lowerBounds});
   }
 };
@@ -1905,7 +1905,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Type*, ::Array<int>*)>(&System::Array::UnsafeCreateInstance)> {
   const MethodInfo* get() {
     static auto* elementType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* lengths = &classof(::Array<::Array<int>*>*)->byval_arg;
+    static auto* lengths = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Array*), "UnsafeCreateInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{elementType, lengths});
   }
 };
@@ -1948,7 +1948,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Type*, ::Array<int>*)>(&System::Array::CreateInstance)> {
   const MethodInfo* get() {
     static auto* elementType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* lengths = &classof(::Array<::Array<int>*>*)->byval_arg;
+    static auto* lengths = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Array*), "CreateInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{elementType, lengths});
   }
 };
@@ -1958,8 +1958,8 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Type*, ::Array<int>*, ::Array<int>*)>(&System::Array::CreateInstance)> {
   const MethodInfo* get() {
     static auto* elementType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* lengths = &classof(::Array<::Array<int>*>*)->byval_arg;
-    static auto* lowerBounds = &classof(::Array<::Array<int>*>*)->byval_arg;
+    static auto* lengths = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* lowerBounds = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Array*), "CreateInstance", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{elementType, lengths, lowerBounds});
   }
 };

@@ -75,8 +75,8 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo::*)(int, ::Array<::Il2CppString*>*, ::Array<System::Type*>*)>(&System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo::isCompatible)> {
   const MethodInfo* get() {
     static auto* numMembers = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* memberNames = &classof(::Array<::Array<::Il2CppString*>*>*)->byval_arg;
-    static auto* memberTypes = &classof(::Array<::Array<System::Type*>*>*)->byval_arg;
+    static auto* memberNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
+    static auto* memberTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo*), "isCompatible", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{numMembers, memberNames, memberTypes});
   }
 };

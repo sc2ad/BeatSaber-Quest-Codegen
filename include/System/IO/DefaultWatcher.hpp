@@ -181,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
     static auto* data = &::il2cpp_utils::GetClassFromName("System.IO", "DefaultWatcherData")->byval_arg;
     static auto* directory = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dispatch = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    static auto* files = &classof(::Array<::Array<::Il2CppString*>*>*)->byval_arg;
+    static auto* files = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::DefaultWatcher*), "IterateAndModifyFilesData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data, directory, dispatch, files});
   }
 };

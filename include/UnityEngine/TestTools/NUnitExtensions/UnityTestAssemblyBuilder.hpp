@@ -89,8 +89,8 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::NUnitExtensions::UnityTestAssembl
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITest* (UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::*)(::Array<System::Reflection::Assembly*>*, ::Array<UnityEngine::TestTools::TestPlatform>*, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*)>(&UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::Build)> {
   const MethodInfo* get() {
-    static auto* assemblies = &classof(::Array<::Array<System::Reflection::Assembly*>*>*)->byval_arg;
-    static auto* testPlatforms = &classof(::Array<::Array<UnityEngine::TestTools::TestPlatform>*>*)->byval_arg;
+    static auto* assemblies = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly"), 1)->byval_arg;
+    static auto* testPlatforms = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.TestTools", "TestPlatform"), 1)->byval_arg;
     static auto* options = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IDictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder*), "Build", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assemblies, testPlatforms, options});
   }
@@ -100,8 +100,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerator_1<NUnit::Framework::Interfaces::ITest*>* (UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::*)(::Array<System::Reflection::Assembly*>*, ::Array<UnityEngine::TestTools::TestPlatform>*, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*)>(&UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder::BuildAsync)> {
   const MethodInfo* get() {
-    static auto* assemblies = &classof(::Array<::Array<System::Reflection::Assembly*>*>*)->byval_arg;
-    static auto* testPlatforms = &classof(::Array<::Array<UnityEngine::TestTools::TestPlatform>*>*)->byval_arg;
+    static auto* assemblies = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly"), 1)->byval_arg;
+    static auto* testPlatforms = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.TestTools", "TestPlatform"), 1)->byval_arg;
     static auto* options = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IDictionary`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String"), ::il2cpp_utils::GetClassFromName("System", "Object")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder*), "BuildAsync", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assemblies, testPlatforms, options});
   }

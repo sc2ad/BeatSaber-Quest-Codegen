@@ -421,8 +421,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(U
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::Array<UnityEngine::Vector3>*, ::Array<int>*)>(&UnityEngine::ProBuilder::Math::PolygonArea)> {
   const MethodInfo* get() {
-    static auto* vertices = &classof(::Array<::Array<UnityEngine::Vector3>*>*)->byval_arg;
-    static auto* indexes = &classof(::Array<::Array<int>*>*)->byval_arg;
+    static auto* vertices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
+    static auto* indexes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Math*), "PolygonArea", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vertices, indexes});
   }
 };
@@ -552,9 +552,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<UnityEngine::Vector2>*, UnityEngine::Vector2, ::Array<int>*)>(&UnityEngine::ProBuilder::Math::PointInPolygon)> {
   const MethodInfo* get() {
-    static auto* polygon = &classof(::Array<::Array<UnityEngine::Vector2>*>*)->byval_arg;
+    static auto* polygon = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
-    static auto* indexes = &classof(::Array<::Array<int>*>*)->byval_arg;
+    static auto* indexes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Math*), "PointInPolygon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{polygon, point, indexes});
   }
 };
@@ -563,9 +563,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<UnityEngine::Vector2>*, UnityEngine::ProBuilder::Bounds2D*, ::Array<UnityEngine::ProBuilder::Edge>*, UnityEngine::Vector2)>(&UnityEngine::ProBuilder::Math::PointInPolygon)> {
   const MethodInfo* get() {
-    static auto* positions = &classof(::Array<::Array<UnityEngine::Vector2>*>*)->byval_arg;
+    static auto* positions = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     static auto* polyBounds = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Bounds2D")->byval_arg;
-    static auto* edges = &classof(::Array<::Array<UnityEngine::ProBuilder::Edge>*>*)->byval_arg;
+    static auto* edges = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge"), 1)->byval_arg;
     static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Math*), "PointInPolygon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{positions, polyBounds, edges, point});
   }
@@ -575,9 +575,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<UnityEngine::Vector3>*, UnityEngine::ProBuilder::Bounds2D*, ::Array<UnityEngine::ProBuilder::Edge>*, UnityEngine::Vector2)>(&UnityEngine::ProBuilder::Math::PointInPolygon)> {
   const MethodInfo* get() {
-    static auto* positions = &classof(::Array<::Array<UnityEngine::Vector3>*>*)->byval_arg;
+    static auto* positions = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* polyBounds = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Bounds2D")->byval_arg;
-    static auto* edges = &classof(::Array<::Array<UnityEngine::ProBuilder::Edge>*>*)->byval_arg;
+    static auto* edges = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge"), 1)->byval_arg;
     static auto* point = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Math*), "PointInPolygon", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{positions, polyBounds, edges, point});
   }
@@ -751,7 +751,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(U
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(::Array<UnityEngine::Vector2>*)>(&UnityEngine::ProBuilder::Math::SmallestVector2)> {
   const MethodInfo* get() {
-    static auto* v = &classof(::Array<::Array<UnityEngine::Vector2>*>*)->byval_arg;
+    static auto* v = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Math*), "SmallestVector2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
   }
 };
@@ -760,8 +760,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(::Array<UnityEngine::Vector2>*, ::Array<int>*)>(&UnityEngine::ProBuilder::Math::SmallestVector2)> {
   const MethodInfo* get() {
-    static auto* v = &classof(::Array<::Array<UnityEngine::Vector2>*>*)->byval_arg;
-    static auto* indexes = &classof(::Array<::Array<int>*>*)->byval_arg;
+    static auto* v = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
+    static auto* indexes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Math*), "SmallestVector2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v, indexes});
   }
 };
@@ -770,7 +770,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(::Array<UnityEngine::Vector2>*, System::Collections::Generic::IList_1<int>*)>(&UnityEngine::ProBuilder::Math::SmallestVector2)> {
   const MethodInfo* get() {
-    static auto* v = &classof(::Array<::Array<UnityEngine::Vector2>*>*)->byval_arg;
+    static auto* v = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     static auto* indexes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Math*), "SmallestVector2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v, indexes});
   }
@@ -780,7 +780,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(::Array<UnityEngine::Vector2>*)>(&UnityEngine::ProBuilder::Math::LargestVector2)> {
   const MethodInfo* get() {
-    static auto* v = &classof(::Array<::Array<UnityEngine::Vector2>*>*)->byval_arg;
+    static auto* v = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Math*), "LargestVector2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v});
   }
 };
@@ -789,8 +789,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(::Array<UnityEngine::Vector2>*, ::Array<int>*)>(&UnityEngine::ProBuilder::Math::LargestVector2)> {
   const MethodInfo* get() {
-    static auto* v = &classof(::Array<::Array<UnityEngine::Vector2>*>*)->byval_arg;
-    static auto* indexes = &classof(::Array<::Array<int>*>*)->byval_arg;
+    static auto* v = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
+    static auto* indexes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Math*), "LargestVector2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v, indexes});
   }
 };
@@ -799,7 +799,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(::Array<UnityEngine::Vector2>*, System::Collections::Generic::IList_1<int>*)>(&UnityEngine::ProBuilder::Math::LargestVector2)> {
   const MethodInfo* get() {
-    static auto* v = &classof(::Array<::Array<UnityEngine::Vector2>*>*)->byval_arg;
+    static auto* v = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     static auto* indexes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Math*), "LargestVector2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{v, indexes});
   }
@@ -809,7 +809,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (*)(::Array<UnityEngine::Vector3>*, System::Collections::Generic::IList_1<int>*)>(&UnityEngine::ProBuilder::Math::GetBounds)> {
   const MethodInfo* get() {
-    static auto* positions = &classof(::Array<::Array<UnityEngine::Vector3>*>*)->byval_arg;
+    static auto* positions = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* indices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Math*), "GetBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{positions, indices});
   }
@@ -819,7 +819,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (*)(::Array<UnityEngine::Vector3>*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*)>(&UnityEngine::ProBuilder::Math::GetBounds)> {
   const MethodInfo* get() {
-    static auto* positions = &classof(::Array<::Array<UnityEngine::Vector3>*>*)->byval_arg;
+    static auto* positions = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* faces = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Math*), "GetBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{positions, faces});
   }
@@ -849,7 +849,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (*)(::Array<UnityEngine::Vector3>*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*)>(&UnityEngine::ProBuilder::Math::GetBounds)> {
   const MethodInfo* get() {
-    static auto* positions = &classof(::Array<::Array<UnityEngine::Vector3>*>*)->byval_arg;
+    static auto* positions = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* edges = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Math*), "GetBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{positions, edges});
   }

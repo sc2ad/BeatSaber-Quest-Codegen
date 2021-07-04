@@ -321,9 +321,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::IKSolverLookAt::*)(::Array<UnityEngine::Transform*>*, UnityEngine::Transform*, ::Array<UnityEngine::Transform*>*, UnityEngine::Transform*)>(&RootMotion::FinalIK::IKSolverLookAt::SetChain)> {
   const MethodInfo* get() {
-    static auto* spine = &classof(::Array<::Array<UnityEngine::Transform*>*>*)->byval_arg;
+    static auto* spine = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
     static auto* head = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
-    static auto* eyes = &classof(::Array<::Array<UnityEngine::Transform*>*>*)->byval_arg;
+    static auto* eyes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
     static auto* root = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt*), "SetChain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{spine, head, eyes, root});
   }
@@ -405,7 +405,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Vector3>* (RootMotion::FinalIK::IKSolverLookAt::*)(::Array<UnityEngine::Vector3>*&, UnityEngine::Vector3, UnityEngine::Vector3, int, float)>(&RootMotion::FinalIK::IKSolverLookAt::GetForwards)> {
   const MethodInfo* get() {
-    static auto* forwards = &classof(::Array<::Array<UnityEngine::Vector3>*>*)->this_arg;
+    static auto* forwards = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->this_arg;
     static auto* baseForward = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* targetForward = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* bones = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -418,8 +418,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverLookAt::*)(::Array<UnityEngine::Transform*>*, ::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>*&)>(&RootMotion::FinalIK::IKSolverLookAt::SetBones)> {
   const MethodInfo* get() {
-    static auto* array = &classof(::Array<::Array<UnityEngine::Transform*>*>*)->byval_arg;
-    static auto* bones = &classof(::Array<::Array<RootMotion::FinalIK::IKSolverLookAt::LookAtBone*>*>*)->this_arg;
+    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
+    static auto* bones = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverLookAt/LookAtBone"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLookAt*), "SetBones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array, bones});
   }
 };

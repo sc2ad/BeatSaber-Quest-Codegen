@@ -118,7 +118,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Array* (*)(System::Type*, ::Array<UnityEngine::Object*>*)>(&UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateArrayResult)> {
   const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* allAssets = &classof(::Array<::Array<UnityEngine::Object*>*>*)->byval_arg;
+    static auto* allAssets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::ResourceManagerConfig*), "CreateArrayResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, allAssets});
   }
 };
@@ -131,7 +131,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IList* (*)(System::Type*, ::Array<UnityEngine::Object*>*)>(&UnityEngine::ResourceManagement::Util::ResourceManagerConfig::CreateListResult)> {
   const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
-    static auto* allAssets = &classof(::Array<::Array<UnityEngine::Object*>*>*)->byval_arg;
+    static auto* allAssets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ResourceManagement::Util::ResourceManagerConfig*), "CreateListResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type, allAssets});
   }
 };

@@ -50,7 +50,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Parameters::DesEdeParameters*,
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::Parameters::DesEdeParameters::FixKey)> {
   const MethodInfo* get() {
-    static auto* key = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* key = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* keyOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* keyLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::DesEdeParameters*), "FixKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key, keyOff, keyLen});
@@ -61,7 +61,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Crypto::Parameters::DesEdeParameters::IsWeakKey)> {
   const MethodInfo* get() {
-    static auto* key = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* key = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::DesEdeParameters*), "IsWeakKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key, offset, length});
@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Crypto::Parameters::DesEdeParameters::IsWeakKey)> {
   const MethodInfo* get() {
-    static auto* key = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* key = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::DesEdeParameters*), "IsWeakKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
   }
 };

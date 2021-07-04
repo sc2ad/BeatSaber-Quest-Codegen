@@ -85,7 +85,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypedReference (*)(::Il2CppObject*, ::Array<System::Reflection::FieldInfo*>*)>(&System::TypedReference::MakeTypedReference)> {
   const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    static auto* flds = &classof(::Array<::Array<System::Reflection::FieldInfo*>*>*)->byval_arg;
+    static auto* flds = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "FieldInfo"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TypedReference), "MakeTypedReference", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{target, flds});
   }
 };
@@ -95,7 +95,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypedReference (*)(::Il2CppObject*, ::Array<System::Reflection::FieldInfo*>*)>(&System::TypedReference::MakeTypedReferenceInternal)> {
   const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
-    static auto* fields = &classof(::Array<::Array<System::Reflection::FieldInfo*>*>*)->byval_arg;
+    static auto* fields = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "FieldInfo"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TypedReference), "MakeTypedReferenceInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{target, fields});
   }
 };

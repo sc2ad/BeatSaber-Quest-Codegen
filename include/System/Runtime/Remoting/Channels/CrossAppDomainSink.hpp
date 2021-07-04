@@ -132,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Channels::CrossAppDomainSink::ProcessMessageRes (*)(::Array<uint8_t>*, System::Runtime::Remoting::Messaging::CADMethodCallMessage*)>(&System::Runtime::Remoting::Channels::CrossAppDomainSink::ProcessMessageInDomain)> {
   const MethodInfo* get() {
-    static auto* arrRequest = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* arrRequest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* cadMsg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "CADMethodCallMessage")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::CrossAppDomainSink*), "ProcessMessageInDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{arrRequest, cadMsg});
   }

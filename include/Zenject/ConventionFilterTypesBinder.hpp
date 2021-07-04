@@ -257,7 +257,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(::Array<::Il2CppString*>*)>(&Zenject::ConventionFilterTypesBinder::InNamespaces)> {
   const MethodInfo* get() {
-    static auto* namespaces = &classof(::Array<::Array<::Il2CppString*>*>*)->byval_arg;
+    static auto* namespaces = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "InNamespaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{namespaces});
   }
 };

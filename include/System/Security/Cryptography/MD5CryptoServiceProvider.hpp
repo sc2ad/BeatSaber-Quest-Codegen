@@ -116,7 +116,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::MD5CryptoServiceProvider*
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::MD5CryptoServiceProvider::*)(::Array<uint8_t>*, int)>(&System::Security::Cryptography::MD5CryptoServiceProvider::ProcessBlock)> {
   const MethodInfo* get() {
-    static auto* inputBuffer = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* inputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inputOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::MD5CryptoServiceProvider*), "ProcessBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputBuffer, inputOffset});
   }
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::MD5CryptoServiceProvider::*)(::Array<uint8_t>*, int, int)>(&System::Security::Cryptography::MD5CryptoServiceProvider::ProcessFinalBlock)> {
   const MethodInfo* get() {
-    static auto* inputBuffer = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* inputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inputOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* inputCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::MD5CryptoServiceProvider*), "ProcessFinalBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputBuffer, inputOffset, inputCount});
@@ -138,7 +138,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::MD5CryptoServiceProvider::*)(uint64_t, ::Array<uint8_t>*, int)>(&System::Security::Cryptography::MD5CryptoServiceProvider::AddLength)> {
   const MethodInfo* get() {
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
-    static auto* buffer = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* position = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::MD5CryptoServiceProvider*), "AddLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{length, buffer, position});
   }
@@ -177,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::MD5CryptoServiceProvider::*)(::Array<uint8_t>*, int, int)>(&System::Security::Cryptography::MD5CryptoServiceProvider::HashCore)> {
   const MethodInfo* get() {
-    static auto* rgb = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* rgb = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* ibStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cbSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::MD5CryptoServiceProvider*), "HashCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rgb, ibStart, cbSize});

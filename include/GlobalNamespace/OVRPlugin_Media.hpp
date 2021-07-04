@@ -314,7 +314,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
   const MethodInfo* get() {
     static auto* textureHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fgTextureHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* audioData = &classof(::Array<::Array<float>*>*)->byval_arg;
+    static auto* audioData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* audioFrames = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* audioChannels = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* timestamp = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;
@@ -329,7 +329,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::RenderTexture*, ::Array<float>*, int, int, double, double, int&)>(&GlobalNamespace::OVRPlugin::Media::EncodeMrcFrame)> {
   const MethodInfo* get() {
     static auto* frame = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
-    static auto* audioData = &classof(::Array<::Array<float>*>*)->byval_arg;
+    static auto* audioData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* audioFrames = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* audioChannels = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* timestamp = &::il2cpp_utils::GetClassFromName("System", "Double")->byval_arg;

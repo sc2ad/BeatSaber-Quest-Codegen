@@ -193,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::IsSquare)> {
   const MethodInfo* get() {
-    static auto* x = &classof(::Array<::Array<uint>*>*)->byval_arg;
+    static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement*), "IsSquare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
   }
 };
@@ -202,13 +202,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, ::Array<uint>*, ::Array<uint>*, ::Array<uint>*, ::Array<uint>*, ::Array<uint>*, ::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::RM)> {
   const MethodInfo* get() {
-    static auto* nc = &classof(::Array<::Array<uint>*>*)->byval_arg;
-    static auto* d0 = &classof(::Array<::Array<uint>*>*)->byval_arg;
-    static auto* e0 = &classof(::Array<::Array<uint>*>*)->byval_arg;
-    static auto* d1 = &classof(::Array<::Array<uint>*>*)->byval_arg;
-    static auto* e1 = &classof(::Array<::Array<uint>*>*)->byval_arg;
-    static auto* f1 = &classof(::Array<::Array<uint>*>*)->byval_arg;
-    static auto* t = &classof(::Array<::Array<uint>*>*)->byval_arg;
+    static auto* nc = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* d0 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* e0 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* d1 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* e1 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* f1 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* t = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement*), "RM", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nc, d0, e0, d1, e1, f1, t});
   }
 };
@@ -217,11 +217,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, ::Array<uint>*, ::Array<uint>*, ::Array<uint>*, ::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::RP)> {
   const MethodInfo* get() {
-    static auto* nc = &classof(::Array<::Array<uint>*>*)->byval_arg;
-    static auto* d1 = &classof(::Array<::Array<uint>*>*)->byval_arg;
-    static auto* e1 = &classof(::Array<::Array<uint>*>*)->byval_arg;
-    static auto* f1 = &classof(::Array<::Array<uint>*>*)->byval_arg;
-    static auto* t = &classof(::Array<::Array<uint>*>*)->byval_arg;
+    static auto* nc = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* d1 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* e1 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* f1 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* t = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement*), "RP", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nc, d1, e1, f1, t});
   }
 };
@@ -230,10 +230,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, ::Array<uint>*, ::Array<uint>*, ::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::RS)> {
   const MethodInfo* get() {
-    static auto* d = &classof(::Array<::Array<uint>*>*)->byval_arg;
-    static auto* e = &classof(::Array<::Array<uint>*>*)->byval_arg;
-    static auto* f = &classof(::Array<::Array<uint>*>*)->byval_arg;
-    static auto* t = &classof(::Array<::Array<uint>*>*)->byval_arg;
+    static auto* d = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* e = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* f = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* t = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement*), "RS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{d, e, f, t});
   }
 };
@@ -242,9 +242,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint>*, ::Array<uint>*, ::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::TrySqrt)> {
   const MethodInfo* get() {
-    static auto* nc = &classof(::Array<::Array<uint>*>*)->byval_arg;
-    static auto* r = &classof(::Array<::Array<uint>*>*)->byval_arg;
-    static auto* t = &classof(::Array<::Array<uint>*>*)->byval_arg;
+    static auto* nc = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* r = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* t = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement*), "TrySqrt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nc, r, t});
   }
 };

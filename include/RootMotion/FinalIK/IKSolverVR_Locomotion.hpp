@@ -317,8 +317,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Locomotion::*)(::Array<UnityEngine::Vector3>*, ::Array<UnityEngine::Quaternion>*, bool)>(&RootMotion::FinalIK::IKSolverVR::Locomotion::Initiate)> {
   const MethodInfo* get() {
-    static auto* positions = &classof(::Array<::Array<UnityEngine::Vector3>*>*)->byval_arg;
-    static auto* rotations = &classof(::Array<::Array<UnityEngine::Quaternion>*>*)->byval_arg;
+    static auto* positions = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
+    static auto* rotations = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion"), 1)->byval_arg;
     static auto* hasToes = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Locomotion*), "Initiate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{positions, rotations, hasToes});
   }
@@ -328,8 +328,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Locomotion::*)(::Array<UnityEngine::Vector3>*, ::Array<UnityEngine::Quaternion>*)>(&RootMotion::FinalIK::IKSolverVR::Locomotion::Reset)> {
   const MethodInfo* get() {
-    static auto* positions = &classof(::Array<::Array<UnityEngine::Vector3>*>*)->byval_arg;
-    static auto* rotations = &classof(::Array<::Array<UnityEngine::Quaternion>*>*)->byval_arg;
+    static auto* positions = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
+    static auto* rotations = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverVR::Locomotion*), "Reset", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{positions, rotations});
   }
 };

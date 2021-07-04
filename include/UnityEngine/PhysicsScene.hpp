@@ -209,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
   const MethodInfo* get() {
     static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
-    static auto* raycastHits = &classof(::Array<::Array<UnityEngine::RaycastHit>*>*)->byval_arg;
+    static auto* raycastHits = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit"), 1)->byval_arg;
     static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;
@@ -223,7 +223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
   const MethodInfo* get() {
     static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene")->byval_arg;
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
-    static auto* raycastHits = &classof(::Array<::Array<UnityEngine::RaycastHit>*>*)->byval_arg;
+    static auto* raycastHits = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit"), 1)->byval_arg;
     static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* mask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;
@@ -335,7 +335,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
     static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene")->byval_arg;
     static auto* center = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* halfExtents = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
-    static auto* results = &classof(::Array<::Array<UnityEngine::Collider*>*>*)->byval_arg;
+    static auto* results = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Collider"), 1)->byval_arg;
     static auto* orientation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* mask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;
@@ -349,7 +349,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
   const MethodInfo* get() {
     static auto* center = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* halfExtents = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
-    static auto* results = &classof(::Array<::Array<UnityEngine::Collider*>*>*)->byval_arg;
+    static auto* results = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Collider"), 1)->byval_arg;
     static auto* orientation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;
@@ -390,7 +390,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
   const MethodInfo* get() {
     static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene")->this_arg;
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->this_arg;
-    static auto* raycastHits = &classof(::Array<::Array<UnityEngine::RaycastHit>*>*)->byval_arg;
+    static auto* raycastHits = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit"), 1)->byval_arg;
     static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* mask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;
@@ -438,7 +438,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
     static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene")->this_arg;
     static auto* center = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* halfExtents = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
-    static auto* results = &classof(::Array<::Array<UnityEngine::Collider*>*>*)->byval_arg;
+    static auto* results = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Collider"), 1)->byval_arg;
     static auto* orientation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
     static auto* mask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;

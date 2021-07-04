@@ -238,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
   const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* functionName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* argumentTypes = &classof(::Array<::Array<System::Type*>*>*)->byval_arg;
+    static auto* argumentTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::UnityEventBase*), "GetValidMethodInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj, functionName, argumentTypes});
   }
 };

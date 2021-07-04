@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ui
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, uint8_t*, int, int)>(&System::Buffer::Memcpy)> {
   const MethodInfo* get() {
-    static auto* dest = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* dest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* destIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* src = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
     static auto* srcIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ui
   const MethodInfo* get() {
     static auto* pDest = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
     static auto* destIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* src = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* src = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* srcIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Buffer*), "Memcpy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pDest, destIndex, src, srcIndex, len});

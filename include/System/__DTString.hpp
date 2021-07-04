@@ -293,7 +293,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::__DTString::*)(::Array<::Il2CppString*>*, int&)>(&System::__DTString::MatchLongestWords)> {
   const MethodInfo* get() {
-    static auto* words = &classof(::Array<::Array<::Il2CppString*>*>*)->byval_arg;
+    static auto* words = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* maxMatchStrLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::__DTString), "MatchLongestWords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{words, maxMatchStrLen});
   }

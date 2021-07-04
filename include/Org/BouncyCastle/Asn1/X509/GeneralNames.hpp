@@ -86,7 +86,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::X509::GeneralNames*, "Org.Bouncy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>* (*)(::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>*)>(&Org::BouncyCastle::Asn1::X509::GeneralNames::Copy)> {
   const MethodInfo* get() {
-    static auto* names = &classof(::Array<::Array<Org::BouncyCastle::Asn1::X509::GeneralName*>*>*)->byval_arg;
+    static auto* names = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1.X509", "GeneralName"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::GeneralNames*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{names});
   }
 };

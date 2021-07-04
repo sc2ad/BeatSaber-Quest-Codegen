@@ -63,8 +63,8 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper*
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<GlobalNamespace::AlphabetScrollInfo::Data*>* (*)(::Array<GlobalNamespace::IPreviewBeatmapLevel*>*, ::Array<GlobalNamespace::IPreviewBeatmapLevel*>*&)>(&GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::CreateData)> {
   const MethodInfo* get() {
-    static auto* previewBeatmapLevels = &classof(::Array<::Array<GlobalNamespace::IPreviewBeatmapLevel*>*>*)->byval_arg;
-    static auto* sortedPreviewBeatmapLevels = &classof(::Array<::Array<GlobalNamespace::IPreviewBeatmapLevel*>*>*)->this_arg;
+    static auto* previewBeatmapLevels = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel"), 1)->byval_arg;
+    static auto* sortedPreviewBeatmapLevels = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper*), "CreateData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{previewBeatmapLevels, sortedPreviewBeatmapLevels});
   }
 };

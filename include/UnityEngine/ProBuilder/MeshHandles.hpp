@@ -149,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
   const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
-    static auto* edges = &classof(::Array<::Array<UnityEngine::ProBuilder::Edge>*>*)->byval_arg;
+    static auto* edges = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshHandles*), "CreateEdgeMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh, target, edges});
   }
 };
@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<UnityEngine::Vector3>*, System::Collections::Generic::IList_1<int>*, UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshHandles::CreatePointMesh)> {
   const MethodInfo* get() {
-    static auto* positions = &classof(::Array<::Array<UnityEngine::Vector3>*>*)->byval_arg;
+    static auto* positions = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* indexes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshHandles*), "CreatePointMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{positions, indexes, target});

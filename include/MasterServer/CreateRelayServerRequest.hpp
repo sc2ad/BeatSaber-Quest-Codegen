@@ -177,13 +177,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServe
     static auto* ownerUserId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ownerUserName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* ownerEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
-    static auto* ownerRandom = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* ownerPublicKey = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* ownerRandom = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* ownerPublicKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* clientUserId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* clientUserName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* clientEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
-    static auto* clientRandom = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* clientPublicKey = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* clientRandom = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* clientPublicKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::CreateRelayServerRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{secret, ownerUserId, ownerUserName, ownerEndPoint, ownerRandom, ownerPublicKey, clientUserId, clientUserName, clientEndPoint, clientRandom, clientPublicKey});
   }
 };

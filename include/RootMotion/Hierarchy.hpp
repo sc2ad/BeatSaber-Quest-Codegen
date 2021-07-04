@@ -75,7 +75,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::Hierarchy*, "RootMotion", "Hierarchy");
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<UnityEngine::Transform*>*)>(&RootMotion::Hierarchy::HierarchyIsValid)> {
   const MethodInfo* get() {
-    static auto* bones = &classof(::Array<::Array<UnityEngine::Transform*>*>*)->byval_arg;
+    static auto* bones = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::Hierarchy*), "HierarchyIsValid", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bones});
   }
 };
@@ -84,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Object* (*)(::Array<UnityEngine::Object*>*)>(&RootMotion::Hierarchy::ContainsDuplicate)> {
   const MethodInfo* get() {
-    static auto* objects = &classof(::Array<::Array<UnityEngine::Object*>*>*)->byval_arg;
+    static auto* objects = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::Hierarchy*), "ContainsDuplicate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objects});
   }
 };
@@ -115,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
   const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* blocker = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
-    static auto* array = &classof(::Array<::Array<UnityEngine::Transform*>*>*)->this_arg;
+    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::Hierarchy*), "AddAncestors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transform, blocker, array});
   }
 };
@@ -144,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(::Array<UnityEngine::Transform*>*)>(&RootMotion::Hierarchy::GetFirstCommonAncestor)> {
   const MethodInfo* get() {
-    static auto* transforms = &classof(::Array<::Array<UnityEngine::Transform*>*>*)->byval_arg;
+    static auto* transforms = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::Hierarchy*), "GetFirstCommonAncestor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transforms});
   }
 };
@@ -154,7 +154,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (*)(UnityEngine::Transform*, ::Array<UnityEngine::Transform*>*)>(&RootMotion::Hierarchy::GetFirstCommonAncestorRecursive)> {
   const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
-    static auto* transforms = &classof(::Array<::Array<UnityEngine::Transform*>*>*)->byval_arg;
+    static auto* transforms = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::Hierarchy*), "GetFirstCommonAncestorRecursive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transform, transforms});
   }
 };
@@ -164,7 +164,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Transform*, ::Array<UnityEngine::Transform*>*)>(&RootMotion::Hierarchy::IsCommonAncestor)> {
   const MethodInfo* get() {
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
-    static auto* transforms = &classof(::Array<::Array<UnityEngine::Transform*>*>*)->byval_arg;
+    static auto* transforms = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::Hierarchy*), "IsCommonAncestor", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{transform, transforms});
   }
 };

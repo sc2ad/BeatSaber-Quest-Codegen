@@ -179,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(::Array<OVR::OpenVR::VRActiveActionSet_t>*, uint)>(&OVR::OpenVR::CVRInput::UpdateActionState)> {
   const MethodInfo* get() {
-    static auto* pSets = &classof(::Array<::Array<OVR::OpenVR::VRActiveActionSet_t>*>*)->byval_arg;
+    static auto* pSets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRActiveActionSet_t"), 1)->byval_arg;
     static auto* unSizeOfVRSelectedActionSet_t = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRInput*), "UpdateActionState", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pSets, unSizeOfVRSelectedActionSet_t});
   }
@@ -242,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
     static auto* action = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eTransformSpace = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRSkeletalTransformSpace")->byval_arg;
     static auto* eMotionRange = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRSkeletalMotionRange")->byval_arg;
-    static auto* pTransformArray = &classof(::Array<::Array<OVR::OpenVR::VRBoneTransform_t>*>*)->byval_arg;
+    static auto* pTransformArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRBoneTransform_t"), 1)->byval_arg;
     static auto* ulRestrictToDevice = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRInput*), "GetSkeletalBoneData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{action, eTransformSpace, eMotionRange, pTransformArray, ulRestrictToDevice});
   }
@@ -270,7 +270,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
     static auto* pvCompressedBuffer = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* unCompressedBufferSize = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* peTransformSpace = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRSkeletalTransformSpace")->this_arg;
-    static auto* pTransformArray = &classof(::Array<::Array<OVR::OpenVR::VRBoneTransform_t>*>*)->byval_arg;
+    static auto* pTransformArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRBoneTransform_t"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRInput*), "DecompressSkeletalBoneData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pvCompressedBuffer, unCompressedBufferSize, peTransformSpace, pTransformArray});
   }
 };
@@ -295,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
   const MethodInfo* get() {
     static auto* actionSetHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* digitalActionHandle = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
-    static auto* originsOut = &classof(::Array<::Array<uint64_t>*>*)->byval_arg;
+    static auto* originsOut = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRInput*), "GetActionOrigins", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{actionSetHandle, digitalActionHandle, originsOut});
   }
 };
@@ -336,7 +336,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::CVRInput::*)(::Array<OVR::OpenVR::VRActiveActionSet_t>*, uint, uint64_t)>(&OVR::OpenVR::CVRInput::ShowBindingsForActionSet)> {
   const MethodInfo* get() {
-    static auto* pSets = &classof(::Array<::Array<OVR::OpenVR::VRActiveActionSet_t>*>*)->byval_arg;
+    static auto* pSets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRActiveActionSet_t"), 1)->byval_arg;
     static auto* unSizeOfVRSelectedActionSet_t = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* originToHighlight = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRInput*), "ShowBindingsForActionSet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pSets, unSizeOfVRSelectedActionSet_t, originToHighlight});

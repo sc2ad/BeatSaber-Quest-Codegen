@@ -213,9 +213,9 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*, "Org.Boun
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::CalculateS)> {
   const MethodInfo* get() {
-    static auto* r = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* k = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* s = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* r = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* k = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* s = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*), "CalculateS", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{r, k, s});
   }
 };
@@ -224,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<uint8_t>*, uint8_t)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::CheckContextVar)> {
   const MethodInfo* get() {
-    static auto* ctx = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* ctx = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* phflag = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*), "CheckContextVar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ctx, phflag});
   }
@@ -234,8 +234,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<int>*, ::Array<int>*)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::CheckPoint)> {
   const MethodInfo* get() {
-    static auto* x = &classof(::Array<::Array<int>*>*)->byval_arg;
-    static auto* y = &classof(::Array<::Array<int>*>*)->byval_arg;
+    static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* y = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*), "CheckPoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y});
   }
 };
@@ -260,7 +260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Decode24)> {
   const MethodInfo* get() {
-    static auto* bs = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* bs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*), "Decode24", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bs, off});
   }
@@ -270,7 +270,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::Array<uint8_t>*, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Decode32)> {
   const MethodInfo* get() {
-    static auto* bs = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* bs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*), "Decode32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bs, off});
   }
@@ -280,9 +280,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, ::Array<uint>*, int, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Decode32)> {
   const MethodInfo* get() {
-    static auto* bs = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* bs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* bsOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* n = &classof(::Array<::Array<uint>*>*)->byval_arg;
+    static auto* n = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* nOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* nLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*), "Decode32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bs, bsOff, n, nOff, nLen});
@@ -293,9 +293,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, ::Array<uint>*)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::DecodeScalar)> {
   const MethodInfo* get() {
-    static auto* k = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* k = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* kOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* n = &classof(::Array<::Array<uint>*>*)->byval_arg;
+    static auto* n = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*), "DecodeScalar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{k, kOff, n});
   }
 };
@@ -306,7 +306,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Or
   const MethodInfo* get() {
     static auto* d = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto", "IDigest")->byval_arg;
     static auto* phflag = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
-    static auto* ctx = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* ctx = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*), "Dom2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{d, phflag, ctx});
   }
 };
@@ -316,7 +316,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Encode24)> {
   const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
-    static auto* bs = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* bs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*), "Encode24", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{n, bs, off});
   }
@@ -327,7 +327,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Encode32)> {
   const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
-    static auto* bs = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* bs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*), "Encode32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{n, bs, off});
   }
@@ -338,7 +338,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Encode56)> {
   const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
-    static auto* bs = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* bs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*), "Encode56", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{n, bs, off});
   }
@@ -349,7 +349,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAccum*, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::EncodePoint)> {
   const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519/PointAccum")->byval_arg;
-    static auto* r = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* r = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* rOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*), "EncodePoint", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p, r, rOff});
   }
@@ -359,9 +359,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Org
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::GeneratePublicKey)> {
   const MethodInfo* get() {
-    static auto* sk = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* sk = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* skOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* pk = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* pk = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* pkOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*), "GeneratePublicKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sk, skOff, pk, pkOff});
   }
@@ -372,16 +372,16 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Org::BouncyCastle::Crypto::IDigest*, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, int, ::Array<uint8_t>*, uint8_t, ::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ImplSign)> {
   const MethodInfo* get() {
     static auto* d = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto", "IDigest")->byval_arg;
-    static auto* h = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* s = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* pk = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* h = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* s = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* pk = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* pkOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* ctx = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* ctx = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* phflag = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
-    static auto* m = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* m = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* mOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* mLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* sig = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* sig = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* sigOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*), "ImplSign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{d, h, s, pk, pkOff, ctx, phflag, m, mOff, mLen, sig, sigOff});
   }
@@ -391,16 +391,16 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Or
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int, ::Array<uint8_t>*, uint8_t, ::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ImplSign)> {
   const MethodInfo* get() {
-    static auto* sk = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* sk = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* skOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* pk = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* pk = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* pkOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* ctx = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* ctx = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* phflag = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
-    static auto* m = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* m = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* mOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* mLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* sig = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* sig = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* sigOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*), "ImplSign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sk, skOff, pk, pkOff, ctx, phflag, m, mOff, mLen, sig, sigOff});
   }
@@ -524,9 +524,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, ::Array<uint8_t>*)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PruneScalar)> {
   const MethodInfo* get() {
-    static auto* n = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* n = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* nOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* r = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* r = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*), "PruneScalar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{n, nOff, r});
   }
 };
@@ -535,7 +535,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(::Array<uint8_t>*)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ReduceScalar)> {
   const MethodInfo* get() {
-    static auto* n = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* n = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*), "ReduceScalar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{n});
   }
 };
@@ -544,7 +544,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAccum*)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ScalarMultBase)> {
   const MethodInfo* get() {
-    static auto* k = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* k = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* r = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519/PointAccum")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*), "ScalarMultBase", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{k, r});
   }
@@ -554,8 +554,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ScalarMultBaseEncoded)> {
   const MethodInfo* get() {
-    static auto* k = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* r = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* k = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* r = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* rOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*), "ScalarMultBaseEncoded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{k, r, rOff});
   }
@@ -565,14 +565,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int, ::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Sign)> {
   const MethodInfo* get() {
-    static auto* sk = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* sk = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* skOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* pk = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* pk = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* pkOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* m = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* m = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* mOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* mLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* sig = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* sig = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* sigOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*), "Sign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sk, skOff, pk, pkOff, m, mOff, mLen, sig, sigOff});
   }
@@ -582,15 +582,15 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int, ::Array<uint8_t>*, ::Array<uint8_t>*, int, int, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Sign)> {
   const MethodInfo* get() {
-    static auto* sk = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* sk = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* skOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* pk = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* pk = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* pkOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* ctx = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* m = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* ctx = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* m = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* mOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* mLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* sig = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* sig = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* sigOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*), "Sign", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sk, skOff, pk, pkOff, ctx, m, mOff, mLen, sig, sigOff});
   }
@@ -600,14 +600,14 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, ::Array<uint8_t>*, int, ::Array<uint8_t>*, ::Array<uint8_t>*, int, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::SignPrehash)> {
   const MethodInfo* get() {
-    static auto* sk = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* sk = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* skOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* pk = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* pk = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* pkOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* ctx = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* ph = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* ctx = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* ph = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* phOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* sig = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* sig = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* sigOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*), "SignPrehash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sk, skOff, pk, pkOff, ctx, ph, phOff, sig, sigOff});
   }

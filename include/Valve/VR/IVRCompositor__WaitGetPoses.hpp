@@ -68,9 +68,9 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRCompositor::_WaitGetPoses*, "Valve.VR", "IV
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRCompositorError (Valve::VR::IVRCompositor::_WaitGetPoses::*)(::Array<Valve::VR::TrackedDevicePose_t>*&, uint, ::Array<Valve::VR::TrackedDevicePose_t>*&, uint)>(&Valve::VR::IVRCompositor::_WaitGetPoses::Invoke)> {
   const MethodInfo* get() {
-    static auto* pRenderPoseArray = &classof(::Array<::Array<Valve::VR::TrackedDevicePose_t>*>*)->this_arg;
+    static auto* pRenderPoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t"), 1)->this_arg;
     static auto* unRenderPoseArrayCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
-    static auto* pGamePoseArray = &classof(::Array<::Array<Valve::VR::TrackedDevicePose_t>*>*)->this_arg;
+    static auto* pGamePoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t"), 1)->this_arg;
     static auto* unGamePoseArrayCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRCompositor::_WaitGetPoses*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pRenderPoseArray, unRenderPoseArrayCount, pGamePoseArray, unGamePoseArrayCount});
   }
@@ -80,9 +80,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRCompositor::_WaitGetPoses::*)(::Array<Valve::VR::TrackedDevicePose_t>*&, uint, ::Array<Valve::VR::TrackedDevicePose_t>*&, uint, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRCompositor::_WaitGetPoses::BeginInvoke)> {
   const MethodInfo* get() {
-    static auto* pRenderPoseArray = &classof(::Array<::Array<Valve::VR::TrackedDevicePose_t>*>*)->this_arg;
+    static auto* pRenderPoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t"), 1)->this_arg;
     static auto* unRenderPoseArrayCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
-    static auto* pGamePoseArray = &classof(::Array<::Array<Valve::VR::TrackedDevicePose_t>*>*)->this_arg;
+    static auto* pGamePoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t"), 1)->this_arg;
     static auto* unGamePoseArrayCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;
     static auto* object = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

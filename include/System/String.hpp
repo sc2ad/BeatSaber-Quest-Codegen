@@ -809,7 +809,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Array<::Il2CppString*>*)>(&System::String::Join)> {
   const MethodInfo* get() {
     static auto* separator = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* value = &classof(::Array<::Array<::Il2CppString*>*>*)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{separator, value});
   }
 };
@@ -832,7 +832,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Array<::Il2CppString*>*, int, int)>(&System::String::Join)> {
   const MethodInfo* get() {
     static auto* separator = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* value = &classof(::Array<::Array<::Il2CppString*>*>*)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "Join", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{separator, value, startIndex, count});
@@ -923,7 +923,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::String::*)(int, ::Array<::Il2CppChar>*, int, int)>(&System::String::CopyTo)> {
   const MethodInfo* get() {
     static auto* sourceIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* destination = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* destination = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* destinationIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourceIndex, destination, destinationIndex, count});
@@ -968,7 +968,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::String::*)(::Array<::Il2CppChar>*)>(&System::String::Split)> {
   const MethodInfo* get() {
-    static auto* separator = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* separator = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "Split", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{separator});
   }
 };
@@ -977,7 +977,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::String::*)(::Array<::Il2CppChar>*, int)>(&System::String::Split)> {
   const MethodInfo* get() {
-    static auto* separator = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* separator = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "Split", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{separator, count});
   }
@@ -987,7 +987,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::String::*)(::Array<::Il2CppChar>*, System::StringSplitOptions)>(&System::String::Split)> {
   const MethodInfo* get() {
-    static auto* separator = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* separator = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("System", "StringSplitOptions")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "Split", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{separator, options});
   }
@@ -997,7 +997,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::String::*)(::Array<::Il2CppChar>*, int, System::StringSplitOptions)>(&System::String::SplitInternal)> {
   const MethodInfo* get() {
-    static auto* separator = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* separator = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("System", "StringSplitOptions")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "SplitInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{separator, count, options});
@@ -1008,7 +1008,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::String::*)(::Array<::Il2CppString*>*, System::StringSplitOptions)>(&System::String::Split)> {
   const MethodInfo* get() {
-    static auto* separator = &classof(::Array<::Array<::Il2CppString*>*>*)->byval_arg;
+    static auto* separator = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("System", "StringSplitOptions")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "Split", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{separator, options});
   }
@@ -1018,7 +1018,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::String::*)(::Array<::Il2CppString*>*, int, System::StringSplitOptions)>(&System::String::Split)> {
   const MethodInfo* get() {
-    static auto* separator = &classof(::Array<::Array<::Il2CppString*>*>*)->byval_arg;
+    static auto* separator = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* options = &::il2cpp_utils::GetClassFromName("System", "StringSplitOptions")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "Split", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{separator, count, options});
@@ -1029,8 +1029,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::String::*)(::Array<int>*, ::Array<int>*, int, int)>(&System::String::InternalSplitKeepEmptyEntries)> {
   const MethodInfo* get() {
-    static auto* sepList = &classof(::Array<::Array<int>*>*)->byval_arg;
-    static auto* lengthList = &classof(::Array<::Array<int>*>*)->byval_arg;
+    static auto* sepList = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* lengthList = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* numReplaces = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "InternalSplitKeepEmptyEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sepList, lengthList, numReplaces, count});
@@ -1041,8 +1041,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (System::String::*)(::Array<int>*, ::Array<int>*, int, int)>(&System::String::InternalSplitOmitEmptyEntries)> {
   const MethodInfo* get() {
-    static auto* sepList = &classof(::Array<::Array<int>*>*)->byval_arg;
-    static auto* lengthList = &classof(::Array<::Array<int>*>*)->byval_arg;
+    static auto* sepList = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
+    static auto* lengthList = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* numReplaces = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "InternalSplitOmitEmptyEntries", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sepList, lengthList, numReplaces, count});
@@ -1053,8 +1053,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::String::*)(::Array<::Il2CppChar>*, ::Array<int>*&)>(&System::String::MakeSeparatorList)> {
   const MethodInfo* get() {
-    static auto* separator = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
-    static auto* sepList = &classof(::Array<::Array<int>*>*)->this_arg;
+    static auto* separator = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
+    static auto* sepList = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "MakeSeparatorList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{separator, sepList});
   }
 };
@@ -1063,9 +1063,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::String::*)(::Array<::Il2CppString*>*, ::Array<int>*&, ::Array<int>*&)>(&System::String::MakeSeparatorList)> {
   const MethodInfo* get() {
-    static auto* separators = &classof(::Array<::Array<::Il2CppString*>*>*)->byval_arg;
-    static auto* sepList = &classof(::Array<::Array<int>*>*)->this_arg;
-    static auto* lengthList = &classof(::Array<::Array<int>*>*)->this_arg;
+    static auto* separators = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
+    static auto* sepList = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
+    static auto* lengthList = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "MakeSeparatorList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{separators, sepList, lengthList});
   }
 };
@@ -1103,7 +1103,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::String::*)(::Array<::Il2CppChar>*)>(&System::String::Trim)> {
   const MethodInfo* get() {
-    static auto* trimChars = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* trimChars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "Trim", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{trimChars});
   }
 };
@@ -1112,7 +1112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::String::*)(::Array<::Il2CppChar>*)>(&System::String::TrimStart)> {
   const MethodInfo* get() {
-    static auto* trimChars = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* trimChars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "TrimStart", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{trimChars});
   }
 };
@@ -1121,7 +1121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::String::*)(::Array<::Il2CppChar>*)>(&System::String::TrimEnd)> {
   const MethodInfo* get() {
-    static auto* trimChars = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* trimChars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "TrimEnd", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{trimChars});
   }
 };
@@ -1201,7 +1201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::String::*)(::Array<::Il2CppChar>*)>(&System::String::CtorCharArray)> {
   const MethodInfo* get() {
-    static auto* value = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "CtorCharArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
@@ -1210,7 +1210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::String::*)(::Array<::Il2CppChar>*, int, int)>(&System::String::CtorCharArrayStartLength)> {
   const MethodInfo* get() {
-    static auto* value = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "CtorCharArrayStartLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, startIndex, length});
@@ -1424,7 +1424,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::String::*)(::Array<::Il2CppChar>*)>(&System::String::IndexOfAny)> {
   const MethodInfo* get() {
-    static auto* anyOf = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* anyOf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "IndexOfAny", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{anyOf});
   }
 };
@@ -1433,7 +1433,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::String::*)(::Array<::Il2CppChar>*, int)>(&System::String::IndexOfAny)> {
   const MethodInfo* get() {
-    static auto* anyOf = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* anyOf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "IndexOfAny", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{anyOf, startIndex});
   }
@@ -1514,7 +1514,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::String::*)(::Array<::Il2CppChar>*)>(&System::String::LastIndexOfAny)> {
   const MethodInfo* get() {
-    static auto* anyOf = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* anyOf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "LastIndexOfAny", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{anyOf});
   }
 };
@@ -1523,7 +1523,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::String::*)(::Array<::Il2CppChar>*, int)>(&System::String::LastIndexOfAny)> {
   const MethodInfo* get() {
-    static auto* anyOf = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* anyOf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "LastIndexOfAny", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{anyOf, startIndex});
   }
@@ -1696,7 +1696,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::String::*)(::Array<::Il2CppChar>*, int)>(&System::String::TrimHelper)> {
   const MethodInfo* get() {
-    static auto* trimChars = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* trimChars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* trimType = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "TrimHelper", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{trimChars, trimType});
   }
@@ -1799,7 +1799,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&System::String::Format)> {
   const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* args = &classof(::Array<::Array<::Il2CppObject*>*>*)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format, args});
   }
 };
@@ -1846,7 +1846,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
   const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* args = &classof(::Array<::Array<::Il2CppObject*>*>*)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "Format", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider, format, args});
   }
 };
@@ -1905,7 +1905,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<::Il2CppObject*>*)>(&System::String::Concat)> {
   const MethodInfo* get() {
-    static auto* args = &classof(::Array<::Array<::Il2CppObject*>*>*)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "Concat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
   }
 };
@@ -1947,7 +1947,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<::Il2CppString*>*, int)>(&System::String::ConcatArray)> {
   const MethodInfo* get() {
-    static auto* values = &classof(::Array<::Array<::Il2CppString*>*>*)->byval_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* totalLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "ConcatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{values, totalLength});
   }
@@ -1957,7 +1957,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Array<::Il2CppString*>*)>(&System::String::Concat)> {
   const MethodInfo* get() {
-    static auto* values = &classof(::Array<::Array<::Il2CppString*>*>*)->byval_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "Concat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{values});
   }
 };
@@ -2190,7 +2190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::String::*)(::Array<::Il2CppChar>*, int, int)>(&System::String::IndexOfAny)> {
   const MethodInfo* get() {
-    static auto* anyOf = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* anyOf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "IndexOfAny", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{anyOf, startIndex, count});
@@ -2201,7 +2201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::String::*)(::Array<::Il2CppChar>*, int, int)>(&System::String::IndexOfAnyUnchecked)> {
   const MethodInfo* get() {
-    static auto* anyOf = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* anyOf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "IndexOfAnyUnchecked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{anyOf, startIndex, count});
@@ -2234,7 +2234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::String::*)(::Array<::Il2CppChar>*, int, int)>(&System::String::LastIndexOfAny)> {
   const MethodInfo* get() {
-    static auto* anyOf = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* anyOf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "LastIndexOfAny", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{anyOf, startIndex, count});
@@ -2245,7 +2245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::String::*)(::Array<::Il2CppChar>*, int, int)>(&System::String::LastIndexOfAnyUnchecked)> {
   const MethodInfo* get() {
-    static auto* anyOf = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* anyOf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "LastIndexOfAnyUnchecked", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{anyOf, startIndex, count});
@@ -2514,7 +2514,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::String::*)(::Array<::Il2CppChar>*, int, int)>(&System::String::CreateString)> {
   const MethodInfo* get() {
-    static auto* val = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* val = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "CreateString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val, startIndex, length});
@@ -2525,7 +2525,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::String::*)(::Array<::Il2CppChar>*)>(&System::String::CreateString)> {
   const MethodInfo* get() {
-    static auto* val = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* val = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::String*), "CreateString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});
   }
 };

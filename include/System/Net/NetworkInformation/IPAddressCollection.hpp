@@ -109,7 +109,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::NetworkInformation::IPAddressCollection*, "S
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::IPAddressCollection::*)(::Array<System::Net::IPAddress*>*, int)>(&System::Net::NetworkInformation::IPAddressCollection::CopyTo)> {
   const MethodInfo* get() {
-    static auto* array = &classof(::Array<::Array<System::Net::IPAddress*>*>*)->byval_arg;
+    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Net", "IPAddress"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::IPAddressCollection*), "CopyTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array, offset});
   }

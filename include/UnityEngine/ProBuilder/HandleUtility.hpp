@@ -214,8 +214,8 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Ray, ::Array<UnityEngine::Vector3>*, ::Array<int>*, UnityEngine::ProBuilder::RaycastHit*&, float)>(&UnityEngine::ProBuilder::HandleUtility::MeshRaycast)> {
   const MethodInfo* get() {
     static auto* InRay = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
-    static auto* mesh = &classof(::Array<::Array<UnityEngine::Vector3>*>*)->byval_arg;
-    static auto* triangles = &classof(::Array<::Array<int>*>*)->byval_arg;
+    static auto* mesh = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
+    static auto* triangles = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* hit = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "RaycastHit")->this_arg;
     static auto* distance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::HandleUtility*), "MeshRaycast", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{InRay, mesh, triangles, hit, distance});

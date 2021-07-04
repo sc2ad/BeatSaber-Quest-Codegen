@@ -58,7 +58,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IO::Stream*, ::Array<uint8_t>*)>(&Org::BouncyCastle::Utilities::IO::Streams::ReadFully)> {
   const MethodInfo* get() {
     static auto* inStr = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
-    static auto* buf = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Streams*), "ReadFully", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inStr, buf});
   }
 };
@@ -68,7 +68,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IO::Stream*, ::Array<uint8_t>*, int, int)>(&Org::BouncyCastle::Utilities::IO::Streams::ReadFully)> {
   const MethodInfo* get() {
     static auto* inStr = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
-    static auto* buf = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Streams*), "ReadFully", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inStr, buf, off, len});
@@ -90,7 +90,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IO::MemoryStream*, ::Array<uint8_t>*, int)>(&Org::BouncyCastle::Utilities::IO::Streams::WriteBufTo)> {
   const MethodInfo* get() {
     static auto* buf = &::il2cpp_utils::GetClassFromName("System.IO", "MemoryStream")->byval_arg;
-    static auto* output = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Streams*), "WriteBufTo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buf, output, offset});
   }

@@ -68,7 +68,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::*)(UnityEngine::Ray, ::Array<UnityEngine::RaycastHit2D>*, float, int)>(&UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::Invoke)> {
   const MethodInfo* get() {
     static auto* r = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
-    static auto* results = &classof(::Array<::Array<UnityEngine::RaycastHit2D>*>*)->byval_arg;
+    static auto* results = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit2D"), 1)->byval_arg;
     static auto* f = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{r, results, f, i});
@@ -80,7 +80,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::*)(UnityEngine::Ray, ::Array<UnityEngine::RaycastHit2D>*, float, int, System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback::BeginInvoke)> {
   const MethodInfo* get() {
     static auto* r = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
-    static auto* results = &classof(::Array<::Array<UnityEngine::RaycastHit2D>*>*)->byval_arg;
+    static auto* results = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit2D"), 1)->byval_arg;
     static auto* f = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;

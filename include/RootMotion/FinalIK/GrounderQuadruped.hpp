@@ -383,7 +383,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::GrounderQuadruped::*)(::Array<RootMotion::FinalIK::IK*>*)>(&RootMotion::FinalIK::GrounderQuadruped::IsReadyToInitiateLegs)> {
   const MethodInfo* get() {
-    static auto* ikComponents = &classof(::Array<::Array<RootMotion::FinalIK::IK*>*>*)->byval_arg;
+    static auto* ikComponents = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IK"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::GrounderQuadruped*), "IsReadyToInitiateLegs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ikComponents});
   }
 };
@@ -416,8 +416,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Transform*>* (RootMotion::FinalIK::GrounderQuadruped::*)(::Array<RootMotion::FinalIK::IK*>*, ::Array<RootMotion::FinalIK::GrounderQuadruped::Foot>*&, int)>(&RootMotion::FinalIK::GrounderQuadruped::InitiateFeet)> {
   const MethodInfo* get() {
-    static auto* ikComponents = &classof(::Array<::Array<RootMotion::FinalIK::IK*>*>*)->byval_arg;
-    static auto* f = &classof(::Array<::Array<RootMotion::FinalIK::GrounderQuadruped::Foot>*>*)->this_arg;
+    static auto* ikComponents = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IK"), 1)->byval_arg;
+    static auto* f = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "GrounderQuadruped/Foot"), 1)->this_arg;
     static auto* indexOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::GrounderQuadruped*), "InitiateFeet", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ikComponents, f, indexOffset});
   }
@@ -485,7 +485,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::GrounderQuadruped::*)(::Array<RootMotion::FinalIK::IK*>*)>(&RootMotion::FinalIK::GrounderQuadruped::DestroyLegs)> {
   const MethodInfo* get() {
-    static auto* ikComponents = &classof(::Array<::Array<RootMotion::FinalIK::IK*>*>*)->byval_arg;
+    static auto* ikComponents = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IK"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::GrounderQuadruped*), "DestroyLegs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ikComponents});
   }
 };

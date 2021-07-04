@@ -50,9 +50,9 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Raw::Mod*, "Org.BouncyCastle.Mat
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, ::Array<uint>*, ::Array<uint>*)>(&Org::BouncyCastle::Math::Raw::Mod::Invert)> {
   const MethodInfo* get() {
-    static auto* p = &classof(::Array<::Array<uint>*>*)->byval_arg;
-    static auto* x = &classof(::Array<::Array<uint>*>*)->byval_arg;
-    static auto* z = &classof(::Array<::Array<uint>*>*)->byval_arg;
+    static auto* p = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* z = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Raw::Mod*), "Invert", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p, x, z});
   }
 };
@@ -61,7 +61,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint>* (*)(::Array<uint>*)>(&Org::BouncyCastle::Math::Raw::Mod::Random)> {
   const MethodInfo* get() {
-    static auto* p = &classof(::Array<::Array<uint>*>*)->byval_arg;
+    static auto* p = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Raw::Mod*), "Random", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p});
   }
 };
@@ -70,10 +70,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, int, ::Array<uint>*, ::Array<uint>*)>(&Org::BouncyCastle::Math::Raw::Mod::InversionResult)> {
   const MethodInfo* get() {
-    static auto* p = &classof(::Array<::Array<uint>*>*)->byval_arg;
+    static auto* p = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* ac = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* a = &classof(::Array<::Array<uint>*>*)->byval_arg;
-    static auto* z = &classof(::Array<::Array<uint>*>*)->byval_arg;
+    static auto* a = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* z = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Raw::Mod*), "InversionResult", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p, ac, a, z});
   }
 };
@@ -82,10 +82,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, ::Array<uint>*, int, ::Array<uint>*, int&)>(&Org::BouncyCastle::Math::Raw::Mod::InversionStep)> {
   const MethodInfo* get() {
-    static auto* p = &classof(::Array<::Array<uint>*>*)->byval_arg;
-    static auto* u = &classof(::Array<::Array<uint>*>*)->byval_arg;
+    static auto* p = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* u = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* uLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* x = &classof(::Array<::Array<uint>*>*)->byval_arg;
+    static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* xc = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Raw::Mod*), "InversionStep", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{p, u, uLen, x, xc});
   }

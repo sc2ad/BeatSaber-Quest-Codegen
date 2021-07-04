@@ -307,7 +307,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     static auto* previewBeatmapLevel = &::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel")->byval_arg;
     static auto* overrideColorScheme = &::il2cpp_utils::GetClassFromName("", "ColorScheme")->byval_arg;
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
-    static auto* missionObjectives = &classof(::Array<::Array<GlobalNamespace::MissionObjective*>*>*)->byval_arg;
+    static auto* missionObjectives = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "MissionObjective"), 1)->byval_arg;
     static auto* playerSpecificSettings = &::il2cpp_utils::GetClassFromName("", "PlayerSpecificSettings")->byval_arg;
     static auto* beforeSceneSwitchCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
     static auto* levelFinishedCallback = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("", "MissionLevelScenesTransitionSetupDataSO"), ::il2cpp_utils::GetClassFromName("", "MissionCompletionResults")})->byval_arg;

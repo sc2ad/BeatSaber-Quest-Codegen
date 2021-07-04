@@ -458,7 +458,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::StreamReader::*)(::Array<::Il2CppChar>*, int, int, bool&)>(&System::IO::StreamReader::ReadBuffer)> {
   const MethodInfo* get() {
-    static auto* userBuffer = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* userBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* userOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* desiredChars = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* readToUserBuffer = &::il2cpp_utils::GetClassFromName("System", "Boolean")->this_arg;
@@ -507,7 +507,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::StreamReader::*)(::Array<::Il2CppChar>*&, int, int)>(&System::IO::StreamReader::Read)> {
   const MethodInfo* get() {
-    static auto* buffer = &classof(::Array<::Array<::Il2CppChar>*>*)->this_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->this_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::StreamReader*), "Read", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer, index, count});

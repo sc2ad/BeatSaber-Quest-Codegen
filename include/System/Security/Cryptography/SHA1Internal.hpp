@@ -94,7 +94,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA1Internal*, "System.Se
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA1Internal::*)(::Array<uint8_t>*, int, int)>(&System::Security::Cryptography::SHA1Internal::HashCore)> {
   const MethodInfo* get() {
-    static auto* rgb = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* rgb = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* ibStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cbSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA1Internal*), "HashCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rgb, ibStart, cbSize});
@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA1Internal::*)(::Array<uint8_t>*, uint)>(&System::Security::Cryptography::SHA1Internal::ProcessBlock)> {
   const MethodInfo* get() {
-    static auto* inputBuffer = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* inputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inputOffset = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA1Internal*), "ProcessBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputBuffer, inputOffset});
   }
@@ -131,8 +131,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, ::Array<uint8_t>*, uint)>(&System::Security::Cryptography::SHA1Internal::InitialiseBuff)> {
   const MethodInfo* get() {
-    static auto* buff = &classof(::Array<::Array<uint>*>*)->byval_arg;
-    static auto* input = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* buff = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
+    static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inputOffset = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA1Internal*), "InitialiseBuff", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buff, input, inputOffset});
   }
@@ -142,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*)>(&System::Security::Cryptography::SHA1Internal::FillBuff)> {
   const MethodInfo* get() {
-    static auto* buff = &classof(::Array<::Array<uint>*>*)->byval_arg;
+    static auto* buff = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA1Internal*), "FillBuff", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buff});
   }
 };
@@ -151,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA1Internal::*)(::Array<uint8_t>*, int, int)>(&System::Security::Cryptography::SHA1Internal::ProcessFinalBlock)> {
   const MethodInfo* get() {
-    static auto* inputBuffer = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* inputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inputOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* inputCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA1Internal*), "ProcessFinalBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inputBuffer, inputOffset, inputCount});
@@ -163,7 +163,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA1Internal::*)(uint64_t, ::Array<uint8_t>*, int)>(&System::Security::Cryptography::SHA1Internal::AddLength)> {
   const MethodInfo* get() {
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
-    static auto* buffer = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* position = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA1Internal*), "AddLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{length, buffer, position});
   }

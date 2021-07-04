@@ -91,7 +91,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::CADMethodRef*, "Sys
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<System::Type*>* (System::Runtime::Remoting::Messaging::CADMethodRef::*)(::Array<::Il2CppString*>*)>(&System::Runtime::Remoting::Messaging::CADMethodRef::GetTypes)> {
   const MethodInfo* get() {
-    static auto* typeArray = &classof(::Array<::Array<::Il2CppString*>*>*)->byval_arg;
+    static auto* typeArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMethodRef*), "GetTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeArray});
   }
 };

@@ -168,13 +168,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, uint, uint, ::Array<uint>*, uint, uint, ::Array<uint>*, uint)>(&Mono::Math::BigInteger::Kernel::Multiply)> {
   const MethodInfo* get() {
-    static auto* x = &classof(::Array<::Array<uint>*>*)->byval_arg;
+    static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* xOffset = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* xLen = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
-    static auto* y = &classof(::Array<::Array<uint>*>*)->byval_arg;
+    static auto* y = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* yOffset = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* yLen = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
-    static auto* d = &classof(::Array<::Array<uint>*>*)->byval_arg;
+    static auto* d = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* dOffset = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::Kernel*), "Multiply", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, xOffset, xLen, y, yOffset, yLen, d, dOffset});
   }
@@ -184,13 +184,13 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint>*, int, int, ::Array<uint>*, int, int, ::Array<uint>*, int, int)>(&Mono::Math::BigInteger::Kernel::MultiplyMod2p32pmod)> {
   const MethodInfo* get() {
-    static auto* x = &classof(::Array<::Array<uint>*>*)->byval_arg;
+    static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* xOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* xLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* y = &classof(::Array<::Array<uint>*>*)->byval_arg;
+    static auto* y = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* yOffest = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* yLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* d = &classof(::Array<::Array<uint>*>*)->byval_arg;
+    static auto* d = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* dOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* mod = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger::Kernel*), "MultiplyMod2p32pmod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, xOffset, xLen, y, yOffest, yLen, d, dOffset, mod});

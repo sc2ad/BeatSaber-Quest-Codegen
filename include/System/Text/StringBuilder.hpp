@@ -486,7 +486,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::Array<::Il2CppChar>*, int, int)>(&System::Text::StringBuilder::Append)> {
   const MethodInfo* get() {
-    static auto* value = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* charCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "Append", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value, startIndex, charCount});
@@ -681,7 +681,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::Il2CppString*, ::Array<::Il2CppObject*>*)>(&System::Text::StringBuilder::AppendFormat)> {
   const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* args = &classof(::Array<::Array<::Il2CppObject*>*>*)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "AppendFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{format, args});
   }
 };
@@ -715,7 +715,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
   const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* args = &classof(::Array<::Array<::Il2CppObject*>*>*)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "AppendFormat", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider, format, args});
   }
 };
@@ -786,7 +786,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(::Array<int>*, int, System::Text::StringBuilder*, int, ::Il2CppString*)>(&System::Text::StringBuilder::ReplaceAllInChunk)> {
   const MethodInfo* get() {
-    static auto* replacements = &classof(::Array<::Array<int>*>*)->byval_arg;
+    static auto* replacements = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* replacementsCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* sourceChunk = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* removeCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -824,7 +824,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppChar*, ::Array<::Il2CppChar>*, int, int)>(&System::Text::StringBuilder::ThreadSafeCopy)> {
   const MethodInfo* get() {
     static auto* sourcePtr = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
-    static auto* destination = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* destination = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* destinationIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "ThreadSafeCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourcePtr, destination, destinationIndex, count});
@@ -835,9 +835,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<::Il2CppChar>*, int, ::Array<::Il2CppChar>*, int, int)>(&System::Text::StringBuilder::ThreadSafeCopy)> {
   const MethodInfo* get() {
-    static auto* source = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* source = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* sourceIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* destination = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* destination = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* destinationIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::StringBuilder*), "ThreadSafeCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source, sourceIndex, destination, destinationIndex, count});

@@ -250,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
     static auto* boost = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* alphaWeights = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* blurStartWeightsType = &::il2cpp_utils::GetClassFromName("", "KawaseBlurRendererSO/WeightsType")->byval_arg;
-    static auto* bloomIterationWeights = &classof(::Array<::Array<float>*>*)->byval_arg;
+    static auto* bloomIterationWeights = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBlurRendererSO*), "Bloom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{src, dest, iterationsStart, iterations, boost, alphaWeights, blurStartWeightsType, bloomIterationWeights});
   }
 };
@@ -302,7 +302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
   const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
     static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
-    static auto* kernel = &classof(::Array<::Array<int>*>*)->byval_arg;
+    static auto* kernel = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* boost = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* downsample = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* startIdx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

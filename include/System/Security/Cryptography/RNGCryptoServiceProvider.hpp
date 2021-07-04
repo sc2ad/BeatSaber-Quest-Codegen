@@ -114,7 +114,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(::Array<uint8_t>*)>(&System::Security::Cryptography::RNGCryptoServiceProvider::RngInitialize)> {
   const MethodInfo* get() {
-    static auto* seed = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* seed = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RNGCryptoServiceProvider*), "RngInitialize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{seed});
   }
 };
@@ -124,7 +124,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IntPtr (*)(System::IntPtr, ::Array<uint8_t>*)>(&System::Security::Cryptography::RNGCryptoServiceProvider::RngGetBytes)> {
   const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* data = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RNGCryptoServiceProvider*), "RngGetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{handle, data});
   }
 };
@@ -146,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RNGCryptoServiceProvider::*)(::Array<uint8_t>*)>(&System::Security::Cryptography::RNGCryptoServiceProvider::GetBytes)> {
   const MethodInfo* get() {
-    static auto* data = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RNGCryptoServiceProvider*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
   }
 };

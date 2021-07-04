@@ -534,7 +534,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(HMUI::NavigationController*, ::Array<HMUI::ViewController*>*)>(&HMUI::FlowCoordinator::SetViewControllersToNavigationController)> {
   const MethodInfo* get() {
     static auto* navigationController = &::il2cpp_utils::GetClassFromName("HMUI", "NavigationController")->byval_arg;
-    static auto* viewControllers = &classof(::Array<::Array<HMUI::ViewController*>*>*)->byval_arg;
+    static auto* viewControllers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HMUI", "ViewController"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::FlowCoordinator*), "SetViewControllersToNavigationController", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{navigationController, viewControllers});
   }
 };

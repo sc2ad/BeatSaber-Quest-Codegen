@@ -376,9 +376,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo::*)(::Array<::Il2CppString*>*&, ::Array<System::Type*>*&, ::Array<::Il2CppObject*>*&)>(&System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo::GetMemberInfo)> {
   const MethodInfo* get() {
-    static auto* outMemberNames = &classof(::Array<::Array<::Il2CppString*>*>*)->this_arg;
-    static auto* outMemberTypes = &classof(::Array<::Array<System::Type*>*>*)->this_arg;
-    static auto* outMemberData = &classof(::Array<::Array<::Il2CppObject*>*>*)->this_arg;
+    static auto* outMemberNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->this_arg;
+    static auto* outMemberTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->this_arg;
+    static auto* outMemberData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::WriteObjectInfo*), "GetMemberInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{outMemberNames, outMemberTypes, outMemberData});
   }
 };

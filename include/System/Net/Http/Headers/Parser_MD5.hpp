@@ -50,7 +50,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Array<uint8_t>*&)>(&System::Net::Http::Headers::Parser::MD5::TryParse)> {
   const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* result = &classof(::Array<::Array<uint8_t>*>*)->this_arg;
+    static auto* result = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::Http::Headers::Parser::MD5*), "TryParse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input, result});
   }
 };

@@ -171,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::Asn1EncodableVector::*)(::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>*)>(&Org::BouncyCastle::Asn1::Asn1EncodableVector::Add)> {
   const MethodInfo* get() {
-    static auto* objs = &classof(::Array<::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>*>*)->byval_arg;
+    static auto* objs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "Asn1Encodable"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1EncodableVector*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objs});
   }
 };
@@ -180,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::Asn1EncodableVector::*)(::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>*)>(&Org::BouncyCastle::Asn1::Asn1EncodableVector::AddOptional)> {
   const MethodInfo* get() {
-    static auto* objs = &classof(::Array<::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>*>*)->byval_arg;
+    static auto* objs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "Asn1Encodable"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1EncodableVector*), "AddOptional", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objs});
   }
 };
@@ -250,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>* (*)(::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>*)>(&Org::BouncyCastle::Asn1::Asn1EncodableVector::CloneElements)> {
   const MethodInfo* get() {
-    static auto* elements = &classof(::Array<::Array<Org::BouncyCastle::Asn1::Asn1Encodable*>*>*)->byval_arg;
+    static auto* elements = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "Asn1Encodable"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1EncodableVector*), "CloneElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{elements});
   }
 };

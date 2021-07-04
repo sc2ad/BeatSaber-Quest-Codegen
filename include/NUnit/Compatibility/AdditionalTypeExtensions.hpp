@@ -64,8 +64,8 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Compatibility::AdditionalTypeExtensions*, "NUnit.C
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<System::Reflection::ParameterInfo*>*, ::Array<System::Type*>*)>(&NUnit::Compatibility::AdditionalTypeExtensions::ParametersMatch)> {
   const MethodInfo* get() {
-    static auto* pinfos = &classof(::Array<::Array<System::Reflection::ParameterInfo*>*>*)->byval_arg;
-    static auto* ptypes = &classof(::Array<::Array<System::Type*>*>*)->byval_arg;
+    static auto* pinfos = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterInfo"), 1)->byval_arg;
+    static auto* ptypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Compatibility::AdditionalTypeExtensions*), "ParametersMatch", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pinfos, ptypes});
   }
 };

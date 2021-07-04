@@ -93,7 +93,7 @@ DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_LinkInfo, "TMPro", "TMP_LinkInfo");
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_LinkInfo::*)(::Array<::Il2CppChar>*, int, int)>(&TMPro::TMP_LinkInfo::SetLinkID)> {
   const MethodInfo* get() {
-    static auto* text = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* text = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_LinkInfo), "SetLinkID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{text, startIndex, length});

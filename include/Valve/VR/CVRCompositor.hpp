@@ -232,8 +232,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRCompositorError (Valve::VR::CVRCompositor::*)(::Array<Valve::VR::TrackedDevicePose_t>*, ::Array<Valve::VR::TrackedDevicePose_t>*)>(&Valve::VR::CVRCompositor::WaitGetPoses)> {
   const MethodInfo* get() {
-    static auto* pRenderPoseArray = &classof(::Array<::Array<Valve::VR::TrackedDevicePose_t>*>*)->byval_arg;
-    static auto* pGamePoseArray = &classof(::Array<::Array<Valve::VR::TrackedDevicePose_t>*>*)->byval_arg;
+    static auto* pRenderPoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t"), 1)->byval_arg;
+    static auto* pGamePoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "WaitGetPoses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pRenderPoseArray, pGamePoseArray});
   }
 };
@@ -242,8 +242,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRCompositorError (Valve::VR::CVRCompositor::*)(::Array<Valve::VR::TrackedDevicePose_t>*, ::Array<Valve::VR::TrackedDevicePose_t>*)>(&Valve::VR::CVRCompositor::GetLastPoses)> {
   const MethodInfo* get() {
-    static auto* pRenderPoseArray = &classof(::Array<::Array<Valve::VR::TrackedDevicePose_t>*>*)->byval_arg;
-    static auto* pGamePoseArray = &classof(::Array<::Array<Valve::VR::TrackedDevicePose_t>*>*)->byval_arg;
+    static auto* pRenderPoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t"), 1)->byval_arg;
+    static auto* pGamePoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "GetLastPoses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pRenderPoseArray, pGamePoseArray});
   }
 };
@@ -370,7 +370,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Valv
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRCompositorError (Valve::VR::CVRCompositor::*)(::Array<Valve::VR::Texture_t>*)>(&Valve::VR::CVRCompositor::SetSkyboxOverride)> {
   const MethodInfo* get() {
-    static auto* pTextures = &classof(::Array<::Array<Valve::VR::Texture_t>*>*)->byval_arg;
+    static auto* pTextures = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "Texture_t"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "SetSkyboxOverride", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pTextures});
   }
 };

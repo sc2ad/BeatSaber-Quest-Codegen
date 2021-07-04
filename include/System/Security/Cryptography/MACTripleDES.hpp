@@ -121,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::MACTripleDES::*)(::Array<uint8_t>*, int, int)>(&System::Security::Cryptography::MACTripleDES::HashCore)> {
   const MethodInfo* get() {
-    static auto* rgbData = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* rgbData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* ibStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cbSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::MACTripleDES*), "HashCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rgbData, ibStart, cbSize});

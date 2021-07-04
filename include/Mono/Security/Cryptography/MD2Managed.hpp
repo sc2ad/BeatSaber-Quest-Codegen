@@ -113,9 +113,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD2Managed::*)(::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, int)>(&Mono::Security::Cryptography::MD2Managed::MD2Transform)> {
   const MethodInfo* get() {
-    static auto* state = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* checksum = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* block = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* state = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* checksum = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* block = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD2Managed*), "MD2Transform", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{state, checksum, block, index});
   }
@@ -145,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::MD2Managed::*)(::Array<uint8_t>*, int, int)>(&Mono::Security::Cryptography::MD2Managed::HashCore)> {
   const MethodInfo* get() {
-    static auto* array = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* ibStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cbSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::MD2Managed*), "HashCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array, ibStart, cbSize});

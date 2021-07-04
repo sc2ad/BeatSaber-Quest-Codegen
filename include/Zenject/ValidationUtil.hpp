@@ -55,7 +55,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::ValidationUtil*, "Zenject", "ValidationUtil");
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Zenject::TypeValuePair>* (*)(::Array<System::Type*>*)>(&Zenject::ValidationUtil::CreateDefaultArgs)> {
   const MethodInfo* get() {
-    static auto* argTypes = &classof(::Array<::Array<System::Type*>*>*)->byval_arg;
+    static auto* argTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ValidationUtil*), "CreateDefaultArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{argTypes});
   }
 };

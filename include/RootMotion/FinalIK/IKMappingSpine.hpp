@@ -193,7 +193,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKMappingSpine*, "RootMotion.FinalIK
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMappingSpine::*)(::Array<UnityEngine::Transform*>*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*)>(&RootMotion::FinalIK::IKMappingSpine::SetBones)> {
   const MethodInfo* get() {
-    static auto* spineBones = &classof(::Array<::Array<UnityEngine::Transform*>*>*)->byval_arg;
+    static auto* spineBones = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
     static auto* leftUpperArmBone = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* rightUpperArmBone = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* leftThighBone = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;

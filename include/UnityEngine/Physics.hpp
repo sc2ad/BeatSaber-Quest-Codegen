@@ -604,7 +604,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Ray, ::Array<UnityEngine::RaycastHit>*, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::Physics::RaycastNonAlloc)> {
   const MethodInfo* get() {
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
-    static auto* results = &classof(::Array<::Array<UnityEngine::RaycastHit>*>*)->byval_arg;
+    static auto* results = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit"), 1)->byval_arg;
     static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;
@@ -617,7 +617,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Ray, ::Array<UnityEngine::RaycastHit>*, float, int)>(&UnityEngine::Physics::RaycastNonAlloc)> {
   const MethodInfo* get() {
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
-    static auto* results = &classof(::Array<::Array<UnityEngine::RaycastHit>*>*)->byval_arg;
+    static auto* results = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit"), 1)->byval_arg;
     static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Physics*), "RaycastNonAlloc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ray, results, maxDistance, layerMask});
@@ -629,7 +629,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Ray, ::Array<UnityEngine::RaycastHit>*, float)>(&UnityEngine::Physics::RaycastNonAlloc)> {
   const MethodInfo* get() {
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
-    static auto* results = &classof(::Array<::Array<UnityEngine::RaycastHit>*>*)->byval_arg;
+    static auto* results = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit"), 1)->byval_arg;
     static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Physics*), "RaycastNonAlloc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ray, results, maxDistance});
   }
@@ -640,7 +640,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Ray, ::Array<UnityEngine::RaycastHit>*)>(&UnityEngine::Physics::RaycastNonAlloc)> {
   const MethodInfo* get() {
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
-    static auto* results = &classof(::Array<::Array<UnityEngine::RaycastHit>*>*)->byval_arg;
+    static auto* results = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Physics*), "RaycastNonAlloc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ray, results});
   }
 };
@@ -651,7 +651,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
   const MethodInfo* get() {
     static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
-    static auto* results = &classof(::Array<::Array<UnityEngine::RaycastHit>*>*)->byval_arg;
+    static auto* results = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit"), 1)->byval_arg;
     static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;
@@ -665,7 +665,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
   const MethodInfo* get() {
     static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
-    static auto* results = &classof(::Array<::Array<UnityEngine::RaycastHit>*>*)->byval_arg;
+    static auto* results = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit"), 1)->byval_arg;
     static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* layerMask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Physics*), "RaycastNonAlloc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{origin, direction, results, maxDistance, layerMask});
@@ -678,7 +678,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
   const MethodInfo* get() {
     static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
-    static auto* results = &classof(::Array<::Array<UnityEngine::RaycastHit>*>*)->byval_arg;
+    static auto* results = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit"), 1)->byval_arg;
     static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Physics*), "RaycastNonAlloc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{origin, direction, results, maxDistance});
   }
@@ -690,7 +690,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
   const MethodInfo* get() {
     static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
-    static auto* results = &classof(::Array<::Array<UnityEngine::RaycastHit>*>*)->byval_arg;
+    static auto* results = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Physics*), "RaycastNonAlloc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{origin, direction, results});
   }
 };
@@ -830,7 +830,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
   const MethodInfo* get() {
     static auto* center = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* halfExtents = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
-    static auto* results = &classof(::Array<::Array<UnityEngine::Collider*>*>*)->byval_arg;
+    static auto* results = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Collider"), 1)->byval_arg;
     static auto* orientation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* mask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* queryTriggerInteraction = &::il2cpp_utils::GetClassFromName("UnityEngine", "QueryTriggerInteraction")->byval_arg;
@@ -844,7 +844,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
   const MethodInfo* get() {
     static auto* center = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* halfExtents = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
-    static auto* results = &classof(::Array<::Array<UnityEngine::Collider*>*>*)->byval_arg;
+    static auto* results = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Collider"), 1)->byval_arg;
     static auto* orientation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* mask = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Physics*), "OverlapBoxNonAlloc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{center, halfExtents, results, orientation, mask});

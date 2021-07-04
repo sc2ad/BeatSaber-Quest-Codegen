@@ -518,7 +518,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::MemberInfo*, ::Array<System::Type*>*)>(&ModestTree::TypeExtensions::HasAttribute)> {
   const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
-    static auto* attributeTypes = &classof(::Array<::Array<System::Type*>*>*)->byval_arg;
+    static auto* attributeTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "HasAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider, attributeTypes});
   }
 };
@@ -534,7 +534,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Attribute*>* (*)(System::Reflection::MemberInfo*, ::Array<System::Type*>*)>(&ModestTree::TypeExtensions::AllAttributes)> {
   const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
-    static auto* attributeTypes = &classof(::Array<::Array<System::Type*>*>*)->byval_arg;
+    static auto* attributeTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "AllAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider, attributeTypes});
   }
 };
@@ -544,7 +544,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Reflection::ParameterInfo*, ::Array<System::Type*>*)>(&ModestTree::TypeExtensions::HasAttribute)> {
   const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterInfo")->byval_arg;
-    static auto* attributeTypes = &classof(::Array<::Array<System::Type*>*>*)->byval_arg;
+    static auto* attributeTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "HasAttribute", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider, attributeTypes});
   }
 };
@@ -560,7 +560,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<System::Attribute*>* (*)(System::Reflection::ParameterInfo*, ::Array<System::Type*>*)>(&ModestTree::TypeExtensions::AllAttributes)> {
   const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterInfo")->byval_arg;
-    static auto* attributeTypes = &classof(::Array<::Array<System::Type*>*>*)->byval_arg;
+    static auto* attributeTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(ModestTree::TypeExtensions*), "AllAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{provider, attributeTypes});
   }
 };

@@ -152,7 +152,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*, ::Array<uint8_t>*)>(&GlobalNamespace::DiffieHellmanUtility::GetPreMasterSecret)> {
   const MethodInfo* get() {
     static auto* dhBasicAgreement = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto.Agreement", "DHBasicAgreement")->byval_arg;
-    static auto* clientPublicKey = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* clientPublicKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility*), "GetPreMasterSecret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dhBasicAgreement, clientPublicKey});
   }
 };
@@ -162,7 +162,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*, ::Array<uint8_t>*)>(&GlobalNamespace::DiffieHellmanUtility::GetPreMasterSecret)> {
   const MethodInfo* get() {
     static auto* ecdhBasicAgreement = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto.Agreement", "ECDHBasicAgreement")->byval_arg;
-    static auto* clientPublicKey = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* clientPublicKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DiffieHellmanUtility*), "GetPreMasterSecret", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ecdhBasicAgreement, clientPublicKey});
   }
 };

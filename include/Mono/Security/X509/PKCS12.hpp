@@ -251,7 +251,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::PKCS12*, "Mono.Security.X509", "PKC
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::PKCS12::*)(::Array<uint8_t>*)>(&Mono::Security::X509::PKCS12::Decode)> {
   const MethodInfo* get() {
-    static auto* data = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
   }
 };
@@ -310,8 +310,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::X509::PKCS12::*)(::Array<uint8_t>*, ::Array<uint8_t>*)>(&Mono::Security::X509::PKCS12::Compare)> {
   const MethodInfo* get() {
-    static auto* expected = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* actual = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* expected = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* actual = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "Compare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{expected, actual});
   }
 };
@@ -321,7 +321,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::SymmetricAlgorithm* (Mono::Security::X509::PKCS12::*)(::Il2CppString*, ::Array<uint8_t>*, int)>(&Mono::Security::X509::PKCS12::GetSymmetricAlgorithm)> {
   const MethodInfo* get() {
     static auto* algorithmOid = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* salt = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* salt = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* iterationCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "GetSymmetricAlgorithm", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algorithmOid, salt, iterationCount});
   }
@@ -332,9 +332,9 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::X509::PKCS12::*)(::Il2CppString*, ::Array<uint8_t>*, int, ::Array<uint8_t>*)>(&Mono::Security::X509::PKCS12::Decrypt)> {
   const MethodInfo* get() {
     static auto* algorithmOid = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* salt = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* salt = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* iterationCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* encryptedData = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* encryptedData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "Decrypt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algorithmOid, salt, iterationCount, encryptedData});
   }
 };
@@ -353,9 +353,9 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::X509::PKCS12::*)(::Il2CppString*, ::Array<uint8_t>*, int, ::Array<uint8_t>*)>(&Mono::Security::X509::PKCS12::Encrypt)> {
   const MethodInfo* get() {
     static auto* algorithmOid = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* salt = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* salt = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* iterationCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* data = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "Encrypt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{algorithmOid, salt, iterationCount, data});
   }
 };
@@ -401,10 +401,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::X509::PKCS12::*)(::Array<uint8_t>*, ::Array<uint8_t>*, int, ::Array<uint8_t>*)>(&Mono::Security::X509::PKCS12::MAC)> {
   const MethodInfo* get() {
-    static auto* password = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* salt = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* password = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* salt = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* iterations = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* data = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12*), "MAC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{password, salt, iterations, data});
   }
 };

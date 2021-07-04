@@ -848,7 +848,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<UnityEngine::Camera*>*&)>(&UnityEngine::Camera::GetAllCamerasImpl)> {
   const MethodInfo* get() {
-    static auto* cam = &classof(::Array<::Array<UnityEngine::Camera*>*>*)->this_arg;
+    static auto* cam = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Camera"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "GetAllCamerasImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cam});
   }
 };
@@ -865,7 +865,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<UnityEngine::Camera*>*)>(&UnityEngine::Camera::GetAllCameras)> {
   const MethodInfo* get() {
-    static auto* cameras = &classof(::Array<::Array<UnityEngine::Camera*>*>*)->byval_arg;
+    static auto* cameras = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Camera"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "GetAllCameras", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cameras});
   }
 };

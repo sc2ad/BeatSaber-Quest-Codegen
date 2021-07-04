@@ -393,7 +393,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(::Array<UnityEngine::AnimationEvent*>*)>(&UnityEngine::AnimationClip::set_events)> {
   const MethodInfo* get() {
-    static auto* value = &classof(::Array<::Array<UnityEngine::AnimationEvent*>*>*)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationEvent"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "set_events", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };

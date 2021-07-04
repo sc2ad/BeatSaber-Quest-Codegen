@@ -384,7 +384,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(U
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::Array<UnityEngine::Material*>*, bool, bool)>(&TMPro::ShaderUtilities::GetPadding)> {
   const MethodInfo* get() {
-    static auto* materials = &classof(::Array<::Array<UnityEngine::Material*>*>*)->byval_arg;
+    static auto* materials = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
     static auto* enableExtraPadding = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* isBold = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::ShaderUtilities*), "GetPadding", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{materials, enableExtraPadding, isBold});

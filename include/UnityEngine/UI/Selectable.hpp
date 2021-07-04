@@ -526,7 +526,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::Array<UnityEngine::UI::Selectable*>*)>(&UnityEngine::UI::Selectable::AllSelectablesNoAlloc)> {
   const MethodInfo* get() {
-    static auto* selectables = &classof(::Array<::Array<UnityEngine::UI::Selectable*>*>*)->byval_arg;
+    static auto* selectables = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Selectable"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "AllSelectablesNoAlloc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{selectables});
   }
 };

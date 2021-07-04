@@ -76,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* dest = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* dest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* destPos = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* isUriString = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* force1 = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
@@ -91,7 +91,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppChar>* (*)(::Il2CppChar*, ::Array<::Il2CppChar>*, int, int16_t, int16_t, int&, int)>(&System::UriHelper::EnsureDestinationSize)> {
   const MethodInfo* get() {
     static auto* pStr = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
-    static auto* dest = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* dest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* currentInputPos = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* charsToAdd = &::il2cpp_utils::GetClassFromName("System", "Int16")->byval_arg;
     static auto* minReallocateChars = &::il2cpp_utils::GetClassFromName("System", "Int16")->byval_arg;
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* dest = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* dest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* destPosition = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* rsvd1 = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* rsvd2 = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
     static auto* pStr = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* end = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* dest = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* dest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* destPosition = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     static auto* rsvd1 = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* rsvd2 = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
@@ -144,11 +144,11 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppChar*, ::Array<::Il2CppChar>*, int&, ::Array<::Il2CppChar>*, int, ::Array<uint8_t>*, int, bool, bool)>(&System::UriHelper::MatchUTF8Sequence)> {
   const MethodInfo* get() {
     static auto* pDest = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
-    static auto* dest = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* dest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* destOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
-    static auto* unescapedChars = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* unescapedChars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* charCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* bytes = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* byteCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* isQuery = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* iriParsing = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -161,7 +161,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppChar, ::Array<::Il2CppChar>*, int&)>(&System::UriHelper::EscapeAsciiChar)> {
   const MethodInfo* get() {
     static auto* ch = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
-    static auto* to = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* to = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* pos = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::UriHelper*), "EscapeAsciiChar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ch, to, pos});
   }

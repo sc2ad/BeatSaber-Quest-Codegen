@@ -72,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (*)(::Array<uint8_t>*)>(&Mono::Security::ASN1Convert::FromUnsignedBigInteger)> {
   const MethodInfo* get() {
-    static auto* big = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* big = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1Convert*), "FromUnsignedBigInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{big});
   }
 };

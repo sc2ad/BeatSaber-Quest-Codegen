@@ -148,8 +148,8 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::AuthenticateDedicatedServerRequest* (MasterServer::AuthenticateDedicatedServerRequest::*)(::Il2CppString*, ::Array<uint8_t>*, ::Array<uint8_t>*, int64_t)>(&MasterServer::AuthenticateDedicatedServerRequest::Init)> {
   const MethodInfo* get() {
     static auto* dedicatedServerId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* nonce = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* hash = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* nonce = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* hash = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* timestamp = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::AuthenticateDedicatedServerRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dedicatedServerId, nonce, hash, timestamp});
   }

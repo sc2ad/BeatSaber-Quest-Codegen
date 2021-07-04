@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<UnityEngine::ProBuilder::Edge>*, UnityEngine::ProBuilder::Edge)>(&UnityEngine::ProBuilder::EdgeUtility::Contains)> {
   const MethodInfo* get() {
-    static auto* edges = &classof(::Array<::Array<UnityEngine::ProBuilder::Edge>*>*)->byval_arg;
+    static auto* edges = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge"), 1)->byval_arg;
     static auto* edge = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::EdgeUtility*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{edges, edge});
   }
@@ -128,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<UnityEngine::ProBuilder::Edge>*, int, int)>(&UnityEngine::ProBuilder::EdgeUtility::Contains)> {
   const MethodInfo* get() {
-    static auto* edges = &classof(::Array<::Array<UnityEngine::ProBuilder::Edge>*>*)->byval_arg;
+    static auto* edges = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge"), 1)->byval_arg;
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::EdgeUtility*), "Contains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{edges, x, y});
@@ -150,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<int>* (*)(::Array<UnityEngine::ProBuilder::Edge>*)>(&UnityEngine::ProBuilder::EdgeUtility::AllTriangles)> {
   const MethodInfo* get() {
-    static auto* edges = &classof(::Array<::Array<UnityEngine::ProBuilder::Edge>*>*)->byval_arg;
+    static auto* edges = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::EdgeUtility*), "AllTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{edges});
   }
 };

@@ -67,7 +67,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::*)(Valve::VR::ETrackedDeviceClass, ::Array<uint>*&, uint, uint)>(&Valve::VR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::Invoke)> {
   const MethodInfo* get() {
     static auto* eTrackedDeviceClass = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackedDeviceClass")->byval_arg;
-    static auto* punTrackedDeviceIndexArray = &classof(::Array<::Array<uint>*>*)->this_arg;
+    static auto* punTrackedDeviceIndexArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->this_arg;
     static auto* unTrackedDeviceIndexArrayCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* unRelativeToTrackedDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{eTrackedDeviceClass, punTrackedDeviceIndexArray, unTrackedDeviceIndexArrayCount, unRelativeToTrackedDeviceIndex});
@@ -79,7 +79,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::*)(Valve::VR::ETrackedDeviceClass, ::Array<uint>*&, uint, uint, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::BeginInvoke)> {
   const MethodInfo* get() {
     static auto* eTrackedDeviceClass = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackedDeviceClass")->byval_arg;
-    static auto* punTrackedDeviceIndexArray = &classof(::Array<::Array<uint>*>*)->this_arg;
+    static auto* punTrackedDeviceIndexArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->this_arg;
     static auto* unTrackedDeviceIndexArrayCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* unRelativeToTrackedDeviceIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;

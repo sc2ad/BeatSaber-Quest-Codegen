@@ -112,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Fr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::FromBinderNonGeneric* (Zenject::ConcreteBinderNonGeneric::*)(::Array<System::Type*>*)>(&Zenject::ConcreteBinderNonGeneric::To)> {
   const MethodInfo* get() {
-    static auto* concreteTypes = &classof(::Array<::Array<System::Type*>*>*)->byval_arg;
+    static auto* concreteTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConcreteBinderNonGeneric*), "To", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{concreteTypes});
   }
 };

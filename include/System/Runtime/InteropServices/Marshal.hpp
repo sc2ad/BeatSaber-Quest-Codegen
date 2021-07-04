@@ -271,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<uint8_t>*, int, System::IntPtr, int)>(&System::Runtime::InteropServices::Marshal::Copy)> {
   const MethodInfo* get() {
-    static auto* source = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* source = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* destination = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -284,7 +284,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Array<uint8_t>*, int, int)>(&System::Runtime::InteropServices::Marshal::Copy)> {
   const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* destination = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* destination = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::Marshal*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source, destination, startIndex, length});
@@ -296,7 +296,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Array<::Il2CppChar>*, int, int)>(&System::Runtime::InteropServices::Marshal::Copy)> {
   const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* destination = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* destination = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::Marshal*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source, destination, startIndex, length});
@@ -308,7 +308,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Array<int16_t>*, int, int)>(&System::Runtime::InteropServices::Marshal::Copy)> {
   const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* destination = &classof(::Array<::Array<int16_t>*>*)->byval_arg;
+    static auto* destination = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int16"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::Marshal*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source, destination, startIndex, length});
@@ -320,7 +320,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IntPtr, ::Array<float>*, int, int)>(&System::Runtime::InteropServices::Marshal::Copy)> {
   const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
-    static auto* destination = &classof(::Array<::Array<float>*>*)->byval_arg;
+    static auto* destination = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::InteropServices::Marshal*), "Copy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{source, destination, startIndex, length});

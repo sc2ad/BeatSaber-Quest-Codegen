@@ -83,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ProBuilder::MeshOperations::AppendElements::$$c::*)(::Array<UnityEngine::Vector3>*)>(&UnityEngine::ProBuilder::MeshOperations::AppendElements::$$c::$CreateShapeFromPolygon$b__7_0)> {
   const MethodInfo* get() {
-    static auto* arr = &classof(::Array<::Array<UnityEngine::Vector3>*>*)->byval_arg;
+    static auto* arr = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::AppendElements::$$c*), "<CreateShapeFromPolygon>b__7_0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{arr});
   }
 };

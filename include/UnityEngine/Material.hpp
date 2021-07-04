@@ -1011,7 +1011,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Material::*)(::Array<::Il2CppString*>*)>(&UnityEngine::Material::SetShaderKeywords)> {
   const MethodInfo* get() {
-    static auto* names = &classof(::Array<::Array<::Il2CppString*>*>*)->byval_arg;
+    static auto* names = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Material*), "SetShaderKeywords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{names});
   }
 };
@@ -1028,7 +1028,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Material::*)(::Array<::Il2CppString*>*)>(&UnityEngine::Material::set_shaderKeywords)> {
   const MethodInfo* get() {
-    static auto* value = &classof(::Array<::Array<::Il2CppString*>*>*)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Material*), "set_shaderKeywords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
@@ -1207,7 +1207,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Material::*)(int, ::Array<float>*, int)>(&UnityEngine::Material::SetFloatArrayImpl)> {
   const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* values = &classof(::Array<::Array<float>*>*)->byval_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Material*), "SetFloatArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, values, count});
   }
@@ -1218,7 +1218,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Material::*)(int, ::Array<UnityEngine::Vector4>*, int)>(&UnityEngine::Material::SetVectorArrayImpl)> {
   const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* values = &classof(::Array<::Array<UnityEngine::Vector4>*>*)->byval_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4"), 1)->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Material*), "SetVectorArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, values, count});
   }
@@ -1229,7 +1229,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Material::*)(int, ::Array<UnityEngine::Color>*, int)>(&UnityEngine::Material::SetColorArrayImpl)> {
   const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* values = &classof(::Array<::Array<UnityEngine::Color>*>*)->byval_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), 1)->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Material*), "SetColorArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, values, count});
   }
@@ -1240,7 +1240,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Material::*)(int, ::Array<UnityEngine::Matrix4x4>*, int)>(&UnityEngine::Material::SetMatrixArrayImpl)> {
   const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* values = &classof(::Array<::Array<UnityEngine::Matrix4x4>*>*)->byval_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4"), 1)->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Material*), "SetMatrixArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, values, count});
   }
@@ -1323,7 +1323,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Material::*)(int, ::Array<float>*&)>(&UnityEngine::Material::ExtractFloatArrayImpl)> {
   const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* val = &classof(::Array<::Array<float>*>*)->this_arg;
+    static auto* val = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Material*), "ExtractFloatArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, val});
   }
 };
@@ -1333,7 +1333,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Material::*)(int, ::Array<UnityEngine::Vector4>*&)>(&UnityEngine::Material::ExtractVectorArrayImpl)> {
   const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* val = &classof(::Array<::Array<UnityEngine::Vector4>*>*)->this_arg;
+    static auto* val = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Material*), "ExtractVectorArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, val});
   }
 };
@@ -1343,7 +1343,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Material::*)(int, ::Array<UnityEngine::Color>*&)>(&UnityEngine::Material::ExtractColorArrayImpl)> {
   const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* val = &classof(::Array<::Array<UnityEngine::Color>*>*)->this_arg;
+    static auto* val = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Material*), "ExtractColorArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, val});
   }
 };
@@ -1353,7 +1353,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Material::*)(int, ::Array<UnityEngine::Matrix4x4>*&)>(&UnityEngine::Material::ExtractMatrixArrayImpl)> {
   const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* val = &classof(::Array<::Array<UnityEngine::Matrix4x4>*>*)->this_arg;
+    static auto* val = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Material*), "ExtractMatrixArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, val});
   }
 };
@@ -1392,7 +1392,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Material::*)(int, ::Array<float>*, int)>(&UnityEngine::Material::SetFloatArray)> {
   const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* values = &classof(::Array<::Array<float>*>*)->byval_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Material*), "SetFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, values, count});
   }
@@ -1403,7 +1403,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Material::*)(int, ::Array<UnityEngine::Vector4>*, int)>(&UnityEngine::Material::SetVectorArray)> {
   const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* values = &classof(::Array<::Array<UnityEngine::Vector4>*>*)->byval_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4"), 1)->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Material*), "SetVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, values, count});
   }
@@ -1414,7 +1414,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Material::*)(int, ::Array<UnityEngine::Color>*, int)>(&UnityEngine::Material::SetColorArray)> {
   const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* values = &classof(::Array<::Array<UnityEngine::Color>*>*)->byval_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), 1)->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Material*), "SetColorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, values, count});
   }
@@ -1425,7 +1425,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Material::*)(int, ::Array<UnityEngine::Matrix4x4>*, int)>(&UnityEngine::Material::SetMatrixArray)> {
   const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* values = &classof(::Array<::Array<UnityEngine::Matrix4x4>*>*)->byval_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4"), 1)->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Material*), "SetMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, values, count});
   }
@@ -1682,7 +1682,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Material::*)(::Il2CppString*, ::Array<float>*)>(&UnityEngine::Material::SetFloatArray)> {
   const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* values = &classof(::Array<::Array<float>*>*)->byval_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Material*), "SetFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, values});
   }
 };
@@ -1692,7 +1692,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Material::*)(int, ::Array<float>*)>(&UnityEngine::Material::SetFloatArray)> {
   const MethodInfo* get() {
     static auto* nameID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* values = &classof(::Array<::Array<float>*>*)->byval_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Material*), "SetFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nameID, values});
   }
 };
@@ -1722,7 +1722,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Material::*)(::Il2CppString*, ::Array<UnityEngine::Color>*)>(&UnityEngine::Material::SetColorArray)> {
   const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* values = &classof(::Array<::Array<UnityEngine::Color>*>*)->byval_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Material*), "SetColorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, values});
   }
 };
@@ -1732,7 +1732,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Material::*)(int, ::Array<UnityEngine::Color>*)>(&UnityEngine::Material::SetColorArray)> {
   const MethodInfo* get() {
     static auto* nameID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* values = &classof(::Array<::Array<UnityEngine::Color>*>*)->byval_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Material*), "SetColorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nameID, values});
   }
 };
@@ -1762,7 +1762,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Material::*)(::Il2CppString*, ::Array<UnityEngine::Vector4>*)>(&UnityEngine::Material::SetVectorArray)> {
   const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* values = &classof(::Array<::Array<UnityEngine::Vector4>*>*)->byval_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Material*), "SetVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, values});
   }
 };
@@ -1772,7 +1772,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Material::*)(int, ::Array<UnityEngine::Vector4>*)>(&UnityEngine::Material::SetVectorArray)> {
   const MethodInfo* get() {
     static auto* nameID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* values = &classof(::Array<::Array<UnityEngine::Vector4>*>*)->byval_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Material*), "SetVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nameID, values});
   }
 };
@@ -1802,7 +1802,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Material::*)(::Il2CppString*, ::Array<UnityEngine::Matrix4x4>*)>(&UnityEngine::Material::SetMatrixArray)> {
   const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* values = &classof(::Array<::Array<UnityEngine::Matrix4x4>*>*)->byval_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Material*), "SetMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name, values});
   }
 };
@@ -1812,7 +1812,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Material::*)(int, ::Array<UnityEngine::Matrix4x4>*)>(&UnityEngine::Material::SetMatrixArray)> {
   const MethodInfo* get() {
     static auto* nameID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* values = &classof(::Array<::Array<UnityEngine::Matrix4x4>*>*)->byval_arg;
+    static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Material*), "SetMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nameID, values});
   }
 };

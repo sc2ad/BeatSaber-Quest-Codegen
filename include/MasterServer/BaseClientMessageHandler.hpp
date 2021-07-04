@@ -390,11 +390,11 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (MasterServer::BaseClientMessageHandler::*)(::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<uint8_t>*, ::Array<::Array<uint8_t>*>*)>(&MasterServer::BaseClientMessageHandler::VerifySignature)> {
   const MethodInfo* get() {
-    static auto* clientRandom = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* serverRandom = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* serverKey = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* signature = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* certData = &classof(::Array<::Array<::Array<uint8_t>*>*>*)->byval_arg;
+    static auto* clientRandom = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* serverRandom = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* serverKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* signature = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* certData = &il2cpp_functions::array_class_get(il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseClientMessageHandler*), "VerifySignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clientRandom, serverRandom, serverKey, signature, certData});
   }
 };

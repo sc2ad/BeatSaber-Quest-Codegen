@@ -98,8 +98,8 @@ DEFINE_IL2CPP_ARG_TYPE(System::MulticastDelegate*, "System", "MulticastDelegate"
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::MulticastDelegate::*)(::Array<System::Delegate*>*, ::Array<System::Delegate*>*)>(&System::MulticastDelegate::LastIndexOf)> {
   const MethodInfo* get() {
-    static auto* haystack = &classof(::Array<::Array<System::Delegate*>*>*)->byval_arg;
-    static auto* needle = &classof(::Array<::Array<System::Delegate*>*>*)->byval_arg;
+    static auto* haystack = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Delegate"), 1)->byval_arg;
+    static auto* needle = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Delegate"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::MulticastDelegate*), "LastIndexOf", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{haystack, needle});
   }
 };
@@ -118,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::MulticastDelegate::*)(::Array<::Il2CppObject*>*)>(&System::MulticastDelegate::DynamicInvokeImpl)> {
   const MethodInfo* get() {
-    static auto* args = &classof(::Array<::Array<::Il2CppObject*>*>*)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::MulticastDelegate*), "DynamicInvokeImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
   }
 };

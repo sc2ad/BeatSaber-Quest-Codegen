@@ -52,16 +52,16 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LevelCompletionResults* (*)(int, ::Array<GlobalNamespace::BeatmapObjectExecutionRating*>*, GlobalNamespace::GameplayModifiers*, GlobalNamespace::GameplayModifiersModelSO*, int, int, int, ::Array<float>*, float, float, ::Array<float>*, float, float, float, GlobalNamespace::LevelCompletionResults::LevelEndStateType, GlobalNamespace::LevelCompletionResults::LevelEndAction, float, float)>(&GlobalNamespace::LevelCompletionResultsHelper::Create)> {
   const MethodInfo* get() {
     static auto* levelNotesCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* beatmapObjectExecutionRatings = &classof(::Array<::Array<GlobalNamespace::BeatmapObjectExecutionRating*>*>*)->byval_arg;
+    static auto* beatmapObjectExecutionRatings = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "BeatmapObjectExecutionRating"), 1)->byval_arg;
     static auto* gameplayModifiers = &::il2cpp_utils::GetClassFromName("", "GameplayModifiers")->byval_arg;
     static auto* gameplayModifiersModel = &::il2cpp_utils::GetClassFromName("", "GameplayModifiersModelSO")->byval_arg;
     static auto* rawScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* modifiedScore = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* maxCombo = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* saberActivityValues = &classof(::Array<::Array<float>*>*)->byval_arg;
+    static auto* saberActivityValues = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* leftSaberMovementDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* rightSaberMovementDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
-    static auto* handActivityValues = &classof(::Array<::Array<float>*>*)->byval_arg;
+    static auto* handActivityValues = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* leftHandMovementDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* rightHandMovementDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* songDuration = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

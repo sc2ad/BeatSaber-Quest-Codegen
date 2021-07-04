@@ -114,8 +114,8 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ClientHelloWithCookieRequest* (MasterServer::ClientHelloWithCookieRequest::*)(uint, ::Array<uint8_t>*, ::Array<uint8_t>*)>(&MasterServer::ClientHelloWithCookieRequest::Init)> {
   const MethodInfo* get() {
     static auto* certificateResponseId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
-    static auto* random = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* cookie = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* random = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* cookie = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::ClientHelloWithCookieRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{certificateResponseId, random, cookie});
   }
 };

@@ -597,7 +597,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* w = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* h = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* pixel = &classof(::Array<::Array<UnityEngine::Color>*>*)->byval_arg;
+    static auto* pixel = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), 1)->byval_arg;
     static auto* miplevel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* frame = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture2D*), "SetPixelsImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y, w, h, pixel, miplevel, frame});
@@ -618,7 +618,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Texture2D::*)(::Array<uint8_t>*)>(&UnityEngine::Texture2D::LoadRawTextureDataImplArray)> {
   const MethodInfo* get() {
-    static auto* data = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture2D*), "LoadRawTextureDataImplArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
   }
 };
@@ -670,10 +670,10 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Un
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<UnityEngine::Vector2>*, int, int, ::Array<UnityEngine::Rect>*&)>(&UnityEngine::Texture2D::GenerateAtlasImpl)> {
   const MethodInfo* get() {
-    static auto* sizes = &classof(::Array<::Array<UnityEngine::Vector2>*>*)->byval_arg;
+    static auto* sizes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     static auto* padding = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* atlasSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* rect = &classof(::Array<::Array<UnityEngine::Rect>*>*)->this_arg;
+    static auto* rect = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Rect"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture2D*), "GenerateAtlasImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sizes, padding, atlasSize, rect});
   }
 };
@@ -822,7 +822,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Texture2D::*)(::Array<UnityEngine::Color32>*, int)>(&UnityEngine::Texture2D::SetAllPixels32)> {
   const MethodInfo* get() {
-    static auto* colors = &classof(::Array<::Array<UnityEngine::Color32>*>*)->byval_arg;
+    static auto* colors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color32"), 1)->byval_arg;
     static auto* miplevel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture2D*), "SetAllPixels32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colors, miplevel});
   }
@@ -836,7 +836,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* blockWidth = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* blockHeight = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* colors = &classof(::Array<::Array<UnityEngine::Color32>*>*)->byval_arg;
+    static auto* colors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color32"), 1)->byval_arg;
     static auto* miplevel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture2D*), "SetBlockOfPixels32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y, blockWidth, blockHeight, colors, miplevel});
   }
@@ -896,7 +896,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Rect>* (UnityEngine::Texture2D::*)(::Array<UnityEngine::Texture2D*>*, int, int, bool)>(&UnityEngine::Texture2D::PackTextures)> {
   const MethodInfo* get() {
-    static auto* textures = &classof(::Array<::Array<UnityEngine::Texture2D*>*>*)->byval_arg;
+    static auto* textures = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Texture2D"), 1)->byval_arg;
     static auto* padding = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* maximumAtlasSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* makeNoLongerReadable = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -908,7 +908,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Rect>* (UnityEngine::Texture2D::*)(::Array<UnityEngine::Texture2D*>*, int, int)>(&UnityEngine::Texture2D::PackTextures)> {
   const MethodInfo* get() {
-    static auto* textures = &classof(::Array<::Array<UnityEngine::Texture2D*>*>*)->byval_arg;
+    static auto* textures = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Texture2D"), 1)->byval_arg;
     static auto* padding = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* maximumAtlasSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture2D*), "PackTextures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{textures, padding, maximumAtlasSize});
@@ -919,7 +919,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Uni
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::Rect>* (UnityEngine::Texture2D::*)(::Array<UnityEngine::Texture2D*>*, int)>(&UnityEngine::Texture2D::PackTextures)> {
   const MethodInfo* get() {
-    static auto* textures = &classof(::Array<::Array<UnityEngine::Texture2D*>*>*)->byval_arg;
+    static auto* textures = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Texture2D"), 1)->byval_arg;
     static auto* padding = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture2D*), "PackTextures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{textures, padding});
   }
@@ -1006,7 +1006,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* blockWidth = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* blockHeight = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* colors = &classof(::Array<::Array<UnityEngine::Color>*>*)->byval_arg;
+    static auto* colors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), 1)->byval_arg;
     static auto* miplevel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture2D*), "SetPixels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y, blockWidth, blockHeight, colors, miplevel});
   }
@@ -1020,7 +1020,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* blockWidth = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* blockHeight = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* colors = &classof(::Array<::Array<UnityEngine::Color>*>*)->byval_arg;
+    static auto* colors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture2D*), "SetPixels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y, blockWidth, blockHeight, colors});
   }
 };
@@ -1029,7 +1029,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Texture2D::*)(::Array<UnityEngine::Color>*, int)>(&UnityEngine::Texture2D::SetPixels)> {
   const MethodInfo* get() {
-    static auto* colors = &classof(::Array<::Array<UnityEngine::Color>*>*)->byval_arg;
+    static auto* colors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), 1)->byval_arg;
     static auto* miplevel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture2D*), "SetPixels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colors, miplevel});
   }
@@ -1039,7 +1039,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Texture2D::*)(::Array<UnityEngine::Color>*)>(&UnityEngine::Texture2D::SetPixels)> {
   const MethodInfo* get() {
-    static auto* colors = &classof(::Array<::Array<UnityEngine::Color>*>*)->byval_arg;
+    static auto* colors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture2D*), "SetPixels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colors});
   }
 };
@@ -1100,7 +1100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Texture2D::*)(::Array<uint8_t>*)>(&UnityEngine::Texture2D::LoadRawTextureData)> {
   const MethodInfo* get() {
-    static auto* data = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture2D*), "LoadRawTextureData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
   }
 };
@@ -1193,7 +1193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<UnityEngine::Vector2>*, int, int, System::Collections::Generic::List_1<UnityEngine::Rect>*)>(&UnityEngine::Texture2D::GenerateAtlas)> {
   const MethodInfo* get() {
-    static auto* sizes = &classof(::Array<::Array<UnityEngine::Vector2>*>*)->byval_arg;
+    static auto* sizes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     static auto* padding = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* atlasSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* results = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Rect")})->byval_arg;
@@ -1205,7 +1205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Texture2D::*)(::Array<UnityEngine::Color32>*, int)>(&UnityEngine::Texture2D::SetPixels32)> {
   const MethodInfo* get() {
-    static auto* colors = &classof(::Array<::Array<UnityEngine::Color32>*>*)->byval_arg;
+    static auto* colors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color32"), 1)->byval_arg;
     static auto* miplevel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture2D*), "SetPixels32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colors, miplevel});
   }
@@ -1215,7 +1215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Texture2D::*)(::Array<UnityEngine::Color32>*)>(&UnityEngine::Texture2D::SetPixels32)> {
   const MethodInfo* get() {
-    static auto* colors = &classof(::Array<::Array<UnityEngine::Color32>*>*)->byval_arg;
+    static auto* colors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture2D*), "SetPixels32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colors});
   }
 };
@@ -1228,7 +1228,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* blockWidth = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* blockHeight = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* colors = &classof(::Array<::Array<UnityEngine::Color32>*>*)->byval_arg;
+    static auto* colors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color32"), 1)->byval_arg;
     static auto* miplevel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture2D*), "SetPixels32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y, blockWidth, blockHeight, colors, miplevel});
   }
@@ -1242,7 +1242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* blockWidth = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* blockHeight = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* colors = &classof(::Array<::Array<UnityEngine::Color32>*>*)->byval_arg;
+    static auto* colors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Texture2D*), "SetPixels32", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x, y, blockWidth, blockHeight, colors});
   }
 };

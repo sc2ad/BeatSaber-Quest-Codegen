@@ -135,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
     static auto* signature = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* signature2 = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* type = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberTypes")->byval_arg;
-    static auto* genericArguments = &classof(::Array<::Array<System::Type*>*>*)->byval_arg;
+    static auto* genericArguments = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MemberInfoSerializationHolder*), "GetSerializationInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{info, name, reflectedClass, signature, signature2, type, genericArguments});
   }
 };

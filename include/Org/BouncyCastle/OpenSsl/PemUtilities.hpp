@@ -70,10 +70,10 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (*)(bool, ::Array<uint8_t>*, ::Array<::Il2CppChar>*, ::Il2CppString*, ::Array<uint8_t>*)>(&Org::BouncyCastle::OpenSsl::PemUtilities::Crypt)> {
   const MethodInfo* get() {
     static auto* encrypt = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
-    static auto* bytes = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
-    static auto* password = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
+    static auto* password = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* dekAlgName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
-    static auto* iv = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* iv = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::OpenSsl::PemUtilities*), "Crypt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{encrypt, bytes, password, dekAlgName, iv});
   }
 };
@@ -82,9 +82,9 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ICipherParameters* (*)(::Array<::Il2CppChar>*, Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg, ::Array<uint8_t>*)>(&Org::BouncyCastle::OpenSsl::PemUtilities::GetCipherParameters)> {
   const MethodInfo* get() {
-    static auto* password = &classof(::Array<::Array<::Il2CppChar>*>*)->byval_arg;
+    static auto* password = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* baseAlg = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.OpenSsl", "PemUtilities/PemBaseAlg")->byval_arg;
-    static auto* salt = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* salt = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::OpenSsl::PemUtilities*), "GetCipherParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{password, baseAlg, salt});
   }
 };

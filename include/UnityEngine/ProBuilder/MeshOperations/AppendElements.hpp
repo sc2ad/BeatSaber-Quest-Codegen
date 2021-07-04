@@ -112,11 +112,11 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Face* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::Array<UnityEngine::Vector3>*, ::Array<UnityEngine::Color>*, ::Array<UnityEngine::Vector2>*, UnityEngine::ProBuilder::Face*, ::Array<int>*)>(&UnityEngine::ProBuilder::MeshOperations::AppendElements::AppendFace)> {
   const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
-    static auto* positions = &classof(::Array<::Array<UnityEngine::Vector3>*>*)->byval_arg;
-    static auto* colors = &classof(::Array<::Array<UnityEngine::Color>*>*)->byval_arg;
-    static auto* uvs = &classof(::Array<::Array<UnityEngine::Vector2>*>*)->byval_arg;
+    static auto* positions = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
+    static auto* colors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), 1)->byval_arg;
+    static auto* uvs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     static auto* face = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")->byval_arg;
-    static auto* common = &classof(::Array<::Array<int>*>*)->byval_arg;
+    static auto* common = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::AppendElements*), "AppendFace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh, positions, colors, uvs, face, common});
   }
 };
@@ -126,11 +126,11 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<UnityEngine::ProBuilder::Face*>* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::Array<::Array<UnityEngine::Vector3>*>*, ::Array<::Array<UnityEngine::Color>*>*, ::Array<::Array<UnityEngine::Vector2>*>*, ::Array<UnityEngine::ProBuilder::Face*>*, ::Array<::Array<int>*>*)>(&UnityEngine::ProBuilder::MeshOperations::AppendElements::AppendFaces)> {
   const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
-    static auto* positions = &classof(::Array<::Array<::Array<UnityEngine::Vector3>*>*>*)->byval_arg;
-    static auto* colors = &classof(::Array<::Array<::Array<UnityEngine::Color>*>*>*)->byval_arg;
-    static auto* uvs = &classof(::Array<::Array<::Array<UnityEngine::Vector2>*>*>*)->byval_arg;
-    static auto* faces = &classof(::Array<::Array<UnityEngine::ProBuilder::Face*>*>*)->byval_arg;
-    static auto* shared = &classof(::Array<::Array<::Array<int>*>*>*)->byval_arg;
+    static auto* positions = &il2cpp_functions::array_class_get(il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1), 1)->byval_arg;
+    static auto* colors = &il2cpp_functions::array_class_get(il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), 1), 1)->byval_arg;
+    static auto* uvs = &il2cpp_functions::array_class_get(il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1), 1)->byval_arg;
+    static auto* faces = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face"), 1)->byval_arg;
+    static auto* shared = &il2cpp_functions::array_class_get(il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::AppendElements*), "AppendFaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh, positions, colors, uvs, faces, shared});
   }
 };
@@ -227,7 +227,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::Array<UnityEngine::ProBuilder::Face*>*)>(&UnityEngine::ProBuilder::MeshOperations::AppendElements::DuplicateAndFlip)> {
   const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
-    static auto* faces = &classof(::Array<::Array<UnityEngine::ProBuilder::Face*>*>*)->byval_arg;
+    static auto* faces = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::AppendElements*), "DuplicateAndFlip", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh, faces});
   }
 };
@@ -250,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
   const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* face = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")->byval_arg;
-    static auto* points = &classof(::Array<::Array<UnityEngine::Vector3>*>*)->byval_arg;
+    static auto* points = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::AppendElements*), "AppendVerticesToFace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh, face, points});
   }
 };

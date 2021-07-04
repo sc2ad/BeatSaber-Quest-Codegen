@@ -109,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScenesTransitionSetupDataSO::*)(::Array<GlobalNamespace::SceneInfo*>*)>(&GlobalNamespace::ScenesTransitionSetupDataSO::set_scenes)> {
   const MethodInfo* get() {
-    static auto* value = &classof(::Array<::Array<GlobalNamespace::SceneInfo*>*>*)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "SceneInfo"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScenesTransitionSetupDataSO*), "set_scenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
@@ -126,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Glo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScenesTransitionSetupDataSO::*)(::Array<GlobalNamespace::SceneSetupData*>*)>(&GlobalNamespace::ScenesTransitionSetupDataSO::set_sceneSetupDataArray)> {
   const MethodInfo* get() {
-    static auto* value = &classof(::Array<::Array<GlobalNamespace::SceneSetupData*>*>*)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "SceneSetupData"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScenesTransitionSetupDataSO*), "set_sceneSetupDataArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
@@ -135,8 +135,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScenesTransitionSetupDataSO::*)(::Array<GlobalNamespace::SceneInfo*>*, ::Array<GlobalNamespace::SceneSetupData*>*)>(&GlobalNamespace::ScenesTransitionSetupDataSO::Init)> {
   const MethodInfo* get() {
-    static auto* scenes = &classof(::Array<::Array<GlobalNamespace::SceneInfo*>*>*)->byval_arg;
-    static auto* sceneSetupData = &classof(::Array<::Array<GlobalNamespace::SceneSetupData*>*>*)->byval_arg;
+    static auto* scenes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "SceneInfo"), 1)->byval_arg;
+    static auto* sceneSetupData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "SceneSetupData"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScenesTransitionSetupDataSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{scenes, sceneSetupData});
   }
 };

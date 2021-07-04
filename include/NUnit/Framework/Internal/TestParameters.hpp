@@ -150,7 +150,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestParameters*, "NUnit.Frame
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestParameters::*)(::Array<::Il2CppObject*>*)>(&NUnit::Framework::Internal::TestParameters::InitializeAguments)> {
   const MethodInfo* get() {
-    static auto* args = &classof(::Array<::Array<::Il2CppObject*>*>*)->byval_arg;
+    static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestParameters*), "InitializeAguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
   }
 };
@@ -184,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestParameters::*)(::Array<::Il2CppObject*>*)>(&NUnit::Framework::Internal::TestParameters::set_Arguments)> {
   const MethodInfo* get() {
-    static auto* value = &classof(::Array<::Array<::Il2CppObject*>*>*)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestParameters*), "set_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };
@@ -235,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::I
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestParameters::*)(::Array<::Il2CppObject*>*)>(&NUnit::Framework::Internal::TestParameters::set_OriginalArguments)> {
   const MethodInfo* get() {
-    static auto* value = &classof(::Array<::Array<::Il2CppObject*>*>*)->byval_arg;
+    static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestParameters*), "set_OriginalArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
   }
 };

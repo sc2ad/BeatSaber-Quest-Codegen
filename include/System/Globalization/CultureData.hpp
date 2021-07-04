@@ -672,7 +672,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<::Il2CppString*>* (*)(::Array<::Il2CppString*>*)>(&System::Globalization::CultureData::ReescapeWin32Strings)> {
   const MethodInfo* get() {
-    static auto* array = &classof(::Array<::Array<::Il2CppString*>*>*)->byval_arg;
+    static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::CultureData*), "ReescapeWin32Strings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
   }
 };

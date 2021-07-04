@@ -98,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uint8_t>* (Mono::Security::Authenticode::PrivateKey::*)(::Array<uint8_t>*, ::Il2CppString*)>(&Mono::Security::Authenticode::PrivateKey::DeriveKey)> {
   const MethodInfo* get() {
-    static auto* salt = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* salt = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Authenticode::PrivateKey*), "DeriveKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{salt, password});
   }
@@ -108,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<uin
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Authenticode::PrivateKey::*)(::Array<uint8_t>*, ::Il2CppString*)>(&Mono::Security::Authenticode::PrivateKey::Decode)> {
   const MethodInfo* get() {
-    static auto* pvk = &classof(::Array<::Array<uint8_t>*>*)->byval_arg;
+    static auto* pvk = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Authenticode::PrivateKey*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pvk, password});
   }

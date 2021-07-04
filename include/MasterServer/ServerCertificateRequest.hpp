@@ -127,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ServerCertificateRequest* (MasterServer::ServerCertificateRequest::*)(System::Collections::Generic::IEnumerable_1<::Array<uint8_t>*>*)>(&MasterServer::ServerCertificateRequest::Init)> {
   const MethodInfo* get() {
-    static auto* certificateList = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{classof(::Array<Byte>*)})->byval_arg;
+    static auto* certificateList = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::ServerCertificateRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{certificateList});
   }
 };

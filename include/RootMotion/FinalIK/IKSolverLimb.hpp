@@ -323,7 +323,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Array<Roo
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverLimb::*)(::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>*&)>(&RootMotion::FinalIK::IKSolverLimb::StoreAxisDirections)> {
   const MethodInfo* get() {
-    static auto* axisDirections = &classof(::Array<::Array<RootMotion::FinalIK::IKSolverLimb::AxisDirection>*>*)->this_arg;
+    static auto* axisDirections = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolverLimb/AxisDirection"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverLimb*), "StoreAxisDirections", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{axisDirections});
   }
 };

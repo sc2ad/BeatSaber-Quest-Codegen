@@ -107,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
   const MethodInfo* get() {
     static auto* bodyPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* bodyRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;
-    static auto* muscles = &classof(::Array<::Array<float>*>*)->this_arg;
+    static auto* muscles = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::HumanPoseHandler*), "GetHumanPose", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bodyPosition, bodyRotation, muscles});
   }
 };

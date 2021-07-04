@@ -484,9 +484,9 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::VertexHelper*, ::Array<UnityEngine::Vector3>*, UnityEngine::Color32, ::Array<UnityEngine::Vector3>*)>(&HMUI::ImageView::AddQuad)> {
   const MethodInfo* get() {
     static auto* vertexHelper = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "VertexHelper")->byval_arg;
-    static auto* quadPositions = &classof(::Array<::Array<UnityEngine::Vector3>*>*)->byval_arg;
+    static auto* quadPositions = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* color = &::il2cpp_utils::GetClassFromName("UnityEngine", "Color32")->byval_arg;
-    static auto* quadUVs = &classof(::Array<::Array<UnityEngine::Vector3>*>*)->byval_arg;
+    static auto* quadUVs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ImageView*), "AddQuad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vertexHelper, quadPositions, color, quadUVs});
   }
 };
@@ -505,8 +505,8 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Array<UnityEngine::Vector3>*, ::Array<UnityEngine::Vector3>*, float, bool, int)>(&HMUI::ImageView::RadialCut)> {
   const MethodInfo* get() {
-    static auto* xy = &classof(::Array<::Array<UnityEngine::Vector3>*>*)->byval_arg;
-    static auto* uv = &classof(::Array<::Array<UnityEngine::Vector3>*>*)->byval_arg;
+    static auto* xy = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
+    static auto* uv = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* fill = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* invert = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* corner = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -518,7 +518,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Array<UnityEngine::Vector3>*, float, float, bool, int)>(&HMUI::ImageView::RadialCut)> {
   const MethodInfo* get() {
-    static auto* xy = &classof(::Array<::Array<UnityEngine::Vector3>*>*)->byval_arg;
+    static auto* xy = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* cos = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* sin = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* invert = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

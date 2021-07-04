@@ -275,7 +275,7 @@ template<>
 struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerIntroAnimationController::*)(int, ::Array<UnityEngine::GameObject*>*, UnityEngine::GameObject*)>(&GlobalNamespace::MultiplayerIntroAnimationController::BindRingsAndSetTiming)> {
   const MethodInfo* get() {
     static auto* connectedPlayersCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
-    static auto* connectedRings = &classof(::Array<::Array<UnityEngine::GameObject*>*>*)->byval_arg;
+    static auto* connectedRings = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject"), 1)->byval_arg;
     static auto* localRing = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerIntroAnimationController*), "BindRingsAndSetTiming", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{connectedPlayersCount, connectedRings, localRing});
   }
